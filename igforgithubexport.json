@@ -1,0 +1,25 @@
+{
+  "resourceType": "ImplementationGuide",
+  "url": "https://simplifier.net/guide/igforgithubexport",
+  "version": "1.0.0",
+  "name": "ig for github export",
+  "status": "draft",
+  "description": "simply a test ig to get a resource",
+  "fhirVersion": [
+    "4.0.0"
+  ],
+  "definition": {
+    "page": {
+      "nameUrl": "Home",
+      "title": "Home",
+      "generation": "generated",
+      "page": [
+        {
+          "nameUrl": "Home/USCoreCondition.guide.md",
+          "title": "USCoreCondition",
+          "generation": "markdown"
+        }
+      ]
+    }
+  }
+}
