@@ -1,0 +1,45 @@
+#actions
+name: Compile and deploy Ronin FHIR implementation guide
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  update_dp_ronin_profile_pages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2.1.0
+      - uses: benjlevesque/short-sha@v1.2
+        id: short-sha
+        with:
+          length: 8
+      - uses: webfactory/ssh-agent@v0.5.1
+        with:
+          ssh-private-key: ${{ secrets.DP_RONIN_FHIR_PROFILE_PAGES_PRIV_KEY }}
+      - name: Install jekyll
+        run: sudo gem install jekyll
+      - name: Update Publisher
+        run: ./_updatePublisher.sh -y
+      - name: Remove string "Generated Narrative from examples"
+        run: |
+          cd input/examples
+          for f in `ls *.json`; do sed -i 's/\<p\>\<b\>Generated Narrative\<\/b\>\<\/p\>//' $f; done
+          cd ../..
+      - name: Run genonce
+        run: ./_genonce.sh -no-sushi
+      - name: Push package.tgz to Nexus
+        run: echo "TBD"
+      - name: Copy guide to dp-ronin-fhir-profile-page
+        run: |
+          cd ..
+          git clone git@github.com:projectronin/dp-ronin-fhir-profile-ig.git
+          git config --global user.email "data-platform@projectronin.com"
+          git config --global user.name "data platform auto user"
+          rm -rf dp-ronin-fhir-profile-ig/docs
+          cp -rp dp-ronin-fhir-profile/output dp-ronin-fhir-profile-ig/docs
+          cd dp-ronin-fhir-profile-ig
+          git add docs
+          git commit -m "Refreshing DP Ronin FHIR profile docs ${{ steps.short-sha.outputs.sha }}"
+          git push

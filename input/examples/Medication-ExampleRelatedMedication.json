@@ -1,0 +1,39 @@
+{
+  "resourceType": "Medication",
+  "id": "ExampleRelatedMedication",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-related-medication"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"ExampleRelatedMedication\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-oncology-related-medication.html\">Oncology-related Medication</a></p></div><p><b>Medication Brand Type</b>: true</p><p><b>Medication Over Counter Type</b>: false</p><p><b>identifier</b>: id: 013</p><p><b>code</b>: Nizatidine 15 MG/ML Oral Solution [Axid] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-rxNorm.html\">RxNorm</a>#582620)</span></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/isBrand",
+      "valueBoolean": true
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/isOverTheCounter",
+      "valueBoolean": false
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "013"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "582620",
+        "display": "Nizatidine 15 MG/ML Oral Solution [Axid]"
+      }
+    ],
+    "text": "Nizatidine 15 MG/ML Oral Solution [Axid]"
+  }
+}

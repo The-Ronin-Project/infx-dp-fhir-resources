@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ed-visit-rationale-symptom-codes-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Import all the codes that are contained in <a href=\"ValueSet-ed-visit-risk-driver-codes-vs.html\">http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-risk-driver-codes-vs</a></li></ul></div>"
+  },
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-rationale-symptom-codes-vs",
+  "version": "0.9.5",
+  "name": "EDVisitRationaleSymptomCodesVS",
+  "title": "ED Visit Rationale Symptom Codes Value Set",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-03-14T18:28:42+00:00",
+  "publisher": "Project Ronin Inc.",
+  "contact": [
+    {
+      "name": "Project Ronin Inc.",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.projectronin.com"
+        },
+        {
+          "system": "email",
+          "value": "contact@projectronin.com"
+        }
+      ]
+    }
+  ],
+  "description": "Contains the values for the ED Visit Symptom Codes",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-risk-driver-codes-vs"
+        ]
+      }
+    ]
+  }
+}

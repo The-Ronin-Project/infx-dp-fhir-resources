@@ -1,0 +1,44 @@
+{
+    "resourceType": "DetectedEdVisit",
+    "meta": {
+        "profile": [
+            "http://projectronin.com/fhir/us/ronin/StructureDefinition/detected-ed-visit"
+        ]
+    },
+    "identifier": [
+        {
+            "value": "mdaoc",
+            "system": "http://projectronin.com/id/tenantId"
+        },
+        {
+            "value": "01112",
+            "system": "http://projectronin.com/id/mrn"
+        }
+    ],
+    "id": "roninDetectedEdVisit02Test",
+    "startDate": "2014-05-12",
+    "source": "prompting a visit to the emergency room on 05/12/2014 at Baylor University Medical Center.",
+    "sourceEntityIndex": [
+        {
+            "label": "DATE",
+            "end": 40,
+            "start": 25
+        },
+        {
+            "label": "ED",
+            "end": 54,
+            "start": 43
+        }
+    ],
+    "context": {
+        "reference": "DocumentReference/roninDocumentReference02Test",
+        "id": "roninDocumentReference02Test"
+    },
+    "location": "Baylor University Medical Center",
+    "subject": {
+        "reference": "Patient/roninPatient02Test",
+        "id": "roninPatient02Test"
+    },
+    "modelVersion": "1",
+    "humanAnnotated": false
+}

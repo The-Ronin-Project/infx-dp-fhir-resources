@@ -1,0 +1,112 @@
+{
+  "resourceType": "ValueSet",
+  "id": "95f1088a-7ae6-11ec-ba14-00163e0e3b1e",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a> version <code>2.7</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/2951-2.html\">2951-2</a></td><td>Sodium [Moles/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/77139-4.html\">77139-4</a></td><td>Sodium [Moles/volume] in Serum, Plasma or Blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/39791-9.html\">39791-9</a></td><td>Sodium [Moles/volume] in Venous blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/41657-8.html\">41657-8</a></td><td>Sodium [Moles/volume] in Mixed venous blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/44783-9.html\">44783-9</a></td><td>Sodium [Moles/volume] (Maximum value during study) in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/2947-0.html\">2947-0</a></td><td>Sodium [Moles/volume] in Blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/39792-7.html\">39792-7</a></td><td>Sodium [Moles/volume] in Capillary blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/51419-0.html\">51419-0</a></td><td>Sodium [Moles/volume] corrected for glucose in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/32717-1.html\">32717-1</a></td><td>Sodium [Moles/volume] in Arterial blood</td></tr></table></li><li>Include these codes as defined in <code>https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134</code> version <code>1</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>7967</td><td>V Na</td></tr><tr><td>6552</td><td>OR Sodium, arterial</td></tr><tr><td>7355</td><td>Sodium Lvl</td></tr><tr><td>6687</td><td>POC NA</td></tr></table></li></ul></div>"
+  },
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/95f1088a-7ae6-11ec-ba14-00163e0e3b1e",
+  "version": "0.9.5",
+  "name": "Sodium",
+  "title": "Sodium",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-03-14T18:28:42+00:00",
+  "publisher": "Project Ronin Inc.",
+  "contact": [
+    {
+      "name": "Project Ronin Inc.",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.projectronin.com"
+        },
+        {
+          "system": "email",
+          "value": "contact@projectronin.com"
+        }
+      ]
+    }
+  ],
+  "description": "LOINC codes indicating the measurement of Sodium Adding proprietary MDA codes",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "2951-2",
+            "display": "Sodium [Moles/volume] in Serum or Plasma"
+          },
+          {
+            "code": "77139-4",
+            "display": "Sodium [Moles/volume] in Serum, Plasma or Blood"
+          },
+          {
+            "code": "39791-9",
+            "display": "Sodium [Moles/volume] in Venous blood"
+          },
+          {
+            "code": "41657-8",
+            "display": "Sodium [Moles/volume] in Mixed venous blood"
+          },
+          {
+            "code": "44783-9",
+            "display": "Sodium [Moles/volume] (Maximum value during study) in Serum or Plasma"
+          },
+          {
+            "code": "2947-0",
+            "display": "Sodium [Moles/volume] in Blood"
+          },
+          {
+            "code": "39792-7",
+            "display": "Sodium [Moles/volume] in Capillary blood"
+          },
+          {
+            "code": "51419-0",
+            "display": "Sodium [Moles/volume] corrected for glucose in Serum or Plasma"
+          },
+          {
+            "code": "32717-1",
+            "display": "Sodium [Moles/volume] in Arterial blood"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "7967",
+            "display": "V Na"
+          },
+          {
+            "code": "6552",
+            "display": "OR Sodium, arterial"
+          },
+          {
+            "code": "7355",
+            "display": "Sodium Lvl"
+          },
+          {
+            "code": "6687",
+            "display": "POC NA"
+          }
+        ]
+      }
+    ]
+  }
+}

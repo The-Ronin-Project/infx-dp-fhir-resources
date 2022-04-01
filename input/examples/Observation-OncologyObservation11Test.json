@@ -1,0 +1,108 @@
+{
+  "resourceType": "Observation",
+  "id": "OncologyObservation11Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"OncologyObservation11Test\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-oncology-observation.html\">Oncology Observation</a></p></div><p><b>identifier</b>: Tenant ID: PEENG</p><p><b>status</b>: final</p><p><b>category</b>: Laboratory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#laboratory)</span></p><p><b>code</b>: Amylase.P2/Amylase.total in Serum or Plasma <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC[v2.70]</a>#15021-9)</span></p><p><b>subject</b>: <a href=\"Patient-roninPatient01Test.html\">Patient/roninPatient01Test: John B. Bass</a> \" BASS\"</p><p><b>effective</b>: 2021-11-23 10:09:16+0000</p><p><b>issued</b>: Nov 27, 2021, 10:09:30 PM</p><p><b>performer</b>: <a href=\"Practitioner-roninPEENGPractitioner01Test.html\">Practitioner/roninPEENGPractitioner01Test</a> \" FEEST\"</p><p><b>value</b>: 115 U/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code U/L = 'U/L')</span></p><p><b>interpretation</b>: High <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-ObservationInterpretation.html\">ObservationInterpretation</a>#H)</span></p><h3>ReferenceRanges</h3><table class=\"grid\"><tr><td>-</td><td><b>Low</b></td><td><b>High</b></td><td><b>AppliesTo</b></td><td><b>Text</b></td></tr><tr><td>*</td><td>30 U/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code U/L = 'U/L')</span></td><td>110 U/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code U/L = 'U/L')</span></td><td>Treatment Range <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-referencerange-meaning.html\">Observation Reference Range Meaning Codes</a>#treatment)</span></td><td>30 - 110.0 U/L</td></tr></table></div>"
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://projectronin.com/id/tenantId",
+            "code": "TID",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "PEENG"
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "version": "v2.70",
+        "code": "15021-9",
+        "display": "Amylase.P2/Amylase.total in Serum or Plasma"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/roninPatient01Test",
+    "display": "John B. Bass"
+  },
+  "effectiveDateTime": "2021-11-23T22:09:16.509423Z",
+  "issued": "2021-11-27T22:09:30.00Z",
+  "performer": [
+    {
+      "reference": "Practitioner/roninPEENGPractitioner01Test"
+    }
+  ],
+  "valueQuantity": {
+    "value": 115,
+    "unit": "U/L",
+    "system": "http://unitsofmeasure.org",
+    "code": "U/L"
+  },
+  "interpretation": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+          "code": "H",
+          "display": "High"
+        }
+      ],
+      "text": "High"
+    }
+  ],
+  "referenceRange": [
+    {
+      "low": {
+        "value": 30,
+        "unit": "U/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "U/L"
+      },
+      "high": {
+        "value": 110,
+        "unit": "U/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "U/L"
+      },
+      "appliesTo": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+              "code": "treatment",
+              "display": "Treatment Range"
+            }
+          ]
+        }
+      ],
+      "text": "30 - 110.0 U/L"
+    }
+  ]
+}

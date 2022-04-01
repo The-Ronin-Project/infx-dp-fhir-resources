@@ -1,0 +1,160 @@
+{
+  "resourceType": "ValueSet",
+  "id": "3a2d1c30-636e-11ec-998f-8970342a81b0",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <code>2021</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/448864006\">448864006</a></td><td>Malignant epithelial neoplasm of ureter (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/895354002\">895354002</a></td><td>Primary malignant neoplasm of left ureter (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/895356000\">895356000</a></td><td>Primary malignant neoplasm of bilateral ureters (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/126882009\">126882009</a></td><td>Neoplasm of ureter (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1082291000119108\">1082291000119108</a></td><td>Transitional cell carcinoma of left ureter (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/254928005\">254928005</a></td><td>Tumor of pelviureteric junction (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/300988009\">300988009</a></td><td>Transitional cell carcinoma of ureter (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1082311000119107\">1082311000119107</a></td><td>Transitional cell carcinoma of right ureter (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/92783001\">92783001</a></td><td>Carcinoma in situ of ureteric orifice of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/92782006\">92782006</a></td><td>Carcinoma in situ of ureter (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/94121005\">94121005</a></td><td>Primary malignant neoplasm of ureter (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/94122003\">94122003</a></td><td>Primary malignant neoplasm of ureteric orifice of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/126892001\">126892001</a></td><td>Neoplasm of ureteric orifice of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/689851000119102\">689851000119102</a></td><td>Primary transitional cell carcinoma of ureteral orifice (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/363458004\">363458004</a></td><td>Malignant tumor of ureter (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/682041000119100\">682041000119100</a></td><td>Primary adenocarcinoma of ureteral orifice (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/188253000\">188253000</a></td><td>Malignant tumor of pelviureteric junction (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/895355001\">895355001</a></td><td>Primary malignant neoplasm of right ureter (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/689441000119102\">689441000119102</a></td><td>Primary squamous cell carcinoma of ureteral orifice (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/188245008\">188245008</a></td><td>Malignant tumor of ureteric orifice (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/369463005\">369463005</a></td><td>Malignant tumor involving ureter by direct extension from bladder (disorder)</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-icd10CM.html\"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a> version <code>2022</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>C66.9</td><td>Malignant neoplasm of unspecified ureter</td></tr><tr><td>C66.2</td><td>Malignant neoplasm of left ureter</td></tr><tr><td>C66</td><td>Malignant neoplasm of ureter</td></tr><tr><td>C66.1</td><td>Malignant neoplasm of right ureter</td></tr></table></li></ul></div>"
+  },
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/3a2d1c30-636e-11ec-998f-8970342a81b0",
+  "version": "0.9.5",
+  "name": "UreterCancerCombined",
+  "title": "Ureter Cancer Combined",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-03-14T18:28:42+00:00",
+  "publisher": "Project Ronin Inc.",
+  "contact": [
+    {
+      "name": "Project Ronin Inc.",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.projectronin.com"
+        },
+        {
+          "system": "email",
+          "value": "contact@projectronin.com"
+        }
+      ]
+    }
+  ],
+  "description": "This valueset contains the diagnosis codes for ureter cancer and diseases that are clinically treated as ureter cancer. It contains both ICD-10 and SNOMED.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "448864006",
+            "display": "Malignant epithelial neoplasm of ureter (disorder)"
+          },
+          {
+            "code": "895354002",
+            "display": "Primary malignant neoplasm of left ureter (disorder)"
+          },
+          {
+            "code": "895356000",
+            "display": "Primary malignant neoplasm of bilateral ureters (disorder)"
+          },
+          {
+            "code": "126882009",
+            "display": "Neoplasm of ureter (disorder)"
+          },
+          {
+            "code": "1082291000119108",
+            "display": "Transitional cell carcinoma of left ureter (disorder)"
+          },
+          {
+            "code": "254928005",
+            "display": "Tumor of pelviureteric junction (disorder)"
+          },
+          {
+            "code": "300988009",
+            "display": "Transitional cell carcinoma of ureter (disorder)"
+          },
+          {
+            "code": "1082311000119107",
+            "display": "Transitional cell carcinoma of right ureter (disorder)"
+          },
+          {
+            "code": "92783001",
+            "display": "Carcinoma in situ of ureteric orifice of urinary bladder (disorder)"
+          },
+          {
+            "code": "92782006",
+            "display": "Carcinoma in situ of ureter (disorder)"
+          },
+          {
+            "code": "94121005",
+            "display": "Primary malignant neoplasm of ureter (disorder)"
+          },
+          {
+            "code": "94122003",
+            "display": "Primary malignant neoplasm of ureteric orifice of urinary bladder (disorder)"
+          },
+          {
+            "code": "126892001",
+            "display": "Neoplasm of ureteric orifice of urinary bladder (disorder)"
+          },
+          {
+            "code": "689851000119102",
+            "display": "Primary transitional cell carcinoma of ureteral orifice (disorder)"
+          },
+          {
+            "code": "363458004",
+            "display": "Malignant tumor of ureter (disorder)"
+          },
+          {
+            "code": "682041000119100",
+            "display": "Primary adenocarcinoma of ureteral orifice (disorder)"
+          },
+          {
+            "code": "188253000",
+            "display": "Malignant tumor of pelviureteric junction (disorder)"
+          },
+          {
+            "code": "895355001",
+            "display": "Primary malignant neoplasm of right ureter (disorder)"
+          },
+          {
+            "code": "689441000119102",
+            "display": "Primary squamous cell carcinoma of ureteral orifice (disorder)"
+          },
+          {
+            "code": "188245008",
+            "display": "Malignant tumor of ureteric orifice (disorder)"
+          },
+          {
+            "code": "369463005",
+            "display": "Malignant tumor involving ureter by direct extension from bladder (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "C66.9",
+            "display": "Malignant neoplasm of unspecified ureter"
+          },
+          {
+            "code": "C66.2",
+            "display": "Malignant neoplasm of left ureter"
+          },
+          {
+            "code": "C66",
+            "display": "Malignant neoplasm of ureter"
+          },
+          {
+            "code": "C66.1",
+            "display": "Malignant neoplasm of right ureter"
+          }
+        ]
+      }
+    ]
+  }
+}

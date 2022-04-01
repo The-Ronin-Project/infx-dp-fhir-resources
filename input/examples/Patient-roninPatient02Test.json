@@ -1,0 +1,130 @@
+{
+  "resourceType": "Patient",
+  "id": "roninPatient02Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-patient"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Chad A. Wyatt </b> (no stated gender) 1963-03-01 ( Tenant ID: mdaoc)</p></div>"
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://projectronin.com/id/tenantId",
+            "code": "TID",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "mdaoc"
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record Number"
+          }
+        ],
+        "text": "MRN"
+      },
+      "system": "http://projectronin.com/id/mrn",
+      "value": "01112"
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://projectronin.com/id/fhir",
+            "code": "STU3",
+            "display": "FHIR STU3 ID"
+          }
+        ],
+        "text": "FHIR STU3"
+      },
+      "system": "http://projectronin.com/id/fhir",
+      "value": "stu3-01112"
+    }
+  ],
+  "name": [
+    {
+      "family": "Wyatt",
+      "given": [
+        "Chad",
+        "A."
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "1-555-155-9999",
+      "use": "home"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1963-03-01",
+  "address": [
+    {
+      "line": [
+        "222 Feta Street"
+      ],
+      "city": "Patras",
+      "state": "TX",
+      "postalCode": "94340",
+      "country": "US"
+    }
+  ],
+  "maritalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "code": "U"
+      }
+    ],
+    "text": "Unmarried"
+  },
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "1-222-555-1111",
+          "use": "home"
+        },
+        {
+          "system": "email",
+          "value": "wyatt.chad@example.com"
+        }
+      ]
+    }
+  ],
+  "communication": [
+    {
+      "language": {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en-US",
+            "display": "English (Region=United States)"
+          }
+        ],
+        "text": "English"
+      }
+    }
+  ],
+  "generalPractitioner": [
+    {
+      "reference": "Practitioner/roninMDAPractitioner02Test",
+      "display": "Dr. Alfred Gray"
+    }
+  ]
+}

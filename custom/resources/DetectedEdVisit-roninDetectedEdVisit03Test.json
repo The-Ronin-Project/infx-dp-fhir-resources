@@ -1,0 +1,44 @@
+{
+    "resourceType": "DetectedEdVisit",
+    "meta": {
+        "profile": [
+            "http://projectronin.com/fhir/us/ronin/StructureDefinition/detected-ed-visit"
+        ]
+    },
+    "identifier": [
+        {
+            "value": "mdaoc",
+            "system": "http://projectronin.com/id/tenantId"
+        },
+        {
+            "value": "01113",
+            "system": "http://projectronin.com/id/mrn"
+        }
+    ],
+    "id": "roninDetectedEdVisit03Test",
+    "startDate": "2019-02-22",
+    "source": "abdominal pain and fevers prompting a visit to the emergency room at Palomar medical center on 02/22/2019",
+    "sourceEntityIndex": [
+        {
+            "label": "DATE",
+            "end": 66,
+            "start": 51
+        },
+        {
+            "label": "ED",
+            "end": 106,
+            "start": 95
+        }
+    ],
+    "context": {
+        "reference": "DocumentReference/roninDocumentReference03Test",
+        "id": "roninDocumentReference03Test"
+    },
+    "location": "Palomar medical center",
+    "subject": {
+        "reference": "Patient/roninPatient03Test",
+        "id": "roninPatient03Test"
+    },
+    "modelVersion": "1",
+    "humanAnnotated": true
+}

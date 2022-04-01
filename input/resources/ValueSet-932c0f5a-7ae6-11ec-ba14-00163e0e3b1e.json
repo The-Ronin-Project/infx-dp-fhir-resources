@@ -1,0 +1,100 @@
+{
+  "resourceType": "ValueSet",
+  "id": "932c0f5a-7ae6-11ec-ba14-00163e0e3b1e",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a> version <code>2.7</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/12963-5.html\">12963-5</a></td><td>Urea nitrogen [Mass/volume] in Peripheral blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/35234-4.html\">35234-4</a></td><td>Urea nitrogen [Mass or Moles/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/6299-2.html\">6299-2</a></td><td>Urea nitrogen [Mass/volume] in Blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/14937-7.html\">14937-7</a></td><td>Urea nitrogen [Moles/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/3094-0.html\">3094-0</a></td><td>Urea nitrogen [Mass/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/59570-2.html\">59570-2</a></td><td>Urea nitrogen [Moles/volume] in Blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/12961-9.html\">12961-9</a></td><td>Urea nitrogen [Mass/volume] in Arterial blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/12962-7.html\">12962-7</a></td><td>Urea nitrogen [Mass/volume] in Venous blood</td></tr></table></li><li>Include these codes as defined in <code>https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134</code> version <code>1</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>6669</td><td>POC BUN</td></tr><tr><td>5055</td><td>BUN</td></tr></table></li></ul></div>"
+  },
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/932c0f5a-7ae6-11ec-ba14-00163e0e3b1e",
+  "version": "0.9.5",
+  "name": "BUN",
+  "title": "BUN",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-03-14T18:28:42+00:00",
+  "publisher": "Project Ronin Inc.",
+  "contact": [
+    {
+      "name": "Project Ronin Inc.",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.projectronin.com"
+        },
+        {
+          "system": "email",
+          "value": "contact@projectronin.com"
+        }
+      ]
+    }
+  ],
+  "description": "LOINC codes indicating BUNmeasurement Adding proprietary MDA codes",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "12963-5",
+            "display": "Urea nitrogen [Mass/volume] in Peripheral blood"
+          },
+          {
+            "code": "35234-4",
+            "display": "Urea nitrogen [Mass or Moles/volume] in Serum or Plasma"
+          },
+          {
+            "code": "6299-2",
+            "display": "Urea nitrogen [Mass/volume] in Blood"
+          },
+          {
+            "code": "14937-7",
+            "display": "Urea nitrogen [Moles/volume] in Serum or Plasma"
+          },
+          {
+            "code": "3094-0",
+            "display": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+          },
+          {
+            "code": "59570-2",
+            "display": "Urea nitrogen [Moles/volume] in Blood"
+          },
+          {
+            "code": "12961-9",
+            "display": "Urea nitrogen [Mass/volume] in Arterial blood"
+          },
+          {
+            "code": "12962-7",
+            "display": "Urea nitrogen [Mass/volume] in Venous blood"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "6669",
+            "display": "POC BUN"
+          },
+          {
+            "code": "5055",
+            "display": "BUN"
+          }
+        ]
+      }
+    ]
+  }
+}

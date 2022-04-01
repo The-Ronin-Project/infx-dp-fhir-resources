@@ -1,0 +1,2211 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "projectronin.fhir",
+  "url": "http://projectronin.com/fhir/us/ronin/ImplementationGuide/projectronin.fhir",
+  "version": "0.9.7",
+  "name": "RoninOncologyFHIRProfile",
+  "status": "draft",
+  "publisher": "Project Ronin Inc.",
+  "contact": [
+    {
+      "name": "Project Ronin Inc.",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.projectronin.com"
+        },
+        {
+          "system": "email",
+          "value": "contact@projectronin.com"
+        }
+      ]
+    }
+  ],
+  "description": "The Ronin oncology FHIR profile assembles a core set of structured data elements for oncology based on FHIR 4.0.1 and mCODE™ standards.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "US",
+          "system": "urn:iso:std:iso:3166",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "packageId": "projectronin.fhir",
+  "license": "not-open-source",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "hl7.fhir.us.core",
+      "version": "3.1.0",
+      "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
+      "id": "hl7_fhir_us_core"
+    },
+    {
+      "packageId": "hl7.fhir.us.mcode",
+      "version": "1.16.0",
+      "uri": "http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode",
+      "id": "hl7_fhir_us_mcode"
+    }
+  ],
+  "definition": {
+    "grouping": [
+      {
+        "id": "DetectedEdVisit",
+        "name": "Detected ED Visit",
+        "description": "Resources for Detected ED Visit"
+      },
+      {
+        "id": "RiskAssessment",
+        "name": "ED Visit Risk Assessment",
+        "description": "Resources for ED Visit Risk Assessment"
+      }
+    ],
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/ed-visit-rationale"
+        },
+        "name": "ED Visit Rationale",
+        "description": "Observations to support ED Visit assessment, includes patient comparison and risk drivers",
+        "exampleBoolean": false,
+        "groupingId": "RiskAssessment"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/ed-visit-risk-assessment"
+        },
+        "name": "ED Visit Risk Assessment",
+        "description": "An assessment of the likely outcome(s) for a patient to visit ED and the likelihood of each outcome.\n              The RiskAssessment has a basis pointing to an Observation that detail risk drivers and patient comparisons.\n              LOINC code(s) for a risk driver would be in the Observation.component.code.\n              The LOINC code(s) for a single component of the risk driver can be used to retrieve all\n              Lab observation values within a date range for that patient to draw the graph.\n              Follow the FHIR: RiskAssessment -> .basis-> Observation-> .component (RiskDrivers/PatientComparison) for each entry.",
+        "exampleBoolean": false,
+        "groupingId": "RiskAssessment"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oncology-appointment"
+        },
+        "name": "Oncology Appointment",
+        "description": "An Appointment resource that is used for oncology patients and providers",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oncology-care-plan"
+        },
+        "name": "Oncology Care Plan",
+        "description": "A CarePlan resource that is used for oncology patients",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oncology-condition"
+        },
+        "name": "Oncology Condition",
+        "description": "A Condition resource that is used for oncology patients",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oncology-detected-ed-visit"
+        },
+        "name": "Oncology Detected ED Visit",
+        "description": "A profile for NLP detected emergency department visit",
+        "exampleBoolean": false,
+        "groupingId": "DetectedEdVisit"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oncology-diagnostic-report-note"
+        },
+        "name": "Oncology Diagnostic Report Note",
+        "description": "A DiagnosticReport resource that is used for oncology patients",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oncology-document-reference"
+        },
+        "name": "Oncology Document Reference",
+        "description": "A DocumentReference resource that is used to model note details for oncology patients",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oncology-encounter"
+        },
+        "name": "Oncology Encounter",
+        "description": "An Encounter resource that is used for oncology patients",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oncology-medication-administration"
+        },
+        "name": "Oncology Medication Administration",
+        "description": "A MedicationAdministation resource that is used for oncology patients",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oncology-medication-Request"
+        },
+        "name": "Oncology Medication Request",
+        "description": "A MedicationRequest resource that is used for oncology patients",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oncology-observation"
+        },
+        "name": "Oncology Observation",
+        "description": "An Observation resource that is used for oncology patients",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oncology-patient"
+        },
+        "name": "Oncology Patient",
+        "description": "A person who is diagnosed with or is receiving medical treatment for a malignant growth or tumor",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oncology-practitioner"
+        },
+        "name": "Oncology Practitioner",
+        "description": "An oncologist practitioner resource",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oncology-practitionerrole"
+        },
+        "name": "Oncology PractitionerRole",
+        "description": "An oncologist practitioner role resource",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oncology-related-medication"
+        },
+        "name": "Oncology-related Medication",
+        "description": "A Medication resource that is used for oncology patients",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oncology-related-medication-statement"
+        },
+        "name": "Oncology-related Medication Statement",
+        "description": "A Medication Statement resource that is used for oncology patients",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oncology-staging"
+        },
+        "name": "Oncology Staging",
+        "description": "A cancer stagings that uses mCODE to model TNM stagings for oncology patients",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/partner-department"
+        },
+        "name": "Partner Department",
+        "description": "A cancer center department",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/classification"
+        },
+        "name": "Classification",
+        "description": "Classification",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cosignDateTime"
+        },
+        "name": "Cosign Time",
+        "description": "Cosign Requirement Time",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cosignRequirementAbbreviation"
+        },
+        "name": "Cosign Requirement Abbreviation",
+        "description": "Cosign Requirement Abbreviation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cosignRequirementName"
+        },
+        "name": "Cosign Requirement Name",
+        "description": "Cosign Requirement Name",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cosignRequirementTitle"
+        },
+        "name": "Cosign Requirement Title",
+        "description": "Cosign Requirement Title",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cosigner"
+        },
+        "name": "Cosigner",
+        "description": "Cosign Requirement Cosigner",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/isDeleted"
+        },
+        "name": "Status of deletion",
+        "description": "Document Reference Deletion Status",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/deletionTime"
+        },
+        "name": "Time of document deletion",
+        "description": "Document Reference Deletion Time",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/deletionUser"
+        },
+        "name": "User who deleted the document",
+        "description": "Document Reference Deletion User",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/partnerDepartmentReference"
+        },
+        "name": "Department",
+        "description": "Extension to add PartnerDepartment link",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/diagnosisCode"
+        },
+        "name": "Diagnosis Code",
+        "description": "Diagnosis Code",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/diagnosisDate"
+        },
+        "name": "Diagnosis Date",
+        "description": "Diagnosis Date",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/componentType"
+        },
+        "name": "Component type",
+        "description": "Used to differentiate between observation component types",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/eventDate"
+        },
+        "name": "Event Date Type",
+        "description": "Date type that indicates an event date.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/rank"
+        },
+        "name": "Risk driver contribution rank",
+        "description": "Ranks this lab's contribution to the Risk driver.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/lastEditorDisplayName"
+        },
+        "name": "Last Editor Display Name",
+        "description": "Last Editor Display Name",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/lastEditorExtId"
+        },
+        "name": "Last Editor ExtID",
+        "description": "Last Editor ExtID",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/lastEditorId"
+        },
+        "name": "Last Editor ID",
+        "description": "Last Editor ID",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/lastEditorIni"
+        },
+        "name": "Last Editor Ini",
+        "description": "Last Editor Ini",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/lastEditorName"
+        },
+        "name": "Last Editor Name",
+        "description": "Last Editor Name",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/lastEditorUpdate"
+        },
+        "name": "Last Editor Update",
+        "description": "Last Editor Update",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/isBrand"
+        },
+        "name": "Medication Brand Type",
+        "description": "The type of medication isBrand true/false.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/isOverTheCounter"
+        },
+        "name": "Medication Over Counter Type",
+        "description": "The type of medication isOverTheCounter true/false.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cycleName"
+        },
+        "name": "Cycle Name",
+        "description": "Cycle Name",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cycleNumber"
+        },
+        "name": "Cycle Number",
+        "description": "Cycle Number",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/cycleStartDate"
+        },
+        "name": "Cycle Start Date",
+        "description": "Cycle Start Date",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/dayStatus"
+        },
+        "name": "Treatment Day Status",
+        "description": "Treatment Day Status",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/treatmentEndDate"
+        },
+        "name": "Treatment Plan End Date",
+        "description": "Treatment Plan End Date",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/lineOfTreatment"
+        },
+        "name": "Line of Treatment",
+        "description": "Line of Treatment",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/treatmentStartDate"
+        },
+        "name": "Treatment Plan Start Date",
+        "description": "Treatment Plan Start Date",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/treatmentDayName"
+        },
+        "name": "Treatment Day Name",
+        "description": "Treatment Day Name",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/treatmentDayNumber"
+        },
+        "name": "Treatment Day Number",
+        "description": "Treatment Day Number",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/referringDoctor"
+        },
+        "name": "Referring Doctor Type",
+        "description": "Referring Doctor type that referred the patient.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/revisedDose"
+        },
+        "name": "Revised Dose",
+        "description": "Revised Dose",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/revisedUnit"
+        },
+        "name": "Revised Unit",
+        "description": "Revised Unit",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/riskAssessmentCohortSize"
+        },
+        "name": "Cohort Size",
+        "description": "Risk assessment cohort size",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/riskAssessmentModelVersion"
+        },
+        "name": "Model Version",
+        "description": "Risk assessment model version",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/riskAssessmentSampleSize"
+        },
+        "name": "Sample Size",
+        "description": "Risk assessment sample size",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/category"
+        },
+        "name": "Category for Risk Drivers",
+        "description": "An extension for representing a specific category corresponding to risk drivers of an assessment.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/scheduledDateTime"
+        },
+        "name": "Scheduled Date Time Type",
+        "description": "DateTime type that indicates scheduled date time.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/bce71d44-6d99-11ec-a98d-00163efae4c9"
+        },
+        "name": "AFP",
+        "description": "Alpha-1 Fetoprotein LOINC Codes MVP for ED risk model release",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/2e47b270-6d98-11ec-94a4-43fe1cbd95b1"
+        },
+        "name": "AIDS HIV",
+        "description": "SNOMED and ICD10 codes for AIDS/HIV",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/92696c5c-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "ALT",
+        "description": "LOINC codes indicating serum ALT measurement Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/92ccd076-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "ANC",
+        "description": "LOINC codes indicating ANC measurement Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/96b16d82-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "AST",
+        "description": "LOINC codes indicating the measurement of AST Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/36552bf0-8459-11ec-ba6c-b1646bd55fb1"
+        },
+        "name": "Acute Problems",
+        "description": "ICD10 and SNOMED codes for acute problems associated with ED visits - Top 20 most common ER diagnoses (https://www.definitivehc.com/blog/top-20-most-common-er-diagnoses)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/920953b2-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "Albumin",
+        "description": "LOINC codes indicating serum albumin measurements Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/26e1b290-6d8b-11ec-b06c-ab4a70f9f045"
+        },
+        "name": "Alcohol Abuse",
+        "description": "SNOMED and ICD.10 for Alcohol Abuse",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/923a8e78-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "Alkaline Phosphatase",
+        "description": "LOINC codes indicating serum Alkaline Phosphatase measurement Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/a52bbd80-6db8-11ec-a83e-a73f304d1e65"
+        },
+        "name": "Alkylating Agents",
+        "description": "RxNorm drugs, ingredients of Alkylating Agents and Related MVP for ED risk model features",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/9299bd8a-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "Amylase",
+        "description": "LOINC codes indicating serum Amylase measurement Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/b76da030-6d7c-11ec-8279-29065e5912c2"
+        },
+        "name": "Anemia",
+        "description": "SNOMED and ICD.10 for Anemia",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/932c0f5a-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "BUN",
+        "description": "LOINC codes indicating BUNmeasurement Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/92fd4472-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "Beta HCG",
+        "description": "LOINC codes indicating Beta HCG measurement Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/e6445e30-4c8e-11ec-9b89-3d7148967d21"
+        },
+        "name": "bladder-cancer-combined",
+        "description": "This valueset contains the diagnosis codes for bladder cancer and diseases that are clinically treated as bladder cancer. It contains both ICD-10 and SNOMED. initial version",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/5e0b9110-6d8f-11ec-8a72-5d3bb70405c2"
+        },
+        "name": "Blood Loss Anemia",
+        "description": "SNOMED and ICD10 codes for blood loss anemia",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/c447c800-6343-11ec-9b51-4fc98501ea85"
+        },
+        "name": "breast-cancer",
+        "description": "breast cancer codes, not mets to the breast, not skin cancer Production grade valueset using ReTool.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/935b02a6-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "CA125",
+        "description": "LOINC codes indicating CA125 measurement Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/93895b6a-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "CA15.3",
+        "description": "LOINC codes indicating CA15.3 measurement Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/93b84c40-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "CA19.9",
+        "description": "LOINC codes indicating CA19.9 measurement Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/c22ca79c-6d99-11ec-a98d-00163efae4c9"
+        },
+        "name": "CA242",
+        "description": "LOINC codes indicating the measurement of CA242 MVP for ED risk model release",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/91b0399e-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "CA27.29",
+        "description": "LOINC codes indicating CA27.29 measurement Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/c27ec95a-6d99-11ec-a98d-00163efae4c9"
+        },
+        "name": "CA50",
+        "description": "LOINC codes indicating the measurement of CA50 MVP for ED risk model release",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/c2aebf2a-6d99-11ec-a98d-00163efae4c9"
+        },
+        "name": "CA549",
+        "description": "LOINC codes indicating CA549 measurement MVP for ED risk model release",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/c2dd2c48-6d99-11ec-a98d-00163efae4c9"
+        },
+        "name": "CA72.4",
+        "description": "LOINC codes indicating the measurement of Cancer Ag 72-4 [Units/volume] in Serum or Plasma  MVP for ED risk model release",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/c30b1d10-6d99-11ec-a98d-00163efae4c9"
+        },
+        "name": "CADM70K",
+        "description": "LOINC codes indicating Cancer Ag DM/70K measurement MVP for ED risk model release",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/0e52e8d0-7afa-11ec-bf1d-39d06c5d65d4"
+        },
+        "name": "CO2",
+        "description": "LOINC codes representing serum of blood analysis of CO2 loinc codes for CO2",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/345601d0-6db6-11ec-bdf5-d532fab59c4f"
+        },
+        "name": "Cardiac Arrhythmia",
+        "description": "SNOMED and ICD10 codes for cardiac arrhythmia",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/4029ea60-8541-11ec-9f7a-b90e86f6e1b0"
+        },
+        "name": "Chloride",
+        "description": "LOINC Codes for indicating serum analysis of Chloride",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/b8147000-6e57-11ec-a991-e358c9d3813d"
+        },
+        "name": "Chronic Pulmonary Disease",
+        "description": "SNOMED and ICD10 codes for the condition of Chronic Pulmonary Disease",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ee27d8b0-6d9b-11ec-b0c2-55232efc5773"
+        },
+        "name": "Coagulopathy",
+        "description": "SNOMED and ICD10 codes for coagulopathy",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/4190b3d0-6d7b-11ec-b446-d58ab9e12bbb"
+        },
+        "name": "Congestive Heart Failure",
+        "description": "SNOMED and ICD.10 for Congestive Heart Failure",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/93e6e5c8-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "Creatinine",
+        "description": "LOINC codes indicating the measurement of Creatinine Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/8ea45d30-6415-11ec-bc6f-e74005669d8e"
+        },
+        "name": "Cytotoxic Antibiotics and Related",
+        "description": "RxNorm drugs, ingredients of Cytotoxic Antibiotics and Related",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/4a4ef2e0-6d97-11ec-a703-b98eab3d2692"
+        },
+        "name": "Depression",
+        "description": "SNOMED and ICD10 codes for depression",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/b54f6530-6daa-11ec-8de4-298c71d2b48d"
+        },
+        "name": "Diabetes (Complicated)",
+        "description": "SNOMED and ICD10 codes for diabetes (complicated)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/c5f13b90-6db2-11ec-b0c5-07612a97300d"
+        },
+        "name": "Diabetes (Uncomplicated)",
+        "description": "SNOMED and ICD10 codes for diabetes (uncomplicated)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/079dadc0-6d78-11ec-9b16-f1636a4e01b7"
+        },
+        "name": "Diarrhea",
+        "description": "SNOMED and ICD.10 from Diarrhea",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/c3a3afda-6d99-11ec-a98d-00163efae4c9"
+        },
+        "name": "Direct bilirubin",
+        "description": "LOINC codes indicating the measurement of Direct bilirubin MVP for ED risk model release",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/371d7850-6d8c-11ec-b9d9-f3c6146224bc"
+        },
+        "name": "Drug Abuse",
+        "description": "SNOMED and ICD.10 for Drug Abuse",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ed-visit-component-type-codes-vs"
+        },
+        "name": "ED Visit Component Type Codes Value Set",
+        "description": "Contains Component Types for ED Visit",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ed-visit-patient-comparison-codes-vs"
+        },
+        "name": "ED Visit Patient Comparison Codes ValueSet",
+        "description": "Contains all Risk Driver codes and additional patient comparison specific codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ed-visit-rationale-lab-codes-vs"
+        },
+        "name": "ED Visit Rationale Lab Codes Value Set",
+        "description": "Contains the values for the ED Visit Lab Codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ed-visit-rationale-symptom-codes-vs"
+        },
+        "name": "ED Visit Rationale Symptom Codes Value Set",
+        "description": "Contains the values for the ED Visit Symptom Codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ed-visit-risk-driver-category-codes-vs"
+        },
+        "name": "ED Visit Risk Driver Category Codes Value Set",
+        "description": "Contains the values related to the ED visit risk drivers categories",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ed-visit-risk-driver-codes-vs"
+        },
+        "name": "ED Visit Risk Driver Codes Value Set",
+        "description": "Contains the values related to the ED visit risk drivers",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ed-visit-risk-driver-codes-interpretation-vs"
+        },
+        "name": "ED Visit Risk Driver Codes Value Set",
+        "description": "Contains the values related to ED Visit risk drivers interpretation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/e90ac880-6dbc-11ec-85e8-2768d3ecadc2"
+        },
+        "name": "Endocrine Therapy",
+        "description": "drugs indicating endocrine therapy MVP ED Risk Model Generation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/b8a8dc20-6d78-11ec-be4d-17414cf6b148"
+        },
+        "name": "Fever",
+        "description": "SNOMED and ICD.10 for fever",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/c3f4cbfe-6d99-11ec-a98d-00163efae4c9"
+        },
+        "name": "Fibrinogen",
+        "description": "LOINC codes indicating the measurement of Fibrinogen MVP for ED risk model release",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/684b1f20-6d8e-11ec-8e4c-35786fa580cd"
+        },
+        "name": "Fluid-Electrolyte Disorder",
+        "description": "SNOMED and ICD10 codes for fluid-electrolyte disorder  SNOMED and ICD10 codes for the comorbid condition of fluid-electrolyte disorder",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/91da35be-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "Glucose",
+        "description": "LOINC codes indicating the measurement of Glucose Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/9682d580-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "HCT",
+        "description": "LOINC codes indicating the measurement of Hematocrit Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/941594ea-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "HGB",
+        "description": "LOINC codes indicating the measurement of HGB Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/edf1c7d0-6d8b-11ec-a777-05d1227ee773"
+        },
+        "name": "Hypertension",
+        "description": "SNOMED and ICD10 codes for hypertension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/68c917d0-6d85-11ec-9b73-173b2c1e0f5a"
+        },
+        "name": "Hypertension (Complicated)",
+        "description": "SNOMED and ICD.10 for Hypertension (Complicated)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/c6807ee0-6d94-11ec-9533-5b425d4b75e7"
+        },
+        "name": "Hypothyroidism",
+        "description": "SNOMED and ICD10 codes for hypothyroidism",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/9445cafc-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "INR",
+        "description": "LOINC codes indicating the measurement of INR Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/9995c830-6dae-11ec-b55a-f105f5c21ca0"
+        },
+        "name": "Immunostimulants",
+        "description": "This valueset contains RxNorm codes of members of the ATC class immunostimulants",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/df47bb40-6dae-11ec-984c-bb9e6fde8fa7"
+        },
+        "name": "Immunosuppressants",
+        "description": "This valueset contains RxNorm codes for members of the ATC class immunosuppressants",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/6c2e5ce0-52ec-11ec-b9db-4b5741b59f6a"
+        },
+        "name": "Kidney Cancer Combined",
+        "description": "This valueset contains the diagnosis codes for kidney cancer and diseases that are clinically treated as kidney cancer. It contains both ICD-10 and SNOMED. First version of valueset",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/94741934-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "LDH",
+        "description": "LOINC codes indicating the measurement of LDH Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/94a4b72e-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "Lipase",
+        "description": "LOINC codes indicating the measurement of Lipase Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/4ca61a90-6d9d-11ec-bf8f-b1e7af44f5d2"
+        },
+        "name": "Liver Disease",
+        "description": "SNOMED and ICD10 codes for liver disease",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/57f28490-6d77-11ec-8b47-03576f32531f"
+        },
+        "name": "Nausea Vomiting",
+        "description": "SNOMED and ICD.10 for nausea/vomiting",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/5dbf2e80-6d7e-11ec-a301-277758261289"
+        },
+        "name": "Neurological Disorders",
+        "description": "SNOMED and ICD.10 for Neurological Disorders",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/96646be0-6e52-11ec-9c2b-bbbba2505f61"
+        },
+        "name": "Obesity",
+        "description": "SNOMED and ICD10 codes for the condition obesity",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/dccff9f0-6dad-11ec-9d25-45d59604686a"
+        },
+        "name": "Other antineoplastic agents",
+        "description": "RxNorm codes for the ATC class of Other antineoplastic agents",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/94d30534-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "PLT count",
+        "description": "LOINC codes indicating the measurement of PLT count Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/953000ea-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "PSA",
+        "description": "LOINC codes indicating the measurement of PSA Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/955f3dba-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "PT",
+        "description": "LOINC codes indicating the measurement of PT Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/95907ba0-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "PTT",
+        "description": "LOINC codes indicating the measurement of PTT Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/5eca80d0-6d7a-11ec-afff-c93e25241607"
+        },
+        "name": "Pain",
+        "description": "SNOMED and ICD.10 for pain",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/e2707f10-6d99-11ec-aca6-9f3bb3e4342a"
+        },
+        "name": "Paralysis",
+        "description": "SNOMED and ICD10 codes for paralysis",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/0e6c91a0-635c-11ec-a9d1-2f9bdf584328"
+        },
+        "name": "Penile Cancer Combined",
+        "description": "This valueset contains the diagnosis codes for penile cancer and diseases that are clinically treated as penile cancer. It contains both ICD-10 and SNOMED.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/66cae7c0-6d8e-11ec-adf2-c94257d82fe7"
+        },
+        "name": "Peptic Ulcer Disease",
+        "description": "SNOMED and ICD.10 for Peptic Ulcer Disease",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/5daad360-6e53-11ec-a661-bf8941e42844"
+        },
+        "name": "Peripheral Vascular Disorder",
+        "description": "SNOMED and ICD10 codes for the condition of peripheral vascular disorder",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/37bf6530-6dae-11ec-8bcb-533e96f22a5a"
+        },
+        "name": "Plant alkaloids and other natural products",
+        "description": "This valueset contains RxNorm codes for the ATC class of plant alkaloids and other natural products",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/95016654-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "Potassium",
+        "description": "LOINC codes indicating the measurement of Potassium Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/074ce090-59ee-11ec-a5f9-ede488412e44"
+        },
+        "name": "Prostate Cancer Combined",
+        "description": "This valueset contains the diagnosis codes for prostate cancer and diseases that are clinically treated as prostate cancer. It contains both ICD-10 and SNOMED.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/20f7e880-6364-11ec-a49b-ef00db410408"
+        },
+        "name": "Protein Kinase Inhibitors",
+        "description": "RxNorm drugs, ingredients of protein kinase inhibitors  Protein kinase inhibitors",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/82ef0ff0-6d96-11ec-96e9-39ac2ca38464"
+        },
+        "name": "Psychoses",
+        "description": "SNOMED and ICD10 codes for Psychoses",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/fbf9fcf0-6e56-11ec-91d9-c1067f0b634c"
+        },
+        "name": "Pulmonary Circulation Disorder",
+        "description": "SNOMED and ICD10 codes for the condition of Pulmonary Circulation Disorder",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/95c1379a-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "RBC",
+        "description": "LOINC codes indicating the measurement of RBC Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/42b77c90-6da7-11ec-9f83-1d5915becbdf"
+        },
+        "name": "Renal Failure",
+        "description": "SNOMED and ICD10 codes for renal failure",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/6719de00-6d81-11ec-a3ad-bb774fcfd5e7"
+        },
+        "name": "Rheumatoid Arthritis",
+        "description": "SNOMED and ICD.10 for Rheumatoid Arthritis",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/5232e3e0-6d79-11ec-8c80-3dd750fb8ea9"
+        },
+        "name": "Shortness of Breath",
+        "description": "SNOMED and ICD.10 for Shortness of Breath",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/95f1088a-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "Sodium",
+        "description": "LOINC codes indicating the measurement of Sodium Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/557fc030-634d-11ec-87a6-c3c1dc9d48ae"
+        },
+        "name": "Testicular Cancer Combined",
+        "description": "This valueset contains the diagnosis codes for testicular cancer and diseases that are clinically treated as testicular cancer. It contains both ICD-10 and SNOMED.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/96216d2c-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "Total bilirubin",
+        "description": "LOINC codes indicating the measurement of Total bilirubin Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/3a2d1c30-636e-11ec-998f-8970342a81b0"
+        },
+        "name": "Ureter Cancer Combined",
+        "description": "This valueset contains the diagnosis codes for ureter cancer and diseases that are clinically treated as ureter cancer. It contains both ICD-10 and SNOMED.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/717fd080-6353-11ec-bec4-cf27b3b51261"
+        },
+        "name": "Urethral Cancer Combined",
+        "description": "This valueset contains the diagnosis codes for urethral cancer and diseases that are clinically treated as urethral cancer. It contains both ICD-10 and SNOMED.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/c9c99f20-6d83-11ec-9816-f9531e40ab0f"
+        },
+        "name": "Valvular Disease",
+        "description": "SNOMED and ICD.10 for Valvular Disease",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/96523e66-7ae6-11ec-ba14-00163e0e3b1e"
+        },
+        "name": "WBC",
+        "description": "LOINC codes indicating the measurement of WBC Adding proprietary MDA codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/504a7600-6d93-11ec-83c6-5b12af31c27e"
+        },
+        "name": "Weight Loss",
+        "description": "SNOMED and ICD.10 for weight loss",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Condition/ExampleCondition"
+        },
+        "name": "ExampleCondition",
+        "description": "Example condition",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-condition"
+      },
+      {
+        "reference": {
+          "reference": "DiagnosticReport/ExampleDiagnosticReportNote"
+        },
+        "name": "ExampleDiagnosticReportNote",
+        "description": "Example Diagnostic Report Note",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-diagnostic-report-note"
+      },
+      {
+        "reference": {
+          "reference": "Encounter/ExampleEncounter"
+        },
+        "name": "ExampleEncounter",
+        "description": "Example Encounter",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-encounter"
+      },
+      {
+        "reference": {
+          "reference": "MedicationAdministration/ExampleMedicationAdministration"
+        },
+        "name": "ExampleMedicationAdministration",
+        "description": "Example Medication Administration",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-medication-administration"
+      },
+      {
+        "reference": {
+          "reference": "MedicationStatement/ExampleMedicationStatement"
+        },
+        "name": "ExampleMedicationStatement",
+        "description": "Example Related Medication Statement",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-related-medication-statement"
+      },
+      {
+        "reference": {
+          "reference": "Observation/ExampleObservation"
+        },
+        "name": "ExampleObservation",
+        "description": "Example Oncology Observation",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Organization/ExamplePartnerDepartment"
+        },
+        "name": "ExamplePartnerDepartment",
+        "description": "Example Partner Department",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/partner-department"
+      },
+      {
+        "reference": {
+          "reference": "Patient/ExamplePatient"
+        },
+        "name": "ExamplePatient",
+        "description": "Example Oncology Patient",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-patient"
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/ExamplePractitioner"
+        },
+        "name": "ExamplePractitioner",
+        "description": "Example Oncology Practitioner",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitioner"
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/ExamplePractitionerRole"
+        },
+        "name": "ExamplePractitionerRole",
+        "description": "Example Oncology Practitioner",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitionerrole"
+      },
+      {
+        "reference": {
+          "reference": "Medication/ExampleRelatedMedication"
+        },
+        "name": "ExampleRelatedMedication",
+        "description": "Example Related Medication",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-related-medication"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation01Test"
+        },
+        "name": "OncologyObservation01Test",
+        "description": "Oncology Observation 01 Test WBC (Bld) [#/Vol]",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation02Test"
+        },
+        "name": "OncologyObservation02Test",
+        "description": "Oncology Observation 02 Test WBC Auto (Bld) [#/Vol]",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation03Test"
+        },
+        "name": "OncologyObservation03Test",
+        "description": "Oncology Observation 03 Test WBC Estimate (Bld) [#/Vol]",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation04Test"
+        },
+        "name": "OncologyObservation04Test",
+        "description": "Oncology Observation 03 Test WBC Manual cnt (Bld) [#/Vol]",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation05Test"
+        },
+        "name": "OncologyObservation05Test",
+        "description": "Oncology Observation 05 Test Sodium (Bld) [Moles/Vol]",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation06Test"
+        },
+        "name": "OncologyObservation06Test",
+        "description": "Oncology Observation 06 Test Sodium (Bld) [Moles/Vol] High",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation07Test"
+        },
+        "name": "OncologyObservation07Test",
+        "description": "Oncology Observation 07 Test Cancer Ag 15-3 High",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation08Test"
+        },
+        "name": "OncologyObservation08Test",
+        "description": "Oncology Observation 08 Test Amylase High",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation09Test"
+        },
+        "name": "OncologyObservation09Test",
+        "description": "Oncology Observation 08 Test Amylase Normal",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation10Test"
+        },
+        "name": "OncologyObservation10Test",
+        "description": "Oncology Observation 10 Test Amylase Low",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation11Test"
+        },
+        "name": "OncologyObservation11Test",
+        "description": "Oncology Observation 11 Test Amylase High",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation12Test"
+        },
+        "name": "OncologyObservation12Test",
+        "description": "Oncology Observation 12 Test Amylase Low",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation13Test"
+        },
+        "name": "OncologyObservation13Test",
+        "description": "Oncology Observation 13 Test Amylase Normal",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation14Test"
+        },
+        "name": "OncologyObservation14Test",
+        "description": "Oncology Observation 14 Test Amylase High",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation15Test"
+        },
+        "name": "OncologyObservation15Test",
+        "description": "Oncology Observation 15 Test Amylase Normal",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation16Test"
+        },
+        "name": "OncologyObservation16Test",
+        "description": "Oncology Observation 16 Test Amylase High",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation17Test"
+        },
+        "name": "OncologyObservation17Test",
+        "description": "Oncology Observation 17 Test Amylase High",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation18Test"
+        },
+        "name": "OncologyObservation18Test",
+        "description": "Oncology Observation 18 Test Amylase Low",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation19Test"
+        },
+        "name": "OncologyObservation19Test",
+        "description": "Oncology Observation 19 Test Amylase Low",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation20Test"
+        },
+        "name": "OncologyObservation20Test",
+        "description": "Oncology Observation 20 Test Amylase Normal",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation21Test"
+        },
+        "name": "OncologyObservation21Test",
+        "description": "Oncology Observation 21 Test Amylase High",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation22Test"
+        },
+        "name": "OncologyObservation22Test",
+        "description": "Oncology Observation 22 Test Amylase Normal",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation23Test"
+        },
+        "name": "OncologyObservation23Test",
+        "description": "Oncology Observation 23 Test Amylase Normal",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation24Test"
+        },
+        "name": "OncologyObservation24Test",
+        "description": "Oncology Observation 24 Test Amylase High",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation25Test"
+        },
+        "name": "OncologyObservation25Test",
+        "description": "Oncology Observation 25 Test Amylase Normal",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation26Test"
+        },
+        "name": "OncologyObservation26Test",
+        "description": "Oncology Observation 26 Test Amylase High",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation27Test"
+        },
+        "name": "OncologyObservation27Test",
+        "description": "Oncology Observation 27 Test Amylase Low",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation28Test"
+        },
+        "name": "OncologyObservation28Test",
+        "description": "Oncology Observation 28 Test Amylase High",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation29Test"
+        },
+        "name": "OncologyObservation29Test",
+        "description": "Oncology Observation 29 Test Amylase Normal",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation30Test"
+        },
+        "name": "OncologyObservation30Test",
+        "description": "Oncology Observation 30 Test Amylase High",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation31Test"
+        },
+        "name": "OncologyObservation31Test",
+        "description": "Oncology Observation 31 Test Amylase Low",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation32Test"
+        },
+        "name": "OncologyObservation32Test",
+        "description": "Oncology Observation 32 Test Amylase High",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation33Test"
+        },
+        "name": "OncologyObservation33Test",
+        "description": "Oncology Observation 33 Test Amylase Normal",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation34Test"
+        },
+        "name": "OncologyObservation34Test",
+        "description": "Oncology Observation 34 Test Amylase High",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/OncologyObservation35Test"
+        },
+        "name": "OncologyObservation35Test",
+        "description": "Oncology Observation 35 Test Amylase Low",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/carePlanExampleId"
+        },
+        "name": "ExampleCarePlan",
+        "description": "Example CarePlan",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-care-plan"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/documentReferenceExample1"
+        },
+        "name": "ExampleDocumentReference",
+        "description": "Example Document Reference",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-document-reference"
+      },
+      {
+        "reference": {
+          "reference": "Medication/medicationIdExample"
+        },
+        "name": "ExampleMedication",
+        "description": "Example Medication",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "MedicationRequest/medicationRequestExampleId"
+        },
+        "name": "ExampleMedicationRequest",
+        "description": "Example Medication Request",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-medication-Request"
+      },
+      {
+        "reference": {
+          "reference": "DiagnosticReport/roninDiagnosticReportNoteExample01"
+        },
+        "name": "roninDiagnosticReportNoteExample01",
+        "description": "Ronin Example for Diagnostic Report Note",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-diagnostic-report-note"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/roninDocumentReference01Test"
+        },
+        "name": "roninDocumentReference01Test",
+        "description": "Ronin Example for Oncology Document Reference",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-document-reference"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/roninDocumentReference02Test"
+        },
+        "name": "roninDocumentReference02Test",
+        "description": "Ronin Example for Oncology Document Reference",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-document-reference"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/roninDocumentReference03Test"
+        },
+        "name": "roninDocumentReference03Test",
+        "description": "Ronin Example for Oncology Document Reference",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-document-reference"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/roninDocumentReference04Test"
+        },
+        "name": "roninDocumentReference04Test",
+        "description": "Ronin Example for Oncology Document Reference",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-document-reference"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/roninDocumentReference05Test"
+        },
+        "name": "roninDocumentReference05Test",
+        "description": "Ronin Example for Oncology Document Reference",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-document-reference"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/roninDocumentReferenceExample01"
+        },
+        "name": "roninDocumentReferenceExample01",
+        "description": "Ronin Example for Oncology Document Reference",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-document-reference"
+      },
+      {
+        "reference": {
+          "reference": "Observation/roninEdVisitRationale"
+        },
+        "name": "roninEdVisitRationale",
+        "description": "Rationale associated with roninEdVisitRiskAssessment",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-rationale"
+      },
+      {
+        "reference": {
+          "reference": "Observation/roninEdVisitRationale01Test"
+        },
+        "name": "roninEdVisitRationale01Test",
+        "description": "Rationale associated with roninEdVisitRiskAssessment01Test",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-rationale"
+      },
+      {
+        "reference": {
+          "reference": "Observation/roninEdVisitRationale02Test"
+        },
+        "name": "roninEdVisitRationale02Test",
+        "description": "Rationale associated with roninEdVisitRiskAssessment01Test",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-rationale"
+      },
+      {
+        "reference": {
+          "reference": "Observation/roninEdVisitRationale03Test"
+        },
+        "name": "roninEdVisitRationale03Test",
+        "description": "Rationale associated with roninEdVisitRiskAssessment03Test",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-rationale"
+      },
+      {
+        "reference": {
+          "reference": "Observation/roninEdVisitRationale04Test"
+        },
+        "name": "roninEdVisitRationale04Test",
+        "description": "Rationale associated with roninEdVisitRiskAssessment04Test",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-rationale"
+      },
+      {
+        "reference": {
+          "reference": "Observation/roninEdVisitRationale05Test"
+        },
+        "name": "roninEdVisitRationale05Test",
+        "description": "Rationale associated with roninEdVisitRiskAssessment05Test",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-rationale"
+      },
+      {
+        "reference": {
+          "reference": "Observation/roninEdVisitRationaleExample01"
+        },
+        "name": "roninEdVisitRationaleExample01",
+        "description": "Rationale associated with roninEdVisitRiskAssessmentExample01",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-rationale"
+      },
+      {
+        "reference": {
+          "reference": "RiskAssessment/roninEdVisitRiskAssessment"
+        },
+        "name": "roninEdVisitRiskAssessment",
+        "description": "Example ED Visit Risk Assessment",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-risk-assessment"
+      },
+      {
+        "reference": {
+          "reference": "RiskAssessment/roninEdVisitRiskAssessment01Test"
+        },
+        "name": "roninEdVisitRiskAssessment01Test",
+        "description": "Example ED Visit Risk Assessment",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-risk-assessment"
+      },
+      {
+        "reference": {
+          "reference": "RiskAssessment/roninEdVisitRiskAssessment02Test"
+        },
+        "name": "roninEdVisitRiskAssessment02Test",
+        "description": "Example ED Visit Risk Assessment",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-risk-assessment"
+      },
+      {
+        "reference": {
+          "reference": "RiskAssessment/roninEdVisitRiskAssessment03Test"
+        },
+        "name": "roninEdVisitRiskAssessment03Test",
+        "description": "Example ED Visit Risk Assessment",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-risk-assessment"
+      },
+      {
+        "reference": {
+          "reference": "RiskAssessment/roninEdVisitRiskAssessment04Test"
+        },
+        "name": "roninEdVisitRiskAssessment04Test",
+        "description": "Example ED Visit Risk Assessment",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-risk-assessment"
+      },
+      {
+        "reference": {
+          "reference": "RiskAssessment/roninEdVisitRiskAssessment05Test"
+        },
+        "name": "roninEdVisitRiskAssessment05Test",
+        "description": "Example ED Visit Risk Assessment",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-risk-assessment"
+      },
+      {
+        "reference": {
+          "reference": "RiskAssessment/roninEdVisitRiskAssessmentExample01"
+        },
+        "name": "roninEdVisitRiskAssessmentExample01",
+        "description": "Example ED Visit Risk Assessment",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-risk-assessment"
+      },
+      {
+        "reference": {
+          "reference": "Encounter/roninEncounter01Test"
+        },
+        "name": "roninEncounter01Test",
+        "description": "Ronin Encounter Test 01",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-encounter"
+      },
+      {
+        "reference": {
+          "reference": "Encounter/roninEncounter02Test"
+        },
+        "name": "roninEncounter02Test",
+        "description": "Ronin Encounter Test 02",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-encounter"
+      },
+      {
+        "reference": {
+          "reference": "Encounter/roninEncounter03Test"
+        },
+        "name": "roninEncounter03Test",
+        "description": "Ronin Encounter Test 03",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-encounter"
+      },
+      {
+        "reference": {
+          "reference": "Encounter/roninEncounter04Test"
+        },
+        "name": "roninEncounter04Test",
+        "description": "Ronin Encounter Test 04",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-encounter"
+      },
+      {
+        "reference": {
+          "reference": "Encounter/roninEncounter05Test"
+        },
+        "name": "roninEncounter05Test",
+        "description": "Ronin Encounter Test 05",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-encounter"
+      },
+      {
+        "reference": {
+          "reference": "Encounter/roninEncounterExample01"
+        },
+        "name": "roninEncounterExample01",
+        "description": "Ronin Example for Encounter",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-encounter"
+      },
+      {
+        "reference": {
+          "reference": "Organization/roninMDAPartnerDepartmentTest"
+        },
+        "name": "roninMDAPartnerDepartmentTest",
+        "description": "Ronin MDA Partner",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/partner-department"
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/roninMDAPractitioner02Test"
+        },
+        "name": "roninMDAPractitioner02Test",
+        "description": "Ronin Practitioner 02 - MDA",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitioner"
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/roninMDAPractitioner03Test"
+        },
+        "name": "roninMDAPractitioner03Test",
+        "description": "Ronin Practitioner 03 - MDA",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitioner"
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/roninMDAPractitionerRole02Test"
+        },
+        "name": "roninMDAPractitionerRole02Test",
+        "description": "Ronin PractitionerRole 02 - MDA",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitionerrole"
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/roninMDAPractitionerRole03Test"
+        },
+        "name": "roninMDAPractitionerRole03Test",
+        "description": "Ronin PractitionerRole 03 - MDA",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitionerrole"
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/roninOncologyCarePlanExample01"
+        },
+        "name": "roninOncologyCarePlanExample01",
+        "description": "Ronin Example for Oncology CarePlan",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-care-plan"
+      },
+      {
+        "reference": {
+          "reference": "Appointment/roninOncologyPatientAppointment01Test"
+        },
+        "name": "roninOncologyPatientAppointment01Test",
+        "description": "Ronin Example for Oncology Patient Appointment",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-appointment"
+      },
+      {
+        "reference": {
+          "reference": "Appointment/roninOncologyPatientAppointment02Test"
+        },
+        "name": "roninOncologyPatientAppointment02Test",
+        "description": "Ronin Example for Oncology Patient Appointment",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-appointment"
+      },
+      {
+        "reference": {
+          "reference": "Appointment/roninOncologyPatientAppointment03Test"
+        },
+        "name": "roninOncologyPatientAppointment03Test",
+        "description": "Ronin Example for Oncology Patient Appointment",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-appointment"
+      },
+      {
+        "reference": {
+          "reference": "Appointment/roninOncologyPatientAppointment04Test"
+        },
+        "name": "roninOncologyPatientAppointment04Test",
+        "description": "Ronin Example for Oncology Patient Appointment",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-appointment"
+      },
+      {
+        "reference": {
+          "reference": "Appointment/roninOncologyPatientAppointment05Test"
+        },
+        "name": "roninOncologyPatientAppointment05Test",
+        "description": "Ronin Example for Oncology Patient Appointment",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-appointment"
+      },
+      {
+        "reference": {
+          "reference": "Appointment/roninOncologyPatientAppointmentExample01"
+        },
+        "name": "roninOncologyPatientAppointmentExample01",
+        "description": "Ronin Example for Oncology Patient Appointment",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-appointment"
+      },
+      {
+        "reference": {
+          "reference": "Organization/roninPEENGPartnerDepartmentTest"
+        },
+        "name": "roninPEENGPartnerDepartmentTest",
+        "description": "Ronin PEENG Partner",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/partner-department"
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/roninPEENGPractitioner01Test"
+        },
+        "name": "roninPEENGPractitioner01Test",
+        "description": "Ronin Practitioner 01 - PEENG",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitioner"
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/roninPEENGPractitionerRole01Test"
+        },
+        "name": "roniPEENGPractitionerRole01Test",
+        "description": "Ronin PractitionerRole 01 - PEENG",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitionerrole"
+      },
+      {
+        "reference": {
+          "reference": "Organization/roninPSJPartnerDepartmentTest"
+        },
+        "name": "roninPSJPartnerDepartmentTest",
+        "description": "Ronin PSJ Partner",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/partner-department"
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/roninPSJPractitioner04Test"
+        },
+        "name": "roninPSJPractitioner04Test",
+        "description": "Ronin Practitioner 04 - PSJ",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitioner"
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/roninPSJPractitioner05Test"
+        },
+        "name": "roninPSJPractitioner05Test",
+        "description": "Ronin Practitioner 05 - PSJ",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitioner"
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/roninPSJPractitionerRole04Test"
+        },
+        "name": "roninPSJPractitionerRole04Test",
+        "description": "Ronin PractitionerRole 04 - PSJ",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitionerrole"
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/roninPSJPractitionerRole05Test"
+        },
+        "name": "roninMDAPractitionerRole05Test",
+        "description": "Ronin PractitionerRole 05 - PSJ",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitionerrole"
+      },
+      {
+        "reference": {
+          "reference": "Organization/roninPartnerDepartmentExample01"
+        },
+        "name": "roninPartnerDepartmentExample01",
+        "description": "Ronin Example Partner",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/partner-department"
+      },
+      {
+        "reference": {
+          "reference": "Patient/roninPatient01Test"
+        },
+        "name": "roninPatient01Test",
+        "description": "Ronin Test Patient 01 - PEENG",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-patient"
+      },
+      {
+        "reference": {
+          "reference": "Patient/roninPatient02Test"
+        },
+        "name": "roninPatient02Test",
+        "description": "Ronin Test Patient 02 - MDA",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-patient"
+      },
+      {
+        "reference": {
+          "reference": "Patient/roninPatient03Test"
+        },
+        "name": "roninPatient03Test",
+        "description": "Ronin Test Patient 03 - MDA",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-patient"
+      },
+      {
+        "reference": {
+          "reference": "Patient/roninPatient04Test"
+        },
+        "name": "roninPatient04Test",
+        "description": "Ronin Test Patient 04 - PSJ",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-patient"
+      },
+      {
+        "reference": {
+          "reference": "Patient/roninPatient05Test"
+        },
+        "name": "roninPatient05Test",
+        "description": "Ronin Test Patient 05 - PSJ",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-patient"
+      },
+      {
+        "reference": {
+          "reference": "Patient/roninPatientExample01"
+        },
+        "name": "roninPatientExample01",
+        "description": "Ronin Example for Patient",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-patient"
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/roninPractitionerExample01"
+        },
+        "name": "roninPractitionerExample01",
+        "description": "Ronin Example for Practitioner",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitioner"
+      },
+      {
+        "reference": {
+          "reference": "Condition/roninPrimaryOncologyConditionExample01"
+        },
+        "name": "roninPrimaryOncologyConditionExample01",
+        "description": "Ronin Example for Primary Oncology Condition",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-condition"
+      },
+      {
+        "reference": {
+          "reference": "Observation/roninTNMClinicalStageGroupExample01"
+        },
+        "name": "ExampleStaging",
+        "description": "Example Oncology Staging",
+        "exampleCanonical": "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-staging"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/DetectedEdVisit"
+        },
+        "name": "Detected ED Visit",
+        "groupingId": "DetectedEdVisit"
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2021+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      },
+      {
+        "code": "show-inherited-invariants",
+        "value": "true"
+      },
+      {
+        "code": "apply-contact",
+        "value": "true"
+      },
+      {
+        "code": "apply-jurisdiction",
+        "value": "true"
+      },
+      {
+        "code": "apply-publisher",
+        "value": "true"
+      },
+      {
+        "code": "autoload-resources",
+        "value": "false"
+      }
+    ]
+  }
+}

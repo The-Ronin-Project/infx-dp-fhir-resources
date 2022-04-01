@@ -1,0 +1,67 @@
+{
+  "resourceType": "Appointment",
+  "id": "roninOncologyPatientAppointment03Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-appointment"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"roninOncologyPatientAppointment03Test\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-oncology-appointment.html\">Oncology Appointment</a></p></div><p><b>Department</b>: <a href=\"Organization-roninMDAPartnerDepartmentTest.html\">Organization/roninMDAPartnerDepartmentTest</a> \"MDA\"</p><p><b>identifier</b>: Tenant ID: mdaoc</p><p><b>status</b>: checked-in</p><p><b>appointmentType</b>: Emergency appointment <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v2-0276.html\">appointmentReason</a>#EMERGENCY)</span></p><p><b>start</b>: Jan 1, 2020, 12:05:00 AM</p><p><b>end</b>: Jan 1, 2020, 1:35:00 AM</p><p><b>minutesDuration</b>: 90</p><p><b>comment</b>: Patient having severe vomiting</p><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href=\"Patient-roninPatient03Test.html\">Patient/roninPatient03Test: Vivaan B. Acostal</a> \" ACOSTAL\"</p><p><b>status</b>: accepted</p></blockquote><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href=\"Practitioner-roninMDAPractitioner03Test.html\">Practitioner/roninMDAPractitioner03Test: Dr. Alfred Grey</a> \" FOSTER\"</p><p><b>status</b>: accepted</p></blockquote></div>"
+  },
+  "extension": [
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/partnerDepartmentReference",
+      "valueReference": {
+        "reference": "Organization/roninMDAPartnerDepartmentTest"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://projectronin.com/id/tenantId",
+            "code": "TID",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "mdaoc"
+    }
+  ],
+  "status": "checked-in",
+  "appointmentType": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0276",
+        "code": "EMERGENCY",
+        "display": "Emergency appointment"
+      }
+    ]
+  },
+  "start": "2020-01-01T00:05:00.000Z",
+  "end": "2020-01-01T01:35:00.000Z",
+  "minutesDuration": 90,
+  "comment": "Patient having severe vomiting",
+  "participant": [
+    {
+      "actor": {
+        "reference": "Patient/roninPatient03Test",
+        "display": "Vivaan B. Acostal"
+      },
+      "status": "accepted"
+    },
+    {
+      "actor": {
+        "reference": "Practitioner/roninMDAPractitioner03Test",
+        "display": "Dr. Alfred Grey"
+      },
+      "status": "accepted"
+    }
+  ]
+}

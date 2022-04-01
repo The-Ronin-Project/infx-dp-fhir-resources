@@ -1,0 +1,44 @@
+{
+    "resourceType": "DetectedEdVisit",
+    "meta": {
+        "profile": [
+            "http://projectronin.com/fhir/us/ronin/StructureDefinition/detected-ed-visit"
+        ]
+    },
+    "identifier": [
+        {
+            "value": "psj",
+            "system": "http://projectronin.com/id/tenantId"
+        },
+        {
+            "value": "20220",
+            "system": "http://projectronin.com/id/mrn"
+        }
+    ],
+    "id": "roninDetectedEdVisit05Test",
+    "startDate": "2020-10-02",
+    "source": "Went to ER on 08/11/2016 at VA Medical",
+    "sourceEntityIndex": [
+        {
+            "label": "DATE",
+            "end": 11,
+            "start": 8
+        },
+        {
+            "label": "ED",
+            "end": 25,
+            "start": 14
+        }
+    ],
+    "context": {
+        "reference": "DocumentReference/roninDocumentReference05Test",
+        "display": "roninDocumentReference05Test"
+    },
+    "location": "VA Medical",
+    "subject": {
+        "reference": "Patient/roninPatient05Test",
+        "display": "roninPatient05Test"
+    },
+    "modelVersion": "1",
+    "humanAnnotated": true
+}

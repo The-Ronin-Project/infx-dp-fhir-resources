@@ -1,0 +1,124 @@
+{
+  "resourceType": "ValueSet",
+  "id": "95016654-7ae6-11ec-ba14-00163e0e3b1e",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a> version <code>2.7</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/77142-8.html\">77142-8</a></td><td>Potassium [Moles/volume] in Serum, Plasma or Blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/39790-1.html\">39790-1</a></td><td>Potassium [Moles/volume] in Capillary blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/39789-3.html\">39789-3</a></td><td>Potassium [Moles/volume] in Venous blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/75940-7.html\">75940-7</a></td><td>Potassium [Mass/volume] in Blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/32713-0.html\">32713-0</a></td><td>Potassium [Moles/volume] in Arterial blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/29349-8.html\">29349-8</a></td><td>Potassium [Moles/volume] in Serum or Plasma --post dialysis</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/6298-4.html\">6298-4</a></td><td>Potassium [Moles/volume] in Blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/51618-7.html\">51618-7</a></td><td>Potassium [Moles/volume] in Serum or Plasma --pre dialysis</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/12812-4.html\">12812-4</a></td><td>Potassium [Moles/volume] in Serum or Plasma --2nd specimen</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/41656-0.html\">41656-0</a></td><td>Potassium [Moles/volume] in Mixed venous blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/12813-2.html\">12813-2</a></td><td>Potassium [Moles/volume] in Serum or Plasma --3rd specimen</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/2823-3.html\">2823-3</a></td><td>Potassium [Moles/volume] in Serum or Plasma</td></tr></table></li><li>Include these codes as defined in <code>https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134</code> version <code>1</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>6686</td><td>POC K</td></tr><tr><td>8031</td><td>Potassium, arterial</td></tr><tr><td>7965</td><td>V K</td></tr><tr><td>6854</td><td>Potassium Lvl</td></tr></table></li></ul></div>"
+  },
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/95016654-7ae6-11ec-ba14-00163e0e3b1e",
+  "version": "0.9.5",
+  "name": "Potassium",
+  "title": "Potassium",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-03-14T18:28:42+00:00",
+  "publisher": "Project Ronin Inc.",
+  "contact": [
+    {
+      "name": "Project Ronin Inc.",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.projectronin.com"
+        },
+        {
+          "system": "email",
+          "value": "contact@projectronin.com"
+        }
+      ]
+    }
+  ],
+  "description": "LOINC codes indicating the measurement of Potassium Adding proprietary MDA codes",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "77142-8",
+            "display": "Potassium [Moles/volume] in Serum, Plasma or Blood"
+          },
+          {
+            "code": "39790-1",
+            "display": "Potassium [Moles/volume] in Capillary blood"
+          },
+          {
+            "code": "39789-3",
+            "display": "Potassium [Moles/volume] in Venous blood"
+          },
+          {
+            "code": "75940-7",
+            "display": "Potassium [Mass/volume] in Blood"
+          },
+          {
+            "code": "32713-0",
+            "display": "Potassium [Moles/volume] in Arterial blood"
+          },
+          {
+            "code": "29349-8",
+            "display": "Potassium [Moles/volume] in Serum or Plasma --post dialysis"
+          },
+          {
+            "code": "6298-4",
+            "display": "Potassium [Moles/volume] in Blood"
+          },
+          {
+            "code": "51618-7",
+            "display": "Potassium [Moles/volume] in Serum or Plasma --pre dialysis"
+          },
+          {
+            "code": "12812-4",
+            "display": "Potassium [Moles/volume] in Serum or Plasma --2nd specimen"
+          },
+          {
+            "code": "41656-0",
+            "display": "Potassium [Moles/volume] in Mixed venous blood"
+          },
+          {
+            "code": "12813-2",
+            "display": "Potassium [Moles/volume] in Serum or Plasma --3rd specimen"
+          },
+          {
+            "code": "2823-3",
+            "display": "Potassium [Moles/volume] in Serum or Plasma"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "6686",
+            "display": "POC K"
+          },
+          {
+            "code": "8031",
+            "display": "Potassium, arterial"
+          },
+          {
+            "code": "7965",
+            "display": "V K"
+          },
+          {
+            "code": "6854",
+            "display": "Potassium Lvl"
+          }
+        ]
+      }
+    ]
+  }
+}

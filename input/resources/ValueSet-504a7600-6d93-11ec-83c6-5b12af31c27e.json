@@ -1,0 +1,148 @@
+{
+  "resourceType": "ValueSet",
+  "id": "504a7600-6d93-11ec-83c6-5b12af31c27e",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <code>2021</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/430237002\">430237002</a></td><td>Abnormal intentional weight loss (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/262285001\">262285001</a></td><td>Weight decreased (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/422003001\">422003001</a></td><td>Cachexia associated with acquired immunodeficiency syndrome (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/161832001\">161832001</a></td><td>Weight decreasing (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/267024001\">267024001</a></td><td>Abnormal weight loss (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/448765001\">448765001</a></td><td>Unintentional weight loss (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/309257005\">309257005</a></td><td>Excessive weight loss (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/426977000\">426977000</a></td><td>Recent weight loss (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/421695000\">421695000</a></td><td>Abnormal weight loss associated with acquired immunodeficiency syndrome (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/416528001\">416528001</a></td><td>Intentional weight loss (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/89362005\">89362005</a></td><td>Weight loss (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/422868009\">422868009</a></td><td>Unexplained weight loss (finding)</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-icd10CM.html\"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a> version <code>2022</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>E40</td><td>Kwashiorkor</td></tr><tr><td>E44.1</td><td>Mild protein-calorie malnutrition</td></tr><tr><td>E43</td><td>Unspecified severe protein-calorie malnutrition</td></tr><tr><td>E45</td><td>Retarded development following protein-calorie malnutrition</td></tr><tr><td>E44</td><td>Protein-calorie malnutrition of moderate and mild degree</td></tr><tr><td>E44.0</td><td>Moderate protein-calorie malnutrition</td></tr><tr><td>E42</td><td>Marasmic kwashiorkor</td></tr><tr><td>R63.4</td><td>Abnormal weight loss</td></tr><tr><td>E41</td><td>Nutritional marasmus</td></tr><tr><td>E46</td><td>Unspecified protein-calorie malnutrition</td></tr></table></li></ul></div>"
+  },
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/504a7600-6d93-11ec-83c6-5b12af31c27e",
+  "version": "0.9.5",
+  "name": "WeightLoss",
+  "title": "Weight Loss",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-03-14T18:28:42+00:00",
+  "publisher": "Project Ronin Inc.",
+  "contact": [
+    {
+      "name": "Project Ronin Inc.",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.projectronin.com"
+        },
+        {
+          "system": "email",
+          "value": "contact@projectronin.com"
+        }
+      ]
+    }
+  ],
+  "description": "SNOMED and ICD.10 for weight loss",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "430237002",
+            "display": "Abnormal intentional weight loss (finding)"
+          },
+          {
+            "code": "262285001",
+            "display": "Weight decreased (finding)"
+          },
+          {
+            "code": "422003001",
+            "display": "Cachexia associated with acquired immunodeficiency syndrome (finding)"
+          },
+          {
+            "code": "161832001",
+            "display": "Weight decreasing (finding)"
+          },
+          {
+            "code": "267024001",
+            "display": "Abnormal weight loss (finding)"
+          },
+          {
+            "code": "448765001",
+            "display": "Unintentional weight loss (finding)"
+          },
+          {
+            "code": "309257005",
+            "display": "Excessive weight loss (finding)"
+          },
+          {
+            "code": "426977000",
+            "display": "Recent weight loss (finding)"
+          },
+          {
+            "code": "421695000",
+            "display": "Abnormal weight loss associated with acquired immunodeficiency syndrome (finding)"
+          },
+          {
+            "code": "416528001",
+            "display": "Intentional weight loss (finding)"
+          },
+          {
+            "code": "89362005",
+            "display": "Weight loss (finding)"
+          },
+          {
+            "code": "422868009",
+            "display": "Unexplained weight loss (finding)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "E40",
+            "display": "Kwashiorkor"
+          },
+          {
+            "code": "E44.1",
+            "display": "Mild protein-calorie malnutrition"
+          },
+          {
+            "code": "E43",
+            "display": "Unspecified severe protein-calorie malnutrition"
+          },
+          {
+            "code": "E45",
+            "display": "Retarded development following protein-calorie malnutrition"
+          },
+          {
+            "code": "E44",
+            "display": "Protein-calorie malnutrition of moderate and mild degree"
+          },
+          {
+            "code": "E44.0",
+            "display": "Moderate protein-calorie malnutrition"
+          },
+          {
+            "code": "E42",
+            "display": "Marasmic kwashiorkor"
+          },
+          {
+            "code": "R63.4",
+            "display": "Abnormal weight loss"
+          },
+          {
+            "code": "E41",
+            "display": "Nutritional marasmus"
+          },
+          {
+            "code": "E46",
+            "display": "Unspecified protein-calorie malnutrition"
+          }
+        ]
+      }
+    ]
+  }
+}

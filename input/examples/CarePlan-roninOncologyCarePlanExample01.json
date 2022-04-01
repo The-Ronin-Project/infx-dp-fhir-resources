@@ -1,0 +1,55 @@
+{
+  "resourceType": "CarePlan",
+  "id": "roninOncologyCarePlanExample01",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-care-plan"
+    ]
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Lung Cancer</div>"
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://projectronin.com/id/tenantId",
+            "code": "TID",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "mdaoc"
+    }
+  ],
+  "status": "active",
+  "intent": "proposal",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/roninPatientExample01"
+  },
+  "encounter": {
+    "reference": "Encounter/roninEncounterExample01"
+  },
+  "author": {
+    "reference": "Practitioner/roninPractitionerExample01"
+  },
+  "addresses": [
+    {
+      "reference": "Condition/roninPrimaryOncologyConditionExample01"
+    }
+  ]
+}

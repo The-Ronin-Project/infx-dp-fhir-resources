@@ -1,0 +1,97 @@
+{
+  "resourceType": "Condition",
+  "id": "roninPrimaryOncologyConditionExample01",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-condition"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"roninPrimaryOncologyConditionExample01\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-oncology-condition.html\">Oncology Condition</a></p></div><p><b>identifier</b>: Tenant ID: mdaoc</p><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-condition-ver-status.html\">ConditionVerificationStatus</a>#confirmed)</span></p><p><b>category</b>: Encounter Diagnosis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated] \"encounter-diagnosis\")</span></p><p><b>code</b>: Non-small cell lung cancer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#254637007)</span></p><p><b>bodySite</b>: Lung structure (body structure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#39607008)</span></p><p><b>subject</b>: <a href=\"Patient-roninPatientExample01.html\">Patient/roninPatientExample01</a> \" ANYPERSON\"</p><p><b>onset</b>: 2019-04-01</p><p><b>asserter</b>: <a href=\"Practitioner-roninPractitionerExample01.html\">Practitioner/roninPractitionerExample01</a> \" ANYDOCTOR\"</p><h3>Stages</h3><table class=\"grid\"><tr><td>-</td><td><b>Summary</b></td></tr><tr><td>*</td><td>IIIC <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (cancerstaging.org#3C)</span></td></tr></table></div>"
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://projectronin.com/id/tenantId",
+            "code": "TID",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "mdaoc"
+    }
+  ],
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active",
+        "display": "Active"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed",
+        "display": "Confirmed"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "display": "encounter-diagnosis"
+        }
+      ],
+      "text": "Encounter Diagnosis"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "254637007",
+        "display": "Non-small cell lung cancer"
+      }
+    ]
+  },
+  "bodySite": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "39607008",
+          "display": "Lung structure (body structure)"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/roninPatientExample01"
+  },
+  "onsetDateTime": "2019-04-01",
+  "asserter": {
+    "reference": "Practitioner/roninPractitionerExample01"
+  },
+  "stage": [
+    {
+      "summary": {
+        "coding": [
+          {
+            "system": "http://cancerstaging.org",
+            "code": "3C",
+            "display": "IIIC"
+          }
+        ]
+      }
+    }
+  ]
+}

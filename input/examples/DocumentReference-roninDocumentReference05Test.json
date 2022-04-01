@@ -1,0 +1,71 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "roninDocumentReference05Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-document-reference"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"roninDocumentReference05Test\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-oncology-document-reference.html\">Oncology Document Reference</a></p></div><p><b>identifier</b>: Tenant ID: psj</p><p><b>status</b>: current</p><p><b>type</b>: Physician Emergency department Note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#28568-4)</span></p><p><b>category</b>: Clinical Note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/core/STU3.1/CodeSystem-us-core-documentreference-category.html\">US Core DocumentReferences Category Codes</a>#clinical-note)</span></p><p><b>subject</b>: <a href=\"Patient-roninPatient05Test.html\">Patient/roninPatient05Test</a> \" RANDOM\"</p><p><b>date</b>: Feb 7, 2020, 11:28:17 AM</p><p><b>author</b>: <a href=\"Practitioner-roninPSJPractitioner05Test.html\">Practitioner/roninPSJPractitioner05Test</a> \" ALLERGY\"</p><blockquote><p><b>content</b></p></blockquote><blockquote><p><b>context</b></p></blockquote></div>"
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://projectronin.com/id/tenantId",
+            "code": "TID",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "psj"
+    }
+  ],
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "28568-4",
+        "display": "Physician Emergency department Note"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+          "code": "clinical-note",
+          "display": "Clinical Note"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/roninPatient05Test"
+  },
+  "date": "2020-02-07T13:28:17.239+02:00",
+  "author": [
+    {
+      "reference": "Practitioner/roninPSJPractitioner05Test"
+    }
+  ],
+  "content": [
+    {
+      "id": "note_psj2.html",
+      "attachment": {
+        "contentType": "text/html",
+        "data": "bm90ZV9wc2oyLmh0bWwK"
+      }
+    }
+  ],
+  "context": {
+    "id": "exampleContextId"
+  }
+}

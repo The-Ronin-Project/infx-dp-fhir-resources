@@ -1,0 +1,1128 @@
+{
+  "resourceType": "ValueSet",
+  "id": "82ef0ff0-6d96-11ec-96e9-39ac2ca38464",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-icd10CM.html\"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a> version <code>2022</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>F20.89</td><td>Other schizophrenia</td></tr><tr><td>F16.959</td><td>Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder, unspecified</td></tr><tr><td>F30.13</td><td>Manic episode, severe, without psychotic symptoms</td></tr><tr><td>F16.151</td><td>Hallucinogen abuse with hallucinogen-induced psychotic disorder with hallucinations</td></tr><tr><td>F16.259</td><td>Hallucinogen dependence with hallucinogen-induced psychotic disorder, unspecified</td></tr><tr><td>F34.89</td><td>Other specified persistent mood disorders</td></tr><tr><td>F25.0</td><td>Schizoaffective disorder, bipolar type</td></tr><tr><td>F18.951</td><td>Inhalant use, unspecified with inhalant-induced psychotic disorder with hallucinations</td></tr><tr><td>F30.3</td><td>Manic episode in partial remission</td></tr><tr><td>F20.5</td><td>Residual schizophrenia</td></tr><tr><td>F31.74</td><td>Bipolar disorder, in full remission, most recent episode manic</td></tr><tr><td>F31.9</td><td>Bipolar disorder, unspecified</td></tr><tr><td>F30.8</td><td>Other manic episodes</td></tr><tr><td>F18.959</td><td>Inhalant use, unspecified with inhalant-induced psychotic disorder, unspecified</td></tr><tr><td>F25.1</td><td>Schizoaffective disorder, depressive type</td></tr><tr><td>F32.4</td><td>Major depressive disorder, single episode, in partial remission</td></tr><tr><td>F31.76</td><td>Bipolar disorder, in full remission, most recent episode depressed</td></tr><tr><td>F30.2</td><td>Manic episode, severe with psychotic symptoms</td></tr><tr><td>F31.64</td><td>Bipolar disorder, current episode mixed, severe, with psychotic features</td></tr><tr><td>F18.250</td><td>Inhalant dependence with inhalant-induced psychotic disorder with delusions</td></tr><tr><td>F31.30</td><td>Bipolar disorder, current episode depressed, mild or moderate severity, unspecified</td></tr><tr><td>F31.13</td><td>Bipolar disorder, current episode manic without psychotic features, severe</td></tr><tr><td>F31.81</td><td>Bipolar II disorder</td></tr><tr><td>F19.159</td><td>Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder, unspecified</td></tr><tr><td>F31.11</td><td>Bipolar disorder, current episode manic without psychotic features, mild</td></tr><tr><td>F16.951</td><td>Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder with hallucinations</td></tr><tr><td>F15.950</td><td>Other stimulant use, unspecified with stimulant-induced psychotic disorder with delusions</td></tr><tr><td>F31.75</td><td>Bipolar disorder, in partial remission, most recent episode depressed</td></tr><tr><td>F31.5</td><td>Bipolar disorder, current episode depressed, severe, with psychotic features</td></tr><tr><td>F18.259</td><td>Inhalant dependence with inhalant-induced psychotic disorder, unspecified</td></tr><tr><td>F15.959</td><td>Other stimulant use, unspecified with stimulant-induced psychotic disorder, unspecified</td></tr><tr><td>F20.9</td><td>Schizophrenia, unspecified</td></tr><tr><td>F15.151</td><td>Other stimulant abuse with stimulant-induced psychotic disorder with hallucinations</td></tr><tr><td>F15.150</td><td>Other stimulant abuse with stimulant-induced psychotic disorder with delusions</td></tr><tr><td>F19.251</td><td>Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with hallucinations</td></tr><tr><td>F16.950</td><td>Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder with delusions</td></tr><tr><td>F25.8</td><td>Other schizoaffective disorders</td></tr><tr><td>F24</td><td>Shared psychotic disorder</td></tr><tr><td>F31.71</td><td>Bipolar disorder, in partial remission, most recent episode hypomanic</td></tr><tr><td>F28</td><td>Other psychotic disorder not due to a substance or known physiological condition</td></tr><tr><td>F32.5</td><td>Major depressive disorder, single episode, in full remission</td></tr><tr><td>F30.11</td><td>Manic episode without psychotic symptoms, mild</td></tr><tr><td>F21</td><td>Schizotypal disorder</td></tr><tr><td>F19.151</td><td>Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with hallucinations</td></tr><tr><td>F33.42</td><td>Major depressive disorder, recurrent, in full remission</td></tr><tr><td>F39</td><td>Unspecified mood [affective] disorder</td></tr><tr><td>F31.31</td><td>Bipolar disorder, current episode depressed, mild</td></tr><tr><td>F34.8</td><td>Other persistent mood [affective] disorders</td></tr><tr><td>F29</td><td>Unspecified psychosis not due to a substance or known physiological condition</td></tr><tr><td>F31.32</td><td>Bipolar disorder, current episode depressed, moderate</td></tr><tr><td>F31.0</td><td>Bipolar disorder, current episode hypomanic</td></tr><tr><td>F31.60</td><td>Bipolar disorder, current episode mixed, unspecified</td></tr><tr><td>F15.159</td><td>Other stimulant abuse with stimulant-induced psychotic disorder, unspecified</td></tr><tr><td>F30.12</td><td>Manic episode without psychotic symptoms, moderate</td></tr><tr><td>F18.150</td><td>Inhalant abuse with inhalant-induced psychotic disorder with delusions</td></tr><tr><td>F22</td><td>Delusional disorders</td></tr><tr><td>F18.950</td><td>Inhalant use, unspecified with inhalant-induced psychotic disorder with delusions</td></tr><tr><td>F19.959</td><td>Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder, unspecified</td></tr><tr><td>F31.62</td><td>Bipolar disorder, current episode mixed, moderate</td></tr><tr><td>F15.951</td><td>Other stimulant use, unspecified with stimulant-induced psychotic disorder with hallucinations</td></tr><tr><td>F19.259</td><td>Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder, unspecified</td></tr><tr><td>F15.251</td><td>Other stimulant dependence with stimulant-induced psychotic disorder with hallucinations</td></tr><tr><td>F30.4</td><td>Manic episode in full remission</td></tr><tr><td>F18.151</td><td>Inhalant abuse with inhalant-induced psychotic disorder with hallucinations</td></tr><tr><td>F19.950</td><td>Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder with delusions</td></tr><tr><td>F20.2</td><td>Catatonic schizophrenia</td></tr><tr><td>F19.250</td><td>Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with delusions</td></tr><tr><td>F33.40</td><td>Major depressive disorder, recurrent, in remission, unspecified</td></tr><tr><td>F16.251</td><td>Hallucinogen dependence with hallucinogen-induced psychotic disorder with hallucinations</td></tr><tr><td>F19.150</td><td>Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with delusions</td></tr><tr><td>F44.89</td><td>Other dissociative and conversion disorders</td></tr><tr><td>F34.0</td><td>Cyclothymic disorder</td></tr><tr><td>F33.41</td><td>Major depressive disorder, recurrent, in partial remission</td></tr><tr><td>F34.9</td><td>Persistent mood [affective] disorder, unspecified</td></tr><tr><td>F19.951</td><td>Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder with hallucinations</td></tr><tr><td>F18.251</td><td>Inhalant dependence with inhalant-induced psychotic disorder with hallucinations</td></tr><tr><td>F20.0</td><td>Paranoid schizophrenia</td></tr><tr><td>F31.73</td><td>Bipolar disorder, in partial remission, most recent episode manic</td></tr><tr><td>F25.9</td><td>Schizoaffective disorder, unspecified</td></tr><tr><td>F15.250</td><td>Other stimulant dependence with stimulant-induced psychotic disorder with delusions</td></tr><tr><td>F31.4</td><td>Bipolar disorder, current episode depressed, severe, without psychotic features</td></tr><tr><td>F16.150</td><td>Hallucinogen abuse with hallucinogen-induced psychotic disorder with delusions</td></tr><tr><td>F15.259</td><td>Other stimulant dependence with stimulant-induced psychotic disorder, unspecified</td></tr><tr><td>F20.3</td><td>Undifferentiated schizophrenia</td></tr><tr><td>F34.81</td><td>Disruptive mood dysregulation disorder</td></tr><tr><td>F16.159</td><td>Hallucinogen abuse with hallucinogen-induced psychotic disorder, unspecified</td></tr><tr><td>F20.1</td><td>Disorganized schizophrenia</td></tr><tr><td>F20.81</td><td>Schizophreniform disorder</td></tr><tr><td>F18.159</td><td>Inhalant abuse with inhalant-induced psychotic disorder, unspecified</td></tr><tr><td>F30.10</td><td>Manic episode without psychotic symptoms, unspecified</td></tr><tr><td>F16.250</td><td>Hallucinogen dependence with hallucinogen-induced psychotic disorder with delusions</td></tr><tr><td>F31.10</td><td>Bipolar disorder, current episode manic without psychotic features, unspecified</td></tr><tr><td>F31.70</td><td>Bipolar disorder, currently in remission, most recent episode unspecified</td></tr><tr><td>F23</td><td>Brief psychotic disorder</td></tr><tr><td>F31.72</td><td>Bipolar disorder, in full remission, most recent episode hypomanic</td></tr><tr><td>F30.9</td><td>Manic episode, unspecified</td></tr><tr><td>F31.89</td><td>Other bipolar disorder</td></tr><tr><td>F31.77</td><td>Bipolar disorder, in partial remission, most recent episode mixed</td></tr><tr><td>F31.2</td><td>Bipolar disorder, current episode manic severe with psychotic features</td></tr><tr><td>F31.63</td><td>Bipolar disorder, current episode mixed, severe, without psychotic features</td></tr><tr><td>F31.78</td><td>Bipolar disorder, in full remission, most recent episode mixed</td></tr><tr><td>F31.12</td><td>Bipolar disorder, current episode manic without psychotic features, moderate</td></tr><tr><td>F31.61</td><td>Bipolar disorder, current episode mixed, mild</td></tr><tr><td>F84.3</td><td>Other childhood disintegrative disorder</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <code>2021</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/16990005\">16990005</a></td><td>Subchronic schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/441704009\">441704009</a></td><td>Affective psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/238974009\">238974009</a></td><td>Delusions of infestation (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/111482003\">111482003</a></td><td>Subchronic schizophrenia with acute exacerbations (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191484009\">191484009</a></td><td>Drug-induced paranoia or hallucinatory states (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/31658008\">31658008</a></td><td>Chronic paranoid schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191542003\">191542003</a></td><td>Catatonic schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/65971000052100\">65971000052100</a></td><td>Acute psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/18260003\">18260003</a></td><td>Postpartum psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724759008\">724759008</a></td><td>Psychomotor symptom co-occurrent and due to psychotic disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/473452003\">473452003</a></td><td>Atypical psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191548004\">191548004</a></td><td>Acute exacerbation of chronic catatonic schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191574005\">191574005</a></td><td>Schizoaffective schizophrenia in remission (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/70814008\">70814008</a></td><td>Subchronic residual schizophrenia with acute exacerbations (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724760003\">724760003</a></td><td>Cognitive impairment co-occurrent and due to primary psychotic disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/75122001\">75122001</a></td><td>Inhalant-induced psychotic disorder with delusions (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/79204003\">79204003</a></td><td>Chronic undifferentiated schizophrenia with acute exacerbations (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724755002\">724755002</a></td><td>Positive symptoms co-occurrent and due to primary psychotic disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/83746006\">83746006</a></td><td>Chronic schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/69322001\">69322001</a></td><td>Psychotic disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/762327001\">762327001</a></td><td>Psychotic disorder with delusions caused by stimulant (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/38368003\">38368003</a></td><td>Schizoaffective disorder, bipolar type (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/762507003\">762507003</a></td><td>Psychotic disorder caused by synthetic cathinone (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/238978007\">238978007</a></td><td>Hyperschemazia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/27387000\">27387000</a></td><td>Subchronic disorganized schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724675001\">724675001</a></td><td>Psychotic disorder caused by anxiolytic (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/7025000\">7025000</a></td><td>Subchronic undifferentiated schizophrenia with acute exacerbations (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/403595006\">403595006</a></td><td>Pinocchio syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/51133006\">51133006</a></td><td>Residual schizophrenia in remission (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191555002\">191555002</a></td><td>Acute exacerbation of chronic paranoid schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/84760002\">84760002</a></td><td>Schizoaffective disorder, depressive type (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/762508008\">762508008</a></td><td>Psychotic disorder with hallucinations caused by synthetic cathinone (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/231437006\">231437006</a></td><td>Reactive psychoses (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/85861002\">85861002</a></td><td>Subchronic undifferentiated schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/762510005\">762510005</a></td><td>Psychotic disorder with schizophreniform symptoms caused by synthetic cathinone (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724673008\">724673008</a></td><td>Psychotic disorder caused by sedative (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/39610001\">39610001</a></td><td>Undifferentiated schizophrenia in remission (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/26472000\">26472000</a></td><td>Paraphrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/31373002\">31373002</a></td><td>Disorganized schizophrenia in remission (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/63181006\">63181006</a></td><td>Paranoid schizophrenia in remission (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/14291003\">14291003</a></td><td>Subchronic disorganized schizophrenia with acute exacerbations (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/79866005\">79866005</a></td><td>Subchronic paranoid schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/68890003\">68890003</a></td><td>Schizoaffective disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191486006\">191486006</a></td><td>Hallucinosis caused by drug (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/719717006\">719717006</a></td><td>Psychosis co-occurrent and due to Parkinson's disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191547009\">191547009</a></td><td>Acute exacerbation of subchronic catatonic schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/268617001\">268617001</a></td><td>Acute schizophrenic episode (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/288751000119101\">288751000119101</a></td><td>Reactive depressive psychosis, single episode (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/441833000\">441833000</a></td><td>Lethal catatonia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191494004\">191494004</a></td><td>Drug-induced amnestic syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/36158005\">36158005</a></td><td>Schizophreniform disorder with good prognostic features (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/54761006\">54761006</a></td><td>Severe depressed bipolar I disorder with psychotic features, mood-congruent (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/61831009\">61831009</a></td><td>Induced psychotic disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/408858002\">408858002</a></td><td>Infantile psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/278853003\">278853003</a></td><td>Acute schizophrenia-like psychotic disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191569002\">191569002</a></td><td>Subchronic schizoaffective schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15921731000119106\">15921731000119106</a></td><td>Psychotic disorder caused by methamphetamine (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724674002\">724674002</a></td><td>Psychotic disorder caused by hypnotic (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/20385005\">20385005</a></td><td>Opioid-induced psychotic disorder with delusions (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/357705009\">357705009</a></td><td>Cotard's syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/712850003\">712850003</a></td><td>Acute polymorphic psychotic disorder co-occurrent with symptoms of schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/42868002\">42868002</a></td><td>Subchronic catatonic schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/21831000119109\">21831000119109</a></td><td>Phencyclidine psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/35252006\">35252006</a></td><td>Disorganized schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191565008\">191565008</a></td><td>Latent schizophrenia in remission (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/231450007\">231450007</a></td><td>Psychosis associated with intensive care (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/271428004\">271428004</a></td><td>Schizoaffective disorder, manic type (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191471000\">191471000</a></td><td>Korsakov's alcoholic psychosis with peripheral neuritis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/231438001\">231438001</a></td><td>Presbyophrenic psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/270901009\">270901009</a></td><td>Schizoaffective disorder, mixed type (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/69482004\">69482004</a></td><td>Korsakoff's psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/301643003\">301643003</a></td><td>Sedative, hypnotic AND/OR anxiolytic-induced persisting amnestic disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/88975006\">88975006</a></td><td>Schizophreniform disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724729003\">724729003</a></td><td>Psychotic disorder caused by psychoactive substance (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191485005\">191485005</a></td><td>Drug-induced paranoid state (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/237352005\">237352005</a></td><td>Severe postnatal psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191531007\">191531007</a></td><td>Acute exacerbation of chronic schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/238973003\">238973003</a></td><td>Delusions of parasitosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/762509000\">762509000</a></td><td>Psychotic disorder with delusions caused by synthetic cathinone (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724655005\">724655005</a></td><td>Psychotic disorder caused by opioid (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/129602009\">129602009</a></td><td>Symbiotic infantile psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/64731001\">64731001</a></td><td>Severe mixed bipolar I disorder with psychotic features, mood-congruent (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/78640000\">78640000</a></td><td>Severe manic bipolar I disorder with psychotic features, mood-congruent (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191525009\">191525009</a></td><td>Non-organic psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191483003\">191483003</a></td><td>Drug-induced psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191554003\">191554003</a></td><td>Acute exacerbation of subchronic paranoid schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/38295006\">38295006</a></td><td>Involutional paraphrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724758000\">724758000</a></td><td>Manic symptoms co-occurrent and due to primary psychotic disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191527001\">191527001</a></td><td>Simple schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/58647003\">58647003</a></td><td>Severe mood disorder with psychotic features, mood-congruent (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/50722006\">50722006</a></td><td>Phencyclidine delusional disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724756001\">724756001</a></td><td>Negative symptoms co-occurrent and due to primary psychotic disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/10760461000119107\">10760461000119107</a></td><td>Psychotic disorder in mother complicating pregnancy (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/737225007\">737225007</a></td><td>Secondary psychotic syndrome with hallucinations and delusions (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/302507002\">302507002</a></td><td>Sedative amnestic disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/50933003\">50933003</a></td><td>Hallucinogen delusional disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/735750005\">735750005</a></td><td>Psychotic disorder with schizophreniform symptoms caused by cocaine (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724702008\">724702008</a></td><td>Psychotic disorder caused by volatile inhalant (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724706006\">724706006</a></td><td>Psychotic disorder caused by methylenedioxymethamphetamine (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191447007\">191447007</a></td><td>Organic psychotic condition (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/416340002\">416340002</a></td><td>Late onset schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/30336007\">30336007</a></td><td>Chronic residual schizophrenia with acute exacerbations (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191572009\">191572009</a></td><td>Acute exacerbation of chronic schizoaffective schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/231449007\">231449007</a></td><td>Epileptic psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/247804008\">247804008</a></td><td>Schizophrenic prodrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/55736003\">55736003</a></td><td>Schizophreniform disorder without good prognostic features (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/17262008\">17262008</a></td><td>Non-alcoholic Korsakoff's psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/58214004\">58214004</a></td><td>Schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/10760421000119102\">10760421000119102</a></td><td>Psychotic disorder in mother complicating childbirth (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/737340007\">737340007</a></td><td>Psychotic disorder caused by synthetic cannabinoid (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191567000\">191567000</a></td><td>Schizoaffective schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/60401000119104\">60401000119104</a></td><td>Postpartum psychosis in remission (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/237351003\">237351003</a></td><td>Mild postnatal psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/231489001\">231489001</a></td><td>Acute transient psychotic disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/274953007\">274953007</a></td><td>Acute polymorphic psychotic disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/111483008\">111483008</a></td><td>Catatonic schizophrenia in remission (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/723936000\">723936000</a></td><td>Psychotic disorder caused by cannabis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/76566000\">76566000</a></td><td>Subchronic residual schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/29599000\">29599000</a></td><td>Chronic undifferentiated schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/35218008\">35218008</a></td><td>Chronic disorganized schizophrenia with acute exacerbation (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191676002\">191676002</a></td><td>Reactive depressive psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/4926007\">4926007</a></td><td>Schizophrenia in remission (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724689006\">724689006</a></td><td>Psychotic disorder caused by cocaine (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/111484002\">111484002</a></td><td>Undifferentiated schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191563001\">191563001</a></td><td>Acute exacerbation of subchronic latent schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/268624000\">268624000</a></td><td>Acute paranoid reaction (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/7761000119106\">7761000119106</a></td><td>Psychotic disorder caused by amphetamine use (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/5464005\">5464005</a></td><td>Brief reactive psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/63204009\">63204009</a></td><td>Bouffée délirante (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/307417003\">307417003</a></td><td>Cycloid psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724696008\">724696008</a></td><td>Psychotic disorder caused by hallucinogen (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724719005\">724719005</a></td><td>Psychotic disorder caused by ketamine (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/63649001\">63649001</a></td><td>Cannabis delusional disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/371026009\">371026009</a></td><td>Senile dementia with psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/70546001\">70546001</a></td><td>Severe bipolar disorder with psychotic features, mood-congruent (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191678001\">191678001</a></td><td>Reactive confusion (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/238977002\">238977002</a></td><td>Delusional hyperhidrosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/32358001\">32358001</a></td><td>Amphetamine delusional disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/268612007\">268612007</a></td><td>Senile and presenile organic psychotic conditions (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/762326005\">762326005</a></td><td>Psychotic disorder with hallucinations caused by stimulant (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/238972008\">238972008</a></td><td>Cutaneous monosymptomatic delusional psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191570001\">191570001</a></td><td>Chronic schizoaffective schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191680007\">191680007</a></td><td>Psychogenic paranoid psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1973000\">1973000</a></td><td>Sedative, hypnotic AND/OR anxiolytic-induced psychotic disorder with delusions (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/68995007\">68995007</a></td><td>Chronic catatonic schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/231451006\">231451006</a></td><td>Drug-induced intensive care psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191577003\">191577003</a></td><td>Cenesthopathic schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/712824002\">712824002</a></td><td>Acute polymorphic psychotic disorder without symptoms of schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/762325009\">762325009</a></td><td>Psychotic disorder caused by stimulant (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/30491001\">30491001</a></td><td>Cocaine delusional disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191499009\">191499009</a></td><td>Transient organic psychoses (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724718002\">724718002</a></td><td>Psychotic disorder caused by dissociative drug (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/71103003\">71103003</a></td><td>Chronic residual schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191571002\">191571002</a></td><td>Acute exacerbation of subchronic schizoaffective schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/278852008\">278852008</a></td><td>Paranoid-hallucinatory epileptic psychosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/765176007\">765176007</a></td><td>Psychosis and severe depression co-occurrent and due to bipolar affective disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/786120041000132108\">786120041000132108</a></td><td>Psychotic disorder caused by substance (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/238979004\">238979004</a></td><td>Hyposchemazia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191526005\">191526005</a></td><td>Schizophrenic disorders (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/12939007\">12939007</a></td><td>Chronic disorganized schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/26025008\">26025008</a></td><td>Residual schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/64905009\">64905009</a></td><td>Paranoid schizophrenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/238975005\">238975005</a></td><td>Delusion of foul odor (disorder)</td></tr></table></li></ul></div>"
+  },
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/82ef0ff0-6d96-11ec-96e9-39ac2ca38464",
+  "version": "0.9.5",
+  "name": "Psychoses",
+  "title": "Psychoses",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-03-14T18:28:42+00:00",
+  "publisher": "Project Ronin Inc.",
+  "contact": [
+    {
+      "name": "Project Ronin Inc.",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.projectronin.com"
+        },
+        {
+          "system": "email",
+          "value": "contact@projectronin.com"
+        }
+      ]
+    }
+  ],
+  "description": "SNOMED and ICD10 codes for Psychoses",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "F20.89",
+            "display": "Other schizophrenia"
+          },
+          {
+            "code": "F16.959",
+            "display": "Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder, unspecified"
+          },
+          {
+            "code": "F30.13",
+            "display": "Manic episode, severe, without psychotic symptoms"
+          },
+          {
+            "code": "F16.151",
+            "display": "Hallucinogen abuse with hallucinogen-induced psychotic disorder with hallucinations"
+          },
+          {
+            "code": "F16.259",
+            "display": "Hallucinogen dependence with hallucinogen-induced psychotic disorder, unspecified"
+          },
+          {
+            "code": "F34.89",
+            "display": "Other specified persistent mood disorders"
+          },
+          {
+            "code": "F25.0",
+            "display": "Schizoaffective disorder, bipolar type"
+          },
+          {
+            "code": "F18.951",
+            "display": "Inhalant use, unspecified with inhalant-induced psychotic disorder with hallucinations"
+          },
+          {
+            "code": "F30.3",
+            "display": "Manic episode in partial remission"
+          },
+          {
+            "code": "F20.5",
+            "display": "Residual schizophrenia"
+          },
+          {
+            "code": "F31.74",
+            "display": "Bipolar disorder, in full remission, most recent episode manic"
+          },
+          {
+            "code": "F31.9",
+            "display": "Bipolar disorder, unspecified"
+          },
+          {
+            "code": "F30.8",
+            "display": "Other manic episodes"
+          },
+          {
+            "code": "F18.959",
+            "display": "Inhalant use, unspecified with inhalant-induced psychotic disorder, unspecified"
+          },
+          {
+            "code": "F25.1",
+            "display": "Schizoaffective disorder, depressive type"
+          },
+          {
+            "code": "F32.4",
+            "display": "Major depressive disorder, single episode, in partial remission"
+          },
+          {
+            "code": "F31.76",
+            "display": "Bipolar disorder, in full remission, most recent episode depressed"
+          },
+          {
+            "code": "F30.2",
+            "display": "Manic episode, severe with psychotic symptoms"
+          },
+          {
+            "code": "F31.64",
+            "display": "Bipolar disorder, current episode mixed, severe, with psychotic features"
+          },
+          {
+            "code": "F18.250",
+            "display": "Inhalant dependence with inhalant-induced psychotic disorder with delusions"
+          },
+          {
+            "code": "F31.30",
+            "display": "Bipolar disorder, current episode depressed, mild or moderate severity, unspecified"
+          },
+          {
+            "code": "F31.13",
+            "display": "Bipolar disorder, current episode manic without psychotic features, severe"
+          },
+          {
+            "code": "F31.81",
+            "display": "Bipolar II disorder"
+          },
+          {
+            "code": "F19.159",
+            "display": "Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder, unspecified"
+          },
+          {
+            "code": "F31.11",
+            "display": "Bipolar disorder, current episode manic without psychotic features, mild"
+          },
+          {
+            "code": "F16.951",
+            "display": "Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder with hallucinations"
+          },
+          {
+            "code": "F15.950",
+            "display": "Other stimulant use, unspecified with stimulant-induced psychotic disorder with delusions"
+          },
+          {
+            "code": "F31.75",
+            "display": "Bipolar disorder, in partial remission, most recent episode depressed"
+          },
+          {
+            "code": "F31.5",
+            "display": "Bipolar disorder, current episode depressed, severe, with psychotic features"
+          },
+          {
+            "code": "F18.259",
+            "display": "Inhalant dependence with inhalant-induced psychotic disorder, unspecified"
+          },
+          {
+            "code": "F15.959",
+            "display": "Other stimulant use, unspecified with stimulant-induced psychotic disorder, unspecified"
+          },
+          {
+            "code": "F20.9",
+            "display": "Schizophrenia, unspecified"
+          },
+          {
+            "code": "F15.151",
+            "display": "Other stimulant abuse with stimulant-induced psychotic disorder with hallucinations"
+          },
+          {
+            "code": "F15.150",
+            "display": "Other stimulant abuse with stimulant-induced psychotic disorder with delusions"
+          },
+          {
+            "code": "F19.251",
+            "display": "Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with hallucinations"
+          },
+          {
+            "code": "F16.950",
+            "display": "Hallucinogen use, unspecified with hallucinogen-induced psychotic disorder with delusions"
+          },
+          {
+            "code": "F25.8",
+            "display": "Other schizoaffective disorders"
+          },
+          {
+            "code": "F24",
+            "display": "Shared psychotic disorder"
+          },
+          {
+            "code": "F31.71",
+            "display": "Bipolar disorder, in partial remission, most recent episode hypomanic"
+          },
+          {
+            "code": "F28",
+            "display": "Other psychotic disorder not due to a substance or known physiological condition"
+          },
+          {
+            "code": "F32.5",
+            "display": "Major depressive disorder, single episode, in full remission"
+          },
+          {
+            "code": "F30.11",
+            "display": "Manic episode without psychotic symptoms, mild"
+          },
+          {
+            "code": "F21",
+            "display": "Schizotypal disorder"
+          },
+          {
+            "code": "F19.151",
+            "display": "Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with hallucinations"
+          },
+          {
+            "code": "F33.42",
+            "display": "Major depressive disorder, recurrent, in full remission"
+          },
+          {
+            "code": "F39",
+            "display": "Unspecified mood [affective] disorder"
+          },
+          {
+            "code": "F31.31",
+            "display": "Bipolar disorder, current episode depressed, mild"
+          },
+          {
+            "code": "F34.8",
+            "display": "Other persistent mood [affective] disorders"
+          },
+          {
+            "code": "F29",
+            "display": "Unspecified psychosis not due to a substance or known physiological condition"
+          },
+          {
+            "code": "F31.32",
+            "display": "Bipolar disorder, current episode depressed, moderate"
+          },
+          {
+            "code": "F31.0",
+            "display": "Bipolar disorder, current episode hypomanic"
+          },
+          {
+            "code": "F31.60",
+            "display": "Bipolar disorder, current episode mixed, unspecified"
+          },
+          {
+            "code": "F15.159",
+            "display": "Other stimulant abuse with stimulant-induced psychotic disorder, unspecified"
+          },
+          {
+            "code": "F30.12",
+            "display": "Manic episode without psychotic symptoms, moderate"
+          },
+          {
+            "code": "F18.150",
+            "display": "Inhalant abuse with inhalant-induced psychotic disorder with delusions"
+          },
+          {
+            "code": "F22",
+            "display": "Delusional disorders"
+          },
+          {
+            "code": "F18.950",
+            "display": "Inhalant use, unspecified with inhalant-induced psychotic disorder with delusions"
+          },
+          {
+            "code": "F19.959",
+            "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder, unspecified"
+          },
+          {
+            "code": "F31.62",
+            "display": "Bipolar disorder, current episode mixed, moderate"
+          },
+          {
+            "code": "F15.951",
+            "display": "Other stimulant use, unspecified with stimulant-induced psychotic disorder with hallucinations"
+          },
+          {
+            "code": "F19.259",
+            "display": "Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder, unspecified"
+          },
+          {
+            "code": "F15.251",
+            "display": "Other stimulant dependence with stimulant-induced psychotic disorder with hallucinations"
+          },
+          {
+            "code": "F30.4",
+            "display": "Manic episode in full remission"
+          },
+          {
+            "code": "F18.151",
+            "display": "Inhalant abuse with inhalant-induced psychotic disorder with hallucinations"
+          },
+          {
+            "code": "F19.950",
+            "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder with delusions"
+          },
+          {
+            "code": "F20.2",
+            "display": "Catatonic schizophrenia"
+          },
+          {
+            "code": "F19.250",
+            "display": "Other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with delusions"
+          },
+          {
+            "code": "F33.40",
+            "display": "Major depressive disorder, recurrent, in remission, unspecified"
+          },
+          {
+            "code": "F16.251",
+            "display": "Hallucinogen dependence with hallucinogen-induced psychotic disorder with hallucinations"
+          },
+          {
+            "code": "F19.150",
+            "display": "Other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with delusions"
+          },
+          {
+            "code": "F44.89",
+            "display": "Other dissociative and conversion disorders"
+          },
+          {
+            "code": "F34.0",
+            "display": "Cyclothymic disorder"
+          },
+          {
+            "code": "F33.41",
+            "display": "Major depressive disorder, recurrent, in partial remission"
+          },
+          {
+            "code": "F34.9",
+            "display": "Persistent mood [affective] disorder, unspecified"
+          },
+          {
+            "code": "F19.951",
+            "display": "Other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder with hallucinations"
+          },
+          {
+            "code": "F18.251",
+            "display": "Inhalant dependence with inhalant-induced psychotic disorder with hallucinations"
+          },
+          {
+            "code": "F20.0",
+            "display": "Paranoid schizophrenia"
+          },
+          {
+            "code": "F31.73",
+            "display": "Bipolar disorder, in partial remission, most recent episode manic"
+          },
+          {
+            "code": "F25.9",
+            "display": "Schizoaffective disorder, unspecified"
+          },
+          {
+            "code": "F15.250",
+            "display": "Other stimulant dependence with stimulant-induced psychotic disorder with delusions"
+          },
+          {
+            "code": "F31.4",
+            "display": "Bipolar disorder, current episode depressed, severe, without psychotic features"
+          },
+          {
+            "code": "F16.150",
+            "display": "Hallucinogen abuse with hallucinogen-induced psychotic disorder with delusions"
+          },
+          {
+            "code": "F15.259",
+            "display": "Other stimulant dependence with stimulant-induced psychotic disorder, unspecified"
+          },
+          {
+            "code": "F20.3",
+            "display": "Undifferentiated schizophrenia"
+          },
+          {
+            "code": "F34.81",
+            "display": "Disruptive mood dysregulation disorder"
+          },
+          {
+            "code": "F16.159",
+            "display": "Hallucinogen abuse with hallucinogen-induced psychotic disorder, unspecified"
+          },
+          {
+            "code": "F20.1",
+            "display": "Disorganized schizophrenia"
+          },
+          {
+            "code": "F20.81",
+            "display": "Schizophreniform disorder"
+          },
+          {
+            "code": "F18.159",
+            "display": "Inhalant abuse with inhalant-induced psychotic disorder, unspecified"
+          },
+          {
+            "code": "F30.10",
+            "display": "Manic episode without psychotic symptoms, unspecified"
+          },
+          {
+            "code": "F16.250",
+            "display": "Hallucinogen dependence with hallucinogen-induced psychotic disorder with delusions"
+          },
+          {
+            "code": "F31.10",
+            "display": "Bipolar disorder, current episode manic without psychotic features, unspecified"
+          },
+          {
+            "code": "F31.70",
+            "display": "Bipolar disorder, currently in remission, most recent episode unspecified"
+          },
+          {
+            "code": "F23",
+            "display": "Brief psychotic disorder"
+          },
+          {
+            "code": "F31.72",
+            "display": "Bipolar disorder, in full remission, most recent episode hypomanic"
+          },
+          {
+            "code": "F30.9",
+            "display": "Manic episode, unspecified"
+          },
+          {
+            "code": "F31.89",
+            "display": "Other bipolar disorder"
+          },
+          {
+            "code": "F31.77",
+            "display": "Bipolar disorder, in partial remission, most recent episode mixed"
+          },
+          {
+            "code": "F31.2",
+            "display": "Bipolar disorder, current episode manic severe with psychotic features"
+          },
+          {
+            "code": "F31.63",
+            "display": "Bipolar disorder, current episode mixed, severe, without psychotic features"
+          },
+          {
+            "code": "F31.78",
+            "display": "Bipolar disorder, in full remission, most recent episode mixed"
+          },
+          {
+            "code": "F31.12",
+            "display": "Bipolar disorder, current episode manic without psychotic features, moderate"
+          },
+          {
+            "code": "F31.61",
+            "display": "Bipolar disorder, current episode mixed, mild"
+          },
+          {
+            "code": "F84.3",
+            "display": "Other childhood disintegrative disorder"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "16990005",
+            "display": "Subchronic schizophrenia (disorder)"
+          },
+          {
+            "code": "441704009",
+            "display": "Affective psychosis (disorder)"
+          },
+          {
+            "code": "238974009",
+            "display": "Delusions of infestation (disorder)"
+          },
+          {
+            "code": "111482003",
+            "display": "Subchronic schizophrenia with acute exacerbations (disorder)"
+          },
+          {
+            "code": "191484009",
+            "display": "Drug-induced paranoia or hallucinatory states (disorder)"
+          },
+          {
+            "code": "31658008",
+            "display": "Chronic paranoid schizophrenia (disorder)"
+          },
+          {
+            "code": "191542003",
+            "display": "Catatonic schizophrenia (disorder)"
+          },
+          {
+            "code": "65971000052100",
+            "display": "Acute psychosis (disorder)"
+          },
+          {
+            "code": "18260003",
+            "display": "Postpartum psychosis (disorder)"
+          },
+          {
+            "code": "724759008",
+            "display": "Psychomotor symptom co-occurrent and due to psychotic disorder (disorder)"
+          },
+          {
+            "code": "473452003",
+            "display": "Atypical psychosis (disorder)"
+          },
+          {
+            "code": "191548004",
+            "display": "Acute exacerbation of chronic catatonic schizophrenia (disorder)"
+          },
+          {
+            "code": "191574005",
+            "display": "Schizoaffective schizophrenia in remission (disorder)"
+          },
+          {
+            "code": "70814008",
+            "display": "Subchronic residual schizophrenia with acute exacerbations (disorder)"
+          },
+          {
+            "code": "724760003",
+            "display": "Cognitive impairment co-occurrent and due to primary psychotic disorder (disorder)"
+          },
+          {
+            "code": "75122001",
+            "display": "Inhalant-induced psychotic disorder with delusions (disorder)"
+          },
+          {
+            "code": "79204003",
+            "display": "Chronic undifferentiated schizophrenia with acute exacerbations (disorder)"
+          },
+          {
+            "code": "724755002",
+            "display": "Positive symptoms co-occurrent and due to primary psychotic disorder (disorder)"
+          },
+          {
+            "code": "83746006",
+            "display": "Chronic schizophrenia (disorder)"
+          },
+          {
+            "code": "69322001",
+            "display": "Psychotic disorder (disorder)"
+          },
+          {
+            "code": "762327001",
+            "display": "Psychotic disorder with delusions caused by stimulant (disorder)"
+          },
+          {
+            "code": "38368003",
+            "display": "Schizoaffective disorder, bipolar type (disorder)"
+          },
+          {
+            "code": "762507003",
+            "display": "Psychotic disorder caused by synthetic cathinone (disorder)"
+          },
+          {
+            "code": "238978007",
+            "display": "Hyperschemazia (disorder)"
+          },
+          {
+            "code": "27387000",
+            "display": "Subchronic disorganized schizophrenia (disorder)"
+          },
+          {
+            "code": "724675001",
+            "display": "Psychotic disorder caused by anxiolytic (disorder)"
+          },
+          {
+            "code": "7025000",
+            "display": "Subchronic undifferentiated schizophrenia with acute exacerbations (disorder)"
+          },
+          {
+            "code": "403595006",
+            "display": "Pinocchio syndrome (disorder)"
+          },
+          {
+            "code": "51133006",
+            "display": "Residual schizophrenia in remission (disorder)"
+          },
+          {
+            "code": "191555002",
+            "display": "Acute exacerbation of chronic paranoid schizophrenia (disorder)"
+          },
+          {
+            "code": "84760002",
+            "display": "Schizoaffective disorder, depressive type (disorder)"
+          },
+          {
+            "code": "762508008",
+            "display": "Psychotic disorder with hallucinations caused by synthetic cathinone (disorder)"
+          },
+          {
+            "code": "231437006",
+            "display": "Reactive psychoses (disorder)"
+          },
+          {
+            "code": "85861002",
+            "display": "Subchronic undifferentiated schizophrenia (disorder)"
+          },
+          {
+            "code": "762510005",
+            "display": "Psychotic disorder with schizophreniform symptoms caused by synthetic cathinone (disorder)"
+          },
+          {
+            "code": "724673008",
+            "display": "Psychotic disorder caused by sedative (disorder)"
+          },
+          {
+            "code": "39610001",
+            "display": "Undifferentiated schizophrenia in remission (disorder)"
+          },
+          {
+            "code": "26472000",
+            "display": "Paraphrenia (disorder)"
+          },
+          {
+            "code": "31373002",
+            "display": "Disorganized schizophrenia in remission (disorder)"
+          },
+          {
+            "code": "63181006",
+            "display": "Paranoid schizophrenia in remission (disorder)"
+          },
+          {
+            "code": "14291003",
+            "display": "Subchronic disorganized schizophrenia with acute exacerbations (disorder)"
+          },
+          {
+            "code": "79866005",
+            "display": "Subchronic paranoid schizophrenia (disorder)"
+          },
+          {
+            "code": "68890003",
+            "display": "Schizoaffective disorder (disorder)"
+          },
+          {
+            "code": "191486006",
+            "display": "Hallucinosis caused by drug (disorder)"
+          },
+          {
+            "code": "719717006",
+            "display": "Psychosis co-occurrent and due to Parkinson's disease (disorder)"
+          },
+          {
+            "code": "191547009",
+            "display": "Acute exacerbation of subchronic catatonic schizophrenia (disorder)"
+          },
+          {
+            "code": "268617001",
+            "display": "Acute schizophrenic episode (disorder)"
+          },
+          {
+            "code": "288751000119101",
+            "display": "Reactive depressive psychosis, single episode (disorder)"
+          },
+          {
+            "code": "441833000",
+            "display": "Lethal catatonia (disorder)"
+          },
+          {
+            "code": "191494004",
+            "display": "Drug-induced amnestic syndrome (disorder)"
+          },
+          {
+            "code": "36158005",
+            "display": "Schizophreniform disorder with good prognostic features (disorder)"
+          },
+          {
+            "code": "54761006",
+            "display": "Severe depressed bipolar I disorder with psychotic features, mood-congruent (disorder)"
+          },
+          {
+            "code": "61831009",
+            "display": "Induced psychotic disorder (disorder)"
+          },
+          {
+            "code": "408858002",
+            "display": "Infantile psychosis (disorder)"
+          },
+          {
+            "code": "278853003",
+            "display": "Acute schizophrenia-like psychotic disorder (disorder)"
+          },
+          {
+            "code": "191569002",
+            "display": "Subchronic schizoaffective schizophrenia (disorder)"
+          },
+          {
+            "code": "15921731000119106",
+            "display": "Psychotic disorder caused by methamphetamine (disorder)"
+          },
+          {
+            "code": "724674002",
+            "display": "Psychotic disorder caused by hypnotic (disorder)"
+          },
+          {
+            "code": "20385005",
+            "display": "Opioid-induced psychotic disorder with delusions (disorder)"
+          },
+          {
+            "code": "357705009",
+            "display": "Cotard's syndrome (disorder)"
+          },
+          {
+            "code": "712850003",
+            "display": "Acute polymorphic psychotic disorder co-occurrent with symptoms of schizophrenia (disorder)"
+          },
+          {
+            "code": "42868002",
+            "display": "Subchronic catatonic schizophrenia (disorder)"
+          },
+          {
+            "code": "21831000119109",
+            "display": "Phencyclidine psychosis (disorder)"
+          },
+          {
+            "code": "35252006",
+            "display": "Disorganized schizophrenia (disorder)"
+          },
+          {
+            "code": "191565008",
+            "display": "Latent schizophrenia in remission (disorder)"
+          },
+          {
+            "code": "231450007",
+            "display": "Psychosis associated with intensive care (disorder)"
+          },
+          {
+            "code": "271428004",
+            "display": "Schizoaffective disorder, manic type (disorder)"
+          },
+          {
+            "code": "191471000",
+            "display": "Korsakov's alcoholic psychosis with peripheral neuritis (disorder)"
+          },
+          {
+            "code": "231438001",
+            "display": "Presbyophrenic psychosis (disorder)"
+          },
+          {
+            "code": "270901009",
+            "display": "Schizoaffective disorder, mixed type (disorder)"
+          },
+          {
+            "code": "69482004",
+            "display": "Korsakoff's psychosis (disorder)"
+          },
+          {
+            "code": "301643003",
+            "display": "Sedative, hypnotic AND/OR anxiolytic-induced persisting amnestic disorder (disorder)"
+          },
+          {
+            "code": "88975006",
+            "display": "Schizophreniform disorder (disorder)"
+          },
+          {
+            "code": "724729003",
+            "display": "Psychotic disorder caused by psychoactive substance (disorder)"
+          },
+          {
+            "code": "191485005",
+            "display": "Drug-induced paranoid state (disorder)"
+          },
+          {
+            "code": "237352005",
+            "display": "Severe postnatal psychosis (disorder)"
+          },
+          {
+            "code": "191531007",
+            "display": "Acute exacerbation of chronic schizophrenia (disorder)"
+          },
+          {
+            "code": "238973003",
+            "display": "Delusions of parasitosis (disorder)"
+          },
+          {
+            "code": "762509000",
+            "display": "Psychotic disorder with delusions caused by synthetic cathinone (disorder)"
+          },
+          {
+            "code": "724655005",
+            "display": "Psychotic disorder caused by opioid (disorder)"
+          },
+          {
+            "code": "129602009",
+            "display": "Symbiotic infantile psychosis (disorder)"
+          },
+          {
+            "code": "64731001",
+            "display": "Severe mixed bipolar I disorder with psychotic features, mood-congruent (disorder)"
+          },
+          {
+            "code": "78640000",
+            "display": "Severe manic bipolar I disorder with psychotic features, mood-congruent (disorder)"
+          },
+          {
+            "code": "191525009",
+            "display": "Non-organic psychosis (disorder)"
+          },
+          {
+            "code": "191483003",
+            "display": "Drug-induced psychosis (disorder)"
+          },
+          {
+            "code": "191554003",
+            "display": "Acute exacerbation of subchronic paranoid schizophrenia (disorder)"
+          },
+          {
+            "code": "38295006",
+            "display": "Involutional paraphrenia (disorder)"
+          },
+          {
+            "code": "724758000",
+            "display": "Manic symptoms co-occurrent and due to primary psychotic disorder (disorder)"
+          },
+          {
+            "code": "191527001",
+            "display": "Simple schizophrenia (disorder)"
+          },
+          {
+            "code": "58647003",
+            "display": "Severe mood disorder with psychotic features, mood-congruent (disorder)"
+          },
+          {
+            "code": "50722006",
+            "display": "Phencyclidine delusional disorder (disorder)"
+          },
+          {
+            "code": "724756001",
+            "display": "Negative symptoms co-occurrent and due to primary psychotic disorder (disorder)"
+          },
+          {
+            "code": "10760461000119107",
+            "display": "Psychotic disorder in mother complicating pregnancy (disorder)"
+          },
+          {
+            "code": "737225007",
+            "display": "Secondary psychotic syndrome with hallucinations and delusions (disorder)"
+          },
+          {
+            "code": "302507002",
+            "display": "Sedative amnestic disorder (disorder)"
+          },
+          {
+            "code": "50933003",
+            "display": "Hallucinogen delusional disorder (disorder)"
+          },
+          {
+            "code": "735750005",
+            "display": "Psychotic disorder with schizophreniform symptoms caused by cocaine (disorder)"
+          },
+          {
+            "code": "724702008",
+            "display": "Psychotic disorder caused by volatile inhalant (disorder)"
+          },
+          {
+            "code": "724706006",
+            "display": "Psychotic disorder caused by methylenedioxymethamphetamine (disorder)"
+          },
+          {
+            "code": "191447007",
+            "display": "Organic psychotic condition (disorder)"
+          },
+          {
+            "code": "416340002",
+            "display": "Late onset schizophrenia (disorder)"
+          },
+          {
+            "code": "30336007",
+            "display": "Chronic residual schizophrenia with acute exacerbations (disorder)"
+          },
+          {
+            "code": "191572009",
+            "display": "Acute exacerbation of chronic schizoaffective schizophrenia (disorder)"
+          },
+          {
+            "code": "231449007",
+            "display": "Epileptic psychosis (disorder)"
+          },
+          {
+            "code": "247804008",
+            "display": "Schizophrenic prodrome (disorder)"
+          },
+          {
+            "code": "55736003",
+            "display": "Schizophreniform disorder without good prognostic features (disorder)"
+          },
+          {
+            "code": "17262008",
+            "display": "Non-alcoholic Korsakoff's psychosis (disorder)"
+          },
+          {
+            "code": "58214004",
+            "display": "Schizophrenia (disorder)"
+          },
+          {
+            "code": "10760421000119102",
+            "display": "Psychotic disorder in mother complicating childbirth (disorder)"
+          },
+          {
+            "code": "737340007",
+            "display": "Psychotic disorder caused by synthetic cannabinoid (disorder)"
+          },
+          {
+            "code": "191567000",
+            "display": "Schizoaffective schizophrenia (disorder)"
+          },
+          {
+            "code": "60401000119104",
+            "display": "Postpartum psychosis in remission (disorder)"
+          },
+          {
+            "code": "237351003",
+            "display": "Mild postnatal psychosis (disorder)"
+          },
+          {
+            "code": "231489001",
+            "display": "Acute transient psychotic disorder (disorder)"
+          },
+          {
+            "code": "274953007",
+            "display": "Acute polymorphic psychotic disorder (disorder)"
+          },
+          {
+            "code": "111483008",
+            "display": "Catatonic schizophrenia in remission (disorder)"
+          },
+          {
+            "code": "723936000",
+            "display": "Psychotic disorder caused by cannabis (disorder)"
+          },
+          {
+            "code": "76566000",
+            "display": "Subchronic residual schizophrenia (disorder)"
+          },
+          {
+            "code": "29599000",
+            "display": "Chronic undifferentiated schizophrenia (disorder)"
+          },
+          {
+            "code": "35218008",
+            "display": "Chronic disorganized schizophrenia with acute exacerbation (disorder)"
+          },
+          {
+            "code": "191676002",
+            "display": "Reactive depressive psychosis (disorder)"
+          },
+          {
+            "code": "4926007",
+            "display": "Schizophrenia in remission (disorder)"
+          },
+          {
+            "code": "724689006",
+            "display": "Psychotic disorder caused by cocaine (disorder)"
+          },
+          {
+            "code": "111484002",
+            "display": "Undifferentiated schizophrenia (disorder)"
+          },
+          {
+            "code": "191563001",
+            "display": "Acute exacerbation of subchronic latent schizophrenia (disorder)"
+          },
+          {
+            "code": "268624000",
+            "display": "Acute paranoid reaction (disorder)"
+          },
+          {
+            "code": "7761000119106",
+            "display": "Psychotic disorder caused by amphetamine use (disorder)"
+          },
+          {
+            "code": "5464005",
+            "display": "Brief reactive psychosis (disorder)"
+          },
+          {
+            "code": "63204009",
+            "display": "Bouffée délirante (disorder)"
+          },
+          {
+            "code": "307417003",
+            "display": "Cycloid psychosis (disorder)"
+          },
+          {
+            "code": "724696008",
+            "display": "Psychotic disorder caused by hallucinogen (disorder)"
+          },
+          {
+            "code": "724719005",
+            "display": "Psychotic disorder caused by ketamine (disorder)"
+          },
+          {
+            "code": "63649001",
+            "display": "Cannabis delusional disorder (disorder)"
+          },
+          {
+            "code": "371026009",
+            "display": "Senile dementia with psychosis (disorder)"
+          },
+          {
+            "code": "70546001",
+            "display": "Severe bipolar disorder with psychotic features, mood-congruent (disorder)"
+          },
+          {
+            "code": "191678001",
+            "display": "Reactive confusion (disorder)"
+          },
+          {
+            "code": "238977002",
+            "display": "Delusional hyperhidrosis (disorder)"
+          },
+          {
+            "code": "32358001",
+            "display": "Amphetamine delusional disorder (disorder)"
+          },
+          {
+            "code": "268612007",
+            "display": "Senile and presenile organic psychotic conditions (disorder)"
+          },
+          {
+            "code": "762326005",
+            "display": "Psychotic disorder with hallucinations caused by stimulant (disorder)"
+          },
+          {
+            "code": "238972008",
+            "display": "Cutaneous monosymptomatic delusional psychosis (disorder)"
+          },
+          {
+            "code": "191570001",
+            "display": "Chronic schizoaffective schizophrenia (disorder)"
+          },
+          {
+            "code": "191680007",
+            "display": "Psychogenic paranoid psychosis (disorder)"
+          },
+          {
+            "code": "1973000",
+            "display": "Sedative, hypnotic AND/OR anxiolytic-induced psychotic disorder with delusions (disorder)"
+          },
+          {
+            "code": "68995007",
+            "display": "Chronic catatonic schizophrenia (disorder)"
+          },
+          {
+            "code": "231451006",
+            "display": "Drug-induced intensive care psychosis (disorder)"
+          },
+          {
+            "code": "191577003",
+            "display": "Cenesthopathic schizophrenia (disorder)"
+          },
+          {
+            "code": "712824002",
+            "display": "Acute polymorphic psychotic disorder without symptoms of schizophrenia (disorder)"
+          },
+          {
+            "code": "762325009",
+            "display": "Psychotic disorder caused by stimulant (disorder)"
+          },
+          {
+            "code": "30491001",
+            "display": "Cocaine delusional disorder (disorder)"
+          },
+          {
+            "code": "191499009",
+            "display": "Transient organic psychoses (disorder)"
+          },
+          {
+            "code": "724718002",
+            "display": "Psychotic disorder caused by dissociative drug (disorder)"
+          },
+          {
+            "code": "71103003",
+            "display": "Chronic residual schizophrenia (disorder)"
+          },
+          {
+            "code": "191571002",
+            "display": "Acute exacerbation of subchronic schizoaffective schizophrenia (disorder)"
+          },
+          {
+            "code": "278852008",
+            "display": "Paranoid-hallucinatory epileptic psychosis (disorder)"
+          },
+          {
+            "code": "765176007",
+            "display": "Psychosis and severe depression co-occurrent and due to bipolar affective disorder (disorder)"
+          },
+          {
+            "code": "786120041000132108",
+            "display": "Psychotic disorder caused by substance (disorder)"
+          },
+          {
+            "code": "238979004",
+            "display": "Hyposchemazia (disorder)"
+          },
+          {
+            "code": "191526005",
+            "display": "Schizophrenic disorders (disorder)"
+          },
+          {
+            "code": "12939007",
+            "display": "Chronic disorganized schizophrenia (disorder)"
+          },
+          {
+            "code": "26025008",
+            "display": "Residual schizophrenia (disorder)"
+          },
+          {
+            "code": "64905009",
+            "display": "Paranoid schizophrenia (disorder)"
+          },
+          {
+            "code": "238975005",
+            "display": "Delusion of foul odor (disorder)"
+          }
+        ]
+      }
+    ]
+  }
+}

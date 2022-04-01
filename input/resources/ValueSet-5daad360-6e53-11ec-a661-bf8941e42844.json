@@ -1,0 +1,2412 @@
+{
+  "resourceType": "ValueSet",
+  "id": "5daad360-6e53-11ec-a661-bf8941e42844",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <code>2021</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/16007751000119109\">16007751000119109</a></td><td>Thrombosis of artery of right upper extremity (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/297150007\">297150007</a></td><td>Common iliac artery thrombosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16007711000119108\">16007711000119108</a></td><td>Thrombosis of artery of bilateral upper limbs (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/312375001\">312375001</a></td><td>Upper limb arterial embolus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/297154003\">297154003</a></td><td>Subclavian artery thrombosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/442439008\">442439008</a></td><td>Atherosclerosis of bypass graft of limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/12236991000119103\">12236991000119103</a></td><td>Pain at rest of bilateral lower limbs co-occurrent and due to atherosclerosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15967301000119102\">15967301000119102</a></td><td>Stenosis of bilateral subclavian arteries (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/312829002\">312829002</a></td><td>Common femoral artery stenosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16018991000119103\">16018991000119103</a></td><td>Atherosclerosis of autologous vein bypass graft of left upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/297153009\">297153009</a></td><td>Profunda femoris artery thrombosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16019431000119102\">16019431000119102</a></td><td>Atherosclerosis of bypass graft of right upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1010730002\">1010730002</a></td><td>Thromboembolus of artery of lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/312380005\">312380005</a></td><td>Post-radiological embolism of lower limb artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/53751009\">53751009</a></td><td>Senile purpura (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16009431000119100\">16009431000119100</a></td><td>Embolism of artery of left upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/734298005\">734298005</a></td><td>Thromboembolus of internal iliac artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/74725000\">74725000</a></td><td>Erythrocyanosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/195325004\">195325004</a></td><td>Embolism and thrombosis of the anterior tibial artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15710281000119108\">15710281000119108</a></td><td>Atherosclerosis of autologous bypass graft of right lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/60989005\">60989005</a></td><td>Thromboembolism of renal arteries (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/442735001\">442735001</a></td><td>Atherosclerosis of nonautologous bypass graft of limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16012711000119107\">16012711000119107</a></td><td>Atheroembolism of bilateral lower limbs (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/312822006\">312822006</a></td><td>Critical ischemia of foot (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/28810001000004102\">28810001000004102</a></td><td>Stenosis of right iliac artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/709587006\">709587006</a></td><td>Atherosclerosis of autologous bypass graft of lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/90958004\">90958004</a></td><td>Thrombosis of arteries of lower extremity (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15710601000119102\">15710601000119102</a></td><td>Atherosclerosis of bypass graft of bilateral lower limbs (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/312378004\">312378004</a></td><td>Lower limb arterial embolus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15972461000119101\">15972461000119101</a></td><td>Thrombosis of left iliac artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16012511000119101\">16012511000119101</a></td><td>Embolism of artery of left lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/312826009\">312826009</a></td><td>External iliac artery occlusion (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/236488005\">236488005</a></td><td>Renal artery occlusion (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/422166005\">422166005</a></td><td>Peripheral circulatory disorder due to type 2 diabetes mellitus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/195319003\">195319003</a></td><td>Embolism and thrombosis of the brachial artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15966701000119103\">15966701000119103</a></td><td>Atheroembolism of right renal artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/233961000\">233961000</a></td><td>Lower limb ischemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/297152004\">297152004</a></td><td>Internal iliac artery thrombosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15972621000119109\">15972621000119109</a></td><td>Embolism of right iliac artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16011391000119108\">16011391000119108</a></td><td>Stenosis of artery of left lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/297136002\">297136002</a></td><td>Axillary artery embolus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/243410003\">243410003</a></td><td>Thrombosis of mesenteric artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/271432005\">271432005</a></td><td>Congenital renal artery stenosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/10749961000119104\">10749961000119104</a></td><td>Occlusion of aortoiliac artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/431706008\">431706008</a></td><td>Occlusion of artery of upper extremity (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15972581000119109\">15972581000119109</a></td><td>Embolism of left iliac artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/312377009\">312377009</a></td><td>Post-radiological embolism of upper limb artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16012551000119100\">16012551000119100</a></td><td>Embolism of artery of right lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16019511000119108\">16019511000119108</a></td><td>Atherosclerosis of right iliac artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/233967001\">233967001</a></td><td>Common iliac artery stenosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15710401000119104\">15710401000119104</a></td><td>Atherosclerosis of bypass graft of right lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15972541000119104\">15972541000119104</a></td><td>Thrombosis of bilateral iliac arteries (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/276500007\">276500007</a></td><td>Mesenteric embolus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/31211000119101\">31211000119101</a></td><td>Peripheral angiopathy due to type 1 diabetes mellitus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16011431000119103\">16011431000119103</a></td><td>Stenosis of artery of right lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/275446004\">275446004</a></td><td>Gardner-Diamond syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/312827000\">312827000</a></td><td>Superficial femoral artery occlusion (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16013351000119104\">16013351000119104</a></td><td>Claudication of bilateral upper limbs co-occurrent and due to atherosclerosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16007911000119106\">16007911000119106</a></td><td>Thrombosis of left ulnar artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/34881000119105\">34881000119105</a></td><td>Peripheral vascular disease associated with another disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/403391003\">403391003</a></td><td>Secondary erythromelalgia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16013111000119103\">16013111000119103</a></td><td>Thrombosis of right common femoral artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/297135003\">297135003</a></td><td>Subclavian artery embolus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/195320009\">195320009</a></td><td>Embolism and thrombosis of the radial artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/21112004\">21112004</a></td><td>Vascular hemostatic disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15710481000119107\">15710481000119107</a></td><td>Atherosclerosis of nonautologous biological bypass graft of right lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/734299002\">734299002</a></td><td>Thromboembolus of external iliac artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15966381000119107\">15966381000119107</a></td><td>Congenital stenosis of left renal artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/297162006\">297162006</a></td><td>Crural artery thrombosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/127014009\">127014009</a></td><td>Peripheral angiopathy due to diabetes mellitus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/238787009\">238787009</a></td><td>Secondary cutaneous vasculitis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16019471000119104\">16019471000119104</a></td><td>Atherosclerosis of left iliac artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/31529002\">31529002</a></td><td>Thrombosis of arteries of upper extremity (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/297141005\">297141005</a></td><td>Popliteal artery embolus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16013031000119107\">16013031000119107</a></td><td>Thrombosis of right femoral artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16065251000119109\">16065251000119109</a></td><td>Gangrene of right lower limb co-occurrent and due to atherosclerosis of bypass graft (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/709584004\">709584004</a></td><td>Atherosclerosis of bypass graft of lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/427184002\">427184002</a></td><td>Thrombosis of ulnar artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/312825008\">312825008</a></td><td>Common iliac artery occlusion (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15712521000119108\">15712521000119108</a></td><td>Ischemia of right lower extremity (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/421365002\">421365002</a></td><td>Peripheral circulatory disorder due to type 1 diabetes mellitus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/233962007\">233962007</a></td><td>Critical lower limb ischemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15712681000119106\">15712681000119106</a></td><td>Ischemia of left upper extremity (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16002551000119103\">16002551000119103</a></td><td>Pain of left upper limb co-occurrent and due to ischemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16005391000119108\">16005391000119108</a></td><td>Occlusion of distal artery of right upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/51274000\">51274000</a></td><td>Atherosclerosis of arteries of the extremities (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15712561000119103\">15712561000119103</a></td><td>Ischemia of bilateral lower limbs (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/789703007\">789703007</a></td><td>Arteriosclerosis of artery of lower extremity (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/735572005\">735572005</a></td><td>Acute occlusion of artery of upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/233973000\">233973000</a></td><td>Femoral artery embolus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16009271000119101\">16009271000119101</a></td><td>Embolism of artery of right upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/12237151000119108\">12237151000119108</a></td><td>Atherosclerosis of arteries of right lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/233968006\">233968006</a></td><td>External iliac artery stenosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/235842000\">235842000</a></td><td>Occlusive mesenteric ischemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16066731000119102\">16066731000119102</a></td><td>Pain at rest of right lower limb co-occurrent and due to atherosclerosis of bypass graft (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16014671000119100\">16014671000119100</a></td><td>Occlusion of left femoral artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16012871000119107\">16012871000119107</a></td><td>Thrombosis of bilateral popliteal arteries (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15710241000119103\">15710241000119103</a></td><td>Stenosis of left renal artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/403393000\">403393000</a></td><td>Stellate pseudoscar in senile purpura (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/723870003\">723870003</a></td><td>Acute occlusion of artery of lower limb co-occurrent and due to thromboembolus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/77788005\">77788005</a></td><td>Vasomotor acroparesthesia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/307407008\">307407008</a></td><td>Ischemic hand (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/314187004\">314187004</a></td><td>Iliac artery occlusion (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/399957001\">399957001</a></td><td>Peripheral arterial occlusive disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15710361000119108\">15710361000119108</a></td><td>Atherosclerosis of nonautologous biological bypass graft of left lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/421895002\">421895002</a></td><td>Peripheral vascular disorder due to diabetes mellitus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/361210001\">361210001</a></td><td>Stasis purpura (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/709585003\">709585003</a></td><td>Atherosclerosis of nonautologous biological bypass graft of lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15649941000119102\">15649941000119102</a></td><td>Gangrene of bilateral lower limbs co-occurrent and due to atherosclerosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15648601000119102\">15648601000119102</a></td><td>Atherosclerosis of artery of right upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15712601000119103\">15712601000119103</a></td><td>Ischemia of bilateral upper limbs (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/400047006\">400047006</a></td><td>Peripheral vascular disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724441006\">724441006</a></td><td>Non-atherosclerotic chronic arterial occlusive disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16013151000119102\">16013151000119102</a></td><td>Thrombosis of left common femoral artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/402861007\">402861007</a></td><td>Ischemic gangrene (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/302233006\">302233006</a></td><td>Renal artery stenosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16004991000119105\">16004991000119105</a></td><td>Stenosis of artery of left upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/300921000\">300921000</a></td><td>Subclavian artery stenosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/403189002\">403189002</a></td><td>Erythrocyanosis with nodules (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/116291000119103\">116291000119103</a></td><td>Occlusion of renal artery due to embolism (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/197000003\">197000003</a></td><td>Superior mesenteric artery thrombosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16019031000119105\">16019031000119105</a></td><td>Atherosclerosis of autologous vein bypass graft of right upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/82453008\">82453008</a></td><td>Thrombosis of iliac artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16014071000119107\">16014071000119107</a></td><td>Intermittent claudication of bilateral lower limbs co-occurrent and due to atherosclerosis of bypass graft (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/306848006\">306848006</a></td><td>Occlusion of femoropopliteal bypass graft (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/297149007\">297149007</a></td><td>Common femoral artery thrombosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/723872006\">723872006</a></td><td>Acute occlusion of artery of lower limb due to thrombosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/314189001\">314189001</a></td><td>Popliteal artery occlusion (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/195323006\">195323006</a></td><td>Embolism and thrombosis of the femoral artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/12237111000119107\">12237111000119107</a></td><td>Pain at rest of left lower limb co-occurrent and due to atherosclerosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16019311000119103\">16019311000119103</a></td><td>Atherosclerosis of nonbiological bypass graft of left lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/95580006\">95580006</a></td><td>Renal artery embolism (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/233960004\">233960004</a></td><td>Critical upper limb ischemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15712641000119101\">15712641000119101</a></td><td>Ischemia of right upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15710321000119103\">15710321000119103</a></td><td>Atherosclerosis of nonautologous biological bypass graft of bilateral lower limbs (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/306849003\">306849003</a></td><td>Occlusion of femorofemoral crossover bypass graft (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/12237031000119103\">12237031000119103</a></td><td>Atherosclerosis of arteries of left lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/302300004\">302300004</a></td><td>Femoral popliteal occlusion (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/195339004\">195339004</a></td><td>Embolism and thrombosis of the subclavian artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/18000001000004101\">18000001000004101</a></td><td>Stenosis of left subclavian artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15966341000119102\">15966341000119102</a></td><td>Congenital stenosis of right renal artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/297140006\">297140006</a></td><td>Inferior mesenteric artery embolus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/307408003\">307408003</a></td><td>Ischemic toe (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/289923007\">289923007</a></td><td>Acquired renal artery stenosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/789704001\">789704001</a></td><td>Arteriosclerosis of artery of upper extremity (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16012591000119105\">16012591000119105</a></td><td>Embolism of left popliteal artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/195335005\">195335005</a></td><td>Embolism and/or thrombosis of the common iliac artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/195341003\">195341003</a></td><td>Embolism and thrombosis of the axillary artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/306852006\">306852006</a></td><td>Occlusion of renal artery bypass graft (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16018911000119107\">16018911000119107</a></td><td>Atherosclerosis of non-biological bypass graft of bilateral lower limbs (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/403390002\">403390002</a></td><td>Primary erythromelalgia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1010729007\">1010729007</a></td><td>Thromboembolus of artery of upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16012471000119105\">16012471000119105</a></td><td>Atheroembolism of left lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/307409006\">307409006</a></td><td>Ischemic finger (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16013071000119105\">16013071000119105</a></td><td>Thrombosis of bilateral common femoral arteries (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/300919005\">300919005</a></td><td>Digital arterial thrombosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/243286001\">243286001</a></td><td>Acute mesenteric arterial occlusion (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/427567003\">427567003</a></td><td>Atheromatous embolus of upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/12237231000119107\">12237231000119107</a></td><td>Pain at rest of right lower limb co-occurrent and due to atherosclerosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16013191000119107\">16013191000119107</a></td><td>Thrombosis of bilateral femoral arteries (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/302910002\">302910002</a></td><td>Atherosclerotic renal artery stenosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/51677000\">51677000</a></td><td>Atheroembolism of renal arteries (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/405557003\">405557003</a></td><td>Occlusion of lower limb artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16018831000119106\">16018831000119106</a></td><td>Atherosclerosis of bilateral iliac arteries (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15648731000119101\">15648731000119101</a></td><td>Atherosclerosis of right renal artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16007791000119104\">16007791000119104</a></td><td>Thrombosis of right ulnar artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/93388003\">93388003</a></td><td>Congenital stenosis of subclavian artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/425414000\">425414000</a></td><td>Bilateral renal artery stenosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/233959009\">233959009</a></td><td>Upper limb ischemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16899261000119106\">16899261000119106</a></td><td>Atherosclerosis of superior mesenteric artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/195326003\">195326003</a></td><td>Embolism and thrombosis of the dorsalis pedis artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16012631000119105\">16012631000119105</a></td><td>Atheroembolism of right lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/233969003\">233969003</a></td><td>Superficial femoral artery stenosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16005471000119100\">16005471000119100</a></td><td>Occlusion of distal artery of left upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/402850004\">402850004</a></td><td>Purpura due to prolonged vomiting and/or coughing (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/312496009\">312496009</a></td><td>Iliac artery stenosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16019391000119107\">16019391000119107</a></td><td>Atherosclerosis of nonbiological bypass graft of right lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/713825007\">713825007</a></td><td>Renal artery stenosis of transplanted kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/297146000\">297146000</a></td><td>Brachial artery thrombosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/91304009\">91304009</a></td><td>Capillary fragility abnormality (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16009351000119100\">16009351000119100</a></td><td>Atheroembolism of left upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16064811000119108\">16064811000119108</a></td><td>Gangrene of left lower limb co-occurrent and due to atherosclerosis of bypass graft (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/80383008\">80383008</a></td><td>Embolism of iliac artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/307406004\">307406004</a></td><td>Trash foot (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/301755001\">301755001</a></td><td>Ischemic foot (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16007871000119108\">16007871000119108</a></td><td>Thrombosis of artery of left upper extremity (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/153911000119104\">153911000119104</a></td><td>Peripheral arterial insufficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/735574006\">735574006</a></td><td>Acute occlusion of artery of lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16012831000119109\">16012831000119109</a></td><td>Thrombosis of artery of left lower extremity (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16012951000119106\">16012951000119106</a></td><td>Thrombosis of right popliteal artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/195324000\">195324000</a></td><td>Embolism and thrombosis of the popliteal artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/95579008\">95579008</a></td><td>Thrombosis of renal artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/45281005\">45281005</a></td><td>Atherosclerosis of renal artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/196999001\">196999001</a></td><td>Superior mesenteric artery embolus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/12236911000119107\">12236911000119107</a></td><td>Bilateral atherosclerosis of arteries of lower limbs (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15967341000119100\">15967341000119100</a></td><td>Stenosis of right subclavian artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/195327007\">195327007</a></td><td>Embolism and thrombosis of the posterior tibial artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16014031000119109\">16014031000119109</a></td><td>Intermittent claudication of left lower limb co-occurrent and due to atherosclerosis of bypass graft (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/87239004\">87239004</a></td><td>Popliteal artery thrombosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15710201000119100\">15710201000119100</a></td><td>Stenosis of right renal artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/840580004\">840580004</a></td><td>Peripheral arterial disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/405588004\">405588004</a></td><td>Upper limb artery stenosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15710521000119107\">15710521000119107</a></td><td>Atherosclerosis of autologous bypass graft of left lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16012911000119105\">16012911000119105</a></td><td>Thrombosis of left popliteal artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/21631000119105\">21631000119105</a></td><td>Limb ischemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16012791000119103\">16012791000119103</a></td><td>Thrombosis of artery of right lower extremity (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15710441000119102\">15710441000119102</a></td><td>Atherosclerosis of bypass graft of left lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/195321008\">195321008</a></td><td>Embolism and thrombosis of the ulnar artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/733127007\">733127007</a></td><td>Acute occlusion of artery of upper limb caused by thrombus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16004911000119101\">16004911000119101</a></td><td>Stenosis of artery of right upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15966741000119101\">15966741000119101</a></td><td>Atheroembolism of bilateral renal arteries (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/297151006\">297151006</a></td><td>External iliac artery thrombosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/733126003\">733126003</a></td><td>Acute occlusion of artery of upper limb caused by thromboembolus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16014871000119101\">16014871000119101</a></td><td>Occlusion of right femoral artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724440007\">724440007</a></td><td>Atherosclerosis of artery of lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/286959000\">286959000</a></td><td>Peripheral arterial embolism (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/405545007\">405545007</a></td><td>Mesenteric artery stenosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15972501000119101\">15972501000119101</a></td><td>Thrombosis of right iliac artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16012671000119108\">16012671000119108</a></td><td>Embolism of right popliteal artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16014711000119101\">16014711000119101</a></td><td>Occlusion of right popliteal artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15648771000119103\">15648771000119103</a></td><td>Atherosclerosis of bilateral renal arteries (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16012751000119108\">16012751000119108</a></td><td>Thrombosis of artery of bilateral lower limbs (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/314188009\">314188009</a></td><td>Femoral artery occlusion (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/300917007\">300917007</a></td><td>Ischemia of feet (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/314902007\">314902007</a></td><td>Peripheral angiopathy due to type 2 diabetes mellitus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15648821000119105\">15648821000119105</a></td><td>Atherosclerosis of left renal artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/33591000\">33591000</a></td><td>Thrombosis of arteries of the extremities (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/312828005\">312828005</a></td><td>Common femoral artery occlusion (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16012991000119101\">16012991000119101</a></td><td>Thrombosis of left femoral artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/442693003\">442693003</a></td><td>Atherosclerosis of autologous vein bypass graft of limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/405556007\">405556007</a></td><td>Stenosis of lower limb artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15710561000119102\">15710561000119102</a></td><td>Atherosclerosis of autologous bypass graft of bilateral lower limbs (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16009391000119105\">16009391000119105</a></td><td>Atheroembolism of right upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/233974006\">233974006</a></td><td>Brachial artery embolus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16013871000119104\">16013871000119104</a></td><td>Claudication of right upper limb co-occurrent and due to atherosclerosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/361209006\">361209006</a></td><td>Dermite ocre of Favre (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/442701004\">442701004</a></td><td>Atherosclerosis of nonautologous biological bypass graft of limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16013711000119104\">16013711000119104</a></td><td>Intermittent claudication of right lower limb co-occurrent and due to atherosclerosis of bypass graft (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/8001000119106\">8001000119106</a></td><td>Atherosclerosis of aortoiliac bypass graft (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16011351000119103\">16011351000119103</a></td><td>Stenosis of artery of bilateral lower limbs (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/37151006\">37151006</a></td><td>Erythromelalgia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16019351000119102\">16019351000119102</a></td><td>Atherosclerosis of bypass graft of left upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16014231000119100\">16014231000119100</a></td><td>Claudication of left upper limb co-occurrent and due to atherosclerosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15966781000119106\">15966781000119106</a></td><td>Atheroembolism of left renal artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/233958001\">233958001</a></td><td>Peripheral ischemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16002711000119105\">16002711000119105</a></td><td>Pain of right upper limb co-occurrent and due to ischemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/443971004\">443971004</a></td><td>Arteriosclerosis of artery of extremity (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/698816006\">698816006</a></td><td>Chronic occlusion of artery of extremity (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/425527003\">425527003</a></td><td>Atheromatous embolus of lower limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/297155002\">297155002</a></td><td>Superficial femoral artery thrombosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/52156004\">52156004</a></td><td>Femoral artery thrombosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/7014009\">7014009</a></td><td>Mechanical purpura (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16014791000119105\">16014791000119105</a></td><td>Occlusion of left popliteal artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15648691000119108\">15648691000119108</a></td><td>Atherosclerosis of artery of left upper limb (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/427592000\">427592000</a></td><td>Occlusion of superior mesenteric artery (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/282664001\">282664001</a></td><td>Renal artery stenosis of unknown cause (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15712481000119108\">15712481000119108</a></td><td>Ischemia of left lower extremity (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15648641000119100\">15648641000119100</a></td><td>Atherosclerosis of artery of bilateral upper limbs (disorder)</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-icd10CM.html\"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a> version <code>2022</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>I71.00</td><td>Dissection of unspecified site of aorta</td></tr><tr><td>I70.719</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with intermittent claudication, unspecified extremity</td></tr><tr><td>I70.669</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with gangrene, unspecified extremity</td></tr><tr><td>I70.469</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with gangrene, unspecified extremity</td></tr><tr><td>I70.409</td><td>Unspecified atherosclerosis of autologous vein bypass graft(s) of the extremities, unspecified extremity</td></tr><tr><td>I70.511</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with intermittent claudication, right leg</td></tr><tr><td>I70.393</td><td>Other atherosclerosis of unspecified type of bypass graft(s) of the extremities, bilateral legs</td></tr><tr><td>I70.762</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with gangrene, left leg</td></tr><tr><td>I70.503</td><td>Unspecified atherosclerosis of nonautologous biological bypass graft(s) of the extremities, bilateral legs</td></tr><tr><td>I70.463</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with gangrene, bilateral legs</td></tr><tr><td>I70.229</td><td>Atherosclerosis of native arteries of extremities with rest pain, unspecified extremity</td></tr><tr><td>I70.30</td><td>Unspecified atherosclerosis of unspecified type of bypass graft(s) of the extremities</td></tr><tr><td>I70.692</td><td>Other atherosclerosis of nonbiological bypass graft(s) of the extremities, left leg</td></tr><tr><td>I70.318</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with intermittent claudication, other extremity</td></tr><tr><td>I70.311</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with intermittent claudication, right leg</td></tr><tr><td>Z95.818</td><td>Presence of other cardiac implants and grafts</td></tr><tr><td>I70.743</td><td>Atherosclerosis of other type of bypass graft(s) of the left leg with ulceration of ankle</td></tr><tr><td>I70.221</td><td>Atherosclerosis of native arteries of extremities with rest pain, right leg</td></tr><tr><td>I70.223</td><td>Atherosclerosis of native arteries of extremities with rest pain, bilateral legs</td></tr><tr><td>K55.9</td><td>Vascular disorder of intestine, unspecified</td></tr><tr><td>I70.232</td><td>Atherosclerosis of native arteries of right leg with ulceration of calf</td></tr><tr><td>I70.609</td><td>Unspecified atherosclerosis of nonbiological bypass graft(s) of the extremities, unspecified extremity</td></tr><tr><td>I70.33</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the right leg with ulceration</td></tr><tr><td>I70.69</td><td>Other atherosclerosis of nonbiological bypass graft(s) of the extremities</td></tr><tr><td>I79.0</td><td>Aneurysm of aorta in diseases classified elsewhere</td></tr><tr><td>I70.629</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with rest pain, unspecified extremity</td></tr><tr><td>I70.7</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities</td></tr><tr><td>I70.242</td><td>Atherosclerosis of native arteries of left leg with ulceration of calf</td></tr><tr><td>I70.263</td><td>Atherosclerosis of native arteries of extremities with gangrene, bilateral legs</td></tr><tr><td>I70.408</td><td>Unspecified atherosclerosis of autologous vein bypass graft(s) of the extremities, other extremity</td></tr><tr><td>I70.522</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with rest pain, left leg</td></tr><tr><td>I70.338</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the right leg with ulceration of other part of lower leg</td></tr><tr><td>I70.209</td><td>Unspecified atherosclerosis of native arteries of extremities, unspecified extremity</td></tr><tr><td>Z95.81</td><td>Presence of other cardiac implants and grafts</td></tr><tr><td>I70.245</td><td>Atherosclerosis of native arteries of left leg with ulceration of other part of foot</td></tr><tr><td>I71.0</td><td>Dissection of aorta</td></tr><tr><td>I70.735</td><td>Atherosclerosis of other type of bypass graft(s) of the right leg with ulceration of other part of foot</td></tr><tr><td>I70.693</td><td>Other atherosclerosis of nonbiological bypass graft(s) of the extremities, bilateral legs</td></tr><tr><td>I70.449</td><td>Atherosclerosis of autologous vein bypass graft(s) of the left leg with ulceration of unspecified site</td></tr><tr><td>I70.3</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities</td></tr><tr><td>I70.461</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with gangrene, right leg</td></tr><tr><td>I70.348</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the left leg with ulceration of other part of lower leg</td></tr><tr><td>I70.208</td><td>Unspecified atherosclerosis of native arteries of extremities, other extremity</td></tr><tr><td>I70.20</td><td>Unspecified atherosclerosis of native arteries of extremities</td></tr><tr><td>I70.691</td><td>Other atherosclerosis of nonbiological bypass graft(s) of the extremities, right leg</td></tr><tr><td>I70.55</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of other extremity with ulceration</td></tr><tr><td>I70.429</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with rest pain, unspecified extremity</td></tr><tr><td>I70.741</td><td>Atherosclerosis of other type of bypass graft(s) of the left leg with ulceration of thigh</td></tr><tr><td>I70.431</td><td>Atherosclerosis of autologous vein bypass graft(s) of the right leg with ulceration of thigh</td></tr><tr><td>I70.732</td><td>Atherosclerosis of other type of bypass graft(s) of the right leg with ulceration of calf</td></tr><tr><td>I71.1</td><td>Thoracic aortic aneurysm, ruptured</td></tr><tr><td>I70.65</td><td>Atherosclerosis of nonbiological bypass graft(s) of other extremity with ulceration</td></tr><tr><td>I70.591</td><td>Other atherosclerosis of nonautologous biological bypass graft(s) of the extremities, right leg</td></tr><tr><td>I70.448</td><td>Atherosclerosis of autologous vein bypass graft(s) of the left leg with ulceration of other part of lower leg</td></tr><tr><td>I70.79</td><td>Other atherosclerosis of other type of bypass graft(s) of the extremities</td></tr><tr><td>I70.698</td><td>Other atherosclerosis of nonbiological bypass graft(s) of the extremities, other extremity</td></tr><tr><td>I70.8</td><td>Atherosclerosis of other arteries</td></tr><tr><td>I70.433</td><td>Atherosclerosis of autologous vein bypass graft(s) of the right leg with ulceration of ankle</td></tr><tr><td>I70.231</td><td>Atherosclerosis of native arteries of right leg with ulceration of thigh</td></tr><tr><td>I70.291</td><td>Other atherosclerosis of native arteries of extremities, right leg</td></tr><tr><td>I70.722</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with rest pain, left leg</td></tr><tr><td>I70.62</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with rest pain</td></tr><tr><td>I70.742</td><td>Atherosclerosis of other type of bypass graft(s) of the left leg with ulceration of calf</td></tr><tr><td>I70.619</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with intermittent claudication, unspecified extremity</td></tr><tr><td>I70.313</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with intermittent claudication, bilateral legs</td></tr><tr><td>I70.643</td><td>Atherosclerosis of nonbiological bypass graft(s) of the left leg with ulceration of ankle</td></tr><tr><td>I70.334</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the right leg with ulceration of heel and midfoot</td></tr><tr><td>I70.761</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with gangrene, right leg</td></tr><tr><td>I70.235</td><td>Atherosclerosis of native arteries of right leg with ulceration of other part of foot</td></tr><tr><td>I70.432</td><td>Atherosclerosis of autologous vein bypass graft(s) of the right leg with ulceration of calf</td></tr><tr><td>I70.568</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with gangrene, other extremity</td></tr><tr><td>I70.749</td><td>Atherosclerosis of other type of bypass graft(s) of the left leg with ulceration of unspecified site</td></tr><tr><td>I71.3</td><td>Abdominal aortic aneurysm, ruptured</td></tr><tr><td>I70.43</td><td>Atherosclerosis of autologous vein bypass graft(s) of the right leg with ulceration</td></tr><tr><td>I70.442</td><td>Atherosclerosis of autologous vein bypass graft(s) of the left leg with ulceration of calf</td></tr><tr><td>I70.544</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the left leg with ulceration of heel and midfoot</td></tr><tr><td>I70.611</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with intermittent claudication, right leg</td></tr><tr><td>I70.234</td><td>Atherosclerosis of native arteries of right leg with ulceration of heel and midfoot</td></tr><tr><td>I70.402</td><td>Unspecified atherosclerosis of autologous vein bypass graft(s) of the extremities, left leg</td></tr><tr><td>I70.332</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the right leg with ulceration of calf</td></tr><tr><td>I70.399</td><td>Other atherosclerosis of unspecified type of bypass graft(s) of the extremities, unspecified extremity</td></tr><tr><td>I70.492</td><td>Other atherosclerosis of autologous vein bypass graft(s) of the extremities, left leg</td></tr><tr><td>I70.303</td><td>Unspecified atherosclerosis of unspecified type of bypass graft(s) of the extremities, bilateral legs</td></tr><tr><td>I70.391</td><td>Other atherosclerosis of unspecified type of bypass graft(s) of the extremities, right leg</td></tr><tr><td>I70.639</td><td>Atherosclerosis of nonbiological bypass graft(s) of the right leg with ulceration of unspecified site</td></tr><tr><td>I70.219</td><td>Atherosclerosis of native arteries of extremities with intermittent claudication, unspecified extremity</td></tr><tr><td>I70.411</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with intermittent claudication, right leg</td></tr><tr><td>I70.593</td><td>Other atherosclerosis of nonautologous biological bypass graft(s) of the extremities, bilateral legs</td></tr><tr><td>I70.363</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with gangrene, bilateral legs</td></tr><tr><td>I70.445</td><td>Atherosclerosis of autologous vein bypass graft(s) of the left leg with ulceration of other part of foot</td></tr><tr><td>I70.238</td><td>Atherosclerosis of native arteries of right leg with ulceration of other part of lower leg</td></tr><tr><td>I70.661</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with gangrene, right leg</td></tr><tr><td>Z95.82</td><td>Presence of other vascular implants and grafts</td></tr><tr><td>I70.623</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with rest pain, bilateral legs</td></tr><tr><td>I70.312</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with intermittent claudication, left leg</td></tr><tr><td>I70.202</td><td>Unspecified atherosclerosis of native arteries of extremities, left leg</td></tr><tr><td>I70.31</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with intermittent claudication</td></tr><tr><td>I70.721</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with rest pain, right leg</td></tr><tr><td>I77.1</td><td>Stricture of artery</td></tr><tr><td>I70.418</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with intermittent claudication, other extremity</td></tr><tr><td>I71.6</td><td>Thoracoabdominal aortic aneurysm, without rupture</td></tr><tr><td>K55.1</td><td>Chronic vascular disorders of intestine</td></tr><tr><td>I70.339</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the right leg with ulceration of unspecified site</td></tr><tr><td>I70.243</td><td>Atherosclerosis of native arteries of left leg with ulceration of ankle</td></tr><tr><td>Z95.9</td><td>Presence of cardiac and vascular implant and graft, unspecified</td></tr><tr><td>I70.592</td><td>Other atherosclerosis of nonautologous biological bypass graft(s) of the extremities, left leg</td></tr><tr><td>I70.268</td><td>Atherosclerosis of native arteries of extremities with gangrene, other extremity</td></tr><tr><td>I70.301</td><td>Unspecified atherosclerosis of unspecified type of bypass graft(s) of the extremities, right leg</td></tr><tr><td>I70.769</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with gangrene, unspecified extremity</td></tr><tr><td>I70.322</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with rest pain, left leg</td></tr><tr><td>I70</td><td>Atherosclerosis</td></tr><tr><td>I70.738</td><td>Atherosclerosis of other type of bypass graft(s) of the right leg with ulceration of other part of lower leg</td></tr><tr><td>I71.2</td><td>Thoracic aortic aneurysm, without rupture</td></tr><tr><td>I70.76</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with gangrene</td></tr><tr><td>I70.533</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the right leg with ulceration of ankle</td></tr><tr><td>I70.222</td><td>Atherosclerosis of native arteries of extremities with rest pain, left leg</td></tr><tr><td>I73.1</td><td>Thromboangiitis obliterans [Buerger's disease]</td></tr><tr><td>I70.319</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with intermittent claudication, unspecified extremity</td></tr><tr><td>I70.642</td><td>Atherosclerosis of nonbiological bypass graft(s) of the left leg with ulceration of calf</td></tr><tr><td>I70.302</td><td>Unspecified atherosclerosis of unspecified type of bypass graft(s) of the extremities, left leg</td></tr><tr><td>I70.768</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with gangrene, other extremity</td></tr><tr><td>I70.428</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with rest pain, other extremity</td></tr><tr><td>I70.518</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with intermittent claudication, other extremity</td></tr><tr><td>I70.73</td><td>Atherosclerosis of other type of bypass graft(s) of the right leg with ulceration</td></tr><tr><td>I70.398</td><td>Other atherosclerosis of unspecified type of bypass graft(s) of the extremities, other extremity</td></tr><tr><td>I70.602</td><td>Unspecified atherosclerosis of nonbiological bypass graft(s) of the extremities, left leg</td></tr><tr><td>I70.644</td><td>Atherosclerosis of nonbiological bypass graft(s) of the left leg with ulceration of heel and midfoot</td></tr><tr><td>I70.5</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities</td></tr><tr><td>I71</td><td>Aortic aneurysm and dissection</td></tr><tr><td>I70.718</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with intermittent claudication, other extremity</td></tr><tr><td>I71.01</td><td>Dissection of thoracic aorta</td></tr><tr><td>I70.421</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with rest pain, right leg</td></tr><tr><td>I70.792</td><td>Other atherosclerosis of other type of bypass graft(s) of the extremities, left leg</td></tr><tr><td>I70.328</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with rest pain, other extremity</td></tr><tr><td>I70.645</td><td>Atherosclerosis of nonbiological bypass graft(s) of the left leg with ulceration of other part of foot</td></tr><tr><td>I70.711</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with intermittent claudication, right leg</td></tr><tr><td>I71.03</td><td>Dissection of thoracoabdominal aorta</td></tr><tr><td>I70.323</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with rest pain, bilateral legs</td></tr><tr><td>I70.74</td><td>Atherosclerosis of other type of bypass graft(s) of the left leg with ulceration</td></tr><tr><td>I70.562</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with gangrene, left leg</td></tr><tr><td>I70.345</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the left leg with ulceration of other part of foot</td></tr><tr><td>I70.24</td><td>Atherosclerosis of native arteries of left leg with ulceration</td></tr><tr><td>I70.731</td><td>Atherosclerosis of other type of bypass graft(s) of the right leg with ulceration of thigh</td></tr><tr><td>I70.612</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with intermittent claudication, left leg</td></tr><tr><td>K55.8</td><td>Other vascular disorders of intestine</td></tr><tr><td>I70.413</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with intermittent claudication, bilateral legs</td></tr><tr><td>I70.349</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the left leg with ulceration of unspecified site</td></tr><tr><td>I70.468</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with gangrene, other extremity</td></tr><tr><td>I70.211</td><td>Atherosclerosis of native arteries of extremities with intermittent claudication, right leg</td></tr><tr><td>I70.545</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the left leg with ulceration of other part of foot</td></tr><tr><td>I70.734</td><td>Atherosclerosis of other type of bypass graft(s) of the right leg with ulceration of heel and midfoot</td></tr><tr><td>I70.748</td><td>Atherosclerosis of other type of bypass graft(s) of the left leg with ulceration of other part of lower leg</td></tr><tr><td>I70.422</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with rest pain, left leg</td></tr><tr><td>I73.9</td><td>Peripheral vascular disease, unspecified</td></tr><tr><td>I70.608</td><td>Unspecified atherosclerosis of nonbiological bypass graft(s) of the extremities, other extremity</td></tr><tr><td>I70.599</td><td>Other atherosclerosis of nonautologous biological bypass graft(s) of the extremities, unspecified extremity</td></tr><tr><td>I70.709</td><td>Unspecified atherosclerosis of other type of bypass graft(s) of the extremities, unspecified extremity</td></tr><tr><td>I70.791</td><td>Other atherosclerosis of other type of bypass graft(s) of the extremities, right leg</td></tr><tr><td>I70.21</td><td>Atherosclerosis of native arteries of extremities with intermittent claudication</td></tr><tr><td>I70.60</td><td>Unspecified atherosclerosis of nonbiological bypass graft(s) of the extremities</td></tr><tr><td>I70.343</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the left leg with ulceration of ankle</td></tr><tr><td>I70.539</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the right leg with ulceration of unspecified site</td></tr><tr><td>I70.634</td><td>Atherosclerosis of nonbiological bypass graft(s) of the right leg with ulceration of heel and midfoot</td></tr><tr><td>I70.241</td><td>Atherosclerosis of native arteries of left leg with ulceration of thigh</td></tr><tr><td>I71.5</td><td>Thoracoabdominal aortic aneurysm, ruptured</td></tr><tr><td>I70.49</td><td>Other atherosclerosis of autologous vein bypass graft(s) of the extremities</td></tr><tr><td>I70.75</td><td>Atherosclerosis of other type of bypass graft(s) of other extremity with ulceration</td></tr><tr><td>I70.621</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with rest pain, right leg</td></tr><tr><td>I70.509</td><td>Unspecified atherosclerosis of nonautologous biological bypass graft(s) of the extremities, unspecified extremity</td></tr><tr><td>I70.42</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with rest pain</td></tr><tr><td>I70.793</td><td>Other atherosclerosis of other type of bypass graft(s) of the extremities, bilateral legs</td></tr><tr><td>I70.561</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with gangrene, right leg</td></tr><tr><td>I70.569</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with gangrene, unspecified extremity</td></tr><tr><td>I70.603</td><td>Unspecified atherosclerosis of nonbiological bypass graft(s) of the extremities, bilateral legs</td></tr><tr><td>I70.41</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with intermittent claudication</td></tr><tr><td>I70.29</td><td>Other atherosclerosis of native arteries of extremities</td></tr><tr><td>I70.36</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with gangrene</td></tr><tr><td>I70.331</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the right leg with ulceration of thigh</td></tr><tr><td>I70.218</td><td>Atherosclerosis of native arteries of extremities with intermittent claudication, other extremity</td></tr><tr><td>I70.228</td><td>Atherosclerosis of native arteries of extremities with rest pain, other extremity</td></tr><tr><td>I70.662</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with gangrene, left leg</td></tr><tr><td>I70.6</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities</td></tr><tr><td>I70.519</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with intermittent claudication, unspecified extremity</td></tr><tr><td>I70.9</td><td>Other and unspecified atherosclerosis</td></tr><tr><td>I70.423</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with rest pain, bilateral legs</td></tr><tr><td>I71.02</td><td>Dissection of abdominal aorta</td></tr><tr><td>I70.708</td><td>Unspecified atherosclerosis of other type of bypass graft(s) of the extremities, other extremity</td></tr><tr><td>I70.53</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the right leg with ulceration</td></tr><tr><td>Z95.810</td><td>Presence of automatic (implantable) cardiac defibrillator</td></tr><tr><td>I70.499</td><td>Other atherosclerosis of autologous vein bypass graft(s) of the extremities, unspecified extremity</td></tr><tr><td>Z95.8</td><td>Presence of other cardiac and vascular implants and grafts</td></tr><tr><td>I70.40</td><td>Unspecified atherosclerosis of autologous vein bypass graft(s) of the extremities</td></tr><tr><td>I70.342</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the left leg with ulceration of calf</td></tr><tr><td>I70.649</td><td>Atherosclerosis of nonbiological bypass graft(s) of the left leg with ulceration of unspecified site</td></tr><tr><td>I70.91</td><td>Generalized atherosclerosis</td></tr><tr><td>I70.341</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the left leg with ulceration of thigh</td></tr><tr><td>I70.403</td><td>Unspecified atherosclerosis of autologous vein bypass graft(s) of the extremities, bilateral legs</td></tr><tr><td>I70.298</td><td>Other atherosclerosis of native arteries of extremities, other extremity</td></tr><tr><td>I70.248</td><td>Atherosclerosis of native arteries of left leg with ulceration of other part of lower leg</td></tr><tr><td>I70.51</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities intermittent claudication</td></tr><tr><td>I70.538</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the right leg with ulceration of other part of lower leg</td></tr><tr><td>I70.444</td><td>Atherosclerosis of autologous vein bypass graft(s) of the left leg with ulceration of heel and midfoot</td></tr><tr><td>I70.501</td><td>Unspecified atherosclerosis of nonautologous biological bypass graft(s) of the extremities, right leg</td></tr><tr><td>Z95.812</td><td>Presence of fully implantable artificial heart</td></tr><tr><td>I70.648</td><td>Atherosclerosis of nonbiological bypass graft(s) of the left leg with ulceration of other part of lower leg</td></tr><tr><td>I70.293</td><td>Other atherosclerosis of native arteries of extremities, bilateral legs</td></tr><tr><td>I70.63</td><td>Atherosclerosis of nonbiological bypass graft(s) of the right leg with ulceration</td></tr><tr><td>I70.799</td><td>Other atherosclerosis of other type of bypass graft(s) of the extremities, unspecified extremity</td></tr><tr><td>I70.535</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the right leg with ulceration of other part of foot</td></tr><tr><td>I73.81</td><td>Erythromelalgia</td></tr><tr><td>I70.261</td><td>Atherosclerosis of native arteries of extremities with gangrene, right leg</td></tr><tr><td>I70.213</td><td>Atherosclerosis of native arteries of extremities with intermittent claudication, bilateral legs</td></tr><tr><td>I70.269</td><td>Atherosclerosis of native arteries of extremities with gangrene, unspecified extremity</td></tr><tr><td>I70.723</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with rest pain, bilateral legs</td></tr><tr><td>I70.54</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the left leg with ulceration</td></tr><tr><td>I70.201</td><td>Unspecified atherosclerosis of native arteries of extremities, right leg</td></tr><tr><td>I70.92</td><td>Chronic total occlusion of artery of the extremities</td></tr><tr><td>I70.25</td><td>Atherosclerosis of native arteries of other extremities with ulceration</td></tr><tr><td>I70.443</td><td>Atherosclerosis of autologous vein bypass graft(s) of the left leg with ulceration of ankle</td></tr><tr><td>I70.798</td><td>Other atherosclerosis of other type of bypass graft(s) of the extremities, other extremity</td></tr><tr><td>I70.56</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with gangrene</td></tr><tr><td>I70.548</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the left leg with ulceration of other part of lower leg</td></tr><tr><td>I70.44</td><td>Atherosclerosis of autologous vein bypass graft(s) of the left leg with ulceration</td></tr><tr><td>I70.598</td><td>Other atherosclerosis of nonautologous biological bypass graft(s) of the extremities, other extremity</td></tr><tr><td>I70.46</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with gangrene</td></tr><tr><td>I70.333</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the right leg with ulceration of ankle</td></tr><tr><td>I70.438</td><td>Atherosclerosis of autologous vein bypass graft(s) of the right leg with ulceration of other part of lower leg</td></tr><tr><td>I70.70</td><td>Unspecified atherosclerosis of other type of bypass graft(s) of the extremities</td></tr><tr><td>I70.71</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with intermittent claudication</td></tr><tr><td>I70.502</td><td>Unspecified atherosclerosis of nonautologous biological bypass graft(s) of the extremities, left leg</td></tr><tr><td>I70.419</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with intermittent claudication, unspecified extremity</td></tr><tr><td>I70.744</td><td>Atherosclerosis of other type of bypass graft(s) of the left leg with ulceration of heel and midfoot</td></tr><tr><td>I70.59</td><td>Other atherosclerosis of nonautologous biological bypass graft(s) of the extremities</td></tr><tr><td>I70.699</td><td>Other atherosclerosis of nonbiological bypass graft(s) of the extremities, unspecified extremity</td></tr><tr><td>I70.34</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the left leg with ulceration</td></tr><tr><td>I70.712</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with intermittent claudication, left leg</td></tr><tr><td>I70.64</td><td>Atherosclerosis of nonbiological bypass graft(s) of the left leg with ulceration</td></tr><tr><td>I70.513</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with intermittent claudication, bilateral legs</td></tr><tr><td>I70.1</td><td>Atherosclerosis of renal artery</td></tr><tr><td>I70.663</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with gangrene, bilateral legs</td></tr><tr><td>I70.244</td><td>Atherosclerosis of native arteries of left leg with ulceration of heel and midfoot</td></tr><tr><td>I70.534</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the right leg with ulceration of heel and midfoot</td></tr><tr><td>I70.441</td><td>Atherosclerosis of autologous vein bypass graft(s) of the left leg with ulceration of thigh</td></tr><tr><td>I70.435</td><td>Atherosclerosis of autologous vein bypass graft(s) of the right leg with ulceration of other part of foot</td></tr><tr><td>I70.212</td><td>Atherosclerosis of native arteries of extremities with intermittent claudication, left leg</td></tr><tr><td>I70.541</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the left leg with ulceration of thigh</td></tr><tr><td>I70.50</td><td>Unspecified atherosclerosis of nonautologous biological bypass graft(s) of the extremities</td></tr><tr><td>I70.635</td><td>Atherosclerosis of nonbiological bypass graft(s) of the right leg with ulceration of other part of foot</td></tr><tr><td>I70.412</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with intermittent claudication, left leg</td></tr><tr><td>I70.2</td><td>Atherosclerosis of native arteries of the extremities</td></tr><tr><td>I70.763</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with gangrene, bilateral legs</td></tr><tr><td>I70.439</td><td>Atherosclerosis of autologous vein bypass graft(s) of the right leg with ulceration of unspecified site</td></tr><tr><td>I70.308</td><td>Unspecified atherosclerosis of unspecified type of bypass graft(s) of the extremities, other extremity</td></tr><tr><td>I70.733</td><td>Atherosclerosis of other type of bypass graft(s) of the right leg with ulceration of ankle</td></tr><tr><td>I70.622</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with rest pain, left leg</td></tr><tr><td>I70.521</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with rest pain, right leg</td></tr><tr><td>I70.601</td><td>Unspecified atherosclerosis of nonbiological bypass graft(s) of the extremities, right leg</td></tr><tr><td>I73.8</td><td>Other specified peripheral vascular diseases</td></tr><tr><td>I70.701</td><td>Unspecified atherosclerosis of other type of bypass graft(s) of the extremities, right leg</td></tr><tr><td>I70.729</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with rest pain, unspecified extremity</td></tr><tr><td>I70.368</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with gangrene, other extremity</td></tr><tr><td>I70.512</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with intermittent claudication, left leg</td></tr><tr><td>I70.32</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with rest pain</td></tr><tr><td>I70.72</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with rest pain</td></tr><tr><td>I70.491</td><td>Other atherosclerosis of autologous vein bypass graft(s) of the extremities, right leg</td></tr><tr><td>I70.4</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities</td></tr><tr><td>I70.39</td><td>Other atherosclerosis of unspecified type of bypass graft(s) of the extremities</td></tr><tr><td>I70.299</td><td>Other atherosclerosis of native arteries of extremities, unspecified extremity</td></tr><tr><td>I70.618</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with intermittent claudication, other extremity</td></tr><tr><td>I70.22</td><td>Atherosclerosis of native arteries of extremities with rest pain</td></tr><tr><td>I70.745</td><td>Atherosclerosis of other type of bypass graft(s) of the left leg with ulceration of other part of foot</td></tr><tr><td>I70.203</td><td>Unspecified atherosclerosis of native arteries of extremities, bilateral legs</td></tr><tr><td>I70.638</td><td>Atherosclerosis of nonbiological bypass graft(s) of the right leg with ulceration of other part of lower leg</td></tr><tr><td>I70.90</td><td>Unspecified atherosclerosis</td></tr><tr><td>I70.641</td><td>Atherosclerosis of nonbiological bypass graft(s) of the left leg with ulceration of thigh</td></tr><tr><td>I70.61</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with intermittent claudication</td></tr><tr><td>I70.23</td><td>Atherosclerosis of native arteries of right leg with ulceration</td></tr><tr><td>I70.26</td><td>Atherosclerosis of native arteries of extremities with gangrene</td></tr><tr><td>I70.498</td><td>Other atherosclerosis of autologous vein bypass graft(s) of the extremities, other extremity</td></tr><tr><td>I70.713</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with intermittent claudication, bilateral legs</td></tr><tr><td>I70.543</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the left leg with ulceration of ankle</td></tr><tr><td>Z95.820</td><td>Peripheral vascular angioplasty status with implants and grafts</td></tr><tr><td>Z95.811</td><td>Presence of heart assist device</td></tr><tr><td>I70.702</td><td>Unspecified atherosclerosis of other type of bypass graft(s) of the extremities, left leg</td></tr><tr><td>I70.0</td><td>Atherosclerosis of aorta</td></tr><tr><td>I70.628</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with rest pain, other extremity</td></tr><tr><td>I70.613</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with intermittent claudication, bilateral legs</td></tr><tr><td>I70.633</td><td>Atherosclerosis of nonbiological bypass graft(s) of the right leg with ulceration of ankle</td></tr><tr><td>I70.529</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with rest pain, unspecified extremity</td></tr><tr><td>I70.462</td><td>Atherosclerosis of autologous vein bypass graft(s) of the extremities with gangrene, left leg</td></tr><tr><td>I70.549</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the left leg with ulceration of unspecified site</td></tr><tr><td>I70.632</td><td>Atherosclerosis of nonbiological bypass graft(s) of the right leg with ulceration of calf</td></tr><tr><td>I70.369</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with gangrene, unspecified extremity</td></tr><tr><td>I70.233</td><td>Atherosclerosis of native arteries of right leg with ulceration of ankle</td></tr><tr><td>I70.239</td><td>Atherosclerosis of native arteries of right leg with ulceration of unspecified site</td></tr><tr><td>I70.434</td><td>Atherosclerosis of autologous vein bypass graft(s) of the right leg with ulceration of heel and midfoot</td></tr><tr><td>I70.292</td><td>Other atherosclerosis of native arteries of extremities, left leg</td></tr><tr><td>I70.262</td><td>Atherosclerosis of native arteries of extremities with gangrene, left leg</td></tr><tr><td>I70.739</td><td>Atherosclerosis of other type of bypass graft(s) of the right leg with ulceration of unspecified site</td></tr><tr><td>I70.542</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the left leg with ulceration of calf</td></tr><tr><td>I70.528</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with rest pain, other extremity</td></tr><tr><td>I70.523</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with rest pain, bilateral legs</td></tr><tr><td>I70.668</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with gangrene, other extremity</td></tr><tr><td>I70.508</td><td>Unspecified atherosclerosis of nonautologous biological bypass graft(s) of the extremities, other extremity</td></tr><tr><td>I70.531</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the right leg with ulceration of thigh</td></tr><tr><td>I70.335</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the right leg with ulceration of other part of foot</td></tr><tr><td>I70.35</td><td>Atherosclerosis of unspecified type of bypass graft(s) of other extremity with ulceration</td></tr><tr><td>I70.52</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with rest pain</td></tr><tr><td>I70.361</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with gangrene, right leg</td></tr><tr><td>I70.392</td><td>Other atherosclerosis of unspecified type of bypass graft(s) of the extremities, left leg</td></tr><tr><td>I70.728</td><td>Atherosclerosis of other type of bypass graft(s) of the extremities with rest pain, other extremity</td></tr><tr><td>I73.89</td><td>Other specified peripheral vascular diseases</td></tr><tr><td>I70.703</td><td>Unspecified atherosclerosis of other type of bypass graft(s) of the extremities, bilateral legs</td></tr><tr><td>I70.631</td><td>Atherosclerosis of nonbiological bypass graft(s) of the right leg with ulceration of thigh</td></tr><tr><td>I70.321</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with rest pain, right leg</td></tr><tr><td>I71.4</td><td>Abdominal aortic aneurysm, without rupture</td></tr><tr><td>I70.362</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with gangrene, left leg</td></tr><tr><td>I70.563</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with gangrene, bilateral legs</td></tr><tr><td>Z95.828</td><td>Presence of other vascular implants and grafts</td></tr><tr><td>I70.401</td><td>Unspecified atherosclerosis of autologous vein bypass graft(s) of the extremities, right leg</td></tr><tr><td>I71.8</td><td>Aortic aneurysm of unspecified site, ruptured</td></tr><tr><td>I70.45</td><td>Atherosclerosis of autologous vein bypass graft(s) of other extremity with ulceration</td></tr><tr><td>I70.344</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the left leg with ulceration of heel and midfoot</td></tr><tr><td>I70.249</td><td>Atherosclerosis of native arteries of left leg with ulceration of unspecified site</td></tr><tr><td>I70.493</td><td>Other atherosclerosis of autologous vein bypass graft(s) of the extremities, bilateral legs</td></tr><tr><td>I70.66</td><td>Atherosclerosis of nonbiological bypass graft(s) of the extremities with gangrene</td></tr><tr><td>I70.329</td><td>Atherosclerosis of unspecified type of bypass graft(s) of the extremities with rest pain, unspecified extremity</td></tr><tr><td>I70.309</td><td>Unspecified atherosclerosis of unspecified type of bypass graft(s) of the extremities, unspecified extremity</td></tr><tr><td>I70.532</td><td>Atherosclerosis of nonautologous biological bypass graft(s) of the right leg with ulceration of calf</td></tr><tr><td>I71.9</td><td>Aortic aneurysm of unspecified site, without rupture</td></tr></table></li></ul></div>"
+  },
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/5daad360-6e53-11ec-a661-bf8941e42844",
+  "version": "0.9.5",
+  "name": "PeripheralVascularDisorder",
+  "title": "Peripheral Vascular Disorder",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-03-14T18:28:42+00:00",
+  "publisher": "Project Ronin Inc.",
+  "contact": [
+    {
+      "name": "Project Ronin Inc.",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.projectronin.com"
+        },
+        {
+          "system": "email",
+          "value": "contact@projectronin.com"
+        }
+      ]
+    }
+  ],
+  "description": "SNOMED and ICD10 codes for the condition of peripheral vascular disorder",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "16007751000119109",
+            "display": "Thrombosis of artery of right upper extremity (disorder)"
+          },
+          {
+            "code": "297150007",
+            "display": "Common iliac artery thrombosis (disorder)"
+          },
+          {
+            "code": "16007711000119108",
+            "display": "Thrombosis of artery of bilateral upper limbs (disorder)"
+          },
+          {
+            "code": "312375001",
+            "display": "Upper limb arterial embolus (disorder)"
+          },
+          {
+            "code": "297154003",
+            "display": "Subclavian artery thrombosis (disorder)"
+          },
+          {
+            "code": "442439008",
+            "display": "Atherosclerosis of bypass graft of limb (disorder)"
+          },
+          {
+            "code": "12236991000119103",
+            "display": "Pain at rest of bilateral lower limbs co-occurrent and due to atherosclerosis (disorder)"
+          },
+          {
+            "code": "15967301000119102",
+            "display": "Stenosis of bilateral subclavian arteries (disorder)"
+          },
+          {
+            "code": "312829002",
+            "display": "Common femoral artery stenosis (disorder)"
+          },
+          {
+            "code": "16018991000119103",
+            "display": "Atherosclerosis of autologous vein bypass graft of left upper limb (disorder)"
+          },
+          {
+            "code": "297153009",
+            "display": "Profunda femoris artery thrombosis (disorder)"
+          },
+          {
+            "code": "16019431000119102",
+            "display": "Atherosclerosis of bypass graft of right upper limb (disorder)"
+          },
+          {
+            "code": "1010730002",
+            "display": "Thromboembolus of artery of lower limb (disorder)"
+          },
+          {
+            "code": "312380005",
+            "display": "Post-radiological embolism of lower limb artery (disorder)"
+          },
+          {
+            "code": "53751009",
+            "display": "Senile purpura (disorder)"
+          },
+          {
+            "code": "16009431000119100",
+            "display": "Embolism of artery of left upper limb (disorder)"
+          },
+          {
+            "code": "734298005",
+            "display": "Thromboembolus of internal iliac artery (disorder)"
+          },
+          {
+            "code": "74725000",
+            "display": "Erythrocyanosis (disorder)"
+          },
+          {
+            "code": "195325004",
+            "display": "Embolism and thrombosis of the anterior tibial artery (disorder)"
+          },
+          {
+            "code": "15710281000119108",
+            "display": "Atherosclerosis of autologous bypass graft of right lower limb (disorder)"
+          },
+          {
+            "code": "60989005",
+            "display": "Thromboembolism of renal arteries (disorder)"
+          },
+          {
+            "code": "442735001",
+            "display": "Atherosclerosis of nonautologous bypass graft of limb (disorder)"
+          },
+          {
+            "code": "16012711000119107",
+            "display": "Atheroembolism of bilateral lower limbs (disorder)"
+          },
+          {
+            "code": "312822006",
+            "display": "Critical ischemia of foot (disorder)"
+          },
+          {
+            "code": "28810001000004102",
+            "display": "Stenosis of right iliac artery (disorder)"
+          },
+          {
+            "code": "709587006",
+            "display": "Atherosclerosis of autologous bypass graft of lower limb (disorder)"
+          },
+          {
+            "code": "90958004",
+            "display": "Thrombosis of arteries of lower extremity (disorder)"
+          },
+          {
+            "code": "15710601000119102",
+            "display": "Atherosclerosis of bypass graft of bilateral lower limbs (disorder)"
+          },
+          {
+            "code": "312378004",
+            "display": "Lower limb arterial embolus (disorder)"
+          },
+          {
+            "code": "15972461000119101",
+            "display": "Thrombosis of left iliac artery (disorder)"
+          },
+          {
+            "code": "16012511000119101",
+            "display": "Embolism of artery of left lower limb (disorder)"
+          },
+          {
+            "code": "312826009",
+            "display": "External iliac artery occlusion (disorder)"
+          },
+          {
+            "code": "236488005",
+            "display": "Renal artery occlusion (disorder)"
+          },
+          {
+            "code": "422166005",
+            "display": "Peripheral circulatory disorder due to type 2 diabetes mellitus (disorder)"
+          },
+          {
+            "code": "195319003",
+            "display": "Embolism and thrombosis of the brachial artery (disorder)"
+          },
+          {
+            "code": "15966701000119103",
+            "display": "Atheroembolism of right renal artery (disorder)"
+          },
+          {
+            "code": "233961000",
+            "display": "Lower limb ischemia (disorder)"
+          },
+          {
+            "code": "297152004",
+            "display": "Internal iliac artery thrombosis (disorder)"
+          },
+          {
+            "code": "15972621000119109",
+            "display": "Embolism of right iliac artery (disorder)"
+          },
+          {
+            "code": "16011391000119108",
+            "display": "Stenosis of artery of left lower limb (disorder)"
+          },
+          {
+            "code": "297136002",
+            "display": "Axillary artery embolus (disorder)"
+          },
+          {
+            "code": "243410003",
+            "display": "Thrombosis of mesenteric artery (disorder)"
+          },
+          {
+            "code": "271432005",
+            "display": "Congenital renal artery stenosis (disorder)"
+          },
+          {
+            "code": "10749961000119104",
+            "display": "Occlusion of aortoiliac artery (disorder)"
+          },
+          {
+            "code": "431706008",
+            "display": "Occlusion of artery of upper extremity (disorder)"
+          },
+          {
+            "code": "15972581000119109",
+            "display": "Embolism of left iliac artery (disorder)"
+          },
+          {
+            "code": "312377009",
+            "display": "Post-radiological embolism of upper limb artery (disorder)"
+          },
+          {
+            "code": "16012551000119100",
+            "display": "Embolism of artery of right lower limb (disorder)"
+          },
+          {
+            "code": "16019511000119108",
+            "display": "Atherosclerosis of right iliac artery (disorder)"
+          },
+          {
+            "code": "233967001",
+            "display": "Common iliac artery stenosis (disorder)"
+          },
+          {
+            "code": "15710401000119104",
+            "display": "Atherosclerosis of bypass graft of right lower limb (disorder)"
+          },
+          {
+            "code": "15972541000119104",
+            "display": "Thrombosis of bilateral iliac arteries (disorder)"
+          },
+          {
+            "code": "276500007",
+            "display": "Mesenteric embolus (disorder)"
+          },
+          {
+            "code": "31211000119101",
+            "display": "Peripheral angiopathy due to type 1 diabetes mellitus (disorder)"
+          },
+          {
+            "code": "16011431000119103",
+            "display": "Stenosis of artery of right lower limb (disorder)"
+          },
+          {
+            "code": "275446004",
+            "display": "Gardner-Diamond syndrome (disorder)"
+          },
+          {
+            "code": "312827000",
+            "display": "Superficial femoral artery occlusion (disorder)"
+          },
+          {
+            "code": "16013351000119104",
+            "display": "Claudication of bilateral upper limbs co-occurrent and due to atherosclerosis (disorder)"
+          },
+          {
+            "code": "16007911000119106",
+            "display": "Thrombosis of left ulnar artery (disorder)"
+          },
+          {
+            "code": "34881000119105",
+            "display": "Peripheral vascular disease associated with another disorder (disorder)"
+          },
+          {
+            "code": "403391003",
+            "display": "Secondary erythromelalgia (disorder)"
+          },
+          {
+            "code": "16013111000119103",
+            "display": "Thrombosis of right common femoral artery (disorder)"
+          },
+          {
+            "code": "297135003",
+            "display": "Subclavian artery embolus (disorder)"
+          },
+          {
+            "code": "195320009",
+            "display": "Embolism and thrombosis of the radial artery (disorder)"
+          },
+          {
+            "code": "21112004",
+            "display": "Vascular hemostatic disease (disorder)"
+          },
+          {
+            "code": "15710481000119107",
+            "display": "Atherosclerosis of nonautologous biological bypass graft of right lower limb (disorder)"
+          },
+          {
+            "code": "734299002",
+            "display": "Thromboembolus of external iliac artery (disorder)"
+          },
+          {
+            "code": "15966381000119107",
+            "display": "Congenital stenosis of left renal artery (disorder)"
+          },
+          {
+            "code": "297162006",
+            "display": "Crural artery thrombosis (disorder)"
+          },
+          {
+            "code": "127014009",
+            "display": "Peripheral angiopathy due to diabetes mellitus (disorder)"
+          },
+          {
+            "code": "238787009",
+            "display": "Secondary cutaneous vasculitis (disorder)"
+          },
+          {
+            "code": "16019471000119104",
+            "display": "Atherosclerosis of left iliac artery (disorder)"
+          },
+          {
+            "code": "31529002",
+            "display": "Thrombosis of arteries of upper extremity (disorder)"
+          },
+          {
+            "code": "297141005",
+            "display": "Popliteal artery embolus (disorder)"
+          },
+          {
+            "code": "16013031000119107",
+            "display": "Thrombosis of right femoral artery (disorder)"
+          },
+          {
+            "code": "16065251000119109",
+            "display": "Gangrene of right lower limb co-occurrent and due to atherosclerosis of bypass graft (disorder)"
+          },
+          {
+            "code": "709584004",
+            "display": "Atherosclerosis of bypass graft of lower limb (disorder)"
+          },
+          {
+            "code": "427184002",
+            "display": "Thrombosis of ulnar artery (disorder)"
+          },
+          {
+            "code": "312825008",
+            "display": "Common iliac artery occlusion (disorder)"
+          },
+          {
+            "code": "15712521000119108",
+            "display": "Ischemia of right lower extremity (disorder)"
+          },
+          {
+            "code": "421365002",
+            "display": "Peripheral circulatory disorder due to type 1 diabetes mellitus (disorder)"
+          },
+          {
+            "code": "233962007",
+            "display": "Critical lower limb ischemia (disorder)"
+          },
+          {
+            "code": "15712681000119106",
+            "display": "Ischemia of left upper extremity (disorder)"
+          },
+          {
+            "code": "16002551000119103",
+            "display": "Pain of left upper limb co-occurrent and due to ischemia (disorder)"
+          },
+          {
+            "code": "16005391000119108",
+            "display": "Occlusion of distal artery of right upper limb (disorder)"
+          },
+          {
+            "code": "51274000",
+            "display": "Atherosclerosis of arteries of the extremities (disorder)"
+          },
+          {
+            "code": "15712561000119103",
+            "display": "Ischemia of bilateral lower limbs (disorder)"
+          },
+          {
+            "code": "789703007",
+            "display": "Arteriosclerosis of artery of lower extremity (disorder)"
+          },
+          {
+            "code": "735572005",
+            "display": "Acute occlusion of artery of upper limb (disorder)"
+          },
+          {
+            "code": "233973000",
+            "display": "Femoral artery embolus (disorder)"
+          },
+          {
+            "code": "16009271000119101",
+            "display": "Embolism of artery of right upper limb (disorder)"
+          },
+          {
+            "code": "12237151000119108",
+            "display": "Atherosclerosis of arteries of right lower limb (disorder)"
+          },
+          {
+            "code": "233968006",
+            "display": "External iliac artery stenosis (disorder)"
+          },
+          {
+            "code": "235842000",
+            "display": "Occlusive mesenteric ischemia (disorder)"
+          },
+          {
+            "code": "16066731000119102",
+            "display": "Pain at rest of right lower limb co-occurrent and due to atherosclerosis of bypass graft (disorder)"
+          },
+          {
+            "code": "16014671000119100",
+            "display": "Occlusion of left femoral artery (disorder)"
+          },
+          {
+            "code": "16012871000119107",
+            "display": "Thrombosis of bilateral popliteal arteries (disorder)"
+          },
+          {
+            "code": "15710241000119103",
+            "display": "Stenosis of left renal artery (disorder)"
+          },
+          {
+            "code": "403393000",
+            "display": "Stellate pseudoscar in senile purpura (disorder)"
+          },
+          {
+            "code": "723870003",
+            "display": "Acute occlusion of artery of lower limb co-occurrent and due to thromboembolus (disorder)"
+          },
+          {
+            "code": "77788005",
+            "display": "Vasomotor acroparesthesia (disorder)"
+          },
+          {
+            "code": "307407008",
+            "display": "Ischemic hand (disorder)"
+          },
+          {
+            "code": "314187004",
+            "display": "Iliac artery occlusion (disorder)"
+          },
+          {
+            "code": "399957001",
+            "display": "Peripheral arterial occlusive disease (disorder)"
+          },
+          {
+            "code": "15710361000119108",
+            "display": "Atherosclerosis of nonautologous biological bypass graft of left lower limb (disorder)"
+          },
+          {
+            "code": "421895002",
+            "display": "Peripheral vascular disorder due to diabetes mellitus (disorder)"
+          },
+          {
+            "code": "361210001",
+            "display": "Stasis purpura (disorder)"
+          },
+          {
+            "code": "709585003",
+            "display": "Atherosclerosis of nonautologous biological bypass graft of lower limb (disorder)"
+          },
+          {
+            "code": "15649941000119102",
+            "display": "Gangrene of bilateral lower limbs co-occurrent and due to atherosclerosis (disorder)"
+          },
+          {
+            "code": "15648601000119102",
+            "display": "Atherosclerosis of artery of right upper limb (disorder)"
+          },
+          {
+            "code": "15712601000119103",
+            "display": "Ischemia of bilateral upper limbs (disorder)"
+          },
+          {
+            "code": "400047006",
+            "display": "Peripheral vascular disease (disorder)"
+          },
+          {
+            "code": "724441006",
+            "display": "Non-atherosclerotic chronic arterial occlusive disease (disorder)"
+          },
+          {
+            "code": "16013151000119102",
+            "display": "Thrombosis of left common femoral artery (disorder)"
+          },
+          {
+            "code": "402861007",
+            "display": "Ischemic gangrene (disorder)"
+          },
+          {
+            "code": "302233006",
+            "display": "Renal artery stenosis (disorder)"
+          },
+          {
+            "code": "16004991000119105",
+            "display": "Stenosis of artery of left upper limb (disorder)"
+          },
+          {
+            "code": "300921000",
+            "display": "Subclavian artery stenosis (disorder)"
+          },
+          {
+            "code": "403189002",
+            "display": "Erythrocyanosis with nodules (disorder)"
+          },
+          {
+            "code": "116291000119103",
+            "display": "Occlusion of renal artery due to embolism (disorder)"
+          },
+          {
+            "code": "197000003",
+            "display": "Superior mesenteric artery thrombosis (disorder)"
+          },
+          {
+            "code": "16019031000119105",
+            "display": "Atherosclerosis of autologous vein bypass graft of right upper limb (disorder)"
+          },
+          {
+            "code": "82453008",
+            "display": "Thrombosis of iliac artery (disorder)"
+          },
+          {
+            "code": "16014071000119107",
+            "display": "Intermittent claudication of bilateral lower limbs co-occurrent and due to atherosclerosis of bypass graft (disorder)"
+          },
+          {
+            "code": "306848006",
+            "display": "Occlusion of femoropopliteal bypass graft (disorder)"
+          },
+          {
+            "code": "297149007",
+            "display": "Common femoral artery thrombosis (disorder)"
+          },
+          {
+            "code": "723872006",
+            "display": "Acute occlusion of artery of lower limb due to thrombosis (disorder)"
+          },
+          {
+            "code": "314189001",
+            "display": "Popliteal artery occlusion (disorder)"
+          },
+          {
+            "code": "195323006",
+            "display": "Embolism and thrombosis of the femoral artery (disorder)"
+          },
+          {
+            "code": "12237111000119107",
+            "display": "Pain at rest of left lower limb co-occurrent and due to atherosclerosis (disorder)"
+          },
+          {
+            "code": "16019311000119103",
+            "display": "Atherosclerosis of nonbiological bypass graft of left lower limb (disorder)"
+          },
+          {
+            "code": "95580006",
+            "display": "Renal artery embolism (disorder)"
+          },
+          {
+            "code": "233960004",
+            "display": "Critical upper limb ischemia (disorder)"
+          },
+          {
+            "code": "15712641000119101",
+            "display": "Ischemia of right upper limb (disorder)"
+          },
+          {
+            "code": "15710321000119103",
+            "display": "Atherosclerosis of nonautologous biological bypass graft of bilateral lower limbs (disorder)"
+          },
+          {
+            "code": "306849003",
+            "display": "Occlusion of femorofemoral crossover bypass graft (disorder)"
+          },
+          {
+            "code": "12237031000119103",
+            "display": "Atherosclerosis of arteries of left lower limb (disorder)"
+          },
+          {
+            "code": "302300004",
+            "display": "Femoral popliteal occlusion (disorder)"
+          },
+          {
+            "code": "195339004",
+            "display": "Embolism and thrombosis of the subclavian artery (disorder)"
+          },
+          {
+            "code": "18000001000004101",
+            "display": "Stenosis of left subclavian artery (disorder)"
+          },
+          {
+            "code": "15966341000119102",
+            "display": "Congenital stenosis of right renal artery (disorder)"
+          },
+          {
+            "code": "297140006",
+            "display": "Inferior mesenteric artery embolus (disorder)"
+          },
+          {
+            "code": "307408003",
+            "display": "Ischemic toe (disorder)"
+          },
+          {
+            "code": "289923007",
+            "display": "Acquired renal artery stenosis (disorder)"
+          },
+          {
+            "code": "789704001",
+            "display": "Arteriosclerosis of artery of upper extremity (disorder)"
+          },
+          {
+            "code": "16012591000119105",
+            "display": "Embolism of left popliteal artery (disorder)"
+          },
+          {
+            "code": "195335005",
+            "display": "Embolism and/or thrombosis of the common iliac artery (disorder)"
+          },
+          {
+            "code": "195341003",
+            "display": "Embolism and thrombosis of the axillary artery (disorder)"
+          },
+          {
+            "code": "306852006",
+            "display": "Occlusion of renal artery bypass graft (disorder)"
+          },
+          {
+            "code": "16018911000119107",
+            "display": "Atherosclerosis of non-biological bypass graft of bilateral lower limbs (disorder)"
+          },
+          {
+            "code": "403390002",
+            "display": "Primary erythromelalgia (disorder)"
+          },
+          {
+            "code": "1010729007",
+            "display": "Thromboembolus of artery of upper limb (disorder)"
+          },
+          {
+            "code": "16012471000119105",
+            "display": "Atheroembolism of left lower limb (disorder)"
+          },
+          {
+            "code": "307409006",
+            "display": "Ischemic finger (disorder)"
+          },
+          {
+            "code": "16013071000119105",
+            "display": "Thrombosis of bilateral common femoral arteries (disorder)"
+          },
+          {
+            "code": "300919005",
+            "display": "Digital arterial thrombosis (disorder)"
+          },
+          {
+            "code": "243286001",
+            "display": "Acute mesenteric arterial occlusion (disorder)"
+          },
+          {
+            "code": "427567003",
+            "display": "Atheromatous embolus of upper limb (disorder)"
+          },
+          {
+            "code": "12237231000119107",
+            "display": "Pain at rest of right lower limb co-occurrent and due to atherosclerosis (disorder)"
+          },
+          {
+            "code": "16013191000119107",
+            "display": "Thrombosis of bilateral femoral arteries (disorder)"
+          },
+          {
+            "code": "302910002",
+            "display": "Atherosclerotic renal artery stenosis (disorder)"
+          },
+          {
+            "code": "51677000",
+            "display": "Atheroembolism of renal arteries (disorder)"
+          },
+          {
+            "code": "405557003",
+            "display": "Occlusion of lower limb artery (disorder)"
+          },
+          {
+            "code": "16018831000119106",
+            "display": "Atherosclerosis of bilateral iliac arteries (disorder)"
+          },
+          {
+            "code": "15648731000119101",
+            "display": "Atherosclerosis of right renal artery (disorder)"
+          },
+          {
+            "code": "16007791000119104",
+            "display": "Thrombosis of right ulnar artery (disorder)"
+          },
+          {
+            "code": "93388003",
+            "display": "Congenital stenosis of subclavian artery (disorder)"
+          },
+          {
+            "code": "425414000",
+            "display": "Bilateral renal artery stenosis (disorder)"
+          },
+          {
+            "code": "233959009",
+            "display": "Upper limb ischemia (disorder)"
+          },
+          {
+            "code": "16899261000119106",
+            "display": "Atherosclerosis of superior mesenteric artery (disorder)"
+          },
+          {
+            "code": "195326003",
+            "display": "Embolism and thrombosis of the dorsalis pedis artery (disorder)"
+          },
+          {
+            "code": "16012631000119105",
+            "display": "Atheroembolism of right lower limb (disorder)"
+          },
+          {
+            "code": "233969003",
+            "display": "Superficial femoral artery stenosis (disorder)"
+          },
+          {
+            "code": "16005471000119100",
+            "display": "Occlusion of distal artery of left upper limb (disorder)"
+          },
+          {
+            "code": "402850004",
+            "display": "Purpura due to prolonged vomiting and/or coughing (disorder)"
+          },
+          {
+            "code": "312496009",
+            "display": "Iliac artery stenosis (disorder)"
+          },
+          {
+            "code": "16019391000119107",
+            "display": "Atherosclerosis of nonbiological bypass graft of right lower limb (disorder)"
+          },
+          {
+            "code": "713825007",
+            "display": "Renal artery stenosis of transplanted kidney (disorder)"
+          },
+          {
+            "code": "297146000",
+            "display": "Brachial artery thrombosis (disorder)"
+          },
+          {
+            "code": "91304009",
+            "display": "Capillary fragility abnormality (disorder)"
+          },
+          {
+            "code": "16009351000119100",
+            "display": "Atheroembolism of left upper limb (disorder)"
+          },
+          {
+            "code": "16064811000119108",
+            "display": "Gangrene of left lower limb co-occurrent and due to atherosclerosis of bypass graft (disorder)"
+          },
+          {
+            "code": "80383008",
+            "display": "Embolism of iliac artery (disorder)"
+          },
+          {
+            "code": "307406004",
+            "display": "Trash foot (disorder)"
+          },
+          {
+            "code": "301755001",
+            "display": "Ischemic foot (disorder)"
+          },
+          {
+            "code": "16007871000119108",
+            "display": "Thrombosis of artery of left upper extremity (disorder)"
+          },
+          {
+            "code": "153911000119104",
+            "display": "Peripheral arterial insufficiency (disorder)"
+          },
+          {
+            "code": "735574006",
+            "display": "Acute occlusion of artery of lower limb (disorder)"
+          },
+          {
+            "code": "16012831000119109",
+            "display": "Thrombosis of artery of left lower extremity (disorder)"
+          },
+          {
+            "code": "16012951000119106",
+            "display": "Thrombosis of right popliteal artery (disorder)"
+          },
+          {
+            "code": "195324000",
+            "display": "Embolism and thrombosis of the popliteal artery (disorder)"
+          },
+          {
+            "code": "95579008",
+            "display": "Thrombosis of renal artery (disorder)"
+          },
+          {
+            "code": "45281005",
+            "display": "Atherosclerosis of renal artery (disorder)"
+          },
+          {
+            "code": "196999001",
+            "display": "Superior mesenteric artery embolus (disorder)"
+          },
+          {
+            "code": "12236911000119107",
+            "display": "Bilateral atherosclerosis of arteries of lower limbs (disorder)"
+          },
+          {
+            "code": "15967341000119100",
+            "display": "Stenosis of right subclavian artery (disorder)"
+          },
+          {
+            "code": "195327007",
+            "display": "Embolism and thrombosis of the posterior tibial artery (disorder)"
+          },
+          {
+            "code": "16014031000119109",
+            "display": "Intermittent claudication of left lower limb co-occurrent and due to atherosclerosis of bypass graft (disorder)"
+          },
+          {
+            "code": "87239004",
+            "display": "Popliteal artery thrombosis (disorder)"
+          },
+          {
+            "code": "15710201000119100",
+            "display": "Stenosis of right renal artery (disorder)"
+          },
+          {
+            "code": "840580004",
+            "display": "Peripheral arterial disease (disorder)"
+          },
+          {
+            "code": "405588004",
+            "display": "Upper limb artery stenosis (disorder)"
+          },
+          {
+            "code": "15710521000119107",
+            "display": "Atherosclerosis of autologous bypass graft of left lower limb (disorder)"
+          },
+          {
+            "code": "16012911000119105",
+            "display": "Thrombosis of left popliteal artery (disorder)"
+          },
+          {
+            "code": "21631000119105",
+            "display": "Limb ischemia (disorder)"
+          },
+          {
+            "code": "16012791000119103",
+            "display": "Thrombosis of artery of right lower extremity (disorder)"
+          },
+          {
+            "code": "15710441000119102",
+            "display": "Atherosclerosis of bypass graft of left lower limb (disorder)"
+          },
+          {
+            "code": "195321008",
+            "display": "Embolism and thrombosis of the ulnar artery (disorder)"
+          },
+          {
+            "code": "733127007",
+            "display": "Acute occlusion of artery of upper limb caused by thrombus (disorder)"
+          },
+          {
+            "code": "16004911000119101",
+            "display": "Stenosis of artery of right upper limb (disorder)"
+          },
+          {
+            "code": "15966741000119101",
+            "display": "Atheroembolism of bilateral renal arteries (disorder)"
+          },
+          {
+            "code": "297151006",
+            "display": "External iliac artery thrombosis (disorder)"
+          },
+          {
+            "code": "733126003",
+            "display": "Acute occlusion of artery of upper limb caused by thromboembolus (disorder)"
+          },
+          {
+            "code": "16014871000119101",
+            "display": "Occlusion of right femoral artery (disorder)"
+          },
+          {
+            "code": "724440007",
+            "display": "Atherosclerosis of artery of lower limb (disorder)"
+          },
+          {
+            "code": "286959000",
+            "display": "Peripheral arterial embolism (disorder)"
+          },
+          {
+            "code": "405545007",
+            "display": "Mesenteric artery stenosis (disorder)"
+          },
+          {
+            "code": "15972501000119101",
+            "display": "Thrombosis of right iliac artery (disorder)"
+          },
+          {
+            "code": "16012671000119108",
+            "display": "Embolism of right popliteal artery (disorder)"
+          },
+          {
+            "code": "16014711000119101",
+            "display": "Occlusion of right popliteal artery (disorder)"
+          },
+          {
+            "code": "15648771000119103",
+            "display": "Atherosclerosis of bilateral renal arteries (disorder)"
+          },
+          {
+            "code": "16012751000119108",
+            "display": "Thrombosis of artery of bilateral lower limbs (disorder)"
+          },
+          {
+            "code": "314188009",
+            "display": "Femoral artery occlusion (disorder)"
+          },
+          {
+            "code": "300917007",
+            "display": "Ischemia of feet (disorder)"
+          },
+          {
+            "code": "314902007",
+            "display": "Peripheral angiopathy due to type 2 diabetes mellitus (disorder)"
+          },
+          {
+            "code": "15648821000119105",
+            "display": "Atherosclerosis of left renal artery (disorder)"
+          },
+          {
+            "code": "33591000",
+            "display": "Thrombosis of arteries of the extremities (disorder)"
+          },
+          {
+            "code": "312828005",
+            "display": "Common femoral artery occlusion (disorder)"
+          },
+          {
+            "code": "16012991000119101",
+            "display": "Thrombosis of left femoral artery (disorder)"
+          },
+          {
+            "code": "442693003",
+            "display": "Atherosclerosis of autologous vein bypass graft of limb (disorder)"
+          },
+          {
+            "code": "405556007",
+            "display": "Stenosis of lower limb artery (disorder)"
+          },
+          {
+            "code": "15710561000119102",
+            "display": "Atherosclerosis of autologous bypass graft of bilateral lower limbs (disorder)"
+          },
+          {
+            "code": "16009391000119105",
+            "display": "Atheroembolism of right upper limb (disorder)"
+          },
+          {
+            "code": "233974006",
+            "display": "Brachial artery embolus (disorder)"
+          },
+          {
+            "code": "16013871000119104",
+            "display": "Claudication of right upper limb co-occurrent and due to atherosclerosis (disorder)"
+          },
+          {
+            "code": "361209006",
+            "display": "Dermite ocre of Favre (disorder)"
+          },
+          {
+            "code": "442701004",
+            "display": "Atherosclerosis of nonautologous biological bypass graft of limb (disorder)"
+          },
+          {
+            "code": "16013711000119104",
+            "display": "Intermittent claudication of right lower limb co-occurrent and due to atherosclerosis of bypass graft (disorder)"
+          },
+          {
+            "code": "8001000119106",
+            "display": "Atherosclerosis of aortoiliac bypass graft (disorder)"
+          },
+          {
+            "code": "16011351000119103",
+            "display": "Stenosis of artery of bilateral lower limbs (disorder)"
+          },
+          {
+            "code": "37151006",
+            "display": "Erythromelalgia (disorder)"
+          },
+          {
+            "code": "16019351000119102",
+            "display": "Atherosclerosis of bypass graft of left upper limb (disorder)"
+          },
+          {
+            "code": "16014231000119100",
+            "display": "Claudication of left upper limb co-occurrent and due to atherosclerosis (disorder)"
+          },
+          {
+            "code": "15966781000119106",
+            "display": "Atheroembolism of left renal artery (disorder)"
+          },
+          {
+            "code": "233958001",
+            "display": "Peripheral ischemia (disorder)"
+          },
+          {
+            "code": "16002711000119105",
+            "display": "Pain of right upper limb co-occurrent and due to ischemia (disorder)"
+          },
+          {
+            "code": "443971004",
+            "display": "Arteriosclerosis of artery of extremity (disorder)"
+          },
+          {
+            "code": "698816006",
+            "display": "Chronic occlusion of artery of extremity (disorder)"
+          },
+          {
+            "code": "425527003",
+            "display": "Atheromatous embolus of lower limb (disorder)"
+          },
+          {
+            "code": "297155002",
+            "display": "Superficial femoral artery thrombosis (disorder)"
+          },
+          {
+            "code": "52156004",
+            "display": "Femoral artery thrombosis (disorder)"
+          },
+          {
+            "code": "7014009",
+            "display": "Mechanical purpura (disorder)"
+          },
+          {
+            "code": "16014791000119105",
+            "display": "Occlusion of left popliteal artery (disorder)"
+          },
+          {
+            "code": "15648691000119108",
+            "display": "Atherosclerosis of artery of left upper limb (disorder)"
+          },
+          {
+            "code": "427592000",
+            "display": "Occlusion of superior mesenteric artery (disorder)"
+          },
+          {
+            "code": "282664001",
+            "display": "Renal artery stenosis of unknown cause (disorder)"
+          },
+          {
+            "code": "15712481000119108",
+            "display": "Ischemia of left lower extremity (disorder)"
+          },
+          {
+            "code": "15648641000119100",
+            "display": "Atherosclerosis of artery of bilateral upper limbs (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "I71.00",
+            "display": "Dissection of unspecified site of aorta"
+          },
+          {
+            "code": "I70.719",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with intermittent claudication, unspecified extremity"
+          },
+          {
+            "code": "I70.669",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with gangrene, unspecified extremity"
+          },
+          {
+            "code": "I70.469",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with gangrene, unspecified extremity"
+          },
+          {
+            "code": "I70.409",
+            "display": "Unspecified atherosclerosis of autologous vein bypass graft(s) of the extremities, unspecified extremity"
+          },
+          {
+            "code": "I70.511",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with intermittent claudication, right leg"
+          },
+          {
+            "code": "I70.393",
+            "display": "Other atherosclerosis of unspecified type of bypass graft(s) of the extremities, bilateral legs"
+          },
+          {
+            "code": "I70.762",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with gangrene, left leg"
+          },
+          {
+            "code": "I70.503",
+            "display": "Unspecified atherosclerosis of nonautologous biological bypass graft(s) of the extremities, bilateral legs"
+          },
+          {
+            "code": "I70.463",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with gangrene, bilateral legs"
+          },
+          {
+            "code": "I70.229",
+            "display": "Atherosclerosis of native arteries of extremities with rest pain, unspecified extremity"
+          },
+          {
+            "code": "I70.30",
+            "display": "Unspecified atherosclerosis of unspecified type of bypass graft(s) of the extremities"
+          },
+          {
+            "code": "I70.692",
+            "display": "Other atherosclerosis of nonbiological bypass graft(s) of the extremities, left leg"
+          },
+          {
+            "code": "I70.318",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with intermittent claudication, other extremity"
+          },
+          {
+            "code": "I70.311",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with intermittent claudication, right leg"
+          },
+          {
+            "code": "Z95.818",
+            "display": "Presence of other cardiac implants and grafts"
+          },
+          {
+            "code": "I70.743",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the left leg with ulceration of ankle"
+          },
+          {
+            "code": "I70.221",
+            "display": "Atherosclerosis of native arteries of extremities with rest pain, right leg"
+          },
+          {
+            "code": "I70.223",
+            "display": "Atherosclerosis of native arteries of extremities with rest pain, bilateral legs"
+          },
+          {
+            "code": "K55.9",
+            "display": "Vascular disorder of intestine, unspecified"
+          },
+          {
+            "code": "I70.232",
+            "display": "Atherosclerosis of native arteries of right leg with ulceration of calf"
+          },
+          {
+            "code": "I70.609",
+            "display": "Unspecified atherosclerosis of nonbiological bypass graft(s) of the extremities, unspecified extremity"
+          },
+          {
+            "code": "I70.33",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the right leg with ulceration"
+          },
+          {
+            "code": "I70.69",
+            "display": "Other atherosclerosis of nonbiological bypass graft(s) of the extremities"
+          },
+          {
+            "code": "I79.0",
+            "display": "Aneurysm of aorta in diseases classified elsewhere"
+          },
+          {
+            "code": "I70.629",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with rest pain, unspecified extremity"
+          },
+          {
+            "code": "I70.7",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities"
+          },
+          {
+            "code": "I70.242",
+            "display": "Atherosclerosis of native arteries of left leg with ulceration of calf"
+          },
+          {
+            "code": "I70.263",
+            "display": "Atherosclerosis of native arteries of extremities with gangrene, bilateral legs"
+          },
+          {
+            "code": "I70.408",
+            "display": "Unspecified atherosclerosis of autologous vein bypass graft(s) of the extremities, other extremity"
+          },
+          {
+            "code": "I70.522",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with rest pain, left leg"
+          },
+          {
+            "code": "I70.338",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the right leg with ulceration of other part of lower leg"
+          },
+          {
+            "code": "I70.209",
+            "display": "Unspecified atherosclerosis of native arteries of extremities, unspecified extremity"
+          },
+          {
+            "code": "Z95.81",
+            "display": "Presence of other cardiac implants and grafts"
+          },
+          {
+            "code": "I70.245",
+            "display": "Atherosclerosis of native arteries of left leg with ulceration of other part of foot"
+          },
+          {
+            "code": "I71.0",
+            "display": "Dissection of aorta"
+          },
+          {
+            "code": "I70.735",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the right leg with ulceration of other part of foot"
+          },
+          {
+            "code": "I70.693",
+            "display": "Other atherosclerosis of nonbiological bypass graft(s) of the extremities, bilateral legs"
+          },
+          {
+            "code": "I70.449",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the left leg with ulceration of unspecified site"
+          },
+          {
+            "code": "I70.3",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities"
+          },
+          {
+            "code": "I70.461",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with gangrene, right leg"
+          },
+          {
+            "code": "I70.348",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the left leg with ulceration of other part of lower leg"
+          },
+          {
+            "code": "I70.208",
+            "display": "Unspecified atherosclerosis of native arteries of extremities, other extremity"
+          },
+          {
+            "code": "I70.20",
+            "display": "Unspecified atherosclerosis of native arteries of extremities"
+          },
+          {
+            "code": "I70.691",
+            "display": "Other atherosclerosis of nonbiological bypass graft(s) of the extremities, right leg"
+          },
+          {
+            "code": "I70.55",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of other extremity with ulceration"
+          },
+          {
+            "code": "I70.429",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with rest pain, unspecified extremity"
+          },
+          {
+            "code": "I70.741",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the left leg with ulceration of thigh"
+          },
+          {
+            "code": "I70.431",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the right leg with ulceration of thigh"
+          },
+          {
+            "code": "I70.732",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the right leg with ulceration of calf"
+          },
+          {
+            "code": "I71.1",
+            "display": "Thoracic aortic aneurysm, ruptured"
+          },
+          {
+            "code": "I70.65",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of other extremity with ulceration"
+          },
+          {
+            "code": "I70.591",
+            "display": "Other atherosclerosis of nonautologous biological bypass graft(s) of the extremities, right leg"
+          },
+          {
+            "code": "I70.448",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the left leg with ulceration of other part of lower leg"
+          },
+          {
+            "code": "I70.79",
+            "display": "Other atherosclerosis of other type of bypass graft(s) of the extremities"
+          },
+          {
+            "code": "I70.698",
+            "display": "Other atherosclerosis of nonbiological bypass graft(s) of the extremities, other extremity"
+          },
+          {
+            "code": "I70.8",
+            "display": "Atherosclerosis of other arteries"
+          },
+          {
+            "code": "I70.433",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the right leg with ulceration of ankle"
+          },
+          {
+            "code": "I70.231",
+            "display": "Atherosclerosis of native arteries of right leg with ulceration of thigh"
+          },
+          {
+            "code": "I70.291",
+            "display": "Other atherosclerosis of native arteries of extremities, right leg"
+          },
+          {
+            "code": "I70.722",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with rest pain, left leg"
+          },
+          {
+            "code": "I70.62",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with rest pain"
+          },
+          {
+            "code": "I70.742",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the left leg with ulceration of calf"
+          },
+          {
+            "code": "I70.619",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with intermittent claudication, unspecified extremity"
+          },
+          {
+            "code": "I70.313",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with intermittent claudication, bilateral legs"
+          },
+          {
+            "code": "I70.643",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the left leg with ulceration of ankle"
+          },
+          {
+            "code": "I70.334",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the right leg with ulceration of heel and midfoot"
+          },
+          {
+            "code": "I70.761",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with gangrene, right leg"
+          },
+          {
+            "code": "I70.235",
+            "display": "Atherosclerosis of native arteries of right leg with ulceration of other part of foot"
+          },
+          {
+            "code": "I70.432",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the right leg with ulceration of calf"
+          },
+          {
+            "code": "I70.568",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with gangrene, other extremity"
+          },
+          {
+            "code": "I70.749",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the left leg with ulceration of unspecified site"
+          },
+          {
+            "code": "I71.3",
+            "display": "Abdominal aortic aneurysm, ruptured"
+          },
+          {
+            "code": "I70.43",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the right leg with ulceration"
+          },
+          {
+            "code": "I70.442",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the left leg with ulceration of calf"
+          },
+          {
+            "code": "I70.544",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the left leg with ulceration of heel and midfoot"
+          },
+          {
+            "code": "I70.611",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with intermittent claudication, right leg"
+          },
+          {
+            "code": "I70.234",
+            "display": "Atherosclerosis of native arteries of right leg with ulceration of heel and midfoot"
+          },
+          {
+            "code": "I70.402",
+            "display": "Unspecified atherosclerosis of autologous vein bypass graft(s) of the extremities, left leg"
+          },
+          {
+            "code": "I70.332",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the right leg with ulceration of calf"
+          },
+          {
+            "code": "I70.399",
+            "display": "Other atherosclerosis of unspecified type of bypass graft(s) of the extremities, unspecified extremity"
+          },
+          {
+            "code": "I70.492",
+            "display": "Other atherosclerosis of autologous vein bypass graft(s) of the extremities, left leg"
+          },
+          {
+            "code": "I70.303",
+            "display": "Unspecified atherosclerosis of unspecified type of bypass graft(s) of the extremities, bilateral legs"
+          },
+          {
+            "code": "I70.391",
+            "display": "Other atherosclerosis of unspecified type of bypass graft(s) of the extremities, right leg"
+          },
+          {
+            "code": "I70.639",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the right leg with ulceration of unspecified site"
+          },
+          {
+            "code": "I70.219",
+            "display": "Atherosclerosis of native arteries of extremities with intermittent claudication, unspecified extremity"
+          },
+          {
+            "code": "I70.411",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with intermittent claudication, right leg"
+          },
+          {
+            "code": "I70.593",
+            "display": "Other atherosclerosis of nonautologous biological bypass graft(s) of the extremities, bilateral legs"
+          },
+          {
+            "code": "I70.363",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with gangrene, bilateral legs"
+          },
+          {
+            "code": "I70.445",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the left leg with ulceration of other part of foot"
+          },
+          {
+            "code": "I70.238",
+            "display": "Atherosclerosis of native arteries of right leg with ulceration of other part of lower leg"
+          },
+          {
+            "code": "I70.661",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with gangrene, right leg"
+          },
+          {
+            "code": "Z95.82",
+            "display": "Presence of other vascular implants and grafts"
+          },
+          {
+            "code": "I70.623",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with rest pain, bilateral legs"
+          },
+          {
+            "code": "I70.312",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with intermittent claudication, left leg"
+          },
+          {
+            "code": "I70.202",
+            "display": "Unspecified atherosclerosis of native arteries of extremities, left leg"
+          },
+          {
+            "code": "I70.31",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with intermittent claudication"
+          },
+          {
+            "code": "I70.721",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with rest pain, right leg"
+          },
+          {
+            "code": "I77.1",
+            "display": "Stricture of artery"
+          },
+          {
+            "code": "I70.418",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with intermittent claudication, other extremity"
+          },
+          {
+            "code": "I71.6",
+            "display": "Thoracoabdominal aortic aneurysm, without rupture"
+          },
+          {
+            "code": "K55.1",
+            "display": "Chronic vascular disorders of intestine"
+          },
+          {
+            "code": "I70.339",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the right leg with ulceration of unspecified site"
+          },
+          {
+            "code": "I70.243",
+            "display": "Atherosclerosis of native arteries of left leg with ulceration of ankle"
+          },
+          {
+            "code": "Z95.9",
+            "display": "Presence of cardiac and vascular implant and graft, unspecified"
+          },
+          {
+            "code": "I70.592",
+            "display": "Other atherosclerosis of nonautologous biological bypass graft(s) of the extremities, left leg"
+          },
+          {
+            "code": "I70.268",
+            "display": "Atherosclerosis of native arteries of extremities with gangrene, other extremity"
+          },
+          {
+            "code": "I70.301",
+            "display": "Unspecified atherosclerosis of unspecified type of bypass graft(s) of the extremities, right leg"
+          },
+          {
+            "code": "I70.769",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with gangrene, unspecified extremity"
+          },
+          {
+            "code": "I70.322",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with rest pain, left leg"
+          },
+          {
+            "code": "I70",
+            "display": "Atherosclerosis"
+          },
+          {
+            "code": "I70.738",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the right leg with ulceration of other part of lower leg"
+          },
+          {
+            "code": "I71.2",
+            "display": "Thoracic aortic aneurysm, without rupture"
+          },
+          {
+            "code": "I70.76",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with gangrene"
+          },
+          {
+            "code": "I70.533",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the right leg with ulceration of ankle"
+          },
+          {
+            "code": "I70.222",
+            "display": "Atherosclerosis of native arteries of extremities with rest pain, left leg"
+          },
+          {
+            "code": "I73.1",
+            "display": "Thromboangiitis obliterans [Buerger's disease]"
+          },
+          {
+            "code": "I70.319",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with intermittent claudication, unspecified extremity"
+          },
+          {
+            "code": "I70.642",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the left leg with ulceration of calf"
+          },
+          {
+            "code": "I70.302",
+            "display": "Unspecified atherosclerosis of unspecified type of bypass graft(s) of the extremities, left leg"
+          },
+          {
+            "code": "I70.768",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with gangrene, other extremity"
+          },
+          {
+            "code": "I70.428",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with rest pain, other extremity"
+          },
+          {
+            "code": "I70.518",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with intermittent claudication, other extremity"
+          },
+          {
+            "code": "I70.73",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the right leg with ulceration"
+          },
+          {
+            "code": "I70.398",
+            "display": "Other atherosclerosis of unspecified type of bypass graft(s) of the extremities, other extremity"
+          },
+          {
+            "code": "I70.602",
+            "display": "Unspecified atherosclerosis of nonbiological bypass graft(s) of the extremities, left leg"
+          },
+          {
+            "code": "I70.644",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the left leg with ulceration of heel and midfoot"
+          },
+          {
+            "code": "I70.5",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities"
+          },
+          {
+            "code": "I71",
+            "display": "Aortic aneurysm and dissection"
+          },
+          {
+            "code": "I70.718",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with intermittent claudication, other extremity"
+          },
+          {
+            "code": "I71.01",
+            "display": "Dissection of thoracic aorta"
+          },
+          {
+            "code": "I70.421",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with rest pain, right leg"
+          },
+          {
+            "code": "I70.792",
+            "display": "Other atherosclerosis of other type of bypass graft(s) of the extremities, left leg"
+          },
+          {
+            "code": "I70.328",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with rest pain, other extremity"
+          },
+          {
+            "code": "I70.645",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the left leg with ulceration of other part of foot"
+          },
+          {
+            "code": "I70.711",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with intermittent claudication, right leg"
+          },
+          {
+            "code": "I71.03",
+            "display": "Dissection of thoracoabdominal aorta"
+          },
+          {
+            "code": "I70.323",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with rest pain, bilateral legs"
+          },
+          {
+            "code": "I70.74",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the left leg with ulceration"
+          },
+          {
+            "code": "I70.562",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with gangrene, left leg"
+          },
+          {
+            "code": "I70.345",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the left leg with ulceration of other part of foot"
+          },
+          {
+            "code": "I70.24",
+            "display": "Atherosclerosis of native arteries of left leg with ulceration"
+          },
+          {
+            "code": "I70.731",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the right leg with ulceration of thigh"
+          },
+          {
+            "code": "I70.612",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with intermittent claudication, left leg"
+          },
+          {
+            "code": "K55.8",
+            "display": "Other vascular disorders of intestine"
+          },
+          {
+            "code": "I70.413",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with intermittent claudication, bilateral legs"
+          },
+          {
+            "code": "I70.349",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the left leg with ulceration of unspecified site"
+          },
+          {
+            "code": "I70.468",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with gangrene, other extremity"
+          },
+          {
+            "code": "I70.211",
+            "display": "Atherosclerosis of native arteries of extremities with intermittent claudication, right leg"
+          },
+          {
+            "code": "I70.545",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the left leg with ulceration of other part of foot"
+          },
+          {
+            "code": "I70.734",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the right leg with ulceration of heel and midfoot"
+          },
+          {
+            "code": "I70.748",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the left leg with ulceration of other part of lower leg"
+          },
+          {
+            "code": "I70.422",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with rest pain, left leg"
+          },
+          {
+            "code": "I73.9",
+            "display": "Peripheral vascular disease, unspecified"
+          },
+          {
+            "code": "I70.608",
+            "display": "Unspecified atherosclerosis of nonbiological bypass graft(s) of the extremities, other extremity"
+          },
+          {
+            "code": "I70.599",
+            "display": "Other atherosclerosis of nonautologous biological bypass graft(s) of the extremities, unspecified extremity"
+          },
+          {
+            "code": "I70.709",
+            "display": "Unspecified atherosclerosis of other type of bypass graft(s) of the extremities, unspecified extremity"
+          },
+          {
+            "code": "I70.791",
+            "display": "Other atherosclerosis of other type of bypass graft(s) of the extremities, right leg"
+          },
+          {
+            "code": "I70.21",
+            "display": "Atherosclerosis of native arteries of extremities with intermittent claudication"
+          },
+          {
+            "code": "I70.60",
+            "display": "Unspecified atherosclerosis of nonbiological bypass graft(s) of the extremities"
+          },
+          {
+            "code": "I70.343",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the left leg with ulceration of ankle"
+          },
+          {
+            "code": "I70.539",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the right leg with ulceration of unspecified site"
+          },
+          {
+            "code": "I70.634",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the right leg with ulceration of heel and midfoot"
+          },
+          {
+            "code": "I70.241",
+            "display": "Atherosclerosis of native arteries of left leg with ulceration of thigh"
+          },
+          {
+            "code": "I71.5",
+            "display": "Thoracoabdominal aortic aneurysm, ruptured"
+          },
+          {
+            "code": "I70.49",
+            "display": "Other atherosclerosis of autologous vein bypass graft(s) of the extremities"
+          },
+          {
+            "code": "I70.75",
+            "display": "Atherosclerosis of other type of bypass graft(s) of other extremity with ulceration"
+          },
+          {
+            "code": "I70.621",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with rest pain, right leg"
+          },
+          {
+            "code": "I70.509",
+            "display": "Unspecified atherosclerosis of nonautologous biological bypass graft(s) of the extremities, unspecified extremity"
+          },
+          {
+            "code": "I70.42",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with rest pain"
+          },
+          {
+            "code": "I70.793",
+            "display": "Other atherosclerosis of other type of bypass graft(s) of the extremities, bilateral legs"
+          },
+          {
+            "code": "I70.561",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with gangrene, right leg"
+          },
+          {
+            "code": "I70.569",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with gangrene, unspecified extremity"
+          },
+          {
+            "code": "I70.603",
+            "display": "Unspecified atherosclerosis of nonbiological bypass graft(s) of the extremities, bilateral legs"
+          },
+          {
+            "code": "I70.41",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with intermittent claudication"
+          },
+          {
+            "code": "I70.29",
+            "display": "Other atherosclerosis of native arteries of extremities"
+          },
+          {
+            "code": "I70.36",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with gangrene"
+          },
+          {
+            "code": "I70.331",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the right leg with ulceration of thigh"
+          },
+          {
+            "code": "I70.218",
+            "display": "Atherosclerosis of native arteries of extremities with intermittent claudication, other extremity"
+          },
+          {
+            "code": "I70.228",
+            "display": "Atherosclerosis of native arteries of extremities with rest pain, other extremity"
+          },
+          {
+            "code": "I70.662",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with gangrene, left leg"
+          },
+          {
+            "code": "I70.6",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities"
+          },
+          {
+            "code": "I70.519",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with intermittent claudication, unspecified extremity"
+          },
+          {
+            "code": "I70.9",
+            "display": "Other and unspecified atherosclerosis"
+          },
+          {
+            "code": "I70.423",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with rest pain, bilateral legs"
+          },
+          {
+            "code": "I71.02",
+            "display": "Dissection of abdominal aorta"
+          },
+          {
+            "code": "I70.708",
+            "display": "Unspecified atherosclerosis of other type of bypass graft(s) of the extremities, other extremity"
+          },
+          {
+            "code": "I70.53",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the right leg with ulceration"
+          },
+          {
+            "code": "Z95.810",
+            "display": "Presence of automatic (implantable) cardiac defibrillator"
+          },
+          {
+            "code": "I70.499",
+            "display": "Other atherosclerosis of autologous vein bypass graft(s) of the extremities, unspecified extremity"
+          },
+          {
+            "code": "Z95.8",
+            "display": "Presence of other cardiac and vascular implants and grafts"
+          },
+          {
+            "code": "I70.40",
+            "display": "Unspecified atherosclerosis of autologous vein bypass graft(s) of the extremities"
+          },
+          {
+            "code": "I70.342",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the left leg with ulceration of calf"
+          },
+          {
+            "code": "I70.649",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the left leg with ulceration of unspecified site"
+          },
+          {
+            "code": "I70.91",
+            "display": "Generalized atherosclerosis"
+          },
+          {
+            "code": "I70.341",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the left leg with ulceration of thigh"
+          },
+          {
+            "code": "I70.403",
+            "display": "Unspecified atherosclerosis of autologous vein bypass graft(s) of the extremities, bilateral legs"
+          },
+          {
+            "code": "I70.298",
+            "display": "Other atherosclerosis of native arteries of extremities, other extremity"
+          },
+          {
+            "code": "I70.248",
+            "display": "Atherosclerosis of native arteries of left leg with ulceration of other part of lower leg"
+          },
+          {
+            "code": "I70.51",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities intermittent claudication"
+          },
+          {
+            "code": "I70.538",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the right leg with ulceration of other part of lower leg"
+          },
+          {
+            "code": "I70.444",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the left leg with ulceration of heel and midfoot"
+          },
+          {
+            "code": "I70.501",
+            "display": "Unspecified atherosclerosis of nonautologous biological bypass graft(s) of the extremities, right leg"
+          },
+          {
+            "code": "Z95.812",
+            "display": "Presence of fully implantable artificial heart"
+          },
+          {
+            "code": "I70.648",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the left leg with ulceration of other part of lower leg"
+          },
+          {
+            "code": "I70.293",
+            "display": "Other atherosclerosis of native arteries of extremities, bilateral legs"
+          },
+          {
+            "code": "I70.63",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the right leg with ulceration"
+          },
+          {
+            "code": "I70.799",
+            "display": "Other atherosclerosis of other type of bypass graft(s) of the extremities, unspecified extremity"
+          },
+          {
+            "code": "I70.535",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the right leg with ulceration of other part of foot"
+          },
+          {
+            "code": "I73.81",
+            "display": "Erythromelalgia"
+          },
+          {
+            "code": "I70.261",
+            "display": "Atherosclerosis of native arteries of extremities with gangrene, right leg"
+          },
+          {
+            "code": "I70.213",
+            "display": "Atherosclerosis of native arteries of extremities with intermittent claudication, bilateral legs"
+          },
+          {
+            "code": "I70.269",
+            "display": "Atherosclerosis of native arteries of extremities with gangrene, unspecified extremity"
+          },
+          {
+            "code": "I70.723",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with rest pain, bilateral legs"
+          },
+          {
+            "code": "I70.54",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the left leg with ulceration"
+          },
+          {
+            "code": "I70.201",
+            "display": "Unspecified atherosclerosis of native arteries of extremities, right leg"
+          },
+          {
+            "code": "I70.92",
+            "display": "Chronic total occlusion of artery of the extremities"
+          },
+          {
+            "code": "I70.25",
+            "display": "Atherosclerosis of native arteries of other extremities with ulceration"
+          },
+          {
+            "code": "I70.443",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the left leg with ulceration of ankle"
+          },
+          {
+            "code": "I70.798",
+            "display": "Other atherosclerosis of other type of bypass graft(s) of the extremities, other extremity"
+          },
+          {
+            "code": "I70.56",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with gangrene"
+          },
+          {
+            "code": "I70.548",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the left leg with ulceration of other part of lower leg"
+          },
+          {
+            "code": "I70.44",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the left leg with ulceration"
+          },
+          {
+            "code": "I70.598",
+            "display": "Other atherosclerosis of nonautologous biological bypass graft(s) of the extremities, other extremity"
+          },
+          {
+            "code": "I70.46",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with gangrene"
+          },
+          {
+            "code": "I70.333",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the right leg with ulceration of ankle"
+          },
+          {
+            "code": "I70.438",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the right leg with ulceration of other part of lower leg"
+          },
+          {
+            "code": "I70.70",
+            "display": "Unspecified atherosclerosis of other type of bypass graft(s) of the extremities"
+          },
+          {
+            "code": "I70.71",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with intermittent claudication"
+          },
+          {
+            "code": "I70.502",
+            "display": "Unspecified atherosclerosis of nonautologous biological bypass graft(s) of the extremities, left leg"
+          },
+          {
+            "code": "I70.419",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with intermittent claudication, unspecified extremity"
+          },
+          {
+            "code": "I70.744",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the left leg with ulceration of heel and midfoot"
+          },
+          {
+            "code": "I70.59",
+            "display": "Other atherosclerosis of nonautologous biological bypass graft(s) of the extremities"
+          },
+          {
+            "code": "I70.699",
+            "display": "Other atherosclerosis of nonbiological bypass graft(s) of the extremities, unspecified extremity"
+          },
+          {
+            "code": "I70.34",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the left leg with ulceration"
+          },
+          {
+            "code": "I70.712",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with intermittent claudication, left leg"
+          },
+          {
+            "code": "I70.64",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the left leg with ulceration"
+          },
+          {
+            "code": "I70.513",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with intermittent claudication, bilateral legs"
+          },
+          {
+            "code": "I70.1",
+            "display": "Atherosclerosis of renal artery"
+          },
+          {
+            "code": "I70.663",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with gangrene, bilateral legs"
+          },
+          {
+            "code": "I70.244",
+            "display": "Atherosclerosis of native arteries of left leg with ulceration of heel and midfoot"
+          },
+          {
+            "code": "I70.534",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the right leg with ulceration of heel and midfoot"
+          },
+          {
+            "code": "I70.441",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the left leg with ulceration of thigh"
+          },
+          {
+            "code": "I70.435",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the right leg with ulceration of other part of foot"
+          },
+          {
+            "code": "I70.212",
+            "display": "Atherosclerosis of native arteries of extremities with intermittent claudication, left leg"
+          },
+          {
+            "code": "I70.541",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the left leg with ulceration of thigh"
+          },
+          {
+            "code": "I70.50",
+            "display": "Unspecified atherosclerosis of nonautologous biological bypass graft(s) of the extremities"
+          },
+          {
+            "code": "I70.635",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the right leg with ulceration of other part of foot"
+          },
+          {
+            "code": "I70.412",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with intermittent claudication, left leg"
+          },
+          {
+            "code": "I70.2",
+            "display": "Atherosclerosis of native arteries of the extremities"
+          },
+          {
+            "code": "I70.763",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with gangrene, bilateral legs"
+          },
+          {
+            "code": "I70.439",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the right leg with ulceration of unspecified site"
+          },
+          {
+            "code": "I70.308",
+            "display": "Unspecified atherosclerosis of unspecified type of bypass graft(s) of the extremities, other extremity"
+          },
+          {
+            "code": "I70.733",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the right leg with ulceration of ankle"
+          },
+          {
+            "code": "I70.622",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with rest pain, left leg"
+          },
+          {
+            "code": "I70.521",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with rest pain, right leg"
+          },
+          {
+            "code": "I70.601",
+            "display": "Unspecified atherosclerosis of nonbiological bypass graft(s) of the extremities, right leg"
+          },
+          {
+            "code": "I73.8",
+            "display": "Other specified peripheral vascular diseases"
+          },
+          {
+            "code": "I70.701",
+            "display": "Unspecified atherosclerosis of other type of bypass graft(s) of the extremities, right leg"
+          },
+          {
+            "code": "I70.729",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with rest pain, unspecified extremity"
+          },
+          {
+            "code": "I70.368",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with gangrene, other extremity"
+          },
+          {
+            "code": "I70.512",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with intermittent claudication, left leg"
+          },
+          {
+            "code": "I70.32",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with rest pain"
+          },
+          {
+            "code": "I70.72",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with rest pain"
+          },
+          {
+            "code": "I70.491",
+            "display": "Other atherosclerosis of autologous vein bypass graft(s) of the extremities, right leg"
+          },
+          {
+            "code": "I70.4",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities"
+          },
+          {
+            "code": "I70.39",
+            "display": "Other atherosclerosis of unspecified type of bypass graft(s) of the extremities"
+          },
+          {
+            "code": "I70.299",
+            "display": "Other atherosclerosis of native arteries of extremities, unspecified extremity"
+          },
+          {
+            "code": "I70.618",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with intermittent claudication, other extremity"
+          },
+          {
+            "code": "I70.22",
+            "display": "Atherosclerosis of native arteries of extremities with rest pain"
+          },
+          {
+            "code": "I70.745",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the left leg with ulceration of other part of foot"
+          },
+          {
+            "code": "I70.203",
+            "display": "Unspecified atherosclerosis of native arteries of extremities, bilateral legs"
+          },
+          {
+            "code": "I70.638",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the right leg with ulceration of other part of lower leg"
+          },
+          {
+            "code": "I70.90",
+            "display": "Unspecified atherosclerosis"
+          },
+          {
+            "code": "I70.641",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the left leg with ulceration of thigh"
+          },
+          {
+            "code": "I70.61",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with intermittent claudication"
+          },
+          {
+            "code": "I70.23",
+            "display": "Atherosclerosis of native arteries of right leg with ulceration"
+          },
+          {
+            "code": "I70.26",
+            "display": "Atherosclerosis of native arteries of extremities with gangrene"
+          },
+          {
+            "code": "I70.498",
+            "display": "Other atherosclerosis of autologous vein bypass graft(s) of the extremities, other extremity"
+          },
+          {
+            "code": "I70.713",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with intermittent claudication, bilateral legs"
+          },
+          {
+            "code": "I70.543",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the left leg with ulceration of ankle"
+          },
+          {
+            "code": "Z95.820",
+            "display": "Peripheral vascular angioplasty status with implants and grafts"
+          },
+          {
+            "code": "Z95.811",
+            "display": "Presence of heart assist device"
+          },
+          {
+            "code": "I70.702",
+            "display": "Unspecified atherosclerosis of other type of bypass graft(s) of the extremities, left leg"
+          },
+          {
+            "code": "I70.0",
+            "display": "Atherosclerosis of aorta"
+          },
+          {
+            "code": "I70.628",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with rest pain, other extremity"
+          },
+          {
+            "code": "I70.613",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with intermittent claudication, bilateral legs"
+          },
+          {
+            "code": "I70.633",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the right leg with ulceration of ankle"
+          },
+          {
+            "code": "I70.529",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with rest pain, unspecified extremity"
+          },
+          {
+            "code": "I70.462",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the extremities with gangrene, left leg"
+          },
+          {
+            "code": "I70.549",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the left leg with ulceration of unspecified site"
+          },
+          {
+            "code": "I70.632",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the right leg with ulceration of calf"
+          },
+          {
+            "code": "I70.369",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with gangrene, unspecified extremity"
+          },
+          {
+            "code": "I70.233",
+            "display": "Atherosclerosis of native arteries of right leg with ulceration of ankle"
+          },
+          {
+            "code": "I70.239",
+            "display": "Atherosclerosis of native arteries of right leg with ulceration of unspecified site"
+          },
+          {
+            "code": "I70.434",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of the right leg with ulceration of heel and midfoot"
+          },
+          {
+            "code": "I70.292",
+            "display": "Other atherosclerosis of native arteries of extremities, left leg"
+          },
+          {
+            "code": "I70.262",
+            "display": "Atherosclerosis of native arteries of extremities with gangrene, left leg"
+          },
+          {
+            "code": "I70.739",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the right leg with ulceration of unspecified site"
+          },
+          {
+            "code": "I70.542",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the left leg with ulceration of calf"
+          },
+          {
+            "code": "I70.528",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with rest pain, other extremity"
+          },
+          {
+            "code": "I70.523",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with rest pain, bilateral legs"
+          },
+          {
+            "code": "I70.668",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with gangrene, other extremity"
+          },
+          {
+            "code": "I70.508",
+            "display": "Unspecified atherosclerosis of nonautologous biological bypass graft(s) of the extremities, other extremity"
+          },
+          {
+            "code": "I70.531",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the right leg with ulceration of thigh"
+          },
+          {
+            "code": "I70.335",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the right leg with ulceration of other part of foot"
+          },
+          {
+            "code": "I70.35",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of other extremity with ulceration"
+          },
+          {
+            "code": "I70.52",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with rest pain"
+          },
+          {
+            "code": "I70.361",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with gangrene, right leg"
+          },
+          {
+            "code": "I70.392",
+            "display": "Other atherosclerosis of unspecified type of bypass graft(s) of the extremities, left leg"
+          },
+          {
+            "code": "I70.728",
+            "display": "Atherosclerosis of other type of bypass graft(s) of the extremities with rest pain, other extremity"
+          },
+          {
+            "code": "I73.89",
+            "display": "Other specified peripheral vascular diseases"
+          },
+          {
+            "code": "I70.703",
+            "display": "Unspecified atherosclerosis of other type of bypass graft(s) of the extremities, bilateral legs"
+          },
+          {
+            "code": "I70.631",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the right leg with ulceration of thigh"
+          },
+          {
+            "code": "I70.321",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with rest pain, right leg"
+          },
+          {
+            "code": "I71.4",
+            "display": "Abdominal aortic aneurysm, without rupture"
+          },
+          {
+            "code": "I70.362",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with gangrene, left leg"
+          },
+          {
+            "code": "I70.563",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the extremities with gangrene, bilateral legs"
+          },
+          {
+            "code": "Z95.828",
+            "display": "Presence of other vascular implants and grafts"
+          },
+          {
+            "code": "I70.401",
+            "display": "Unspecified atherosclerosis of autologous vein bypass graft(s) of the extremities, right leg"
+          },
+          {
+            "code": "I71.8",
+            "display": "Aortic aneurysm of unspecified site, ruptured"
+          },
+          {
+            "code": "I70.45",
+            "display": "Atherosclerosis of autologous vein bypass graft(s) of other extremity with ulceration"
+          },
+          {
+            "code": "I70.344",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the left leg with ulceration of heel and midfoot"
+          },
+          {
+            "code": "I70.249",
+            "display": "Atherosclerosis of native arteries of left leg with ulceration of unspecified site"
+          },
+          {
+            "code": "I70.493",
+            "display": "Other atherosclerosis of autologous vein bypass graft(s) of the extremities, bilateral legs"
+          },
+          {
+            "code": "I70.66",
+            "display": "Atherosclerosis of nonbiological bypass graft(s) of the extremities with gangrene"
+          },
+          {
+            "code": "I70.329",
+            "display": "Atherosclerosis of unspecified type of bypass graft(s) of the extremities with rest pain, unspecified extremity"
+          },
+          {
+            "code": "I70.309",
+            "display": "Unspecified atherosclerosis of unspecified type of bypass graft(s) of the extremities, unspecified extremity"
+          },
+          {
+            "code": "I70.532",
+            "display": "Atherosclerosis of nonautologous biological bypass graft(s) of the right leg with ulceration of calf"
+          },
+          {
+            "code": "I71.9",
+            "display": "Aortic aneurysm of unspecified site, without rupture"
+          }
+        ]
+      }
+    ]
+  }
+}

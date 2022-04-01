@@ -1,0 +1,23 @@
+#actions
+name: Test for Ronin FHIR implementation guide compilation
+
+on:
+  push:
+    pull_request:
+
+jobs:
+  test_compile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2.1.0
+      - uses: benjlevesque/short-sha@v1.2
+        id: short-sha
+        with:
+          length: 8
+      - name: Install jekyll
+        run: sudo gem install jekyll
+      - name: Update Publisher
+        run: ./_updatePublisher.sh -y
+      - name: Run genonce
+        run: ./_genonce.sh -no-sushi

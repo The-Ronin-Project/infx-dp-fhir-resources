@@ -1,0 +1,4678 @@
+{
+  "resourceType": "ValueSet",
+  "id": "20f7e880-6364-11ec-a49b-ef00db410408",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.nlm.nih.gov/research/umls/rxnorm\"><code>http://www.nlm.nih.gov/research/umls/rxnorm</code></a> version <code>RXNORM_20AA_220103F</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>1045404</td><td>dasatinib 140 MG Oral Tablet [Sprycel]</td></tr><tr><td>2123142</td><td>erdafitinib 5 MG</td></tr><tr><td>1721580</td><td>osimertinib 80 MG</td></tr><tr><td>1987734</td><td>bosutinib 400 MG Oral Tablet [Bosulif]</td></tr><tr><td>2105648</td><td>larotrectinib Oral Solution</td></tr><tr><td>1425228</td><td>dabrafenib 50 MG Oral Capsule [Tafinlar]</td></tr><tr><td>2534238</td><td>tivozanib 0.89 MG Oral Capsule</td></tr><tr><td>1940647</td><td>neratinib Oral Tablet</td></tr><tr><td>1946839</td><td>abemaciclib 100 MG [Verzenio]</td></tr><tr><td>1796665</td><td>{60 (lenvatinib 4 MG Oral Capsule [Lenvima]) } Pack [Lenvima 8]</td></tr><tr><td>2000026</td><td>ibrutinib 420 MG [Imbruvica]</td></tr><tr><td>2272125</td><td>avapritinib 300 MG [Ayvakit]</td></tr><tr><td>1603296</td><td>lenvatinib</td></tr><tr><td>2121061</td><td>ceritinib 150 MG Oral Tablet [Zykadia]</td></tr><tr><td>1946846</td><td>abemaciclib 200 MG Oral Tablet</td></tr><tr><td>378629</td><td>gefitinib Oral Tablet</td></tr><tr><td>1147222</td><td>vemurafenib Oral Tablet</td></tr><tr><td>2123143</td><td>erdafitinib 5 MG Oral Tablet</td></tr><tr><td>2056896</td><td>everolimus 1 MG [Zortress]</td></tr><tr><td>1425117</td><td>trametinib 2 MG [Mekinist]</td></tr><tr><td>1724306</td><td>temsirolimus Injection [Torisel]</td></tr><tr><td>1921227</td><td>Alunbrig Pill</td></tr><tr><td>2058517</td><td>duvelisib Oral Capsule [Copiktra]</td></tr><tr><td>282386</td><td>Gleevec</td></tr><tr><td>1430451</td><td>afatinib 30 MG Oral Tablet</td></tr><tr><td>1946842</td><td>abemaciclib 150 MG Oral Tablet</td></tr><tr><td>1592738</td><td>nintedanib 100 MG</td></tr><tr><td>2123138</td><td>erdafitinib 4 MG</td></tr><tr><td>1988786</td><td>{23 (brigatinib 180 MG Oral Tablet [Alunbrig]) / 7 (brigatinib 90 MG Oral Tablet [Alunbrig]) } Pack [Alunbrig Initiation Pack]</td></tr><tr><td>1919093</td><td>Rydapt Pill</td></tr><tr><td>2103164</td><td>lorlatinib</td></tr><tr><td>2058849</td><td>dacomitinib</td></tr><tr><td>2169319</td><td>{28 (alpelisib 200 MG Oral Tablet) / 28 (alpelisib 50 MG Oral Tablet) } Pack</td></tr><tr><td>1186298</td><td>Xalkori Oral Product</td></tr><tr><td>1792392</td><td>{30 (lenvatinib 10 MG Oral Capsule) / 60 (lenvatinib 4 MG Oral Capsule) } Pack</td></tr><tr><td>1919092</td><td>Rydapt Oral Product</td></tr><tr><td>845505</td><td>everolimus 10 MG</td></tr><tr><td>1722367</td><td>cobimetinib Oral Product</td></tr><tr><td>1873991</td><td>{21 (ribociclib 200 MG Oral Tablet [Kisqali]) } Pack [Kisqali 200 MG Daily Dose Carton]</td></tr><tr><td>2058514</td><td>duvelisib 15 MG Oral Capsule</td></tr><tr><td>1541889</td><td>sunitinib 37.5 MG</td></tr><tr><td>1430442</td><td>afatinib 20 MG</td></tr><tr><td>977435</td><td>everolimus 0.5 MG [Zortress]</td></tr><tr><td>2262435</td><td>zanubrutinib</td></tr><tr><td>2477263</td><td>tepotinib Oral Product</td></tr><tr><td>1535466</td><td>Zykadia Oral Product</td></tr><tr><td>2559727</td><td>avapritinib 50 MG Oral Tablet</td></tr><tr><td>1592744</td><td>nintedanib 100 MG [Ofev]</td></tr><tr><td>615977</td><td>sorafenib 200 MG [Nexavar]</td></tr><tr><td>1592748</td><td>nintedanib 100 MG Oral Capsule [Ofev]</td></tr><tr><td>477321</td><td>erlotinib Oral Tablet</td></tr><tr><td>1727481</td><td>alectinib 150 MG [Alecensa]</td></tr><tr><td>1179058</td><td>Tasigna Pill</td></tr><tr><td>1430445</td><td>afatinib Oral Tablet</td></tr><tr><td>1601378</td><td>palbociclib Pill</td></tr><tr><td>1535463</td><td>Zykadia</td></tr><tr><td>1946826</td><td>abemaciclib 50 MG</td></tr><tr><td>2058931</td><td>dacomitinib 45 MG [Vizimpro]</td></tr><tr><td>845512</td><td>everolimus 10 MG Oral Tablet [Afinitor]</td></tr><tr><td>2169303</td><td>alpelisib 150 MG [Piqray]</td></tr><tr><td>2359336</td><td>pemigatinib 13.5 MG [Pemazyre]</td></tr><tr><td>1721581</td><td>osimertinib 80 MG Oral Tablet</td></tr><tr><td>603207</td><td>erlotinib 25 MG</td></tr><tr><td>1364581</td><td>{84 (cabozantinib 20 MG Oral Capsule [Cometriq]) } Pack [Cometriq 60 MG Daily Dose Carton]</td></tr><tr><td>540423</td><td>erlotinib Oral Tablet [Tarceva]</td></tr><tr><td>597746</td><td>sorafenib Oral Tablet</td></tr><tr><td>2169304</td><td>alpelisib Oral Tablet [Piqray]</td></tr><tr><td>1307633</td><td>bosutinib 500 MG Oral Tablet</td></tr><tr><td>1114095</td><td>vandetanib 300 MG [Caprelsa]</td></tr><tr><td>2123133</td><td>erdafitinib 3 MG [Balversa]</td></tr><tr><td>1172066</td><td>Afinitor Oral Product</td></tr><tr><td>440549</td><td>imatinib 50 MG</td></tr><tr><td>1986811</td><td>acalabrutinib Pill</td></tr><tr><td>2197501</td><td>fedratinib 100 MG Oral Capsule [Inrebic]</td></tr><tr><td>2123144</td><td>erdafitinib 5 MG [Balversa]</td></tr><tr><td>2000019</td><td>ibrutinib 140 MG Oral Tablet [Imbruvica]</td></tr><tr><td>2049108</td><td>encorafenib Oral Product</td></tr><tr><td>1442988</td><td>ibrutinib 140 MG [Imbruvica]</td></tr><tr><td>2289422</td><td>Koselugo Oral Product</td></tr><tr><td>2105657</td><td>larotrectinib 25 MG Oral Capsule [Vitrakvi]</td></tr><tr><td>2284106</td><td>palbociclib 125 MG Oral Tablet [Ibrance]</td></tr><tr><td>1986815</td><td>acalabrutinib 100 MG [Calquence]</td></tr><tr><td>1176762</td><td>Iressa Oral Product</td></tr><tr><td>2369399</td><td>ripretinib 50 MG [Qinlock]</td></tr><tr><td>1940648</td><td>neratinib 40 MG Oral Tablet</td></tr><tr><td>2058924</td><td>dacomitinib 30 MG Oral Tablet</td></tr><tr><td>1425102</td><td>trametinib Pill</td></tr><tr><td>2000024</td><td>ibrutinib 420 MG</td></tr><tr><td>2197491</td><td>fedratinib 100 MG</td></tr><tr><td>2197864</td><td>entrectinib Oral Product</td></tr><tr><td>2169321</td><td>{56 (alpelisib 150 MG Oral Tablet) } Pack</td></tr><tr><td>1243012</td><td>axitinib 5 MG Oral Tablet</td></tr><tr><td>1425108</td><td>Mekinist Oral Product</td></tr><tr><td>1161488</td><td>temsirolimus Injectable Product</td></tr><tr><td>1601389</td><td>palbociclib 125 MG [Ibrance]</td></tr><tr><td>2049115</td><td>Braftovi Oral Product</td></tr><tr><td>2105652</td><td>Vitrakvi Oral Liquid Product</td></tr><tr><td>2104548</td><td>larotrectinib sulfate</td></tr><tr><td>1544470</td><td>Zydelig Pill</td></tr><tr><td>1193337</td><td>ruxolitinib 10 MG Oral Tablet [Jakafi]</td></tr><tr><td>1363408</td><td>{84 (cabozantinib 20 MG Oral Capsule [Cometriq]) / 28 (cabozantinib 80 MG Oral Capsule [Cometriq]) } Pack [Cometriq 140 MG Daily Dose Carton]</td></tr><tr><td>1722368</td><td>cobimetinib Pill</td></tr><tr><td>1363409</td><td>{28 (cabozantinib 20 MG Oral Capsule) / 28 (cabozantinib 80 MG Oral Capsule) } Pack</td></tr><tr><td>1363284</td><td>cabozantinib 80 MG Oral Capsule [Cometriq]</td></tr><tr><td>1919090</td><td>midostaurin 25 MG [Rydapt]</td></tr><tr><td>1722375</td><td>Cotellic Pill</td></tr><tr><td>1148496</td><td>crizotinib 200 MG</td></tr><tr><td>2049113</td><td>encorafenib 50 MG [Braftovi]</td></tr><tr><td>2169322</td><td>{56 (alpelisib 150 MG Oral Tablet [Piqray]) } Pack [Piqray 300 MG Daily Dose]</td></tr><tr><td>2477268</td><td>tepotinib 225 MG [Tepmetko]</td></tr><tr><td>672149</td><td>lapatinib 250 MG Oral Tablet</td></tr><tr><td>1721564</td><td>osimertinib Oral Tablet</td></tr><tr><td>1804015</td><td>nilotinib hydrochloride</td></tr><tr><td>1544471</td><td>idelalisib 100 MG Oral Tablet [Zydelig]</td></tr><tr><td>2058919</td><td>dacomitinib Oral Tablet [Vizimpro]</td></tr><tr><td>2123131</td><td>erdafitinib 3 MG Oral Tablet</td></tr><tr><td>2056897</td><td>everolimus 1 MG Oral Tablet [Zortress]</td></tr><tr><td>1430449</td><td>afatinib 20 MG Oral Tablet [Gilotrif]</td></tr><tr><td>2183125</td><td>pexidartinib 200 MG Oral Capsule</td></tr><tr><td>2105823</td><td>gilteritinib fumarate</td></tr><tr><td>2103167</td><td>lorlatinib Pill</td></tr><tr><td>867503</td><td>Votrient</td></tr><tr><td>402091</td><td>gefitinib 250 MG Oral Tablet [Iressa]</td></tr><tr><td>1364355</td><td>ponatinib Oral Tablet [Iclusig]</td></tr><tr><td>643171</td><td>dasatinib 20 MG [Sprycel]</td></tr><tr><td>2361295</td><td>Tukysa Pill</td></tr><tr><td>1243001</td><td>axitinib Oral Product</td></tr><tr><td>616288</td><td>sunitinib 50 MG</td></tr><tr><td>1592737</td><td>nintedanib</td></tr><tr><td>1544462</td><td>idelalisib Oral Product</td></tr><tr><td>1919084</td><td>midostaurin 25 MG</td></tr><tr><td>1045407</td><td>dasatinib 80 MG [Sprycel]</td></tr><tr><td>2103175</td><td>lorlatinib 25 MG Oral Tablet [Lorbrena]</td></tr><tr><td>1873916</td><td>ribociclib</td></tr><tr><td>1790166</td><td>Cabometyx Pill</td></tr><tr><td>1792377</td><td>lenvatinib 4 MG Oral Capsule [Lenvima]</td></tr><tr><td>1726638</td><td>ponatinib 30 MG [Iclusig]</td></tr><tr><td>2058921</td><td>Vizimpro Pill</td></tr><tr><td>616277</td><td>sunitinib 12.5 MG</td></tr><tr><td>1994362</td><td>ibrutinib 70 MG Oral Capsule [Imbruvica]</td></tr><tr><td>1994360</td><td>ibrutinib 70 MG Oral Capsule</td></tr><tr><td>2197867</td><td>entrectinib 100 MG Oral Capsule</td></tr><tr><td>1592752</td><td>nintedanib 150 MG Oral Capsule [Ofev]</td></tr><tr><td>1592750</td><td>nintedanib 150 MG Oral Capsule</td></tr><tr><td>1945082</td><td>Aliqopa</td></tr><tr><td>1790172</td><td>cabozantinib 60 MG</td></tr><tr><td>845517</td><td>everolimus 5 MG [Afinitor]</td></tr><tr><td>2369400</td><td>ripretinib Oral Tablet [Qinlock]</td></tr><tr><td>2272114</td><td>avapritinib 100 MG [Ayvakit]</td></tr><tr><td>2359339</td><td>Pemazyre Pill</td></tr><tr><td>1925494</td><td>brigatinib 90 MG Oral Tablet</td></tr><tr><td>1988983</td><td>bosutinib 400 MG</td></tr><tr><td>1156708</td><td>gefitinib Oral Product</td></tr><tr><td>1308426</td><td>everolimus Oral Liquid Product</td></tr><tr><td>1158944</td><td>nilotinib Oral Product</td></tr><tr><td>1592743</td><td>Ofev</td></tr><tr><td>1722371</td><td>Cotellic</td></tr><tr><td>2361296</td><td>tucatinib 150 MG Oral Tablet [Tukysa]</td></tr><tr><td>1919088</td><td>midostaurin 25 MG Oral Capsule</td></tr><tr><td>2534247</td><td>tivozanib 1.34 MG Oral Capsule</td></tr><tr><td>2272117</td><td>Ayvakit Pill</td></tr><tr><td>1604345</td><td>lenvatinib 10 MG Oral Capsule</td></tr><tr><td>1535460</td><td>ceritinib Pill</td></tr><tr><td>2169320</td><td>{28 (alpelisib 200 MG Oral Tablet [Piqray]) / 28 (alpelisib 50 MG Oral Tablet [Piqray]) } Pack [Piqray 250 MG Daily Dose]</td></tr><tr><td>1940652</td><td>Nerlynx Oral Product</td></tr><tr><td>1790171</td><td>cabozantinib 40 MG Oral Tablet [Cabometyx]</td></tr><tr><td>1364953</td><td>ponatinib hydrochloride</td></tr><tr><td>1722374</td><td>Cotellic Oral Product</td></tr><tr><td>1442991</td><td>Imbruvica Pill</td></tr><tr><td>1921226</td><td>Alunbrig Oral Product</td></tr><tr><td>2058516</td><td>duvelisib 15 MG [Copiktra]</td></tr><tr><td>2359342</td><td>pemigatinib 4.5 MG Oral Tablet</td></tr><tr><td>977433</td><td>everolimus 0.5 MG</td></tr><tr><td>1312403</td><td>Stivarga</td></tr><tr><td>1940643</td><td>neratinib</td></tr><tr><td>1182863</td><td>Nexavar Pill</td></tr><tr><td>2362236</td><td>capmatinib 150 MG [Tabrecta]</td></tr><tr><td>2049116</td><td>Braftovi Pill</td></tr><tr><td>328134</td><td>gefitinib</td></tr><tr><td>1601381</td><td>Ibrance</td></tr><tr><td>2534244</td><td>tivozanib 0.89 MG Oral Capsule [Fotivda]</td></tr><tr><td>1307626</td><td>bosutinib 100 MG [Bosulif]</td></tr><tr><td>2058929</td><td>dacomitinib 45 MG</td></tr><tr><td>2570754</td><td>ruxolitinib 15 MG/ML [Opzelura]</td></tr><tr><td>2049128</td><td>Mektovi</td></tr><tr><td>2123134</td><td>erdafitinib Oral Tablet [Balversa]</td></tr><tr><td>1193339</td><td>ruxolitinib 5 MG Oral Tablet</td></tr><tr><td>2362237</td><td>capmatinib Oral Tablet [Tabrecta]</td></tr><tr><td>1442986</td><td>ibrutinib 140 MG Oral Capsule</td></tr><tr><td>1307622</td><td>bosutinib Pill</td></tr><tr><td>1442985</td><td>ibrutinib Oral Capsule</td></tr><tr><td>2369398</td><td>Qinlock</td></tr><tr><td>1430448</td><td>afatinib Oral Tablet [Gilotrif]</td></tr><tr><td>2049117</td><td>encorafenib 50 MG Oral Capsule [Braftovi]</td></tr><tr><td>1162549</td><td>lapatinib Oral Product</td></tr><tr><td>403879</td><td>imatinib 400 MG Oral Tablet</td></tr><tr><td>1873990</td><td>{21 (ribociclib 200 MG Oral Tablet) } Pack</td></tr><tr><td>1721570</td><td>Tagrisso Pill</td></tr><tr><td>1243000</td><td>axitinib 1 MG</td></tr><tr><td>2534245</td><td>tivozanib hydrochloride</td></tr><tr><td>1592751</td><td>nintedanib 150 MG [Ofev]</td></tr><tr><td>1308428</td><td>everolimus 2 MG Tablet for Oral Suspension</td></tr><tr><td>1307619</td><td>bosutinib</td></tr><tr><td>1243006</td><td>axitinib 1 MG [Inlyta]</td></tr><tr><td>1193332</td><td>Jakafi</td></tr><tr><td>1601374</td><td>palbociclib</td></tr><tr><td>1873995</td><td>{63 (ribociclib 200 MG Oral Tablet [Kisqali]) } Pack [Kisqali 600 MG Daily Dose Carton]</td></tr><tr><td>2272126</td><td>avapritinib 300 MG Oral Tablet [Ayvakit]</td></tr><tr><td>1535467</td><td>Zykadia Pill</td></tr><tr><td>1792375</td><td>Lenvima Oral Product</td></tr><tr><td>2289415</td><td>selumetinib Oral Product</td></tr><tr><td>1310138</td><td>everolimus 2 MG Tablet for Oral Suspension [Afinitor]</td></tr><tr><td>2289419</td><td>Koselugo</td></tr><tr><td>1425099</td><td>trametinib</td></tr><tr><td>1987732</td><td>bosutinib 400 MG Oral Tablet</td></tr><tr><td>2105643</td><td>Vitrakvi Oral Product</td></tr><tr><td>1873994</td><td>{63 (ribociclib 200 MG Oral Tablet) } Pack</td></tr><tr><td>1119401</td><td>everolimus 7.5 MG [Afinitor]</td></tr><tr><td>1430452</td><td>afatinib 30 MG [Gilotrif]</td></tr><tr><td>2169310</td><td>alpelisib 200 MG Oral Tablet</td></tr><tr><td>1946841</td><td>abemaciclib 150 MG</td></tr><tr><td>2477271</td><td>Tepmetko Pill</td></tr><tr><td>1148501</td><td>crizotinib Oral Capsule [Xalkori]</td></tr><tr><td>2359337</td><td>pemigatinib Oral Tablet [Pemazyre]</td></tr><tr><td>1946840</td><td>abemaciclib 100 MG Oral Tablet [Verzenio]</td></tr><tr><td>672147</td><td>lapatinib 250 MG</td></tr><tr><td>1923058</td><td>{28 (letrozole 2.5 MG Oral Tablet [Femara]) / 63 (ribociclib 200 MG Oral Tablet [Kisqali]) } Pack [Kisqali Femara Co-Pack 600]</td></tr><tr><td>1307625</td><td>Bosulif</td></tr><tr><td>1088253</td><td>erlotinib 150 MG Oral Tablet [Tarceva]</td></tr><tr><td>2477267</td><td>Tepmetko</td></tr><tr><td>1425107</td><td>trametinib Oral Tablet [Mekinist]</td></tr><tr><td>2272112</td><td>avapritinib 100 MG Oral Tablet</td></tr><tr><td>799829</td><td>dasatinib 100 MG [Sprycel]</td></tr><tr><td>1601382</td><td>palbociclib 100 MG [Ibrance]</td></tr><tr><td>331600</td><td>imatinib 100 MG</td></tr><tr><td>725106</td><td>temsirolimus 25 MG/ML [Torisel]</td></tr><tr><td>1088254</td><td>erlotinib 25 MG [Tarceva]</td></tr><tr><td>1045402</td><td>dasatinib 140 MG Oral Tablet</td></tr><tr><td>845506</td><td>everolimus Oral Tablet</td></tr><tr><td>2058911</td><td>dacomitinib Oral Product</td></tr><tr><td>1148500</td><td>crizotinib 200 MG [Xalkori]</td></tr><tr><td>597747</td><td>sorafenib 200 MG Oral Tablet</td></tr><tr><td>2123127</td><td>erdafitinib 3 MG</td></tr><tr><td>1790162</td><td>Cabometyx</td></tr><tr><td>977427</td><td>everolimus 0.25 MG Oral Tablet</td></tr><tr><td>284924</td><td>imatinib mesylate</td></tr><tr><td>2049111</td><td>encorafenib 50 MG Oral Capsule</td></tr><tr><td>2105640</td><td>Vitrakvi</td></tr><tr><td>2272111</td><td>avapritinib Oral Tablet</td></tr><tr><td>1544466</td><td>Zydelig</td></tr><tr><td>1312400</td><td>regorafenib Pill</td></tr><tr><td>1946845</td><td>abemaciclib 200 MG</td></tr><tr><td>1364353</td><td>Iclusig</td></tr><tr><td>1721563</td><td>osimertinib Pill</td></tr><tr><td>1312407</td><td>Stivarga Pill</td></tr><tr><td>1869520</td><td>everolimus 3 MG [Afinitor]</td></tr><tr><td>1873979</td><td>ribociclib 200 MG</td></tr><tr><td>2570753</td><td>Opzelura</td></tr><tr><td>2105654</td><td>larotrectinib 25 MG</td></tr><tr><td>1604395</td><td>{60 (lenvatinib 10 MG Oral Capsule [Lenvima]) } Pack [Lenvima 20]</td></tr><tr><td>2362231</td><td>capmatinib Oral Product</td></tr><tr><td>1869518</td><td>everolimus 3 MG</td></tr><tr><td>2477266</td><td>tepotinib 225 MG Oral Tablet</td></tr><tr><td>1119399</td><td>everolimus 7.5 MG</td></tr><tr><td>1163787</td><td>everolimus Pill</td></tr><tr><td>2272110</td><td>avapritinib Pill</td></tr><tr><td>1921222</td><td>brigatinib 30 MG Oral Tablet</td></tr><tr><td>2369394</td><td>ripretinib Oral Product</td></tr><tr><td>1430271</td><td>Gilotrif Oral Product</td></tr><tr><td>2361291</td><td>Tukysa</td></tr><tr><td>1946843</td><td>abemaciclib 150 MG [Verzenio]</td></tr><tr><td>1098418</td><td>vandetanib 300 MG Oral Tablet</td></tr><tr><td>1541890</td><td>sunitinib 37.5 MG Oral Capsule</td></tr><tr><td>998188</td><td>everolimus 2.5 MG</td></tr><tr><td>867504</td><td>pazopanib 200 MG [Votrient]</td></tr><tr><td>2123125</td><td>erdafitinib</td></tr><tr><td>1045401</td><td>dasatinib 140 MG</td></tr><tr><td>1193346</td><td>ruxolitinib 20 MG</td></tr><tr><td>619985</td><td>Nexavar</td></tr><tr><td>1425098</td><td>trametinib dimethyl sulfoxide</td></tr><tr><td>1940645</td><td>neratinib Oral Product</td></tr><tr><td>2169305</td><td>Piqray Oral Product</td></tr><tr><td>2284108</td><td>palbociclib 75 MG Oral Tablet [Ibrance]</td></tr><tr><td>1187596</td><td>Votrient Pill</td></tr><tr><td>1873978</td><td>ribociclib succinate</td></tr><tr><td>1535461</td><td>ceritinib Oral Capsule</td></tr><tr><td>2369396</td><td>ripretinib Oral Tablet</td></tr><tr><td>404589</td><td>imatinib 400 MG Oral Tablet [Gleevec]</td></tr><tr><td>659616</td><td>Tykerb</td></tr><tr><td>1940646</td><td>neratinib Pill</td></tr><tr><td>1726636</td><td>ponatinib 30 MG</td></tr><tr><td>867508</td><td>pazopanib 400 MG Oral Tablet</td></tr><tr><td>2272118</td><td>avapritinib 100 MG Oral Tablet [Ayvakit]</td></tr><tr><td>1162550</td><td>lapatinib Pill</td></tr><tr><td>2049106</td><td>encorafenib</td></tr><tr><td>404588</td><td>imatinib 100 MG Oral Tablet [Gleevec]</td></tr><tr><td>337526</td><td>Tarceva</td></tr><tr><td>977437</td><td>everolimus 0.75 MG</td></tr><tr><td>2000031</td><td>ibrutinib 560 MG Oral Tablet [Imbruvica]</td></tr><tr><td>1988769</td><td>brigatinib 180 MG</td></tr><tr><td>1193342</td><td>ruxolitinib 15 MG</td></tr><tr><td>845515</td><td>everolimus 5 MG Oral Tablet</td></tr><tr><td>2169300</td><td>alpelisib 150 MG Oral Tablet</td></tr><tr><td>2058915</td><td>dacomitinib 15 MG Oral Tablet</td></tr><tr><td>1919086</td><td>midostaurin Pill</td></tr><tr><td>406060</td><td>imatinib Oral Tablet [Gleevec]</td></tr><tr><td>2000027</td><td>ibrutinib 420 MG Oral Tablet [Imbruvica]</td></tr><tr><td>2105655</td><td>larotrectinib 25 MG Oral Capsule</td></tr><tr><td>2272115</td><td>avapritinib Oral Tablet [Ayvakit]</td></tr><tr><td>672148</td><td>lapatinib Oral Tablet</td></tr><tr><td>2169318</td><td>alpelisib 50 MG Oral Tablet [Piqray]</td></tr><tr><td>2477104</td><td>tepotinib hydrochloride</td></tr><tr><td>2049109</td><td>encorafenib Pill</td></tr><tr><td>2049132</td><td>Mektovi Pill</td></tr><tr><td>1425109</td><td>Mekinist Pill</td></tr><tr><td>1721560</td><td>osimertinib</td></tr><tr><td>616284</td><td>sunitinib 25 MG</td></tr><tr><td>2058525</td><td>duvelisib 25 MG Oral Capsule [Copiktra]</td></tr><tr><td>1148505</td><td>crizotinib 250 MG [Xalkori]</td></tr><tr><td>1187234</td><td>Zelboraf Oral Product</td></tr><tr><td>2272109</td><td>avapritinib Oral Product</td></tr><tr><td>2103165</td><td>lorlatinib 25 MG</td></tr><tr><td>2262442</td><td>zanubrutinib 80 MG [Brukinsa]</td></tr><tr><td>2000016</td><td>ibrutinib Oral Tablet</td></tr><tr><td>867506</td><td>pazopanib 200 MG Oral Tablet [Votrient]</td></tr><tr><td>1364361</td><td>ponatinib 45 MG [Iclusig]</td></tr><tr><td>643109</td><td>dasatinib 70 MG Oral Tablet</td></tr><tr><td>1869512</td><td>everolimus 2 MG</td></tr><tr><td>2369393</td><td>ripretinib 50 MG</td></tr><tr><td>643173</td><td>dasatinib 20 MG Oral Tablet [Sprycel]</td></tr><tr><td>2262436</td><td>zanubrutinib 80 MG</td></tr><tr><td>1792372</td><td>Lenvima</td></tr><tr><td>2197496</td><td>Inrebic</td></tr><tr><td>2289425</td><td>selumetinib 25 MG</td></tr><tr><td>1592741</td><td>nintedanib Oral Capsule</td></tr><tr><td>2197492</td><td>fedratinib Oral Product</td></tr><tr><td>2361292</td><td>tucatinib 150 MG [Tukysa]</td></tr><tr><td>576514</td><td>imatinib 400 MG [Gleevec]</td></tr><tr><td>2105817</td><td>gilteritinib 40 MG Oral Tablet [Xospata]</td></tr><tr><td>1172067</td><td>Afinitor Pill</td></tr><tr><td>1363267</td><td>cabozantinib s-malate</td></tr><tr><td>2197869</td><td>entrectinib 100 MG [Rozlytrek]</td></tr><tr><td>2272116</td><td>Ayvakit Oral Product</td></tr><tr><td>2359334</td><td>pemigatinib 13.5 MG Oral Tablet</td></tr><tr><td>867505</td><td>pazopanib Oral Tablet [Votrient]</td></tr><tr><td>1601390</td><td>palbociclib 125 MG Oral Capsule [Ibrance]</td></tr><tr><td>867501</td><td>pazopanib Oral Tablet</td></tr><tr><td>2058932</td><td>dacomitinib 45 MG Oral Tablet [Vizimpro]</td></tr><tr><td>1546019</td><td>dasatinib anhydrous</td></tr><tr><td>2197495</td><td>fedratinib 100 MG Oral Capsule</td></tr><tr><td>1541927</td><td>sunitinib 37.5 MG [Sutent]</td></tr><tr><td>1363274</td><td>Cometriq</td></tr><tr><td>2183127</td><td>pexidartinib 200 MG [Turalio]</td></tr><tr><td>1994361</td><td>ibrutinib 70 MG [Imbruvica]</td></tr><tr><td>2197863</td><td>entrectinib 100 MG</td></tr><tr><td>2359345</td><td>pemigatinib 9 MG</td></tr><tr><td>2123145</td><td>erdafitinib 5 MG Oral Tablet [Balversa]</td></tr><tr><td>1148497</td><td>crizotinib Oral Capsule</td></tr><tr><td>1873981</td><td>ribociclib Pill</td></tr><tr><td>1425223</td><td>Tafinlar</td></tr><tr><td>411240</td><td>imatinib 50 MG Oral Capsule</td></tr><tr><td>2262438</td><td>zanubrutinib Pill</td></tr><tr><td>616285</td><td>sunitinib 25 MG Oral Capsule</td></tr><tr><td>1722370</td><td>cobimetinib 20 MG Oral Tablet</td></tr><tr><td>1986817</td><td>Calquence Oral Product</td></tr><tr><td>1160679</td><td>imatinib Oral Product</td></tr><tr><td>2570755</td><td>Opzelura Topical Product</td></tr><tr><td>2369401</td><td>Qinlock Oral Product</td></tr><tr><td>1312404</td><td>regorafenib 40 MG [Stivarga]</td></tr><tr><td>1994359</td><td>ibrutinib 70 MG</td></tr><tr><td>1790173</td><td>cabozantinib 60 MG Oral Tablet</td></tr><tr><td>1159691</td><td>sorafenib Oral Product</td></tr><tr><td>1726637</td><td>ponatinib 30 MG Oral Tablet</td></tr><tr><td>2262437</td><td>zanubrutinib Oral Product</td></tr><tr><td>1364359</td><td>ponatinib 45 MG</td></tr><tr><td>2169312</td><td>alpelisib 200 MG [Piqray]</td></tr><tr><td>1171231</td><td>Gleevec Pill</td></tr><tr><td>2272113</td><td>Ayvakit</td></tr><tr><td>1601391</td><td>palbociclib 75 MG</td></tr><tr><td>2058522</td><td>duvelisib 25 MG</td></tr><tr><td>1193334</td><td>ruxolitinib Oral Tablet [Jakafi]</td></tr><tr><td>1002299</td><td>nilotinib 150 MG [Tasigna]</td></tr><tr><td>1946833</td><td>abemaciclib Oral Tablet [Verzenio]</td></tr><tr><td>2000022</td><td>ibrutinib 280 MG [Imbruvica]</td></tr><tr><td>2361294</td><td>Tukysa Oral Product</td></tr><tr><td>725108</td><td>1.2 ML temsirolimus 25 MG/ML Injection [Torisel]</td></tr><tr><td>1535457</td><td>ceritinib</td></tr><tr><td>1721567</td><td>osimertinib 40 MG [Tagrisso]</td></tr><tr><td>2534239</td><td>Fotivda</td></tr><tr><td>1946835</td><td>Verzenio Pill</td></tr><tr><td>1307624</td><td>bosutinib 100 MG Oral Tablet</td></tr><tr><td>2197865</td><td>entrectinib Pill</td></tr><tr><td>337525</td><td>erlotinib</td></tr><tr><td>2534243</td><td>Fotivda Pill</td></tr><tr><td>1163786</td><td>everolimus Oral Product</td></tr><tr><td>2289416</td><td>selumetinib Pill</td></tr><tr><td>603202</td><td>erlotinib 100 MG</td></tr><tr><td>1923055</td><td>{28 (letrozole 2.5 MG Oral Tablet) / 42 (ribociclib 200 MG Oral Tablet) } Pack</td></tr><tr><td>1430272</td><td>Gilotrif Pill</td></tr><tr><td>2105646</td><td>larotrectinib 20 MG/ML</td></tr><tr><td>2197873</td><td>entrectinib 100 MG Oral Capsule [Rozlytrek]</td></tr><tr><td>2105645</td><td>larotrectinib 100 MG Oral Capsule [Vitrakvi]</td></tr><tr><td>1193336</td><td>Jakafi Pill</td></tr><tr><td>2359340</td><td>pemigatinib 13.5 MG Oral Tablet [Pemazyre]</td></tr><tr><td>1442990</td><td>Imbruvica Oral Product</td></tr><tr><td>1186317</td><td>Zortress Pill</td></tr><tr><td>1544465</td><td>idelalisib 100 MG Oral Tablet</td></tr><tr><td>1364347</td><td>ponatinib</td></tr><tr><td>977438</td><td>everolimus 0.75 MG Oral Tablet</td></tr><tr><td>2123139</td><td>erdafitinib 4 MG Oral Tablet</td></tr><tr><td>2284101</td><td>palbociclib Oral Tablet</td></tr><tr><td>2284104</td><td>palbociclib 100 MG Oral Tablet [Ibrance]</td></tr><tr><td>1193328</td><td>ruxolitinib Oral Product</td></tr><tr><td>1592747</td><td>Ofev Pill</td></tr><tr><td>2361287</td><td>tucatinib Oral Product</td></tr><tr><td>1535462</td><td>ceritinib 150 MG Oral Capsule</td></tr><tr><td>2105656</td><td>larotrectinib 25 MG [Vitrakvi]</td></tr><tr><td>1873992</td><td>{42 (ribociclib 200 MG Oral Tablet) } Pack</td></tr><tr><td>1148495</td><td>crizotinib</td></tr><tr><td>1425227</td><td>Tafinlar Pill</td></tr><tr><td>1178590</td><td>Torisel Injectable Product</td></tr><tr><td>1940644</td><td>neratinib 40 MG</td></tr><tr><td>2361286</td><td>tucatinib 150 MG</td></tr><tr><td>746605</td><td>nilotinib Oral Capsule</td></tr><tr><td>1364349</td><td>ponatinib Oral Product</td></tr><tr><td>2361288</td><td>tucatinib Pill</td></tr><tr><td>1796538</td><td>lenvatinib 10 MG Oral Capsule [Lenvima]</td></tr><tr><td>2534241</td><td>tivozanib Oral Capsule [Fotivda]</td></tr><tr><td>2169306</td><td>Piqray Pill</td></tr><tr><td>603208</td><td>erlotinib 25 MG Oral Tablet</td></tr><tr><td>998191</td><td>everolimus 2.5 MG Oral Tablet [Afinitor]</td></tr><tr><td>643107</td><td>dasatinib 50 MG Oral Tablet</td></tr><tr><td>672151</td><td>lapatinib Oral Tablet [Tykerb]</td></tr><tr><td>643106</td><td>dasatinib 50 MG</td></tr><tr><td>1919091</td><td>midostaurin Oral Capsule [Rydapt]</td></tr><tr><td>643105</td><td>dasatinib 20 MG Oral Tablet</td></tr><tr><td>1185474</td><td>Sutent Oral Product</td></tr><tr><td>1722373</td><td>cobimetinib Oral Tablet [Cotellic]</td></tr><tr><td>799046</td><td>dasatinib 100 MG</td></tr><tr><td>1986810</td><td>acalabrutinib Oral Product</td></tr><tr><td>2262441</td><td>Brukinsa</td></tr><tr><td>1160504</td><td>vandetanib Pill</td></tr><tr><td>1792373</td><td>lenvatinib 4 MG [Lenvima]</td></tr><tr><td>2477269</td><td>tepotinib Oral Tablet [Tepmetko]</td></tr><tr><td>1160508</td><td>vemurafenib Oral Product</td></tr><tr><td>1158945</td><td>nilotinib Pill</td></tr><tr><td>2169307</td><td>alpelisib 150 MG Oral Tablet [Piqray]</td></tr><tr><td>1193330</td><td>ruxolitinib Oral Tablet</td></tr><tr><td>2058509</td><td>duvelisib</td></tr><tr><td>1424916</td><td>dabrafenib 50 MG Oral Capsule</td></tr><tr><td>2049114</td><td>encorafenib Oral Capsule [Braftovi]</td></tr><tr><td>1424912</td><td>dabrafenib 50 MG</td></tr><tr><td>1923054</td><td>{28 (letrozole 2.5 MG Oral Tablet [Femara]) / 21 (ribociclib 200 MG Oral Tablet [Kisqali]) } Pack [Kisqali Femara Co-Pack 200]</td></tr><tr><td>2049127</td><td>binimetinib 15 MG Oral Tablet</td></tr><tr><td>1363273</td><td>cabozantinib 20 MG Oral Capsule</td></tr><tr><td>1442987</td><td>Imbruvica</td></tr><tr><td>1430456</td><td>afatinib 40 MG [Gilotrif]</td></tr><tr><td>1940650</td><td>neratinib 40 MG [Nerlynx]</td></tr><tr><td>2049130</td><td>binimetinib Oral Tablet [Mektovi]</td></tr><tr><td>1604346</td><td>lenvatinib mesylate</td></tr><tr><td>1148498</td><td>crizotinib 200 MG Oral Capsule</td></tr><tr><td>1535459</td><td>ceritinib Oral Product</td></tr><tr><td>1161365</td><td>pazopanib Oral Product</td></tr><tr><td>1114073</td><td>vandetanib Oral Tablet [Caprelsa]</td></tr><tr><td>1098413</td><td>vandetanib</td></tr><tr><td>2289380</td><td>selumetinib</td></tr><tr><td>603206</td><td>erlotinib 150 MG Oral Tablet</td></tr><tr><td>616283</td><td>sunitinib 12.5 MG Oral Capsule [Sutent]</td></tr><tr><td>1727454</td><td>alectinib hydrochloride</td></tr><tr><td>2362234</td><td>capmatinib 150 MG Oral Tablet</td></tr><tr><td>1727479</td><td>alectinib 150 MG Oral Capsule</td></tr><tr><td>2121059</td><td>ceritinib 150 MG Oral Tablet</td></tr><tr><td>2289424</td><td>selumetinib 10 MG Oral Capsule [Koselugo]</td></tr><tr><td>2169315</td><td>alpelisib 50 MG</td></tr><tr><td>2049131</td><td>Mektovi Oral Product</td></tr><tr><td>2197874</td><td>entrectinib 200 MG</td></tr><tr><td>845511</td><td>everolimus Oral Tablet [Afinitor]</td></tr><tr><td>1988770</td><td>brigatinib 180 MG Oral Tablet</td></tr><tr><td>1921224</td><td>brigatinib 30 MG [Alunbrig]</td></tr><tr><td>1243005</td><td>Inlyta</td></tr><tr><td>2362243</td><td>capmatinib 200 MG [Tabrecta]</td></tr><tr><td>1592740</td><td>nintedanib Pill</td></tr><tr><td>2169296</td><td>alpelisib 150 MG</td></tr><tr><td>1424913</td><td>dabrafenib Oral Product</td></tr><tr><td>643172</td><td>dasatinib Oral Tablet [Sprycel]</td></tr><tr><td>2559723</td><td>avapritinib 25 MG Oral Tablet</td></tr><tr><td>2362244</td><td>capmatinib 200 MG Oral Tablet [Tabrecta]</td></tr><tr><td>1363281</td><td>cabozantinib 80 MG Oral Capsule</td></tr><tr><td>1045405</td><td>dasatinib 80 MG</td></tr><tr><td>2000028</td><td>ibrutinib 560 MG</td></tr><tr><td>1873988</td><td>Kisqali Pill</td></tr><tr><td>2054158</td><td>{90 (lenvatinib 4 MG Oral Capsule) } Pack</td></tr><tr><td>1363269</td><td>cabozantinib 20 MG</td></tr><tr><td>1371319</td><td>regorafenib monohydrate</td></tr><tr><td>576099</td><td>gefitinib 250 MG [Iressa]</td></tr><tr><td>1193331</td><td>ruxolitinib 10 MG Oral Tablet</td></tr><tr><td>2359330</td><td>pemigatinib 13.5 MG</td></tr><tr><td>1312399</td><td>regorafenib Oral Product</td></tr><tr><td>643176</td><td>dasatinib 70 MG [Sprycel]</td></tr><tr><td>1945079</td><td>copanlisib Injectable Product</td></tr><tr><td>2105806</td><td>gilteritinib</td></tr><tr><td>1592746</td><td>Ofev Oral Product</td></tr><tr><td>662281</td><td>nilotinib</td></tr><tr><td>1601380</td><td>palbociclib 100 MG Oral Capsule</td></tr><tr><td>2362241</td><td>capmatinib 200 MG</td></tr><tr><td>2049133</td><td>binimetinib 15 MG Oral Tablet [Mektovi]</td></tr><tr><td>1160852</td><td>sunitinib Oral Product</td></tr><tr><td>1193352</td><td>ruxolitinib 25 MG [Jakafi]</td></tr><tr><td>2477265</td><td>tepotinib Oral Tablet</td></tr><tr><td>1165616</td><td>crizotinib Oral Product</td></tr><tr><td>1988768</td><td>brigatinib 90 MG Oral Tablet [Alunbrig]</td></tr><tr><td>2284102</td><td>palbociclib 100 MG Oral Tablet</td></tr><tr><td>2359338</td><td>Pemazyre Oral Product</td></tr><tr><td>2361290</td><td>tucatinib 150 MG Oral Tablet</td></tr><tr><td>1430268</td><td>Gilotrif</td></tr><tr><td>1088255</td><td>erlotinib 25 MG Oral Tablet [Tarceva]</td></tr><tr><td>977440</td><td>everolimus 0.75 MG Oral Tablet [Zortress]</td></tr><tr><td>2362238</td><td>Tabrecta Oral Product</td></tr><tr><td>1425116</td><td>trametinib 2 MG Oral Tablet</td></tr><tr><td>2369389</td><td>ripretinib</td></tr><tr><td>616292</td><td>sunitinib 50 MG Oral Capsule [Sutent]</td></tr><tr><td>616286</td><td>sunitinib 25 MG [Sutent]</td></tr><tr><td>1727477</td><td>alectinib Pill</td></tr><tr><td>2000021</td><td>ibrutinib 280 MG Oral Tablet</td></tr><tr><td>1187235</td><td>Zelboraf Pill</td></tr><tr><td>722287</td><td>temsirolimus 25 MG/ML</td></tr><tr><td>2183126</td><td>Turalio</td></tr><tr><td>1114071</td><td>Caprelsa</td></tr><tr><td>1604352</td><td>{60 (lenvatinib 10 MG Oral Capsule [Lenvima]) / 30 (lenvatinib 4 MG Oral Capsule [Lenvima]) } Pack [Lenvima 24]</td></tr><tr><td>1179057</td><td>Tasigna Oral Product</td></tr><tr><td>2197499</td><td>Inrebic Oral Product</td></tr><tr><td>1193325</td><td>ruxolitinib phosphate</td></tr><tr><td>1148504</td><td>crizotinib 250 MG Oral Capsule</td></tr><tr><td>2105653</td><td>larotrectinib 20 MG/ML Oral Solution [Vitrakvi]</td></tr><tr><td>643104</td><td>dasatinib Oral Tablet</td></tr><tr><td>1364354</td><td>ponatinib 15 MG [Iclusig]</td></tr><tr><td>2123136</td><td>Balversa Pill</td></tr><tr><td>1243007</td><td>axitinib Oral Tablet [Inlyta]</td></tr><tr><td>616287</td><td>sunitinib 25 MG Oral Capsule [Sutent]</td></tr><tr><td>1796664</td><td>{60 (lenvatinib 4 MG Oral Capsule) } Pack</td></tr><tr><td>1721565</td><td>osimertinib 40 MG Oral Tablet</td></tr><tr><td>2197866</td><td>entrectinib Oral Capsule</td></tr><tr><td>2361596</td><td>selumetinib sulfate</td></tr><tr><td>2123135</td><td>Balversa Oral Product</td></tr><tr><td>1592742</td><td>nintedanib 100 MG Oral Capsule</td></tr><tr><td>1098414</td><td>vandetanib 100 MG</td></tr><tr><td>643177</td><td>dasatinib 70 MG Oral Tablet [Sprycel]</td></tr><tr><td>1312406</td><td>Stivarga Oral Product</td></tr><tr><td>1430441</td><td>afatinib dimaleate</td></tr><tr><td>2183102</td><td>pexidartinib</td></tr><tr><td>1988771</td><td>brigatinib 180 MG [Alunbrig]</td></tr><tr><td>2534242</td><td>Fotivda Oral Product</td></tr><tr><td>1442984</td><td>ibrutinib Pill</td></tr><tr><td>1193353</td><td>ruxolitinib 25 MG Oral Tablet [Jakafi]</td></tr><tr><td>1424918</td><td>dabrafenib 75 MG Oral Capsule</td></tr><tr><td>1002300</td><td>nilotinib 150 MG Oral Capsule [Tasigna]</td></tr><tr><td>1592736</td><td>nintedanib esylate</td></tr><tr><td>2197500</td><td>Inrebic Pill</td></tr><tr><td>1160509</td><td>vemurafenib Pill</td></tr><tr><td>2570752</td><td>ruxolitinib 15 MG/ML Topical Cream</td></tr><tr><td>1312408</td><td>regorafenib 40 MG Oral Tablet [Stivarga]</td></tr><tr><td>1921220</td><td>brigatinib Pill</td></tr><tr><td>1193349</td><td>ruxolitinib 20 MG Oral Tablet [Jakafi]</td></tr><tr><td>1193350</td><td>ruxolitinib 25 MG</td></tr><tr><td>1364350</td><td>ponatinib Pill</td></tr><tr><td>714438</td><td>pazopanib</td></tr><tr><td>1442992</td><td>ibrutinib 140 MG Oral Capsule [Imbruvica]</td></tr><tr><td>1098417</td><td>vandetanib 300 MG</td></tr><tr><td>1727475</td><td>alectinib 150 MG</td></tr><tr><td>2049118</td><td>encorafenib 75 MG</td></tr><tr><td>1430450</td><td>afatinib 30 MG</td></tr><tr><td>1544469</td><td>Zydelig Oral Product</td></tr><tr><td>2183121</td><td>pexidartinib 200 MG</td></tr><tr><td>2362240</td><td>capmatinib 150 MG Oral Tablet [Tabrecta]</td></tr><tr><td>1921217</td><td>brigatinib</td></tr><tr><td>799830</td><td>dasatinib 100 MG Oral Tablet [Sprycel]</td></tr><tr><td>1869513</td><td>everolimus Tablet for Oral Suspension</td></tr><tr><td>1148499</td><td>Xalkori</td></tr><tr><td>2105630</td><td>larotrectinib Oral Product</td></tr><tr><td>1535468</td><td>ceritinib 150 MG Oral Capsule [Zykadia]</td></tr><tr><td>977428</td><td>Zortress</td></tr><tr><td>1243013</td><td>axitinib 5 MG [Inlyta]</td></tr><tr><td>977439</td><td>everolimus 0.75 MG [Zortress]</td></tr><tr><td>1193340</td><td>ruxolitinib 5 MG [Jakafi]</td></tr><tr><td>2105644</td><td>Vitrakvi Pill</td></tr><tr><td>1363275</td><td>cabozantinib 20 MG [Cometriq]</td></tr><tr><td>1363280</td><td>cabozantinib 80 MG</td></tr><tr><td>2056894</td><td>everolimus 1 MG</td></tr><tr><td>2105641</td><td>larotrectinib 100 MG [Vitrakvi]</td></tr><tr><td>2197498</td><td>fedratinib Oral Capsule [Inrebic]</td></tr><tr><td>1307627</td><td>bosutinib Oral Tablet [Bosulif]</td></tr><tr><td>1945084</td><td>copanlisib Injection [Aliqopa]</td></tr><tr><td>1430446</td><td>afatinib 20 MG Oral Tablet</td></tr><tr><td>2559722</td><td>avapritinib 25 MG</td></tr><tr><td>1919085</td><td>midostaurin Oral Product</td></tr><tr><td>2058913</td><td>dacomitinib Pill</td></tr><tr><td>1098415</td><td>vandetanib Oral Tablet</td></tr><tr><td>1193345</td><td>ruxolitinib 15 MG Oral Tablet [Jakafi]</td></tr><tr><td>2272123</td><td>avapritinib 300 MG</td></tr><tr><td>2359332</td><td>pemigatinib Pill</td></tr><tr><td>2169298</td><td>alpelisib Pill</td></tr><tr><td>2183130</td><td>Turalio Pill</td></tr><tr><td>2000023</td><td>ibrutinib 280 MG Oral Tablet [Imbruvica]</td></tr><tr><td>2183103</td><td>pexidartinib hydrochloride</td></tr><tr><td>1364362</td><td>ponatinib 45 MG Oral Tablet [Iclusig]</td></tr><tr><td>1147221</td><td>vemurafenib 240 MG</td></tr><tr><td>1790175</td><td>cabozantinib 60 MG Oral Tablet [Cabometyx]</td></tr><tr><td>597745</td><td>sorafenib 200 MG</td></tr><tr><td>1945078</td><td>copanlisib 60 MG</td></tr><tr><td>1921223</td><td>Alunbrig</td></tr><tr><td>495881</td><td>sorafenib</td></tr><tr><td>2361299</td><td>tucatinib 50 MG [Tukysa]</td></tr><tr><td>1430443</td><td>afatinib Oral Product</td></tr><tr><td>1430447</td><td>afatinib 20 MG [Gilotrif]</td></tr><tr><td>575017</td><td>imatinib 100 MG [Gleevec]</td></tr><tr><td>746607</td><td>nilotinib 200 MG [Tasigna]</td></tr><tr><td>2058914</td><td>dacomitinib Oral Tablet</td></tr><tr><td>867502</td><td>pazopanib 200 MG Oral Tablet</td></tr><tr><td>402435</td><td>gefitinib Oral Tablet [Iressa]</td></tr><tr><td>1946848</td><td>abemaciclib 200 MG Oral Tablet [Verzenio]</td></tr><tr><td>2058926</td><td>dacomitinib 30 MG Oral Tablet [Vizimpro]</td></tr><tr><td>2002717</td><td>nilotinib 50 MG Oral Capsule</td></tr><tr><td>1721582</td><td>osimertinib 80 MG [Tagrisso]</td></tr><tr><td>2105807</td><td>gilteritinib 40 MG</td></tr><tr><td>1721566</td><td>Tagrisso</td></tr><tr><td>1727484</td><td>Alecensa Pill</td></tr><tr><td>403878</td><td>imatinib 100 MG Oral Tablet</td></tr><tr><td>2262446</td><td>zanubrutinib 80 MG Oral Capsule [Brukinsa]</td></tr><tr><td>2123130</td><td>erdafitinib Oral Tablet</td></tr><tr><td>2473040</td><td>ponatinib 10 MG Oral Tablet</td></tr><tr><td>1601388</td><td>palbociclib 125 MG Oral Capsule</td></tr><tr><td>1722365</td><td>cobimetinib</td></tr><tr><td>1919094</td><td>midostaurin 25 MG Oral Capsule [Rydapt]</td></tr><tr><td>616275</td><td>sunitinib malate</td></tr><tr><td>1986813</td><td>acalabrutinib 100 MG Oral Capsule</td></tr><tr><td>2570750</td><td>ruxolitinib Topical Product</td></tr><tr><td>1869515</td><td>everolimus 2 MG [Afinitor]</td></tr><tr><td>799047</td><td>dasatinib 100 MG Oral Tablet</td></tr><tr><td>2477103</td><td>tepotinib</td></tr><tr><td>1157187</td><td>dasatinib Pill</td></tr><tr><td>1923053</td><td>{28 (letrozole 2.5 MG Oral Tablet) / 21 (ribociclib 200 MG Oral Tablet) } Pack</td></tr><tr><td>1544474</td><td>idelalisib 150 MG [Zydelig]</td></tr><tr><td>2197871</td><td>Rozlytrek Oral Product</td></tr><tr><td>1919087</td><td>midostaurin Oral Capsule</td></tr><tr><td>1601387</td><td>palbociclib 125 MG</td></tr><tr><td>1364357</td><td>Iclusig Pill</td></tr><tr><td>1171230</td><td>Gleevec Oral Product</td></tr><tr><td>1544464</td><td>idelalisib Oral Tablet</td></tr><tr><td>1604350</td><td>{30 (lenvatinib 10 MG Oral Capsule [Lenvima]) / 30 (lenvatinib 4 MG Oral Capsule [Lenvima]) } Pack [Lenvima 14]</td></tr><tr><td>1088252</td><td>erlotinib 150 MG [Tarceva]</td></tr><tr><td>2477270</td><td>Tepmetko Oral Product</td></tr><tr><td>2103174</td><td>Lorbrena Pill</td></tr><tr><td>1312397</td><td>regorafenib</td></tr><tr><td>2121060</td><td>ceritinib Oral Tablet [Zykadia]</td></tr><tr><td>1119402</td><td>everolimus 7.5 MG Oral Tablet [Afinitor]</td></tr><tr><td>1601383</td><td>palbociclib Oral Capsule [Ibrance]</td></tr><tr><td>2284105</td><td>palbociclib 125 MG Oral Tablet</td></tr><tr><td>2105629</td><td>larotrectinib 100 MG</td></tr><tr><td>2054156</td><td>{30 (lenvatinib 4 MG Oral Capsule) } Pack</td></tr><tr><td>1114074</td><td>vandetanib 100 MG Oral Tablet [Caprelsa]</td></tr><tr><td>1185475</td><td>Sutent Pill</td></tr><tr><td>2049110</td><td>encorafenib Oral Capsule</td></tr><tr><td>1147223</td><td>vemurafenib 240 MG Oral Tablet</td></tr><tr><td>1945081</td><td>copanlisib 60 MG Injection</td></tr><tr><td>1193347</td><td>ruxolitinib 20 MG Oral Tablet</td></tr><tr><td>2359331</td><td>pemigatinib Oral Product</td></tr><tr><td>2359347</td><td>pemigatinib 9 MG [Pemazyre]</td></tr><tr><td>1988767</td><td>brigatinib 90 MG [Alunbrig]</td></tr><tr><td>1314319</td><td>bosutinib monohydrate</td></tr><tr><td>1425229</td><td>dabrafenib 75 MG [Tafinlar]</td></tr><tr><td>1425101</td><td>trametinib Oral Product</td></tr><tr><td>1243014</td><td>axitinib 5 MG Oral Tablet [Inlyta]</td></tr><tr><td>2000020</td><td>ibrutinib 280 MG</td></tr><tr><td>2169314</td><td>{28 (alpelisib 200 MG Oral Tablet [Piqray]) } Pack [Piqray 200 MG Daily Dose]</td></tr><tr><td>1364356</td><td>Iclusig Oral Product</td></tr><tr><td>1242999</td><td>axitinib</td></tr><tr><td>1796537</td><td>lenvatinib 10 MG [Lenvima]</td></tr><tr><td>2123140</td><td>erdafitinib 4 MG [Balversa]</td></tr><tr><td>2197490</td><td>fedratinib</td></tr><tr><td>2121058</td><td>ceritinib Oral Tablet</td></tr><tr><td>1307623</td><td>bosutinib Oral Tablet</td></tr><tr><td>1442982</td><td>ibrutinib 140 MG</td></tr><tr><td>2477272</td><td>tepotinib 225 MG Oral Tablet [Tepmetko]</td></tr><tr><td>1544460</td><td>idelalisib</td></tr><tr><td>1988985</td><td>bosutinib 400 MG [Bosulif]</td></tr><tr><td>2534249</td><td>tivozanib 1.34 MG Oral Capsule [Fotivda]</td></tr><tr><td>1148503</td><td>crizotinib 250 MG</td></tr><tr><td>2272107</td><td>avapritinib</td></tr><tr><td>1792374</td><td>lenvatinib Oral Capsule [Lenvima]</td></tr><tr><td>2058920</td><td>Vizimpro Oral Product</td></tr><tr><td>2477262</td><td>tepotinib 225 MG</td></tr><tr><td>616274</td><td>Sutent</td></tr><tr><td>1307628</td><td>Bosulif Oral Product</td></tr><tr><td>406050</td><td>imatinib Oral Tablet</td></tr><tr><td>657797</td><td>temsirolimus</td></tr><tr><td>1425115</td><td>trametinib 2 MG</td></tr><tr><td>1425226</td><td>Tafinlar Oral Product</td></tr><tr><td>1601393</td><td>palbociclib 75 MG [Ibrance]</td></tr><tr><td>1312402</td><td>regorafenib 40 MG Oral Tablet</td></tr><tr><td>1604349</td><td>{30 (lenvatinib 10 MG Oral Capsule) / 30 (lenvatinib 4 MG Oral Capsule) } Pack</td></tr><tr><td>2049123</td><td>binimetinib 15 MG</td></tr><tr><td>1727485</td><td>alectinib 150 MG Oral Capsule [Alecensa]</td></tr><tr><td>2000018</td><td>ibrutinib Oral Tablet [Imbruvica]</td></tr><tr><td>1721571</td><td>osimertinib 40 MG Oral Tablet [Tagrisso]</td></tr><tr><td>2103173</td><td>Lorbrena Oral Product</td></tr><tr><td>1442981</td><td>ibrutinib</td></tr><tr><td>2534237</td><td>tivozanib Oral Capsule</td></tr><tr><td>2289418</td><td>selumetinib 10 MG Oral Capsule</td></tr><tr><td>1604351</td><td>{60 (lenvatinib 10 MG Oral Capsule) / 30 (lenvatinib 4 MG Oral Capsule) } Pack</td></tr><tr><td>1425224</td><td>dabrafenib 50 MG [Tafinlar]</td></tr><tr><td>1535458</td><td>ceritinib 150 MG</td></tr><tr><td>1114096</td><td>vandetanib 300 MG Oral Tablet [Caprelsa]</td></tr><tr><td>1182862</td><td>Nexavar Oral Product</td></tr><tr><td>977436</td><td>everolimus 0.5 MG Oral Tablet [Zortress]</td></tr><tr><td>1945083</td><td>copanlisib 60 MG [Aliqopa]</td></tr><tr><td>1193338</td><td>ruxolitinib 5 MG</td></tr><tr><td>1986809</td><td>acalabrutinib 100 MG</td></tr><tr><td>867507</td><td>pazopanib 400 MG</td></tr><tr><td>1425110</td><td>trametinib 0.5 MG Oral Tablet [Mekinist]</td></tr><tr><td>2103171</td><td>lorlatinib 25 MG [Lorbrena]</td></tr><tr><td>349472</td><td>gefitinib 250 MG Oral Tablet</td></tr><tr><td>2289417</td><td>selumetinib Oral Capsule</td></tr><tr><td>1727483</td><td>Alecensa Oral Product</td></tr><tr><td>1601376</td><td>palbociclib 100 MG</td></tr><tr><td>1424911</td><td>dabrafenib</td></tr><tr><td>2169302</td><td>Piqray</td></tr><tr><td>2105815</td><td>Xospata Oral Product</td></tr><tr><td>1159692</td><td>sorafenib Pill</td></tr><tr><td>2361300</td><td>tucatinib 50 MG Oral Tablet [Tukysa]</td></tr><tr><td>1790164</td><td>cabozantinib Oral Tablet [Cabometyx]</td></tr><tr><td>1193348</td><td>ruxolitinib 20 MG [Jakafi]</td></tr><tr><td>977431</td><td>everolimus 0.25 MG Oral Tablet [Zortress]</td></tr><tr><td>2197862</td><td>entrectinib</td></tr><tr><td>845518</td><td>everolimus 5 MG Oral Tablet [Afinitor]</td></tr><tr><td>2105813</td><td>gilteritinib 40 MG [Xospata]</td></tr><tr><td>2570757</td><td>ruxolitinib 15 MG/ML Topical Cream [Opzelura]</td></tr><tr><td>1945077</td><td>copanlisib</td></tr><tr><td>1119400</td><td>everolimus 7.5 MG Oral Tablet</td></tr><tr><td>284206</td><td>imatinib 100 MG Oral Capsule</td></tr><tr><td>1790160</td><td>cabozantinib Oral Tablet</td></tr><tr><td>1193335</td><td>Jakafi Oral Product</td></tr><tr><td>1988772</td><td>brigatinib 180 MG Oral Tablet [Alunbrig]</td></tr><tr><td>1604383</td><td>{30 (lenvatinib 10 MG Oral Capsule) } Pack</td></tr><tr><td>1307630</td><td>bosutinib 100 MG Oral Tablet [Bosulif]</td></tr><tr><td>2570756</td><td>ruxolitinib Topical Cream [Opzelura]</td></tr><tr><td>2103177</td><td>lorlatinib 100 MG Oral Tablet</td></tr><tr><td>2534234</td><td>tivozanib 0.89 MG</td></tr><tr><td>2359343</td><td>pemigatinib 4.5 MG [Pemazyre]</td></tr><tr><td>2262439</td><td>zanubrutinib Oral Capsule</td></tr><tr><td>2570749</td><td>ruxolitinib 15 MG/ML</td></tr><tr><td>1147228</td><td>vemurafenib 240 MG Oral Tablet [Zelboraf]</td></tr><tr><td>746609</td><td>nilotinib 200 MG Oral Capsule [Tasigna]</td></tr><tr><td>1946838</td><td>abemaciclib 100 MG Oral Tablet</td></tr><tr><td>2105633</td><td>larotrectinib 100 MG Oral Capsule</td></tr><tr><td>2058519</td><td>Copiktra Pill</td></tr><tr><td>1147227</td><td>vemurafenib Oral Tablet [Zelboraf]</td></tr><tr><td>2369402</td><td>Qinlock Pill</td></tr><tr><td>1364351</td><td>ponatinib Oral Tablet</td></tr><tr><td>615979</td><td>sorafenib 200 MG Oral Tablet [Nexavar]</td></tr><tr><td>616291</td><td>sunitinib 50 MG [Sutent]</td></tr><tr><td>1601384</td><td>Ibrance Oral Product</td></tr><tr><td>2105814</td><td>gilteritinib Oral Tablet [Xospata]</td></tr><tr><td>2359333</td><td>pemigatinib Oral Tablet</td></tr><tr><td>1425230</td><td>dabrafenib 75 MG Oral Capsule [Tafinlar]</td></tr><tr><td>616279</td><td>sunitinib 12.5 MG Oral Capsule</td></tr><tr><td>2058922</td><td>dacomitinib 15 MG Oral Tablet [Vizimpro]</td></tr><tr><td>1193329</td><td>ruxolitinib Pill</td></tr><tr><td>2169299</td><td>alpelisib Oral Tablet</td></tr><tr><td>2169313</td><td>alpelisib 200 MG Oral Tablet [Piqray]</td></tr><tr><td>2105628</td><td>larotrectinib</td></tr><tr><td>1307635</td><td>bosutinib 500 MG Oral Tablet [Bosulif]</td></tr><tr><td>2272120</td><td>avapritinib 200 MG Oral Tablet</td></tr><tr><td>1946847</td><td>abemaciclib 200 MG [Verzenio]</td></tr><tr><td>616282</td><td>sunitinib Oral Capsule [Sutent]</td></tr><tr><td>2473042</td><td>ponatinib 10 MG Oral Tablet [Iclusig]</td></tr><tr><td>1921219</td><td>brigatinib Oral Product</td></tr><tr><td>1726639</td><td>ponatinib 30 MG Oral Tablet [Iclusig]</td></tr><tr><td>1986816</td><td>acalabrutinib Oral Capsule [Calquence]</td></tr><tr><td>1243011</td><td>axitinib 5 MG</td></tr><tr><td>1790165</td><td>Cabometyx Oral Product</td></tr><tr><td>2534235</td><td>tivozanib Oral Product</td></tr><tr><td>2169317</td><td>alpelisib 50 MG [Piqray]</td></tr><tr><td>2103170</td><td>Lorbrena</td></tr><tr><td>1161366</td><td>pazopanib Pill</td></tr><tr><td>2105812</td><td>Xospata</td></tr><tr><td>1946828</td><td>abemaciclib Pill</td></tr><tr><td>2477264</td><td>tepotinib Pill</td></tr><tr><td>998190</td><td>everolimus 2.5 MG [Afinitor]</td></tr><tr><td>1430438</td><td>afatinib</td></tr><tr><td>2362230</td><td>capmatinib 150 MG</td></tr><tr><td>1173663</td><td>Caprelsa Pill</td></tr><tr><td>1088251</td><td>erlotinib 100 MG Oral Tablet [Tarceva]</td></tr><tr><td>1790168</td><td>cabozantinib 40 MG</td></tr><tr><td>1312401</td><td>regorafenib Oral Tablet</td></tr><tr><td>1193351</td><td>ruxolitinib 25 MG Oral Tablet</td></tr><tr><td>376335</td><td>imatinib Oral Capsule</td></tr><tr><td>1243010</td><td>axitinib 1 MG Oral Tablet [Inlyta]</td></tr><tr><td>358777</td><td>gefitinib 250 MG</td></tr><tr><td>977429</td><td>everolimus 0.25 MG [Zortress]</td></tr><tr><td>1921225</td><td>brigatinib Oral Tablet [Alunbrig]</td></tr><tr><td>1721561</td><td>osimertinib 40 MG</td></tr><tr><td>475342</td><td>dasatinib</td></tr><tr><td>1310147</td><td>everolimus 5 MG Tablet for Oral Suspension [Afinitor]</td></tr><tr><td>2058518</td><td>Copiktra Oral Product</td></tr><tr><td>2054159</td><td>{90 (lenvatinib 4 MG Oral Capsule [Lenvima]) } Pack [Lenvima 12]</td></tr><tr><td>1147225</td><td>vemurafenib 240 MG [Zelboraf]</td></tr><tr><td>2105809</td><td>gilteritinib Pill</td></tr><tr><td>1162504</td><td>erlotinib Pill</td></tr><tr><td>1430457</td><td>afatinib 40 MG Oral Tablet [Gilotrif]</td></tr><tr><td>1919089</td><td>Rydapt</td></tr><tr><td>977434</td><td>everolimus 0.5 MG Oral Tablet</td></tr><tr><td>1045408</td><td>dasatinib 80 MG Oral Tablet [Sprycel]</td></tr><tr><td>480167</td><td>lapatinib</td></tr><tr><td>1792376</td><td>Lenvima Pill</td></tr><tr><td>1604394</td><td>{60 (lenvatinib 10 MG Oral Capsule) } Pack</td></tr><tr><td>2262445</td><td>Brukinsa Pill</td></tr><tr><td>1604342</td><td>lenvatinib Oral Product</td></tr><tr><td>615978</td><td>sorafenib Oral Tablet [Nexavar]</td></tr><tr><td>2534233</td><td>tivozanib</td></tr><tr><td>1873980</td><td>ribociclib Oral Product</td></tr><tr><td>1919083</td><td>midostaurin</td></tr><tr><td>2105816</td><td>Xospata Pill</td></tr><tr><td>2049119</td><td>encorafenib 75 MG Oral Capsule</td></tr><tr><td>1308432</td><td>everolimus 5 MG Tablet for Oral Suspension</td></tr><tr><td>1088250</td><td>erlotinib 100 MG [Tarceva]</td></tr><tr><td>477320</td><td>erlotinib hydrochloride</td></tr><tr><td>1721559</td><td>osimertinib mesylate</td></tr><tr><td>1425105</td><td>Mekinist</td></tr><tr><td>2049120</td><td>encorafenib 75 MG [Braftovi]</td></tr><tr><td>2284103</td><td>palbociclib Oral Tablet [Ibrance]</td></tr><tr><td>2049121</td><td>encorafenib 75 MG Oral Capsule [Braftovi]</td></tr><tr><td>1363271</td><td>cabozantinib Pill</td></tr><tr><td>1946827</td><td>abemaciclib Oral Product</td></tr><tr><td>1186914</td><td>Tykerb Oral Product</td></tr><tr><td>1364348</td><td>ponatinib 15 MG</td></tr><tr><td>1945080</td><td>copanlisib Injection</td></tr><tr><td>1442983</td><td>ibrutinib Oral Product</td></tr><tr><td>1187595</td><td>Votrient Oral Product</td></tr><tr><td>2359341</td><td>pemigatinib 4.5 MG</td></tr><tr><td>2570751</td><td>ruxolitinib Topical Cream</td></tr><tr><td>1179040</td><td>Tarceva Oral Product</td></tr><tr><td>2123129</td><td>erdafitinib Pill</td></tr><tr><td>1243002</td><td>axitinib Pill</td></tr><tr><td>998189</td><td>everolimus 2.5 MG Oral Tablet</td></tr><tr><td>1363277</td><td>Cometriq Oral Product</td></tr><tr><td>2103172</td><td>lorlatinib Oral Tablet [Lorbrena]</td></tr><tr><td>2049125</td><td>binimetinib Pill</td></tr><tr><td>2105642</td><td>larotrectinib Oral Capsule [Vitrakvi]</td></tr><tr><td>281883</td><td>Iressa</td></tr><tr><td>1544472</td><td>idelalisib 150 MG</td></tr><tr><td>2049129</td><td>binimetinib 15 MG [Mektovi]</td></tr><tr><td>2058848</td><td>dacomitinib anhydrous</td></tr><tr><td>1148506</td><td>crizotinib 250 MG Oral Capsule [Xalkori]</td></tr><tr><td>2054157</td><td>{30 (lenvatinib 4 MG Oral Capsule [Lenvima]) } Pack [Lenvima 4]</td></tr><tr><td>1307629</td><td>Bosulif Pill</td></tr><tr><td>2289423</td><td>Koselugo Pill</td></tr><tr><td>1430444</td><td>afatinib Pill</td></tr><tr><td>1873984</td><td>Kisqali</td></tr><tr><td>1193344</td><td>ruxolitinib 15 MG [Jakafi]</td></tr><tr><td>1790161</td><td>cabozantinib 20 MG Oral Tablet</td></tr><tr><td>2272108</td><td>avapritinib 100 MG</td></tr><tr><td>2272121</td><td>avapritinib 200 MG [Ayvakit]</td></tr><tr><td>2058917</td><td>dacomitinib 15 MG [Vizimpro]</td></tr><tr><td>357977</td><td>sunitinib</td></tr><tr><td>1425225</td><td>dabrafenib Oral Capsule [Tafinlar]</td></tr><tr><td>1363283</td><td>cabozantinib 80 MG [Cometriq]</td></tr><tr><td>2369397</td><td>ripretinib 50 MG Oral Tablet</td></tr><tr><td>643103</td><td>dasatinib 20 MG</td></tr><tr><td>1873982</td><td>ribociclib Oral Tablet</td></tr><tr><td>643175</td><td>dasatinib 50 MG Oral Tablet [Sprycel]</td></tr><tr><td>1186316</td><td>Zortress Oral Product</td></tr><tr><td>1176763</td><td>Iressa Pill</td></tr><tr><td>2169311</td><td>{28 (alpelisib 200 MG Oral Tablet) } Pack</td></tr><tr><td>1425104</td><td>trametinib 0.5 MG Oral Tablet</td></tr><tr><td>2000029</td><td>ibrutinib 560 MG Oral Tablet</td></tr><tr><td>1986808</td><td>acalabrutinib</td></tr><tr><td>1160503</td><td>vandetanib Oral Product</td></tr><tr><td>2197877</td><td>entrectinib 200 MG Oral Capsule [Rozlytrek]</td></tr><tr><td>1425118</td><td>trametinib 2 MG Oral Tablet [Mekinist]</td></tr><tr><td>1986814</td><td>Calquence</td></tr><tr><td>2559725</td><td>avapritinib 25 MG Oral Tablet [Ayvakit]</td></tr><tr><td>1873983</td><td>ribociclib 200 MG Oral Tablet</td></tr><tr><td>1364352</td><td>ponatinib 15 MG Oral Tablet</td></tr><tr><td>1307620</td><td>bosutinib 100 MG</td></tr><tr><td>2559728</td><td>avapritinib 50 MG [Ayvakit]</td></tr><tr><td>997652</td><td>nilotinib 150 MG</td></tr><tr><td>746606</td><td>nilotinib 200 MG Oral Capsule</td></tr><tr><td>1601385</td><td>Ibrance Pill</td></tr><tr><td>1364360</td><td>ponatinib 45 MG Oral Tablet</td></tr><tr><td>845510</td><td>everolimus 10 MG [Afinitor]</td></tr><tr><td>2103178</td><td>lorlatinib 100 MG [Lorbrena]</td></tr><tr><td>1045403</td><td>dasatinib 140 MG [Sprycel]</td></tr><tr><td>1921218</td><td>brigatinib 30 MG</td></tr><tr><td>2105647</td><td>larotrectinib Oral Liquid Product</td></tr><tr><td>2183124</td><td>pexidartinib Oral Capsule</td></tr><tr><td>141704</td><td>everolimus</td></tr><tr><td>2000025</td><td>ibrutinib 420 MG Oral Tablet</td></tr><tr><td>1310144</td><td>everolimus 3 MG Tablet for Oral Suspension [Afinitor]</td></tr><tr><td>1243008</td><td>Inlyta Oral Product</td></tr><tr><td>1873987</td><td>Kisqali Oral Product</td></tr><tr><td>1243003</td><td>axitinib Oral Tablet</td></tr><tr><td>406051</td><td>imatinib 400 MG</td></tr><tr><td>1592745</td><td>nintedanib Oral Capsule [Ofev]</td></tr><tr><td>2103168</td><td>lorlatinib Oral Tablet</td></tr><tr><td>603203</td><td>erlotinib 100 MG Oral Tablet</td></tr><tr><td>1535465</td><td>ceritinib Oral Capsule [Zykadia]</td></tr><tr><td>2105649</td><td>larotrectinib 20 MG/ML Oral Solution</td></tr><tr><td>1601386</td><td>palbociclib 100 MG Oral Capsule [Ibrance]</td></tr><tr><td>1307632</td><td>bosutinib 500 MG</td></tr><tr><td>616278</td><td>sunitinib Oral Capsule</td></tr><tr><td>1243004</td><td>axitinib 1 MG Oral Tablet</td></tr><tr><td>2123132</td><td>Balversa</td></tr><tr><td>481474</td><td>lapatinib ditosylate</td></tr><tr><td>1722366</td><td>cobimetinib 20 MG</td></tr><tr><td>2361297</td><td>tucatinib 50 MG</td></tr><tr><td>2058916</td><td>Vizimpro</td></tr><tr><td>643108</td><td>dasatinib 70 MG</td></tr><tr><td>2183128</td><td>pexidartinib Oral Capsule [Turalio]</td></tr><tr><td>2362259</td><td>capmatinib hydrochloride</td></tr><tr><td>1601394</td><td>palbociclib 75 MG Oral Capsule [Ibrance]</td></tr><tr><td>1873993</td><td>{42 (ribociclib 200 MG Oral Tablet [Kisqali]) } Pack [Kisqali 400 MG Daily Dose Carton]</td></tr><tr><td>1946834</td><td>Verzenio Oral Product</td></tr><tr><td>845514</td><td>everolimus 5 MG</td></tr><tr><td>1722376</td><td>cobimetinib 20 MG Oral Tablet [Cotellic]</td></tr><tr><td>1160680</td><td>imatinib Pill</td></tr><tr><td>2058930</td><td>dacomitinib 45 MG Oral Tablet</td></tr><tr><td>597744</td><td>sorafenib tosylate</td></tr><tr><td>1179041</td><td>Tarceva Pill</td></tr><tr><td>1147224</td><td>Zelboraf</td></tr><tr><td>2362165</td><td>capmatinib</td></tr><tr><td>2058925</td><td>dacomitinib 30 MG [Vizimpro]</td></tr><tr><td>2049107</td><td>encorafenib 50 MG</td></tr><tr><td>1601379</td><td>palbociclib Oral Capsule</td></tr><tr><td>1604344</td><td>lenvatinib Oral Capsule</td></tr><tr><td>1114072</td><td>vandetanib 100 MG [Caprelsa]</td></tr><tr><td>1869516</td><td>everolimus Tablet for Oral Suspension [Afinitor]</td></tr><tr><td>2359335</td><td>Pemazyre</td></tr><tr><td>2262443</td><td>zanubrutinib Oral Capsule [Brukinsa]</td></tr><tr><td>1424915</td><td>dabrafenib Oral Capsule</td></tr><tr><td>1310137</td><td>Afinitor Oral Liquid Product</td></tr><tr><td>2362235</td><td>Tabrecta</td></tr><tr><td>1722372</td><td>cobimetinib 20 MG [Cotellic]</td></tr><tr><td>1424914</td><td>dabrafenib Pill</td></tr><tr><td>2049122</td><td>binimetinib</td></tr><tr><td>1721568</td><td>osimertinib Oral Tablet [Tagrisso]</td></tr><tr><td>1727478</td><td>alectinib Oral Capsule</td></tr><tr><td>2197594</td><td>fedratinib hydrochloride</td></tr><tr><td>1425222</td><td>dabrafenib mesylate</td></tr><tr><td>1721583</td><td>osimertinib 80 MG Oral Tablet [Tagrisso]</td></tr><tr><td>1790167</td><td>cabozantinib 20 MG Oral Tablet [Cabometyx]</td></tr><tr><td>1940653</td><td>Nerlynx Pill</td></tr><tr><td>1986818</td><td>Calquence Pill</td></tr><tr><td>1363312</td><td>{84 (cabozantinib 20 MG Oral Capsule) / 28 (cabozantinib 80 MG Oral Capsule) } Pack</td></tr><tr><td>2105811</td><td>gilteritinib 40 MG Oral Tablet</td></tr><tr><td>1363270</td><td>cabozantinib Oral Product</td></tr><tr><td>2103179</td><td>lorlatinib 100 MG Oral Tablet [Lorbrena]</td></tr><tr><td>1940651</td><td>neratinib Oral Tablet [Nerlynx]</td></tr><tr><td>2105651</td><td>larotrectinib Oral Solution [Vitrakvi]</td></tr><tr><td>722289</td><td>1.2 ML temsirolimus 25 MG/ML Injection</td></tr><tr><td>2197875</td><td>entrectinib 200 MG Oral Capsule</td></tr><tr><td>2058923</td><td>dacomitinib 30 MG</td></tr><tr><td>2289426</td><td>selumetinib 25 MG Oral Capsule</td></tr><tr><td>2362239</td><td>Tabrecta Pill</td></tr><tr><td>1724304</td><td>temsirolimus Injection</td></tr><tr><td>867500</td><td>pazopanib 200 MG</td></tr><tr><td>1940654</td><td>neratinib 40 MG Oral Tablet [Nerlynx]</td></tr><tr><td>1604343</td><td>lenvatinib Pill</td></tr><tr><td>2369403</td><td>ripretinib 50 MG Oral Tablet [Qinlock]</td></tr><tr><td>2103166</td><td>lorlatinib Oral Product</td></tr><tr><td>1986812</td><td>acalabrutinib Oral Capsule</td></tr><tr><td>1946837</td><td>abemaciclib 100 MG</td></tr><tr><td>2002719</td><td>nilotinib 50 MG Oral Capsule [Tasigna]</td></tr><tr><td>1604341</td><td>lenvatinib 10 MG</td></tr><tr><td>2197494</td><td>fedratinib Oral Capsule</td></tr><tr><td>1873986</td><td>ribociclib Oral Tablet [Kisqali]</td></tr><tr><td>2289428</td><td>selumetinib 25 MG Oral Capsule [Koselugo]</td></tr><tr><td>1790170</td><td>cabozantinib 40 MG [Cabometyx]</td></tr><tr><td>2002718</td><td>nilotinib 50 MG [Tasigna]</td></tr><tr><td>1940642</td><td>neratinib maleate</td></tr><tr><td>1162503</td><td>erlotinib Oral Product</td></tr><tr><td>2103169</td><td>lorlatinib 25 MG Oral Tablet</td></tr><tr><td>1430454</td><td>afatinib 40 MG</td></tr><tr><td>1177782</td><td>Sprycel Pill</td></tr><tr><td>1165617</td><td>crizotinib Pill</td></tr><tr><td>1535464</td><td>ceritinib 150 MG [Zykadia]</td></tr><tr><td>1363268</td><td>cabozantinib</td></tr><tr><td>1946836</td><td>abemaciclib 50 MG Oral Tablet [Verzenio]</td></tr><tr><td>1790169</td><td>cabozantinib 40 MG Oral Tablet</td></tr><tr><td>616289</td><td>sunitinib 50 MG Oral Capsule</td></tr><tr><td>1592749</td><td>nintedanib 150 MG</td></tr><tr><td>1098416</td><td>vandetanib 100 MG Oral Tablet</td></tr><tr><td>2534240</td><td>tivozanib 0.89 MG [Fotivda]</td></tr><tr><td>2289414</td><td>selumetinib 10 MG</td></tr><tr><td>1592739</td><td>nintedanib Oral Product</td></tr><tr><td>2289421</td><td>selumetinib Oral Capsule [Koselugo]</td></tr><tr><td>1363276</td><td>cabozantinib Oral Capsule [Cometriq]</td></tr><tr><td>2197872</td><td>Rozlytrek Pill</td></tr><tr><td>2002716</td><td>nilotinib 50 MG</td></tr><tr><td>2559726</td><td>avapritinib 50 MG</td></tr><tr><td>1601377</td><td>palbociclib Oral Product</td></tr><tr><td>1425106</td><td>trametinib 0.5 MG [Mekinist]</td></tr><tr><td>2105808</td><td>gilteritinib Oral Product</td></tr><tr><td>2362232</td><td>capmatinib Pill</td></tr><tr><td>1160853</td><td>sunitinib Pill</td></tr><tr><td>672150</td><td>lapatinib 250 MG [Tykerb]</td></tr><tr><td>1312398</td><td>regorafenib 40 MG</td></tr><tr><td>2183123</td><td>pexidartinib Pill</td></tr><tr><td>1363279</td><td>cabozantinib 20 MG Oral Capsule [Cometriq]</td></tr><tr><td>1940649</td><td>Nerlynx</td></tr><tr><td>2359268</td><td>pemigatinib</td></tr><tr><td>2473041</td><td>ponatinib 10 MG [Iclusig]</td></tr><tr><td>1544467</td><td>idelalisib 100 MG [Zydelig]</td></tr><tr><td>2197870</td><td>entrectinib Oral Capsule [Rozlytrek]</td></tr><tr><td>1243009</td><td>Inlyta Pill</td></tr><tr><td>2058512</td><td>duvelisib Pill</td></tr><tr><td>2105810</td><td>gilteritinib Oral Tablet</td></tr><tr><td>2284107</td><td>palbociclib 75 MG Oral Tablet</td></tr><tr><td>2359346</td><td>pemigatinib 9 MG Oral Tablet</td></tr><tr><td>2169297</td><td>alpelisib Oral Product</td></tr><tr><td>1727482</td><td>alectinib Oral Capsule [Alecensa]</td></tr><tr><td>1946832</td><td>abemaciclib 50 MG [Verzenio]</td></tr><tr><td>723805</td><td>Torisel</td></tr><tr><td>977426</td><td>everolimus 0.25 MG</td></tr><tr><td>1986819</td><td>acalabrutinib 100 MG Oral Capsule [Calquence]</td></tr><tr><td>2183131</td><td>pexidartinib 200 MG Oral Capsule [Turalio]</td></tr><tr><td>2272119</td><td>avapritinib 200 MG</td></tr><tr><td>2361289</td><td>tucatinib Oral Tablet</td></tr><tr><td>2183129</td><td>Turalio Oral Product</td></tr><tr><td>1722380</td><td>cobimetinib fumarate</td></tr><tr><td>1430453</td><td>afatinib 30 MG Oral Tablet [Gilotrif]</td></tr><tr><td>1873989</td><td>ribociclib 200 MG Oral Tablet [Kisqali]</td></tr><tr><td>2058520</td><td>duvelisib 15 MG Oral Capsule [Copiktra]</td></tr><tr><td>1790174</td><td>cabozantinib 60 MG [Cabometyx]</td></tr><tr><td>746608</td><td>nilotinib Oral Capsule [Tasigna]</td></tr><tr><td>2056895</td><td>everolimus 1 MG Oral Tablet</td></tr><tr><td>2169316</td><td>alpelisib 50 MG Oral Tablet</td></tr><tr><td>997653</td><td>nilotinib 150 MG Oral Capsule</td></tr><tr><td>735866</td><td>Tasigna</td></tr><tr><td>2534246</td><td>tivozanib 1.34 MG</td></tr><tr><td>2197493</td><td>fedratinib Pill</td></tr><tr><td>2361285</td><td>tucatinib</td></tr><tr><td>2169285</td><td>alpelisib</td></tr><tr><td>1363278</td><td>Cometriq Pill</td></tr><tr><td>2197868</td><td>Rozlytrek</td></tr><tr><td>1544461</td><td>idelalisib 100 MG</td></tr><tr><td>1544473</td><td>idelalisib 150 MG Oral Tablet</td></tr><tr><td>845509</td><td>Afinitor</td></tr><tr><td>672152</td><td>lapatinib 250 MG Oral Tablet [Tykerb]</td></tr><tr><td>1045406</td><td>dasatinib 80 MG Oral Tablet</td></tr><tr><td>1156709</td><td>gefitinib Pill</td></tr><tr><td>2473039</td><td>ponatinib 10 MG</td></tr><tr><td>616281</td><td>sunitinib 12.5 MG [Sutent]</td></tr><tr><td>1946829</td><td>abemaciclib Oral Tablet</td></tr><tr><td>1923057</td><td>{28 (letrozole 2.5 MG Oral Tablet) / 63 (ribociclib 200 MG Oral Tablet) } Pack</td></tr><tr><td>1193343</td><td>ruxolitinib 15 MG Oral Tablet</td></tr><tr><td>1308430</td><td>everolimus 3 MG Tablet for Oral Suspension</td></tr><tr><td>2359348</td><td>pemigatinib 9 MG Oral Tablet [Pemazyre]</td></tr><tr><td>2123141</td><td>erdafitinib 4 MG Oral Tablet [Balversa]</td></tr><tr><td>2000030</td><td>ibrutinib 560 MG [Imbruvica]</td></tr><tr><td>1945085</td><td>Aliqopa Injectable Product</td></tr><tr><td>2262444</td><td>Brukinsa Oral Product</td></tr><tr><td>2262440</td><td>zanubrutinib 80 MG Oral Capsule</td></tr><tr><td>746604</td><td>nilotinib 200 MG</td></tr><tr><td>1946844</td><td>abemaciclib 150 MG Oral Tablet [Verzenio]</td></tr><tr><td>1790163</td><td>cabozantinib 20 MG [Cabometyx]</td></tr><tr><td>2105650</td><td>larotrectinib 20 MG/ML [Vitrakvi]</td></tr><tr><td>845507</td><td>everolimus 10 MG Oral Tablet</td></tr><tr><td>1425100</td><td>trametinib 0.5 MG</td></tr><tr><td>1722369</td><td>cobimetinib Oral Tablet</td></tr><tr><td>2197497</td><td>fedratinib 100 MG [Inrebic]</td></tr><tr><td>1604384</td><td>{30 (lenvatinib 10 MG Oral Capsule [Lenvima]) } Pack [Lenvima 10]</td></tr><tr><td>732187</td><td>pazopanib hydrochloride</td></tr><tr><td>1193327</td><td>ruxolitinib 10 MG</td></tr><tr><td>1193333</td><td>ruxolitinib 10 MG [Jakafi]</td></tr><tr><td>1177781</td><td>Sprycel Oral Product</td></tr><tr><td>1312405</td><td>regorafenib Oral Tablet [Stivarga]</td></tr><tr><td>1430455</td><td>afatinib 40 MG Oral Tablet</td></tr><tr><td>282388</td><td>imatinib</td></tr><tr><td>1946830</td><td>abemaciclib 50 MG Oral Tablet</td></tr><tr><td>643174</td><td>dasatinib 50 MG [Sprycel]</td></tr><tr><td>1945086</td><td>copanlisib 60 MG Injection [Aliqopa]</td></tr><tr><td>2049126</td><td>binimetinib Oral Tablet</td></tr><tr><td>2272124</td><td>avapritinib 300 MG Oral Tablet</td></tr><tr><td>977430</td><td>everolimus Oral Tablet [Zortress]</td></tr><tr><td>2362233</td><td>capmatinib Oral Tablet</td></tr><tr><td>1424917</td><td>dabrafenib 75 MG</td></tr><tr><td>1921221</td><td>brigatinib Oral Tablet</td></tr><tr><td>1925493</td><td>brigatinib 90 MG</td></tr><tr><td>1721562</td><td>osimertinib Oral Product</td></tr><tr><td>2369395</td><td>ripretinib Pill</td></tr><tr><td>1727480</td><td>Alecensa</td></tr><tr><td>1921228</td><td>brigatinib 30 MG Oral Tablet [Alunbrig]</td></tr><tr><td>1541928</td><td>sunitinib 37.5 MG Oral Capsule [Sutent]</td></tr><tr><td>1363410</td><td>{28 (cabozantinib 20 MG Oral Capsule [Cometriq]) / 28 (cabozantinib 80 MG Oral Capsule [Cometriq]) } Pack [Cometriq 100 MG Daily Dose Carton]</td></tr><tr><td>2123137</td><td>erdafitinib 3 MG Oral Tablet [Balversa]</td></tr><tr><td>2197876</td><td>entrectinib 200 MG [Rozlytrek]</td></tr><tr><td>1364580</td><td>{84 (cabozantinib 20 MG Oral Capsule) } Pack</td></tr><tr><td>2049112</td><td>Braftovi</td></tr><tr><td>1193341</td><td>ruxolitinib 5 MG Oral Tablet [Jakafi]</td></tr><tr><td>2049124</td><td>binimetinib Oral Product</td></tr><tr><td>2559729</td><td>avapritinib 50 MG Oral Tablet [Ayvakit]</td></tr><tr><td>2058513</td><td>duvelisib Oral Capsule</td></tr><tr><td>1186299</td><td>Xalkori Pill</td></tr><tr><td>1873985</td><td>ribociclib 200 MG [Kisqali]</td></tr><tr><td>1721569</td><td>Tagrisso Oral Product</td></tr><tr><td>603205</td><td>erlotinib 150 MG</td></tr><tr><td>1307621</td><td>bosutinib Oral Product</td></tr><tr><td>2058511</td><td>duvelisib Oral Product</td></tr><tr><td>1727476</td><td>alectinib Oral Product</td></tr><tr><td>2289420</td><td>selumetinib 10 MG [Koselugo]</td></tr><tr><td>1792393</td><td>{30 (lenvatinib 10 MG Oral Capsule [Lenvima]) / 60 (lenvatinib 4 MG Oral Capsule [Lenvima]) } Pack [Lenvima 18]</td></tr><tr><td>2058510</td><td>duvelisib 15 MG</td></tr><tr><td>2534248</td><td>tivozanib 1.34 MG [Fotivda]</td></tr><tr><td>1363272</td><td>cabozantinib Oral Capsule</td></tr><tr><td>2359344</td><td>pemigatinib 4.5 MG Oral Tablet [Pemazyre]</td></tr><tr><td>1172982</td><td>Caprelsa Oral Product</td></tr><tr><td>1946825</td><td>abemaciclib</td></tr><tr><td>2361298</td><td>tucatinib 50 MG Oral Tablet</td></tr><tr><td>1442989</td><td>ibrutinib Oral Capsule [Imbruvica]</td></tr><tr><td>2361293</td><td>tucatinib Oral Tablet [Tukysa]</td></tr><tr><td>2169309</td><td>alpelisib 200 MG</td></tr><tr><td>1364358</td><td>ponatinib 15 MG Oral Tablet [Iclusig]</td></tr><tr><td>1544463</td><td>idelalisib Pill</td></tr><tr><td>2183122</td><td>pexidartinib Oral Product</td></tr><tr><td>2534236</td><td>tivozanib Pill</td></tr><tr><td>1988785</td><td>{23 (brigatinib 180 MG Oral Tablet) / 7 (brigatinib 90 MG Oral Tablet) } Pack</td></tr><tr><td>2058524</td><td>duvelisib 25 MG [Copiktra]</td></tr><tr><td>2289427</td><td>selumetinib 25 MG [Koselugo]</td></tr><tr><td>1544468</td><td>idelalisib Oral Tablet [Zydelig]</td></tr><tr><td>2000017</td><td>ibrutinib 140 MG Oral Tablet</td></tr><tr><td>1601392</td><td>palbociclib 75 MG Oral Capsule</td></tr><tr><td>2103176</td><td>lorlatinib 100 MG</td></tr><tr><td>1307634</td><td>bosutinib 500 MG [Bosulif]</td></tr><tr><td>2058515</td><td>Copiktra</td></tr><tr><td>2105632</td><td>larotrectinib Oral Capsule</td></tr><tr><td>2362242</td><td>capmatinib 200 MG Oral Tablet</td></tr><tr><td>1157186</td><td>dasatinib Oral Product</td></tr><tr><td>1727455</td><td>alectinib</td></tr><tr><td>1147220</td><td>vemurafenib</td></tr><tr><td>1604348</td><td>lenvatinib 4 MG Oral Capsule</td></tr><tr><td>2058910</td><td>dacomitinib 15 MG</td></tr><tr><td>1946831</td><td>Verzenio</td></tr><tr><td>1604347</td><td>lenvatinib 4 MG</td></tr><tr><td>643170</td><td>Sprycel</td></tr><tr><td>1148502</td><td>crizotinib 200 MG Oral Capsule [Xalkori]</td></tr><tr><td>2559724</td><td>avapritinib 25 MG [Ayvakit]</td></tr><tr><td>483431</td><td>imatinib 400 MG Oral Capsule</td></tr><tr><td>1425103</td><td>trametinib Oral Tablet</td></tr><tr><td>2123128</td><td>erdafitinib Oral Product</td></tr><tr><td>1186915</td><td>Tykerb Pill</td></tr><tr><td>2058523</td><td>duvelisib 25 MG Oral Capsule</td></tr><tr><td>2272122</td><td>avapritinib 200 MG Oral Tablet [Ayvakit]</td></tr><tr><td>1544475</td><td>idelalisib 150 MG Oral Tablet [Zydelig]</td></tr><tr><td>1193326</td><td>ruxolitinib</td></tr><tr><td>2105631</td><td>larotrectinib Pill</td></tr><tr><td>1923056</td><td>{28 (letrozole 2.5 MG Oral Tablet [Femara]) / 42 (ribociclib 200 MG Oral Tablet [Kisqali]) } Pack [Kisqali Femara Co-Pack 400]</td></tr></table></li></ul></div>"
+  },
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/20f7e880-6364-11ec-a49b-ef00db410408",
+  "version": "0.9.5",
+  "name": "ProteinKinaseInhibitors",
+  "title": "Protein Kinase Inhibitors",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-03-14T18:28:42+00:00",
+  "publisher": "Project Ronin Inc.",
+  "contact": [
+    {
+      "name": "Project Ronin Inc.",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.projectronin.com"
+        },
+        {
+          "system": "email",
+          "value": "contact@projectronin.com"
+        }
+      ]
+    }
+  ],
+  "description": "RxNorm drugs, ingredients of protein kinase inhibitors  Protein kinase inhibitors",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "RXNORM_20AA_220103F",
+        "concept": [
+          {
+            "code": "1045404",
+            "display": "dasatinib 140 MG Oral Tablet [Sprycel]"
+          },
+          {
+            "code": "2123142",
+            "display": "erdafitinib 5 MG"
+          },
+          {
+            "code": "1721580",
+            "display": "osimertinib 80 MG"
+          },
+          {
+            "code": "1987734",
+            "display": "bosutinib 400 MG Oral Tablet [Bosulif]"
+          },
+          {
+            "code": "2105648",
+            "display": "larotrectinib Oral Solution"
+          },
+          {
+            "code": "1425228",
+            "display": "dabrafenib 50 MG Oral Capsule [Tafinlar]"
+          },
+          {
+            "code": "2534238",
+            "display": "tivozanib 0.89 MG Oral Capsule"
+          },
+          {
+            "code": "1940647",
+            "display": "neratinib Oral Tablet"
+          },
+          {
+            "code": "1946839",
+            "display": "abemaciclib 100 MG [Verzenio]"
+          },
+          {
+            "code": "1796665",
+            "display": "{60 (lenvatinib 4 MG Oral Capsule [Lenvima]) } Pack [Lenvima 8]"
+          },
+          {
+            "code": "2000026",
+            "display": "ibrutinib 420 MG [Imbruvica]"
+          },
+          {
+            "code": "2272125",
+            "display": "avapritinib 300 MG [Ayvakit]"
+          },
+          {
+            "code": "1603296",
+            "display": "lenvatinib"
+          },
+          {
+            "code": "2121061",
+            "display": "ceritinib 150 MG Oral Tablet [Zykadia]"
+          },
+          {
+            "code": "1946846",
+            "display": "abemaciclib 200 MG Oral Tablet"
+          },
+          {
+            "code": "378629",
+            "display": "gefitinib Oral Tablet"
+          },
+          {
+            "code": "1147222",
+            "display": "vemurafenib Oral Tablet"
+          },
+          {
+            "code": "2123143",
+            "display": "erdafitinib 5 MG Oral Tablet"
+          },
+          {
+            "code": "2056896",
+            "display": "everolimus 1 MG [Zortress]"
+          },
+          {
+            "code": "1425117",
+            "display": "trametinib 2 MG [Mekinist]"
+          },
+          {
+            "code": "1724306",
+            "display": "temsirolimus Injection [Torisel]"
+          },
+          {
+            "code": "1921227",
+            "display": "Alunbrig Pill"
+          },
+          {
+            "code": "2058517",
+            "display": "duvelisib Oral Capsule [Copiktra]"
+          },
+          {
+            "code": "282386",
+            "display": "Gleevec"
+          },
+          {
+            "code": "1430451",
+            "display": "afatinib 30 MG Oral Tablet"
+          },
+          {
+            "code": "1946842",
+            "display": "abemaciclib 150 MG Oral Tablet"
+          },
+          {
+            "code": "1592738",
+            "display": "nintedanib 100 MG"
+          },
+          {
+            "code": "2123138",
+            "display": "erdafitinib 4 MG"
+          },
+          {
+            "code": "1988786",
+            "display": "{23 (brigatinib 180 MG Oral Tablet [Alunbrig]) / 7 (brigatinib 90 MG Oral Tablet [Alunbrig]) } Pack [Alunbrig Initiation Pack]"
+          },
+          {
+            "code": "1919093",
+            "display": "Rydapt Pill"
+          },
+          {
+            "code": "2103164",
+            "display": "lorlatinib"
+          },
+          {
+            "code": "2058849",
+            "display": "dacomitinib"
+          },
+          {
+            "code": "2169319",
+            "display": "{28 (alpelisib 200 MG Oral Tablet) / 28 (alpelisib 50 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1186298",
+            "display": "Xalkori Oral Product"
+          },
+          {
+            "code": "1792392",
+            "display": "{30 (lenvatinib 10 MG Oral Capsule) / 60 (lenvatinib 4 MG Oral Capsule) } Pack"
+          },
+          {
+            "code": "1919092",
+            "display": "Rydapt Oral Product"
+          },
+          {
+            "code": "845505",
+            "display": "everolimus 10 MG"
+          },
+          {
+            "code": "1722367",
+            "display": "cobimetinib Oral Product"
+          },
+          {
+            "code": "1873991",
+            "display": "{21 (ribociclib 200 MG Oral Tablet [Kisqali]) } Pack [Kisqali 200 MG Daily Dose Carton]"
+          },
+          {
+            "code": "2058514",
+            "display": "duvelisib 15 MG Oral Capsule"
+          },
+          {
+            "code": "1541889",
+            "display": "sunitinib 37.5 MG"
+          },
+          {
+            "code": "1430442",
+            "display": "afatinib 20 MG"
+          },
+          {
+            "code": "977435",
+            "display": "everolimus 0.5 MG [Zortress]"
+          },
+          {
+            "code": "2262435",
+            "display": "zanubrutinib"
+          },
+          {
+            "code": "2477263",
+            "display": "tepotinib Oral Product"
+          },
+          {
+            "code": "1535466",
+            "display": "Zykadia Oral Product"
+          },
+          {
+            "code": "2559727",
+            "display": "avapritinib 50 MG Oral Tablet"
+          },
+          {
+            "code": "1592744",
+            "display": "nintedanib 100 MG [Ofev]"
+          },
+          {
+            "code": "615977",
+            "display": "sorafenib 200 MG [Nexavar]"
+          },
+          {
+            "code": "1592748",
+            "display": "nintedanib 100 MG Oral Capsule [Ofev]"
+          },
+          {
+            "code": "477321",
+            "display": "erlotinib Oral Tablet"
+          },
+          {
+            "code": "1727481",
+            "display": "alectinib 150 MG [Alecensa]"
+          },
+          {
+            "code": "1179058",
+            "display": "Tasigna Pill"
+          },
+          {
+            "code": "1430445",
+            "display": "afatinib Oral Tablet"
+          },
+          {
+            "code": "1601378",
+            "display": "palbociclib Pill"
+          },
+          {
+            "code": "1535463",
+            "display": "Zykadia"
+          },
+          {
+            "code": "1946826",
+            "display": "abemaciclib 50 MG"
+          },
+          {
+            "code": "2058931",
+            "display": "dacomitinib 45 MG [Vizimpro]"
+          },
+          {
+            "code": "845512",
+            "display": "everolimus 10 MG Oral Tablet [Afinitor]"
+          },
+          {
+            "code": "2169303",
+            "display": "alpelisib 150 MG [Piqray]"
+          },
+          {
+            "code": "2359336",
+            "display": "pemigatinib 13.5 MG [Pemazyre]"
+          },
+          {
+            "code": "1721581",
+            "display": "osimertinib 80 MG Oral Tablet"
+          },
+          {
+            "code": "603207",
+            "display": "erlotinib 25 MG"
+          },
+          {
+            "code": "1364581",
+            "display": "{84 (cabozantinib 20 MG Oral Capsule [Cometriq]) } Pack [Cometriq 60 MG Daily Dose Carton]"
+          },
+          {
+            "code": "540423",
+            "display": "erlotinib Oral Tablet [Tarceva]"
+          },
+          {
+            "code": "597746",
+            "display": "sorafenib Oral Tablet"
+          },
+          {
+            "code": "2169304",
+            "display": "alpelisib Oral Tablet [Piqray]"
+          },
+          {
+            "code": "1307633",
+            "display": "bosutinib 500 MG Oral Tablet"
+          },
+          {
+            "code": "1114095",
+            "display": "vandetanib 300 MG [Caprelsa]"
+          },
+          {
+            "code": "2123133",
+            "display": "erdafitinib 3 MG [Balversa]"
+          },
+          {
+            "code": "1172066",
+            "display": "Afinitor Oral Product"
+          },
+          {
+            "code": "440549",
+            "display": "imatinib 50 MG"
+          },
+          {
+            "code": "1986811",
+            "display": "acalabrutinib Pill"
+          },
+          {
+            "code": "2197501",
+            "display": "fedratinib 100 MG Oral Capsule [Inrebic]"
+          },
+          {
+            "code": "2123144",
+            "display": "erdafitinib 5 MG [Balversa]"
+          },
+          {
+            "code": "2000019",
+            "display": "ibrutinib 140 MG Oral Tablet [Imbruvica]"
+          },
+          {
+            "code": "2049108",
+            "display": "encorafenib Oral Product"
+          },
+          {
+            "code": "1442988",
+            "display": "ibrutinib 140 MG [Imbruvica]"
+          },
+          {
+            "code": "2289422",
+            "display": "Koselugo Oral Product"
+          },
+          {
+            "code": "2105657",
+            "display": "larotrectinib 25 MG Oral Capsule [Vitrakvi]"
+          },
+          {
+            "code": "2284106",
+            "display": "palbociclib 125 MG Oral Tablet [Ibrance]"
+          },
+          {
+            "code": "1986815",
+            "display": "acalabrutinib 100 MG [Calquence]"
+          },
+          {
+            "code": "1176762",
+            "display": "Iressa Oral Product"
+          },
+          {
+            "code": "2369399",
+            "display": "ripretinib 50 MG [Qinlock]"
+          },
+          {
+            "code": "1940648",
+            "display": "neratinib 40 MG Oral Tablet"
+          },
+          {
+            "code": "2058924",
+            "display": "dacomitinib 30 MG Oral Tablet"
+          },
+          {
+            "code": "1425102",
+            "display": "trametinib Pill"
+          },
+          {
+            "code": "2000024",
+            "display": "ibrutinib 420 MG"
+          },
+          {
+            "code": "2197491",
+            "display": "fedratinib 100 MG"
+          },
+          {
+            "code": "2197864",
+            "display": "entrectinib Oral Product"
+          },
+          {
+            "code": "2169321",
+            "display": "{56 (alpelisib 150 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1243012",
+            "display": "axitinib 5 MG Oral Tablet"
+          },
+          {
+            "code": "1425108",
+            "display": "Mekinist Oral Product"
+          },
+          {
+            "code": "1161488",
+            "display": "temsirolimus Injectable Product"
+          },
+          {
+            "code": "1601389",
+            "display": "palbociclib 125 MG [Ibrance]"
+          },
+          {
+            "code": "2049115",
+            "display": "Braftovi Oral Product"
+          },
+          {
+            "code": "2105652",
+            "display": "Vitrakvi Oral Liquid Product"
+          },
+          {
+            "code": "2104548",
+            "display": "larotrectinib sulfate"
+          },
+          {
+            "code": "1544470",
+            "display": "Zydelig Pill"
+          },
+          {
+            "code": "1193337",
+            "display": "ruxolitinib 10 MG Oral Tablet [Jakafi]"
+          },
+          {
+            "code": "1363408",
+            "display": "{84 (cabozantinib 20 MG Oral Capsule [Cometriq]) / 28 (cabozantinib 80 MG Oral Capsule [Cometriq]) } Pack [Cometriq 140 MG Daily Dose Carton]"
+          },
+          {
+            "code": "1722368",
+            "display": "cobimetinib Pill"
+          },
+          {
+            "code": "1363409",
+            "display": "{28 (cabozantinib 20 MG Oral Capsule) / 28 (cabozantinib 80 MG Oral Capsule) } Pack"
+          },
+          {
+            "code": "1363284",
+            "display": "cabozantinib 80 MG Oral Capsule [Cometriq]"
+          },
+          {
+            "code": "1919090",
+            "display": "midostaurin 25 MG [Rydapt]"
+          },
+          {
+            "code": "1722375",
+            "display": "Cotellic Pill"
+          },
+          {
+            "code": "1148496",
+            "display": "crizotinib 200 MG"
+          },
+          {
+            "code": "2049113",
+            "display": "encorafenib 50 MG [Braftovi]"
+          },
+          {
+            "code": "2169322",
+            "display": "{56 (alpelisib 150 MG Oral Tablet [Piqray]) } Pack [Piqray 300 MG Daily Dose]"
+          },
+          {
+            "code": "2477268",
+            "display": "tepotinib 225 MG [Tepmetko]"
+          },
+          {
+            "code": "672149",
+            "display": "lapatinib 250 MG Oral Tablet"
+          },
+          {
+            "code": "1721564",
+            "display": "osimertinib Oral Tablet"
+          },
+          {
+            "code": "1804015",
+            "display": "nilotinib hydrochloride"
+          },
+          {
+            "code": "1544471",
+            "display": "idelalisib 100 MG Oral Tablet [Zydelig]"
+          },
+          {
+            "code": "2058919",
+            "display": "dacomitinib Oral Tablet [Vizimpro]"
+          },
+          {
+            "code": "2123131",
+            "display": "erdafitinib 3 MG Oral Tablet"
+          },
+          {
+            "code": "2056897",
+            "display": "everolimus 1 MG Oral Tablet [Zortress]"
+          },
+          {
+            "code": "1430449",
+            "display": "afatinib 20 MG Oral Tablet [Gilotrif]"
+          },
+          {
+            "code": "2183125",
+            "display": "pexidartinib 200 MG Oral Capsule"
+          },
+          {
+            "code": "2105823",
+            "display": "gilteritinib fumarate"
+          },
+          {
+            "code": "2103167",
+            "display": "lorlatinib Pill"
+          },
+          {
+            "code": "867503",
+            "display": "Votrient"
+          },
+          {
+            "code": "402091",
+            "display": "gefitinib 250 MG Oral Tablet [Iressa]"
+          },
+          {
+            "code": "1364355",
+            "display": "ponatinib Oral Tablet [Iclusig]"
+          },
+          {
+            "code": "643171",
+            "display": "dasatinib 20 MG [Sprycel]"
+          },
+          {
+            "code": "2361295",
+            "display": "Tukysa Pill"
+          },
+          {
+            "code": "1243001",
+            "display": "axitinib Oral Product"
+          },
+          {
+            "code": "616288",
+            "display": "sunitinib 50 MG"
+          },
+          {
+            "code": "1592737",
+            "display": "nintedanib"
+          },
+          {
+            "code": "1544462",
+            "display": "idelalisib Oral Product"
+          },
+          {
+            "code": "1919084",
+            "display": "midostaurin 25 MG"
+          },
+          {
+            "code": "1045407",
+            "display": "dasatinib 80 MG [Sprycel]"
+          },
+          {
+            "code": "2103175",
+            "display": "lorlatinib 25 MG Oral Tablet [Lorbrena]"
+          },
+          {
+            "code": "1873916",
+            "display": "ribociclib"
+          },
+          {
+            "code": "1790166",
+            "display": "Cabometyx Pill"
+          },
+          {
+            "code": "1792377",
+            "display": "lenvatinib 4 MG Oral Capsule [Lenvima]"
+          },
+          {
+            "code": "1726638",
+            "display": "ponatinib 30 MG [Iclusig]"
+          },
+          {
+            "code": "2058921",
+            "display": "Vizimpro Pill"
+          },
+          {
+            "code": "616277",
+            "display": "sunitinib 12.5 MG"
+          },
+          {
+            "code": "1994362",
+            "display": "ibrutinib 70 MG Oral Capsule [Imbruvica]"
+          },
+          {
+            "code": "1994360",
+            "display": "ibrutinib 70 MG Oral Capsule"
+          },
+          {
+            "code": "2197867",
+            "display": "entrectinib 100 MG Oral Capsule"
+          },
+          {
+            "code": "1592752",
+            "display": "nintedanib 150 MG Oral Capsule [Ofev]"
+          },
+          {
+            "code": "1592750",
+            "display": "nintedanib 150 MG Oral Capsule"
+          },
+          {
+            "code": "1945082",
+            "display": "Aliqopa"
+          },
+          {
+            "code": "1790172",
+            "display": "cabozantinib 60 MG"
+          },
+          {
+            "code": "845517",
+            "display": "everolimus 5 MG [Afinitor]"
+          },
+          {
+            "code": "2369400",
+            "display": "ripretinib Oral Tablet [Qinlock]"
+          },
+          {
+            "code": "2272114",
+            "display": "avapritinib 100 MG [Ayvakit]"
+          },
+          {
+            "code": "2359339",
+            "display": "Pemazyre Pill"
+          },
+          {
+            "code": "1925494",
+            "display": "brigatinib 90 MG Oral Tablet"
+          },
+          {
+            "code": "1988983",
+            "display": "bosutinib 400 MG"
+          },
+          {
+            "code": "1156708",
+            "display": "gefitinib Oral Product"
+          },
+          {
+            "code": "1308426",
+            "display": "everolimus Oral Liquid Product"
+          },
+          {
+            "code": "1158944",
+            "display": "nilotinib Oral Product"
+          },
+          {
+            "code": "1592743",
+            "display": "Ofev"
+          },
+          {
+            "code": "1722371",
+            "display": "Cotellic"
+          },
+          {
+            "code": "2361296",
+            "display": "tucatinib 150 MG Oral Tablet [Tukysa]"
+          },
+          {
+            "code": "1919088",
+            "display": "midostaurin 25 MG Oral Capsule"
+          },
+          {
+            "code": "2534247",
+            "display": "tivozanib 1.34 MG Oral Capsule"
+          },
+          {
+            "code": "2272117",
+            "display": "Ayvakit Pill"
+          },
+          {
+            "code": "1604345",
+            "display": "lenvatinib 10 MG Oral Capsule"
+          },
+          {
+            "code": "1535460",
+            "display": "ceritinib Pill"
+          },
+          {
+            "code": "2169320",
+            "display": "{28 (alpelisib 200 MG Oral Tablet [Piqray]) / 28 (alpelisib 50 MG Oral Tablet [Piqray]) } Pack [Piqray 250 MG Daily Dose]"
+          },
+          {
+            "code": "1940652",
+            "display": "Nerlynx Oral Product"
+          },
+          {
+            "code": "1790171",
+            "display": "cabozantinib 40 MG Oral Tablet [Cabometyx]"
+          },
+          {
+            "code": "1364953",
+            "display": "ponatinib hydrochloride"
+          },
+          {
+            "code": "1722374",
+            "display": "Cotellic Oral Product"
+          },
+          {
+            "code": "1442991",
+            "display": "Imbruvica Pill"
+          },
+          {
+            "code": "1921226",
+            "display": "Alunbrig Oral Product"
+          },
+          {
+            "code": "2058516",
+            "display": "duvelisib 15 MG [Copiktra]"
+          },
+          {
+            "code": "2359342",
+            "display": "pemigatinib 4.5 MG Oral Tablet"
+          },
+          {
+            "code": "977433",
+            "display": "everolimus 0.5 MG"
+          },
+          {
+            "code": "1312403",
+            "display": "Stivarga"
+          },
+          {
+            "code": "1940643",
+            "display": "neratinib"
+          },
+          {
+            "code": "1182863",
+            "display": "Nexavar Pill"
+          },
+          {
+            "code": "2362236",
+            "display": "capmatinib 150 MG [Tabrecta]"
+          },
+          {
+            "code": "2049116",
+            "display": "Braftovi Pill"
+          },
+          {
+            "code": "328134",
+            "display": "gefitinib"
+          },
+          {
+            "code": "1601381",
+            "display": "Ibrance"
+          },
+          {
+            "code": "2534244",
+            "display": "tivozanib 0.89 MG Oral Capsule [Fotivda]"
+          },
+          {
+            "code": "1307626",
+            "display": "bosutinib 100 MG [Bosulif]"
+          },
+          {
+            "code": "2058929",
+            "display": "dacomitinib 45 MG"
+          },
+          {
+            "code": "2570754",
+            "display": "ruxolitinib 15 MG/ML [Opzelura]"
+          },
+          {
+            "code": "2049128",
+            "display": "Mektovi"
+          },
+          {
+            "code": "2123134",
+            "display": "erdafitinib Oral Tablet [Balversa]"
+          },
+          {
+            "code": "1193339",
+            "display": "ruxolitinib 5 MG Oral Tablet"
+          },
+          {
+            "code": "2362237",
+            "display": "capmatinib Oral Tablet [Tabrecta]"
+          },
+          {
+            "code": "1442986",
+            "display": "ibrutinib 140 MG Oral Capsule"
+          },
+          {
+            "code": "1307622",
+            "display": "bosutinib Pill"
+          },
+          {
+            "code": "1442985",
+            "display": "ibrutinib Oral Capsule"
+          },
+          {
+            "code": "2369398",
+            "display": "Qinlock"
+          },
+          {
+            "code": "1430448",
+            "display": "afatinib Oral Tablet [Gilotrif]"
+          },
+          {
+            "code": "2049117",
+            "display": "encorafenib 50 MG Oral Capsule [Braftovi]"
+          },
+          {
+            "code": "1162549",
+            "display": "lapatinib Oral Product"
+          },
+          {
+            "code": "403879",
+            "display": "imatinib 400 MG Oral Tablet"
+          },
+          {
+            "code": "1873990",
+            "display": "{21 (ribociclib 200 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1721570",
+            "display": "Tagrisso Pill"
+          },
+          {
+            "code": "1243000",
+            "display": "axitinib 1 MG"
+          },
+          {
+            "code": "2534245",
+            "display": "tivozanib hydrochloride"
+          },
+          {
+            "code": "1592751",
+            "display": "nintedanib 150 MG [Ofev]"
+          },
+          {
+            "code": "1308428",
+            "display": "everolimus 2 MG Tablet for Oral Suspension"
+          },
+          {
+            "code": "1307619",
+            "display": "bosutinib"
+          },
+          {
+            "code": "1243006",
+            "display": "axitinib 1 MG [Inlyta]"
+          },
+          {
+            "code": "1193332",
+            "display": "Jakafi"
+          },
+          {
+            "code": "1601374",
+            "display": "palbociclib"
+          },
+          {
+            "code": "1873995",
+            "display": "{63 (ribociclib 200 MG Oral Tablet [Kisqali]) } Pack [Kisqali 600 MG Daily Dose Carton]"
+          },
+          {
+            "code": "2272126",
+            "display": "avapritinib 300 MG Oral Tablet [Ayvakit]"
+          },
+          {
+            "code": "1535467",
+            "display": "Zykadia Pill"
+          },
+          {
+            "code": "1792375",
+            "display": "Lenvima Oral Product"
+          },
+          {
+            "code": "2289415",
+            "display": "selumetinib Oral Product"
+          },
+          {
+            "code": "1310138",
+            "display": "everolimus 2 MG Tablet for Oral Suspension [Afinitor]"
+          },
+          {
+            "code": "2289419",
+            "display": "Koselugo"
+          },
+          {
+            "code": "1425099",
+            "display": "trametinib"
+          },
+          {
+            "code": "1987732",
+            "display": "bosutinib 400 MG Oral Tablet"
+          },
+          {
+            "code": "2105643",
+            "display": "Vitrakvi Oral Product"
+          },
+          {
+            "code": "1873994",
+            "display": "{63 (ribociclib 200 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1119401",
+            "display": "everolimus 7.5 MG [Afinitor]"
+          },
+          {
+            "code": "1430452",
+            "display": "afatinib 30 MG [Gilotrif]"
+          },
+          {
+            "code": "2169310",
+            "display": "alpelisib 200 MG Oral Tablet"
+          },
+          {
+            "code": "1946841",
+            "display": "abemaciclib 150 MG"
+          },
+          {
+            "code": "2477271",
+            "display": "Tepmetko Pill"
+          },
+          {
+            "code": "1148501",
+            "display": "crizotinib Oral Capsule [Xalkori]"
+          },
+          {
+            "code": "2359337",
+            "display": "pemigatinib Oral Tablet [Pemazyre]"
+          },
+          {
+            "code": "1946840",
+            "display": "abemaciclib 100 MG Oral Tablet [Verzenio]"
+          },
+          {
+            "code": "672147",
+            "display": "lapatinib 250 MG"
+          },
+          {
+            "code": "1923058",
+            "display": "{28 (letrozole 2.5 MG Oral Tablet [Femara]) / 63 (ribociclib 200 MG Oral Tablet [Kisqali]) } Pack [Kisqali Femara Co-Pack 600]"
+          },
+          {
+            "code": "1307625",
+            "display": "Bosulif"
+          },
+          {
+            "code": "1088253",
+            "display": "erlotinib 150 MG Oral Tablet [Tarceva]"
+          },
+          {
+            "code": "2477267",
+            "display": "Tepmetko"
+          },
+          {
+            "code": "1425107",
+            "display": "trametinib Oral Tablet [Mekinist]"
+          },
+          {
+            "code": "2272112",
+            "display": "avapritinib 100 MG Oral Tablet"
+          },
+          {
+            "code": "799829",
+            "display": "dasatinib 100 MG [Sprycel]"
+          },
+          {
+            "code": "1601382",
+            "display": "palbociclib 100 MG [Ibrance]"
+          },
+          {
+            "code": "331600",
+            "display": "imatinib 100 MG"
+          },
+          {
+            "code": "725106",
+            "display": "temsirolimus 25 MG/ML [Torisel]"
+          },
+          {
+            "code": "1088254",
+            "display": "erlotinib 25 MG [Tarceva]"
+          },
+          {
+            "code": "1045402",
+            "display": "dasatinib 140 MG Oral Tablet"
+          },
+          {
+            "code": "845506",
+            "display": "everolimus Oral Tablet"
+          },
+          {
+            "code": "2058911",
+            "display": "dacomitinib Oral Product"
+          },
+          {
+            "code": "1148500",
+            "display": "crizotinib 200 MG [Xalkori]"
+          },
+          {
+            "code": "597747",
+            "display": "sorafenib 200 MG Oral Tablet"
+          },
+          {
+            "code": "2123127",
+            "display": "erdafitinib 3 MG"
+          },
+          {
+            "code": "1790162",
+            "display": "Cabometyx"
+          },
+          {
+            "code": "977427",
+            "display": "everolimus 0.25 MG Oral Tablet"
+          },
+          {
+            "code": "284924",
+            "display": "imatinib mesylate"
+          },
+          {
+            "code": "2049111",
+            "display": "encorafenib 50 MG Oral Capsule"
+          },
+          {
+            "code": "2105640",
+            "display": "Vitrakvi"
+          },
+          {
+            "code": "2272111",
+            "display": "avapritinib Oral Tablet"
+          },
+          {
+            "code": "1544466",
+            "display": "Zydelig"
+          },
+          {
+            "code": "1312400",
+            "display": "regorafenib Pill"
+          },
+          {
+            "code": "1946845",
+            "display": "abemaciclib 200 MG"
+          },
+          {
+            "code": "1364353",
+            "display": "Iclusig"
+          },
+          {
+            "code": "1721563",
+            "display": "osimertinib Pill"
+          },
+          {
+            "code": "1312407",
+            "display": "Stivarga Pill"
+          },
+          {
+            "code": "1869520",
+            "display": "everolimus 3 MG [Afinitor]"
+          },
+          {
+            "code": "1873979",
+            "display": "ribociclib 200 MG"
+          },
+          {
+            "code": "2570753",
+            "display": "Opzelura"
+          },
+          {
+            "code": "2105654",
+            "display": "larotrectinib 25 MG"
+          },
+          {
+            "code": "1604395",
+            "display": "{60 (lenvatinib 10 MG Oral Capsule [Lenvima]) } Pack [Lenvima 20]"
+          },
+          {
+            "code": "2362231",
+            "display": "capmatinib Oral Product"
+          },
+          {
+            "code": "1869518",
+            "display": "everolimus 3 MG"
+          },
+          {
+            "code": "2477266",
+            "display": "tepotinib 225 MG Oral Tablet"
+          },
+          {
+            "code": "1119399",
+            "display": "everolimus 7.5 MG"
+          },
+          {
+            "code": "1163787",
+            "display": "everolimus Pill"
+          },
+          {
+            "code": "2272110",
+            "display": "avapritinib Pill"
+          },
+          {
+            "code": "1921222",
+            "display": "brigatinib 30 MG Oral Tablet"
+          },
+          {
+            "code": "2369394",
+            "display": "ripretinib Oral Product"
+          },
+          {
+            "code": "1430271",
+            "display": "Gilotrif Oral Product"
+          },
+          {
+            "code": "2361291",
+            "display": "Tukysa"
+          },
+          {
+            "code": "1946843",
+            "display": "abemaciclib 150 MG [Verzenio]"
+          },
+          {
+            "code": "1098418",
+            "display": "vandetanib 300 MG Oral Tablet"
+          },
+          {
+            "code": "1541890",
+            "display": "sunitinib 37.5 MG Oral Capsule"
+          },
+          {
+            "code": "998188",
+            "display": "everolimus 2.5 MG"
+          },
+          {
+            "code": "867504",
+            "display": "pazopanib 200 MG [Votrient]"
+          },
+          {
+            "code": "2123125",
+            "display": "erdafitinib"
+          },
+          {
+            "code": "1045401",
+            "display": "dasatinib 140 MG"
+          },
+          {
+            "code": "1193346",
+            "display": "ruxolitinib 20 MG"
+          },
+          {
+            "code": "619985",
+            "display": "Nexavar"
+          },
+          {
+            "code": "1425098",
+            "display": "trametinib dimethyl sulfoxide"
+          },
+          {
+            "code": "1940645",
+            "display": "neratinib Oral Product"
+          },
+          {
+            "code": "2169305",
+            "display": "Piqray Oral Product"
+          },
+          {
+            "code": "2284108",
+            "display": "palbociclib 75 MG Oral Tablet [Ibrance]"
+          },
+          {
+            "code": "1187596",
+            "display": "Votrient Pill"
+          },
+          {
+            "code": "1873978",
+            "display": "ribociclib succinate"
+          },
+          {
+            "code": "1535461",
+            "display": "ceritinib Oral Capsule"
+          },
+          {
+            "code": "2369396",
+            "display": "ripretinib Oral Tablet"
+          },
+          {
+            "code": "404589",
+            "display": "imatinib 400 MG Oral Tablet [Gleevec]"
+          },
+          {
+            "code": "659616",
+            "display": "Tykerb"
+          },
+          {
+            "code": "1940646",
+            "display": "neratinib Pill"
+          },
+          {
+            "code": "1726636",
+            "display": "ponatinib 30 MG"
+          },
+          {
+            "code": "867508",
+            "display": "pazopanib 400 MG Oral Tablet"
+          },
+          {
+            "code": "2272118",
+            "display": "avapritinib 100 MG Oral Tablet [Ayvakit]"
+          },
+          {
+            "code": "1162550",
+            "display": "lapatinib Pill"
+          },
+          {
+            "code": "2049106",
+            "display": "encorafenib"
+          },
+          {
+            "code": "404588",
+            "display": "imatinib 100 MG Oral Tablet [Gleevec]"
+          },
+          {
+            "code": "337526",
+            "display": "Tarceva"
+          },
+          {
+            "code": "977437",
+            "display": "everolimus 0.75 MG"
+          },
+          {
+            "code": "2000031",
+            "display": "ibrutinib 560 MG Oral Tablet [Imbruvica]"
+          },
+          {
+            "code": "1988769",
+            "display": "brigatinib 180 MG"
+          },
+          {
+            "code": "1193342",
+            "display": "ruxolitinib 15 MG"
+          },
+          {
+            "code": "845515",
+            "display": "everolimus 5 MG Oral Tablet"
+          },
+          {
+            "code": "2169300",
+            "display": "alpelisib 150 MG Oral Tablet"
+          },
+          {
+            "code": "2058915",
+            "display": "dacomitinib 15 MG Oral Tablet"
+          },
+          {
+            "code": "1919086",
+            "display": "midostaurin Pill"
+          },
+          {
+            "code": "406060",
+            "display": "imatinib Oral Tablet [Gleevec]"
+          },
+          {
+            "code": "2000027",
+            "display": "ibrutinib 420 MG Oral Tablet [Imbruvica]"
+          },
+          {
+            "code": "2105655",
+            "display": "larotrectinib 25 MG Oral Capsule"
+          },
+          {
+            "code": "2272115",
+            "display": "avapritinib Oral Tablet [Ayvakit]"
+          },
+          {
+            "code": "672148",
+            "display": "lapatinib Oral Tablet"
+          },
+          {
+            "code": "2169318",
+            "display": "alpelisib 50 MG Oral Tablet [Piqray]"
+          },
+          {
+            "code": "2477104",
+            "display": "tepotinib hydrochloride"
+          },
+          {
+            "code": "2049109",
+            "display": "encorafenib Pill"
+          },
+          {
+            "code": "2049132",
+            "display": "Mektovi Pill"
+          },
+          {
+            "code": "1425109",
+            "display": "Mekinist Pill"
+          },
+          {
+            "code": "1721560",
+            "display": "osimertinib"
+          },
+          {
+            "code": "616284",
+            "display": "sunitinib 25 MG"
+          },
+          {
+            "code": "2058525",
+            "display": "duvelisib 25 MG Oral Capsule [Copiktra]"
+          },
+          {
+            "code": "1148505",
+            "display": "crizotinib 250 MG [Xalkori]"
+          },
+          {
+            "code": "1187234",
+            "display": "Zelboraf Oral Product"
+          },
+          {
+            "code": "2272109",
+            "display": "avapritinib Oral Product"
+          },
+          {
+            "code": "2103165",
+            "display": "lorlatinib 25 MG"
+          },
+          {
+            "code": "2262442",
+            "display": "zanubrutinib 80 MG [Brukinsa]"
+          },
+          {
+            "code": "2000016",
+            "display": "ibrutinib Oral Tablet"
+          },
+          {
+            "code": "867506",
+            "display": "pazopanib 200 MG Oral Tablet [Votrient]"
+          },
+          {
+            "code": "1364361",
+            "display": "ponatinib 45 MG [Iclusig]"
+          },
+          {
+            "code": "643109",
+            "display": "dasatinib 70 MG Oral Tablet"
+          },
+          {
+            "code": "1869512",
+            "display": "everolimus 2 MG"
+          },
+          {
+            "code": "2369393",
+            "display": "ripretinib 50 MG"
+          },
+          {
+            "code": "643173",
+            "display": "dasatinib 20 MG Oral Tablet [Sprycel]"
+          },
+          {
+            "code": "2262436",
+            "display": "zanubrutinib 80 MG"
+          },
+          {
+            "code": "1792372",
+            "display": "Lenvima"
+          },
+          {
+            "code": "2197496",
+            "display": "Inrebic"
+          },
+          {
+            "code": "2289425",
+            "display": "selumetinib 25 MG"
+          },
+          {
+            "code": "1592741",
+            "display": "nintedanib Oral Capsule"
+          },
+          {
+            "code": "2197492",
+            "display": "fedratinib Oral Product"
+          },
+          {
+            "code": "2361292",
+            "display": "tucatinib 150 MG [Tukysa]"
+          },
+          {
+            "code": "576514",
+            "display": "imatinib 400 MG [Gleevec]"
+          },
+          {
+            "code": "2105817",
+            "display": "gilteritinib 40 MG Oral Tablet [Xospata]"
+          },
+          {
+            "code": "1172067",
+            "display": "Afinitor Pill"
+          },
+          {
+            "code": "1363267",
+            "display": "cabozantinib s-malate"
+          },
+          {
+            "code": "2197869",
+            "display": "entrectinib 100 MG [Rozlytrek]"
+          },
+          {
+            "code": "2272116",
+            "display": "Ayvakit Oral Product"
+          },
+          {
+            "code": "2359334",
+            "display": "pemigatinib 13.5 MG Oral Tablet"
+          },
+          {
+            "code": "867505",
+            "display": "pazopanib Oral Tablet [Votrient]"
+          },
+          {
+            "code": "1601390",
+            "display": "palbociclib 125 MG Oral Capsule [Ibrance]"
+          },
+          {
+            "code": "867501",
+            "display": "pazopanib Oral Tablet"
+          },
+          {
+            "code": "2058932",
+            "display": "dacomitinib 45 MG Oral Tablet [Vizimpro]"
+          },
+          {
+            "code": "1546019",
+            "display": "dasatinib anhydrous"
+          },
+          {
+            "code": "2197495",
+            "display": "fedratinib 100 MG Oral Capsule"
+          },
+          {
+            "code": "1541927",
+            "display": "sunitinib 37.5 MG [Sutent]"
+          },
+          {
+            "code": "1363274",
+            "display": "Cometriq"
+          },
+          {
+            "code": "2183127",
+            "display": "pexidartinib 200 MG [Turalio]"
+          },
+          {
+            "code": "1994361",
+            "display": "ibrutinib 70 MG [Imbruvica]"
+          },
+          {
+            "code": "2197863",
+            "display": "entrectinib 100 MG"
+          },
+          {
+            "code": "2359345",
+            "display": "pemigatinib 9 MG"
+          },
+          {
+            "code": "2123145",
+            "display": "erdafitinib 5 MG Oral Tablet [Balversa]"
+          },
+          {
+            "code": "1148497",
+            "display": "crizotinib Oral Capsule"
+          },
+          {
+            "code": "1873981",
+            "display": "ribociclib Pill"
+          },
+          {
+            "code": "1425223",
+            "display": "Tafinlar"
+          },
+          {
+            "code": "411240",
+            "display": "imatinib 50 MG Oral Capsule"
+          },
+          {
+            "code": "2262438",
+            "display": "zanubrutinib Pill"
+          },
+          {
+            "code": "616285",
+            "display": "sunitinib 25 MG Oral Capsule"
+          },
+          {
+            "code": "1722370",
+            "display": "cobimetinib 20 MG Oral Tablet"
+          },
+          {
+            "code": "1986817",
+            "display": "Calquence Oral Product"
+          },
+          {
+            "code": "1160679",
+            "display": "imatinib Oral Product"
+          },
+          {
+            "code": "2570755",
+            "display": "Opzelura Topical Product"
+          },
+          {
+            "code": "2369401",
+            "display": "Qinlock Oral Product"
+          },
+          {
+            "code": "1312404",
+            "display": "regorafenib 40 MG [Stivarga]"
+          },
+          {
+            "code": "1994359",
+            "display": "ibrutinib 70 MG"
+          },
+          {
+            "code": "1790173",
+            "display": "cabozantinib 60 MG Oral Tablet"
+          },
+          {
+            "code": "1159691",
+            "display": "sorafenib Oral Product"
+          },
+          {
+            "code": "1726637",
+            "display": "ponatinib 30 MG Oral Tablet"
+          },
+          {
+            "code": "2262437",
+            "display": "zanubrutinib Oral Product"
+          },
+          {
+            "code": "1364359",
+            "display": "ponatinib 45 MG"
+          },
+          {
+            "code": "2169312",
+            "display": "alpelisib 200 MG [Piqray]"
+          },
+          {
+            "code": "1171231",
+            "display": "Gleevec Pill"
+          },
+          {
+            "code": "2272113",
+            "display": "Ayvakit"
+          },
+          {
+            "code": "1601391",
+            "display": "palbociclib 75 MG"
+          },
+          {
+            "code": "2058522",
+            "display": "duvelisib 25 MG"
+          },
+          {
+            "code": "1193334",
+            "display": "ruxolitinib Oral Tablet [Jakafi]"
+          },
+          {
+            "code": "1002299",
+            "display": "nilotinib 150 MG [Tasigna]"
+          },
+          {
+            "code": "1946833",
+            "display": "abemaciclib Oral Tablet [Verzenio]"
+          },
+          {
+            "code": "2000022",
+            "display": "ibrutinib 280 MG [Imbruvica]"
+          },
+          {
+            "code": "2361294",
+            "display": "Tukysa Oral Product"
+          },
+          {
+            "code": "725108",
+            "display": "1.2 ML temsirolimus 25 MG/ML Injection [Torisel]"
+          },
+          {
+            "code": "1535457",
+            "display": "ceritinib"
+          },
+          {
+            "code": "1721567",
+            "display": "osimertinib 40 MG [Tagrisso]"
+          },
+          {
+            "code": "2534239",
+            "display": "Fotivda"
+          },
+          {
+            "code": "1946835",
+            "display": "Verzenio Pill"
+          },
+          {
+            "code": "1307624",
+            "display": "bosutinib 100 MG Oral Tablet"
+          },
+          {
+            "code": "2197865",
+            "display": "entrectinib Pill"
+          },
+          {
+            "code": "337525",
+            "display": "erlotinib"
+          },
+          {
+            "code": "2534243",
+            "display": "Fotivda Pill"
+          },
+          {
+            "code": "1163786",
+            "display": "everolimus Oral Product"
+          },
+          {
+            "code": "2289416",
+            "display": "selumetinib Pill"
+          },
+          {
+            "code": "603202",
+            "display": "erlotinib 100 MG"
+          },
+          {
+            "code": "1923055",
+            "display": "{28 (letrozole 2.5 MG Oral Tablet) / 42 (ribociclib 200 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1430272",
+            "display": "Gilotrif Pill"
+          },
+          {
+            "code": "2105646",
+            "display": "larotrectinib 20 MG/ML"
+          },
+          {
+            "code": "2197873",
+            "display": "entrectinib 100 MG Oral Capsule [Rozlytrek]"
+          },
+          {
+            "code": "2105645",
+            "display": "larotrectinib 100 MG Oral Capsule [Vitrakvi]"
+          },
+          {
+            "code": "1193336",
+            "display": "Jakafi Pill"
+          },
+          {
+            "code": "2359340",
+            "display": "pemigatinib 13.5 MG Oral Tablet [Pemazyre]"
+          },
+          {
+            "code": "1442990",
+            "display": "Imbruvica Oral Product"
+          },
+          {
+            "code": "1186317",
+            "display": "Zortress Pill"
+          },
+          {
+            "code": "1544465",
+            "display": "idelalisib 100 MG Oral Tablet"
+          },
+          {
+            "code": "1364347",
+            "display": "ponatinib"
+          },
+          {
+            "code": "977438",
+            "display": "everolimus 0.75 MG Oral Tablet"
+          },
+          {
+            "code": "2123139",
+            "display": "erdafitinib 4 MG Oral Tablet"
+          },
+          {
+            "code": "2284101",
+            "display": "palbociclib Oral Tablet"
+          },
+          {
+            "code": "2284104",
+            "display": "palbociclib 100 MG Oral Tablet [Ibrance]"
+          },
+          {
+            "code": "1193328",
+            "display": "ruxolitinib Oral Product"
+          },
+          {
+            "code": "1592747",
+            "display": "Ofev Pill"
+          },
+          {
+            "code": "2361287",
+            "display": "tucatinib Oral Product"
+          },
+          {
+            "code": "1535462",
+            "display": "ceritinib 150 MG Oral Capsule"
+          },
+          {
+            "code": "2105656",
+            "display": "larotrectinib 25 MG [Vitrakvi]"
+          },
+          {
+            "code": "1873992",
+            "display": "{42 (ribociclib 200 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1148495",
+            "display": "crizotinib"
+          },
+          {
+            "code": "1425227",
+            "display": "Tafinlar Pill"
+          },
+          {
+            "code": "1178590",
+            "display": "Torisel Injectable Product"
+          },
+          {
+            "code": "1940644",
+            "display": "neratinib 40 MG"
+          },
+          {
+            "code": "2361286",
+            "display": "tucatinib 150 MG"
+          },
+          {
+            "code": "746605",
+            "display": "nilotinib Oral Capsule"
+          },
+          {
+            "code": "1364349",
+            "display": "ponatinib Oral Product"
+          },
+          {
+            "code": "2361288",
+            "display": "tucatinib Pill"
+          },
+          {
+            "code": "1796538",
+            "display": "lenvatinib 10 MG Oral Capsule [Lenvima]"
+          },
+          {
+            "code": "2534241",
+            "display": "tivozanib Oral Capsule [Fotivda]"
+          },
+          {
+            "code": "2169306",
+            "display": "Piqray Pill"
+          },
+          {
+            "code": "603208",
+            "display": "erlotinib 25 MG Oral Tablet"
+          },
+          {
+            "code": "998191",
+            "display": "everolimus 2.5 MG Oral Tablet [Afinitor]"
+          },
+          {
+            "code": "643107",
+            "display": "dasatinib 50 MG Oral Tablet"
+          },
+          {
+            "code": "672151",
+            "display": "lapatinib Oral Tablet [Tykerb]"
+          },
+          {
+            "code": "643106",
+            "display": "dasatinib 50 MG"
+          },
+          {
+            "code": "1919091",
+            "display": "midostaurin Oral Capsule [Rydapt]"
+          },
+          {
+            "code": "643105",
+            "display": "dasatinib 20 MG Oral Tablet"
+          },
+          {
+            "code": "1185474",
+            "display": "Sutent Oral Product"
+          },
+          {
+            "code": "1722373",
+            "display": "cobimetinib Oral Tablet [Cotellic]"
+          },
+          {
+            "code": "799046",
+            "display": "dasatinib 100 MG"
+          },
+          {
+            "code": "1986810",
+            "display": "acalabrutinib Oral Product"
+          },
+          {
+            "code": "2262441",
+            "display": "Brukinsa"
+          },
+          {
+            "code": "1160504",
+            "display": "vandetanib Pill"
+          },
+          {
+            "code": "1792373",
+            "display": "lenvatinib 4 MG [Lenvima]"
+          },
+          {
+            "code": "2477269",
+            "display": "tepotinib Oral Tablet [Tepmetko]"
+          },
+          {
+            "code": "1160508",
+            "display": "vemurafenib Oral Product"
+          },
+          {
+            "code": "1158945",
+            "display": "nilotinib Pill"
+          },
+          {
+            "code": "2169307",
+            "display": "alpelisib 150 MG Oral Tablet [Piqray]"
+          },
+          {
+            "code": "1193330",
+            "display": "ruxolitinib Oral Tablet"
+          },
+          {
+            "code": "2058509",
+            "display": "duvelisib"
+          },
+          {
+            "code": "1424916",
+            "display": "dabrafenib 50 MG Oral Capsule"
+          },
+          {
+            "code": "2049114",
+            "display": "encorafenib Oral Capsule [Braftovi]"
+          },
+          {
+            "code": "1424912",
+            "display": "dabrafenib 50 MG"
+          },
+          {
+            "code": "1923054",
+            "display": "{28 (letrozole 2.5 MG Oral Tablet [Femara]) / 21 (ribociclib 200 MG Oral Tablet [Kisqali]) } Pack [Kisqali Femara Co-Pack 200]"
+          },
+          {
+            "code": "2049127",
+            "display": "binimetinib 15 MG Oral Tablet"
+          },
+          {
+            "code": "1363273",
+            "display": "cabozantinib 20 MG Oral Capsule"
+          },
+          {
+            "code": "1442987",
+            "display": "Imbruvica"
+          },
+          {
+            "code": "1430456",
+            "display": "afatinib 40 MG [Gilotrif]"
+          },
+          {
+            "code": "1940650",
+            "display": "neratinib 40 MG [Nerlynx]"
+          },
+          {
+            "code": "2049130",
+            "display": "binimetinib Oral Tablet [Mektovi]"
+          },
+          {
+            "code": "1604346",
+            "display": "lenvatinib mesylate"
+          },
+          {
+            "code": "1148498",
+            "display": "crizotinib 200 MG Oral Capsule"
+          },
+          {
+            "code": "1535459",
+            "display": "ceritinib Oral Product"
+          },
+          {
+            "code": "1161365",
+            "display": "pazopanib Oral Product"
+          },
+          {
+            "code": "1114073",
+            "display": "vandetanib Oral Tablet [Caprelsa]"
+          },
+          {
+            "code": "1098413",
+            "display": "vandetanib"
+          },
+          {
+            "code": "2289380",
+            "display": "selumetinib"
+          },
+          {
+            "code": "603206",
+            "display": "erlotinib 150 MG Oral Tablet"
+          },
+          {
+            "code": "616283",
+            "display": "sunitinib 12.5 MG Oral Capsule [Sutent]"
+          },
+          {
+            "code": "1727454",
+            "display": "alectinib hydrochloride"
+          },
+          {
+            "code": "2362234",
+            "display": "capmatinib 150 MG Oral Tablet"
+          },
+          {
+            "code": "1727479",
+            "display": "alectinib 150 MG Oral Capsule"
+          },
+          {
+            "code": "2121059",
+            "display": "ceritinib 150 MG Oral Tablet"
+          },
+          {
+            "code": "2289424",
+            "display": "selumetinib 10 MG Oral Capsule [Koselugo]"
+          },
+          {
+            "code": "2169315",
+            "display": "alpelisib 50 MG"
+          },
+          {
+            "code": "2049131",
+            "display": "Mektovi Oral Product"
+          },
+          {
+            "code": "2197874",
+            "display": "entrectinib 200 MG"
+          },
+          {
+            "code": "845511",
+            "display": "everolimus Oral Tablet [Afinitor]"
+          },
+          {
+            "code": "1988770",
+            "display": "brigatinib 180 MG Oral Tablet"
+          },
+          {
+            "code": "1921224",
+            "display": "brigatinib 30 MG [Alunbrig]"
+          },
+          {
+            "code": "1243005",
+            "display": "Inlyta"
+          },
+          {
+            "code": "2362243",
+            "display": "capmatinib 200 MG [Tabrecta]"
+          },
+          {
+            "code": "1592740",
+            "display": "nintedanib Pill"
+          },
+          {
+            "code": "2169296",
+            "display": "alpelisib 150 MG"
+          },
+          {
+            "code": "1424913",
+            "display": "dabrafenib Oral Product"
+          },
+          {
+            "code": "643172",
+            "display": "dasatinib Oral Tablet [Sprycel]"
+          },
+          {
+            "code": "2559723",
+            "display": "avapritinib 25 MG Oral Tablet"
+          },
+          {
+            "code": "2362244",
+            "display": "capmatinib 200 MG Oral Tablet [Tabrecta]"
+          },
+          {
+            "code": "1363281",
+            "display": "cabozantinib 80 MG Oral Capsule"
+          },
+          {
+            "code": "1045405",
+            "display": "dasatinib 80 MG"
+          },
+          {
+            "code": "2000028",
+            "display": "ibrutinib 560 MG"
+          },
+          {
+            "code": "1873988",
+            "display": "Kisqali Pill"
+          },
+          {
+            "code": "2054158",
+            "display": "{90 (lenvatinib 4 MG Oral Capsule) } Pack"
+          },
+          {
+            "code": "1363269",
+            "display": "cabozantinib 20 MG"
+          },
+          {
+            "code": "1371319",
+            "display": "regorafenib monohydrate"
+          },
+          {
+            "code": "576099",
+            "display": "gefitinib 250 MG [Iressa]"
+          },
+          {
+            "code": "1193331",
+            "display": "ruxolitinib 10 MG Oral Tablet"
+          },
+          {
+            "code": "2359330",
+            "display": "pemigatinib 13.5 MG"
+          },
+          {
+            "code": "1312399",
+            "display": "regorafenib Oral Product"
+          },
+          {
+            "code": "643176",
+            "display": "dasatinib 70 MG [Sprycel]"
+          },
+          {
+            "code": "1945079",
+            "display": "copanlisib Injectable Product"
+          },
+          {
+            "code": "2105806",
+            "display": "gilteritinib"
+          },
+          {
+            "code": "1592746",
+            "display": "Ofev Oral Product"
+          },
+          {
+            "code": "662281",
+            "display": "nilotinib"
+          },
+          {
+            "code": "1601380",
+            "display": "palbociclib 100 MG Oral Capsule"
+          },
+          {
+            "code": "2362241",
+            "display": "capmatinib 200 MG"
+          },
+          {
+            "code": "2049133",
+            "display": "binimetinib 15 MG Oral Tablet [Mektovi]"
+          },
+          {
+            "code": "1160852",
+            "display": "sunitinib Oral Product"
+          },
+          {
+            "code": "1193352",
+            "display": "ruxolitinib 25 MG [Jakafi]"
+          },
+          {
+            "code": "2477265",
+            "display": "tepotinib Oral Tablet"
+          },
+          {
+            "code": "1165616",
+            "display": "crizotinib Oral Product"
+          },
+          {
+            "code": "1988768",
+            "display": "brigatinib 90 MG Oral Tablet [Alunbrig]"
+          },
+          {
+            "code": "2284102",
+            "display": "palbociclib 100 MG Oral Tablet"
+          },
+          {
+            "code": "2359338",
+            "display": "Pemazyre Oral Product"
+          },
+          {
+            "code": "2361290",
+            "display": "tucatinib 150 MG Oral Tablet"
+          },
+          {
+            "code": "1430268",
+            "display": "Gilotrif"
+          },
+          {
+            "code": "1088255",
+            "display": "erlotinib 25 MG Oral Tablet [Tarceva]"
+          },
+          {
+            "code": "977440",
+            "display": "everolimus 0.75 MG Oral Tablet [Zortress]"
+          },
+          {
+            "code": "2362238",
+            "display": "Tabrecta Oral Product"
+          },
+          {
+            "code": "1425116",
+            "display": "trametinib 2 MG Oral Tablet"
+          },
+          {
+            "code": "2369389",
+            "display": "ripretinib"
+          },
+          {
+            "code": "616292",
+            "display": "sunitinib 50 MG Oral Capsule [Sutent]"
+          },
+          {
+            "code": "616286",
+            "display": "sunitinib 25 MG [Sutent]"
+          },
+          {
+            "code": "1727477",
+            "display": "alectinib Pill"
+          },
+          {
+            "code": "2000021",
+            "display": "ibrutinib 280 MG Oral Tablet"
+          },
+          {
+            "code": "1187235",
+            "display": "Zelboraf Pill"
+          },
+          {
+            "code": "722287",
+            "display": "temsirolimus 25 MG/ML"
+          },
+          {
+            "code": "2183126",
+            "display": "Turalio"
+          },
+          {
+            "code": "1114071",
+            "display": "Caprelsa"
+          },
+          {
+            "code": "1604352",
+            "display": "{60 (lenvatinib 10 MG Oral Capsule [Lenvima]) / 30 (lenvatinib 4 MG Oral Capsule [Lenvima]) } Pack [Lenvima 24]"
+          },
+          {
+            "code": "1179057",
+            "display": "Tasigna Oral Product"
+          },
+          {
+            "code": "2197499",
+            "display": "Inrebic Oral Product"
+          },
+          {
+            "code": "1193325",
+            "display": "ruxolitinib phosphate"
+          },
+          {
+            "code": "1148504",
+            "display": "crizotinib 250 MG Oral Capsule"
+          },
+          {
+            "code": "2105653",
+            "display": "larotrectinib 20 MG/ML Oral Solution [Vitrakvi]"
+          },
+          {
+            "code": "643104",
+            "display": "dasatinib Oral Tablet"
+          },
+          {
+            "code": "1364354",
+            "display": "ponatinib 15 MG [Iclusig]"
+          },
+          {
+            "code": "2123136",
+            "display": "Balversa Pill"
+          },
+          {
+            "code": "1243007",
+            "display": "axitinib Oral Tablet [Inlyta]"
+          },
+          {
+            "code": "616287",
+            "display": "sunitinib 25 MG Oral Capsule [Sutent]"
+          },
+          {
+            "code": "1796664",
+            "display": "{60 (lenvatinib 4 MG Oral Capsule) } Pack"
+          },
+          {
+            "code": "1721565",
+            "display": "osimertinib 40 MG Oral Tablet"
+          },
+          {
+            "code": "2197866",
+            "display": "entrectinib Oral Capsule"
+          },
+          {
+            "code": "2361596",
+            "display": "selumetinib sulfate"
+          },
+          {
+            "code": "2123135",
+            "display": "Balversa Oral Product"
+          },
+          {
+            "code": "1592742",
+            "display": "nintedanib 100 MG Oral Capsule"
+          },
+          {
+            "code": "1098414",
+            "display": "vandetanib 100 MG"
+          },
+          {
+            "code": "643177",
+            "display": "dasatinib 70 MG Oral Tablet [Sprycel]"
+          },
+          {
+            "code": "1312406",
+            "display": "Stivarga Oral Product"
+          },
+          {
+            "code": "1430441",
+            "display": "afatinib dimaleate"
+          },
+          {
+            "code": "2183102",
+            "display": "pexidartinib"
+          },
+          {
+            "code": "1988771",
+            "display": "brigatinib 180 MG [Alunbrig]"
+          },
+          {
+            "code": "2534242",
+            "display": "Fotivda Oral Product"
+          },
+          {
+            "code": "1442984",
+            "display": "ibrutinib Pill"
+          },
+          {
+            "code": "1193353",
+            "display": "ruxolitinib 25 MG Oral Tablet [Jakafi]"
+          },
+          {
+            "code": "1424918",
+            "display": "dabrafenib 75 MG Oral Capsule"
+          },
+          {
+            "code": "1002300",
+            "display": "nilotinib 150 MG Oral Capsule [Tasigna]"
+          },
+          {
+            "code": "1592736",
+            "display": "nintedanib esylate"
+          },
+          {
+            "code": "2197500",
+            "display": "Inrebic Pill"
+          },
+          {
+            "code": "1160509",
+            "display": "vemurafenib Pill"
+          },
+          {
+            "code": "2570752",
+            "display": "ruxolitinib 15 MG/ML Topical Cream"
+          },
+          {
+            "code": "1312408",
+            "display": "regorafenib 40 MG Oral Tablet [Stivarga]"
+          },
+          {
+            "code": "1921220",
+            "display": "brigatinib Pill"
+          },
+          {
+            "code": "1193349",
+            "display": "ruxolitinib 20 MG Oral Tablet [Jakafi]"
+          },
+          {
+            "code": "1193350",
+            "display": "ruxolitinib 25 MG"
+          },
+          {
+            "code": "1364350",
+            "display": "ponatinib Pill"
+          },
+          {
+            "code": "714438",
+            "display": "pazopanib"
+          },
+          {
+            "code": "1442992",
+            "display": "ibrutinib 140 MG Oral Capsule [Imbruvica]"
+          },
+          {
+            "code": "1098417",
+            "display": "vandetanib 300 MG"
+          },
+          {
+            "code": "1727475",
+            "display": "alectinib 150 MG"
+          },
+          {
+            "code": "2049118",
+            "display": "encorafenib 75 MG"
+          },
+          {
+            "code": "1430450",
+            "display": "afatinib 30 MG"
+          },
+          {
+            "code": "1544469",
+            "display": "Zydelig Oral Product"
+          },
+          {
+            "code": "2183121",
+            "display": "pexidartinib 200 MG"
+          },
+          {
+            "code": "2362240",
+            "display": "capmatinib 150 MG Oral Tablet [Tabrecta]"
+          },
+          {
+            "code": "1921217",
+            "display": "brigatinib"
+          },
+          {
+            "code": "799830",
+            "display": "dasatinib 100 MG Oral Tablet [Sprycel]"
+          },
+          {
+            "code": "1869513",
+            "display": "everolimus Tablet for Oral Suspension"
+          },
+          {
+            "code": "1148499",
+            "display": "Xalkori"
+          },
+          {
+            "code": "2105630",
+            "display": "larotrectinib Oral Product"
+          },
+          {
+            "code": "1535468",
+            "display": "ceritinib 150 MG Oral Capsule [Zykadia]"
+          },
+          {
+            "code": "977428",
+            "display": "Zortress"
+          },
+          {
+            "code": "1243013",
+            "display": "axitinib 5 MG [Inlyta]"
+          },
+          {
+            "code": "977439",
+            "display": "everolimus 0.75 MG [Zortress]"
+          },
+          {
+            "code": "1193340",
+            "display": "ruxolitinib 5 MG [Jakafi]"
+          },
+          {
+            "code": "2105644",
+            "display": "Vitrakvi Pill"
+          },
+          {
+            "code": "1363275",
+            "display": "cabozantinib 20 MG [Cometriq]"
+          },
+          {
+            "code": "1363280",
+            "display": "cabozantinib 80 MG"
+          },
+          {
+            "code": "2056894",
+            "display": "everolimus 1 MG"
+          },
+          {
+            "code": "2105641",
+            "display": "larotrectinib 100 MG [Vitrakvi]"
+          },
+          {
+            "code": "2197498",
+            "display": "fedratinib Oral Capsule [Inrebic]"
+          },
+          {
+            "code": "1307627",
+            "display": "bosutinib Oral Tablet [Bosulif]"
+          },
+          {
+            "code": "1945084",
+            "display": "copanlisib Injection [Aliqopa]"
+          },
+          {
+            "code": "1430446",
+            "display": "afatinib 20 MG Oral Tablet"
+          },
+          {
+            "code": "2559722",
+            "display": "avapritinib 25 MG"
+          },
+          {
+            "code": "1919085",
+            "display": "midostaurin Oral Product"
+          },
+          {
+            "code": "2058913",
+            "display": "dacomitinib Pill"
+          },
+          {
+            "code": "1098415",
+            "display": "vandetanib Oral Tablet"
+          },
+          {
+            "code": "1193345",
+            "display": "ruxolitinib 15 MG Oral Tablet [Jakafi]"
+          },
+          {
+            "code": "2272123",
+            "display": "avapritinib 300 MG"
+          },
+          {
+            "code": "2359332",
+            "display": "pemigatinib Pill"
+          },
+          {
+            "code": "2169298",
+            "display": "alpelisib Pill"
+          },
+          {
+            "code": "2183130",
+            "display": "Turalio Pill"
+          },
+          {
+            "code": "2000023",
+            "display": "ibrutinib 280 MG Oral Tablet [Imbruvica]"
+          },
+          {
+            "code": "2183103",
+            "display": "pexidartinib hydrochloride"
+          },
+          {
+            "code": "1364362",
+            "display": "ponatinib 45 MG Oral Tablet [Iclusig]"
+          },
+          {
+            "code": "1147221",
+            "display": "vemurafenib 240 MG"
+          },
+          {
+            "code": "1790175",
+            "display": "cabozantinib 60 MG Oral Tablet [Cabometyx]"
+          },
+          {
+            "code": "597745",
+            "display": "sorafenib 200 MG"
+          },
+          {
+            "code": "1945078",
+            "display": "copanlisib 60 MG"
+          },
+          {
+            "code": "1921223",
+            "display": "Alunbrig"
+          },
+          {
+            "code": "495881",
+            "display": "sorafenib"
+          },
+          {
+            "code": "2361299",
+            "display": "tucatinib 50 MG [Tukysa]"
+          },
+          {
+            "code": "1430443",
+            "display": "afatinib Oral Product"
+          },
+          {
+            "code": "1430447",
+            "display": "afatinib 20 MG [Gilotrif]"
+          },
+          {
+            "code": "575017",
+            "display": "imatinib 100 MG [Gleevec]"
+          },
+          {
+            "code": "746607",
+            "display": "nilotinib 200 MG [Tasigna]"
+          },
+          {
+            "code": "2058914",
+            "display": "dacomitinib Oral Tablet"
+          },
+          {
+            "code": "867502",
+            "display": "pazopanib 200 MG Oral Tablet"
+          },
+          {
+            "code": "402435",
+            "display": "gefitinib Oral Tablet [Iressa]"
+          },
+          {
+            "code": "1946848",
+            "display": "abemaciclib 200 MG Oral Tablet [Verzenio]"
+          },
+          {
+            "code": "2058926",
+            "display": "dacomitinib 30 MG Oral Tablet [Vizimpro]"
+          },
+          {
+            "code": "2002717",
+            "display": "nilotinib 50 MG Oral Capsule"
+          },
+          {
+            "code": "1721582",
+            "display": "osimertinib 80 MG [Tagrisso]"
+          },
+          {
+            "code": "2105807",
+            "display": "gilteritinib 40 MG"
+          },
+          {
+            "code": "1721566",
+            "display": "Tagrisso"
+          },
+          {
+            "code": "1727484",
+            "display": "Alecensa Pill"
+          },
+          {
+            "code": "403878",
+            "display": "imatinib 100 MG Oral Tablet"
+          },
+          {
+            "code": "2262446",
+            "display": "zanubrutinib 80 MG Oral Capsule [Brukinsa]"
+          },
+          {
+            "code": "2123130",
+            "display": "erdafitinib Oral Tablet"
+          },
+          {
+            "code": "2473040",
+            "display": "ponatinib 10 MG Oral Tablet"
+          },
+          {
+            "code": "1601388",
+            "display": "palbociclib 125 MG Oral Capsule"
+          },
+          {
+            "code": "1722365",
+            "display": "cobimetinib"
+          },
+          {
+            "code": "1919094",
+            "display": "midostaurin 25 MG Oral Capsule [Rydapt]"
+          },
+          {
+            "code": "616275",
+            "display": "sunitinib malate"
+          },
+          {
+            "code": "1986813",
+            "display": "acalabrutinib 100 MG Oral Capsule"
+          },
+          {
+            "code": "2570750",
+            "display": "ruxolitinib Topical Product"
+          },
+          {
+            "code": "1869515",
+            "display": "everolimus 2 MG [Afinitor]"
+          },
+          {
+            "code": "799047",
+            "display": "dasatinib 100 MG Oral Tablet"
+          },
+          {
+            "code": "2477103",
+            "display": "tepotinib"
+          },
+          {
+            "code": "1157187",
+            "display": "dasatinib Pill"
+          },
+          {
+            "code": "1923053",
+            "display": "{28 (letrozole 2.5 MG Oral Tablet) / 21 (ribociclib 200 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1544474",
+            "display": "idelalisib 150 MG [Zydelig]"
+          },
+          {
+            "code": "2197871",
+            "display": "Rozlytrek Oral Product"
+          },
+          {
+            "code": "1919087",
+            "display": "midostaurin Oral Capsule"
+          },
+          {
+            "code": "1601387",
+            "display": "palbociclib 125 MG"
+          },
+          {
+            "code": "1364357",
+            "display": "Iclusig Pill"
+          },
+          {
+            "code": "1171230",
+            "display": "Gleevec Oral Product"
+          },
+          {
+            "code": "1544464",
+            "display": "idelalisib Oral Tablet"
+          },
+          {
+            "code": "1604350",
+            "display": "{30 (lenvatinib 10 MG Oral Capsule [Lenvima]) / 30 (lenvatinib 4 MG Oral Capsule [Lenvima]) } Pack [Lenvima 14]"
+          },
+          {
+            "code": "1088252",
+            "display": "erlotinib 150 MG [Tarceva]"
+          },
+          {
+            "code": "2477270",
+            "display": "Tepmetko Oral Product"
+          },
+          {
+            "code": "2103174",
+            "display": "Lorbrena Pill"
+          },
+          {
+            "code": "1312397",
+            "display": "regorafenib"
+          },
+          {
+            "code": "2121060",
+            "display": "ceritinib Oral Tablet [Zykadia]"
+          },
+          {
+            "code": "1119402",
+            "display": "everolimus 7.5 MG Oral Tablet [Afinitor]"
+          },
+          {
+            "code": "1601383",
+            "display": "palbociclib Oral Capsule [Ibrance]"
+          },
+          {
+            "code": "2284105",
+            "display": "palbociclib 125 MG Oral Tablet"
+          },
+          {
+            "code": "2105629",
+            "display": "larotrectinib 100 MG"
+          },
+          {
+            "code": "2054156",
+            "display": "{30 (lenvatinib 4 MG Oral Capsule) } Pack"
+          },
+          {
+            "code": "1114074",
+            "display": "vandetanib 100 MG Oral Tablet [Caprelsa]"
+          },
+          {
+            "code": "1185475",
+            "display": "Sutent Pill"
+          },
+          {
+            "code": "2049110",
+            "display": "encorafenib Oral Capsule"
+          },
+          {
+            "code": "1147223",
+            "display": "vemurafenib 240 MG Oral Tablet"
+          },
+          {
+            "code": "1945081",
+            "display": "copanlisib 60 MG Injection"
+          },
+          {
+            "code": "1193347",
+            "display": "ruxolitinib 20 MG Oral Tablet"
+          },
+          {
+            "code": "2359331",
+            "display": "pemigatinib Oral Product"
+          },
+          {
+            "code": "2359347",
+            "display": "pemigatinib 9 MG [Pemazyre]"
+          },
+          {
+            "code": "1988767",
+            "display": "brigatinib 90 MG [Alunbrig]"
+          },
+          {
+            "code": "1314319",
+            "display": "bosutinib monohydrate"
+          },
+          {
+            "code": "1425229",
+            "display": "dabrafenib 75 MG [Tafinlar]"
+          },
+          {
+            "code": "1425101",
+            "display": "trametinib Oral Product"
+          },
+          {
+            "code": "1243014",
+            "display": "axitinib 5 MG Oral Tablet [Inlyta]"
+          },
+          {
+            "code": "2000020",
+            "display": "ibrutinib 280 MG"
+          },
+          {
+            "code": "2169314",
+            "display": "{28 (alpelisib 200 MG Oral Tablet [Piqray]) } Pack [Piqray 200 MG Daily Dose]"
+          },
+          {
+            "code": "1364356",
+            "display": "Iclusig Oral Product"
+          },
+          {
+            "code": "1242999",
+            "display": "axitinib"
+          },
+          {
+            "code": "1796537",
+            "display": "lenvatinib 10 MG [Lenvima]"
+          },
+          {
+            "code": "2123140",
+            "display": "erdafitinib 4 MG [Balversa]"
+          },
+          {
+            "code": "2197490",
+            "display": "fedratinib"
+          },
+          {
+            "code": "2121058",
+            "display": "ceritinib Oral Tablet"
+          },
+          {
+            "code": "1307623",
+            "display": "bosutinib Oral Tablet"
+          },
+          {
+            "code": "1442982",
+            "display": "ibrutinib 140 MG"
+          },
+          {
+            "code": "2477272",
+            "display": "tepotinib 225 MG Oral Tablet [Tepmetko]"
+          },
+          {
+            "code": "1544460",
+            "display": "idelalisib"
+          },
+          {
+            "code": "1988985",
+            "display": "bosutinib 400 MG [Bosulif]"
+          },
+          {
+            "code": "2534249",
+            "display": "tivozanib 1.34 MG Oral Capsule [Fotivda]"
+          },
+          {
+            "code": "1148503",
+            "display": "crizotinib 250 MG"
+          },
+          {
+            "code": "2272107",
+            "display": "avapritinib"
+          },
+          {
+            "code": "1792374",
+            "display": "lenvatinib Oral Capsule [Lenvima]"
+          },
+          {
+            "code": "2058920",
+            "display": "Vizimpro Oral Product"
+          },
+          {
+            "code": "2477262",
+            "display": "tepotinib 225 MG"
+          },
+          {
+            "code": "616274",
+            "display": "Sutent"
+          },
+          {
+            "code": "1307628",
+            "display": "Bosulif Oral Product"
+          },
+          {
+            "code": "406050",
+            "display": "imatinib Oral Tablet"
+          },
+          {
+            "code": "657797",
+            "display": "temsirolimus"
+          },
+          {
+            "code": "1425115",
+            "display": "trametinib 2 MG"
+          },
+          {
+            "code": "1425226",
+            "display": "Tafinlar Oral Product"
+          },
+          {
+            "code": "1601393",
+            "display": "palbociclib 75 MG [Ibrance]"
+          },
+          {
+            "code": "1312402",
+            "display": "regorafenib 40 MG Oral Tablet"
+          },
+          {
+            "code": "1604349",
+            "display": "{30 (lenvatinib 10 MG Oral Capsule) / 30 (lenvatinib 4 MG Oral Capsule) } Pack"
+          },
+          {
+            "code": "2049123",
+            "display": "binimetinib 15 MG"
+          },
+          {
+            "code": "1727485",
+            "display": "alectinib 150 MG Oral Capsule [Alecensa]"
+          },
+          {
+            "code": "2000018",
+            "display": "ibrutinib Oral Tablet [Imbruvica]"
+          },
+          {
+            "code": "1721571",
+            "display": "osimertinib 40 MG Oral Tablet [Tagrisso]"
+          },
+          {
+            "code": "2103173",
+            "display": "Lorbrena Oral Product"
+          },
+          {
+            "code": "1442981",
+            "display": "ibrutinib"
+          },
+          {
+            "code": "2534237",
+            "display": "tivozanib Oral Capsule"
+          },
+          {
+            "code": "2289418",
+            "display": "selumetinib 10 MG Oral Capsule"
+          },
+          {
+            "code": "1604351",
+            "display": "{60 (lenvatinib 10 MG Oral Capsule) / 30 (lenvatinib 4 MG Oral Capsule) } Pack"
+          },
+          {
+            "code": "1425224",
+            "display": "dabrafenib 50 MG [Tafinlar]"
+          },
+          {
+            "code": "1535458",
+            "display": "ceritinib 150 MG"
+          },
+          {
+            "code": "1114096",
+            "display": "vandetanib 300 MG Oral Tablet [Caprelsa]"
+          },
+          {
+            "code": "1182862",
+            "display": "Nexavar Oral Product"
+          },
+          {
+            "code": "977436",
+            "display": "everolimus 0.5 MG Oral Tablet [Zortress]"
+          },
+          {
+            "code": "1945083",
+            "display": "copanlisib 60 MG [Aliqopa]"
+          },
+          {
+            "code": "1193338",
+            "display": "ruxolitinib 5 MG"
+          },
+          {
+            "code": "1986809",
+            "display": "acalabrutinib 100 MG"
+          },
+          {
+            "code": "867507",
+            "display": "pazopanib 400 MG"
+          },
+          {
+            "code": "1425110",
+            "display": "trametinib 0.5 MG Oral Tablet [Mekinist]"
+          },
+          {
+            "code": "2103171",
+            "display": "lorlatinib 25 MG [Lorbrena]"
+          },
+          {
+            "code": "349472",
+            "display": "gefitinib 250 MG Oral Tablet"
+          },
+          {
+            "code": "2289417",
+            "display": "selumetinib Oral Capsule"
+          },
+          {
+            "code": "1727483",
+            "display": "Alecensa Oral Product"
+          },
+          {
+            "code": "1601376",
+            "display": "palbociclib 100 MG"
+          },
+          {
+            "code": "1424911",
+            "display": "dabrafenib"
+          },
+          {
+            "code": "2169302",
+            "display": "Piqray"
+          },
+          {
+            "code": "2105815",
+            "display": "Xospata Oral Product"
+          },
+          {
+            "code": "1159692",
+            "display": "sorafenib Pill"
+          },
+          {
+            "code": "2361300",
+            "display": "tucatinib 50 MG Oral Tablet [Tukysa]"
+          },
+          {
+            "code": "1790164",
+            "display": "cabozantinib Oral Tablet [Cabometyx]"
+          },
+          {
+            "code": "1193348",
+            "display": "ruxolitinib 20 MG [Jakafi]"
+          },
+          {
+            "code": "977431",
+            "display": "everolimus 0.25 MG Oral Tablet [Zortress]"
+          },
+          {
+            "code": "2197862",
+            "display": "entrectinib"
+          },
+          {
+            "code": "845518",
+            "display": "everolimus 5 MG Oral Tablet [Afinitor]"
+          },
+          {
+            "code": "2105813",
+            "display": "gilteritinib 40 MG [Xospata]"
+          },
+          {
+            "code": "2570757",
+            "display": "ruxolitinib 15 MG/ML Topical Cream [Opzelura]"
+          },
+          {
+            "code": "1945077",
+            "display": "copanlisib"
+          },
+          {
+            "code": "1119400",
+            "display": "everolimus 7.5 MG Oral Tablet"
+          },
+          {
+            "code": "284206",
+            "display": "imatinib 100 MG Oral Capsule"
+          },
+          {
+            "code": "1790160",
+            "display": "cabozantinib Oral Tablet"
+          },
+          {
+            "code": "1193335",
+            "display": "Jakafi Oral Product"
+          },
+          {
+            "code": "1988772",
+            "display": "brigatinib 180 MG Oral Tablet [Alunbrig]"
+          },
+          {
+            "code": "1604383",
+            "display": "{30 (lenvatinib 10 MG Oral Capsule) } Pack"
+          },
+          {
+            "code": "1307630",
+            "display": "bosutinib 100 MG Oral Tablet [Bosulif]"
+          },
+          {
+            "code": "2570756",
+            "display": "ruxolitinib Topical Cream [Opzelura]"
+          },
+          {
+            "code": "2103177",
+            "display": "lorlatinib 100 MG Oral Tablet"
+          },
+          {
+            "code": "2534234",
+            "display": "tivozanib 0.89 MG"
+          },
+          {
+            "code": "2359343",
+            "display": "pemigatinib 4.5 MG [Pemazyre]"
+          },
+          {
+            "code": "2262439",
+            "display": "zanubrutinib Oral Capsule"
+          },
+          {
+            "code": "2570749",
+            "display": "ruxolitinib 15 MG/ML"
+          },
+          {
+            "code": "1147228",
+            "display": "vemurafenib 240 MG Oral Tablet [Zelboraf]"
+          },
+          {
+            "code": "746609",
+            "display": "nilotinib 200 MG Oral Capsule [Tasigna]"
+          },
+          {
+            "code": "1946838",
+            "display": "abemaciclib 100 MG Oral Tablet"
+          },
+          {
+            "code": "2105633",
+            "display": "larotrectinib 100 MG Oral Capsule"
+          },
+          {
+            "code": "2058519",
+            "display": "Copiktra Pill"
+          },
+          {
+            "code": "1147227",
+            "display": "vemurafenib Oral Tablet [Zelboraf]"
+          },
+          {
+            "code": "2369402",
+            "display": "Qinlock Pill"
+          },
+          {
+            "code": "1364351",
+            "display": "ponatinib Oral Tablet"
+          },
+          {
+            "code": "615979",
+            "display": "sorafenib 200 MG Oral Tablet [Nexavar]"
+          },
+          {
+            "code": "616291",
+            "display": "sunitinib 50 MG [Sutent]"
+          },
+          {
+            "code": "1601384",
+            "display": "Ibrance Oral Product"
+          },
+          {
+            "code": "2105814",
+            "display": "gilteritinib Oral Tablet [Xospata]"
+          },
+          {
+            "code": "2359333",
+            "display": "pemigatinib Oral Tablet"
+          },
+          {
+            "code": "1425230",
+            "display": "dabrafenib 75 MG Oral Capsule [Tafinlar]"
+          },
+          {
+            "code": "616279",
+            "display": "sunitinib 12.5 MG Oral Capsule"
+          },
+          {
+            "code": "2058922",
+            "display": "dacomitinib 15 MG Oral Tablet [Vizimpro]"
+          },
+          {
+            "code": "1193329",
+            "display": "ruxolitinib Pill"
+          },
+          {
+            "code": "2169299",
+            "display": "alpelisib Oral Tablet"
+          },
+          {
+            "code": "2169313",
+            "display": "alpelisib 200 MG Oral Tablet [Piqray]"
+          },
+          {
+            "code": "2105628",
+            "display": "larotrectinib"
+          },
+          {
+            "code": "1307635",
+            "display": "bosutinib 500 MG Oral Tablet [Bosulif]"
+          },
+          {
+            "code": "2272120",
+            "display": "avapritinib 200 MG Oral Tablet"
+          },
+          {
+            "code": "1946847",
+            "display": "abemaciclib 200 MG [Verzenio]"
+          },
+          {
+            "code": "616282",
+            "display": "sunitinib Oral Capsule [Sutent]"
+          },
+          {
+            "code": "2473042",
+            "display": "ponatinib 10 MG Oral Tablet [Iclusig]"
+          },
+          {
+            "code": "1921219",
+            "display": "brigatinib Oral Product"
+          },
+          {
+            "code": "1726639",
+            "display": "ponatinib 30 MG Oral Tablet [Iclusig]"
+          },
+          {
+            "code": "1986816",
+            "display": "acalabrutinib Oral Capsule [Calquence]"
+          },
+          {
+            "code": "1243011",
+            "display": "axitinib 5 MG"
+          },
+          {
+            "code": "1790165",
+            "display": "Cabometyx Oral Product"
+          },
+          {
+            "code": "2534235",
+            "display": "tivozanib Oral Product"
+          },
+          {
+            "code": "2169317",
+            "display": "alpelisib 50 MG [Piqray]"
+          },
+          {
+            "code": "2103170",
+            "display": "Lorbrena"
+          },
+          {
+            "code": "1161366",
+            "display": "pazopanib Pill"
+          },
+          {
+            "code": "2105812",
+            "display": "Xospata"
+          },
+          {
+            "code": "1946828",
+            "display": "abemaciclib Pill"
+          },
+          {
+            "code": "2477264",
+            "display": "tepotinib Pill"
+          },
+          {
+            "code": "998190",
+            "display": "everolimus 2.5 MG [Afinitor]"
+          },
+          {
+            "code": "1430438",
+            "display": "afatinib"
+          },
+          {
+            "code": "2362230",
+            "display": "capmatinib 150 MG"
+          },
+          {
+            "code": "1173663",
+            "display": "Caprelsa Pill"
+          },
+          {
+            "code": "1088251",
+            "display": "erlotinib 100 MG Oral Tablet [Tarceva]"
+          },
+          {
+            "code": "1790168",
+            "display": "cabozantinib 40 MG"
+          },
+          {
+            "code": "1312401",
+            "display": "regorafenib Oral Tablet"
+          },
+          {
+            "code": "1193351",
+            "display": "ruxolitinib 25 MG Oral Tablet"
+          },
+          {
+            "code": "376335",
+            "display": "imatinib Oral Capsule"
+          },
+          {
+            "code": "1243010",
+            "display": "axitinib 1 MG Oral Tablet [Inlyta]"
+          },
+          {
+            "code": "358777",
+            "display": "gefitinib 250 MG"
+          },
+          {
+            "code": "977429",
+            "display": "everolimus 0.25 MG [Zortress]"
+          },
+          {
+            "code": "1921225",
+            "display": "brigatinib Oral Tablet [Alunbrig]"
+          },
+          {
+            "code": "1721561",
+            "display": "osimertinib 40 MG"
+          },
+          {
+            "code": "475342",
+            "display": "dasatinib"
+          },
+          {
+            "code": "1310147",
+            "display": "everolimus 5 MG Tablet for Oral Suspension [Afinitor]"
+          },
+          {
+            "code": "2058518",
+            "display": "Copiktra Oral Product"
+          },
+          {
+            "code": "2054159",
+            "display": "{90 (lenvatinib 4 MG Oral Capsule [Lenvima]) } Pack [Lenvima 12]"
+          },
+          {
+            "code": "1147225",
+            "display": "vemurafenib 240 MG [Zelboraf]"
+          },
+          {
+            "code": "2105809",
+            "display": "gilteritinib Pill"
+          },
+          {
+            "code": "1162504",
+            "display": "erlotinib Pill"
+          },
+          {
+            "code": "1430457",
+            "display": "afatinib 40 MG Oral Tablet [Gilotrif]"
+          },
+          {
+            "code": "1919089",
+            "display": "Rydapt"
+          },
+          {
+            "code": "977434",
+            "display": "everolimus 0.5 MG Oral Tablet"
+          },
+          {
+            "code": "1045408",
+            "display": "dasatinib 80 MG Oral Tablet [Sprycel]"
+          },
+          {
+            "code": "480167",
+            "display": "lapatinib"
+          },
+          {
+            "code": "1792376",
+            "display": "Lenvima Pill"
+          },
+          {
+            "code": "1604394",
+            "display": "{60 (lenvatinib 10 MG Oral Capsule) } Pack"
+          },
+          {
+            "code": "2262445",
+            "display": "Brukinsa Pill"
+          },
+          {
+            "code": "1604342",
+            "display": "lenvatinib Oral Product"
+          },
+          {
+            "code": "615978",
+            "display": "sorafenib Oral Tablet [Nexavar]"
+          },
+          {
+            "code": "2534233",
+            "display": "tivozanib"
+          },
+          {
+            "code": "1873980",
+            "display": "ribociclib Oral Product"
+          },
+          {
+            "code": "1919083",
+            "display": "midostaurin"
+          },
+          {
+            "code": "2105816",
+            "display": "Xospata Pill"
+          },
+          {
+            "code": "2049119",
+            "display": "encorafenib 75 MG Oral Capsule"
+          },
+          {
+            "code": "1308432",
+            "display": "everolimus 5 MG Tablet for Oral Suspension"
+          },
+          {
+            "code": "1088250",
+            "display": "erlotinib 100 MG [Tarceva]"
+          },
+          {
+            "code": "477320",
+            "display": "erlotinib hydrochloride"
+          },
+          {
+            "code": "1721559",
+            "display": "osimertinib mesylate"
+          },
+          {
+            "code": "1425105",
+            "display": "Mekinist"
+          },
+          {
+            "code": "2049120",
+            "display": "encorafenib 75 MG [Braftovi]"
+          },
+          {
+            "code": "2284103",
+            "display": "palbociclib Oral Tablet [Ibrance]"
+          },
+          {
+            "code": "2049121",
+            "display": "encorafenib 75 MG Oral Capsule [Braftovi]"
+          },
+          {
+            "code": "1363271",
+            "display": "cabozantinib Pill"
+          },
+          {
+            "code": "1946827",
+            "display": "abemaciclib Oral Product"
+          },
+          {
+            "code": "1186914",
+            "display": "Tykerb Oral Product"
+          },
+          {
+            "code": "1364348",
+            "display": "ponatinib 15 MG"
+          },
+          {
+            "code": "1945080",
+            "display": "copanlisib Injection"
+          },
+          {
+            "code": "1442983",
+            "display": "ibrutinib Oral Product"
+          },
+          {
+            "code": "1187595",
+            "display": "Votrient Oral Product"
+          },
+          {
+            "code": "2359341",
+            "display": "pemigatinib 4.5 MG"
+          },
+          {
+            "code": "2570751",
+            "display": "ruxolitinib Topical Cream"
+          },
+          {
+            "code": "1179040",
+            "display": "Tarceva Oral Product"
+          },
+          {
+            "code": "2123129",
+            "display": "erdafitinib Pill"
+          },
+          {
+            "code": "1243002",
+            "display": "axitinib Pill"
+          },
+          {
+            "code": "998189",
+            "display": "everolimus 2.5 MG Oral Tablet"
+          },
+          {
+            "code": "1363277",
+            "display": "Cometriq Oral Product"
+          },
+          {
+            "code": "2103172",
+            "display": "lorlatinib Oral Tablet [Lorbrena]"
+          },
+          {
+            "code": "2049125",
+            "display": "binimetinib Pill"
+          },
+          {
+            "code": "2105642",
+            "display": "larotrectinib Oral Capsule [Vitrakvi]"
+          },
+          {
+            "code": "281883",
+            "display": "Iressa"
+          },
+          {
+            "code": "1544472",
+            "display": "idelalisib 150 MG"
+          },
+          {
+            "code": "2049129",
+            "display": "binimetinib 15 MG [Mektovi]"
+          },
+          {
+            "code": "2058848",
+            "display": "dacomitinib anhydrous"
+          },
+          {
+            "code": "1148506",
+            "display": "crizotinib 250 MG Oral Capsule [Xalkori]"
+          },
+          {
+            "code": "2054157",
+            "display": "{30 (lenvatinib 4 MG Oral Capsule [Lenvima]) } Pack [Lenvima 4]"
+          },
+          {
+            "code": "1307629",
+            "display": "Bosulif Pill"
+          },
+          {
+            "code": "2289423",
+            "display": "Koselugo Pill"
+          },
+          {
+            "code": "1430444",
+            "display": "afatinib Pill"
+          },
+          {
+            "code": "1873984",
+            "display": "Kisqali"
+          },
+          {
+            "code": "1193344",
+            "display": "ruxolitinib 15 MG [Jakafi]"
+          },
+          {
+            "code": "1790161",
+            "display": "cabozantinib 20 MG Oral Tablet"
+          },
+          {
+            "code": "2272108",
+            "display": "avapritinib 100 MG"
+          },
+          {
+            "code": "2272121",
+            "display": "avapritinib 200 MG [Ayvakit]"
+          },
+          {
+            "code": "2058917",
+            "display": "dacomitinib 15 MG [Vizimpro]"
+          },
+          {
+            "code": "357977",
+            "display": "sunitinib"
+          },
+          {
+            "code": "1425225",
+            "display": "dabrafenib Oral Capsule [Tafinlar]"
+          },
+          {
+            "code": "1363283",
+            "display": "cabozantinib 80 MG [Cometriq]"
+          },
+          {
+            "code": "2369397",
+            "display": "ripretinib 50 MG Oral Tablet"
+          },
+          {
+            "code": "643103",
+            "display": "dasatinib 20 MG"
+          },
+          {
+            "code": "1873982",
+            "display": "ribociclib Oral Tablet"
+          },
+          {
+            "code": "643175",
+            "display": "dasatinib 50 MG Oral Tablet [Sprycel]"
+          },
+          {
+            "code": "1186316",
+            "display": "Zortress Oral Product"
+          },
+          {
+            "code": "1176763",
+            "display": "Iressa Pill"
+          },
+          {
+            "code": "2169311",
+            "display": "{28 (alpelisib 200 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1425104",
+            "display": "trametinib 0.5 MG Oral Tablet"
+          },
+          {
+            "code": "2000029",
+            "display": "ibrutinib 560 MG Oral Tablet"
+          },
+          {
+            "code": "1986808",
+            "display": "acalabrutinib"
+          },
+          {
+            "code": "1160503",
+            "display": "vandetanib Oral Product"
+          },
+          {
+            "code": "2197877",
+            "display": "entrectinib 200 MG Oral Capsule [Rozlytrek]"
+          },
+          {
+            "code": "1425118",
+            "display": "trametinib 2 MG Oral Tablet [Mekinist]"
+          },
+          {
+            "code": "1986814",
+            "display": "Calquence"
+          },
+          {
+            "code": "2559725",
+            "display": "avapritinib 25 MG Oral Tablet [Ayvakit]"
+          },
+          {
+            "code": "1873983",
+            "display": "ribociclib 200 MG Oral Tablet"
+          },
+          {
+            "code": "1364352",
+            "display": "ponatinib 15 MG Oral Tablet"
+          },
+          {
+            "code": "1307620",
+            "display": "bosutinib 100 MG"
+          },
+          {
+            "code": "2559728",
+            "display": "avapritinib 50 MG [Ayvakit]"
+          },
+          {
+            "code": "997652",
+            "display": "nilotinib 150 MG"
+          },
+          {
+            "code": "746606",
+            "display": "nilotinib 200 MG Oral Capsule"
+          },
+          {
+            "code": "1601385",
+            "display": "Ibrance Pill"
+          },
+          {
+            "code": "1364360",
+            "display": "ponatinib 45 MG Oral Tablet"
+          },
+          {
+            "code": "845510",
+            "display": "everolimus 10 MG [Afinitor]"
+          },
+          {
+            "code": "2103178",
+            "display": "lorlatinib 100 MG [Lorbrena]"
+          },
+          {
+            "code": "1045403",
+            "display": "dasatinib 140 MG [Sprycel]"
+          },
+          {
+            "code": "1921218",
+            "display": "brigatinib 30 MG"
+          },
+          {
+            "code": "2105647",
+            "display": "larotrectinib Oral Liquid Product"
+          },
+          {
+            "code": "2183124",
+            "display": "pexidartinib Oral Capsule"
+          },
+          {
+            "code": "141704",
+            "display": "everolimus"
+          },
+          {
+            "code": "2000025",
+            "display": "ibrutinib 420 MG Oral Tablet"
+          },
+          {
+            "code": "1310144",
+            "display": "everolimus 3 MG Tablet for Oral Suspension [Afinitor]"
+          },
+          {
+            "code": "1243008",
+            "display": "Inlyta Oral Product"
+          },
+          {
+            "code": "1873987",
+            "display": "Kisqali Oral Product"
+          },
+          {
+            "code": "1243003",
+            "display": "axitinib Oral Tablet"
+          },
+          {
+            "code": "406051",
+            "display": "imatinib 400 MG"
+          },
+          {
+            "code": "1592745",
+            "display": "nintedanib Oral Capsule [Ofev]"
+          },
+          {
+            "code": "2103168",
+            "display": "lorlatinib Oral Tablet"
+          },
+          {
+            "code": "603203",
+            "display": "erlotinib 100 MG Oral Tablet"
+          },
+          {
+            "code": "1535465",
+            "display": "ceritinib Oral Capsule [Zykadia]"
+          },
+          {
+            "code": "2105649",
+            "display": "larotrectinib 20 MG/ML Oral Solution"
+          },
+          {
+            "code": "1601386",
+            "display": "palbociclib 100 MG Oral Capsule [Ibrance]"
+          },
+          {
+            "code": "1307632",
+            "display": "bosutinib 500 MG"
+          },
+          {
+            "code": "616278",
+            "display": "sunitinib Oral Capsule"
+          },
+          {
+            "code": "1243004",
+            "display": "axitinib 1 MG Oral Tablet"
+          },
+          {
+            "code": "2123132",
+            "display": "Balversa"
+          },
+          {
+            "code": "481474",
+            "display": "lapatinib ditosylate"
+          },
+          {
+            "code": "1722366",
+            "display": "cobimetinib 20 MG"
+          },
+          {
+            "code": "2361297",
+            "display": "tucatinib 50 MG"
+          },
+          {
+            "code": "2058916",
+            "display": "Vizimpro"
+          },
+          {
+            "code": "643108",
+            "display": "dasatinib 70 MG"
+          },
+          {
+            "code": "2183128",
+            "display": "pexidartinib Oral Capsule [Turalio]"
+          },
+          {
+            "code": "2362259",
+            "display": "capmatinib hydrochloride"
+          },
+          {
+            "code": "1601394",
+            "display": "palbociclib 75 MG Oral Capsule [Ibrance]"
+          },
+          {
+            "code": "1873993",
+            "display": "{42 (ribociclib 200 MG Oral Tablet [Kisqali]) } Pack [Kisqali 400 MG Daily Dose Carton]"
+          },
+          {
+            "code": "1946834",
+            "display": "Verzenio Oral Product"
+          },
+          {
+            "code": "845514",
+            "display": "everolimus 5 MG"
+          },
+          {
+            "code": "1722376",
+            "display": "cobimetinib 20 MG Oral Tablet [Cotellic]"
+          },
+          {
+            "code": "1160680",
+            "display": "imatinib Pill"
+          },
+          {
+            "code": "2058930",
+            "display": "dacomitinib 45 MG Oral Tablet"
+          },
+          {
+            "code": "597744",
+            "display": "sorafenib tosylate"
+          },
+          {
+            "code": "1179041",
+            "display": "Tarceva Pill"
+          },
+          {
+            "code": "1147224",
+            "display": "Zelboraf"
+          },
+          {
+            "code": "2362165",
+            "display": "capmatinib"
+          },
+          {
+            "code": "2058925",
+            "display": "dacomitinib 30 MG [Vizimpro]"
+          },
+          {
+            "code": "2049107",
+            "display": "encorafenib 50 MG"
+          },
+          {
+            "code": "1601379",
+            "display": "palbociclib Oral Capsule"
+          },
+          {
+            "code": "1604344",
+            "display": "lenvatinib Oral Capsule"
+          },
+          {
+            "code": "1114072",
+            "display": "vandetanib 100 MG [Caprelsa]"
+          },
+          {
+            "code": "1869516",
+            "display": "everolimus Tablet for Oral Suspension [Afinitor]"
+          },
+          {
+            "code": "2359335",
+            "display": "Pemazyre"
+          },
+          {
+            "code": "2262443",
+            "display": "zanubrutinib Oral Capsule [Brukinsa]"
+          },
+          {
+            "code": "1424915",
+            "display": "dabrafenib Oral Capsule"
+          },
+          {
+            "code": "1310137",
+            "display": "Afinitor Oral Liquid Product"
+          },
+          {
+            "code": "2362235",
+            "display": "Tabrecta"
+          },
+          {
+            "code": "1722372",
+            "display": "cobimetinib 20 MG [Cotellic]"
+          },
+          {
+            "code": "1424914",
+            "display": "dabrafenib Pill"
+          },
+          {
+            "code": "2049122",
+            "display": "binimetinib"
+          },
+          {
+            "code": "1721568",
+            "display": "osimertinib Oral Tablet [Tagrisso]"
+          },
+          {
+            "code": "1727478",
+            "display": "alectinib Oral Capsule"
+          },
+          {
+            "code": "2197594",
+            "display": "fedratinib hydrochloride"
+          },
+          {
+            "code": "1425222",
+            "display": "dabrafenib mesylate"
+          },
+          {
+            "code": "1721583",
+            "display": "osimertinib 80 MG Oral Tablet [Tagrisso]"
+          },
+          {
+            "code": "1790167",
+            "display": "cabozantinib 20 MG Oral Tablet [Cabometyx]"
+          },
+          {
+            "code": "1940653",
+            "display": "Nerlynx Pill"
+          },
+          {
+            "code": "1986818",
+            "display": "Calquence Pill"
+          },
+          {
+            "code": "1363312",
+            "display": "{84 (cabozantinib 20 MG Oral Capsule) / 28 (cabozantinib 80 MG Oral Capsule) } Pack"
+          },
+          {
+            "code": "2105811",
+            "display": "gilteritinib 40 MG Oral Tablet"
+          },
+          {
+            "code": "1363270",
+            "display": "cabozantinib Oral Product"
+          },
+          {
+            "code": "2103179",
+            "display": "lorlatinib 100 MG Oral Tablet [Lorbrena]"
+          },
+          {
+            "code": "1940651",
+            "display": "neratinib Oral Tablet [Nerlynx]"
+          },
+          {
+            "code": "2105651",
+            "display": "larotrectinib Oral Solution [Vitrakvi]"
+          },
+          {
+            "code": "722289",
+            "display": "1.2 ML temsirolimus 25 MG/ML Injection"
+          },
+          {
+            "code": "2197875",
+            "display": "entrectinib 200 MG Oral Capsule"
+          },
+          {
+            "code": "2058923",
+            "display": "dacomitinib 30 MG"
+          },
+          {
+            "code": "2289426",
+            "display": "selumetinib 25 MG Oral Capsule"
+          },
+          {
+            "code": "2362239",
+            "display": "Tabrecta Pill"
+          },
+          {
+            "code": "1724304",
+            "display": "temsirolimus Injection"
+          },
+          {
+            "code": "867500",
+            "display": "pazopanib 200 MG"
+          },
+          {
+            "code": "1940654",
+            "display": "neratinib 40 MG Oral Tablet [Nerlynx]"
+          },
+          {
+            "code": "1604343",
+            "display": "lenvatinib Pill"
+          },
+          {
+            "code": "2369403",
+            "display": "ripretinib 50 MG Oral Tablet [Qinlock]"
+          },
+          {
+            "code": "2103166",
+            "display": "lorlatinib Oral Product"
+          },
+          {
+            "code": "1986812",
+            "display": "acalabrutinib Oral Capsule"
+          },
+          {
+            "code": "1946837",
+            "display": "abemaciclib 100 MG"
+          },
+          {
+            "code": "2002719",
+            "display": "nilotinib 50 MG Oral Capsule [Tasigna]"
+          },
+          {
+            "code": "1604341",
+            "display": "lenvatinib 10 MG"
+          },
+          {
+            "code": "2197494",
+            "display": "fedratinib Oral Capsule"
+          },
+          {
+            "code": "1873986",
+            "display": "ribociclib Oral Tablet [Kisqali]"
+          },
+          {
+            "code": "2289428",
+            "display": "selumetinib 25 MG Oral Capsule [Koselugo]"
+          },
+          {
+            "code": "1790170",
+            "display": "cabozantinib 40 MG [Cabometyx]"
+          },
+          {
+            "code": "2002718",
+            "display": "nilotinib 50 MG [Tasigna]"
+          },
+          {
+            "code": "1940642",
+            "display": "neratinib maleate"
+          },
+          {
+            "code": "1162503",
+            "display": "erlotinib Oral Product"
+          },
+          {
+            "code": "2103169",
+            "display": "lorlatinib 25 MG Oral Tablet"
+          },
+          {
+            "code": "1430454",
+            "display": "afatinib 40 MG"
+          },
+          {
+            "code": "1177782",
+            "display": "Sprycel Pill"
+          },
+          {
+            "code": "1165617",
+            "display": "crizotinib Pill"
+          },
+          {
+            "code": "1535464",
+            "display": "ceritinib 150 MG [Zykadia]"
+          },
+          {
+            "code": "1363268",
+            "display": "cabozantinib"
+          },
+          {
+            "code": "1946836",
+            "display": "abemaciclib 50 MG Oral Tablet [Verzenio]"
+          },
+          {
+            "code": "1790169",
+            "display": "cabozantinib 40 MG Oral Tablet"
+          },
+          {
+            "code": "616289",
+            "display": "sunitinib 50 MG Oral Capsule"
+          },
+          {
+            "code": "1592749",
+            "display": "nintedanib 150 MG"
+          },
+          {
+            "code": "1098416",
+            "display": "vandetanib 100 MG Oral Tablet"
+          },
+          {
+            "code": "2534240",
+            "display": "tivozanib 0.89 MG [Fotivda]"
+          },
+          {
+            "code": "2289414",
+            "display": "selumetinib 10 MG"
+          },
+          {
+            "code": "1592739",
+            "display": "nintedanib Oral Product"
+          },
+          {
+            "code": "2289421",
+            "display": "selumetinib Oral Capsule [Koselugo]"
+          },
+          {
+            "code": "1363276",
+            "display": "cabozantinib Oral Capsule [Cometriq]"
+          },
+          {
+            "code": "2197872",
+            "display": "Rozlytrek Pill"
+          },
+          {
+            "code": "2002716",
+            "display": "nilotinib 50 MG"
+          },
+          {
+            "code": "2559726",
+            "display": "avapritinib 50 MG"
+          },
+          {
+            "code": "1601377",
+            "display": "palbociclib Oral Product"
+          },
+          {
+            "code": "1425106",
+            "display": "trametinib 0.5 MG [Mekinist]"
+          },
+          {
+            "code": "2105808",
+            "display": "gilteritinib Oral Product"
+          },
+          {
+            "code": "2362232",
+            "display": "capmatinib Pill"
+          },
+          {
+            "code": "1160853",
+            "display": "sunitinib Pill"
+          },
+          {
+            "code": "672150",
+            "display": "lapatinib 250 MG [Tykerb]"
+          },
+          {
+            "code": "1312398",
+            "display": "regorafenib 40 MG"
+          },
+          {
+            "code": "2183123",
+            "display": "pexidartinib Pill"
+          },
+          {
+            "code": "1363279",
+            "display": "cabozantinib 20 MG Oral Capsule [Cometriq]"
+          },
+          {
+            "code": "1940649",
+            "display": "Nerlynx"
+          },
+          {
+            "code": "2359268",
+            "display": "pemigatinib"
+          },
+          {
+            "code": "2473041",
+            "display": "ponatinib 10 MG [Iclusig]"
+          },
+          {
+            "code": "1544467",
+            "display": "idelalisib 100 MG [Zydelig]"
+          },
+          {
+            "code": "2197870",
+            "display": "entrectinib Oral Capsule [Rozlytrek]"
+          },
+          {
+            "code": "1243009",
+            "display": "Inlyta Pill"
+          },
+          {
+            "code": "2058512",
+            "display": "duvelisib Pill"
+          },
+          {
+            "code": "2105810",
+            "display": "gilteritinib Oral Tablet"
+          },
+          {
+            "code": "2284107",
+            "display": "palbociclib 75 MG Oral Tablet"
+          },
+          {
+            "code": "2359346",
+            "display": "pemigatinib 9 MG Oral Tablet"
+          },
+          {
+            "code": "2169297",
+            "display": "alpelisib Oral Product"
+          },
+          {
+            "code": "1727482",
+            "display": "alectinib Oral Capsule [Alecensa]"
+          },
+          {
+            "code": "1946832",
+            "display": "abemaciclib 50 MG [Verzenio]"
+          },
+          {
+            "code": "723805",
+            "display": "Torisel"
+          },
+          {
+            "code": "977426",
+            "display": "everolimus 0.25 MG"
+          },
+          {
+            "code": "1986819",
+            "display": "acalabrutinib 100 MG Oral Capsule [Calquence]"
+          },
+          {
+            "code": "2183131",
+            "display": "pexidartinib 200 MG Oral Capsule [Turalio]"
+          },
+          {
+            "code": "2272119",
+            "display": "avapritinib 200 MG"
+          },
+          {
+            "code": "2361289",
+            "display": "tucatinib Oral Tablet"
+          },
+          {
+            "code": "2183129",
+            "display": "Turalio Oral Product"
+          },
+          {
+            "code": "1722380",
+            "display": "cobimetinib fumarate"
+          },
+          {
+            "code": "1430453",
+            "display": "afatinib 30 MG Oral Tablet [Gilotrif]"
+          },
+          {
+            "code": "1873989",
+            "display": "ribociclib 200 MG Oral Tablet [Kisqali]"
+          },
+          {
+            "code": "2058520",
+            "display": "duvelisib 15 MG Oral Capsule [Copiktra]"
+          },
+          {
+            "code": "1790174",
+            "display": "cabozantinib 60 MG [Cabometyx]"
+          },
+          {
+            "code": "746608",
+            "display": "nilotinib Oral Capsule [Tasigna]"
+          },
+          {
+            "code": "2056895",
+            "display": "everolimus 1 MG Oral Tablet"
+          },
+          {
+            "code": "2169316",
+            "display": "alpelisib 50 MG Oral Tablet"
+          },
+          {
+            "code": "997653",
+            "display": "nilotinib 150 MG Oral Capsule"
+          },
+          {
+            "code": "735866",
+            "display": "Tasigna"
+          },
+          {
+            "code": "2534246",
+            "display": "tivozanib 1.34 MG"
+          },
+          {
+            "code": "2197493",
+            "display": "fedratinib Pill"
+          },
+          {
+            "code": "2361285",
+            "display": "tucatinib"
+          },
+          {
+            "code": "2169285",
+            "display": "alpelisib"
+          },
+          {
+            "code": "1363278",
+            "display": "Cometriq Pill"
+          },
+          {
+            "code": "2197868",
+            "display": "Rozlytrek"
+          },
+          {
+            "code": "1544461",
+            "display": "idelalisib 100 MG"
+          },
+          {
+            "code": "1544473",
+            "display": "idelalisib 150 MG Oral Tablet"
+          },
+          {
+            "code": "845509",
+            "display": "Afinitor"
+          },
+          {
+            "code": "672152",
+            "display": "lapatinib 250 MG Oral Tablet [Tykerb]"
+          },
+          {
+            "code": "1045406",
+            "display": "dasatinib 80 MG Oral Tablet"
+          },
+          {
+            "code": "1156709",
+            "display": "gefitinib Pill"
+          },
+          {
+            "code": "2473039",
+            "display": "ponatinib 10 MG"
+          },
+          {
+            "code": "616281",
+            "display": "sunitinib 12.5 MG [Sutent]"
+          },
+          {
+            "code": "1946829",
+            "display": "abemaciclib Oral Tablet"
+          },
+          {
+            "code": "1923057",
+            "display": "{28 (letrozole 2.5 MG Oral Tablet) / 63 (ribociclib 200 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1193343",
+            "display": "ruxolitinib 15 MG Oral Tablet"
+          },
+          {
+            "code": "1308430",
+            "display": "everolimus 3 MG Tablet for Oral Suspension"
+          },
+          {
+            "code": "2359348",
+            "display": "pemigatinib 9 MG Oral Tablet [Pemazyre]"
+          },
+          {
+            "code": "2123141",
+            "display": "erdafitinib 4 MG Oral Tablet [Balversa]"
+          },
+          {
+            "code": "2000030",
+            "display": "ibrutinib 560 MG [Imbruvica]"
+          },
+          {
+            "code": "1945085",
+            "display": "Aliqopa Injectable Product"
+          },
+          {
+            "code": "2262444",
+            "display": "Brukinsa Oral Product"
+          },
+          {
+            "code": "2262440",
+            "display": "zanubrutinib 80 MG Oral Capsule"
+          },
+          {
+            "code": "746604",
+            "display": "nilotinib 200 MG"
+          },
+          {
+            "code": "1946844",
+            "display": "abemaciclib 150 MG Oral Tablet [Verzenio]"
+          },
+          {
+            "code": "1790163",
+            "display": "cabozantinib 20 MG [Cabometyx]"
+          },
+          {
+            "code": "2105650",
+            "display": "larotrectinib 20 MG/ML [Vitrakvi]"
+          },
+          {
+            "code": "845507",
+            "display": "everolimus 10 MG Oral Tablet"
+          },
+          {
+            "code": "1425100",
+            "display": "trametinib 0.5 MG"
+          },
+          {
+            "code": "1722369",
+            "display": "cobimetinib Oral Tablet"
+          },
+          {
+            "code": "2197497",
+            "display": "fedratinib 100 MG [Inrebic]"
+          },
+          {
+            "code": "1604384",
+            "display": "{30 (lenvatinib 10 MG Oral Capsule [Lenvima]) } Pack [Lenvima 10]"
+          },
+          {
+            "code": "732187",
+            "display": "pazopanib hydrochloride"
+          },
+          {
+            "code": "1193327",
+            "display": "ruxolitinib 10 MG"
+          },
+          {
+            "code": "1193333",
+            "display": "ruxolitinib 10 MG [Jakafi]"
+          },
+          {
+            "code": "1177781",
+            "display": "Sprycel Oral Product"
+          },
+          {
+            "code": "1312405",
+            "display": "regorafenib Oral Tablet [Stivarga]"
+          },
+          {
+            "code": "1430455",
+            "display": "afatinib 40 MG Oral Tablet"
+          },
+          {
+            "code": "282388",
+            "display": "imatinib"
+          },
+          {
+            "code": "1946830",
+            "display": "abemaciclib 50 MG Oral Tablet"
+          },
+          {
+            "code": "643174",
+            "display": "dasatinib 50 MG [Sprycel]"
+          },
+          {
+            "code": "1945086",
+            "display": "copanlisib 60 MG Injection [Aliqopa]"
+          },
+          {
+            "code": "2049126",
+            "display": "binimetinib Oral Tablet"
+          },
+          {
+            "code": "2272124",
+            "display": "avapritinib 300 MG Oral Tablet"
+          },
+          {
+            "code": "977430",
+            "display": "everolimus Oral Tablet [Zortress]"
+          },
+          {
+            "code": "2362233",
+            "display": "capmatinib Oral Tablet"
+          },
+          {
+            "code": "1424917",
+            "display": "dabrafenib 75 MG"
+          },
+          {
+            "code": "1921221",
+            "display": "brigatinib Oral Tablet"
+          },
+          {
+            "code": "1925493",
+            "display": "brigatinib 90 MG"
+          },
+          {
+            "code": "1721562",
+            "display": "osimertinib Oral Product"
+          },
+          {
+            "code": "2369395",
+            "display": "ripretinib Pill"
+          },
+          {
+            "code": "1727480",
+            "display": "Alecensa"
+          },
+          {
+            "code": "1921228",
+            "display": "brigatinib 30 MG Oral Tablet [Alunbrig]"
+          },
+          {
+            "code": "1541928",
+            "display": "sunitinib 37.5 MG Oral Capsule [Sutent]"
+          },
+          {
+            "code": "1363410",
+            "display": "{28 (cabozantinib 20 MG Oral Capsule [Cometriq]) / 28 (cabozantinib 80 MG Oral Capsule [Cometriq]) } Pack [Cometriq 100 MG Daily Dose Carton]"
+          },
+          {
+            "code": "2123137",
+            "display": "erdafitinib 3 MG Oral Tablet [Balversa]"
+          },
+          {
+            "code": "2197876",
+            "display": "entrectinib 200 MG [Rozlytrek]"
+          },
+          {
+            "code": "1364580",
+            "display": "{84 (cabozantinib 20 MG Oral Capsule) } Pack"
+          },
+          {
+            "code": "2049112",
+            "display": "Braftovi"
+          },
+          {
+            "code": "1193341",
+            "display": "ruxolitinib 5 MG Oral Tablet [Jakafi]"
+          },
+          {
+            "code": "2049124",
+            "display": "binimetinib Oral Product"
+          },
+          {
+            "code": "2559729",
+            "display": "avapritinib 50 MG Oral Tablet [Ayvakit]"
+          },
+          {
+            "code": "2058513",
+            "display": "duvelisib Oral Capsule"
+          },
+          {
+            "code": "1186299",
+            "display": "Xalkori Pill"
+          },
+          {
+            "code": "1873985",
+            "display": "ribociclib 200 MG [Kisqali]"
+          },
+          {
+            "code": "1721569",
+            "display": "Tagrisso Oral Product"
+          },
+          {
+            "code": "603205",
+            "display": "erlotinib 150 MG"
+          },
+          {
+            "code": "1307621",
+            "display": "bosutinib Oral Product"
+          },
+          {
+            "code": "2058511",
+            "display": "duvelisib Oral Product"
+          },
+          {
+            "code": "1727476",
+            "display": "alectinib Oral Product"
+          },
+          {
+            "code": "2289420",
+            "display": "selumetinib 10 MG [Koselugo]"
+          },
+          {
+            "code": "1792393",
+            "display": "{30 (lenvatinib 10 MG Oral Capsule [Lenvima]) / 60 (lenvatinib 4 MG Oral Capsule [Lenvima]) } Pack [Lenvima 18]"
+          },
+          {
+            "code": "2058510",
+            "display": "duvelisib 15 MG"
+          },
+          {
+            "code": "2534248",
+            "display": "tivozanib 1.34 MG [Fotivda]"
+          },
+          {
+            "code": "1363272",
+            "display": "cabozantinib Oral Capsule"
+          },
+          {
+            "code": "2359344",
+            "display": "pemigatinib 4.5 MG Oral Tablet [Pemazyre]"
+          },
+          {
+            "code": "1172982",
+            "display": "Caprelsa Oral Product"
+          },
+          {
+            "code": "1946825",
+            "display": "abemaciclib"
+          },
+          {
+            "code": "2361298",
+            "display": "tucatinib 50 MG Oral Tablet"
+          },
+          {
+            "code": "1442989",
+            "display": "ibrutinib Oral Capsule [Imbruvica]"
+          },
+          {
+            "code": "2361293",
+            "display": "tucatinib Oral Tablet [Tukysa]"
+          },
+          {
+            "code": "2169309",
+            "display": "alpelisib 200 MG"
+          },
+          {
+            "code": "1364358",
+            "display": "ponatinib 15 MG Oral Tablet [Iclusig]"
+          },
+          {
+            "code": "1544463",
+            "display": "idelalisib Pill"
+          },
+          {
+            "code": "2183122",
+            "display": "pexidartinib Oral Product"
+          },
+          {
+            "code": "2534236",
+            "display": "tivozanib Pill"
+          },
+          {
+            "code": "1988785",
+            "display": "{23 (brigatinib 180 MG Oral Tablet) / 7 (brigatinib 90 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "2058524",
+            "display": "duvelisib 25 MG [Copiktra]"
+          },
+          {
+            "code": "2289427",
+            "display": "selumetinib 25 MG [Koselugo]"
+          },
+          {
+            "code": "1544468",
+            "display": "idelalisib Oral Tablet [Zydelig]"
+          },
+          {
+            "code": "2000017",
+            "display": "ibrutinib 140 MG Oral Tablet"
+          },
+          {
+            "code": "1601392",
+            "display": "palbociclib 75 MG Oral Capsule"
+          },
+          {
+            "code": "2103176",
+            "display": "lorlatinib 100 MG"
+          },
+          {
+            "code": "1307634",
+            "display": "bosutinib 500 MG [Bosulif]"
+          },
+          {
+            "code": "2058515",
+            "display": "Copiktra"
+          },
+          {
+            "code": "2105632",
+            "display": "larotrectinib Oral Capsule"
+          },
+          {
+            "code": "2362242",
+            "display": "capmatinib 200 MG Oral Tablet"
+          },
+          {
+            "code": "1157186",
+            "display": "dasatinib Oral Product"
+          },
+          {
+            "code": "1727455",
+            "display": "alectinib"
+          },
+          {
+            "code": "1147220",
+            "display": "vemurafenib"
+          },
+          {
+            "code": "1604348",
+            "display": "lenvatinib 4 MG Oral Capsule"
+          },
+          {
+            "code": "2058910",
+            "display": "dacomitinib 15 MG"
+          },
+          {
+            "code": "1946831",
+            "display": "Verzenio"
+          },
+          {
+            "code": "1604347",
+            "display": "lenvatinib 4 MG"
+          },
+          {
+            "code": "643170",
+            "display": "Sprycel"
+          },
+          {
+            "code": "1148502",
+            "display": "crizotinib 200 MG Oral Capsule [Xalkori]"
+          },
+          {
+            "code": "2559724",
+            "display": "avapritinib 25 MG [Ayvakit]"
+          },
+          {
+            "code": "483431",
+            "display": "imatinib 400 MG Oral Capsule"
+          },
+          {
+            "code": "1425103",
+            "display": "trametinib Oral Tablet"
+          },
+          {
+            "code": "2123128",
+            "display": "erdafitinib Oral Product"
+          },
+          {
+            "code": "1186915",
+            "display": "Tykerb Pill"
+          },
+          {
+            "code": "2058523",
+            "display": "duvelisib 25 MG Oral Capsule"
+          },
+          {
+            "code": "2272122",
+            "display": "avapritinib 200 MG Oral Tablet [Ayvakit]"
+          },
+          {
+            "code": "1544475",
+            "display": "idelalisib 150 MG Oral Tablet [Zydelig]"
+          },
+          {
+            "code": "1193326",
+            "display": "ruxolitinib"
+          },
+          {
+            "code": "2105631",
+            "display": "larotrectinib Pill"
+          },
+          {
+            "code": "1923056",
+            "display": "{28 (letrozole 2.5 MG Oral Tablet [Femara]) / 42 (ribociclib 200 MG Oral Tablet [Kisqali]) } Pack [Kisqali Femara Co-Pack 400]"
+          }
+        ]
+      }
+    ]
+  }
+}

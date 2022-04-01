@@ -1,0 +1,200 @@
+{
+  "resourceType": "ValueSet",
+  "id": "9299bd8a-7ae6-11ec-ba14-00163e0e3b1e",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a> version <code>2.7</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/56782-6.html\">56782-6</a></td><td>Amylase S4/Amylase.total in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/14589-6.html\">14589-6</a></td><td>Amylase isoenzymes [Interpretation] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/1810-1.html\">1810-1</a></td><td>Amylase/Creatinine [Mass Ratio] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/26011-7.html\">26011-7</a></td><td>Macroamylase/Amylase.total in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/49251-2.html\">49251-2</a></td><td>Amylase isoenzymes [Interpretation] in Serum or Plasma Narrative</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/24334-5.html\">24334-5</a></td><td>Amylase isoenzyme 7 panel - Serum</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/1802-8.html\">1802-8</a></td><td>Amylase.P1 [Enzymatic activity/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/15022-7.html\">15022-7</a></td><td>Amylase.P3/Amylase.total in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/1807-7.html\">1807-7</a></td><td>Amylase S2 [Enzymatic activity/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/72571-3.html\">72571-3</a></td><td>Amylase.pancreatic/Amylase.total [Pure catalytic fraction] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/2591-6.html\">2591-6</a></td><td>Macroamylase [Enzymatic activity/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/56776-8.html\">56776-8</a></td><td>Amylase S3+S4/Amylase.total in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/25312-0.html\">25312-0</a></td><td>Amylase.pancreatic/Amylase.total in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/1808-5.html\">1808-5</a></td><td>Amylase S3 [Enzymatic activity/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/6697-7.html\">6697-7</a></td><td>Deprecated Amylase [Enzymatic activity/volume] in Serum</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/54472-6.html\">54472-6</a></td><td>Amylase.macromolecular/Amylase.total in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/25313-8.html\">25313-8</a></td><td>Amylase.salivary/Amylase.total in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/15023-5.html\">15023-5</a></td><td>Amylase S1/Amylase.total in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/15020-1.html\">15020-1</a></td><td>Amylase.P1/Amylase.total in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/15025-0.html\">15025-0</a></td><td>Amylase S3/Amylase.total in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/1805-1.html\">1805-1</a></td><td>Amylase.pancreatic [Enzymatic activity/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/15024-3.html\">15024-3</a></td><td>Amylase S2/Amylase.total in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/15021-9.html\">15021-9</a></td><td>Amylase.P2/Amylase.total in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/77146-9.html\">77146-9</a></td><td>Amylase [Enzymatic activity/volume] in Serum, Plasma or Blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/1798-8.html\">1798-8</a></td><td>Amylase [Enzymatic activity/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/1803-6.html\">1803-6</a></td><td>Amylase.P2 [Enzymatic activity/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/24333-7.html\">24333-7</a></td><td>Amylase isoenzyme 3 panel - Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/1806-9.html\">1806-9</a></td><td>Amylase S1 [Enzymatic activity/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/76630-3.html\">76630-3</a></td><td>Amylase [Enzymatic activity/volume] in Blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/15358-5.html\">15358-5</a></td><td>Macroamylase [Presence] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/1809-3.html\">1809-3</a></td><td>Amylase.salivary [Enzymatic activity/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/72272-8.html\">72272-8</a></td><td>Amylase and triacylglycerol lipase panel - Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/1804-4.html\">1804-4</a></td><td>Amylase.P3 [Enzymatic activity/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/72572-1.html\">72572-1</a></td><td>Amylase.salivary/Amylase.total [Pure catalytic fraction] in Serum or Plasma</td></tr></table></li><li>Include these codes as defined in <code>https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134</code> version <code>1</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>4806</td><td>Amylase Lvl</td></tr></table></li></ul></div>"
+  },
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/9299bd8a-7ae6-11ec-ba14-00163e0e3b1e",
+  "version": "0.9.5",
+  "name": "Amylase",
+  "title": "Amylase",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-03-14T18:28:42+00:00",
+  "publisher": "Project Ronin Inc.",
+  "contact": [
+    {
+      "name": "Project Ronin Inc.",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.projectronin.com"
+        },
+        {
+          "system": "email",
+          "value": "contact@projectronin.com"
+        }
+      ]
+    }
+  ],
+  "description": "LOINC codes indicating serum Amylase measurement Adding proprietary MDA codes",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "56782-6",
+            "display": "Amylase S4/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "14589-6",
+            "display": "Amylase isoenzymes [Interpretation] in Serum or Plasma"
+          },
+          {
+            "code": "1810-1",
+            "display": "Amylase/Creatinine [Mass Ratio] in Serum or Plasma"
+          },
+          {
+            "code": "26011-7",
+            "display": "Macroamylase/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "49251-2",
+            "display": "Amylase isoenzymes [Interpretation] in Serum or Plasma Narrative"
+          },
+          {
+            "code": "24334-5",
+            "display": "Amylase isoenzyme 7 panel - Serum"
+          },
+          {
+            "code": "1802-8",
+            "display": "Amylase.P1 [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "15022-7",
+            "display": "Amylase.P3/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "1807-7",
+            "display": "Amylase S2 [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "72571-3",
+            "display": "Amylase.pancreatic/Amylase.total [Pure catalytic fraction] in Serum or Plasma"
+          },
+          {
+            "code": "2591-6",
+            "display": "Macroamylase [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "56776-8",
+            "display": "Amylase S3+S4/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "25312-0",
+            "display": "Amylase.pancreatic/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "1808-5",
+            "display": "Amylase S3 [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "6697-7",
+            "display": "Deprecated Amylase [Enzymatic activity/volume] in Serum"
+          },
+          {
+            "code": "54472-6",
+            "display": "Amylase.macromolecular/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "25313-8",
+            "display": "Amylase.salivary/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "15023-5",
+            "display": "Amylase S1/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "15020-1",
+            "display": "Amylase.P1/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "15025-0",
+            "display": "Amylase S3/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "1805-1",
+            "display": "Amylase.pancreatic [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "15024-3",
+            "display": "Amylase S2/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "15021-9",
+            "display": "Amylase.P2/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "77146-9",
+            "display": "Amylase [Enzymatic activity/volume] in Serum, Plasma or Blood"
+          },
+          {
+            "code": "1798-8",
+            "display": "Amylase [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "1803-6",
+            "display": "Amylase.P2 [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "24333-7",
+            "display": "Amylase isoenzyme 3 panel - Serum or Plasma"
+          },
+          {
+            "code": "1806-9",
+            "display": "Amylase S1 [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "76630-3",
+            "display": "Amylase [Enzymatic activity/volume] in Blood"
+          },
+          {
+            "code": "15358-5",
+            "display": "Macroamylase [Presence] in Serum or Plasma"
+          },
+          {
+            "code": "1809-3",
+            "display": "Amylase.salivary [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "72272-8",
+            "display": "Amylase and triacylglycerol lipase panel - Serum or Plasma"
+          },
+          {
+            "code": "1804-4",
+            "display": "Amylase.P3 [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "72572-1",
+            "display": "Amylase.salivary/Amylase.total [Pure catalytic fraction] in Serum or Plasma"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "4806",
+            "display": "Amylase Lvl"
+          }
+        ]
+      }
+    ]
+  }
+}

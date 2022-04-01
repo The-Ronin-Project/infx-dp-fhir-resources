@@ -1,0 +1,118 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "documentReferenceExample1",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-document-reference"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"documentReferenceExample1\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-oncology-document-reference.html\">Oncology Document Reference</a></p></div><p><b>Status of deletion</b>: true</p><p><b>User who deleted the document</b>: <a href=\"Practitioner-ExamplePractitioner.html\">Practitioner/ExamplePractitioner</a> \" CLARENCE\"</p><p><b>Time of document deletion</b>: 2019-02-07</p><p><b>Last Editor ID</b>: 123</p><p><b>Last Editor ExtID</b>: ABC</p><p><b>Last Editor Name</b>: Tony</p><p><b>Last Editor Display Name</b>: Tony T</p><p><b>Last Editor Ini</b>: No clue</p><p><b>Last Editor Update</b>: 2019-02-07 01:28:17+0000</p><p><b>Cosign Requirement Abbreviation</b>: ABC</p><p><b>Cosign Requirement Name</b>: ABC XYZ</p><p><b>Cosign Requirement Title</b>: Some title</p><p><b>Cosign Time</b>: 2019-02-07 01:28:17+0000</p><p><b>Cosigner</b>: <a href=\"Practitioner-ExamplePractitioner.html\">Practitioner/ExamplePractitioner</a> \" CLARENCE\"</p><p><b>identifier</b>: id: 013</p><p><b>status</b>: current</p><p><b>type</b>: Pathology study <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#11526-1)</span></p><p><b>category</b>: Clinical Note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/core/STU3.1/CodeSystem-us-core-documentreference-category.html\">US Core DocumentReferences Category Codes</a>#clinical-note)</span></p><p><b>subject</b>: <a href=\"Patient-ExamplePatient.html\">Patient/ExamplePatient</a> \" PABLO\"</p><p><b>date</b>: Feb 7, 2015, 11:28:17 AM</p><blockquote><p><b>content</b></p></blockquote><blockquote><p><b>context</b></p></blockquote></div>"
+  },
+  "extension": [
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/isDeleted",
+      "valueBoolean": true
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/deletionUser",
+      "valueReference": {
+        "reference": "Practitioner/ExamplePractitioner"
+      }
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/deletionTime",
+      "valueDateTime": "2019-02-07"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/lastEditorId",
+      "valueString": "123"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/lastEditorExtId",
+      "valueString": "ABC"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/lastEditorName",
+      "valueString": "Tony"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/lastEditorDisplayName",
+      "valueString": "Tony T"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/lastEditorIni",
+      "valueString": "No clue"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/lastEditorUpdate",
+      "valueDateTime": "2019-02-07T13:28:17.000Z"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/cosignRequirementAbbreviation",
+      "valueString": "ABC"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/cosignRequirementName",
+      "valueString": "ABC XYZ"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/cosignRequirementTitle",
+      "valueString": "Some title"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/cosignDateTime",
+      "valueDateTime": "2019-02-07T13:28:17.000Z"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/cosigner",
+      "valueReference": {
+        "reference": "Practitioner/ExamplePractitioner"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "013"
+    }
+  ],
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "11526-1",
+        "display": "Pathology study"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+          "code": "clinical-note",
+          "display": "Clinical Note"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "date": "2015-02-07T13:28:17.239+02:00",
+  "content": [
+    {
+      "id": "exampleContentId",
+      "attachment": {
+        "contentType": "json",
+        "url": "http://example.com"
+      }
+    }
+  ],
+  "context": {
+    "id": "exampleContextId"
+  }
+}
