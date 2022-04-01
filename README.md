@@ -52,8 +52,54 @@ The resultant test.ndjson.gz can be uploaded to local Aidbox for testing.
 Ronin defines some custom resources that must be registered with Aidbox before being able to access it via the Aidbox APIs or Notebooks
 The cutom resources' schemas (json files) are defined in the custom/schema folder.
 
-To register custom resources, import this Notebook into your local Aidbox dashboard:
-https://aidbox.app/ExportedNotebook/c95f3d44-6c20-492b-8027-3365969d7cb7  
+To register the DetectedEdVisit use the REST Console
+
+```
+POST /App
+content-type: text/yaml
+
+resourceType: App
+id: DetectedEdVisit
+apiVersion: 1
+type: app
+entities:
+  EntityIndex:
+    attrs:
+      start: {type: positiveInt, isRequired: true}
+      end: {type: positiveInt, isRequired: true}
+  DetectedEdVisit:
+    attrs:
+      identifier: {type: Identifier, isCollection: true, isRequired: true}
+      modelVersion: {type: string, isRequired: true}
+      humanAnnotated: {type: boolean, isRequired: true}
+      startDate: {type: date, isRequired: false}
+      source: {type: string, isRequired: true}
+      sourceEntityIndex: {type: EntityIndex, isCollection: true, isRequired: true}
+      location: {type: string, isRequired: false}
+      context:
+        type: Reference
+        refers: [DocumentReference]
+        isRequired: true
+      subject:
+        type: Reference
+        refers: [Patient]
+        isRequired: true
+```
+
+and for the search parameter:
+
+```
+PUT /SearchParameter/DetectedEdVisit.startDate
+content-type: text/yaml
+
+resourceType : Search
+name : startDate
+type: date
+expression: [[startDate]]
+resource :
+  id : DetectedEdVisit
+  resourceType: Entity
+```
   
   
 **NB DO NOT PRESS PUBLISH ON ANY NOTEBOOK** - it will make it public to the world.
