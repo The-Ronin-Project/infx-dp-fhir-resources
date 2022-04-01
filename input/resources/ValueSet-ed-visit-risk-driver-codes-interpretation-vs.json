@@ -1,44 +1,12 @@
 {
   "resourceType": "ValueSet",
-  "id": "ed-visit-risk-driver-codes-interpretation-vs",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://projectronin.com/ds/riskDriver/interpretation</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>increase</td><td>Increase</td></tr><tr><td>decrease</td><td>Decrease</td></tr></table></li></ul></div>"
-  },
-  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-risk-driver-codes-interpretation-vs",
-  "version": "0.9.5",
-  "name": "EDVisitRiskDriverInterpretationCodesVS",
-  "title": "ED Visit Risk Driver Codes Value Set",
   "status": "active",
-  "date": "2022-03-14T18:28:42+00:00",
-  "publisher": "Project Ronin Inc.",
-  "contact": [
-    {
-      "name": "Project Ronin Inc.",
-      "telecom": [
-        {
-          "system": "url",
-          "value": "https://www.projectronin.com"
-        },
-        {
-          "system": "email",
-          "value": "contact@projectronin.com"
-        }
-      ]
-    }
-  ],
+  "name": "EDVisitRiskDriverInterpretationCodesVS",
+  "id": "ed-visit-risk-driver-codes-interpretation-vs",
+  "title": "ED Visit Risk Driver Codes Value Set",
   "description": "Contains the values related to ED Visit risk drivers interpretation",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "US",
-          "display": "United States of America"
-        }
-      ]
-    }
-  ],
+  "version": "0.9.7",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-risk-driver-codes-interpretation-vs",
   "compose": {
     "include": [
       {

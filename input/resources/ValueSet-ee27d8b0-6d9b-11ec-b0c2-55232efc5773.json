@@ -1,1 +1,1129 @@
-{"resourceType":"ValueSet","id":"ee27d8b0-6d9b-11ec-b0c2-55232efc5773","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <code>2021</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/416902009\">416902009</a></td><td>Uremic thrombocytopenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/783256001\">783256001</a></td><td>Familial thrombomodulin anomalies (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/307518006\">307518006</a></td><td>Malignancy-related factor VIII deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/441101007\">441101007</a></td><td>Heterozygous protein C deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/278366008\">278366008</a></td><td>Anticoagulant excess without bleeding (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/35913006\">35913006</a></td><td>Acquired factor V deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/33297000\">33297000</a></td><td>Hereditary factor II deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/95843009\">95843009</a></td><td>Acquired hypoplasminogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/43217004\">43217004</a></td><td>Hereditary factor XII deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/28293008\">28293008</a></td><td>Hereditary factor VIII deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1148859000\">1148859000</a></td><td>Disorder of fibrinolysis caused by drug (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/4320005\">4320005</a></td><td>Factor V deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234466008\">234466008</a></td><td>Acquired coagulation disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/438792009\">438792009</a></td><td>Hereditary factor IX deficiency disease without inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234451005\">234451005</a></td><td>Acquired von Willebrand's disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234461003\">234461003</a></td><td>Gamma chain defect dysfibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/421766003\">421766003</a></td><td>Thrombocytopenia associated with acquired immunodeficiency syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/773422002\">773422002</a></td><td>East Texas bleeding disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/200031006\">200031006</a></td><td>Postpartum coagulation defects with postnatal problem (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1563006\">1563006</a></td><td>Protein S deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/733028000\">733028000</a></td><td>Multiple sclerosis, ichthyosis, factor VIII deficiency syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/402851000\">402851000</a></td><td>Neonatal purpura fulminans (homozygous protein C deficiency) (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/12546009\">12546009</a></td><td>Hemorrhagic disease of the newborn due to vitamin K deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/181456001\">181456001</a></td><td>Antiprothrombin disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/32605001\">32605001</a></td><td>Transient neonatal disorder of coagulation (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/33344008\">33344008</a></td><td>Moderate hereditary factor VIII deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/200030007\">200030007</a></td><td>Postpartum coagulation defects - delivered with postnatal problem (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/783194008\">783194008</a></td><td>Bleeding diathesis due to thromboxane synthesis deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/180481005\">180481005</a></td><td>Anti-factor II disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/34417008\">34417008</a></td><td>Disseminated intravascular coagulation in newborn (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/307342006\">307342006</a></td><td>Thrombocytopenia due to massive blood transfusion (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/128106003\">128106003</a></td><td>von Willebrand disease type 1 (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/128114009\">128114009</a></td><td>von Willebrand disease type IC (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191298004\">191298004</a></td><td>Acquired factor II deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/40855001\">40855001</a></td><td>Hereditary factor VII deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234462005\">234462005</a></td><td>Acquired fibrinogen abnormality (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234463000\">234463000</a></td><td>Combined coagulation factor deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/715559004\">715559004</a></td><td>Combined deficiency of factor V and factor VIII (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/440868005\">440868005</a></td><td>Mild hereditary factor IX deficiency disease with inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/438372000\">438372000</a></td><td>Hereditary factor IX deficiency disease with inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/609456005\">609456005</a></td><td>Induced termination of pregnancy complicated by afibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/19520006\">19520006</a></td><td>von Willebrand disease, type IIB (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/111452009\">111452009</a></td><td>Postpartum afibrinogenemia with hemorrhage (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/73975000\">73975000</a></td><td>Factor II deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234465007\">234465007</a></td><td>Alpha-2-antiplasmin deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/76407009\">76407009</a></td><td>Protein C deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/13507004\">13507004</a></td><td>Purpura fulminans (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/61810006\">61810006</a></td><td>Illegal abortion with defibrination syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/67406007\">67406007</a></td><td>Disseminated intravascular coagulation (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/85796009\">85796009</a></td><td>Afibrinogenemia following molar AND/OR ectopic pregnancy (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/95844003\">95844003</a></td><td>Dysplasminogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/45963004\">45963004</a></td><td>Factor XI deficiency, type III (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234453008\">234453008</a></td><td>Passovoy factor deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/359717002\">359717002</a></td><td>Hereditary von Willebrand disease type 2B (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/359711001\">359711001</a></td><td>Hereditary von Willebrand disease type 2A (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/860725002\">860725002</a></td><td>Low von Willebrand factor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/359727008\">359727008</a></td><td>Fibrinogen deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724854007\">724854007</a></td><td>Purpura of skin and or skin-associated mucous membrane co-occurrent and due to coagulation disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/439702007\">439702007</a></td><td>Hereditary protein S deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/27068000\">27068000</a></td><td>Failed attempted abortion with afibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/154826009\">154826009</a></td><td>Secondary thrombocytopenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16773005\">16773005</a></td><td>Drug-induced coagulation inhibitor disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/31925001\">31925001</a></td><td>Hereditary factor I deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/278504009\">278504009</a></td><td>Afibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/441190003\">441190003</a></td><td>Severe hereditary factor IX deficiency disease without inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234454002\">234454002</a></td><td>Prothrombin complex deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/50770000\">50770000</a></td><td>Miscarriage with defibrination syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/440988005\">440988005</a></td><td>Heterozygous protein S deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234445000\">234445000</a></td><td>Congenital factor IX deficiency with inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1148849001\">1148849001</a></td><td>Disorder of fibrinolysis caused by urokinase (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/128090002\">128090002</a></td><td>Benign gestational thrombocytopenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/438599002\">438599002</a></td><td>Moderate hereditary factor VIII deficiency disease with inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/95623001\">95623001</a></td><td>Neonatal coagulation disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234440005\">234440005</a></td><td>Factor VIII deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724637001\">724637001</a></td><td>Isolated thrombocytopenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/359700009\">359700009</a></td><td>Hereditary von Willebrand disease type IA (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/440924009\">440924009</a></td><td>Hereditary hyperfibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/359725000\">359725000</a></td><td>Hereditary von Willebrand disease type 2M (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/439459008\">439459008</a></td><td>Hereditary factor XIII B subunit deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/128115005\">128115005</a></td><td>Pseudo von Willebrand disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/359721009\">359721009</a></td><td>von Willebrand disease type 2B (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/13993001\">13993001</a></td><td>Factor XIII inhibitor disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/46981006\">46981006</a></td><td>Factor XII deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/49762007\">49762007</a></td><td>Hereditary factor XI deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/36351005\">36351005</a></td><td>Antithrombin III deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/10153004\">10153004</a></td><td>Systemic fibrinogenolysis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/359709005\">359709005</a></td><td>von Willebrand disease type IA (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/3230006\">3230006</a></td><td>Illegal abortion with afibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/34395002\">34395002</a></td><td>Thrombocytopenia caused by hypothermia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/61551003\">61551003</a></td><td>Familial multiple factor deficiency syndrome, type VI (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/439145006\">439145006</a></td><td>Congenital hypofibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/785308008\">785308008</a></td><td>Acquired hemophilia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/123790009\">123790009</a></td><td>Blood coagulation disorder with impaired clot retraction time (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/12153008\">12153008</a></td><td>Acquired factor IX deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/439274008\">439274008</a></td><td>Hereditary protein C deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/440993008\">440993008</a></td><td>Severe hereditary factor VIII deficiency disease without inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/19267009\">19267009</a></td><td>Lupus anticoagulant disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/123786007\">123786007</a></td><td>Blood coagulation disorder with shortened coagulation time (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/97571000119109\">97571000119109</a></td><td>Thrombocytopenia co-occurrent and due to alcoholism (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/725105006\">725105006</a></td><td>Bleeding disorder due to deficiency of calcium and diacylglycerol-regulated guanine nucleotide exchange factor I (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/123788008\">123788008</a></td><td>Blood coagulation disorder with shortened bleeding time (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/35066007\">35066007</a></td><td>von Willebrand disease, type IID (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/699208000\">699208000</a></td><td>Thrombocytopenia caused by alcohol (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/74576004\">74576004</a></td><td>Acquired thrombocytopenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/87397002\">87397002</a></td><td>von Willebrand disease, type IIA (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/47307007\">47307007</a></td><td>Factor VIII inhibitor disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/717936002\">717936002</a></td><td>Classic onset hemorrhagic disease of newborn due to vitamin K deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/24149006\">24149006</a></td><td>Hemorrhagic disease of the newborn due to factor II deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/128092005\">128092005</a></td><td>Secondary autoimmune thrombocytopenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/64779008\">64779008</a></td><td>Blood coagulation disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/80988005\">80988005</a></td><td>Mixed cryofibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/371074009\">371074009</a></td><td>Radiation thrombocytopenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/49886003\">49886003</a></td><td>Thrombocytopenia due to blood loss (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/439157002\">439157002</a></td><td>Hereditary combined coagulation factor deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/12501008\">12501008</a></td><td>von Willebrand disease, type IIF (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/49177006\">49177006</a></td><td>Postpartum coagulation defect with hemorrhage (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/426199009\">426199009</a></td><td>Congenital factor IX deficiency without inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/33169001\">33169001</a></td><td>Factor XI deficiency, type II (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/88540000\">88540000</a></td><td>Factor XI deficiency, type I (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/64315007\">64315007</a></td><td>Familial multiple factor deficiency syndrome, type III (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/95842004\">95842004</a></td><td>Autosomal dominant deficiency of plasminogen (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1148862002\">1148862002</a></td><td>Deficiency of factor X due to systemic amyloidosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/359732009\">359732009</a></td><td>von Willebrand disease type 2N (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234450006\">234450006</a></td><td>Congenital von Willebrand's disease type III (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191297009\">191297009</a></td><td>Deficiency of coagulation factor due to vitamin K deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/439455002\">439455002</a></td><td>Hereditary factor XIII A subunit deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/425949001\">425949001</a></td><td>Mild hereditary factor VIII deficiency disease with inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1286003\">1286003</a></td><td>Vitamin K deficiency coagulation disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/441189007\">441189007</a></td><td>Homozygous protein S deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/128113003\">128113003</a></td><td>von Willebrand disease type IB (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/62410004\">62410004</a></td><td>Postpartum fibrinolysis with hemorrhage (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/62751000119108\">62751000119108</a></td><td>Fetal hemophilia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/359730001\">359730001</a></td><td>Acquired afibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/34478009\">34478009</a></td><td>Failed attempted abortion with defibrination syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234456000\">234456000</a></td><td>Congenital fibrinogen abnormality (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/6647006\">6647006</a></td><td>Legal abortion with defibrination syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/95839005\">95839005</a></td><td>Disorder involving the fibrinolytic system (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/62698000\">62698000</a></td><td>Defibrination syndrome following molar AND/OR ectopic pregnancy (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1148930004\">1148930004</a></td><td>Deficiency of coagulation factor due to vitamin K malabsorption in obstructive biliary disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/717937006\">717937006</a></td><td>Late onset diffuse bleeding diathesis secondary to vitamin K deficient hemorrhagic disease of fetus and newborn (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/767712006\">767712006</a></td><td>Factor IX deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/18604004\">18604004</a></td><td>Factor XIII deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724356003\">724356003</a></td><td>Hereditary combined deficiency of vitamin K-dependent clotting factors (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/789291002\">789291002</a></td><td>Consumption coagulopathy caused by snake venom (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/128088003\">128088003</a></td><td>Blood coagulation disorder, categorized by value of screening test (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/52137009\">52137009</a></td><td>von Willebrand disease, type IIE (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/441006000\">441006000</a></td><td>Moderate hereditary factor VIII deficiency disease without inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/50189006\">50189006</a></td><td>Hereditary factor XIII deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/6364000\">6364000</a></td><td>Acquired factor XIII deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/65768009\">65768009</a></td><td>Familial multiple factor deficiency syndrome, type II (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/128107007\">128107007</a></td><td>von Willebrand disease type 2 (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/35554008\">35554008</a></td><td>Acquired factor XI deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/441191004\">441191004</a></td><td>Moderate hereditary factor IX deficiency disease without inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1156746003\">1156746003</a></td><td>Vaccine-induced prothrombotic immune thrombocytopenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/24663001\">24663001</a></td><td>von Willebrand disease, type IIH (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/58327003\">58327003</a></td><td>Factor I inhibitor disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/782909004\">782909004</a></td><td>Hemorrhagic disease due to alpha-1-antitrypsin Pittsburgh mutation (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/439000005\">439000005</a></td><td>Hyperfibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/237337003\">237337003</a></td><td>Afibrinogenemia - postpartum (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191322006\">191322006</a></td><td>Thrombocytopenia caused by drugs (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/440867000\">440867000</a></td><td>Moderate hereditary factor IX deficiency disease with inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234459007\">234459007</a></td><td>Alpha chain defect dysfibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/307517001\">307517001</a></td><td>Pregnancy-related factor VIII deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1908008\">1908008</a></td><td>von Willebrand disease, type IIC (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/123789000\">123789000</a></td><td>Blood coagulation disorder with prolonged bleeding time (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/307514008\">307514008</a></td><td>Idiopathic factor VIII deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/3760002\">3760002</a></td><td>Familial multiple factor deficiency syndrome, type V (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/725157006\">725157006</a></td><td>Acquired purpura fulminans (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/86635005\">86635005</a></td><td>Kasabach-Merritt syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/128108002\">128108002</a></td><td>von Willebrand disease type 3 (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/26029002\">26029002</a></td><td>Mild hereditary factor VIII deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/33820001\">33820001</a></td><td>Acquired factor X deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/278365007\">278365007</a></td><td>Anticoagulant-induced bleeding (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/10749581000119100\">10749581000119100</a></td><td>Blood coagulation disorder complicating childbirth (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/359714009\">359714009</a></td><td>von Willebrand disease type 2A (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/41106001\">41106001</a></td><td>von Willebrand factor inhibitor disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/111589005\">111589005</a></td><td>Dysfibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15132005\">15132005</a></td><td>Acquired factor XII deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/84048006\">84048006</a></td><td>Familial multiple factor deficiency syndrome, type I (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/609462000\">609462000</a></td><td>Induced termination of pregnancy complicated by defibrination syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/30479005\">30479005</a></td><td>Legal abortion with afibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/439156006\">439156006</a></td><td>Acquired combined coagulation factor deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234444001\">234444001</a></td><td>Congenital factor IX deficiency variant (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/9489006\">9489006</a></td><td>Factor X inhibitor disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234447008\">234447008</a></td><td>Congenital von Willebrand's disease type I (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/307515009\">307515009</a></td><td>Autoimmune factor VIII deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/38879000\">38879000</a></td><td>Factor XI inhibitor disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/14230004\">14230004</a></td><td>Acquired factor VIII deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/95845002\">95845002</a></td><td>Hereditary dysplasminogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/725291001\">725291001</a></td><td>Defect of purinergic receptor p2y G protein-coupled 12 (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/441192006\">441192006</a></td><td>Mild hereditary factor IX deficiency disease without inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/721304007\">721304007</a></td><td>Refractory thrombocytopenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/10749641000119106\">10749641000119106</a></td><td>Blood coagulation disorder complicating pregnancy (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234448003\">234448003</a></td><td>Congenital von Willebrand's disease type II (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/359704000\">359704000</a></td><td>von Willebrand disease, type 1^a^ (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/439458000\">439458000</a></td><td>Factor I deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/76642003\">76642003</a></td><td>Factor X deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/41690001\">41690001</a></td><td>Factor V inhibitor disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/717407006\">717407006</a></td><td>Congenital plasminogen activator inhibitor deficiency type 1 (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/81783000\">81783000</a></td><td>Familial multiple factor deficiency syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/717935003\">717935003</a></td><td>Early onset diffuse bleeding diathesis secondary to vitamin K deficient hemorrhagic disease of fetus and newborn (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/2036003\">2036003</a></td><td>Acquired factor VII deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/71723006\">71723006</a></td><td>von Willebrand disease, type IIG (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/154818001\">154818001</a></td><td>Congenital afibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/39191000119103\">39191000119103</a></td><td>Disseminated intravascular coagulation due to placental abruption (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/37350004\">37350004</a></td><td>Hereditary factor X deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/45366001\">45366001</a></td><td>Hereditary dysfibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/48976006\">48976006</a></td><td>Prekallikrein deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/440866009\">440866009</a></td><td>Severe hereditary factor IX deficiency disease with inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/89729000\">89729000</a></td><td>Factor IX inhibitor disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/128105004\">128105004</a></td><td>von Willebrand disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/86075001\">86075001</a></td><td>Coagulation factor deficiency syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/237336007\">237336007</a></td><td>Fibrinolysis - postpartum (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1148857003\">1148857003</a></td><td>Disorder of fibrinolysis caused by tissue plasminogen activator (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/41788008\">41788008</a></td><td>Hereditary factor IX deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/438827002\">438827002</a></td><td>Hereditary thrombophilic dysfibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/88776002\">88776002</a></td><td>Hereditary factor V deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/439699000\">439699000</a></td><td>Hereditary antithrombin III deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234460002\">234460002</a></td><td>Beta chain defect dysfibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/105604006\">105604006</a></td><td>Deficiency of naturally occurring coagulation factor inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/30182008\">30182008</a></td><td>Thrombocytopenia due to extracorporeal circulation (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1148929009\">1148929009</a></td><td>Deficiency of coagulation factor due to vitamin K malabsorption (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/438360006\">438360006</a></td><td>Hereditary factor VIII deficiency disease without inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/716746003\">716746003</a></td><td>Congenital alpha-2-antiplasmin deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/6935003\">6935003</a></td><td>Familial hemorrhagic diathesis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/19307009\">19307009</a></td><td>Drug-induced immune thrombocytopenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16922007\">16922007</a></td><td>Hereditary coagulation factor deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/282707003\">282707003</a></td><td>Acquired inhibitor of coagulation (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/16872008\">16872008</a></td><td>Severe hereditary factor VIII deficiency disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191296000\">191296000</a></td><td>Deficiency of coagulation factor due to liver disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/767713001\">767713001</a></td><td>Factor XI deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/61802005\">61802005</a></td><td>Primary cryofibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/440820004\">440820004</a></td><td>Mild hereditary factor VIII deficiency disease without inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/37193007\">37193007</a></td><td>Factor VII deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/95605009\">95605009</a></td><td>Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/95841006\">95841006</a></td><td>Hereditary hypoplasminogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/51624005\">51624005</a></td><td>Dilutional thrombocytopenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/10934005\">10934005</a></td><td>Cryofibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/267272006\">267272006</a></td><td>Postpartum coagulation defects (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/441188004\">441188004</a></td><td>Homozygous protein C deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234442002\">234442002</a></td><td>Hereditary factor VIII deficiency disease with inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/25904003\">25904003</a></td><td>Acquired coagulation factor deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/123787003\">123787003</a></td><td>Blood coagulation disorder with prolonged coagulation time (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/66909001\">66909001</a></td><td>Familial multiple factor deficiency syndrome, type IV (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/41816006\">41816006</a></td><td>Secondary cryofibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234446004\">234446004</a></td><td>Congenital von Willebrand's disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/95840007\">95840007</a></td><td>Hypoplasminogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/21360006\">21360006</a></td><td>Miscarriage with afibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/79674009\">79674009</a></td><td>Hyperheparinemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234458004\">234458004</a></td><td>Hypodysfibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234455001\">234455001</a></td><td>Fibrinogen abnormality (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/69500007\">69500007</a></td><td>Blood coagulation disorder due to liver disease (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/90935002\">90935002</a></td><td>Hemophilia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/64509006\">64509006</a></td><td>Acquired coagulation factor inhibitor disorder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234464006\">234464006</a></td><td>Fibrinolytic bleeding syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/111588002\">111588002</a></td><td>Heparin-induced thrombocytopenia with thrombosis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/73397007\">73397007</a></td><td>Heparin-induced thrombocytopenia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/782934004\">782934004</a></td><td>Bleeding diathesis due to collagen receptor defect (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/438373005\">438373005</a></td><td>Severe hereditary factor VIII deficiency disease with inhibitor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/27312002\">27312002</a></td><td>High molecular weight kininogen deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234457009\">234457009</a></td><td>Hypofibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/359723007\">359723007</a></td><td>Acquired hypofibrinogenemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/191323001\">191323001</a></td><td>Thrombocytopenia due to extracorporeal circulation of blood (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234452003\">234452003</a></td><td>Contact factor deficiency (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/439460003\">439460003</a></td><td>Hereditary factor XIII A subunit and B subunit deficiency (disorder)</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-icd10CM.html\"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a> version <code>2022</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>D69.1</td><td>Qualitative platelet defects</td></tr><tr><td>D69.42</td><td>Congenital and hereditary thrombocytopenia purpura</td></tr><tr><td>D69.4</td><td>Other primary thrombocytopenia</td></tr><tr><td>D69.49</td><td>Other primary thrombocytopenia</td></tr><tr><td>D69.6</td><td>Thrombocytopenia, unspecified</td></tr><tr><td>D69.5</td><td>Secondary thrombocytopenia</td></tr><tr><td>D69.51</td><td>Posttransfusion purpura</td></tr><tr><td>D69.3</td><td>Immune thrombocytopenic purpura</td></tr><tr><td>D69.41</td><td>Evans syndrome</td></tr><tr><td>D69.59</td><td>Other secondary thrombocytopenia</td></tr></table></li></ul></div>"},"url":"http://projectronin.com/fhir/us/ronin/ValueSet/ee27d8b0-6d9b-11ec-b0c2-55232efc5773","version":"0.9.5","name":"Coagulopathy","title":"Coagulopathy","status":"active","experimental":false,"date":"2022-03-14T18:28:42+00:00","publisher":"Project Ronin Inc.","contact":[{"name":"Project Ronin Inc.","telecom":[{"system":"url","value":"https://www.projectronin.com"},{"system":"email","value":"contact@projectronin.com"}]}],"description":"SNOMED and ICD10 codes for coagulopathy","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"US","display":"United States of America"}]}],"immutable":false,"compose":{"include":[{"system":"http://snomed.info/sct","version":"2021","concept":[{"code":"416902009","display":"Uremic thrombocytopenia (disorder)"},{"code":"783256001","display":"Familial thrombomodulin anomalies (disorder)"},{"code":"307518006","display":"Malignancy-related factor VIII deficiency (disorder)"},{"code":"441101007","display":"Heterozygous protein C deficiency (disorder)"},{"code":"278366008","display":"Anticoagulant excess without bleeding (disorder)"},{"code":"35913006","display":"Acquired factor V deficiency disease (disorder)"},{"code":"33297000","display":"Hereditary factor II deficiency disease (disorder)"},{"code":"95843009","display":"Acquired hypoplasminogenemia (disorder)"},{"code":"43217004","display":"Hereditary factor XII deficiency disease (disorder)"},{"code":"28293008","display":"Hereditary factor VIII deficiency disease (disorder)"},{"code":"1148859000","display":"Disorder of fibrinolysis caused by drug (disorder)"},{"code":"4320005","display":"Factor V deficiency (disorder)"},{"code":"234466008","display":"Acquired coagulation disorder (disorder)"},{"code":"438792009","display":"Hereditary factor IX deficiency disease without inhibitor (disorder)"},{"code":"234451005","display":"Acquired von Willebrand's disease (disorder)"},{"code":"234461003","display":"Gamma chain defect dysfibrinogenemia (disorder)"},{"code":"421766003","display":"Thrombocytopenia associated with acquired immunodeficiency syndrome (disorder)"},{"code":"773422002","display":"East Texas bleeding disorder (disorder)"},{"code":"200031006","display":"Postpartum coagulation defects with postnatal problem (disorder)"},{"code":"1563006","display":"Protein S deficiency disease (disorder)"},{"code":"733028000","display":"Multiple sclerosis, ichthyosis, factor VIII deficiency syndrome (disorder)"},{"code":"402851000","display":"Neonatal purpura fulminans (homozygous protein C deficiency) (disorder)"},{"code":"12546009","display":"Hemorrhagic disease of the newborn due to vitamin K deficiency (disorder)"},{"code":"181456001","display":"Antiprothrombin disorder (disorder)"},{"code":"32605001","display":"Transient neonatal disorder of coagulation (disorder)"},{"code":"33344008","display":"Moderate hereditary factor VIII deficiency disease (disorder)"},{"code":"200030007","display":"Postpartum coagulation defects - delivered with postnatal problem (disorder)"},{"code":"783194008","display":"Bleeding diathesis due to thromboxane synthesis deficiency (disorder)"},{"code":"180481005","display":"Anti-factor II disorder (disorder)"},{"code":"34417008","display":"Disseminated intravascular coagulation in newborn (disorder)"},{"code":"307342006","display":"Thrombocytopenia due to massive blood transfusion (disorder)"},{"code":"128106003","display":"von Willebrand disease type 1 (disorder)"},{"code":"128114009","display":"von Willebrand disease type IC (disorder)"},{"code":"191298004","display":"Acquired factor II deficiency (disorder)"},{"code":"40855001","display":"Hereditary factor VII deficiency disease (disorder)"},{"code":"234462005","display":"Acquired fibrinogen abnormality (disorder)"},{"code":"234463000","display":"Combined coagulation factor deficiency (disorder)"},{"code":"715559004","display":"Combined deficiency of factor V and factor VIII (disorder)"},{"code":"440868005","display":"Mild hereditary factor IX deficiency disease with inhibitor (disorder)"},{"code":"438372000","display":"Hereditary factor IX deficiency disease with inhibitor (disorder)"},{"code":"609456005","display":"Induced termination of pregnancy complicated by afibrinogenemia (disorder)"},{"code":"19520006","display":"von Willebrand disease, type IIB (disorder)"},{"code":"111452009","display":"Postpartum afibrinogenemia with hemorrhage (disorder)"},{"code":"73975000","display":"Factor II deficiency (disorder)"},{"code":"234465007","display":"Alpha-2-antiplasmin deficiency (disorder)"},{"code":"76407009","display":"Protein C deficiency disease (disorder)"},{"code":"13507004","display":"Purpura fulminans (disorder)"},{"code":"61810006","display":"Illegal abortion with defibrination syndrome (disorder)"},{"code":"67406007","display":"Disseminated intravascular coagulation (disorder)"},{"code":"85796009","display":"Afibrinogenemia following molar AND/OR ectopic pregnancy (disorder)"},{"code":"95844003","display":"Dysplasminogenemia (disorder)"},{"code":"45963004","display":"Factor XI deficiency, type III (disorder)"},{"code":"234453008","display":"Passovoy factor deficiency (disorder)"},{"code":"359717002","display":"Hereditary von Willebrand disease type 2B (disorder)"},{"code":"359711001","display":"Hereditary von Willebrand disease type 2A (disorder)"},{"code":"860725002","display":"Low von Willebrand factor (disorder)"},{"code":"359727008","display":"Fibrinogen deficiency (disorder)"},{"code":"724854007","display":"Purpura of skin and or skin-associated mucous membrane co-occurrent and due to coagulation disorder (disorder)"},{"code":"439702007","display":"Hereditary protein S deficiency (disorder)"},{"code":"27068000","display":"Failed attempted abortion with afibrinogenemia (disorder)"},{"code":"154826009","display":"Secondary thrombocytopenia (disorder)"},{"code":"16773005","display":"Drug-induced coagulation inhibitor disorder (disorder)"},{"code":"31925001","display":"Hereditary factor I deficiency disease (disorder)"},{"code":"278504009","display":"Afibrinogenemia (disorder)"},{"code":"441190003","display":"Severe hereditary factor IX deficiency disease without inhibitor (disorder)"},{"code":"234454002","display":"Prothrombin complex deficiency (disorder)"},{"code":"50770000","display":"Miscarriage with defibrination syndrome (disorder)"},{"code":"440988005","display":"Heterozygous protein S deficiency (disorder)"},{"code":"234445000","display":"Congenital factor IX deficiency with inhibitor (disorder)"},{"code":"1148849001","display":"Disorder of fibrinolysis caused by urokinase (disorder)"},{"code":"128090002","display":"Benign gestational thrombocytopenia (disorder)"},{"code":"438599002","display":"Moderate hereditary factor VIII deficiency disease with inhibitor (disorder)"},{"code":"95623001","display":"Neonatal coagulation disorder (disorder)"},{"code":"234440005","display":"Factor VIII deficiency (disorder)"},{"code":"724637001","display":"Isolated thrombocytopenia (disorder)"},{"code":"359700009","display":"Hereditary von Willebrand disease type IA (disorder)"},{"code":"440924009","display":"Hereditary hyperfibrinogenemia (disorder)"},{"code":"359725000","display":"Hereditary von Willebrand disease type 2M (disorder)"},{"code":"439459008","display":"Hereditary factor XIII B subunit deficiency (disorder)"},{"code":"128115005","display":"Pseudo von Willebrand disease (disorder)"},{"code":"359721009","display":"von Willebrand disease type 2B (disorder)"},{"code":"13993001","display":"Factor XIII inhibitor disorder (disorder)"},{"code":"46981006","display":"Factor XII deficiency disease (disorder)"},{"code":"49762007","display":"Hereditary factor XI deficiency disease (disorder)"},{"code":"36351005","display":"Antithrombin III deficiency (disorder)"},{"code":"10153004","display":"Systemic fibrinogenolysis (disorder)"},{"code":"359709005","display":"von Willebrand disease type IA (disorder)"},{"code":"3230006","display":"Illegal abortion with afibrinogenemia (disorder)"},{"code":"34395002","display":"Thrombocytopenia caused by hypothermia (disorder)"},{"code":"61551003","display":"Familial multiple factor deficiency syndrome, type VI (disorder)"},{"code":"439145006","display":"Congenital hypofibrinogenemia (disorder)"},{"code":"785308008","display":"Acquired hemophilia (disorder)"},{"code":"123790009","display":"Blood coagulation disorder with impaired clot retraction time (disorder)"},{"code":"12153008","display":"Acquired factor IX deficiency disease (disorder)"},{"code":"439274008","display":"Hereditary protein C deficiency (disorder)"},{"code":"440993008","display":"Severe hereditary factor VIII deficiency disease without inhibitor (disorder)"},{"code":"19267009","display":"Lupus anticoagulant disorder (disorder)"},{"code":"123786007","display":"Blood coagulation disorder with shortened coagulation time (disorder)"},{"code":"97571000119109","display":"Thrombocytopenia co-occurrent and due to alcoholism (disorder)"},{"code":"725105006","display":"Bleeding disorder due to deficiency of calcium and diacylglycerol-regulated guanine nucleotide exchange factor I (disorder)"},{"code":"123788008","display":"Blood coagulation disorder with shortened bleeding time (disorder)"},{"code":"35066007","display":"von Willebrand disease, type IID (disorder)"},{"code":"699208000","display":"Thrombocytopenia caused by alcohol (disorder)"},{"code":"74576004","display":"Acquired thrombocytopenia (disorder)"},{"code":"87397002","display":"von Willebrand disease, type IIA (disorder)"},{"code":"47307007","display":"Factor VIII inhibitor disorder (disorder)"},{"code":"717936002","display":"Classic onset hemorrhagic disease of newborn due to vitamin K deficiency (disorder)"},{"code":"24149006","display":"Hemorrhagic disease of the newborn due to factor II deficiency (disorder)"},{"code":"128092005","display":"Secondary autoimmune thrombocytopenia (disorder)"},{"code":"64779008","display":"Blood coagulation disorder (disorder)"},{"code":"80988005","display":"Mixed cryofibrinogenemia (disorder)"},{"code":"371074009","display":"Radiation thrombocytopenia (disorder)"},{"code":"49886003","display":"Thrombocytopenia due to blood loss (disorder)"},{"code":"439157002","display":"Hereditary combined coagulation factor deficiency (disorder)"},{"code":"12501008","display":"von Willebrand disease, type IIF (disorder)"},{"code":"49177006","display":"Postpartum coagulation defect with hemorrhage (disorder)"},{"code":"426199009","display":"Congenital factor IX deficiency without inhibitor (disorder)"},{"code":"33169001","display":"Factor XI deficiency, type II (disorder)"},{"code":"88540000","display":"Factor XI deficiency, type I (disorder)"},{"code":"64315007","display":"Familial multiple factor deficiency syndrome, type III (disorder)"},{"code":"95842004","display":"Autosomal dominant deficiency of plasminogen (disorder)"},{"code":"1148862002","display":"Deficiency of factor X due to systemic amyloidosis (disorder)"},{"code":"359732009","display":"von Willebrand disease type 2N (disorder)"},{"code":"234450006","display":"Congenital von Willebrand's disease type III (disorder)"},{"code":"191297009","display":"Deficiency of coagulation factor due to vitamin K deficiency (disorder)"},{"code":"439455002","display":"Hereditary factor XIII A subunit deficiency (disorder)"},{"code":"425949001","display":"Mild hereditary factor VIII deficiency disease with inhibitor (disorder)"},{"code":"1286003","display":"Vitamin K deficiency coagulation disorder (disorder)"},{"code":"441189007","display":"Homozygous protein S deficiency (disorder)"},{"code":"128113003","display":"von Willebrand disease type IB (disorder)"},{"code":"62410004","display":"Postpartum fibrinolysis with hemorrhage (disorder)"},{"code":"62751000119108","display":"Fetal hemophilia (disorder)"},{"code":"359730001","display":"Acquired afibrinogenemia (disorder)"},{"code":"34478009","display":"Failed attempted abortion with defibrination syndrome (disorder)"},{"code":"234456000","display":"Congenital fibrinogen abnormality (disorder)"},{"code":"6647006","display":"Legal abortion with defibrination syndrome (disorder)"},{"code":"95839005","display":"Disorder involving the fibrinolytic system (disorder)"},{"code":"62698000","display":"Defibrination syndrome following molar AND/OR ectopic pregnancy (disorder)"},{"code":"1148930004","display":"Deficiency of coagulation factor due to vitamin K malabsorption in obstructive biliary disease (disorder)"},{"code":"717937006","display":"Late onset diffuse bleeding diathesis secondary to vitamin K deficient hemorrhagic disease of fetus and newborn (disorder)"},{"code":"767712006","display":"Factor IX deficiency (disorder)"},{"code":"18604004","display":"Factor XIII deficiency disease (disorder)"},{"code":"724356003","display":"Hereditary combined deficiency of vitamin K-dependent clotting factors (disorder)"},{"code":"789291002","display":"Consumption coagulopathy caused by snake venom (disorder)"},{"code":"128088003","display":"Blood coagulation disorder, categorized by value of screening test (disorder)"},{"code":"52137009","display":"von Willebrand disease, type IIE (disorder)"},{"code":"441006000","display":"Moderate hereditary factor VIII deficiency disease without inhibitor (disorder)"},{"code":"50189006","display":"Hereditary factor XIII deficiency disease (disorder)"},{"code":"6364000","display":"Acquired factor XIII deficiency disease (disorder)"},{"code":"65768009","display":"Familial multiple factor deficiency syndrome, type II (disorder)"},{"code":"128107007","display":"von Willebrand disease type 2 (disorder)"},{"code":"35554008","display":"Acquired factor XI deficiency disease (disorder)"},{"code":"441191004","display":"Moderate hereditary factor IX deficiency disease without inhibitor (disorder)"},{"code":"1156746003","display":"Vaccine-induced prothrombotic immune thrombocytopenia (disorder)"},{"code":"24663001","display":"von Willebrand disease, type IIH (disorder)"},{"code":"58327003","display":"Factor I inhibitor disorder (disorder)"},{"code":"782909004","display":"Hemorrhagic disease due to alpha-1-antitrypsin Pittsburgh mutation (disorder)"},{"code":"439000005","display":"Hyperfibrinogenemia (disorder)"},{"code":"237337003","display":"Afibrinogenemia - postpartum (disorder)"},{"code":"191322006","display":"Thrombocytopenia caused by drugs (disorder)"},{"code":"440867000","display":"Moderate hereditary factor IX deficiency disease with inhibitor (disorder)"},{"code":"234459007","display":"Alpha chain defect dysfibrinogenemia (disorder)"},{"code":"307517001","display":"Pregnancy-related factor VIII deficiency (disorder)"},{"code":"1908008","display":"von Willebrand disease, type IIC (disorder)"},{"code":"123789000","display":"Blood coagulation disorder with prolonged bleeding time (disorder)"},{"code":"307514008","display":"Idiopathic factor VIII deficiency (disorder)"},{"code":"3760002","display":"Familial multiple factor deficiency syndrome, type V (disorder)"},{"code":"725157006","display":"Acquired purpura fulminans (disorder)"},{"code":"86635005","display":"Kasabach-Merritt syndrome (disorder)"},{"code":"128108002","display":"von Willebrand disease type 3 (disorder)"},{"code":"26029002","display":"Mild hereditary factor VIII deficiency disease (disorder)"},{"code":"33820001","display":"Acquired factor X deficiency disease (disorder)"},{"code":"278365007","display":"Anticoagulant-induced bleeding (disorder)"},{"code":"10749581000119100","display":"Blood coagulation disorder complicating childbirth (disorder)"},{"code":"359714009","display":"von Willebrand disease type 2A (disorder)"},{"code":"41106001","display":"von Willebrand factor inhibitor disorder (disorder)"},{"code":"111589005","display":"Dysfibrinogenemia (disorder)"},{"code":"15132005","display":"Acquired factor XII deficiency disease (disorder)"},{"code":"84048006","display":"Familial multiple factor deficiency syndrome, type I (disorder)"},{"code":"609462000","display":"Induced termination of pregnancy complicated by defibrination syndrome (disorder)"},{"code":"30479005","display":"Legal abortion with afibrinogenemia (disorder)"},{"code":"439156006","display":"Acquired combined coagulation factor deficiency (disorder)"},{"code":"234444001","display":"Congenital factor IX deficiency variant (disorder)"},{"code":"9489006","display":"Factor X inhibitor disorder (disorder)"},{"code":"234447008","display":"Congenital von Willebrand's disease type I (disorder)"},{"code":"307515009","display":"Autoimmune factor VIII deficiency (disorder)"},{"code":"38879000","display":"Factor XI inhibitor disorder (disorder)"},{"code":"14230004","display":"Acquired factor VIII deficiency disease (disorder)"},{"code":"95845002","display":"Hereditary dysplasminogenemia (disorder)"},{"code":"725291001","display":"Defect of purinergic receptor p2y G protein-coupled 12 (disorder)"},{"code":"441192006","display":"Mild hereditary factor IX deficiency disease without inhibitor (disorder)"},{"code":"721304007","display":"Refractory thrombocytopenia (disorder)"},{"code":"10749641000119106","display":"Blood coagulation disorder complicating pregnancy (disorder)"},{"code":"234448003","display":"Congenital von Willebrand's disease type II (disorder)"},{"code":"359704000","display":"von Willebrand disease, type 1^a^ (disorder)"},{"code":"439458000","display":"Factor I deficiency disease (disorder)"},{"code":"76642003","display":"Factor X deficiency (disorder)"},{"code":"41690001","display":"Factor V inhibitor disorder (disorder)"},{"code":"717407006","display":"Congenital plasminogen activator inhibitor deficiency type 1 (disorder)"},{"code":"81783000","display":"Familial multiple factor deficiency syndrome (disorder)"},{"code":"717935003","display":"Early onset diffuse bleeding diathesis secondary to vitamin K deficient hemorrhagic disease of fetus and newborn (disorder)"},{"code":"2036003","display":"Acquired factor VII deficiency disease (disorder)"},{"code":"71723006","display":"von Willebrand disease, type IIG (disorder)"},{"code":"154818001","display":"Congenital afibrinogenemia (disorder)"},{"code":"39191000119103","display":"Disseminated intravascular coagulation due to placental abruption (disorder)"},{"code":"37350004","display":"Hereditary factor X deficiency disease (disorder)"},{"code":"45366001","display":"Hereditary dysfibrinogenemia (disorder)"},{"code":"48976006","display":"Prekallikrein deficiency (disorder)"},{"code":"440866009","display":"Severe hereditary factor IX deficiency disease with inhibitor (disorder)"},{"code":"89729000","display":"Factor IX inhibitor disorder (disorder)"},{"code":"128105004","display":"von Willebrand disorder (disorder)"},{"code":"86075001","display":"Coagulation factor deficiency syndrome (disorder)"},{"code":"237336007","display":"Fibrinolysis - postpartum (disorder)"},{"code":"1148857003","display":"Disorder of fibrinolysis caused by tissue plasminogen activator (disorder)"},{"code":"41788008","display":"Hereditary factor IX deficiency disease (disorder)"},{"code":"438827002","display":"Hereditary thrombophilic dysfibrinogenemia (disorder)"},{"code":"88776002","display":"Hereditary factor V deficiency disease (disorder)"},{"code":"439699000","display":"Hereditary antithrombin III deficiency (disorder)"},{"code":"234460002","display":"Beta chain defect dysfibrinogenemia (disorder)"},{"code":"105604006","display":"Deficiency of naturally occurring coagulation factor inhibitor (disorder)"},{"code":"30182008","display":"Thrombocytopenia due to extracorporeal circulation (disorder)"},{"code":"1148929009","display":"Deficiency of coagulation factor due to vitamin K malabsorption (disorder)"},{"code":"438360006","display":"Hereditary factor VIII deficiency disease without inhibitor (disorder)"},{"code":"716746003","display":"Congenital alpha-2-antiplasmin deficiency (disorder)"},{"code":"6935003","display":"Familial hemorrhagic diathesis (disorder)"},{"code":"19307009","display":"Drug-induced immune thrombocytopenia (disorder)"},{"code":"16922007","display":"Hereditary coagulation factor deficiency (disorder)"},{"code":"282707003","display":"Acquired inhibitor of coagulation (disorder)"},{"code":"16872008","display":"Severe hereditary factor VIII deficiency disease (disorder)"},{"code":"191296000","display":"Deficiency of coagulation factor due to liver disease (disorder)"},{"code":"767713001","display":"Factor XI deficiency (disorder)"},{"code":"61802005","display":"Primary cryofibrinogenemia (disorder)"},{"code":"440820004","display":"Mild hereditary factor VIII deficiency disease without inhibitor (disorder)"},{"code":"37193007","display":"Factor VII deficiency (disorder)"},{"code":"95605009","display":"Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)"},{"code":"95841006","display":"Hereditary hypoplasminogenemia (disorder)"},{"code":"51624005","display":"Dilutional thrombocytopenia (disorder)"},{"code":"10934005","display":"Cryofibrinogenemia (disorder)"},{"code":"267272006","display":"Postpartum coagulation defects (disorder)"},{"code":"441188004","display":"Homozygous protein C deficiency (disorder)"},{"code":"234442002","display":"Hereditary factor VIII deficiency disease with inhibitor (disorder)"},{"code":"25904003","display":"Acquired coagulation factor deficiency (disorder)"},{"code":"123787003","display":"Blood coagulation disorder with prolonged coagulation time (disorder)"},{"code":"66909001","display":"Familial multiple factor deficiency syndrome, type IV (disorder)"},{"code":"41816006","display":"Secondary cryofibrinogenemia (disorder)"},{"code":"234446004","display":"Congenital von Willebrand's disease (disorder)"},{"code":"95840007","display":"Hypoplasminogenemia (disorder)"},{"code":"21360006","display":"Miscarriage with afibrinogenemia (disorder)"},{"code":"79674009","display":"Hyperheparinemia (disorder)"},{"code":"234458004","display":"Hypodysfibrinogenemia (disorder)"},{"code":"234455001","display":"Fibrinogen abnormality (disorder)"},{"code":"69500007","display":"Blood coagulation disorder due to liver disease (disorder)"},{"code":"90935002","display":"Hemophilia (disorder)"},{"code":"64509006","display":"Acquired coagulation factor inhibitor disorder (disorder)"},{"code":"234464006","display":"Fibrinolytic bleeding syndrome (disorder)"},{"code":"111588002","display":"Heparin-induced thrombocytopenia with thrombosis (disorder)"},{"code":"73397007","display":"Heparin-induced thrombocytopenia (disorder)"},{"code":"782934004","display":"Bleeding diathesis due to collagen receptor defect (disorder)"},{"code":"438373005","display":"Severe hereditary factor VIII deficiency disease with inhibitor (disorder)"},{"code":"27312002","display":"High molecular weight kininogen deficiency (disorder)"},{"code":"234457009","display":"Hypofibrinogenemia (disorder)"},{"code":"359723007","display":"Acquired hypofibrinogenemia (disorder)"},{"code":"191323001","display":"Thrombocytopenia due to extracorporeal circulation of blood (disorder)"},{"code":"234452003","display":"Contact factor deficiency (disorder)"},{"code":"439460003","display":"Hereditary factor XIII A subunit and B subunit deficiency (disorder)"}]},{"system":"http://hl7.org/fhir/sid/icd-10-cm","version":"2022","concept":[{"code":"D69.1","display":"Qualitative platelet defects"},{"code":"D69.42","display":"Congenital and hereditary thrombocytopenia purpura"},{"code":"D69.4","display":"Other primary thrombocytopenia"},{"code":"D69.49","display":"Other primary thrombocytopenia"},{"code":"D69.6","display":"Thrombocytopenia, unspecified"},{"code":"D69.5","display":"Secondary thrombocytopenia"},{"code":"D69.51","display":"Posttransfusion purpura"},{"code":"D69.3","display":"Immune thrombocytopenic purpura"},{"code":"D69.41","display":"Evans syndrome"},{"code":"D69.59","display":"Other secondary thrombocytopenia"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Coagulopathy",
+  "id": "ee27d8b0-6d9b-11ec-b0c2-55232efc5773",
+  "title": "Coagulopathy",
+  "description": "SNOMED and ICD10 codes for coagulopathy",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/ee27d8b0-6d9b-11ec-b0c2-55232efc5773",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "416902009",
+            "display": "Uremic thrombocytopenia (disorder)"
+          },
+          {
+            "code": "783256001",
+            "display": "Familial thrombomodulin anomalies (disorder)"
+          },
+          {
+            "code": "307518006",
+            "display": "Malignancy-related factor VIII deficiency (disorder)"
+          },
+          {
+            "code": "441101007",
+            "display": "Heterozygous protein C deficiency (disorder)"
+          },
+          {
+            "code": "278366008",
+            "display": "Anticoagulant excess without bleeding (disorder)"
+          },
+          {
+            "code": "35913006",
+            "display": "Acquired factor V deficiency disease (disorder)"
+          },
+          {
+            "code": "33297000",
+            "display": "Hereditary factor II deficiency disease (disorder)"
+          },
+          {
+            "code": "95843009",
+            "display": "Acquired hypoplasminogenemia (disorder)"
+          },
+          {
+            "code": "43217004",
+            "display": "Hereditary factor XII deficiency disease (disorder)"
+          },
+          {
+            "code": "28293008",
+            "display": "Hereditary factor VIII deficiency disease (disorder)"
+          },
+          {
+            "code": "1148859000",
+            "display": "Disorder of fibrinolysis caused by drug (disorder)"
+          },
+          {
+            "code": "4320005",
+            "display": "Factor V deficiency (disorder)"
+          },
+          {
+            "code": "234466008",
+            "display": "Acquired coagulation disorder (disorder)"
+          },
+          {
+            "code": "438792009",
+            "display": "Hereditary factor IX deficiency disease without inhibitor (disorder)"
+          },
+          {
+            "code": "234451005",
+            "display": "Acquired von Willebrand's disease (disorder)"
+          },
+          {
+            "code": "234461003",
+            "display": "Gamma chain defect dysfibrinogenemia (disorder)"
+          },
+          {
+            "code": "421766003",
+            "display": "Thrombocytopenia associated with acquired immunodeficiency syndrome (disorder)"
+          },
+          {
+            "code": "773422002",
+            "display": "East Texas bleeding disorder (disorder)"
+          },
+          {
+            "code": "200031006",
+            "display": "Postpartum coagulation defects with postnatal problem (disorder)"
+          },
+          {
+            "code": "1563006",
+            "display": "Protein S deficiency disease (disorder)"
+          },
+          {
+            "code": "733028000",
+            "display": "Multiple sclerosis, ichthyosis, factor VIII deficiency syndrome (disorder)"
+          },
+          {
+            "code": "402851000",
+            "display": "Neonatal purpura fulminans (homozygous protein C deficiency) (disorder)"
+          },
+          {
+            "code": "12546009",
+            "display": "Hemorrhagic disease of the newborn due to vitamin K deficiency (disorder)"
+          },
+          {
+            "code": "181456001",
+            "display": "Antiprothrombin disorder (disorder)"
+          },
+          {
+            "code": "32605001",
+            "display": "Transient neonatal disorder of coagulation (disorder)"
+          },
+          {
+            "code": "33344008",
+            "display": "Moderate hereditary factor VIII deficiency disease (disorder)"
+          },
+          {
+            "code": "200030007",
+            "display": "Postpartum coagulation defects - delivered with postnatal problem (disorder)"
+          },
+          {
+            "code": "783194008",
+            "display": "Bleeding diathesis due to thromboxane synthesis deficiency (disorder)"
+          },
+          {
+            "code": "180481005",
+            "display": "Anti-factor II disorder (disorder)"
+          },
+          {
+            "code": "34417008",
+            "display": "Disseminated intravascular coagulation in newborn (disorder)"
+          },
+          {
+            "code": "307342006",
+            "display": "Thrombocytopenia due to massive blood transfusion (disorder)"
+          },
+          {
+            "code": "128106003",
+            "display": "von Willebrand disease type 1 (disorder)"
+          },
+          {
+            "code": "128114009",
+            "display": "von Willebrand disease type IC (disorder)"
+          },
+          {
+            "code": "191298004",
+            "display": "Acquired factor II deficiency (disorder)"
+          },
+          {
+            "code": "40855001",
+            "display": "Hereditary factor VII deficiency disease (disorder)"
+          },
+          {
+            "code": "234462005",
+            "display": "Acquired fibrinogen abnormality (disorder)"
+          },
+          {
+            "code": "234463000",
+            "display": "Combined coagulation factor deficiency (disorder)"
+          },
+          {
+            "code": "715559004",
+            "display": "Combined deficiency of factor V and factor VIII (disorder)"
+          },
+          {
+            "code": "440868005",
+            "display": "Mild hereditary factor IX deficiency disease with inhibitor (disorder)"
+          },
+          {
+            "code": "438372000",
+            "display": "Hereditary factor IX deficiency disease with inhibitor (disorder)"
+          },
+          {
+            "code": "609456005",
+            "display": "Induced termination of pregnancy complicated by afibrinogenemia (disorder)"
+          },
+          {
+            "code": "19520006",
+            "display": "von Willebrand disease, type IIB (disorder)"
+          },
+          {
+            "code": "111452009",
+            "display": "Postpartum afibrinogenemia with hemorrhage (disorder)"
+          },
+          {
+            "code": "73975000",
+            "display": "Factor II deficiency (disorder)"
+          },
+          {
+            "code": "234465007",
+            "display": "Alpha-2-antiplasmin deficiency (disorder)"
+          },
+          {
+            "code": "76407009",
+            "display": "Protein C deficiency disease (disorder)"
+          },
+          {
+            "code": "13507004",
+            "display": "Purpura fulminans (disorder)"
+          },
+          {
+            "code": "61810006",
+            "display": "Illegal abortion with defibrination syndrome (disorder)"
+          },
+          {
+            "code": "67406007",
+            "display": "Disseminated intravascular coagulation (disorder)"
+          },
+          {
+            "code": "85796009",
+            "display": "Afibrinogenemia following molar AND/OR ectopic pregnancy (disorder)"
+          },
+          {
+            "code": "95844003",
+            "display": "Dysplasminogenemia (disorder)"
+          },
+          {
+            "code": "45963004",
+            "display": "Factor XI deficiency, type III (disorder)"
+          },
+          {
+            "code": "234453008",
+            "display": "Passovoy factor deficiency (disorder)"
+          },
+          {
+            "code": "359717002",
+            "display": "Hereditary von Willebrand disease type 2B (disorder)"
+          },
+          {
+            "code": "359711001",
+            "display": "Hereditary von Willebrand disease type 2A (disorder)"
+          },
+          {
+            "code": "860725002",
+            "display": "Low von Willebrand factor (disorder)"
+          },
+          {
+            "code": "359727008",
+            "display": "Fibrinogen deficiency (disorder)"
+          },
+          {
+            "code": "724854007",
+            "display": "Purpura of skin and or skin-associated mucous membrane co-occurrent and due to coagulation disorder (disorder)"
+          },
+          {
+            "code": "439702007",
+            "display": "Hereditary protein S deficiency (disorder)"
+          },
+          {
+            "code": "27068000",
+            "display": "Failed attempted abortion with afibrinogenemia (disorder)"
+          },
+          {
+            "code": "154826009",
+            "display": "Secondary thrombocytopenia (disorder)"
+          },
+          {
+            "code": "16773005",
+            "display": "Drug-induced coagulation inhibitor disorder (disorder)"
+          },
+          {
+            "code": "31925001",
+            "display": "Hereditary factor I deficiency disease (disorder)"
+          },
+          {
+            "code": "278504009",
+            "display": "Afibrinogenemia (disorder)"
+          },
+          {
+            "code": "441190003",
+            "display": "Severe hereditary factor IX deficiency disease without inhibitor (disorder)"
+          },
+          {
+            "code": "234454002",
+            "display": "Prothrombin complex deficiency (disorder)"
+          },
+          {
+            "code": "50770000",
+            "display": "Miscarriage with defibrination syndrome (disorder)"
+          },
+          {
+            "code": "440988005",
+            "display": "Heterozygous protein S deficiency (disorder)"
+          },
+          {
+            "code": "234445000",
+            "display": "Congenital factor IX deficiency with inhibitor (disorder)"
+          },
+          {
+            "code": "1148849001",
+            "display": "Disorder of fibrinolysis caused by urokinase (disorder)"
+          },
+          {
+            "code": "128090002",
+            "display": "Benign gestational thrombocytopenia (disorder)"
+          },
+          {
+            "code": "438599002",
+            "display": "Moderate hereditary factor VIII deficiency disease with inhibitor (disorder)"
+          },
+          {
+            "code": "95623001",
+            "display": "Neonatal coagulation disorder (disorder)"
+          },
+          {
+            "code": "234440005",
+            "display": "Factor VIII deficiency (disorder)"
+          },
+          {
+            "code": "724637001",
+            "display": "Isolated thrombocytopenia (disorder)"
+          },
+          {
+            "code": "359700009",
+            "display": "Hereditary von Willebrand disease type IA (disorder)"
+          },
+          {
+            "code": "440924009",
+            "display": "Hereditary hyperfibrinogenemia (disorder)"
+          },
+          {
+            "code": "359725000",
+            "display": "Hereditary von Willebrand disease type 2M (disorder)"
+          },
+          {
+            "code": "439459008",
+            "display": "Hereditary factor XIII B subunit deficiency (disorder)"
+          },
+          {
+            "code": "128115005",
+            "display": "Pseudo von Willebrand disease (disorder)"
+          },
+          {
+            "code": "359721009",
+            "display": "von Willebrand disease type 2B (disorder)"
+          },
+          {
+            "code": "13993001",
+            "display": "Factor XIII inhibitor disorder (disorder)"
+          },
+          {
+            "code": "46981006",
+            "display": "Factor XII deficiency disease (disorder)"
+          },
+          {
+            "code": "49762007",
+            "display": "Hereditary factor XI deficiency disease (disorder)"
+          },
+          {
+            "code": "36351005",
+            "display": "Antithrombin III deficiency (disorder)"
+          },
+          {
+            "code": "10153004",
+            "display": "Systemic fibrinogenolysis (disorder)"
+          },
+          {
+            "code": "359709005",
+            "display": "von Willebrand disease type IA (disorder)"
+          },
+          {
+            "code": "3230006",
+            "display": "Illegal abortion with afibrinogenemia (disorder)"
+          },
+          {
+            "code": "34395002",
+            "display": "Thrombocytopenia caused by hypothermia (disorder)"
+          },
+          {
+            "code": "61551003",
+            "display": "Familial multiple factor deficiency syndrome, type VI (disorder)"
+          },
+          {
+            "code": "439145006",
+            "display": "Congenital hypofibrinogenemia (disorder)"
+          },
+          {
+            "code": "785308008",
+            "display": "Acquired hemophilia (disorder)"
+          },
+          {
+            "code": "123790009",
+            "display": "Blood coagulation disorder with impaired clot retraction time (disorder)"
+          },
+          {
+            "code": "12153008",
+            "display": "Acquired factor IX deficiency disease (disorder)"
+          },
+          {
+            "code": "439274008",
+            "display": "Hereditary protein C deficiency (disorder)"
+          },
+          {
+            "code": "440993008",
+            "display": "Severe hereditary factor VIII deficiency disease without inhibitor (disorder)"
+          },
+          {
+            "code": "19267009",
+            "display": "Lupus anticoagulant disorder (disorder)"
+          },
+          {
+            "code": "123786007",
+            "display": "Blood coagulation disorder with shortened coagulation time (disorder)"
+          },
+          {
+            "code": "97571000119109",
+            "display": "Thrombocytopenia co-occurrent and due to alcoholism (disorder)"
+          },
+          {
+            "code": "725105006",
+            "display": "Bleeding disorder due to deficiency of calcium and diacylglycerol-regulated guanine nucleotide exchange factor I (disorder)"
+          },
+          {
+            "code": "123788008",
+            "display": "Blood coagulation disorder with shortened bleeding time (disorder)"
+          },
+          {
+            "code": "35066007",
+            "display": "von Willebrand disease, type IID (disorder)"
+          },
+          {
+            "code": "699208000",
+            "display": "Thrombocytopenia caused by alcohol (disorder)"
+          },
+          {
+            "code": "74576004",
+            "display": "Acquired thrombocytopenia (disorder)"
+          },
+          {
+            "code": "87397002",
+            "display": "von Willebrand disease, type IIA (disorder)"
+          },
+          {
+            "code": "47307007",
+            "display": "Factor VIII inhibitor disorder (disorder)"
+          },
+          {
+            "code": "717936002",
+            "display": "Classic onset hemorrhagic disease of newborn due to vitamin K deficiency (disorder)"
+          },
+          {
+            "code": "24149006",
+            "display": "Hemorrhagic disease of the newborn due to factor II deficiency (disorder)"
+          },
+          {
+            "code": "128092005",
+            "display": "Secondary autoimmune thrombocytopenia (disorder)"
+          },
+          {
+            "code": "64779008",
+            "display": "Blood coagulation disorder (disorder)"
+          },
+          {
+            "code": "80988005",
+            "display": "Mixed cryofibrinogenemia (disorder)"
+          },
+          {
+            "code": "371074009",
+            "display": "Radiation thrombocytopenia (disorder)"
+          },
+          {
+            "code": "49886003",
+            "display": "Thrombocytopenia due to blood loss (disorder)"
+          },
+          {
+            "code": "439157002",
+            "display": "Hereditary combined coagulation factor deficiency (disorder)"
+          },
+          {
+            "code": "12501008",
+            "display": "von Willebrand disease, type IIF (disorder)"
+          },
+          {
+            "code": "49177006",
+            "display": "Postpartum coagulation defect with hemorrhage (disorder)"
+          },
+          {
+            "code": "426199009",
+            "display": "Congenital factor IX deficiency without inhibitor (disorder)"
+          },
+          {
+            "code": "33169001",
+            "display": "Factor XI deficiency, type II (disorder)"
+          },
+          {
+            "code": "88540000",
+            "display": "Factor XI deficiency, type I (disorder)"
+          },
+          {
+            "code": "64315007",
+            "display": "Familial multiple factor deficiency syndrome, type III (disorder)"
+          },
+          {
+            "code": "95842004",
+            "display": "Autosomal dominant deficiency of plasminogen (disorder)"
+          },
+          {
+            "code": "1148862002",
+            "display": "Deficiency of factor X due to systemic amyloidosis (disorder)"
+          },
+          {
+            "code": "359732009",
+            "display": "von Willebrand disease type 2N (disorder)"
+          },
+          {
+            "code": "234450006",
+            "display": "Congenital von Willebrand's disease type III (disorder)"
+          },
+          {
+            "code": "191297009",
+            "display": "Deficiency of coagulation factor due to vitamin K deficiency (disorder)"
+          },
+          {
+            "code": "439455002",
+            "display": "Hereditary factor XIII A subunit deficiency (disorder)"
+          },
+          {
+            "code": "425949001",
+            "display": "Mild hereditary factor VIII deficiency disease with inhibitor (disorder)"
+          },
+          {
+            "code": "1286003",
+            "display": "Vitamin K deficiency coagulation disorder (disorder)"
+          },
+          {
+            "code": "441189007",
+            "display": "Homozygous protein S deficiency (disorder)"
+          },
+          {
+            "code": "128113003",
+            "display": "von Willebrand disease type IB (disorder)"
+          },
+          {
+            "code": "62410004",
+            "display": "Postpartum fibrinolysis with hemorrhage (disorder)"
+          },
+          {
+            "code": "62751000119108",
+            "display": "Fetal hemophilia (disorder)"
+          },
+          {
+            "code": "359730001",
+            "display": "Acquired afibrinogenemia (disorder)"
+          },
+          {
+            "code": "34478009",
+            "display": "Failed attempted abortion with defibrination syndrome (disorder)"
+          },
+          {
+            "code": "234456000",
+            "display": "Congenital fibrinogen abnormality (disorder)"
+          },
+          {
+            "code": "6647006",
+            "display": "Legal abortion with defibrination syndrome (disorder)"
+          },
+          {
+            "code": "95839005",
+            "display": "Disorder involving the fibrinolytic system (disorder)"
+          },
+          {
+            "code": "62698000",
+            "display": "Defibrination syndrome following molar AND/OR ectopic pregnancy (disorder)"
+          },
+          {
+            "code": "1148930004",
+            "display": "Deficiency of coagulation factor due to vitamin K malabsorption in obstructive biliary disease (disorder)"
+          },
+          {
+            "code": "717937006",
+            "display": "Late onset diffuse bleeding diathesis secondary to vitamin K deficient hemorrhagic disease of fetus and newborn (disorder)"
+          },
+          {
+            "code": "767712006",
+            "display": "Factor IX deficiency (disorder)"
+          },
+          {
+            "code": "18604004",
+            "display": "Factor XIII deficiency disease (disorder)"
+          },
+          {
+            "code": "724356003",
+            "display": "Hereditary combined deficiency of vitamin K-dependent clotting factors (disorder)"
+          },
+          {
+            "code": "789291002",
+            "display": "Consumption coagulopathy caused by snake venom (disorder)"
+          },
+          {
+            "code": "128088003",
+            "display": "Blood coagulation disorder, categorized by value of screening test (disorder)"
+          },
+          {
+            "code": "52137009",
+            "display": "von Willebrand disease, type IIE (disorder)"
+          },
+          {
+            "code": "441006000",
+            "display": "Moderate hereditary factor VIII deficiency disease without inhibitor (disorder)"
+          },
+          {
+            "code": "50189006",
+            "display": "Hereditary factor XIII deficiency disease (disorder)"
+          },
+          {
+            "code": "6364000",
+            "display": "Acquired factor XIII deficiency disease (disorder)"
+          },
+          {
+            "code": "65768009",
+            "display": "Familial multiple factor deficiency syndrome, type II (disorder)"
+          },
+          {
+            "code": "128107007",
+            "display": "von Willebrand disease type 2 (disorder)"
+          },
+          {
+            "code": "35554008",
+            "display": "Acquired factor XI deficiency disease (disorder)"
+          },
+          {
+            "code": "441191004",
+            "display": "Moderate hereditary factor IX deficiency disease without inhibitor (disorder)"
+          },
+          {
+            "code": "1156746003",
+            "display": "Vaccine-induced prothrombotic immune thrombocytopenia (disorder)"
+          },
+          {
+            "code": "24663001",
+            "display": "von Willebrand disease, type IIH (disorder)"
+          },
+          {
+            "code": "58327003",
+            "display": "Factor I inhibitor disorder (disorder)"
+          },
+          {
+            "code": "782909004",
+            "display": "Hemorrhagic disease due to alpha-1-antitrypsin Pittsburgh mutation (disorder)"
+          },
+          {
+            "code": "439000005",
+            "display": "Hyperfibrinogenemia (disorder)"
+          },
+          {
+            "code": "237337003",
+            "display": "Afibrinogenemia - postpartum (disorder)"
+          },
+          {
+            "code": "191322006",
+            "display": "Thrombocytopenia caused by drugs (disorder)"
+          },
+          {
+            "code": "440867000",
+            "display": "Moderate hereditary factor IX deficiency disease with inhibitor (disorder)"
+          },
+          {
+            "code": "234459007",
+            "display": "Alpha chain defect dysfibrinogenemia (disorder)"
+          },
+          {
+            "code": "307517001",
+            "display": "Pregnancy-related factor VIII deficiency (disorder)"
+          },
+          {
+            "code": "1908008",
+            "display": "von Willebrand disease, type IIC (disorder)"
+          },
+          {
+            "code": "123789000",
+            "display": "Blood coagulation disorder with prolonged bleeding time (disorder)"
+          },
+          {
+            "code": "307514008",
+            "display": "Idiopathic factor VIII deficiency (disorder)"
+          },
+          {
+            "code": "3760002",
+            "display": "Familial multiple factor deficiency syndrome, type V (disorder)"
+          },
+          {
+            "code": "725157006",
+            "display": "Acquired purpura fulminans (disorder)"
+          },
+          {
+            "code": "86635005",
+            "display": "Kasabach-Merritt syndrome (disorder)"
+          },
+          {
+            "code": "128108002",
+            "display": "von Willebrand disease type 3 (disorder)"
+          },
+          {
+            "code": "26029002",
+            "display": "Mild hereditary factor VIII deficiency disease (disorder)"
+          },
+          {
+            "code": "33820001",
+            "display": "Acquired factor X deficiency disease (disorder)"
+          },
+          {
+            "code": "278365007",
+            "display": "Anticoagulant-induced bleeding (disorder)"
+          },
+          {
+            "code": "10749581000119100",
+            "display": "Blood coagulation disorder complicating childbirth (disorder)"
+          },
+          {
+            "code": "359714009",
+            "display": "von Willebrand disease type 2A (disorder)"
+          },
+          {
+            "code": "41106001",
+            "display": "von Willebrand factor inhibitor disorder (disorder)"
+          },
+          {
+            "code": "111589005",
+            "display": "Dysfibrinogenemia (disorder)"
+          },
+          {
+            "code": "15132005",
+            "display": "Acquired factor XII deficiency disease (disorder)"
+          },
+          {
+            "code": "84048006",
+            "display": "Familial multiple factor deficiency syndrome, type I (disorder)"
+          },
+          {
+            "code": "609462000",
+            "display": "Induced termination of pregnancy complicated by defibrination syndrome (disorder)"
+          },
+          {
+            "code": "30479005",
+            "display": "Legal abortion with afibrinogenemia (disorder)"
+          },
+          {
+            "code": "439156006",
+            "display": "Acquired combined coagulation factor deficiency (disorder)"
+          },
+          {
+            "code": "234444001",
+            "display": "Congenital factor IX deficiency variant (disorder)"
+          },
+          {
+            "code": "9489006",
+            "display": "Factor X inhibitor disorder (disorder)"
+          },
+          {
+            "code": "234447008",
+            "display": "Congenital von Willebrand's disease type I (disorder)"
+          },
+          {
+            "code": "307515009",
+            "display": "Autoimmune factor VIII deficiency (disorder)"
+          },
+          {
+            "code": "38879000",
+            "display": "Factor XI inhibitor disorder (disorder)"
+          },
+          {
+            "code": "14230004",
+            "display": "Acquired factor VIII deficiency disease (disorder)"
+          },
+          {
+            "code": "95845002",
+            "display": "Hereditary dysplasminogenemia (disorder)"
+          },
+          {
+            "code": "725291001",
+            "display": "Defect of purinergic receptor p2y G protein-coupled 12 (disorder)"
+          },
+          {
+            "code": "441192006",
+            "display": "Mild hereditary factor IX deficiency disease without inhibitor (disorder)"
+          },
+          {
+            "code": "721304007",
+            "display": "Refractory thrombocytopenia (disorder)"
+          },
+          {
+            "code": "10749641000119106",
+            "display": "Blood coagulation disorder complicating pregnancy (disorder)"
+          },
+          {
+            "code": "234448003",
+            "display": "Congenital von Willebrand's disease type II (disorder)"
+          },
+          {
+            "code": "359704000",
+            "display": "von Willebrand disease, type 1^a^ (disorder)"
+          },
+          {
+            "code": "439458000",
+            "display": "Factor I deficiency disease (disorder)"
+          },
+          {
+            "code": "76642003",
+            "display": "Factor X deficiency (disorder)"
+          },
+          {
+            "code": "41690001",
+            "display": "Factor V inhibitor disorder (disorder)"
+          },
+          {
+            "code": "717407006",
+            "display": "Congenital plasminogen activator inhibitor deficiency type 1 (disorder)"
+          },
+          {
+            "code": "81783000",
+            "display": "Familial multiple factor deficiency syndrome (disorder)"
+          },
+          {
+            "code": "717935003",
+            "display": "Early onset diffuse bleeding diathesis secondary to vitamin K deficient hemorrhagic disease of fetus and newborn (disorder)"
+          },
+          {
+            "code": "2036003",
+            "display": "Acquired factor VII deficiency disease (disorder)"
+          },
+          {
+            "code": "71723006",
+            "display": "von Willebrand disease, type IIG (disorder)"
+          },
+          {
+            "code": "154818001",
+            "display": "Congenital afibrinogenemia (disorder)"
+          },
+          {
+            "code": "39191000119103",
+            "display": "Disseminated intravascular coagulation due to placental abruption (disorder)"
+          },
+          {
+            "code": "37350004",
+            "display": "Hereditary factor X deficiency disease (disorder)"
+          },
+          {
+            "code": "45366001",
+            "display": "Hereditary dysfibrinogenemia (disorder)"
+          },
+          {
+            "code": "48976006",
+            "display": "Prekallikrein deficiency (disorder)"
+          },
+          {
+            "code": "440866009",
+            "display": "Severe hereditary factor IX deficiency disease with inhibitor (disorder)"
+          },
+          {
+            "code": "89729000",
+            "display": "Factor IX inhibitor disorder (disorder)"
+          },
+          {
+            "code": "128105004",
+            "display": "von Willebrand disorder (disorder)"
+          },
+          {
+            "code": "86075001",
+            "display": "Coagulation factor deficiency syndrome (disorder)"
+          },
+          {
+            "code": "237336007",
+            "display": "Fibrinolysis - postpartum (disorder)"
+          },
+          {
+            "code": "1148857003",
+            "display": "Disorder of fibrinolysis caused by tissue plasminogen activator (disorder)"
+          },
+          {
+            "code": "41788008",
+            "display": "Hereditary factor IX deficiency disease (disorder)"
+          },
+          {
+            "code": "438827002",
+            "display": "Hereditary thrombophilic dysfibrinogenemia (disorder)"
+          },
+          {
+            "code": "88776002",
+            "display": "Hereditary factor V deficiency disease (disorder)"
+          },
+          {
+            "code": "439699000",
+            "display": "Hereditary antithrombin III deficiency (disorder)"
+          },
+          {
+            "code": "234460002",
+            "display": "Beta chain defect dysfibrinogenemia (disorder)"
+          },
+          {
+            "code": "105604006",
+            "display": "Deficiency of naturally occurring coagulation factor inhibitor (disorder)"
+          },
+          {
+            "code": "30182008",
+            "display": "Thrombocytopenia due to extracorporeal circulation (disorder)"
+          },
+          {
+            "code": "1148929009",
+            "display": "Deficiency of coagulation factor due to vitamin K malabsorption (disorder)"
+          },
+          {
+            "code": "438360006",
+            "display": "Hereditary factor VIII deficiency disease without inhibitor (disorder)"
+          },
+          {
+            "code": "716746003",
+            "display": "Congenital alpha-2-antiplasmin deficiency (disorder)"
+          },
+          {
+            "code": "6935003",
+            "display": "Familial hemorrhagic diathesis (disorder)"
+          },
+          {
+            "code": "19307009",
+            "display": "Drug-induced immune thrombocytopenia (disorder)"
+          },
+          {
+            "code": "16922007",
+            "display": "Hereditary coagulation factor deficiency (disorder)"
+          },
+          {
+            "code": "282707003",
+            "display": "Acquired inhibitor of coagulation (disorder)"
+          },
+          {
+            "code": "16872008",
+            "display": "Severe hereditary factor VIII deficiency disease (disorder)"
+          },
+          {
+            "code": "191296000",
+            "display": "Deficiency of coagulation factor due to liver disease (disorder)"
+          },
+          {
+            "code": "767713001",
+            "display": "Factor XI deficiency (disorder)"
+          },
+          {
+            "code": "61802005",
+            "display": "Primary cryofibrinogenemia (disorder)"
+          },
+          {
+            "code": "440820004",
+            "display": "Mild hereditary factor VIII deficiency disease without inhibitor (disorder)"
+          },
+          {
+            "code": "37193007",
+            "display": "Factor VII deficiency (disorder)"
+          },
+          {
+            "code": "95605009",
+            "display": "Hemolysis-elevated liver enzymes-low platelet count syndrome (disorder)"
+          },
+          {
+            "code": "95841006",
+            "display": "Hereditary hypoplasminogenemia (disorder)"
+          },
+          {
+            "code": "51624005",
+            "display": "Dilutional thrombocytopenia (disorder)"
+          },
+          {
+            "code": "10934005",
+            "display": "Cryofibrinogenemia (disorder)"
+          },
+          {
+            "code": "267272006",
+            "display": "Postpartum coagulation defects (disorder)"
+          },
+          {
+            "code": "441188004",
+            "display": "Homozygous protein C deficiency (disorder)"
+          },
+          {
+            "code": "234442002",
+            "display": "Hereditary factor VIII deficiency disease with inhibitor (disorder)"
+          },
+          {
+            "code": "25904003",
+            "display": "Acquired coagulation factor deficiency (disorder)"
+          },
+          {
+            "code": "123787003",
+            "display": "Blood coagulation disorder with prolonged coagulation time (disorder)"
+          },
+          {
+            "code": "66909001",
+            "display": "Familial multiple factor deficiency syndrome, type IV (disorder)"
+          },
+          {
+            "code": "41816006",
+            "display": "Secondary cryofibrinogenemia (disorder)"
+          },
+          {
+            "code": "234446004",
+            "display": "Congenital von Willebrand's disease (disorder)"
+          },
+          {
+            "code": "95840007",
+            "display": "Hypoplasminogenemia (disorder)"
+          },
+          {
+            "code": "21360006",
+            "display": "Miscarriage with afibrinogenemia (disorder)"
+          },
+          {
+            "code": "79674009",
+            "display": "Hyperheparinemia (disorder)"
+          },
+          {
+            "code": "234458004",
+            "display": "Hypodysfibrinogenemia (disorder)"
+          },
+          {
+            "code": "234455001",
+            "display": "Fibrinogen abnormality (disorder)"
+          },
+          {
+            "code": "69500007",
+            "display": "Blood coagulation disorder due to liver disease (disorder)"
+          },
+          {
+            "code": "90935002",
+            "display": "Hemophilia (disorder)"
+          },
+          {
+            "code": "64509006",
+            "display": "Acquired coagulation factor inhibitor disorder (disorder)"
+          },
+          {
+            "code": "234464006",
+            "display": "Fibrinolytic bleeding syndrome (disorder)"
+          },
+          {
+            "code": "111588002",
+            "display": "Heparin-induced thrombocytopenia with thrombosis (disorder)"
+          },
+          {
+            "code": "73397007",
+            "display": "Heparin-induced thrombocytopenia (disorder)"
+          },
+          {
+            "code": "782934004",
+            "display": "Bleeding diathesis due to collagen receptor defect (disorder)"
+          },
+          {
+            "code": "438373005",
+            "display": "Severe hereditary factor VIII deficiency disease with inhibitor (disorder)"
+          },
+          {
+            "code": "27312002",
+            "display": "High molecular weight kininogen deficiency (disorder)"
+          },
+          {
+            "code": "234457009",
+            "display": "Hypofibrinogenemia (disorder)"
+          },
+          {
+            "code": "359723007",
+            "display": "Acquired hypofibrinogenemia (disorder)"
+          },
+          {
+            "code": "191323001",
+            "display": "Thrombocytopenia due to extracorporeal circulation of blood (disorder)"
+          },
+          {
+            "code": "234452003",
+            "display": "Contact factor deficiency (disorder)"
+          },
+          {
+            "code": "439460003",
+            "display": "Hereditary factor XIII A subunit and B subunit deficiency (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "D69.1",
+            "display": "Qualitative platelet defects"
+          },
+          {
+            "code": "D69.42",
+            "display": "Congenital and hereditary thrombocytopenia purpura"
+          },
+          {
+            "code": "D69.4",
+            "display": "Other primary thrombocytopenia"
+          },
+          {
+            "code": "D69.49",
+            "display": "Other primary thrombocytopenia"
+          },
+          {
+            "code": "D69.6",
+            "display": "Thrombocytopenia, unspecified"
+          },
+          {
+            "code": "D69.5",
+            "display": "Secondary thrombocytopenia"
+          },
+          {
+            "code": "D69.51",
+            "display": "Posttransfusion purpura"
+          },
+          {
+            "code": "D69.3",
+            "display": "Immune thrombocytopenic purpura"
+          },
+          {
+            "code": "D69.41",
+            "display": "Evans syndrome"
+          },
+          {
+            "code": "D69.59",
+            "display": "Other secondary thrombocytopenia"
+          }
+        ]
+      }
+    ]
+  }
+}

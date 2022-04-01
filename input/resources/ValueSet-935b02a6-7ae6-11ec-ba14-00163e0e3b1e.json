@@ -1,45 +1,14 @@
 {
   "resourceType": "ValueSet",
-  "id": "935b02a6-7ae6-11ec-ba14-00163e0e3b1e",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134</code> version <code>1</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>5169</td><td>CA 125</td></tr></table></li><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a> version <code>2.7</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/62488-2.html\">62488-2</a></td><td>Ova1 test [Presence] in Serum</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/10334-1.html\">10334-1</a></td><td>Cancer Ag 125 [Units/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/15157-1.html\">15157-1</a></td><td>Cancer Ag 125 [Units/volume] in Serum or Plasma by Dilution</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/2006-5.html\">2006-5</a></td><td>Cancer Ag 125 [Presence] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/83082-8.html\">83082-8</a></td><td>Cancer Ag 125 [Units/volume] in Serum or Plasma by Immunoassay</td></tr></table></li></ul></div>"
-  },
-  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/935b02a6-7ae6-11ec-ba14-00163e0e3b1e",
-  "version": "0.9.5",
-  "name": "CA125",
-  "title": "CA125",
   "status": "active",
-  "experimental": false,
-  "date": "2022-03-14T18:28:42+00:00",
-  "publisher": "Project Ronin Inc.",
-  "contact": [
-    {
-      "name": "Project Ronin Inc.",
-      "telecom": [
-        {
-          "system": "url",
-          "value": "https://www.projectronin.com"
-        },
-        {
-          "system": "email",
-          "value": "contact@projectronin.com"
-        }
-      ]
-    }
-  ],
+  "name": "CA125",
+  "id": "935b02a6-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "CA125",
   "description": "LOINC codes indicating CA125 measurement Adding proprietary MDA codes",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "US",
-          "display": "United States of America"
-        }
-      ]
-    }
-  ],
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/935b02a6-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
   "immutable": false,
   "compose": {
     "include": [

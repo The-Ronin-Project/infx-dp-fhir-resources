@@ -1,45 +1,14 @@
 {
   "resourceType": "ValueSet",
-  "id": "6c2e5ce0-52ec-11ec-b9db-4b5741b59f6a",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <code>2021</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/763101411000119100\">763101411000119100</a></td><td>Primary renal cell carcinoma of left kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/733471003\">733471003</a></td><td>Chromophobe renal cell carcinoma (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/93985007\">93985007</a></td><td>Primary malignant neoplasm of renal pelvis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/363518003\">363518003</a></td><td>Malignant tumor of kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15959061000119101\">15959061000119101</a></td><td>Transitional cell carcinoma of left kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/733470002\">733470002</a></td><td>Collecting duct carcinoma of kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1148852009\">1148852009</a></td><td>Malignant cystic nephroma (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/733608000\">733608000</a></td><td>Papillary renal cell carcinoma (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15959101000119103\">15959101000119103</a></td><td>Transitional cell carcinoma of right kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1081581000119104\">1081581000119104</a></td><td>Clear cell carcinoma of right kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/353111000119108\">353111000119108</a></td><td>Primary malignant neoplasm of left renal pelvis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/254916002\">254916002</a></td><td>Cystadenocarcinoma of kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/717735006\">717735006</a></td><td>Renal cell carcinoma of kidney except renal pelvis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/188250002\">188250002</a></td><td>Malignant tumor of kidney parenchyma (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/354351000119105\">354351000119105</a></td><td>Primary malignant neoplasm of left kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/765095002\">765095002</a></td><td>Renal medullary carcinoma (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1081571000119102\">1081571000119102</a></td><td>Clear cell carcinoma of left kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/188253000\">188253000</a></td><td>Malignant tumor of pelviureteric junction (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/448215006\">448215006</a></td><td>Malignant epithelial neoplasm of renal pelvis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/713574000\">713574000</a></td><td>Malignant carcinoid tumor of kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/894171571000119107\">894171571000119107</a></td><td>Primary renal cell carcinoma of right kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/782722002\">782722002</a></td><td>Global developmental delay, lung cysts, overgrowth, Wilms tumor syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/734015000\">734015000</a></td><td>Clear cell papillary renal cell carcinoma (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/314967004\">314967004</a></td><td>Local recurrence of malignant tumor of kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/764990003\">764990003</a></td><td>Renal mucinous tubular and spindle cell carcinoma (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/236513009\">236513009</a></td><td>Lymphoma of kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/895345000\">895345000</a></td><td>Primary malignant neoplasm of bilateral kidneys (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1082331000119102\">1082331000119102</a></td><td>Nephroblastoma of right kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/764961009\">764961009</a></td><td>Hereditary clear cell renal cell carcinoma (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1082281000119105\">1082281000119105</a></td><td>Transitional cell carcinoma of left renal pelvis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/354361000119107\">354361000119107</a></td><td>Primary malignant neoplasm of right kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/702391001\">702391001</a></td><td>Renal cell carcinoma (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/733603009\">733603009</a></td><td>Tubulocystic renal cell carcinoma (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1082321000119100\">1082321000119100</a></td><td>Nephroblastoma of left kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/302849000\">302849000</a></td><td>Nephroblastoma (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1082301000119109\">1082301000119109</a></td><td>Transitional cell carcinoma of right renal pelvis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/254915003\">254915003</a></td><td>Clear cell carcinoma of kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/15636991000119103\">15636991000119103</a></td><td>Renal cell carcinoma of bilateral kidneys (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/188252005\">188252005</a></td><td>Malignant tumor of renal calyx (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/764694005\">764694005</a></td><td>MiT family translocation renal cell carcinoma (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/717736007\">717736007</a></td><td>Familial renal cell carcinoma (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/363457009\">363457009</a></td><td>Malignant tumor of renal pelvis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/764856008\">764856008</a></td><td>Acquired cystic disease associated renal cell carcinoma (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/408642003\">408642003</a></td><td>Transitional cell carcinoma of kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/352961000119103\">352961000119103</a></td><td>Primary malignant neoplasm of right renal pelvis (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/878805009\">878805009</a></td><td>Renal granular cell carcinoma (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/1148931000\">1148931000</a></td><td>Cystic renal cell carcinoma of kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/93849006\">93849006</a></td><td>Primary malignant neoplasm of kidney (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/254917006\">254917006</a></td><td>Papillary cystadenocarcinoma of kidney (disorder)</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-icd10CM.html\"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a> version <code>2022</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>C64.1</td><td>Malignant neoplasm of right kidney, except renal pelvis</td></tr><tr><td>C64</td><td>Malignant neoplasm of kidney, except renal pelvis</td></tr><tr><td>C64.9</td><td>Malignant neoplasm of unspecified kidney, except renal pelvis</td></tr><tr><td>C64.2</td><td>Malignant neoplasm of left kidney, except renal pelvis</td></tr></table></li></ul></div>"
-  },
-  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/6c2e5ce0-52ec-11ec-b9db-4b5741b59f6a",
-  "version": "0.9.5",
-  "name": "KidneyCancerCombined",
-  "title": "Kidney Cancer Combined",
   "status": "active",
-  "experimental": false,
-  "date": "2022-03-14T18:28:42+00:00",
-  "publisher": "Project Ronin Inc.",
-  "contact": [
-    {
-      "name": "Project Ronin Inc.",
-      "telecom": [
-        {
-          "system": "url",
-          "value": "https://www.projectronin.com"
-        },
-        {
-          "system": "email",
-          "value": "contact@projectronin.com"
-        }
-      ]
-    }
-  ],
+  "name": "KidneyCancerCombined",
+  "id": "6c2e5ce0-52ec-11ec-b9db-4b5741b59f6a",
+  "title": "Kidney Cancer Combined",
   "description": "This valueset contains the diagnosis codes for kidney cancer and diseases that are clinically treated as kidney cancer. It contains both ICD-10 and SNOMED. First version of valueset",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "US",
-          "display": "United States of America"
-        }
-      ]
-    }
-  ],
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/6c2e5ce0-52ec-11ec-b9db-4b5741b59f6a",
+  "experimental": false,
+  "publisher": "Project Ronin",
   "immutable": false,
   "compose": {
     "include": [

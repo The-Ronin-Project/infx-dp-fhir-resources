@@ -1,1 +1,814 @@
-{"resourceType":"ValueSet","id":"ed-visit-risk-driver-codes-vs","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://projectronin.com/ds/riskDriver</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>PSA</td><td>PSA</td></tr><tr><td>PSA-M</td><td>PSA Missing</td></tr><tr><td>LDH</td><td>LDH</td></tr><tr><td>LDH-M</td><td>LDH Missing</td></tr><tr><td>BHCG</td><td>Beta HCG</td></tr><tr><td>BHCG-M</td><td>Beta HCG Missing</td></tr><tr><td>AFP</td><td>AFP</td></tr><tr><td>AFP-M</td><td>AFP Missing</td></tr><tr><td>RBC</td><td>Red Blood Cell count (RBC)</td></tr><tr><td>RBC-M</td><td>Red Blood Cell count (RBC) Missing</td></tr><tr><td>WBC</td><td>White Blood Cell count (WBC)</td></tr><tr><td>WBC-M</td><td>White Blood Cell count (WBC) Missing</td></tr><tr><td>ANC</td><td>Absolute Neutrophil Count (ANC)</td></tr><tr><td>ANC-M</td><td>Absolute Neutrophil Count (ANC) Missing</td></tr><tr><td>HGB</td><td>Hemoglobin (HGB)</td></tr><tr><td>HGB-M</td><td>Hemoglobin (HGB) Missing</td></tr><tr><td>HCT</td><td>Hematocrit (HCT)</td></tr><tr><td>HCT-M</td><td>Hematocrit (HCT) Missing</td></tr><tr><td>PC</td><td>Platelet Count</td></tr><tr><td>PC-M</td><td>Platelet Count Missing</td></tr><tr><td>BUN</td><td>BUN</td></tr><tr><td>BUN-M</td><td>BUN Missing</td></tr><tr><td>CRE</td><td>Creatinine</td></tr><tr><td>CRE-M</td><td>Creatinine Missing</td></tr><tr><td>K</td><td>Potassium</td></tr><tr><td>K-M</td><td>Potassium Missing</td></tr><tr><td>NA</td><td>Sodium</td></tr><tr><td>NA-M</td><td>Sodium Missing</td></tr><tr><td>GLU</td><td>Glucose</td></tr><tr><td>GLU-M</td><td>Glucose Missing</td></tr><tr><td>ALT</td><td>ALT</td></tr><tr><td>ALT-M</td><td>ALT Missing</td></tr><tr><td>AST</td><td>AST</td></tr><tr><td>AST-M</td><td>AST Missing</td></tr><tr><td>ALB</td><td>Albumin</td></tr><tr><td>ALB-M</td><td>Albumin Missing</td></tr><tr><td>CO2</td><td>CO2</td></tr><tr><td>CO2-M</td><td>CO2 Missing</td></tr><tr><td>CL</td><td>Chloride</td></tr><tr><td>CL-M</td><td>Chloride Missing</td></tr><tr><td>TBN</td><td>Total Bilirubin</td></tr><tr><td>TBN-M</td><td>Total Bilirubin Missing</td></tr><tr><td>DBN</td><td>Direct Bilirubin</td></tr><tr><td>DBN-M</td><td>Direct Bilirubin Missing</td></tr><tr><td>AMY</td><td>Amylase</td></tr><tr><td>AMY-M</td><td>Amylase Missing</td></tr><tr><td>LIP</td><td>Lipase</td></tr><tr><td>LIP-M</td><td>Lipase Missing</td></tr><tr><td>INR</td><td>INR</td></tr><tr><td>INR-M</td><td>INR Missing</td></tr><tr><td>PT</td><td>PT</td></tr><tr><td>PT-M</td><td>PT Missing</td></tr><tr><td>PTT</td><td>PTT</td></tr><tr><td>PTT-M</td><td>PTT Missing</td></tr><tr><td>PT-PTT-INR-M</td><td>PT/PTT/INR Missing</td></tr><tr><td>FIB</td><td>Fibrinogen</td></tr><tr><td>FIB-M</td><td>Fibrinogen Missing</td></tr><tr><td>CEA</td><td>CEA</td></tr><tr><td>CEA-M</td><td>CEA Missing</td></tr><tr><td>CA-15.3</td><td>CA 15.3</td></tr><tr><td>CA-15.3-M</td><td>CA 15.3 Missing</td></tr><tr><td>CA-27.29</td><td>CA 27.29</td></tr><tr><td>CA-27.29-M</td><td>CA 27.29 Missing</td></tr><tr><td>CA-125</td><td>CA-125</td></tr><tr><td>CA-125-M</td><td>CA-125 Missing</td></tr><tr><td>CA-19-9</td><td>CA 19-9</td></tr><tr><td>CA-19-9-M</td><td>CA 19-9 Missing</td></tr><tr><td>BMI</td><td>BMI</td></tr><tr><td>AGE</td><td>Age</td></tr><tr><td>BS-M</td><td>Birth Sex Missing</td></tr><tr><td>BS</td><td>Birth Sex</td></tr><tr><td>MS</td><td>Marital Status</td></tr><tr><td>MS-M</td><td>Marital Status - Missing</td></tr><tr><td>RACE</td><td>Race</td></tr><tr><td>RACE-M</td><td>Race - Missing</td></tr><tr><td>ETH</td><td>Ethnicity</td></tr><tr><td>ETH-M</td><td>Ethnicity - Missing</td></tr><tr><td>PD-Density</td><td>Population Location Demographics</td></tr><tr><td>PD-LandArea</td><td>Population Location Demographics</td></tr><tr><td>PD-PNC</td><td>Population Citizenship Demographics</td></tr><tr><td>PVS-PV</td><td>Population Veteran Status</td></tr><tr><td>PVS-P2001GWV</td><td>Population Veteran Status</td></tr><tr><td>PVSS-P1990GWV</td><td>Population Veteran Status</td></tr><tr><td>PHA-NSEAA</td><td>Population Language Barrier</td></tr><tr><td>PHA-NSEW</td><td>Population Language Barrier</td></tr><tr><td>PO-Unemployed</td><td>Population Occupation Status</td></tr><tr><td>PF-MHHI</td><td>Population Income</td></tr><tr><td>PF-PIPL1</td><td>Population Income</td></tr><tr><td>PF-PIPG2</td><td>Population Income</td></tr><tr><td>PE-LHS</td><td>Population Highest Education Level</td></tr><tr><td>PE-HS</td><td>Population Highest Education Level</td></tr><tr><td>PE-SCA</td><td>Population Highest Education Level</td></tr><tr><td>PE-BD</td><td>Population Highest Education Level</td></tr><tr><td>PE-GD</td><td>Population Highest Education Level</td></tr><tr><td>PFA-FS</td><td>Population Food Insecurity</td></tr><tr><td>PO-A</td><td>Population Occupation</td></tr><tr><td>PO-C</td><td>Population Occupation</td></tr><tr><td>PO-M</td><td>Population Occupation</td></tr><tr><td>PO-W</td><td>Population Occupation</td></tr><tr><td>PO-R</td><td>Population Occupation</td></tr><tr><td>PO-T</td><td>Population Occupation</td></tr><tr><td>PHA-NV</td><td>Population Transportation Access</td></tr><tr><td>PHA-NC</td><td>Population Technology Access</td></tr><tr><td>PHA-60MC</td><td>Population Transportation Access</td></tr><tr><td>PHC-PUPI</td><td>Population Health Insurance Coverage</td></tr><tr><td>PHC-PMOI</td><td>Population Health Insurance Coverage</td></tr><tr><td>PHC-PRPI</td><td>Population HeaHealth Insurancelthcare Coverage</td></tr><tr><td>PHC-PU</td><td>Population Health Insurance Coverage</td></tr><tr><td>DSLV</td><td>Days since last visit</td></tr><tr><td>NPV</td><td>Number of previous visits</td></tr><tr><td>NPEDV</td><td>Number of previous ED visits</td></tr><tr><td>DSLEDV</td><td>Days since last ED visit</td></tr><tr><td>HYP</td><td>Hypertension</td></tr><tr><td>FED</td><td>Fluid-Electrolyte Disorder</td></tr><tr><td>WL</td><td>Weight Loss</td></tr><tr><td>HYPO</td><td>Hypothyroidism</td></tr><tr><td>DEP</td><td>Depression</td></tr><tr><td>COA</td><td>Coagulopathy</td></tr><tr><td>LD</td><td>Liver Disease</td></tr><tr><td>RF</td><td>Renal Failure</td></tr><tr><td>DIA-C</td><td>Diabetes (Complicated)</td></tr><tr><td>DIA-U</td><td>Diabetes (Uncomplicated)</td></tr><tr><td>CAT</td><td>Cardiac Arrhythmia</td></tr><tr><td>OBE</td><td>Obesity</td></tr><tr><td>PVD</td><td>Peripheral Vascular Disorder</td></tr><tr><td>PCD</td><td>Pulmonary Circulation Disorder</td></tr><tr><td>CPD</td><td>Chronic Pulmonary Disease</td></tr><tr><td>CHF</td><td>Congestive Heart Failure</td></tr><tr><td>ANA</td><td>Anaemia</td></tr><tr><td>ND</td><td>Neurological Disorders</td></tr><tr><td>RA</td><td>Rheumatoid Arthritis</td></tr><tr><td>VD</td><td>Valvular Disease</td></tr><tr><td>HYPC</td><td>Hypertension (Complicated)</td></tr><tr><td>AA</td><td>Alcohol Abuse</td></tr><tr><td>DA</td><td>Drug Abuse</td></tr><tr><td>PD</td><td>Pepticular Disease</td></tr><tr><td>BLWA</td><td>Blood loss with Anaemia</td></tr><tr><td>PSY</td><td>Psychoses</td></tr><tr><td>AIDSHIV</td><td>AIDS HIV</td></tr><tr><td>NCI</td><td>No Comorbidities Identified</td></tr><tr><td>AP</td><td>Acute Problems</td></tr><tr><td>NAPI</td><td>No Acute Problems Identified</td></tr><tr><td>TSP-M</td><td>T Stage Missing (Pathologic)</td></tr><tr><td>TSP</td><td>T Stage (Pathologic)</td></tr><tr><td>NSP-M</td><td>N Stage Missing (Pathologic)</td></tr><tr><td>NSP</td><td>N Stage (Pathologic)</td></tr><tr><td>MSP-M</td><td>M Stage Missing (Pathologic)</td></tr><tr><td>MSP</td><td>M Stage (Pathologic)</td></tr><tr><td>TSC-M</td><td>T Stage Missing (Clinical)</td></tr><tr><td>TSC</td><td>T Stage (Clinical)</td></tr><tr><td>NSC-M</td><td>N Stage Missing (Clinical)</td></tr><tr><td>NSC</td><td>N Stage (Clinical)</td></tr><tr><td>MSC-M</td><td>M Stage Missing (Clinical)</td></tr><tr><td>MSC</td><td>M Stage (Clinical)</td></tr><tr><td>BRC</td><td>Breast Cancer</td></tr><tr><td>PRC</td><td>Prostate Cancer</td></tr><tr><td>KDC</td><td>Kidney Cancer</td></tr><tr><td>BLC</td><td>Bladder Cancer</td></tr><tr><td>TTC</td><td>Testicular Cancer</td></tr><tr><td>UTC</td><td>Urethral Cancer</td></tr><tr><td>URC</td><td>Ureter Cancer</td></tr><tr><td>PNC</td><td>Penile Cancer</td></tr><tr><td>NCTI</td><td>No Cancer Type Identified</td></tr><tr><td>PKI</td><td>Protein Kinase Inhibitor</td></tr><tr><td>PAONP</td><td>Plant Alkaloids and Other Natural Products</td></tr><tr><td>OAA</td><td>Other Antineoplastic Agents</td></tr><tr><td>ISP</td><td>Immunosuppressants</td></tr><tr><td>ISM</td><td>Immunostimulants</td></tr><tr><td>ET</td><td>Endocrine Therapy</td></tr><tr><td>CAR</td><td>Cytotoxic Antibiotics and Related</td></tr><tr><td>NAMI</td><td>No Active Medication Identified</td></tr><tr><td>MTC</td><td>Medication Treatment Cycle</td></tr><tr><td>MC-M</td><td>Medication Cycle Missing</td></tr><tr><td>RSNV</td><td>Recent Symptom (Nausea/Vomiting)</td></tr><tr><td>RSD</td><td>Recent Symptom (Diarrhea)</td></tr><tr><td>RSF</td><td>Recent Symptom (Fever)</td></tr><tr><td>RSSB</td><td>Recent Symptom (Shortness of breath)</td></tr><tr><td>RSP</td><td>Recent Symptom (Pain)</td></tr><tr><td>NRSI</td><td>No Recent Symptom Identified</td></tr><tr><td>PAR</td><td>Paralysis</td></tr><tr><td>AAS</td><td>Alkylating Agents</td></tr><tr><td>PD-PWH</td><td>Population Demographics</td></tr><tr><td>PD-PBL</td><td>Population Demographics</td></tr><tr><td>PD-PAS</td><td>Population Demographics</td></tr><tr><td>PD-PAI</td><td>Population Demographics</td></tr><tr><td>PD-PNH</td><td>Population Demographics</td></tr><tr><td>PD-PRH</td><td>Population Income</td></tr><tr><td>PF-PIPG4</td><td>Population Income</td></tr><tr><td>PO-INFS</td><td>Population Occupation</td></tr><tr><td>PO-FINS</td><td>Population Occupation</td></tr><tr><td>PO-PROS</td><td>Population Occupation</td></tr><tr><td>PO-EDUS</td><td>Population Occupation</td></tr><tr><td>PO-AAE</td><td>Population Occupation</td></tr><tr><td>PO-OTH</td><td>Population Occupation</td></tr><tr><td>PO-PA</td><td>Population Occupation</td></tr><tr><td>PD-PMH</td><td>Population Income</td></tr><tr><td>PD-PCWGH</td><td>Population Family Demographics</td></tr><tr><td>PD-PDTW</td><td>Population Transportation Access</td></tr></table></li></ul></div>"},"url":"http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-risk-driver-codes-vs","version":"0.9.5","name":"EDVisitRiskDriverCodesVS","title":"ED Visit Risk Driver Codes Value Set","status":"active","experimental":false,"date":"2022-03-14T18:28:42+00:00","publisher":"Project Ronin Inc.","contact":[{"name":"Project Ronin Inc.","telecom":[{"system":"url","value":"https://www.projectronin.com"},{"system":"email","value":"contact@projectronin.com"}]}],"description":"Contains the values related to the ED visit risk drivers","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"US","display":"United States of America"}]}],"immutable":false,"compose":{"include":[{"system":"http://projectronin.com/ds/riskDriver","concept":[{"code":"PSA","display":"PSA"},{"code":"PSA-M","display":"PSA Missing"},{"code":"LDH","display":"LDH"},{"code":"LDH-M","display":"LDH Missing"},{"code":"BHCG","display":"Beta HCG"},{"code":"BHCG-M","display":"Beta HCG Missing"},{"code":"AFP","display":"AFP"},{"code":"AFP-M","display":"AFP Missing"},{"code":"RBC","display":"Red Blood Cell count (RBC)"},{"code":"RBC-M","display":"Red Blood Cell count (RBC) Missing"},{"code":"WBC","display":"White Blood Cell count (WBC)"},{"code":"WBC-M","display":"White Blood Cell count (WBC) Missing"},{"code":"ANC","display":"Absolute Neutrophil Count (ANC)"},{"code":"ANC-M","display":"Absolute Neutrophil Count (ANC) Missing"},{"code":"HGB","display":"Hemoglobin (HGB)"},{"code":"HGB-M","display":"Hemoglobin (HGB) Missing"},{"code":"HCT","display":"Hematocrit (HCT)"},{"code":"HCT-M","display":"Hematocrit (HCT) Missing"},{"code":"PC","display":"Platelet Count"},{"code":"PC-M","display":"Platelet Count Missing"},{"code":"BUN","display":"BUN"},{"code":"BUN-M","display":"BUN Missing"},{"code":"CRE","display":"Creatinine"},{"code":"CRE-M","display":"Creatinine Missing"},{"code":"K","display":"Potassium"},{"code":"K-M","display":"Potassium Missing"},{"code":"NA","display":"Sodium"},{"code":"NA-M","display":"Sodium Missing"},{"code":"GLU","display":"Glucose"},{"code":"GLU-M","display":"Glucose Missing"},{"code":"ALT","display":"ALT"},{"code":"ALT-M","display":"ALT Missing"},{"code":"AST","display":"AST"},{"code":"AST-M","display":"AST Missing"},{"code":"ALB","display":"Albumin"},{"code":"ALB-M","display":"Albumin Missing"},{"code":"CO2","display":"CO2"},{"code":"CO2-M","display":"CO2 Missing"},{"code":"CL","display":"Chloride"},{"code":"CL-M","display":"Chloride Missing"},{"code":"TBN","display":"Total Bilirubin"},{"code":"TBN-M","display":"Total Bilirubin Missing"},{"code":"DBN","display":"Direct Bilirubin"},{"code":"DBN-M","display":"Direct Bilirubin Missing"},{"code":"AMY","display":"Amylase"},{"code":"AMY-M","display":"Amylase Missing"},{"code":"LIP","display":"Lipase"},{"code":"LIP-M","display":"Lipase Missing"},{"code":"INR","display":"INR"},{"code":"INR-M","display":"INR Missing"},{"code":"PT","display":"PT"},{"code":"PT-M","display":"PT Missing"},{"code":"PTT","display":"PTT"},{"code":"PTT-M","display":"PTT Missing"},{"code":"PT-PTT-INR-M","display":"PT/PTT/INR Missing"},{"code":"FIB","display":"Fibrinogen"},{"code":"FIB-M","display":"Fibrinogen Missing"},{"code":"CEA","display":"CEA"},{"code":"CEA-M","display":"CEA Missing"},{"code":"CA-15.3","display":"CA 15.3"},{"code":"CA-15.3-M","display":"CA 15.3 Missing"},{"code":"CA-27.29","display":"CA 27.29"},{"code":"CA-27.29-M","display":"CA 27.29 Missing"},{"code":"CA-125","display":"CA-125"},{"code":"CA-125-M","display":"CA-125 Missing"},{"code":"CA-19-9","display":"CA 19-9"},{"code":"CA-19-9-M","display":"CA 19-9 Missing"},{"code":"BMI","display":"BMI"},{"code":"AGE","display":"Age"},{"code":"BS-M","display":"Birth Sex Missing"},{"code":"BS","display":"Birth Sex"},{"code":"MS","display":"Marital Status"},{"code":"MS-M","display":"Marital Status - Missing"},{"code":"RACE","display":"Race"},{"code":"RACE-M","display":"Race - Missing"},{"code":"ETH","display":"Ethnicity"},{"code":"ETH-M","display":"Ethnicity - Missing"},{"code":"PD-Density","display":"Population Location Demographics"},{"code":"PD-LandArea","display":"Population Location Demographics"},{"code":"PD-PNC","display":"Population Citizenship Demographics"},{"code":"PVS-PV","display":"Population Veteran Status"},{"code":"PVS-P2001GWV","display":"Population Veteran Status"},{"code":"PVSS-P1990GWV","display":"Population Veteran Status"},{"code":"PHA-NSEAA","display":"Population Language Barrier"},{"code":"PHA-NSEW","display":"Population Language Barrier"},{"code":"PO-Unemployed","display":"Population Occupation Status"},{"code":"PF-MHHI","display":"Population Income"},{"code":"PF-PIPL1","display":"Population Income"},{"code":"PF-PIPG2","display":"Population Income"},{"code":"PE-LHS","display":"Population Highest Education Level"},{"code":"PE-HS","display":"Population Highest Education Level"},{"code":"PE-SCA","display":"Population Highest Education Level"},{"code":"PE-BD","display":"Population Highest Education Level"},{"code":"PE-GD","display":"Population Highest Education Level"},{"code":"PFA-FS","display":"Population Food Insecurity"},{"code":"PO-A","display":"Population Occupation"},{"code":"PO-C","display":"Population Occupation"},{"code":"PO-M","display":"Population Occupation"},{"code":"PO-W","display":"Population Occupation"},{"code":"PO-R","display":"Population Occupation"},{"code":"PO-T","display":"Population Occupation"},{"code":"PHA-NV","display":"Population Transportation Access"},{"code":"PHA-NC","display":"Population Technology Access"},{"code":"PHA-60MC","display":"Population Transportation Access"},{"code":"PHC-PUPI","display":"Population Health Insurance Coverage"},{"code":"PHC-PMOI","display":"Population Health Insurance Coverage"},{"code":"PHC-PRPI","display":"Population HeaHealth Insurancelthcare Coverage"},{"code":"PHC-PU","display":"Population Health Insurance Coverage"},{"code":"DSLV","display":"Days since last visit"},{"code":"NPV","display":"Number of previous visits"},{"code":"NPEDV","display":"Number of previous ED visits"},{"code":"DSLEDV","display":"Days since last ED visit"},{"code":"HYP","display":"Hypertension"},{"code":"FED","display":"Fluid-Electrolyte Disorder"},{"code":"WL","display":"Weight Loss"},{"code":"HYPO","display":"Hypothyroidism"},{"code":"DEP","display":"Depression"},{"code":"COA","display":"Coagulopathy"},{"code":"LD","display":"Liver Disease"},{"code":"RF","display":"Renal Failure"},{"code":"DIA-C","display":"Diabetes (Complicated)"},{"code":"DIA-U","display":"Diabetes (Uncomplicated)"},{"code":"CAT","display":"Cardiac Arrhythmia"},{"code":"OBE","display":"Obesity"},{"code":"PVD","display":"Peripheral Vascular Disorder"},{"code":"PCD","display":"Pulmonary Circulation Disorder"},{"code":"CPD","display":"Chronic Pulmonary Disease"},{"code":"CHF","display":"Congestive Heart Failure"},{"code":"ANA","display":"Anaemia"},{"code":"ND","display":"Neurological Disorders"},{"code":"RA","display":"Rheumatoid Arthritis"},{"code":"VD","display":"Valvular Disease"},{"code":"HYPC","display":"Hypertension (Complicated)"},{"code":"AA","display":"Alcohol Abuse"},{"code":"DA","display":"Drug Abuse"},{"code":"PD","display":"Pepticular Disease"},{"code":"BLWA","display":"Blood loss with Anaemia"},{"code":"PSY","display":"Psychoses"},{"code":"AIDSHIV","display":"AIDS HIV"},{"code":"NCI","display":"No Comorbidities Identified"},{"code":"AP","display":"Acute Problems"},{"code":"NAPI","display":"No Acute Problems Identified"},{"code":"TSP-M","display":"T Stage Missing (Pathologic)"},{"code":"TSP","display":"T Stage (Pathologic)"},{"code":"NSP-M","display":"N Stage Missing (Pathologic)"},{"code":"NSP","display":"N Stage (Pathologic)"},{"code":"MSP-M","display":"M Stage Missing (Pathologic)"},{"code":"MSP","display":"M Stage (Pathologic)"},{"code":"TSC-M","display":"T Stage Missing (Clinical)"},{"code":"TSC","display":"T Stage (Clinical)"},{"code":"NSC-M","display":"N Stage Missing (Clinical)"},{"code":"NSC","display":"N Stage (Clinical)"},{"code":"MSC-M","display":"M Stage Missing (Clinical)"},{"code":"MSC","display":"M Stage (Clinical)"},{"code":"BRC","display":"Breast Cancer"},{"code":"PRC","display":"Prostate Cancer"},{"code":"KDC","display":"Kidney Cancer"},{"code":"BLC","display":"Bladder Cancer"},{"code":"TTC","display":"Testicular Cancer"},{"code":"UTC","display":"Urethral Cancer"},{"code":"URC","display":"Ureter Cancer"},{"code":"PNC","display":"Penile Cancer"},{"code":"NCTI","display":"No Cancer Type Identified"},{"code":"PKI","display":"Protein Kinase Inhibitor"},{"code":"PAONP","display":"Plant Alkaloids and Other Natural Products"},{"code":"OAA","display":"Other Antineoplastic Agents"},{"code":"ISP","display":"Immunosuppressants"},{"code":"ISM","display":"Immunostimulants"},{"code":"ET","display":"Endocrine Therapy"},{"code":"CAR","display":"Cytotoxic Antibiotics and Related"},{"code":"NAMI","display":"No Active Medication Identified"},{"code":"MTC","display":"Medication Treatment Cycle"},{"code":"MC-M","display":"Medication Cycle Missing"},{"code":"RSNV","display":"Recent Symptom (Nausea/Vomiting)"},{"code":"RSD","display":"Recent Symptom (Diarrhea)"},{"code":"RSF","display":"Recent Symptom (Fever)"},{"code":"RSSB","display":"Recent Symptom (Shortness of breath)"},{"code":"RSP","display":"Recent Symptom (Pain)"},{"code":"NRSI","display":"No Recent Symptom Identified"},{"code":"PAR","display":"Paralysis"},{"code":"AAS","display":"Alkylating Agents"},{"code":"PD-PWH","display":"Population Demographics"},{"code":"PD-PBL","display":"Population Demographics"},{"code":"PD-PAS","display":"Population Demographics"},{"code":"PD-PAI","display":"Population Demographics"},{"code":"PD-PNH","display":"Population Demographics"},{"code":"PD-PRH","display":"Population Income"},{"code":"PF-PIPG4","display":"Population Income"},{"code":"PO-INFS","display":"Population Occupation"},{"code":"PO-FINS","display":"Population Occupation"},{"code":"PO-PROS","display":"Population Occupation"},{"code":"PO-EDUS","display":"Population Occupation"},{"code":"PO-AAE","display":"Population Occupation"},{"code":"PO-OTH","display":"Population Occupation"},{"code":"PO-PA","display":"Population Occupation"},{"code":"PD-PMH","display":"Population Income"},{"code":"PD-PCWGH","display":"Population Family Demographics"},{"code":"PD-PDTW","display":"Population Transportation Access"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "EDVisitRiskDriverCodesVS",
+  "id": "ed-visit-risk-driver-codes-vs",
+  "title": "ED Visit Risk Driver Codes Value Set",
+  "description": "Contains the values related to the ED visit risk drivers",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-risk-driver-codes-vs",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://projectronin.com/ds/riskDriver",
+        "concept": [
+          {
+            "code": "PSA",
+            "display": "PSA"
+          },
+          {
+            "code": "PSA-M",
+            "display": "PSA Missing"
+          },
+          {
+            "code": "LDH",
+            "display": "LDH"
+          },
+          {
+            "code": "LDH-M",
+            "display": "LDH Missing"
+          },
+          {
+            "code": "BHCG",
+            "display": "Beta HCG"
+          },
+          {
+            "code": "BHCG-M",
+            "display": "Beta HCG Missing"
+          },
+          {
+            "code": "AFP",
+            "display": "AFP"
+          },
+          {
+            "code": "AFP-M",
+            "display": "AFP Missing"
+          },
+          {
+            "code": "RBC",
+            "display": "Red Blood Cell count (RBC)"
+          },
+          {
+            "code": "RBC-M",
+            "display": "Red Blood Cell count (RBC) Missing"
+          },
+          {
+            "code": "WBC",
+            "display": "White Blood Cell count (WBC)"
+          },
+          {
+            "code": "WBC-M",
+            "display": "White Blood Cell count (WBC) Missing"
+          },
+          {
+            "code": "ANC",
+            "display": "Absolute Neutrophil Count (ANC)"
+          },
+          {
+            "code": "ANC-M",
+            "display": "Absolute Neutrophil Count (ANC) Missing"
+          },
+          {
+            "code": "HGB",
+            "display": "Hemoglobin (HGB)"
+          },
+          {
+            "code": "HGB-M",
+            "display": "Hemoglobin (HGB) Missing"
+          },
+          {
+            "code": "HCT",
+            "display": "Hematocrit (HCT)"
+          },
+          {
+            "code": "HCT-M",
+            "display": "Hematocrit (HCT) Missing"
+          },
+          {
+            "code": "PC",
+            "display": "Platelet Count"
+          },
+          {
+            "code": "PC-M",
+            "display": "Platelet Count Missing"
+          },
+          {
+            "code": "BUN",
+            "display": "BUN"
+          },
+          {
+            "code": "BUN-M",
+            "display": "BUN Missing"
+          },
+          {
+            "code": "CRE",
+            "display": "Creatinine"
+          },
+          {
+            "code": "CRE-M",
+            "display": "Creatinine Missing"
+          },
+          {
+            "code": "K",
+            "display": "Potassium"
+          },
+          {
+            "code": "K-M",
+            "display": "Potassium Missing"
+          },
+          {
+            "code": "NA",
+            "display": "Sodium"
+          },
+          {
+            "code": "NA-M",
+            "display": "Sodium Missing"
+          },
+          {
+            "code": "GLU",
+            "display": "Glucose"
+          },
+          {
+            "code": "GLU-M",
+            "display": "Glucose Missing"
+          },
+          {
+            "code": "ALT",
+            "display": "ALT"
+          },
+          {
+            "code": "ALT-M",
+            "display": "ALT Missing"
+          },
+          {
+            "code": "AST",
+            "display": "AST"
+          },
+          {
+            "code": "AST-M",
+            "display": "AST Missing"
+          },
+          {
+            "code": "ALB",
+            "display": "Albumin"
+          },
+          {
+            "code": "ALB-M",
+            "display": "Albumin Missing"
+          },
+          {
+            "code": "CO2",
+            "display": "CO2"
+          },
+          {
+            "code": "CO2-M",
+            "display": "CO2 Missing"
+          },
+          {
+            "code": "CL",
+            "display": "Chloride"
+          },
+          {
+            "code": "CL-M",
+            "display": "Chloride Missing"
+          },
+          {
+            "code": "TBN",
+            "display": "Total Bilirubin"
+          },
+          {
+            "code": "TBN-M",
+            "display": "Total Bilirubin Missing"
+          },
+          {
+            "code": "DBN",
+            "display": "Direct Bilirubin"
+          },
+          {
+            "code": "DBN-M",
+            "display": "Direct Bilirubin Missing"
+          },
+          {
+            "code": "AMY",
+            "display": "Amylase"
+          },
+          {
+            "code": "AMY-M",
+            "display": "Amylase Missing"
+          },
+          {
+            "code": "LIP",
+            "display": "Lipase"
+          },
+          {
+            "code": "LIP-M",
+            "display": "Lipase Missing"
+          },
+          {
+            "code": "INR",
+            "display": "INR"
+          },
+          {
+            "code": "INR-M",
+            "display": "INR Missing"
+          },
+          {
+            "code": "PT",
+            "display": "PT"
+          },
+          {
+            "code": "PT-M",
+            "display": "PT Missing"
+          },
+          {
+            "code": "PTT",
+            "display": "PTT"
+          },
+          {
+            "code": "PTT-M",
+            "display": "PTT Missing"
+          },
+          {
+            "code": "PT-PTT-INR-M",
+            "display": "PT/PTT/INR Missing"
+          },
+          {
+            "code": "FIB",
+            "display": "Fibrinogen"
+          },
+          {
+            "code": "FIB-M",
+            "display": "Fibrinogen Missing"
+          },
+          {
+            "code": "CEA",
+            "display": "CEA"
+          },
+          {
+            "code": "CEA-M",
+            "display": "CEA Missing"
+          },
+          {
+            "code": "CA-15.3",
+            "display": "CA 15.3"
+          },
+          {
+            "code": "CA-15.3-M",
+            "display": "CA 15.3 Missing"
+          },
+          {
+            "code": "CA-27.29",
+            "display": "CA 27.29"
+          },
+          {
+            "code": "CA-27.29-M",
+            "display": "CA 27.29 Missing"
+          },
+          {
+            "code": "CA-125",
+            "display": "CA-125"
+          },
+          {
+            "code": "CA-125-M",
+            "display": "CA-125 Missing"
+          },
+          {
+            "code": "CA-19-9",
+            "display": "CA 19-9"
+          },
+          {
+            "code": "CA-19-9-M",
+            "display": "CA 19-9 Missing"
+          },
+          {
+            "code": "BMI",
+            "display": "BMI"
+          },
+          {
+            "code": "AGE",
+            "display": "Age"
+          },
+          {
+            "code": "BS-M",
+            "display": "Birth Sex Missing"
+          },
+          {
+            "code": "BS",
+            "display": "Birth Sex"
+          },
+          {
+            "code": "MS",
+            "display": "Marital Status"
+          },
+          {
+            "code": "MS-M",
+            "display": "Marital Status - Missing"
+          },
+          {
+            "code": "RACE",
+            "display": "Race"
+          },
+          {
+            "code": "RACE-M",
+            "display": "Race - Missing"
+          },
+          {
+            "code": "ETH",
+            "display": "Ethnicity"
+          },
+          {
+            "code": "ETH-M",
+            "display": "Ethnicity - Missing"
+          },
+          {
+            "code": "PD-Density",
+            "display": "Population Location Demographics"
+          },
+          {
+            "code": "PD-LandArea",
+            "display": "Population Location Demographics"
+          },
+          {
+            "code": "PD-PNC",
+            "display": "Population Citizenship Demographics"
+          },
+          {
+            "code": "PVS-PV",
+            "display": "Population Veteran Status"
+          },
+          {
+            "code": "PVS-P2001GWV",
+            "display": "Population Veteran Status"
+          },
+          {
+            "code": "PVSS-P1990GWV",
+            "display": "Population Veteran Status"
+          },
+          {
+            "code": "PHA-NSEAA",
+            "display": "Population Language Barrier"
+          },
+          {
+            "code": "PHA-NSEW",
+            "display": "Population Language Barrier"
+          },
+          {
+            "code": "PO-Unemployed",
+            "display": "Population Occupation Status"
+          },
+          {
+            "code": "PF-MHHI",
+            "display": "Population Income"
+          },
+          {
+            "code": "PF-PIPL1",
+            "display": "Population Income"
+          },
+          {
+            "code": "PF-PIPG2",
+            "display": "Population Income"
+          },
+          {
+            "code": "PE-LHS",
+            "display": "Population Highest Education Level"
+          },
+          {
+            "code": "PE-HS",
+            "display": "Population Highest Education Level"
+          },
+          {
+            "code": "PE-SCA",
+            "display": "Population Highest Education Level"
+          },
+          {
+            "code": "PE-BD",
+            "display": "Population Highest Education Level"
+          },
+          {
+            "code": "PE-GD",
+            "display": "Population Highest Education Level"
+          },
+          {
+            "code": "PFA-FS",
+            "display": "Population Food Insecurity"
+          },
+          {
+            "code": "PO-A",
+            "display": "Population Occupation"
+          },
+          {
+            "code": "PO-C",
+            "display": "Population Occupation"
+          },
+          {
+            "code": "PO-M",
+            "display": "Population Occupation"
+          },
+          {
+            "code": "PO-W",
+            "display": "Population Occupation"
+          },
+          {
+            "code": "PO-R",
+            "display": "Population Occupation"
+          },
+          {
+            "code": "PO-T",
+            "display": "Population Occupation"
+          },
+          {
+            "code": "PHA-NV",
+            "display": "Population Transportation Access"
+          },
+          {
+            "code": "PHA-NC",
+            "display": "Population Technology Access"
+          },
+          {
+            "code": "PHA-60MC",
+            "display": "Population Transportation Access"
+          },
+          {
+            "code": "PHC-PUPI",
+            "display": "Population Health Insurance Coverage"
+          },
+          {
+            "code": "PHC-PMOI",
+            "display": "Population Health Insurance Coverage"
+          },
+          {
+            "code": "PHC-PRPI",
+            "display": "Population HeaHealth Insurancelthcare Coverage"
+          },
+          {
+            "code": "PHC-PU",
+            "display": "Population Health Insurance Coverage"
+          },
+          {
+            "code": "DSLV",
+            "display": "Days since last visit"
+          },
+          {
+            "code": "NPV",
+            "display": "Number of previous visits"
+          },
+          {
+            "code": "NPEDV",
+            "display": "Number of previous ED visits"
+          },
+          {
+            "code": "DSLEDV",
+            "display": "Days since last ED visit"
+          },
+          {
+            "code": "HYP",
+            "display": "Hypertension"
+          },
+          {
+            "code": "FED",
+            "display": "Fluid-Electrolyte Disorder"
+          },
+          {
+            "code": "WL",
+            "display": "Weight Loss"
+          },
+          {
+            "code": "HYPO",
+            "display": "Hypothyroidism"
+          },
+          {
+            "code": "DEP",
+            "display": "Depression"
+          },
+          {
+            "code": "COA",
+            "display": "Coagulopathy"
+          },
+          {
+            "code": "LD",
+            "display": "Liver Disease"
+          },
+          {
+            "code": "RF",
+            "display": "Renal Failure"
+          },
+          {
+            "code": "DIA-C",
+            "display": "Diabetes (Complicated)"
+          },
+          {
+            "code": "DIA-U",
+            "display": "Diabetes (Uncomplicated)"
+          },
+          {
+            "code": "CAT",
+            "display": "Cardiac Arrhythmia"
+          },
+          {
+            "code": "OBE",
+            "display": "Obesity"
+          },
+          {
+            "code": "PVD",
+            "display": "Peripheral Vascular Disorder"
+          },
+          {
+            "code": "PCD",
+            "display": "Pulmonary Circulation Disorder"
+          },
+          {
+            "code": "CPD",
+            "display": "Chronic Pulmonary Disease"
+          },
+          {
+            "code": "CHF",
+            "display": "Congestive Heart Failure"
+          },
+          {
+            "code": "ANA",
+            "display": "Anaemia"
+          },
+          {
+            "code": "ND",
+            "display": "Neurological Disorders"
+          },
+          {
+            "code": "RA",
+            "display": "Rheumatoid Arthritis"
+          },
+          {
+            "code": "VD",
+            "display": "Valvular Disease"
+          },
+          {
+            "code": "HYPC",
+            "display": "Hypertension (Complicated)"
+          },
+          {
+            "code": "AA",
+            "display": "Alcohol Abuse"
+          },
+          {
+            "code": "DA",
+            "display": "Drug Abuse"
+          },
+          {
+            "code": "PD",
+            "display": "Pepticular Disease"
+          },
+          {
+            "code": "BLWA",
+            "display": "Blood loss with Anaemia"
+          },
+          {
+            "code": "PSY",
+            "display": "Psychoses"
+          },
+          {
+            "code": "AIDSHIV",
+            "display": "AIDS HIV"
+          },
+          {
+            "code": "NCI",
+            "display": "No Comorbidities Identified"
+          },
+          {
+            "code": "AP",
+            "display": "Acute Problems"
+          },
+          {
+            "code": "NAPI",
+            "display": "No Acute Problems Identified"
+          },
+          {
+            "code": "TSP-M",
+            "display": "T Stage Missing (Pathologic)"
+          },
+          {
+            "code": "TSP",
+            "display": "T Stage (Pathologic)"
+          },
+          {
+            "code": "NSP-M",
+            "display": "N Stage Missing (Pathologic)"
+          },
+          {
+            "code": "NSP",
+            "display": "N Stage (Pathologic)"
+          },
+          {
+            "code": "MSP-M",
+            "display": "M Stage Missing (Pathologic)"
+          },
+          {
+            "code": "MSP",
+            "display": "M Stage (Pathologic)"
+          },
+          {
+            "code": "TSC-M",
+            "display": "T Stage Missing (Clinical)"
+          },
+          {
+            "code": "TSC",
+            "display": "T Stage (Clinical)"
+          },
+          {
+            "code": "NSC-M",
+            "display": "N Stage Missing (Clinical)"
+          },
+          {
+            "code": "NSC",
+            "display": "N Stage (Clinical)"
+          },
+          {
+            "code": "MSC-M",
+            "display": "M Stage Missing (Clinical)"
+          },
+          {
+            "code": "MSC",
+            "display": "M Stage (Clinical)"
+          },
+          {
+            "code": "BRC",
+            "display": "Breast Cancer"
+          },
+          {
+            "code": "PRC",
+            "display": "Prostate Cancer"
+          },
+          {
+            "code": "KDC",
+            "display": "Kidney Cancer"
+          },
+          {
+            "code": "BLC",
+            "display": "Bladder Cancer"
+          },
+          {
+            "code": "TTC",
+            "display": "Testicular Cancer"
+          },
+          {
+            "code": "UTC",
+            "display": "Urethral Cancer"
+          },
+          {
+            "code": "URC",
+            "display": "Ureter Cancer"
+          },
+          {
+            "code": "PNC",
+            "display": "Penile Cancer"
+          },
+          {
+            "code": "NCTI",
+            "display": "No Cancer Type Identified"
+          },
+          {
+            "code": "PKI",
+            "display": "Protein Kinase Inhibitor"
+          },
+          {
+            "code": "PAONP",
+            "display": "Plant Alkaloids and Other Natural Products"
+          },
+          {
+            "code": "OAA",
+            "display": "Other Antineoplastic Agents"
+          },
+          {
+            "code": "ISP",
+            "display": "Immunosuppressants"
+          },
+          {
+            "code": "ISM",
+            "display": "Immunostimulants"
+          },
+          {
+            "code": "ET",
+            "display": "Endocrine Therapy"
+          },
+          {
+            "code": "CAR",
+            "display": "Cytotoxic Antibiotics and Related"
+          },
+          {
+            "code": "NAMI",
+            "display": "No Active Medication Identified"
+          },
+          {
+            "code": "MTC",
+            "display": "Medication Treatment Cycle"
+          },
+          {
+            "code": "MC-M",
+            "display": "Medication Cycle Missing"
+          },
+          {
+            "code": "RSNV",
+            "display": "Recent Symptom (Nausea/Vomiting)"
+          },
+          {
+            "code": "RSD",
+            "display": "Recent Symptom (Diarrhea)"
+          },
+          {
+            "code": "RSF",
+            "display": "Recent Symptom (Fever)"
+          },
+          {
+            "code": "RSSB",
+            "display": "Recent Symptom (Shortness of breath)"
+          },
+          {
+            "code": "RSP",
+            "display": "Recent Symptom (Pain)"
+          },
+          {
+            "code": "NRSI",
+            "display": "No Recent Symptom Identified"
+          },
+          {
+            "code": "PAR",
+            "display": "Paralysis"
+          },
+          {
+            "code": "AAS",
+            "display": "Alkylating Agents"
+          },
+          {
+            "code": "PD-PWH",
+            "display": "Population Demographics"
+          },
+          {
+            "code": "PD-PBL",
+            "display": "Population Demographics"
+          },
+          {
+            "code": "PD-PAS",
+            "display": "Population Demographics"
+          },
+          {
+            "code": "PD-PAI",
+            "display": "Population Demographics"
+          },
+          {
+            "code": "PD-PNH",
+            "display": "Population Demographics"
+          },
+          {
+            "code": "PD-PRH",
+            "display": "Population Income"
+          },
+          {
+            "code": "PF-PIPG4",
+            "display": "Population Income"
+          },
+          {
+            "code": "PO-INFS",
+            "display": "Population Occupation"
+          },
+          {
+            "code": "PO-FINS",
+            "display": "Population Occupation"
+          },
+          {
+            "code": "PO-PROS",
+            "display": "Population Occupation"
+          },
+          {
+            "code": "PO-EDUS",
+            "display": "Population Occupation"
+          },
+          {
+            "code": "PO-AAE",
+            "display": "Population Occupation"
+          },
+          {
+            "code": "PO-OTH",
+            "display": "Population Occupation"
+          },
+          {
+            "code": "PO-PA",
+            "display": "Population Occupation"
+          },
+          {
+            "code": "PD-PMH",
+            "display": "Population Income"
+          },
+          {
+            "code": "PD-PCWGH",
+            "display": "Population Family Demographics"
+          },
+          {
+            "code": "PD-PDTW",
+            "display": "Population Transportation Access"
+          }
+        ]
+      }
+    ]
+  }
+}

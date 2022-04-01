@@ -6,10 +6,6 @@
       "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-risk-assessment"
     ]
   },
-  "text": {
-    "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"roninEdVisitRiskAssessmentExample01\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ed-visit-risk-assessment.html\">ED Visit Risk Assessment</a></p></div><p><b>Sample Size</b>: 2000</p><p><b>Cohort Size</b>: 500</p><p><b>Model Version</b>: 30</p><p><b>identifier</b>: Tenant ID: mdaoc</p><p><b>status</b>: final</p><p><b>method</b>: Scikit-learn random forest regression model <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (ml[1]#sk-learn-random-forest-reg-model)</span></p><p><b>subject</b>: <a href=\"Patient-roninPatientExample01.html\">Patient/roninPatientExample01</a> \" ANYPERSON\"</p><p><b>occurrence</b>: 2021-10-07</p><p><b>basis</b>: <a href=\"Observation-roninEdVisitRationaleExample01.html\">Observation/roninEdVisitRationaleExample01</a></p><h3>Predictions</h3><table class=\"grid\"><tr><td>-</td><td><b>Probability[x]</b></td></tr><tr><td>*</td><td>0.43</td></tr></table></div>"
-  },
   "extension": [
     {
       "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/riskAssessmentSampleSize",
@@ -26,17 +22,17 @@
   ],
   "identifier": [
     {
+      "system": "http://projectronin.com/id/tenantId",
       "type": {
         "coding": [
           {
-            "system": "http://projectronin.com/id/tenantId",
             "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
             "display": "Ronin-specified Tenant Identifier"
           }
         ],
         "text": "Tenant ID"
       },
-      "system": "http://projectronin.com/id/tenantId",
       "value": "mdaoc"
     }
   ],
@@ -44,10 +40,10 @@
   "method": {
     "coding": [
       {
-        "system": "http://projectronin.com/ds/ml",
-        "version": "1",
         "code": "sk-learn-random-forest-reg-model",
-        "display": "Scikit-learn random forest regression model"
+        "system": "http://projectronin.com/ds/ml",
+        "display": "Scikit-learn random forest regression model",
+        "version": "1"
       }
     ]
   },
@@ -55,14 +51,14 @@
     "reference": "Patient/roninPatientExample01"
   },
   "occurrenceDateTime": "2021-10-07",
-  "basis": [
-    {
-      "reference": "Observation/roninEdVisitRationaleExample01"
-    }
-  ],
   "prediction": [
     {
       "probabilityDecimal": 0.43
+    }
+  ],
+  "basis": [
+    {
+      "reference": "Observation/roninEdVisitRationaleExample01"
     }
   ]
 }

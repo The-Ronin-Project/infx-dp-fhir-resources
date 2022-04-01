@@ -6,51 +6,47 @@
       "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-patient"
     ]
   },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Vivaan B. Acostal </b> (no stated gender) 1972-01-09 ( Tenant ID: mdaoc)</p></div>"
-  },
   "identifier": [
     {
+      "system": "http://projectronin.com/id/tenantId",
       "type": {
         "coding": [
           {
-            "system": "http://projectronin.com/id/tenantId",
             "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
             "display": "Ronin-specified Tenant Identifier"
           }
         ],
         "text": "Tenant ID"
       },
-      "system": "http://projectronin.com/id/tenantId",
       "value": "mdaoc"
     },
     {
+      "system": "http://projectronin.com/id/mrn",
       "type": {
         "coding": [
           {
-            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
             "code": "MR",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
             "display": "Medical Record Number"
           }
         ],
         "text": "MRN"
       },
-      "system": "http://projectronin.com/id/mrn",
       "value": "01113"
     },
     {
+      "system": "http://projectronin.com/id/fhir",
       "type": {
         "coding": [
           {
-            "system": "http://projectronin.com/id/fhir",
             "code": "STU3",
+            "system": "http://projectronin.com/id/fhir",
             "display": "FHIR STU3 ID"
           }
         ],
         "text": "FHIR STU3"
       },
-      "system": "http://projectronin.com/id/fhir",
       "value": "stu3-01113"
     }
   ],
@@ -60,6 +56,21 @@
       "given": [
         "Vivaan",
         "B."
+      ]
+    }
+  ],
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "1-111-555-4444",
+          "use": "home"
+        },
+        {
+          "system": "email",
+          "value": "acostal.vivaan@example.com"
+        }
       ]
     }
   ],
@@ -78,33 +89,9 @@
         "856 Parmesan Street"
       ],
       "city": "Little Italy",
-      "state": "CA",
       "postalCode": "042345",
+      "state": "CA",
       "country": "US"
-    }
-  ],
-  "maritalStatus": {
-    "coding": [
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
-        "code": "S"
-      }
-    ],
-    "text": "Never Married"
-  },
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "phone",
-          "value": "1-111-555-4444",
-          "use": "home"
-        },
-        {
-          "system": "email",
-          "value": "acostal.vivaan@example.com"
-        }
-      ]
     }
   ],
   "communication": [
@@ -112,8 +99,8 @@
       "language": {
         "coding": [
           {
-            "system": "urn:ietf:bcp:47",
             "code": "en-US",
+            "system": "urn:ietf:bcp:47",
             "display": "English (Region=United States)"
           }
         ],
@@ -121,10 +108,19 @@
       }
     }
   ],
+  "maritalStatus": {
+    "coding": [
+      {
+        "code": "S",
+        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+      }
+    ],
+    "text": "Never Married"
+  },
   "generalPractitioner": [
     {
-      "reference": "Practitioner/roninMDAPractitioner03Test",
-      "display": "Gabrielius Foster"
+      "display": "Gabrielius Foster",
+      "reference": "Practitioner/roninMDAPractitioner03Test"
     }
   ]
 }

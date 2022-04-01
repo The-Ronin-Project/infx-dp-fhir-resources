@@ -1,1 +1,373 @@
-{"resourceType":"ValueSet","id":"b8a8dc20-6d78-11ec-be4d-17414cf6b148","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <code>2021</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/248450003\">248450003</a></td><td>Postoperative fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/95627000\">95627000</a></td><td>Fever of the newborn (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/722892007\">722892007</a></td><td>Fever due to infection (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/420079008\">420079008</a></td><td>Relapsing fever (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/271751000\">271751000</a></td><td>Continuous fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/7520000\">7520000</a></td><td>Pyrexia of unknown origin (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/719398004\">719398004</a></td><td>Malignant hyperthermia with arthrogryposis and torticollis syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/186694006\">186694006</a></td><td>Sweating fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/52635002\">52635002</a></td><td>Relapsing fever of Iberian Peninsula AND/OR Northwest Africa (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/704425001\">704425001</a></td><td>Chronic fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/698579002\">698579002</a></td><td>Post diphtheria vaccination fever (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/426000000\">426000000</a></td><td>Fever greater than 100.4 Fahrenheit (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/130091000119103\">130091000119103</a></td><td>Postprocedural fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/248440004\">248440004</a></td><td>Tertian fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/123471000119103\">123471000119103</a></td><td>Post vaccination fever (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/713014002\">713014002</a></td><td>Infection caused by Borrelia miyamotoi (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/88808006\">88808006</a></td><td>Relapsing fever of Iran AND/OR Central Asia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/304213008\">304213008</a></td><td>Low grade pyrexia (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/386661006\">386661006</a></td><td>Fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/248444008\">248444008</a></td><td>Biphasic fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/271753002\">271753002</a></td><td>Irregular fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/405543000\">405543000</a></td><td>Drug-induced hyperpyrexia (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/698581000\">698581000</a></td><td>Post pertussis vaccination fever (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/31120005\">31120005</a></td><td>Relapsing fever of Asia AND/OR Africa (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/248434006\">248434006</a></td><td>Falling phase of fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/248441000\">248441000</a></td><td>Malignant tertian fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/449129007\">449129007</a></td><td>Paraneoplastic fever (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/248433000\">248433000</a></td><td>Plateau phase of fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/49513005\">49513005</a></td><td>Dehydration fever in newborn (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/213026003\">213026003</a></td><td>Malignant hyperpyrexia caused by anesthetic (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/77957000\">77957000</a></td><td>Intermittent fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/248443002\">248443002</a></td><td>Intermittent hepatic fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/14683004\">14683004</a></td><td>Louse-borne relapsing fever (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/10301003\">10301003</a></td><td>Tick-borne relapsing fever (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/248439001\">248439001</a></td><td>Double quotidien fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/248445009\">248445009</a></td><td>Fever, diurnal variation (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/248435007\">248435007</a></td><td>Prolonged fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/78168002\">78168002</a></td><td>Relapsing fever of Western North America (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/271754008\">271754008</a></td><td>Rapid fall of fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/271750004\">271750004</a></td><td>Gradual rise of fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/274640006\">274640006</a></td><td>Fever with chills (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/248449003\">248449003</a></td><td>Central fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/365989009\">365989009</a></td><td>Finding of phase of fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/248451004\">248451004</a></td><td>Postpartum fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/248437004\">248437004</a></td><td>Malarial fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/698578005\">698578005</a></td><td>Post diphtheria, tetanus and pertussis vaccination fever (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/240822009\">240822009</a></td><td>Bancroftian filarial fever (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/365977007\">365977007</a></td><td>Finding of pattern of fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/74873003\">74873003</a></td><td>Relapsing fever of Central AND/OR South America (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/271749004\">271749004</a></td><td>Acute rise of fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/405501007\">405501007</a></td><td>Malignant hyperthermia (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/713731001\">713731001</a></td><td>Pyrexia of unknown origin co-occurrent with human immunodeficiency virus infection (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/271752007\">271752007</a></td><td>Staircase fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/267340006\">267340006</a></td><td>Maternal pyrexia in labor (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/248432005\">248432005</a></td><td>Rising phase of fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/43626008\">43626008</a></td><td>Relapsing fever of Central AND/OR South Africa (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/42136008\">42136008</a></td><td>Swinging fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/698580004\">698580004</a></td><td>Post tetanus vaccination fever (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/52715007\">52715007</a></td><td>Pel Ebstein fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/248442007\">248442007</a></td><td>Quartan fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/102496004\">102496004</a></td><td>Spiking fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/39002001\">39002001</a></td><td>Relapsing fever of Western United States (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/9619006\">9619006</a></td><td>Aseptic fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/271755009\">271755009</a></td><td>Gradual fall of fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/248447001\">248447001</a></td><td>Fever defervescence (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/409702008\">409702008</a></td><td>Hyperpyrexia (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/111950007\">111950007</a></td><td>Factitious fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/58827009\">58827009</a></td><td>Relapsing fever of Southern United States, Mexico, Central AND/OR South America (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/60025004\">60025004</a></td><td>Transitory fever of newborn (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/63993003\">63993003</a></td><td>Remittent fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/135883003\">135883003</a></td><td>Cough with fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/248436008\">248436008</a></td><td>Slightly remittent fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/10151000132103\">10151000132103</a></td><td>Fever caused by virus (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/27578005\">27578005</a></td><td>Relapsing fever of the Caucasus (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/248438009\">248438009</a></td><td>Quotidien fever (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/119751000146104\">119751000146104</a></td><td>Fever caused by Severe acute respiratory syndrome coronavirus 2 (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/240827003\">240827003</a></td><td>Malayan filarial fever (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/248446005\">248446005</a></td><td>Reversed diurnal fever (finding)</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-icd10CM.html\"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a> version <code>2022</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>R50.82</td><td>Postprocedural fever</td></tr><tr><td>R50</td><td>Fever of other and unknown origin</td></tr><tr><td>R50.2</td><td>Drug induced fever</td></tr><tr><td>R50.8</td><td>Other specified fever</td></tr><tr><td>R50.81</td><td>Fever presenting with conditions classified elsewhere</td></tr><tr><td>R50.84</td><td>Febrile nonhemolytic transfusion reaction</td></tr><tr><td>R50.83</td><td>Postvaccination fever</td></tr><tr><td>R50.9</td><td>Fever, unspecified</td></tr></table></li></ul></div>"},"url":"http://projectronin.com/fhir/us/ronin/ValueSet/b8a8dc20-6d78-11ec-be4d-17414cf6b148","version":"0.9.5","name":"Fever","title":"Fever","status":"active","experimental":false,"date":"2022-03-14T18:28:42+00:00","publisher":"Project Ronin Inc.","contact":[{"name":"Project Ronin Inc.","telecom":[{"system":"url","value":"https://www.projectronin.com"},{"system":"email","value":"contact@projectronin.com"}]}],"description":"SNOMED and ICD.10 for fever","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"US","display":"United States of America"}]}],"immutable":false,"compose":{"include":[{"system":"http://snomed.info/sct","version":"2021","concept":[{"code":"248450003","display":"Postoperative fever (finding)"},{"code":"95627000","display":"Fever of the newborn (disorder)"},{"code":"722892007","display":"Fever due to infection (finding)"},{"code":"420079008","display":"Relapsing fever (disorder)"},{"code":"271751000","display":"Continuous fever (finding)"},{"code":"7520000","display":"Pyrexia of unknown origin (finding)"},{"code":"719398004","display":"Malignant hyperthermia with arthrogryposis and torticollis syndrome (disorder)"},{"code":"186694006","display":"Sweating fever (finding)"},{"code":"52635002","display":"Relapsing fever of Iberian Peninsula AND/OR Northwest Africa (disorder)"},{"code":"704425001","display":"Chronic fever (finding)"},{"code":"698579002","display":"Post diphtheria vaccination fever (disorder)"},{"code":"426000000","display":"Fever greater than 100.4 Fahrenheit (finding)"},{"code":"130091000119103","display":"Postprocedural fever (finding)"},{"code":"248440004","display":"Tertian fever (finding)"},{"code":"123471000119103","display":"Post vaccination fever (disorder)"},{"code":"713014002","display":"Infection caused by Borrelia miyamotoi (disorder)"},{"code":"88808006","display":"Relapsing fever of Iran AND/OR Central Asia (disorder)"},{"code":"304213008","display":"Low grade pyrexia (finding)"},{"code":"386661006","display":"Fever (finding)"},{"code":"248444008","display":"Biphasic fever (finding)"},{"code":"271753002","display":"Irregular fever (finding)"},{"code":"405543000","display":"Drug-induced hyperpyrexia (finding)"},{"code":"698581000","display":"Post pertussis vaccination fever (disorder)"},{"code":"31120005","display":"Relapsing fever of Asia AND/OR Africa (disorder)"},{"code":"248434006","display":"Falling phase of fever (finding)"},{"code":"248441000","display":"Malignant tertian fever (finding)"},{"code":"449129007","display":"Paraneoplastic fever (disorder)"},{"code":"248433000","display":"Plateau phase of fever (finding)"},{"code":"49513005","display":"Dehydration fever in newborn (disorder)"},{"code":"213026003","display":"Malignant hyperpyrexia caused by anesthetic (finding)"},{"code":"77957000","display":"Intermittent fever (finding)"},{"code":"248443002","display":"Intermittent hepatic fever (finding)"},{"code":"14683004","display":"Louse-borne relapsing fever (disorder)"},{"code":"10301003","display":"Tick-borne relapsing fever (disorder)"},{"code":"248439001","display":"Double quotidien fever (finding)"},{"code":"248445009","display":"Fever, diurnal variation (finding)"},{"code":"248435007","display":"Prolonged fever (finding)"},{"code":"78168002","display":"Relapsing fever of Western North America (disorder)"},{"code":"271754008","display":"Rapid fall of fever (finding)"},{"code":"271750004","display":"Gradual rise of fever (finding)"},{"code":"274640006","display":"Fever with chills (finding)"},{"code":"248449003","display":"Central fever (finding)"},{"code":"365989009","display":"Finding of phase of fever (finding)"},{"code":"248451004","display":"Postpartum fever (finding)"},{"code":"248437004","display":"Malarial fever (finding)"},{"code":"698578005","display":"Post diphtheria, tetanus and pertussis vaccination fever (disorder)"},{"code":"240822009","display":"Bancroftian filarial fever (disorder)"},{"code":"365977007","display":"Finding of pattern of fever (finding)"},{"code":"74873003","display":"Relapsing fever of Central AND/OR South America (disorder)"},{"code":"271749004","display":"Acute rise of fever (finding)"},{"code":"405501007","display":"Malignant hyperthermia (finding)"},{"code":"713731001","display":"Pyrexia of unknown origin co-occurrent with human immunodeficiency virus infection (disorder)"},{"code":"271752007","display":"Staircase fever (finding)"},{"code":"267340006","display":"Maternal pyrexia in labor (disorder)"},{"code":"248432005","display":"Rising phase of fever (finding)"},{"code":"43626008","display":"Relapsing fever of Central AND/OR South Africa (disorder)"},{"code":"42136008","display":"Swinging fever (finding)"},{"code":"698580004","display":"Post tetanus vaccination fever (disorder)"},{"code":"52715007","display":"Pel Ebstein fever (finding)"},{"code":"248442007","display":"Quartan fever (finding)"},{"code":"102496004","display":"Spiking fever (finding)"},{"code":"39002001","display":"Relapsing fever of Western United States (disorder)"},{"code":"9619006","display":"Aseptic fever (finding)"},{"code":"271755009","display":"Gradual fall of fever (finding)"},{"code":"248447001","display":"Fever defervescence (finding)"},{"code":"409702008","display":"Hyperpyrexia (finding)"},{"code":"111950007","display":"Factitious fever (finding)"},{"code":"58827009","display":"Relapsing fever of Southern United States, Mexico, Central AND/OR South America (disorder)"},{"code":"60025004","display":"Transitory fever of newborn (disorder)"},{"code":"63993003","display":"Remittent fever (finding)"},{"code":"135883003","display":"Cough with fever (finding)"},{"code":"248436008","display":"Slightly remittent fever (finding)"},{"code":"10151000132103","display":"Fever caused by virus (finding)"},{"code":"27578005","display":"Relapsing fever of the Caucasus (disorder)"},{"code":"248438009","display":"Quotidien fever (finding)"},{"code":"119751000146104","display":"Fever caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"},{"code":"240827003","display":"Malayan filarial fever (disorder)"},{"code":"248446005","display":"Reversed diurnal fever (finding)"}]},{"system":"http://hl7.org/fhir/sid/icd-10-cm","version":"2022","concept":[{"code":"R50.82","display":"Postprocedural fever"},{"code":"R50","display":"Fever of other and unknown origin"},{"code":"R50.2","display":"Drug induced fever"},{"code":"R50.8","display":"Other specified fever"},{"code":"R50.81","display":"Fever presenting with conditions classified elsewhere"},{"code":"R50.84","display":"Febrile nonhemolytic transfusion reaction"},{"code":"R50.83","display":"Postvaccination fever"},{"code":"R50.9","display":"Fever, unspecified"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Fever",
+  "id": "b8a8dc20-6d78-11ec-be4d-17414cf6b148",
+  "title": "Fever",
+  "description": "SNOMED and ICD.10 for fever",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/b8a8dc20-6d78-11ec-be4d-17414cf6b148",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "248450003",
+            "display": "Postoperative fever (finding)"
+          },
+          {
+            "code": "95627000",
+            "display": "Fever of the newborn (disorder)"
+          },
+          {
+            "code": "722892007",
+            "display": "Fever due to infection (finding)"
+          },
+          {
+            "code": "420079008",
+            "display": "Relapsing fever (disorder)"
+          },
+          {
+            "code": "271751000",
+            "display": "Continuous fever (finding)"
+          },
+          {
+            "code": "7520000",
+            "display": "Pyrexia of unknown origin (finding)"
+          },
+          {
+            "code": "719398004",
+            "display": "Malignant hyperthermia with arthrogryposis and torticollis syndrome (disorder)"
+          },
+          {
+            "code": "186694006",
+            "display": "Sweating fever (finding)"
+          },
+          {
+            "code": "52635002",
+            "display": "Relapsing fever of Iberian Peninsula AND/OR Northwest Africa (disorder)"
+          },
+          {
+            "code": "704425001",
+            "display": "Chronic fever (finding)"
+          },
+          {
+            "code": "698579002",
+            "display": "Post diphtheria vaccination fever (disorder)"
+          },
+          {
+            "code": "426000000",
+            "display": "Fever greater than 100.4 Fahrenheit (finding)"
+          },
+          {
+            "code": "130091000119103",
+            "display": "Postprocedural fever (finding)"
+          },
+          {
+            "code": "248440004",
+            "display": "Tertian fever (finding)"
+          },
+          {
+            "code": "123471000119103",
+            "display": "Post vaccination fever (disorder)"
+          },
+          {
+            "code": "713014002",
+            "display": "Infection caused by Borrelia miyamotoi (disorder)"
+          },
+          {
+            "code": "88808006",
+            "display": "Relapsing fever of Iran AND/OR Central Asia (disorder)"
+          },
+          {
+            "code": "304213008",
+            "display": "Low grade pyrexia (finding)"
+          },
+          {
+            "code": "386661006",
+            "display": "Fever (finding)"
+          },
+          {
+            "code": "248444008",
+            "display": "Biphasic fever (finding)"
+          },
+          {
+            "code": "271753002",
+            "display": "Irregular fever (finding)"
+          },
+          {
+            "code": "405543000",
+            "display": "Drug-induced hyperpyrexia (finding)"
+          },
+          {
+            "code": "698581000",
+            "display": "Post pertussis vaccination fever (disorder)"
+          },
+          {
+            "code": "31120005",
+            "display": "Relapsing fever of Asia AND/OR Africa (disorder)"
+          },
+          {
+            "code": "248434006",
+            "display": "Falling phase of fever (finding)"
+          },
+          {
+            "code": "248441000",
+            "display": "Malignant tertian fever (finding)"
+          },
+          {
+            "code": "449129007",
+            "display": "Paraneoplastic fever (disorder)"
+          },
+          {
+            "code": "248433000",
+            "display": "Plateau phase of fever (finding)"
+          },
+          {
+            "code": "49513005",
+            "display": "Dehydration fever in newborn (disorder)"
+          },
+          {
+            "code": "213026003",
+            "display": "Malignant hyperpyrexia caused by anesthetic (finding)"
+          },
+          {
+            "code": "77957000",
+            "display": "Intermittent fever (finding)"
+          },
+          {
+            "code": "248443002",
+            "display": "Intermittent hepatic fever (finding)"
+          },
+          {
+            "code": "14683004",
+            "display": "Louse-borne relapsing fever (disorder)"
+          },
+          {
+            "code": "10301003",
+            "display": "Tick-borne relapsing fever (disorder)"
+          },
+          {
+            "code": "248439001",
+            "display": "Double quotidien fever (finding)"
+          },
+          {
+            "code": "248445009",
+            "display": "Fever, diurnal variation (finding)"
+          },
+          {
+            "code": "248435007",
+            "display": "Prolonged fever (finding)"
+          },
+          {
+            "code": "78168002",
+            "display": "Relapsing fever of Western North America (disorder)"
+          },
+          {
+            "code": "271754008",
+            "display": "Rapid fall of fever (finding)"
+          },
+          {
+            "code": "271750004",
+            "display": "Gradual rise of fever (finding)"
+          },
+          {
+            "code": "274640006",
+            "display": "Fever with chills (finding)"
+          },
+          {
+            "code": "248449003",
+            "display": "Central fever (finding)"
+          },
+          {
+            "code": "365989009",
+            "display": "Finding of phase of fever (finding)"
+          },
+          {
+            "code": "248451004",
+            "display": "Postpartum fever (finding)"
+          },
+          {
+            "code": "248437004",
+            "display": "Malarial fever (finding)"
+          },
+          {
+            "code": "698578005",
+            "display": "Post diphtheria, tetanus and pertussis vaccination fever (disorder)"
+          },
+          {
+            "code": "240822009",
+            "display": "Bancroftian filarial fever (disorder)"
+          },
+          {
+            "code": "365977007",
+            "display": "Finding of pattern of fever (finding)"
+          },
+          {
+            "code": "74873003",
+            "display": "Relapsing fever of Central AND/OR South America (disorder)"
+          },
+          {
+            "code": "271749004",
+            "display": "Acute rise of fever (finding)"
+          },
+          {
+            "code": "405501007",
+            "display": "Malignant hyperthermia (finding)"
+          },
+          {
+            "code": "713731001",
+            "display": "Pyrexia of unknown origin co-occurrent with human immunodeficiency virus infection (disorder)"
+          },
+          {
+            "code": "271752007",
+            "display": "Staircase fever (finding)"
+          },
+          {
+            "code": "267340006",
+            "display": "Maternal pyrexia in labor (disorder)"
+          },
+          {
+            "code": "248432005",
+            "display": "Rising phase of fever (finding)"
+          },
+          {
+            "code": "43626008",
+            "display": "Relapsing fever of Central AND/OR South Africa (disorder)"
+          },
+          {
+            "code": "42136008",
+            "display": "Swinging fever (finding)"
+          },
+          {
+            "code": "698580004",
+            "display": "Post tetanus vaccination fever (disorder)"
+          },
+          {
+            "code": "52715007",
+            "display": "Pel Ebstein fever (finding)"
+          },
+          {
+            "code": "248442007",
+            "display": "Quartan fever (finding)"
+          },
+          {
+            "code": "102496004",
+            "display": "Spiking fever (finding)"
+          },
+          {
+            "code": "39002001",
+            "display": "Relapsing fever of Western United States (disorder)"
+          },
+          {
+            "code": "9619006",
+            "display": "Aseptic fever (finding)"
+          },
+          {
+            "code": "271755009",
+            "display": "Gradual fall of fever (finding)"
+          },
+          {
+            "code": "248447001",
+            "display": "Fever defervescence (finding)"
+          },
+          {
+            "code": "409702008",
+            "display": "Hyperpyrexia (finding)"
+          },
+          {
+            "code": "111950007",
+            "display": "Factitious fever (finding)"
+          },
+          {
+            "code": "58827009",
+            "display": "Relapsing fever of Southern United States, Mexico, Central AND/OR South America (disorder)"
+          },
+          {
+            "code": "60025004",
+            "display": "Transitory fever of newborn (disorder)"
+          },
+          {
+            "code": "63993003",
+            "display": "Remittent fever (finding)"
+          },
+          {
+            "code": "135883003",
+            "display": "Cough with fever (finding)"
+          },
+          {
+            "code": "248436008",
+            "display": "Slightly remittent fever (finding)"
+          },
+          {
+            "code": "10151000132103",
+            "display": "Fever caused by virus (finding)"
+          },
+          {
+            "code": "27578005",
+            "display": "Relapsing fever of the Caucasus (disorder)"
+          },
+          {
+            "code": "248438009",
+            "display": "Quotidien fever (finding)"
+          },
+          {
+            "code": "119751000146104",
+            "display": "Fever caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+          },
+          {
+            "code": "240827003",
+            "display": "Malayan filarial fever (disorder)"
+          },
+          {
+            "code": "248446005",
+            "display": "Reversed diurnal fever (finding)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "R50.82",
+            "display": "Postprocedural fever"
+          },
+          {
+            "code": "R50",
+            "display": "Fever of other and unknown origin"
+          },
+          {
+            "code": "R50.2",
+            "display": "Drug induced fever"
+          },
+          {
+            "code": "R50.8",
+            "display": "Other specified fever"
+          },
+          {
+            "code": "R50.81",
+            "display": "Fever presenting with conditions classified elsewhere"
+          },
+          {
+            "code": "R50.84",
+            "display": "Febrile nonhemolytic transfusion reaction"
+          },
+          {
+            "code": "R50.83",
+            "display": "Postvaccination fever"
+          },
+          {
+            "code": "R50.9",
+            "display": "Fever, unspecified"
+          }
+        ]
+      }
+    ]
+  }
+}

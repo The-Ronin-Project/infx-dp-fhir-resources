@@ -1,1 +1,31 @@
-{"resourceType":"ValueSet","id":"c2dd2c48-6d99-11ec-a98d-00163efae4c9","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a> version <code>2.7</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/17843-4.html\">17843-4</a></td><td>Cancer Ag 72-4 [Units/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/2015-6.html\">2015-6</a></td><td>Cancer Ag 72-4 [Presence] in Serum or Plasma</td></tr></table></li></ul></div>"},"url":"http://projectronin.com/fhir/us/ronin/ValueSet/c2dd2c48-6d99-11ec-a98d-00163efae4c9","version":"0.9.5","name":"CA72_4","title":"CA72.4","status":"active","experimental":false,"date":"2022-03-14T18:28:42+00:00","publisher":"Project Ronin Inc.","contact":[{"name":"Project Ronin Inc.","telecom":[{"system":"url","value":"https://www.projectronin.com"},{"system":"email","value":"contact@projectronin.com"}]}],"description":"LOINC codes indicating the measurement of Cancer Ag 72-4 [Units/volume] in Serum or Plasma  MVP for ED risk model release","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"US","display":"United States of America"}]}],"immutable":false,"compose":{"include":[{"system":"http://loinc.org","version":"2.7","concept":[{"code":"17843-4","display":"Cancer Ag 72-4 [Units/volume] in Serum or Plasma"},{"code":"2015-6","display":"Cancer Ag 72-4 [Presence] in Serum or Plasma"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "CA72_4",
+  "id": "c2dd2c48-6d99-11ec-a98d-00163efae4c9",
+  "title": "CA72.4",
+  "description": "LOINC codes indicating the measurement of Cancer Ag 72-4 [Units/volume] in Serum or Plasma  MVP for ED risk model release",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/c2dd2c48-6d99-11ec-a98d-00163efae4c9",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "17843-4",
+            "display": "Cancer Ag 72-4 [Units/volume] in Serum or Plasma"
+          },
+          {
+            "code": "2015-6",
+            "display": "Cancer Ag 72-4 [Presence] in Serum or Plasma"
+          }
+        ]
+      }
+    ]
+  }
+}

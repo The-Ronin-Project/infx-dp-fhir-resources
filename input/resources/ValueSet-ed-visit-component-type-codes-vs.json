@@ -1,1 +1,38 @@
-{"resourceType":"ValueSet","id":"ed-visit-component-type-codes-vs","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://projectronin.com/observation/componentType</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>RiskDriver</td><td>Risk Driver Component</td></tr><tr><td>PatientComparison</td><td>Patient Comparison Component</td></tr><tr><td>Labs</td><td>Labs Component</td></tr><tr><td>Symptoms</td><td>Symptoms Component</td></tr></table></li></ul></div>"},"url":"http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-component-type-codes-vs","version":"0.9.5","name":"EDVisitComponentTypeCodesVS","title":"ED Visit Component Type Codes Value Set","status":"active","experimental":false,"date":"2022-03-14T18:28:42+00:00","publisher":"Project Ronin Inc.","contact":[{"name":"Project Ronin Inc.","telecom":[{"system":"url","value":"https://www.projectronin.com"},{"system":"email","value":"contact@projectronin.com"}]}],"description":"Contains Component Types for ED Visit","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"US","display":"United States of America"}]}],"immutable":false,"compose":{"include":[{"system":"http://projectronin.com/observation/componentType","concept":[{"code":"RiskDriver","display":"Risk Driver Component"},{"code":"PatientComparison","display":"Patient Comparison Component"},{"code":"Labs","display":"Labs Component"},{"code":"Symptoms","display":"Symptoms Component"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "EDVisitComponentTypeCodesVS",
+  "id": "ed-visit-component-type-codes-vs",
+  "title": "ED Visit Component Type Codes Value Set",
+  "description": "Contains Component Types for ED Visit",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-component-type-codes-vs",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://projectronin.com/observation/componentType",
+        "concept": [
+          {
+            "code": "RiskDriver",
+            "display": "Risk Driver Component"
+          },
+          {
+            "code": "PatientComparison",
+            "display": "Patient Comparison Component"
+          },
+          {
+            "code": "Labs",
+            "display": "Labs Component"
+          },
+          {
+            "code": "Symptoms",
+            "display": "Symptoms Component"
+          }
+        ]
+      }
+    ]
+  }
+}

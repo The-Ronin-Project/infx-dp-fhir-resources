@@ -1,1 +1,123 @@
-{"resourceType":"ValueSet","id":"0e52e8d0-7afa-11ec-bf1d-39d06c5d65d4","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a> version <code>2.7</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/74684-2.html\">74684-2</a></td><td>Carbon dioxide, total [Moles/volume] in Serum or Plasma --post dialysis</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/2019-8.html\">2019-8</a></td><td>Carbon dioxide [Partial pressure] in Arterial blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/2021-4.html\">2021-4</a></td><td>Carbon dioxide [Partial pressure] in Venous blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/39466-8.html\">39466-8</a></td><td>Carbon dioxide, total [Moles/volume] in Arterial cord blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/34728-6.html\">34728-6</a></td><td>Carbon dioxide, total [Moles/volume] in Blood by calculation</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/50981-0.html\">50981-0</a></td><td>Carbon dioxide [Partial pressure] adjusted to patient's actual temperature in Mixed venous blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/57923-5.html\">57923-5</a></td><td>Carbon dioxide, total [Moles/volume] in Venous cord blood by calculation</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/2028-9.html\">2028-9</a></td><td>Carbon dioxide, total [Moles/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/57922-7.html\">57922-7</a></td><td>Carbon dioxide, total [Moles/volume] in Serum or Plasma by calculation</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/2027-1.html\">2027-1</a></td><td>Carbon dioxide, total [Moles/volume] in Venous blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/11557-6.html\">11557-6</a></td><td>Carbon dioxide [Partial pressure] in Blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/19223-7.html\">19223-7</a></td><td>Carbon dioxide, total [Moles/volume] in Mixed venous blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/57921-9.html\">57921-9</a></td><td>Carbon dioxide, total [Moles/volume] in Arterial cord blood by calculation</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/49695-0.html\">49695-0</a></td><td>Carbon dioxide [Partial pressure] adjusted to patient's actual temperature in Venous cord blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/57920-1.html\">57920-1</a></td><td>Carbon dioxide, total [Moles/volume] in Mixed venous blood by calculation</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/39465-0.html\">39465-0</a></td><td>Carbon dioxide, total [Moles/volume] in Venous cord blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/2026-3.html\">2026-3</a></td><td>Carbon dioxide, total [Moles/volume] in Arterial blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/28645-0.html\">28645-0</a></td><td>Carbon dioxide [Partial pressure] in Venous cord blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/28644-3.html\">28644-3</a></td><td>Carbon dioxide [Partial pressure] in Arterial cord blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/48391-7.html\">48391-7</a></td><td>Carbon dioxide, total [Moles/volume] in Venous blood by calculation</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/20565-8.html\">20565-8</a></td><td>Carbon dioxide, total [Moles/volume] in Blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/77143-6.html\">77143-6</a></td><td>Carbon dioxide, total [Moles/volume] in Serum, Plasma or Blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/41647-9.html\">41647-9</a></td><td>Carbon dioxide, total [Moles/volume] in Arterial blood by calculation</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/49694-3.html\">49694-3</a></td><td>Carbon dioxide [Partial pressure] adjusted to patient's actual temperature in Arterial cord blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/19212-0.html\">19212-0</a></td><td>Carbon dioxide [Partial pressure] in Mixed venous blood</td></tr></table></li></ul></div>"},"url":"http://projectronin.com/fhir/us/ronin/ValueSet/0e52e8d0-7afa-11ec-bf1d-39d06c5d65d4","version":"0.9.5","name":"CO2","title":"CO2","status":"active","experimental":false,"date":"2022-03-14T18:28:42+00:00","publisher":"Project Ronin Inc.","contact":[{"name":"Project Ronin Inc.","telecom":[{"system":"url","value":"https://www.projectronin.com"},{"system":"email","value":"contact@projectronin.com"}]}],"description":"LOINC codes representing serum of blood analysis of CO2 loinc codes for CO2","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"US","display":"United States of America"}]}],"immutable":false,"compose":{"include":[{"system":"http://loinc.org","version":"2.7","concept":[{"code":"74684-2","display":"Carbon dioxide, total [Moles/volume] in Serum or Plasma --post dialysis"},{"code":"2019-8","display":"Carbon dioxide [Partial pressure] in Arterial blood"},{"code":"2021-4","display":"Carbon dioxide [Partial pressure] in Venous blood"},{"code":"39466-8","display":"Carbon dioxide, total [Moles/volume] in Arterial cord blood"},{"code":"34728-6","display":"Carbon dioxide, total [Moles/volume] in Blood by calculation"},{"code":"50981-0","display":"Carbon dioxide [Partial pressure] adjusted to patient's actual temperature in Mixed venous blood"},{"code":"57923-5","display":"Carbon dioxide, total [Moles/volume] in Venous cord blood by calculation"},{"code":"2028-9","display":"Carbon dioxide, total [Moles/volume] in Serum or Plasma"},{"code":"57922-7","display":"Carbon dioxide, total [Moles/volume] in Serum or Plasma by calculation"},{"code":"2027-1","display":"Carbon dioxide, total [Moles/volume] in Venous blood"},{"code":"11557-6","display":"Carbon dioxide [Partial pressure] in Blood"},{"code":"19223-7","display":"Carbon dioxide, total [Moles/volume] in Mixed venous blood"},{"code":"57921-9","display":"Carbon dioxide, total [Moles/volume] in Arterial cord blood by calculation"},{"code":"49695-0","display":"Carbon dioxide [Partial pressure] adjusted to patient's actual temperature in Venous cord blood"},{"code":"57920-1","display":"Carbon dioxide, total [Moles/volume] in Mixed venous blood by calculation"},{"code":"39465-0","display":"Carbon dioxide, total [Moles/volume] in Venous cord blood"},{"code":"2026-3","display":"Carbon dioxide, total [Moles/volume] in Arterial blood"},{"code":"28645-0","display":"Carbon dioxide [Partial pressure] in Venous cord blood"},{"code":"28644-3","display":"Carbon dioxide [Partial pressure] in Arterial cord blood"},{"code":"48391-7","display":"Carbon dioxide, total [Moles/volume] in Venous blood by calculation"},{"code":"20565-8","display":"Carbon dioxide, total [Moles/volume] in Blood"},{"code":"77143-6","display":"Carbon dioxide, total [Moles/volume] in Serum, Plasma or Blood"},{"code":"41647-9","display":"Carbon dioxide, total [Moles/volume] in Arterial blood by calculation"},{"code":"49694-3","display":"Carbon dioxide [Partial pressure] adjusted to patient's actual temperature in Arterial cord blood"},{"code":"19212-0","display":"Carbon dioxide [Partial pressure] in Mixed venous blood"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "CO2",
+  "id": "0e52e8d0-7afa-11ec-bf1d-39d06c5d65d4",
+  "title": "CO2",
+  "description": "LOINC codes representing serum of blood analysis of CO2 loinc codes for CO2",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/0e52e8d0-7afa-11ec-bf1d-39d06c5d65d4",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "74684-2",
+            "display": "Carbon dioxide, total [Moles/volume] in Serum or Plasma --post dialysis"
+          },
+          {
+            "code": "2019-8",
+            "display": "Carbon dioxide [Partial pressure] in Arterial blood"
+          },
+          {
+            "code": "2021-4",
+            "display": "Carbon dioxide [Partial pressure] in Venous blood"
+          },
+          {
+            "code": "39466-8",
+            "display": "Carbon dioxide, total [Moles/volume] in Arterial cord blood"
+          },
+          {
+            "code": "34728-6",
+            "display": "Carbon dioxide, total [Moles/volume] in Blood by calculation"
+          },
+          {
+            "code": "50981-0",
+            "display": "Carbon dioxide [Partial pressure] adjusted to patient's actual temperature in Mixed venous blood"
+          },
+          {
+            "code": "57923-5",
+            "display": "Carbon dioxide, total [Moles/volume] in Venous cord blood by calculation"
+          },
+          {
+            "code": "2028-9",
+            "display": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+          },
+          {
+            "code": "57922-7",
+            "display": "Carbon dioxide, total [Moles/volume] in Serum or Plasma by calculation"
+          },
+          {
+            "code": "2027-1",
+            "display": "Carbon dioxide, total [Moles/volume] in Venous blood"
+          },
+          {
+            "code": "11557-6",
+            "display": "Carbon dioxide [Partial pressure] in Blood"
+          },
+          {
+            "code": "19223-7",
+            "display": "Carbon dioxide, total [Moles/volume] in Mixed venous blood"
+          },
+          {
+            "code": "57921-9",
+            "display": "Carbon dioxide, total [Moles/volume] in Arterial cord blood by calculation"
+          },
+          {
+            "code": "49695-0",
+            "display": "Carbon dioxide [Partial pressure] adjusted to patient's actual temperature in Venous cord blood"
+          },
+          {
+            "code": "57920-1",
+            "display": "Carbon dioxide, total [Moles/volume] in Mixed venous blood by calculation"
+          },
+          {
+            "code": "39465-0",
+            "display": "Carbon dioxide, total [Moles/volume] in Venous cord blood"
+          },
+          {
+            "code": "2026-3",
+            "display": "Carbon dioxide, total [Moles/volume] in Arterial blood"
+          },
+          {
+            "code": "28645-0",
+            "display": "Carbon dioxide [Partial pressure] in Venous cord blood"
+          },
+          {
+            "code": "28644-3",
+            "display": "Carbon dioxide [Partial pressure] in Arterial cord blood"
+          },
+          {
+            "code": "48391-7",
+            "display": "Carbon dioxide, total [Moles/volume] in Venous blood by calculation"
+          },
+          {
+            "code": "20565-8",
+            "display": "Carbon dioxide, total [Moles/volume] in Blood"
+          },
+          {
+            "code": "77143-6",
+            "display": "Carbon dioxide, total [Moles/volume] in Serum, Plasma or Blood"
+          },
+          {
+            "code": "41647-9",
+            "display": "Carbon dioxide, total [Moles/volume] in Arterial blood by calculation"
+          },
+          {
+            "code": "49694-3",
+            "display": "Carbon dioxide [Partial pressure] adjusted to patient's actual temperature in Arterial cord blood"
+          },
+          {
+            "code": "19212-0",
+            "display": "Carbon dioxide [Partial pressure] in Mixed venous blood"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,1 +1,49 @@
-{"resourceType":"PractitionerRole","id":"roninMDAPractitionerRole02Test","meta":{"profile":["http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitionerrole"]},"text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"roninMDAPractitionerRole02Test\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-oncology-practitionerrole.html\">Oncology PractitionerRole</a></p></div><p><b>identifier</b>: Tenant ID: mdaoc</p><p><b>practitioner</b>: <a href=\"Practitioner-roninMDAPractitioner02Test.html\">Practitioner/roninMDAPractitioner02Test</a> \" GRAY\"</p><p><b>organization</b>: <a href=\"Organization-roninMDAPartnerDepartmentTest.html\">Organization/roninMDAPartnerDepartmentTest</a> \"MDA\"</p><p><b>code</b>: Family medicine specialist <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#62247001)</span></p><p><b>telecom</b>: ph: 1-677-555-5555(WORK)</p></div>"},"identifier":[{"type":{"coding":[{"system":"http://projectronin.com/id/tenantId","code":"TID","display":"Ronin-specified Tenant Identifier"}],"text":"Tenant ID"},"system":"http://projectronin.com/id/tenantId","value":"mdaoc"}],"practitioner":{"reference":"Practitioner/roninMDAPractitioner02Test"},"organization":{"reference":"Organization/roninMDAPartnerDepartmentTest"},"code":[{"coding":[{"system":"http://snomed.info/sct","code":"62247001","display":"Family medicine specialist"}]}],"telecom":[{"system":"phone","value":"1-677-555-5555","use":"work"}]}
+{
+  "resourceType": "PractitionerRole",
+  "id": "roninMDAPractitionerRole02Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitionerrole"
+    ]
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "mdaoc"
+    }
+  ],
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "62247001",
+          "system": "http://snomed.info/sct",
+          "display": "Family medicine specialist"
+        }
+      ]
+    }
+  ],
+  "organization": {
+    "reference": "Organization/roninMDAPartnerDepartmentTest"
+  },
+  "practitioner": {
+    "reference": "Practitioner/roninMDAPractitioner02Test"
+  },
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "1-677-555-5555",
+      "use": "work"
+    }
+  ]
+}

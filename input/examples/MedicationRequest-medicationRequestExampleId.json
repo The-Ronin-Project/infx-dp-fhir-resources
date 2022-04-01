@@ -6,10 +6,12 @@
       "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-medication-Request"
     ]
   },
-  "text": {
-    "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"medicationRequestExampleId\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-oncology-medication-Request.html\">Oncology Medication Request</a></p></div><p><b>Revised Dose</b>: 100</p><p><b>Revised Unit</b>: mg</p><p><b>identifier</b>: id: 013</p><p><b>status</b>: active</p><p><b>intent</b>: proposal</p><p><b>medication</b>: <a href=\"Medication-medicationIdExample.html\">Medication/medicationIdExample</a></p><p><b>subject</b>: <a href=\"Patient-ExamplePatient.html\">Patient/ExamplePatient</a> \" PABLO\"</p><p><b>authoredOn</b>: 2021-02-02</p><p><b>requester</b>: <a href=\"Patient-ExamplePatient.html\">Patient/ExamplePatient</a> \" PABLO\"</p></div>"
-  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "013"
+    }
+  ],
   "extension": [
     {
       "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/revisedDose",
@@ -18,12 +20,6 @@
     {
       "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/revisedUnit",
       "valueString": "mg"
-    }
-  ],
-  "identifier": [
-    {
-      "system": "http://projectronin.com/id/tenantId",
-      "value": "013"
     }
   ],
   "status": "active",

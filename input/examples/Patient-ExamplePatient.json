@@ -1,1 +1,96 @@
-{"resourceType":"Patient","id":"ExamplePatient","meta":{"profile":["http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-patient"]},"text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Corwin Pablo </b> (no stated gender) 2020-01-01 ( Tenant ID: 013)</p></div>"},"identifier":[{"type":{"coding":[{"system":"http://projectronin.com/id/tenantId","code":"TID","display":"Ronin-specified Tenant Identifier"}],"text":"Tenant ID"},"system":"http://projectronin.com/id/tenantId","value":"013"},{"type":{"coding":[{"system":"http://terminology.hl7.org/CodeSystem/v2-0203","code":"MR","display":"Medical Record Number"}],"text":"MRN"},"system":"http://projectronin.com/id/mrn","value":"12345"},{"type":{"coding":[{"system":"http://projectronin.com/id/fhir","code":"STU3","display":"FHIR STU3 ID"}],"text":"FHIR STU3"},"system":"http://projectronin.com/id/fhir","value":"abc12345"}],"name":[{"family":"Pablo","given":["Corwin"]}],"telecom":[{"system":"phone","value":"1-791-760-3413","use":"home"}],"gender":"female","birthDate":"2020-01-01","address":[{"line":["81947 Stracke Crest"],"city":"Hillsboro","district":"Berkshire","state":"Georgia","postalCode":"32624-2413","country":"Nicaragua"}],"maritalStatus":{"coding":[{"system":"http://terminology.hl7.org/CodeSystem/v3-MaritalStatus","code":"M"}],"text":"Married"},"generalPractitioner":[{"display":"Harvey Feest"}]}
+{
+  "resourceType": "Patient",
+  "id": "ExamplePatient",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-patient"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "value": "013"
+    },
+    {
+      "system": "http://projectronin.com/id/mrn",
+      "type": {
+        "coding": [
+          {
+            "code": "MR",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "display": "Medical Record Number"
+          }
+        ],
+        "text": "MRN"
+      },
+      "value": "12345"
+    },
+    {
+      "system": "http://projectronin.com/id/fhir",
+      "type": {
+        "coding": [
+          {
+            "code": "STU3",
+            "system": "http://projectronin.com/id/fhir",
+            "display": "FHIR STU3 ID"
+          }
+        ],
+        "text": "FHIR STU3"
+      },
+      "value": "abc12345"
+    }
+  ],
+  "name": [
+    {
+      "family": "Pablo",
+      "given": [
+        "Corwin"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "1-791-760-3413",
+      "use": "home"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "2020-01-01",
+  "address": [
+    {
+      "line": [
+        "81947 Stracke Crest"
+      ],
+      "city": "Hillsboro",
+      "district": "Berkshire",
+      "state": "Georgia",
+      "postalCode": "32624-2413",
+      "country": "Nicaragua"
+    }
+  ],
+  "maritalStatus": {
+    "coding": [
+      {
+        "code": "M",
+        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+      }
+    ],
+    "text": "Married"
+  },
+  "generalPractitioner": [
+    {
+      "display": "Harvey Feest"
+    }
+  ]
+}

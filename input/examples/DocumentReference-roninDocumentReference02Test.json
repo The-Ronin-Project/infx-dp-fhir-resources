@@ -1,1 +1,67 @@
-{"resourceType":"DocumentReference","id":"roninDocumentReference02Test","meta":{"profile":["http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-document-reference"]},"text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"roninDocumentReference02Test\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-oncology-document-reference.html\">Oncology Document Reference</a></p></div><p><b>identifier</b>: Tenant ID: mdaoc</p><p><b>status</b>: current</p><p><b>type</b>: Physician Emergency department Note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#28568-4)</span></p><p><b>category</b>: Clinical Note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/core/STU3.1/CodeSystem-us-core-documentreference-category.html\">US Core DocumentReferences Category Codes</a>#clinical-note)</span></p><p><b>subject</b>: <a href=\"Patient-roninPatient02Test.html\">Patient/roninPatient02Test</a> \" WYATT\"</p><p><b>date</b>: Feb 7, 2018, 11:28:17 AM</p><p><b>author</b>: <a href=\"Practitioner-roninMDAPractitioner02Test.html\">Practitioner/roninMDAPractitioner02Test</a> \" GRAY\"</p><blockquote><p><b>content</b></p></blockquote><blockquote><p><b>context</b></p></blockquote></div>"},"identifier":[{"type":{"coding":[{"system":"http://projectronin.com/id/tenantId","code":"TID","display":"Ronin-specified Tenant Identifier"}],"text":"Tenant ID"},"system":"http://projectronin.com/id/tenantId","value":"mdaoc"}],"status":"current","type":{"coding":[{"system":"http://loinc.org","code":"28568-4","display":"Physician Emergency department Note"}]},"category":[{"coding":[{"system":"http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category","code":"clinical-note","display":"Clinical Note"}]}],"subject":{"reference":"Patient/roninPatient02Test"},"date":"2018-02-07T13:28:17.239+02:00","author":[{"reference":"Practitioner/roninMDAPractitioner02Test"}],"content":[{"id":"note_mda2.html","attachment":{"contentType":"text/html","data":"bm90ZV9tZGEyLmh0bWwK"}}],"context":{"id":"exampleContextId"}}
+{
+  "resourceType": "DocumentReference",
+  "id": "roninDocumentReference02Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-document-reference"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "value": "mdaoc"
+    }
+  ],
+  "status": "current",
+  "date": "2018-02-07T13:28:17.239+02:00",
+  "context": {
+    "id": "exampleContextId"
+  },
+  "type": {
+    "coding": [
+      {
+        "code": "28568-4",
+        "system": "http://loinc.org",
+        "display": "Physician Emergency department Note"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "clinical-note",
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+          "display": "Clinical Note"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/roninPatient02Test"
+  },
+  "content": [
+    {
+      "id": "note_mda2.html",
+      "attachment": {
+        "data": "bm90ZV9tZGEyLmh0bWwK",
+        "contentType": "text/html"
+      }
+    }
+  ],
+  "author": [
+    {
+      "reference": "Practitioner/roninMDAPractitioner02Test"
+    }
+  ]
+}

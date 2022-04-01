@@ -6,10 +6,10 @@
       "http://projectronin.com/fhir/us/ronin/StructureDefinition/partner-department"
     ]
   },
+  "active": true,
+  "name": "MDA",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">MDA</div>"
-  },
-  "active": true,
-  "name": "MDA"
+  }
 }

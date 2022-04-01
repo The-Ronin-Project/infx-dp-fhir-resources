@@ -1,45 +1,14 @@
 {
   "resourceType": "ValueSet",
-  "id": "4029ea60-8541-11ec-9f7a-b90e86f6e1b0",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a> version <code>2.71</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/41649-5.html\">41649-5</a></td><td>Chloride [Moles/volume] in Venous blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/41650-3.html\">41650-3</a></td><td>Chloride [Moles/volume] in Arterial blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/54369-4.html\">54369-4</a></td><td>Chloride [Moles/volume] in Serum or Plasma --post dialysis</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/94000-7.html\">94000-7</a></td><td>Chloride [Moles/volume] in Serum or Plasma --1 hour post dose vasopressin</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/51590-8.html\">51590-8</a></td><td>Chloride [Moles/volume] in Capillary blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/77138-6.html\">77138-6</a></td><td>Chloride [Moles/volume] in Serum, Plasma or Blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/94009-8.html\">94009-8</a></td><td>Chloride [Moles/volume] in Serum or Plasma --2 hours post dose vasopressin</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/2075-0.html\">2075-0</a></td><td>Chloride [Moles/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/2069-3.html\">2069-3</a></td><td>Chloride [Moles/volume] in Blood</td></tr></table></li></ul></div>"
-  },
-  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/4029ea60-8541-11ec-9f7a-b90e86f6e1b0",
-  "version": "0.9.5",
-  "name": "Chloride",
-  "title": "Chloride",
   "status": "active",
-  "experimental": false,
-  "date": "2022-03-14T18:28:42+00:00",
-  "publisher": "Project Ronin Inc.",
-  "contact": [
-    {
-      "name": "Project Ronin Inc.",
-      "telecom": [
-        {
-          "system": "url",
-          "value": "https://www.projectronin.com"
-        },
-        {
-          "system": "email",
-          "value": "contact@projectronin.com"
-        }
-      ]
-    }
-  ],
+  "name": "Chloride",
+  "id": "4029ea60-8541-11ec-9f7a-b90e86f6e1b0",
+  "title": "Chloride",
   "description": "LOINC Codes for indicating serum analysis of Chloride",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "US",
-          "display": "United States of America"
-        }
-      ]
-    }
-  ],
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/4029ea60-8541-11ec-9f7a-b90e86f6e1b0",
+  "experimental": false,
+  "publisher": "Project Ronin",
   "immutable": false,
   "compose": {
     "include": [

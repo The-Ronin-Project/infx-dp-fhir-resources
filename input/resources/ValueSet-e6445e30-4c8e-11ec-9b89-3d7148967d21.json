@@ -1,1 +1,237 @@
-{"resourceType":"ValueSet","id":"e6445e30-4c8e-11ec-9b89-3d7148967d21","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <code>2021</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/255108000\">255108000</a></td><td>Carcinoma of bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/255109008\">255109008</a></td><td>Transitional cell carcinoma of bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/689821000119105\">689821000119105</a></td><td>Primary transitional cell carcinoma of posterior wall of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/689831000119108\">689831000119108</a></td><td>Primary transitional cell carcinoma of trigone of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/188241004\">188241004</a></td><td>Malignant neoplasm of lateral wall of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/681991000119104\">681991000119104</a></td><td>Primary adenocarcinoma of trigone of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/689771000119103\">689771000119103</a></td><td>Primary transitional cell carcinoma of anterior wall of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/399326009\">399326009</a></td><td>Malignant tumor of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/425066001\">425066001</a></td><td>Carcinoma of urinary bladder, invasive (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/188239000\">188239000</a></td><td>Malignant tumor of trigone of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/93675008\">93675008</a></td><td>Primary malignant neoplasm of anterior wall of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/91141000119100\">91141000119100</a></td><td>Primary spindle cell carcinoma of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/93863000\">93863000</a></td><td>Primary malignant neoplasm of lateral wall of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/94122003\">94122003</a></td><td>Primary malignant neoplasm of ureteric orifice of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/689791000119102\">689791000119102</a></td><td>Primary transitional cell carcinoma of dome of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/188244007\">188244007</a></td><td>Malignant tumor of bladder neck (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/682041000119100\">682041000119100</a></td><td>Primary adenocarcinoma of ureteral orifice (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/188240003\">188240003</a></td><td>Malignant tumor of vault of bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/425231005\">425231005</a></td><td>Carcinoma of urinary bladder, superficial (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/188242006\">188242006</a></td><td>Malignant neoplasm of anterior wall of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/689781000119100\">689781000119100</a></td><td>Primary transitional cell carcinoma of neck of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/188243001\">188243001</a></td><td>Malignant neoplasm of posterior wall of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/94109006\">94109006</a></td><td>Primary malignant neoplasm of trigone of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/93689003\">93689003</a></td><td>Primary malignant neoplasm of bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/681611000119103\">681611000119103</a></td><td>Primary adenocarcinoma of neck of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/681591000119108\">681591000119108</a></td><td>Primary adenocarcinoma of anterior wall of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/188245008\">188245008</a></td><td>Malignant tumor of ureteric orifice (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/188247000\">188247000</a></td><td>Malignant neoplasm, overlapping lesion of bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/689801000119101\">689801000119101</a></td><td>Primary transitional cell carcinoma of lateral wall of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/681661000119100\">681661000119100</a></td><td>Primary adenocarcinoma of dome of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/94124002\">94124002</a></td><td>Primary malignant neoplasm of urinary bladder neck (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/93983000\">93983000</a></td><td>Primary malignant neoplasm of rectovesical septum (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/93972009\">93972009</a></td><td>Primary malignant neoplasm of posterior wall of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/314968009\">314968009</a></td><td>Local recurrence of malignant tumor of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/718604008\">718604008</a></td><td>Small cell neuroendocrine carcinoma of bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/449803009\">449803009</a></td><td>Primary malignant neoplasm of dome of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/371969003\">371969003</a></td><td>Primary malignant neoplasm of apex of urinary bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/255110003\">255110003</a></td><td>Adenocarcinoma of bladder (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/689851000119102\">689851000119102</a></td><td>Primary transitional cell carcinoma of ureteral orifice (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/702467006\">702467006</a></td><td>Malignant neoplasm of augmented bladder (disorder)</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-icd10CM.html\"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a> version <code>2022</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>C67.3</td><td>Malignant neoplasm of anterior wall of bladder</td></tr><tr><td>C67.5</td><td>Malignant neoplasm of bladder neck</td></tr><tr><td>C67.9</td><td>Malignant neoplasm of bladder, unspecified</td></tr><tr><td>C67</td><td>Malignant neoplasm of bladder</td></tr><tr><td>C67.0</td><td>Malignant neoplasm of trigone of bladder</td></tr><tr><td>C67.2</td><td>Malignant neoplasm of lateral wall of bladder</td></tr><tr><td>C67.8</td><td>Malignant neoplasm of overlapping sites of bladder</td></tr><tr><td>C67.1</td><td>Malignant neoplasm of dome of bladder</td></tr><tr><td>C67.7</td><td>Malignant neoplasm of urachus</td></tr><tr><td>C67.6</td><td>Malignant neoplasm of ureteric orifice</td></tr><tr><td>C67.4</td><td>Malignant neoplasm of posterior wall of bladder</td></tr><tr><td>D09.0</td><td>Carcinoma in situ of bladder</td></tr></table></li></ul></div>"},"url":"http://projectronin.com/fhir/us/ronin/ValueSet/e6445e30-4c8e-11ec-9b89-3d7148967d21","version":"0.9.5","name":"BladderCancerCombined","title":"bladder-cancer-combined","status":"active","experimental":false,"date":"2022-03-14T18:28:42+00:00","publisher":"Project Ronin Inc.","contact":[{"name":"Project Ronin Inc.","telecom":[{"system":"url","value":"https://www.projectronin.com"},{"system":"email","value":"contact@projectronin.com"}]}],"description":"This valueset contains the diagnosis codes for bladder cancer and diseases that are clinically treated as bladder cancer. It contains both ICD-10 and SNOMED. initial version","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"US","display":"United States of America"}]}],"immutable":false,"compose":{"include":[{"system":"http://snomed.info/sct","version":"2021","concept":[{"code":"255108000","display":"Carcinoma of bladder (disorder)"},{"code":"255109008","display":"Transitional cell carcinoma of bladder (disorder)"},{"code":"689821000119105","display":"Primary transitional cell carcinoma of posterior wall of urinary bladder (disorder)"},{"code":"689831000119108","display":"Primary transitional cell carcinoma of trigone of urinary bladder (disorder)"},{"code":"188241004","display":"Malignant neoplasm of lateral wall of urinary bladder (disorder)"},{"code":"681991000119104","display":"Primary adenocarcinoma of trigone of urinary bladder (disorder)"},{"code":"689771000119103","display":"Primary transitional cell carcinoma of anterior wall of urinary bladder (disorder)"},{"code":"399326009","display":"Malignant tumor of urinary bladder (disorder)"},{"code":"425066001","display":"Carcinoma of urinary bladder, invasive (disorder)"},{"code":"188239000","display":"Malignant tumor of trigone of urinary bladder (disorder)"},{"code":"93675008","display":"Primary malignant neoplasm of anterior wall of urinary bladder (disorder)"},{"code":"91141000119100","display":"Primary spindle cell carcinoma of urinary bladder (disorder)"},{"code":"93863000","display":"Primary malignant neoplasm of lateral wall of urinary bladder (disorder)"},{"code":"94122003","display":"Primary malignant neoplasm of ureteric orifice of urinary bladder (disorder)"},{"code":"689791000119102","display":"Primary transitional cell carcinoma of dome of urinary bladder (disorder)"},{"code":"188244007","display":"Malignant tumor of bladder neck (disorder)"},{"code":"682041000119100","display":"Primary adenocarcinoma of ureteral orifice (disorder)"},{"code":"188240003","display":"Malignant tumor of vault of bladder (disorder)"},{"code":"425231005","display":"Carcinoma of urinary bladder, superficial (disorder)"},{"code":"188242006","display":"Malignant neoplasm of anterior wall of urinary bladder (disorder)"},{"code":"689781000119100","display":"Primary transitional cell carcinoma of neck of urinary bladder (disorder)"},{"code":"188243001","display":"Malignant neoplasm of posterior wall of urinary bladder (disorder)"},{"code":"94109006","display":"Primary malignant neoplasm of trigone of urinary bladder (disorder)"},{"code":"93689003","display":"Primary malignant neoplasm of bladder (disorder)"},{"code":"681611000119103","display":"Primary adenocarcinoma of neck of urinary bladder (disorder)"},{"code":"681591000119108","display":"Primary adenocarcinoma of anterior wall of urinary bladder (disorder)"},{"code":"188245008","display":"Malignant tumor of ureteric orifice (disorder)"},{"code":"188247000","display":"Malignant neoplasm, overlapping lesion of bladder (disorder)"},{"code":"689801000119101","display":"Primary transitional cell carcinoma of lateral wall of urinary bladder (disorder)"},{"code":"681661000119100","display":"Primary adenocarcinoma of dome of urinary bladder (disorder)"},{"code":"94124002","display":"Primary malignant neoplasm of urinary bladder neck (disorder)"},{"code":"93983000","display":"Primary malignant neoplasm of rectovesical septum (disorder)"},{"code":"93972009","display":"Primary malignant neoplasm of posterior wall of urinary bladder (disorder)"},{"code":"314968009","display":"Local recurrence of malignant tumor of urinary bladder (disorder)"},{"code":"718604008","display":"Small cell neuroendocrine carcinoma of bladder (disorder)"},{"code":"449803009","display":"Primary malignant neoplasm of dome of urinary bladder (disorder)"},{"code":"371969003","display":"Primary malignant neoplasm of apex of urinary bladder (disorder)"},{"code":"255110003","display":"Adenocarcinoma of bladder (disorder)"},{"code":"689851000119102","display":"Primary transitional cell carcinoma of ureteral orifice (disorder)"},{"code":"702467006","display":"Malignant neoplasm of augmented bladder (disorder)"}]},{"system":"http://hl7.org/fhir/sid/icd-10-cm","version":"2022","concept":[{"code":"C67.3","display":"Malignant neoplasm of anterior wall of bladder"},{"code":"C67.5","display":"Malignant neoplasm of bladder neck"},{"code":"C67.9","display":"Malignant neoplasm of bladder, unspecified"},{"code":"C67","display":"Malignant neoplasm of bladder"},{"code":"C67.0","display":"Malignant neoplasm of trigone of bladder"},{"code":"C67.2","display":"Malignant neoplasm of lateral wall of bladder"},{"code":"C67.8","display":"Malignant neoplasm of overlapping sites of bladder"},{"code":"C67.1","display":"Malignant neoplasm of dome of bladder"},{"code":"C67.7","display":"Malignant neoplasm of urachus"},{"code":"C67.6","display":"Malignant neoplasm of ureteric orifice"},{"code":"C67.4","display":"Malignant neoplasm of posterior wall of bladder"},{"code":"D09.0","display":"Carcinoma in situ of bladder"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "BladderCancerCombined",
+  "id": "e6445e30-4c8e-11ec-9b89-3d7148967d21",
+  "title": "bladder-cancer-combined",
+  "description": "This valueset contains the diagnosis codes for bladder cancer and diseases that are clinically treated as bladder cancer. It contains both ICD-10 and SNOMED. initial version",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/e6445e30-4c8e-11ec-9b89-3d7148967d21",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "255108000",
+            "display": "Carcinoma of bladder (disorder)"
+          },
+          {
+            "code": "255109008",
+            "display": "Transitional cell carcinoma of bladder (disorder)"
+          },
+          {
+            "code": "689821000119105",
+            "display": "Primary transitional cell carcinoma of posterior wall of urinary bladder (disorder)"
+          },
+          {
+            "code": "689831000119108",
+            "display": "Primary transitional cell carcinoma of trigone of urinary bladder (disorder)"
+          },
+          {
+            "code": "188241004",
+            "display": "Malignant neoplasm of lateral wall of urinary bladder (disorder)"
+          },
+          {
+            "code": "681991000119104",
+            "display": "Primary adenocarcinoma of trigone of urinary bladder (disorder)"
+          },
+          {
+            "code": "689771000119103",
+            "display": "Primary transitional cell carcinoma of anterior wall of urinary bladder (disorder)"
+          },
+          {
+            "code": "399326009",
+            "display": "Malignant tumor of urinary bladder (disorder)"
+          },
+          {
+            "code": "425066001",
+            "display": "Carcinoma of urinary bladder, invasive (disorder)"
+          },
+          {
+            "code": "188239000",
+            "display": "Malignant tumor of trigone of urinary bladder (disorder)"
+          },
+          {
+            "code": "93675008",
+            "display": "Primary malignant neoplasm of anterior wall of urinary bladder (disorder)"
+          },
+          {
+            "code": "91141000119100",
+            "display": "Primary spindle cell carcinoma of urinary bladder (disorder)"
+          },
+          {
+            "code": "93863000",
+            "display": "Primary malignant neoplasm of lateral wall of urinary bladder (disorder)"
+          },
+          {
+            "code": "94122003",
+            "display": "Primary malignant neoplasm of ureteric orifice of urinary bladder (disorder)"
+          },
+          {
+            "code": "689791000119102",
+            "display": "Primary transitional cell carcinoma of dome of urinary bladder (disorder)"
+          },
+          {
+            "code": "188244007",
+            "display": "Malignant tumor of bladder neck (disorder)"
+          },
+          {
+            "code": "682041000119100",
+            "display": "Primary adenocarcinoma of ureteral orifice (disorder)"
+          },
+          {
+            "code": "188240003",
+            "display": "Malignant tumor of vault of bladder (disorder)"
+          },
+          {
+            "code": "425231005",
+            "display": "Carcinoma of urinary bladder, superficial (disorder)"
+          },
+          {
+            "code": "188242006",
+            "display": "Malignant neoplasm of anterior wall of urinary bladder (disorder)"
+          },
+          {
+            "code": "689781000119100",
+            "display": "Primary transitional cell carcinoma of neck of urinary bladder (disorder)"
+          },
+          {
+            "code": "188243001",
+            "display": "Malignant neoplasm of posterior wall of urinary bladder (disorder)"
+          },
+          {
+            "code": "94109006",
+            "display": "Primary malignant neoplasm of trigone of urinary bladder (disorder)"
+          },
+          {
+            "code": "93689003",
+            "display": "Primary malignant neoplasm of bladder (disorder)"
+          },
+          {
+            "code": "681611000119103",
+            "display": "Primary adenocarcinoma of neck of urinary bladder (disorder)"
+          },
+          {
+            "code": "681591000119108",
+            "display": "Primary adenocarcinoma of anterior wall of urinary bladder (disorder)"
+          },
+          {
+            "code": "188245008",
+            "display": "Malignant tumor of ureteric orifice (disorder)"
+          },
+          {
+            "code": "188247000",
+            "display": "Malignant neoplasm, overlapping lesion of bladder (disorder)"
+          },
+          {
+            "code": "689801000119101",
+            "display": "Primary transitional cell carcinoma of lateral wall of urinary bladder (disorder)"
+          },
+          {
+            "code": "681661000119100",
+            "display": "Primary adenocarcinoma of dome of urinary bladder (disorder)"
+          },
+          {
+            "code": "94124002",
+            "display": "Primary malignant neoplasm of urinary bladder neck (disorder)"
+          },
+          {
+            "code": "93983000",
+            "display": "Primary malignant neoplasm of rectovesical septum (disorder)"
+          },
+          {
+            "code": "93972009",
+            "display": "Primary malignant neoplasm of posterior wall of urinary bladder (disorder)"
+          },
+          {
+            "code": "314968009",
+            "display": "Local recurrence of malignant tumor of urinary bladder (disorder)"
+          },
+          {
+            "code": "718604008",
+            "display": "Small cell neuroendocrine carcinoma of bladder (disorder)"
+          },
+          {
+            "code": "449803009",
+            "display": "Primary malignant neoplasm of dome of urinary bladder (disorder)"
+          },
+          {
+            "code": "371969003",
+            "display": "Primary malignant neoplasm of apex of urinary bladder (disorder)"
+          },
+          {
+            "code": "255110003",
+            "display": "Adenocarcinoma of bladder (disorder)"
+          },
+          {
+            "code": "689851000119102",
+            "display": "Primary transitional cell carcinoma of ureteral orifice (disorder)"
+          },
+          {
+            "code": "702467006",
+            "display": "Malignant neoplasm of augmented bladder (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "C67.3",
+            "display": "Malignant neoplasm of anterior wall of bladder"
+          },
+          {
+            "code": "C67.5",
+            "display": "Malignant neoplasm of bladder neck"
+          },
+          {
+            "code": "C67.9",
+            "display": "Malignant neoplasm of bladder, unspecified"
+          },
+          {
+            "code": "C67",
+            "display": "Malignant neoplasm of bladder"
+          },
+          {
+            "code": "C67.0",
+            "display": "Malignant neoplasm of trigone of bladder"
+          },
+          {
+            "code": "C67.2",
+            "display": "Malignant neoplasm of lateral wall of bladder"
+          },
+          {
+            "code": "C67.8",
+            "display": "Malignant neoplasm of overlapping sites of bladder"
+          },
+          {
+            "code": "C67.1",
+            "display": "Malignant neoplasm of dome of bladder"
+          },
+          {
+            "code": "C67.7",
+            "display": "Malignant neoplasm of urachus"
+          },
+          {
+            "code": "C67.6",
+            "display": "Malignant neoplasm of ureteric orifice"
+          },
+          {
+            "code": "C67.4",
+            "display": "Malignant neoplasm of posterior wall of bladder"
+          },
+          {
+            "code": "D09.0",
+            "display": "Carcinoma in situ of bladder"
+          }
+        ]
+      }
+    ]
+  }
+}

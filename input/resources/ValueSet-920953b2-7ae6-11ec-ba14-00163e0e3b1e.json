@@ -1,1 +1,61 @@
-{"resourceType":"ValueSet","id":"920953b2-7ae6-11ec-ba14-00163e0e3b1e","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a> version <code>2.7</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/2862-1.html\">2862-1</a></td><td>Albumin [Mass/volume] in Serum or Plasma by Electrophoresis</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/61152-5.html\">61152-5</a></td><td>Albumin [Mass/volume] in Serum or Plasma by Bromocresol purple (BCP) dye binding method</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/1751-7.html\">1751-7</a></td><td>Albumin [Mass/volume] in Serum or Plasma</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/76631-1.html\">76631-1</a></td><td>Albumin [Mass/volume] in Blood by Bromocresol purple (BCP) dye binding method</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/77148-5.html\">77148-5</a></td><td>Albumin [Mass/volume] in Serum, Plasma or Blood by Bromocresol purple (BCP) dye binding method</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/61151-7.html\">61151-7</a></td><td>Albumin [Mass/volume] in Serum or Plasma by Bromocresol green (BCG) dye binding method</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/61195-4.html\">61195-4</a></td><td>Albumin [Mass/volume] in Serum or Plasma from Fetus</td></tr></table></li><li>Include these codes as defined in <code>https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134</code> version <code>1</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>4760</td><td>Albumin</td></tr></table></li></ul></div>"},"url":"http://projectronin.com/fhir/us/ronin/ValueSet/920953b2-7ae6-11ec-ba14-00163e0e3b1e","version":"0.9.5","name":"Albumin","title":"Albumin","status":"active","experimental":false,"date":"2022-03-14T18:28:42+00:00","publisher":"Project Ronin Inc.","contact":[{"name":"Project Ronin Inc.","telecom":[{"system":"url","value":"https://www.projectronin.com"},{"system":"email","value":"contact@projectronin.com"}]}],"description":"LOINC codes indicating serum albumin measurements Adding proprietary MDA codes","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"US","display":"United States of America"}]}],"immutable":false,"compose":{"include":[{"system":"http://loinc.org","version":"2.7","concept":[{"code":"2862-1","display":"Albumin [Mass/volume] in Serum or Plasma by Electrophoresis"},{"code":"61152-5","display":"Albumin [Mass/volume] in Serum or Plasma by Bromocresol purple (BCP) dye binding method"},{"code":"1751-7","display":"Albumin [Mass/volume] in Serum or Plasma"},{"code":"76631-1","display":"Albumin [Mass/volume] in Blood by Bromocresol purple (BCP) dye binding method"},{"code":"77148-5","display":"Albumin [Mass/volume] in Serum, Plasma or Blood by Bromocresol purple (BCP) dye binding method"},{"code":"61151-7","display":"Albumin [Mass/volume] in Serum or Plasma by Bromocresol green (BCG) dye binding method"},{"code":"61195-4","display":"Albumin [Mass/volume] in Serum or Plasma from Fetus"}]},{"system":"https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134","version":"1","concept":[{"code":"4760","display":"Albumin"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Albumin",
+  "id": "920953b2-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "Albumin",
+  "description": "LOINC codes indicating serum albumin measurements Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/920953b2-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "2862-1",
+            "display": "Albumin [Mass/volume] in Serum or Plasma by Electrophoresis"
+          },
+          {
+            "code": "61152-5",
+            "display": "Albumin [Mass/volume] in Serum or Plasma by Bromocresol purple (BCP) dye binding method"
+          },
+          {
+            "code": "1751-7",
+            "display": "Albumin [Mass/volume] in Serum or Plasma"
+          },
+          {
+            "code": "76631-1",
+            "display": "Albumin [Mass/volume] in Blood by Bromocresol purple (BCP) dye binding method"
+          },
+          {
+            "code": "77148-5",
+            "display": "Albumin [Mass/volume] in Serum, Plasma or Blood by Bromocresol purple (BCP) dye binding method"
+          },
+          {
+            "code": "61151-7",
+            "display": "Albumin [Mass/volume] in Serum or Plasma by Bromocresol green (BCG) dye binding method"
+          },
+          {
+            "code": "61195-4",
+            "display": "Albumin [Mass/volume] in Serum or Plasma from Fetus"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "4760",
+            "display": "Albumin"
+          }
+        ]
+      }
+    ]
+  }
+}

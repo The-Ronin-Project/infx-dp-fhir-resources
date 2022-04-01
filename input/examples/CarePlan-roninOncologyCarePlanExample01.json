@@ -6,28 +6,6 @@
       "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-care-plan"
     ]
   },
-  "text": {
-    "status": "additional",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Lung Cancer</div>"
-  },
-  "identifier": [
-    {
-      "type": {
-        "coding": [
-          {
-            "system": "http://projectronin.com/id/tenantId",
-            "code": "TID",
-            "display": "Ronin-specified Tenant Identifier"
-          }
-        ],
-        "text": "Tenant ID"
-      },
-      "system": "http://projectronin.com/id/tenantId",
-      "value": "mdaoc"
-    }
-  ],
-  "status": "active",
-  "intent": "proposal",
   "category": [
     {
       "coding": [
@@ -38,18 +16,40 @@
       ]
     }
   ],
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "value": "mdaoc"
+    }
+  ],
+  "status": "active",
+  "intent": "proposal",
   "subject": {
     "reference": "Patient/roninPatientExample01"
   },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Lung Cancer</div>"
+  },
   "encounter": {
     "reference": "Encounter/roninEncounterExample01"
-  },
-  "author": {
-    "reference": "Practitioner/roninPractitionerExample01"
   },
   "addresses": [
     {
       "reference": "Condition/roninPrimaryOncologyConditionExample01"
     }
-  ]
+  ],
+  "author": {
+    "reference": "Practitioner/roninPractitionerExample01"
+  }
 }

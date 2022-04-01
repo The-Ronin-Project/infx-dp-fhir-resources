@@ -6,17 +6,13 @@
       "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitionerrole"
     ]
   },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"roninPSJPractitionerRole05Test\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-oncology-practitionerrole.html\">Oncology PractitionerRole</a></p></div><p><b>identifier</b>: Tenant ID: psj</p><p><b>practitioner</b>: <a href=\"Practitioner-roninPSJPractitioner05Test.html\">Practitioner/roninPSJPractitioner05Test</a> \" ALLERGY\"</p><p><b>organization</b>: <a href=\"Organization-roninPSJPartnerDepartmentTest.html\">Organization/roninPSJPartnerDepartmentTest</a> \"PSJ\"</p><p><b>code</b>: Medical doctor <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#112247003)</span></p><p><b>telecom</b>: ph: 1-999-144-1111(WORK)</p></div>"
-  },
   "identifier": [
     {
       "type": {
         "coding": [
           {
-            "system": "http://projectronin.com/id/tenantId",
             "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
             "display": "Ronin-specified Tenant Identifier"
           }
         ],
@@ -26,23 +22,23 @@
       "value": "psj"
     }
   ],
-  "practitioner": {
-    "reference": "Practitioner/roninPSJPractitioner05Test"
-  },
-  "organization": {
-    "reference": "Organization/roninPSJPartnerDepartmentTest"
-  },
   "code": [
     {
       "coding": [
         {
-          "system": "http://snomed.info/sct",
           "code": "112247003",
+          "system": "http://snomed.info/sct",
           "display": "Medical doctor"
         }
       ]
     }
   ],
+  "organization": {
+    "reference": "Organization/roninPSJPartnerDepartmentTest"
+  },
+  "practitioner": {
+    "reference": "Practitioner/roninPSJPractitioner05Test"
+  },
   "telecom": [
     {
       "system": "phone",

@@ -1,1 +1,374 @@
-{"resourceType":"ValueSet","id":"ed-visit-rationale-lab-codes-vs","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://projectronin.com/ds/lab</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>0e52e8d0-7afa-11ec-bf1d-39d06c5d65d4</td><td>CO2</td></tr><tr><td>e6445e30-4c8e-11ec-9b89-3d7148967d21</td><td>Bladder Cancer Combined</td></tr><tr><td>20f7e880-6364-11ec-a49b-ef00db410408</td><td>Protein Kinase Inhibitors</td></tr><tr><td>bce71d44-6d99-11ec-a98d-00163efae4c9</td><td>AFP</td></tr><tr><td>4029ea60-8541-11ec-9f7a-b90e86f6e1b0</td><td>Chloride</td></tr><tr><td>91b0399e-7ae6-11ec-ba14-00163e0e3b1e</td><td>CA27.29</td></tr><tr><td>c30b1d10-6d99-11ec-a98d-00163efae4c9</td><td>CADM70K</td></tr><tr><td>c2aebf2a-6d99-11ec-a98d-00163efae4c9</td><td>CA549</td></tr><tr><td>c22ca79c-6d99-11ec-a98d-00163efae4c9</td><td>CA242</td></tr><tr><td>c27ec95a-6d99-11ec-a98d-00163efae4c9</td><td>CA50</td></tr><tr><td>91da35be-7ae6-11ec-ba14-00163e0e3b1e</td><td>Glucose</td></tr><tr><td>36552bf0-8459-11ec-ba6c-b1646bd55fb1</td><td>Acute Problems</td></tr><tr><td>3a2d1c30-636e-11ec-998f-8970342a81b0</td><td>Ureter Cancer Combined</td></tr><tr><td>8ea45d30-6415-11ec-bc6f-e74005669d8e</td><td>Cytotoxic Antibiotics and Related</td></tr><tr><td>a52bbd80-6db8-11ec-a83e-a73f304d1e65</td><td>Alkylating Agents</td></tr><tr><td>920953b2-7ae6-11ec-ba14-00163e0e3b1e</td><td>Albumin</td></tr><tr><td>923a8e78-7ae6-11ec-ba14-00163e0e3b1e</td><td>Alkaline Phosphatase</td></tr><tr><td>92696c5c-7ae6-11ec-ba14-00163e0e3b1e</td><td>ALT</td></tr><tr><td>9299bd8a-7ae6-11ec-ba14-00163e0e3b1e</td><td>Amylase</td></tr><tr><td>92ccd076-7ae6-11ec-ba14-00163e0e3b1e</td><td>ANC</td></tr><tr><td>6c2e5ce0-52ec-11ec-b9db-4b5741b59f6a</td><td>Kidney Cancer Combined</td></tr><tr><td>074ce090-59ee-11ec-a5f9-ede488412e44</td><td>Prostate Cancer Combined</td></tr><tr><td>c447c800-6343-11ec-9b51-4fc98501ea85</td><td>breast-cancer</td></tr><tr><td>557fc030-634d-11ec-87a6-c3c1dc9d48ae</td><td>Testicular Cancer Combined</td></tr><tr><td>717fd080-6353-11ec-bec4-cf27b3b51261</td><td>Urethral Cancer Combined</td></tr><tr><td>0e6c91a0-635c-11ec-a9d1-2f9bdf584328</td><td>Penile Cancer Combined</td></tr><tr><td>92fd4472-7ae6-11ec-ba14-00163e0e3b1e</td><td>Beta HCG</td></tr><tr><td>932c0f5a-7ae6-11ec-ba14-00163e0e3b1e</td><td>BUN</td></tr><tr><td>935b02a6-7ae6-11ec-ba14-00163e0e3b1e</td><td>CA125</td></tr><tr><td>93895b6a-7ae6-11ec-ba14-00163e0e3b1e</td><td>CA15.3</td></tr><tr><td>93b84c40-7ae6-11ec-ba14-00163e0e3b1e</td><td>CA19.9</td></tr><tr><td>c2dd2c48-6d99-11ec-a98d-00163efae4c9</td><td>CA72.4</td></tr><tr><td>93e6e5c8-7ae6-11ec-ba14-00163e0e3b1e</td><td>Creatinine</td></tr><tr><td>c3a3afda-6d99-11ec-a98d-00163efae4c9</td><td>Direct Bilirubin</td></tr><tr><td>c3f4cbfe-6d99-11ec-a98d-00163efae4c9</td><td>Fibrinogen</td></tr><tr><td>941594ea-7ae6-11ec-ba14-00163e0e3b1e</td><td>HGB</td></tr><tr><td>9445cafc-7ae6-11ec-ba14-00163e0e3b1e</td><td>INR</td></tr><tr><td>fbf9fcf0-6e56-11ec-91d9-c1067f0b634c</td><td>Pulmonary Circulation Disorder</td></tr><tr><td>94741934-7ae6-11ec-ba14-00163e0e3b1e</td><td>LDH</td></tr><tr><td>94a4b72e-7ae6-11ec-ba14-00163e0e3b1e</td><td>Lipase</td></tr><tr><td>94d30534-7ae6-11ec-ba14-00163e0e3b1e</td><td>PLT count</td></tr><tr><td>95016654-7ae6-11ec-ba14-00163e0e3b1e</td><td>Potassium</td></tr><tr><td>953000ea-7ae6-11ec-ba14-00163e0e3b1e</td><td>PSA</td></tr><tr><td>955f3dba-7ae6-11ec-ba14-00163e0e3b1e</td><td>PT</td></tr><tr><td>95907ba0-7ae6-11ec-ba14-00163e0e3b1e</td><td>PTT</td></tr><tr><td>95c1379a-7ae6-11ec-ba14-00163e0e3b1e</td><td>RBC</td></tr><tr><td>95f1088a-7ae6-11ec-ba14-00163e0e3b1e</td><td>Sodium</td></tr><tr><td>96216d2c-7ae6-11ec-ba14-00163e0e3b1e</td><td>Total Bilirubin</td></tr><tr><td>96523e66-7ae6-11ec-ba14-00163e0e3b1e</td><td>WBC</td></tr><tr><td>9682d580-7ae6-11ec-ba14-00163e0e3b1e</td><td>HCT</td></tr><tr><td>26e1b290-6d8b-11ec-b06c-ab4a70f9f045</td><td>Alcohol Abuse</td></tr><tr><td>079dadc0-6d78-11ec-9b16-f1636a4e01b7</td><td>Diarrhea</td></tr><tr><td>57f28490-6d77-11ec-8b47-03576f32531f</td><td>Nausea Vomiting</td></tr><tr><td>4190b3d0-6d7b-11ec-b446-d58ab9e12bbb</td><td>Congestive Heart Failure</td></tr><tr><td>b76da030-6d7c-11ec-8279-29065e5912c2</td><td>Anemia</td></tr><tr><td>5dbf2e80-6d7e-11ec-a301-277758261289</td><td>Neurological Disorders</td></tr><tr><td>6719de00-6d81-11ec-a3ad-bb774fcfd5e7</td><td>Rheumatoid Arthritis</td></tr><tr><td>b54f6530-6daa-11ec-8de4-298c71d2b48d</td><td>Diabetes (Complicated)</td></tr><tr><td>dccff9f0-6dad-11ec-9d25-45d59604686a</td><td>Other antineoplastic agents</td></tr><tr><td>68c917d0-6d85-11ec-9b73-173b2c1e0f5a</td><td>Hypertension (Complicated)</td></tr><tr><td>edf1c7d0-6d8b-11ec-a777-05d1227ee773</td><td>Hypertension</td></tr><tr><td>371d7850-6d8c-11ec-b9d9-f3c6146224bc</td><td>Drug Abuse</td></tr><tr><td>684b1f20-6d8e-11ec-8e4c-35786fa580cd</td><td>Fluid-Electrolyte Disorder</td></tr><tr><td>66cae7c0-6d8e-11ec-adf2-c94257d82fe7</td><td>Peptic Ulcer Disease</td></tr><tr><td>5e0b9110-6d8f-11ec-8a72-5d3bb70405c2</td><td>Blood Loss Anemia</td></tr><tr><td>c9c99f20-6d83-11ec-9816-f9531e40ab0f</td><td>Valvular Disease</td></tr><tr><td>96b16d82-7ae6-11ec-ba14-00163e0e3b1e</td><td>AST</td></tr><tr><td>504a7600-6d93-11ec-83c6-5b12af31c27e</td><td>Weight Loss</td></tr><tr><td>c6807ee0-6d94-11ec-9533-5b425d4b75e7</td><td>Hypothyroidism</td></tr><tr><td>82ef0ff0-6d96-11ec-96e9-39ac2ca38464</td><td>Psychoses</td></tr><tr><td>4a4ef2e0-6d97-11ec-a703-b98eab3d2692</td><td>Depression</td></tr><tr><td>e2707f10-6d99-11ec-aca6-9f3bb3e4342a</td><td>Paralysis</td></tr><tr><td>2e47b270-6d98-11ec-94a4-43fe1cbd95b1</td><td>AIDS HIV</td></tr><tr><td>b8a8dc20-6d78-11ec-be4d-17414cf6b148</td><td>Fever</td></tr><tr><td>5eca80d0-6d7a-11ec-afff-c93e25241607</td><td>Pain</td></tr><tr><td>5232e3e0-6d79-11ec-8c80-3dd750fb8ea9</td><td>Shortness of Breath</td></tr><tr><td>ee27d8b0-6d9b-11ec-b0c2-55232efc5773</td><td>Coagulopathy</td></tr><tr><td>4ca61a90-6d9d-11ec-bf8f-b1e7af44f5d2</td><td>Liver Disease</td></tr><tr><td>42b77c90-6da7-11ec-9f83-1d5915becbdf</td><td>Renal Failure</td></tr><tr><td>37bf6530-6dae-11ec-8bcb-533e96f22a5a</td><td>Plant alkaloids and other natural products</td></tr><tr><td>9995c830-6dae-11ec-b55a-f105f5c21ca0</td><td>Immunostimulants</td></tr><tr><td>df47bb40-6dae-11ec-984c-bb9e6fde8fa7</td><td>Immunosuppressants</td></tr><tr><td>c5f13b90-6db2-11ec-b0c5-07612a97300d</td><td>Diabetes (Uncomplicated)</td></tr><tr><td>345601d0-6db6-11ec-bdf5-d532fab59c4f</td><td>Cardiac Arrhythmia</td></tr><tr><td>e90ac880-6dbc-11ec-85e8-2768d3ecadc2</td><td>Endocrine Therapy</td></tr><tr><td>96646be0-6e52-11ec-9c2b-bbbba2505f61</td><td>Obesity</td></tr><tr><td>5daad360-6e53-11ec-a661-bf8941e42844</td><td>Peripheral Vascular Disorder</td></tr><tr><td>b8147000-6e57-11ec-a991-e358c9d3813d</td><td>Chronic Pulmonary Disease</td></tr></table></li></ul></div>"},"url":"http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-rationale-lab-codes-vs","version":"0.9.5","name":"EDVisitRationaleLabCodesVS","title":"ED Visit Rationale Lab Codes Value Set","status":"active","experimental":false,"date":"2022-03-14T18:28:42+00:00","publisher":"Project Ronin Inc.","contact":[{"name":"Project Ronin Inc.","telecom":[{"system":"url","value":"https://www.projectronin.com"},{"system":"email","value":"contact@projectronin.com"}]}],"description":"Contains the values for the ED Visit Lab Codes","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"US","display":"United States of America"}]}],"immutable":false,"compose":{"include":[{"system":"http://projectronin.com/ds/lab","concept":[{"code":"0e52e8d0-7afa-11ec-bf1d-39d06c5d65d4","display":"CO2"},{"code":"e6445e30-4c8e-11ec-9b89-3d7148967d21","display":"Bladder Cancer Combined"},{"code":"20f7e880-6364-11ec-a49b-ef00db410408","display":"Protein Kinase Inhibitors"},{"code":"bce71d44-6d99-11ec-a98d-00163efae4c9","display":"AFP"},{"code":"4029ea60-8541-11ec-9f7a-b90e86f6e1b0","display":"Chloride"},{"code":"91b0399e-7ae6-11ec-ba14-00163e0e3b1e","display":"CA27.29"},{"code":"c30b1d10-6d99-11ec-a98d-00163efae4c9","display":"CADM70K"},{"code":"c2aebf2a-6d99-11ec-a98d-00163efae4c9","display":"CA549"},{"code":"c22ca79c-6d99-11ec-a98d-00163efae4c9","display":"CA242"},{"code":"c27ec95a-6d99-11ec-a98d-00163efae4c9","display":"CA50"},{"code":"91da35be-7ae6-11ec-ba14-00163e0e3b1e","display":"Glucose"},{"code":"36552bf0-8459-11ec-ba6c-b1646bd55fb1","display":"Acute Problems"},{"code":"3a2d1c30-636e-11ec-998f-8970342a81b0","display":"Ureter Cancer Combined"},{"code":"8ea45d30-6415-11ec-bc6f-e74005669d8e","display":"Cytotoxic Antibiotics and Related"},{"code":"a52bbd80-6db8-11ec-a83e-a73f304d1e65","display":"Alkylating Agents"},{"code":"920953b2-7ae6-11ec-ba14-00163e0e3b1e","display":"Albumin"},{"code":"923a8e78-7ae6-11ec-ba14-00163e0e3b1e","display":"Alkaline Phosphatase"},{"code":"92696c5c-7ae6-11ec-ba14-00163e0e3b1e","display":"ALT"},{"code":"9299bd8a-7ae6-11ec-ba14-00163e0e3b1e","display":"Amylase"},{"code":"92ccd076-7ae6-11ec-ba14-00163e0e3b1e","display":"ANC"},{"code":"6c2e5ce0-52ec-11ec-b9db-4b5741b59f6a","display":"Kidney Cancer Combined"},{"code":"074ce090-59ee-11ec-a5f9-ede488412e44","display":"Prostate Cancer Combined"},{"code":"c447c800-6343-11ec-9b51-4fc98501ea85","display":"breast-cancer"},{"code":"557fc030-634d-11ec-87a6-c3c1dc9d48ae","display":"Testicular Cancer Combined"},{"code":"717fd080-6353-11ec-bec4-cf27b3b51261","display":"Urethral Cancer Combined"},{"code":"0e6c91a0-635c-11ec-a9d1-2f9bdf584328","display":"Penile Cancer Combined"},{"code":"92fd4472-7ae6-11ec-ba14-00163e0e3b1e","display":"Beta HCG"},{"code":"932c0f5a-7ae6-11ec-ba14-00163e0e3b1e","display":"BUN"},{"code":"935b02a6-7ae6-11ec-ba14-00163e0e3b1e","display":"CA125"},{"code":"93895b6a-7ae6-11ec-ba14-00163e0e3b1e","display":"CA15.3"},{"code":"93b84c40-7ae6-11ec-ba14-00163e0e3b1e","display":"CA19.9"},{"code":"c2dd2c48-6d99-11ec-a98d-00163efae4c9","display":"CA72.4"},{"code":"93e6e5c8-7ae6-11ec-ba14-00163e0e3b1e","display":"Creatinine"},{"code":"c3a3afda-6d99-11ec-a98d-00163efae4c9","display":"Direct Bilirubin"},{"code":"c3f4cbfe-6d99-11ec-a98d-00163efae4c9","display":"Fibrinogen"},{"code":"941594ea-7ae6-11ec-ba14-00163e0e3b1e","display":"HGB"},{"code":"9445cafc-7ae6-11ec-ba14-00163e0e3b1e","display":"INR"},{"code":"fbf9fcf0-6e56-11ec-91d9-c1067f0b634c","display":"Pulmonary Circulation Disorder"},{"code":"94741934-7ae6-11ec-ba14-00163e0e3b1e","display":"LDH"},{"code":"94a4b72e-7ae6-11ec-ba14-00163e0e3b1e","display":"Lipase"},{"code":"94d30534-7ae6-11ec-ba14-00163e0e3b1e","display":"PLT count"},{"code":"95016654-7ae6-11ec-ba14-00163e0e3b1e","display":"Potassium"},{"code":"953000ea-7ae6-11ec-ba14-00163e0e3b1e","display":"PSA"},{"code":"955f3dba-7ae6-11ec-ba14-00163e0e3b1e","display":"PT"},{"code":"95907ba0-7ae6-11ec-ba14-00163e0e3b1e","display":"PTT"},{"code":"95c1379a-7ae6-11ec-ba14-00163e0e3b1e","display":"RBC"},{"code":"95f1088a-7ae6-11ec-ba14-00163e0e3b1e","display":"Sodium"},{"code":"96216d2c-7ae6-11ec-ba14-00163e0e3b1e","display":"Total Bilirubin"},{"code":"96523e66-7ae6-11ec-ba14-00163e0e3b1e","display":"WBC"},{"code":"9682d580-7ae6-11ec-ba14-00163e0e3b1e","display":"HCT"},{"code":"26e1b290-6d8b-11ec-b06c-ab4a70f9f045","display":"Alcohol Abuse"},{"code":"079dadc0-6d78-11ec-9b16-f1636a4e01b7","display":"Diarrhea"},{"code":"57f28490-6d77-11ec-8b47-03576f32531f","display":"Nausea Vomiting"},{"code":"4190b3d0-6d7b-11ec-b446-d58ab9e12bbb","display":"Congestive Heart Failure"},{"code":"b76da030-6d7c-11ec-8279-29065e5912c2","display":"Anemia"},{"code":"5dbf2e80-6d7e-11ec-a301-277758261289","display":"Neurological Disorders"},{"code":"6719de00-6d81-11ec-a3ad-bb774fcfd5e7","display":"Rheumatoid Arthritis"},{"code":"b54f6530-6daa-11ec-8de4-298c71d2b48d","display":"Diabetes (Complicated)"},{"code":"dccff9f0-6dad-11ec-9d25-45d59604686a","display":"Other antineoplastic agents"},{"code":"68c917d0-6d85-11ec-9b73-173b2c1e0f5a","display":"Hypertension (Complicated)"},{"code":"edf1c7d0-6d8b-11ec-a777-05d1227ee773","display":"Hypertension"},{"code":"371d7850-6d8c-11ec-b9d9-f3c6146224bc","display":"Drug Abuse"},{"code":"684b1f20-6d8e-11ec-8e4c-35786fa580cd","display":"Fluid-Electrolyte Disorder"},{"code":"66cae7c0-6d8e-11ec-adf2-c94257d82fe7","display":"Peptic Ulcer Disease"},{"code":"5e0b9110-6d8f-11ec-8a72-5d3bb70405c2","display":"Blood Loss Anemia"},{"code":"c9c99f20-6d83-11ec-9816-f9531e40ab0f","display":"Valvular Disease"},{"code":"96b16d82-7ae6-11ec-ba14-00163e0e3b1e","display":"AST"},{"code":"504a7600-6d93-11ec-83c6-5b12af31c27e","display":"Weight Loss"},{"code":"c6807ee0-6d94-11ec-9533-5b425d4b75e7","display":"Hypothyroidism"},{"code":"82ef0ff0-6d96-11ec-96e9-39ac2ca38464","display":"Psychoses"},{"code":"4a4ef2e0-6d97-11ec-a703-b98eab3d2692","display":"Depression"},{"code":"e2707f10-6d99-11ec-aca6-9f3bb3e4342a","display":"Paralysis"},{"code":"2e47b270-6d98-11ec-94a4-43fe1cbd95b1","display":"AIDS HIV"},{"code":"b8a8dc20-6d78-11ec-be4d-17414cf6b148","display":"Fever"},{"code":"5eca80d0-6d7a-11ec-afff-c93e25241607","display":"Pain"},{"code":"5232e3e0-6d79-11ec-8c80-3dd750fb8ea9","display":"Shortness of Breath"},{"code":"ee27d8b0-6d9b-11ec-b0c2-55232efc5773","display":"Coagulopathy"},{"code":"4ca61a90-6d9d-11ec-bf8f-b1e7af44f5d2","display":"Liver Disease"},{"code":"42b77c90-6da7-11ec-9f83-1d5915becbdf","display":"Renal Failure"},{"code":"37bf6530-6dae-11ec-8bcb-533e96f22a5a","display":"Plant alkaloids and other natural products"},{"code":"9995c830-6dae-11ec-b55a-f105f5c21ca0","display":"Immunostimulants"},{"code":"df47bb40-6dae-11ec-984c-bb9e6fde8fa7","display":"Immunosuppressants"},{"code":"c5f13b90-6db2-11ec-b0c5-07612a97300d","display":"Diabetes (Uncomplicated)"},{"code":"345601d0-6db6-11ec-bdf5-d532fab59c4f","display":"Cardiac Arrhythmia"},{"code":"e90ac880-6dbc-11ec-85e8-2768d3ecadc2","display":"Endocrine Therapy"},{"code":"96646be0-6e52-11ec-9c2b-bbbba2505f61","display":"Obesity"},{"code":"5daad360-6e53-11ec-a661-bf8941e42844","display":"Peripheral Vascular Disorder"},{"code":"b8147000-6e57-11ec-a991-e358c9d3813d","display":"Chronic Pulmonary Disease"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "EDVisitRationaleLabCodesVS",
+  "id": "ed-visit-rationale-lab-codes-vs",
+  "title": "ED Visit Rationale Lab Codes Value Set",
+  "description": "Contains the values for the ED Visit Lab Codes",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-rationale-lab-codes-vs",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://projectronin.com/ds/lab",
+        "concept": [
+          {
+            "code": "0e52e8d0-7afa-11ec-bf1d-39d06c5d65d4",
+            "display": "CO2"
+          },
+          {
+            "code": "e6445e30-4c8e-11ec-9b89-3d7148967d21",
+            "display": "Bladder Cancer Combined"
+          },
+          {
+            "code": "20f7e880-6364-11ec-a49b-ef00db410408",
+            "display": "Protein Kinase Inhibitors"
+          },
+          {
+            "code": "bce71d44-6d99-11ec-a98d-00163efae4c9",
+            "display": "AFP"
+          },
+          {
+            "code": "4029ea60-8541-11ec-9f7a-b90e86f6e1b0",
+            "display": "Chloride"
+          },
+          {
+            "code": "91b0399e-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "CA27.29"
+          },
+          {
+            "code": "c30b1d10-6d99-11ec-a98d-00163efae4c9",
+            "display": "CADM70K"
+          },
+          {
+            "code": "c2aebf2a-6d99-11ec-a98d-00163efae4c9",
+            "display": "CA549"
+          },
+          {
+            "code": "c22ca79c-6d99-11ec-a98d-00163efae4c9",
+            "display": "CA242"
+          },
+          {
+            "code": "c27ec95a-6d99-11ec-a98d-00163efae4c9",
+            "display": "CA50"
+          },
+          {
+            "code": "91da35be-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "Glucose"
+          },
+          {
+            "code": "36552bf0-8459-11ec-ba6c-b1646bd55fb1",
+            "display": "Acute Problems"
+          },
+          {
+            "code": "3a2d1c30-636e-11ec-998f-8970342a81b0",
+            "display": "Ureter Cancer Combined"
+          },
+          {
+            "code": "8ea45d30-6415-11ec-bc6f-e74005669d8e",
+            "display": "Cytotoxic Antibiotics and Related"
+          },
+          {
+            "code": "a52bbd80-6db8-11ec-a83e-a73f304d1e65",
+            "display": "Alkylating Agents"
+          },
+          {
+            "code": "920953b2-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "Albumin"
+          },
+          {
+            "code": "923a8e78-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "Alkaline Phosphatase"
+          },
+          {
+            "code": "92696c5c-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "ALT"
+          },
+          {
+            "code": "9299bd8a-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "Amylase"
+          },
+          {
+            "code": "92ccd076-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "ANC"
+          },
+          {
+            "code": "6c2e5ce0-52ec-11ec-b9db-4b5741b59f6a",
+            "display": "Kidney Cancer Combined"
+          },
+          {
+            "code": "074ce090-59ee-11ec-a5f9-ede488412e44",
+            "display": "Prostate Cancer Combined"
+          },
+          {
+            "code": "c447c800-6343-11ec-9b51-4fc98501ea85",
+            "display": "breast-cancer"
+          },
+          {
+            "code": "557fc030-634d-11ec-87a6-c3c1dc9d48ae",
+            "display": "Testicular Cancer Combined"
+          },
+          {
+            "code": "717fd080-6353-11ec-bec4-cf27b3b51261",
+            "display": "Urethral Cancer Combined"
+          },
+          {
+            "code": "0e6c91a0-635c-11ec-a9d1-2f9bdf584328",
+            "display": "Penile Cancer Combined"
+          },
+          {
+            "code": "92fd4472-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "Beta HCG"
+          },
+          {
+            "code": "932c0f5a-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "BUN"
+          },
+          {
+            "code": "935b02a6-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "CA125"
+          },
+          {
+            "code": "93895b6a-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "CA15.3"
+          },
+          {
+            "code": "93b84c40-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "CA19.9"
+          },
+          {
+            "code": "c2dd2c48-6d99-11ec-a98d-00163efae4c9",
+            "display": "CA72.4"
+          },
+          {
+            "code": "93e6e5c8-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "Creatinine"
+          },
+          {
+            "code": "c3a3afda-6d99-11ec-a98d-00163efae4c9",
+            "display": "Direct Bilirubin"
+          },
+          {
+            "code": "c3f4cbfe-6d99-11ec-a98d-00163efae4c9",
+            "display": "Fibrinogen"
+          },
+          {
+            "code": "941594ea-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "HGB"
+          },
+          {
+            "code": "9445cafc-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "INR"
+          },
+          {
+            "code": "fbf9fcf0-6e56-11ec-91d9-c1067f0b634c",
+            "display": "Pulmonary Circulation Disorder"
+          },
+          {
+            "code": "94741934-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "LDH"
+          },
+          {
+            "code": "94a4b72e-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "Lipase"
+          },
+          {
+            "code": "94d30534-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "PLT count"
+          },
+          {
+            "code": "95016654-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "Potassium"
+          },
+          {
+            "code": "953000ea-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "PSA"
+          },
+          {
+            "code": "955f3dba-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "PT"
+          },
+          {
+            "code": "95907ba0-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "PTT"
+          },
+          {
+            "code": "95c1379a-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "RBC"
+          },
+          {
+            "code": "95f1088a-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "Sodium"
+          },
+          {
+            "code": "96216d2c-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "Total Bilirubin"
+          },
+          {
+            "code": "96523e66-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "WBC"
+          },
+          {
+            "code": "9682d580-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "HCT"
+          },
+          {
+            "code": "26e1b290-6d8b-11ec-b06c-ab4a70f9f045",
+            "display": "Alcohol Abuse"
+          },
+          {
+            "code": "079dadc0-6d78-11ec-9b16-f1636a4e01b7",
+            "display": "Diarrhea"
+          },
+          {
+            "code": "57f28490-6d77-11ec-8b47-03576f32531f",
+            "display": "Nausea Vomiting"
+          },
+          {
+            "code": "4190b3d0-6d7b-11ec-b446-d58ab9e12bbb",
+            "display": "Congestive Heart Failure"
+          },
+          {
+            "code": "b76da030-6d7c-11ec-8279-29065e5912c2",
+            "display": "Anemia"
+          },
+          {
+            "code": "5dbf2e80-6d7e-11ec-a301-277758261289",
+            "display": "Neurological Disorders"
+          },
+          {
+            "code": "6719de00-6d81-11ec-a3ad-bb774fcfd5e7",
+            "display": "Rheumatoid Arthritis"
+          },
+          {
+            "code": "b54f6530-6daa-11ec-8de4-298c71d2b48d",
+            "display": "Diabetes (Complicated)"
+          },
+          {
+            "code": "dccff9f0-6dad-11ec-9d25-45d59604686a",
+            "display": "Other antineoplastic agents"
+          },
+          {
+            "code": "68c917d0-6d85-11ec-9b73-173b2c1e0f5a",
+            "display": "Hypertension (Complicated)"
+          },
+          {
+            "code": "edf1c7d0-6d8b-11ec-a777-05d1227ee773",
+            "display": "Hypertension"
+          },
+          {
+            "code": "371d7850-6d8c-11ec-b9d9-f3c6146224bc",
+            "display": "Drug Abuse"
+          },
+          {
+            "code": "684b1f20-6d8e-11ec-8e4c-35786fa580cd",
+            "display": "Fluid-Electrolyte Disorder"
+          },
+          {
+            "code": "66cae7c0-6d8e-11ec-adf2-c94257d82fe7",
+            "display": "Peptic Ulcer Disease"
+          },
+          {
+            "code": "5e0b9110-6d8f-11ec-8a72-5d3bb70405c2",
+            "display": "Blood Loss Anemia"
+          },
+          {
+            "code": "c9c99f20-6d83-11ec-9816-f9531e40ab0f",
+            "display": "Valvular Disease"
+          },
+          {
+            "code": "96b16d82-7ae6-11ec-ba14-00163e0e3b1e",
+            "display": "AST"
+          },
+          {
+            "code": "504a7600-6d93-11ec-83c6-5b12af31c27e",
+            "display": "Weight Loss"
+          },
+          {
+            "code": "c6807ee0-6d94-11ec-9533-5b425d4b75e7",
+            "display": "Hypothyroidism"
+          },
+          {
+            "code": "82ef0ff0-6d96-11ec-96e9-39ac2ca38464",
+            "display": "Psychoses"
+          },
+          {
+            "code": "4a4ef2e0-6d97-11ec-a703-b98eab3d2692",
+            "display": "Depression"
+          },
+          {
+            "code": "e2707f10-6d99-11ec-aca6-9f3bb3e4342a",
+            "display": "Paralysis"
+          },
+          {
+            "code": "2e47b270-6d98-11ec-94a4-43fe1cbd95b1",
+            "display": "AIDS HIV"
+          },
+          {
+            "code": "b8a8dc20-6d78-11ec-be4d-17414cf6b148",
+            "display": "Fever"
+          },
+          {
+            "code": "5eca80d0-6d7a-11ec-afff-c93e25241607",
+            "display": "Pain"
+          },
+          {
+            "code": "5232e3e0-6d79-11ec-8c80-3dd750fb8ea9",
+            "display": "Shortness of Breath"
+          },
+          {
+            "code": "ee27d8b0-6d9b-11ec-b0c2-55232efc5773",
+            "display": "Coagulopathy"
+          },
+          {
+            "code": "4ca61a90-6d9d-11ec-bf8f-b1e7af44f5d2",
+            "display": "Liver Disease"
+          },
+          {
+            "code": "42b77c90-6da7-11ec-9f83-1d5915becbdf",
+            "display": "Renal Failure"
+          },
+          {
+            "code": "37bf6530-6dae-11ec-8bcb-533e96f22a5a",
+            "display": "Plant alkaloids and other natural products"
+          },
+          {
+            "code": "9995c830-6dae-11ec-b55a-f105f5c21ca0",
+            "display": "Immunostimulants"
+          },
+          {
+            "code": "df47bb40-6dae-11ec-984c-bb9e6fde8fa7",
+            "display": "Immunosuppressants"
+          },
+          {
+            "code": "c5f13b90-6db2-11ec-b0c5-07612a97300d",
+            "display": "Diabetes (Uncomplicated)"
+          },
+          {
+            "code": "345601d0-6db6-11ec-bdf5-d532fab59c4f",
+            "display": "Cardiac Arrhythmia"
+          },
+          {
+            "code": "e90ac880-6dbc-11ec-85e8-2768d3ecadc2",
+            "display": "Endocrine Therapy"
+          },
+          {
+            "code": "96646be0-6e52-11ec-9c2b-bbbba2505f61",
+            "display": "Obesity"
+          },
+          {
+            "code": "5daad360-6e53-11ec-a661-bf8941e42844",
+            "display": "Peripheral Vascular Disorder"
+          },
+          {
+            "code": "b8147000-6e57-11ec-a991-e358c9d3813d",
+            "display": "Chronic Pulmonary Disease"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,1 +1,93 @@
-{"resourceType":"ValueSet","id":"9682d580-7ae6-11ec-ba14-00163e0e3b1e","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a> version <code>2.7</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/71830-4.html\">71830-4</a></td><td>Hematocrit [Pure volume fraction] of Mixed venous blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/71833-8.html\">71833-8</a></td><td>Hematocrit [Pure volume fraction] of Blood by Automated count</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/71831-2.html\">71831-2</a></td><td>Hematocrit [Pure volume fraction] of Capillary blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/71829-6.html\">71829-6</a></td><td>Hematocrit [Pure volume fraction] of Venous blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/71832-0.html\">71832-0</a></td><td>Hematocrit [Pure volume fraction] of Arterial blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/41655-2.html\">41655-2</a></td><td>Hematocrit [Volume Fraction] of Mixed venous blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/4545-0.html\">4545-0</a></td><td>Hematocrit [Volume Fraction] of Blood by Centrifugation</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/20570-8.html\">20570-8</a></td><td>Hematocrit [Volume Fraction] of Blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/32354-3.html\">32354-3</a></td><td>Hematocrit [Volume Fraction] of Arterial blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/4544-3.html\">4544-3</a></td><td>Hematocrit [Volume Fraction] of Blood by Automated count</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/31100-1.html\">31100-1</a></td><td>Hematocrit [Volume Fraction] of Blood by Impedance</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/41654-5.html\">41654-5</a></td><td>Hematocrit [Volume Fraction] of Venous blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/42908-4.html\">42908-4</a></td><td>Hematocrit [Volume Fraction] of Capillary blood</td></tr></table></li><li>Include these codes as defined in <code>https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134</code> version <code>1</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>7963</td><td>V HCT</td></tr><tr><td>8029</td><td>Hematocrit, arterial</td></tr><tr><td>5860</td><td>Hct</td></tr></table></li></ul></div>"},"url":"http://projectronin.com/fhir/us/ronin/ValueSet/9682d580-7ae6-11ec-ba14-00163e0e3b1e","version":"0.9.5","name":"HCT","title":"HCT","status":"active","experimental":false,"date":"2022-03-14T18:28:42+00:00","publisher":"Project Ronin Inc.","contact":[{"name":"Project Ronin Inc.","telecom":[{"system":"url","value":"https://www.projectronin.com"},{"system":"email","value":"contact@projectronin.com"}]}],"description":"LOINC codes indicating the measurement of Hematocrit Adding proprietary MDA codes","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"US","display":"United States of America"}]}],"immutable":false,"compose":{"include":[{"system":"http://loinc.org","version":"2.7","concept":[{"code":"71830-4","display":"Hematocrit [Pure volume fraction] of Mixed venous blood"},{"code":"71833-8","display":"Hematocrit [Pure volume fraction] of Blood by Automated count"},{"code":"71831-2","display":"Hematocrit [Pure volume fraction] of Capillary blood"},{"code":"71829-6","display":"Hematocrit [Pure volume fraction] of Venous blood"},{"code":"71832-0","display":"Hematocrit [Pure volume fraction] of Arterial blood"},{"code":"41655-2","display":"Hematocrit [Volume Fraction] of Mixed venous blood"},{"code":"4545-0","display":"Hematocrit [Volume Fraction] of Blood by Centrifugation"},{"code":"20570-8","display":"Hematocrit [Volume Fraction] of Blood"},{"code":"32354-3","display":"Hematocrit [Volume Fraction] of Arterial blood"},{"code":"4544-3","display":"Hematocrit [Volume Fraction] of Blood by Automated count"},{"code":"31100-1","display":"Hematocrit [Volume Fraction] of Blood by Impedance"},{"code":"41654-5","display":"Hematocrit [Volume Fraction] of Venous blood"},{"code":"42908-4","display":"Hematocrit [Volume Fraction] of Capillary blood"}]},{"system":"https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134","version":"1","concept":[{"code":"7963","display":"V HCT"},{"code":"8029","display":"Hematocrit, arterial"},{"code":"5860","display":"Hct"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "HCT",
+  "id": "9682d580-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "HCT",
+  "description": "LOINC codes indicating the measurement of Hematocrit Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/9682d580-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "71830-4",
+            "display": "Hematocrit [Pure volume fraction] of Mixed venous blood"
+          },
+          {
+            "code": "71833-8",
+            "display": "Hematocrit [Pure volume fraction] of Blood by Automated count"
+          },
+          {
+            "code": "71831-2",
+            "display": "Hematocrit [Pure volume fraction] of Capillary blood"
+          },
+          {
+            "code": "71829-6",
+            "display": "Hematocrit [Pure volume fraction] of Venous blood"
+          },
+          {
+            "code": "71832-0",
+            "display": "Hematocrit [Pure volume fraction] of Arterial blood"
+          },
+          {
+            "code": "41655-2",
+            "display": "Hematocrit [Volume Fraction] of Mixed venous blood"
+          },
+          {
+            "code": "4545-0",
+            "display": "Hematocrit [Volume Fraction] of Blood by Centrifugation"
+          },
+          {
+            "code": "20570-8",
+            "display": "Hematocrit [Volume Fraction] of Blood"
+          },
+          {
+            "code": "32354-3",
+            "display": "Hematocrit [Volume Fraction] of Arterial blood"
+          },
+          {
+            "code": "4544-3",
+            "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+          },
+          {
+            "code": "31100-1",
+            "display": "Hematocrit [Volume Fraction] of Blood by Impedance"
+          },
+          {
+            "code": "41654-5",
+            "display": "Hematocrit [Volume Fraction] of Venous blood"
+          },
+          {
+            "code": "42908-4",
+            "display": "Hematocrit [Volume Fraction] of Capillary blood"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "7963",
+            "display": "V HCT"
+          },
+          {
+            "code": "8029",
+            "display": "Hematocrit, arterial"
+          },
+          {
+            "code": "5860",
+            "display": "Hct"
+          }
+        ]
+      }
+    ]
+  }
+}

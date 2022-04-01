@@ -1,1 +1,178 @@
-{"resourceType":"RiskAssessment","id":"roninEdVisitRiskAssessment01Test","meta":{"profile":["http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-risk-assessment"]},"text":{"status":"extensions","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"roninEdVisitRiskAssessment01Test\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ed-visit-risk-assessment.html\">ED Visit Risk Assessment</a></p></div><p><b>Sample Size</b>: 1000</p><p><b>Cohort Size</b>: 500</p><p><b>Model Version</b>: 30</p><p><b>identifier</b>: Tenant ID: PEENG</p><p><b>status</b>: final</p><p><b>method</b>: Scikit-learn random forest regression model <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (ml[v1.0]#sk-learn-random-forest-reg-model)</span></p><p><b>subject</b>: <a href=\"Patient-roninPatient01Test.html\">Patient/roninPatient01Test</a> \" BASS\"</p><p><b>occurrence</b>: 2021-10-07</p><p><b>basis</b>: <a href=\"Observation-roninEdVisitRationale01Test.html\">Observation/roninEdVisitRationale01Test</a></p><h3>Predictions</h3><table class=\"grid\"><tr><td>-</td><td><b>Probability[x]</b></td></tr><tr><td>*</td><td>0.43</td></tr></table></div>"},"extension":[{"url":"http://projectronin.com/fhir/us/ronin/StructureDefinition/riskAssessmentSampleSize","valueInteger":1000},{"url":"http://projectronin.com/fhir/us/ronin/StructureDefinition/riskAssessmentCohortSize","valueInteger":500},{"url":"http://projectronin.com/fhir/us/ronin/StructureDefinition/riskAssessmentModelVersion","valueString":"30"}],"identifier":[{"type":{"coding":[{"system":"http://projectronin.com/id/tenantId","code":"TID","display":"Ronin-specified Tenant Identifier"}],"text":"Tenant ID"},"system":"http://projectronin.com/id/tenantId","value":"PEENG"}],"status":"final","method":{"coding":[{"system":"http://projectronin.com/ds/ml","version":"v1.0","code":"sk-learn-random-forest-reg-model","display":"Scikit-learn random forest regression model"}]},"subject":{"reference":"Patient/roninPatient01Test"},"occurrenceDateTime":"2021-10-07","basis":[{"reference":"Observation/roninEdVisitRationale01Test"}],"prediction":[{"probabilityDecimal":0.43}]}
+{
+  "resourceType": "RiskAssessment",
+  "id": "roninEdVisitRiskAssessment01Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-risk-assessment"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/riskAssessmentSampleSize",
+      "valueInteger": 1000
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/riskAssessmentCohortSize",
+      "valueInteger": 500
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/riskAssessmentModelVersion",
+      "valueString": "30"
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "value": "PEENG"
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "4525004",
+        "system": "http://snomed.info/sct",
+        "display": "Emergency department patient visit"
+      }
+    ]
+  },
+  "method": {
+    "coding": [
+      {
+        "code": "sk-learn-random-forest-reg-model",
+        "system": "http://projectronin.com/ds/ml",
+        "display": "Scikit-learn random forest regression model",
+        "version": "v1.0"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/roninPatient01Test"
+  },
+  "occurrenceDateTime": "2021-10-07",
+  "prediction": [
+    {
+      "probabilityDecimal": 0.43
+    }
+  ],
+  "basis": [
+    {
+      "reference": "Observation/roninEdVisitRationale01Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation01Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation02Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation03Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation04Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation05Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation06Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation07Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation08Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation09Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation10Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation11Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation12Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation13Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation14Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation15Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation16Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation17Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation18Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation19Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation20Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation21Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation22Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation23Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation24Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation25Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation26Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation27Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation28Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation29Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation30Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation31Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation32Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation33Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation34Test"
+    },
+    {
+      "reference": "Observation/OncologyObservation35Test"
+    }
+  ]
+}

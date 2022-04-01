@@ -1,45 +1,14 @@
 {
   "resourceType": "ValueSet",
-  "id": "5e0b9110-6d8f-11ec-8a72-5d3bb70405c2",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-icd10CM.html\"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a> version <code>2022</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>D50</td><td>Iron deficiency anemia</td></tr><tr><td>D68.8</td><td>Other specified coagulation defects</td></tr><tr><td>D68.31</td><td>Hemorrhagic disorder due to intrinsic circulating anticoagulants, antibodies, or inhibitors</td></tr><tr><td>D75.82</td><td>Heparin induced thrombocytopenia (HIT)</td></tr><tr><td>D68.52</td><td>Prothrombin gene mutation</td></tr><tr><td>D65</td><td>Disseminated intravascular coagulation [defibrination syndrome]</td></tr><tr><td>D69.8</td><td>Other specified hemorrhagic conditions</td></tr><tr><td>D61.810</td><td>Antineoplastic chemotherapy induced pancytopenia</td></tr><tr><td>D50.1</td><td>Sideropenic dysphagia</td></tr><tr><td>D53.0</td><td>Protein deficiency anemia</td></tr><tr><td>D61</td><td>Other aplastic anemias and other bone marrow failure syndromes</td></tr><tr><td>D53.9</td><td>Nutritional anemia, unspecified</td></tr><tr><td>D69.59</td><td>Other secondary thrombocytopenia</td></tr><tr><td>D69.2</td><td>Other nonthrombocytopenic purpura</td></tr><tr><td>D51.8</td><td>Other vitamin B12 deficiency anemias</td></tr><tr><td>D69.1</td><td>Qualitative platelet defects</td></tr><tr><td>D52.0</td><td>Dietary folate deficiency anemia</td></tr><tr><td>D61.01</td><td>Constitutional (pure) red blood cell aplasia</td></tr><tr><td>D52.1</td><td>Drug-induced folate deficiency anemia</td></tr><tr><td>D69.41</td><td>Evans syndrome</td></tr><tr><td>D52.9</td><td>Folate deficiency anemia, unspecified</td></tr><tr><td>D69.51</td><td>Posttransfusion purpura</td></tr><tr><td>D68.69</td><td>Other thrombophilia</td></tr><tr><td>D69.5</td><td>Secondary thrombocytopenia</td></tr><tr><td>D68.5</td><td>Primary thrombophilia</td></tr><tr><td>D61.0</td><td>Constitutional aplastic anemia</td></tr><tr><td>D51.9</td><td>Vitamin B12 deficiency anemia, unspecified</td></tr><tr><td>D50.8</td><td>Other iron deficiency anemias</td></tr><tr><td>D68.3</td><td>Hemorrhagic disorder due to circulating anticoagulants</td></tr><tr><td>D67</td><td>Hereditary factor IX deficiency</td></tr><tr><td>D55</td><td>Anemia due to enzyme disorders</td></tr><tr><td>D55.21</td><td>Anemia due to pyruvate kinase deficiency</td></tr><tr><td>D68.1</td><td>Hereditary factor XI deficiency</td></tr><tr><td>D68.9</td><td>Coagulation defect, unspecified</td></tr><tr><td>D68.62</td><td>Lupus anticoagulant syndrome</td></tr><tr><td>D51.0</td><td>Vitamin B12 deficiency anemia due to intrinsic factor deficiency</td></tr><tr><td>D51.3</td><td>Other dietary vitamin B12 deficiency anemia</td></tr><tr><td>D69.9</td><td>Hemorrhagic condition, unspecified</td></tr><tr><td>D68.4</td><td>Acquired coagulation factor deficiency</td></tr><tr><td>D61.3</td><td>Idiopathic aplastic anemia</td></tr><tr><td>D55.1</td><td>Anemia due to other disorders of glutathione metabolism</td></tr><tr><td>D63</td><td>Anemia in chronic diseases classified elsewhere</td></tr><tr><td>D52</td><td>Folate deficiency anemia</td></tr><tr><td>D55.3</td><td>Anemia due to disorders of nucleotide metabolism</td></tr><tr><td>D55.0</td><td>Anemia due to glucose-6-phosphate dehydrogenase [G6PD] deficiency</td></tr><tr><td>D55.8</td><td>Other anemias due to enzyme disorders</td></tr><tr><td>D69</td><td>Purpura and other hemorrhagic conditions</td></tr><tr><td>D61.89</td><td>Other specified aplastic anemias and other bone marrow failure syndromes</td></tr><tr><td>D68.311</td><td>Acquired hemophilia</td></tr><tr><td>D55.29</td><td>Anemia due to other disorders of glycolytic enzymes</td></tr><tr><td>D61.1</td><td>Drug-induced aplastic anemia</td></tr><tr><td>D69.42</td><td>Congenital and hereditary thrombocytopenia purpura</td></tr><tr><td>D69.4</td><td>Other primary thrombocytopenia</td></tr><tr><td>D61.818</td><td>Other pancytopenia</td></tr><tr><td>D69.6</td><td>Thrombocytopenia, unspecified</td></tr><tr><td>D61.82</td><td>Myelophthisis</td></tr><tr><td>D63.8</td><td>Anemia in other chronic diseases classified elsewhere</td></tr><tr><td>D53</td><td>Other nutritional anemias</td></tr><tr><td>D53.1</td><td>Other megaloblastic anemias, not elsewhere classified</td></tr><tr><td>D50.9</td><td>Iron deficiency anemia, unspecified</td></tr><tr><td>D63.1</td><td>Anemia in chronic kidney disease</td></tr><tr><td>D61.81</td><td>Pancytopenia</td></tr><tr><td>D61.811</td><td>Other drug-induced pancytopenia</td></tr><tr><td>D68</td><td>Other coagulation defects</td></tr><tr><td>D68.32</td><td>Hemorrhagic disorder due to extrinsic circulating anticoagulants</td></tr><tr><td>D66</td><td>Hereditary factor VIII deficiency</td></tr><tr><td>D69.3</td><td>Immune thrombocytopenic purpura</td></tr><tr><td>D68.0</td><td>Von Willebrand's disease</td></tr><tr><td>D52.8</td><td>Other folate deficiency anemias</td></tr><tr><td>D68.6</td><td>Other thrombophilia</td></tr><tr><td>D68.59</td><td>Other primary thrombophilia</td></tr><tr><td>D51.1</td><td>Vitamin B12 deficiency anemia due to selective vitamin B12 malabsorption with proteinuria</td></tr><tr><td>D55.2</td><td>Anemia due to disorders of glycolytic enzymes</td></tr><tr><td>D68.2</td><td>Hereditary deficiency of other clotting factors</td></tr><tr><td>D61.09</td><td>Other constitutional aplastic anemia</td></tr><tr><td>D63.0</td><td>Anemia in neoplastic disease</td></tr><tr><td>D61.9</td><td>Aplastic anemia, unspecified</td></tr><tr><td>D55.9</td><td>Anemia due to enzyme disorder, unspecified</td></tr><tr><td>D68.61</td><td>Antiphospholipid syndrome</td></tr><tr><td>D68.51</td><td>Activated protein C resistance</td></tr><tr><td>D51.2</td><td>Transcobalamin II deficiency</td></tr><tr><td>D53.2</td><td>Scorbutic anemia</td></tr><tr><td>D61.2</td><td>Aplastic anemia due to other external agents</td></tr><tr><td>D50.0</td><td>Iron deficiency anemia secondary to blood loss (chronic)</td></tr><tr><td>D53.8</td><td>Other specified nutritional anemias</td></tr><tr><td>D68.312</td><td>Antiphospholipid antibody with hemorrhagic disorder</td></tr><tr><td>D69.49</td><td>Other primary thrombocytopenia</td></tr><tr><td>D61.8</td><td>Other specified aplastic anemias and other bone marrow failure syndromes</td></tr><tr><td>D68.318</td><td>Other hemorrhagic disorder due to intrinsic circulating anticoagulants, antibodies, or inhibitors</td></tr><tr><td>D69.0</td><td>Allergic purpura</td></tr><tr><td>D51</td><td>Vitamin B12 deficiency anemia</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <code>2021</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/267530009\">267530009</a></td><td>Acute posthemorrhagic anemia (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/413532003\">413532003</a></td><td>Anemia due to blood loss (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/303060002\">303060002</a></td><td>Normocytic anemia following acute bleed (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/53743006\">53743006</a></td><td>Anemia following fetal blood loss (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/10762261000119105\">10762261000119105</a></td><td>Anemia following acute postoperative blood loss (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/413533008\">413533008</a></td><td>Anemia due to chronic blood loss (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/234352004\">234352004</a></td><td>Normocytic anemia due to chronic blood loss (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/724556004\">724556004</a></td><td>Iron deficiency anemia due to blood loss (disorder)</td></tr></table></li></ul></div>"
-  },
-  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/5e0b9110-6d8f-11ec-8a72-5d3bb70405c2",
-  "version": "0.9.5",
-  "name": "BloodLossAnemia",
-  "title": "Blood Loss Anemia",
   "status": "active",
-  "experimental": false,
-  "date": "2022-03-14T18:28:42+00:00",
-  "publisher": "Project Ronin Inc.",
-  "contact": [
-    {
-      "name": "Project Ronin Inc.",
-      "telecom": [
-        {
-          "system": "url",
-          "value": "https://www.projectronin.com"
-        },
-        {
-          "system": "email",
-          "value": "contact@projectronin.com"
-        }
-      ]
-    }
-  ],
+  "name": "BloodLossAnemia",
+  "id": "5e0b9110-6d8f-11ec-8a72-5d3bb70405c2",
+  "title": "Blood Loss Anemia",
   "description": "SNOMED and ICD10 codes for blood loss anemia",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "US",
-          "display": "United States of America"
-        }
-      ]
-    }
-  ],
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/5e0b9110-6d8f-11ec-8a72-5d3bb70405c2",
+  "experimental": false,
+  "publisher": "Project Ronin",
   "immutable": false,
   "compose": {
     "include": [

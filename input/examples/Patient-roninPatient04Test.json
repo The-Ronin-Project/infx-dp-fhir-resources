@@ -1,1 +1,126 @@
-{"resourceType":"Patient","id":"roninPatient04Test","meta":{"profile":["http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-patient"]},"text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Wilmatar Z. Oud </b> (no stated gender) 1959-05-11 ( Tenant ID: psj)</p></div>"},"identifier":[{"type":{"coding":[{"system":"http://projectronin.com/id/tenantId","code":"TID","display":"Ronin-specified Tenant Identifier"}],"text":"Tenant ID"},"system":"http://projectronin.com/id/tenantId","value":"psj"},{"type":{"coding":[{"system":"http://terminology.hl7.org/CodeSystem/v2-0203","code":"MR","display":"Medical Record Number"}],"text":"MRN"},"system":"http://projectronin.com/id/mrn","value":"20221"},{"type":{"coding":[{"system":"http://projectronin.com/id/fhir","code":"STU3","display":"FHIR STU3 ID"}],"text":"FHIR STU3"},"system":"http://projectronin.com/id/fhir","value":"stu3-20221"}],"name":[{"family":"Oud","given":["Wilmatar","Z."]}],"telecom":[{"system":"phone","value":"1-717-555-5555","use":"home"}],"gender":"female","birthDate":"1959-05-11","address":[{"line":["900 Tabbouli Street"],"city":"Lebanon","state":"PA","postalCode":"17042","country":"US"}],"maritalStatus":{"coding":[{"system":"http://terminology.hl7.org/CodeSystem/v3-MaritalStatus","code":"M"}],"text":"Married"},"contact":[{"telecom":[{"system":"phone","value":"1-544-555-6622","use":"home"},{"system":"email","value":"oud.wilmatar@example.com"}]}],"communication":[{"language":{"coding":[{"system":"urn:ietf:bcp:47","code":"en-US","display":"English (Region=United States)"}],"text":"English"}}],"generalPractitioner":[{"reference":"Practitioner/roninPSJPractitioner04Test","display":"Dr. Wendyline Kebbe"}]}
+{
+  "resourceType": "Patient",
+  "id": "roninPatient04Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-patient"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "value": "psj"
+    },
+    {
+      "system": "http://projectronin.com/id/mrn",
+      "type": {
+        "coding": [
+          {
+            "code": "MR",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "display": "Medical Record Number"
+          }
+        ],
+        "text": "MRN"
+      },
+      "value": "20221"
+    },
+    {
+      "system": "http://projectronin.com/id/fhir",
+      "type": {
+        "coding": [
+          {
+            "code": "STU3",
+            "system": "http://projectronin.com/id/fhir",
+            "display": "FHIR STU3 ID"
+          }
+        ],
+        "text": "FHIR STU3"
+      },
+      "value": "stu3-20221"
+    }
+  ],
+  "name": [
+    {
+      "family": "Oud",
+      "given": [
+        "Wilmatar",
+        "Z."
+      ]
+    }
+  ],
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "1-544-555-6622",
+          "use": "home"
+        },
+        {
+          "system": "email",
+          "value": "oud.wilmatar@example.com"
+        }
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "1-717-555-5555",
+      "use": "home"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1959-05-11",
+  "address": [
+    {
+      "line": [
+        "900 Tabbouli Street"
+      ],
+      "city": "Lebanon",
+      "postalCode": "17042",
+      "state": "PA",
+      "country": "US"
+    }
+  ],
+  "communication": [
+    {
+      "language": {
+        "coding": [
+          {
+            "code": "en-US",
+            "system": "urn:ietf:bcp:47",
+            "display": "English (Region=United States)"
+          }
+        ],
+        "text": "English"
+      }
+    }
+  ],
+  "maritalStatus": {
+    "coding": [
+      {
+        "code": "M",
+        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+      }
+    ],
+    "text": "Married"
+  },
+  "generalPractitioner": [
+    {
+      "display": "Dr. Wendyline Kebbe",
+      "reference": "Practitioner/roninPSJPractitioner04Test"
+    }
+  ]
+}

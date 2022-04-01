@@ -1,1 +1,72 @@
-{"resourceType":"CarePlan","id":"carePlanExampleId","meta":{"profile":["http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-care-plan"]},"text":{"status":"additional","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\">There is a history of <span id=\"a1\">Asthma</span></div>"},"extension":[{"url":"http://projectronin.com/fhir/us/ronin/StructureDefinition/treatmentDayName","valueString":"Thursday"},{"url":"http://projectronin.com/fhir/us/ronin/StructureDefinition/treatmentDayNumber","valueDecimal":10},{"url":"http://projectronin.com/fhir/us/ronin/StructureDefinition/treatmentStartDate","valueDate":"2019-02-07"},{"url":"http://projectronin.com/fhir/us/ronin/StructureDefinition/treatmentEndDate","valueDate":"2019-02-10"},{"url":"http://projectronin.com/fhir/us/ronin/StructureDefinition/lineOfTreatment","valueString":"test"},{"url":"http://projectronin.com/fhir/us/ronin/StructureDefinition/dayStatus","valueString":"good"},{"url":"http://projectronin.com/fhir/us/ronin/StructureDefinition/cycleName","valueString":"some name"},{"url":"http://projectronin.com/fhir/us/ronin/StructureDefinition/cycleNumber","valueDecimal":20},{"url":"http://projectronin.com/fhir/us/ronin/StructureDefinition/cycleStartDate","valueDate":"2019-02-07"}],"identifier":[{"system":"http://projectronin.com/id/tenantId","value":"013"}],"status":"active","intent":"proposal","category":[{"coding":[{"system":"http://hl7.org/fhir/us/core/CodeSystem/careplan-category","code":"assess-plan"}]}],"subject":{"reference":"Patient/ExamplePatient"}}
+{
+  "resourceType": "CarePlan",
+  "id": "carePlanExampleId",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-care-plan"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan"
+        }
+      ]
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "013"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/treatmentDayName",
+      "valueString": "Thursday"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/treatmentDayNumber",
+      "valueDecimal": 10
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/treatmentStartDate",
+      "valueDate": "2019-02-07"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/treatmentEndDate",
+      "valueDate": "2019-02-10"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/lineOfTreatment",
+      "valueString": "test"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/dayStatus",
+      "valueString": "good"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/cycleName",
+      "valueString": "some name"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/cycleNumber",
+      "valueDecimal": 20
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/cycleStartDate",
+      "valueDate": "2019-02-07"
+    }
+  ],
+  "status": "active",
+  "intent": "proposal",
+  "subject": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">There is a history of <span id=\"a1\">Asthma</span></div>"
+  }
+}

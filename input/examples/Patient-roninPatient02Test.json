@@ -6,51 +6,47 @@
       "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-patient"
     ]
   },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Chad A. Wyatt </b> (no stated gender) 1963-03-01 ( Tenant ID: mdaoc)</p></div>"
-  },
   "identifier": [
     {
+      "system": "http://projectronin.com/id/tenantId",
       "type": {
         "coding": [
           {
-            "system": "http://projectronin.com/id/tenantId",
             "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
             "display": "Ronin-specified Tenant Identifier"
           }
         ],
         "text": "Tenant ID"
       },
-      "system": "http://projectronin.com/id/tenantId",
       "value": "mdaoc"
     },
     {
+      "system": "http://projectronin.com/id/mrn",
       "type": {
         "coding": [
           {
-            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
             "code": "MR",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
             "display": "Medical Record Number"
           }
         ],
         "text": "MRN"
       },
-      "system": "http://projectronin.com/id/mrn",
       "value": "01112"
     },
     {
+      "system": "http://projectronin.com/id/fhir",
       "type": {
         "coding": [
           {
-            "system": "http://projectronin.com/id/fhir",
             "code": "STU3",
+            "system": "http://projectronin.com/id/fhir",
             "display": "FHIR STU3 ID"
           }
         ],
         "text": "FHIR STU3"
       },
-      "system": "http://projectronin.com/id/fhir",
       "value": "stu3-01112"
     }
   ],
@@ -60,6 +56,21 @@
       "given": [
         "Chad",
         "A."
+      ]
+    }
+  ],
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "1-222-555-1111",
+          "use": "home"
+        },
+        {
+          "system": "email",
+          "value": "wyatt.chad@example.com"
+        }
       ]
     }
   ],
@@ -78,33 +89,9 @@
         "222 Feta Street"
       ],
       "city": "Patras",
-      "state": "TX",
       "postalCode": "94340",
+      "state": "TX",
       "country": "US"
-    }
-  ],
-  "maritalStatus": {
-    "coding": [
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
-        "code": "U"
-      }
-    ],
-    "text": "Unmarried"
-  },
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "phone",
-          "value": "1-222-555-1111",
-          "use": "home"
-        },
-        {
-          "system": "email",
-          "value": "wyatt.chad@example.com"
-        }
-      ]
     }
   ],
   "communication": [
@@ -112,8 +99,8 @@
       "language": {
         "coding": [
           {
-            "system": "urn:ietf:bcp:47",
             "code": "en-US",
+            "system": "urn:ietf:bcp:47",
             "display": "English (Region=United States)"
           }
         ],
@@ -121,10 +108,19 @@
       }
     }
   ],
+  "maritalStatus": {
+    "coding": [
+      {
+        "code": "U",
+        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+      }
+    ],
+    "text": "Unmarried"
+  },
   "generalPractitioner": [
     {
-      "reference": "Practitioner/roninMDAPractitioner02Test",
-      "display": "Dr. Alfred Gray"
+      "display": "Dr. Alfred Gray",
+      "reference": "Practitioner/roninMDAPractitioner02Test"
     }
   ]
 }

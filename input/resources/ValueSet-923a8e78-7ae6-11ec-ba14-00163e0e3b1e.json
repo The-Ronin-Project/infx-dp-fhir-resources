@@ -1,45 +1,14 @@
 {
   "resourceType": "ValueSet",
-  "id": "923a8e78-7ae6-11ec-ba14-00163e0e3b1e",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a> version <code>2.7</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/1783-0.html\">1783-0</a></td><td>Alkaline phosphatase [Enzymatic activity/volume] in Blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/55971-6.html\">55971-6</a></td><td>Alkaline phosphatase [Enzymatic activity/volume] in Cord blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/77141-0.html\">77141-0</a></td><td>Alkaline phosphatase [Enzymatic activity/volume] in Serum, Plasma or Blood</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/6768-6.html\">6768-6</a></td><td>Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma</td></tr></table></li><li>Include these codes as defined in <code>https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134</code> version <code>1</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>4770</td><td>Alk Phos-Mayo</td></tr></table></li></ul></div>"
-  },
-  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/923a8e78-7ae6-11ec-ba14-00163e0e3b1e",
-  "version": "0.9.5",
-  "name": "AlkalinePhosphatase",
-  "title": "Alkaline Phosphatase",
   "status": "active",
-  "experimental": false,
-  "date": "2022-03-14T18:28:42+00:00",
-  "publisher": "Project Ronin Inc.",
-  "contact": [
-    {
-      "name": "Project Ronin Inc.",
-      "telecom": [
-        {
-          "system": "url",
-          "value": "https://www.projectronin.com"
-        },
-        {
-          "system": "email",
-          "value": "contact@projectronin.com"
-        }
-      ]
-    }
-  ],
+  "name": "AlkalinePhosphatase",
+  "id": "923a8e78-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "Alkaline Phosphatase",
   "description": "LOINC codes indicating serum Alkaline Phosphatase measurement Adding proprietary MDA codes",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "US",
-          "display": "United States of America"
-        }
-      ]
-    }
-  ],
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/923a8e78-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
   "immutable": false,
   "compose": {
     "include": [

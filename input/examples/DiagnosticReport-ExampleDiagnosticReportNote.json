@@ -1,1 +1,47 @@
-{"resourceType":"DiagnosticReport","id":"ExampleDiagnosticReportNote","meta":{"profile":["http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-diagnostic-report-note"]},"text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2><span title=\"Codes: {http://loinc.org 10207-9}\">Physical findings of Thorax and Lungs Narrative</span> (<span title=\"Codes: \">Imaging</span>) </h2><table class=\"grid\"><tr><td>Subject</td><td>Unable to get Patient Details</td></tr><tr><td>When For</td><td>2017-01-01 12:00:00+0000</td></tr><tr><td>Identifier:</td><td> id: 013</td></tr></table><p><b>Report Details</b></p></div>"},"extension":[{"url":"http://projectronin.com/fhir/us/ronin/StructureDefinition/referringDoctor","valueReference":{"reference":"Practitioner/ExamplePractitioner"}}],"identifier":[{"system":"http://projectronin.com/id/tenantId","value":"013"}],"status":"registered","category":[{"coding":[{"display":"Imaging"}],"text":"Imaging"}],"code":{"coding":[{"system":"http://loinc.org","code":"10207-9"}],"text":"Physical findings of Thorax and Lungs Narrative"},"subject":{"display":"Clay Kihn"},"effectiveDateTime":"2017-01-01T00:00:00.000Z"}
+{
+  "resourceType": "DiagnosticReport",
+  "id": "ExampleDiagnosticReportNote",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-diagnostic-report-note"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "013"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/referringDoctor",
+      "valueReference": {
+        "reference": "Practitioner/ExamplePractitioner"
+      }
+    }
+  ],
+  "category": [
+    {
+      "coding": [
+        {
+          "display": "Imaging"
+        }
+      ],
+      "text": "Imaging"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "10207-9",
+        "system": "http://loinc.org"
+      }
+    ],
+    "text": "Physical findings of Thorax and Lungs Narrative"
+  },
+  "subject": {
+    "display": "Clay Kihn"
+  },
+  "status": "registered",
+  "effectiveDateTime": "2017-01-01T00:00:00.000Z"
+}

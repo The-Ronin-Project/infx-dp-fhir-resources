@@ -6,51 +6,47 @@
       "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-patient"
     ]
   },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>John B. Bass </b> (no stated gender) 1951-01-20 ( Tenant ID: PEENG)</p></div>"
-  },
   "identifier": [
     {
+      "system": "http://projectronin.com/id/tenantId",
       "type": {
         "coding": [
           {
-            "system": "http://projectronin.com/id/tenantId",
             "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
             "display": "Ronin-specified Tenant Identifier"
           }
         ],
         "text": "Tenant ID"
       },
-      "system": "http://projectronin.com/id/tenantId",
       "value": "PEENG"
     },
     {
+      "system": "http://projectronin.com/id/mrn",
       "type": {
         "coding": [
           {
-            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
             "code": "MR",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
             "display": "Medical Record Number"
           }
         ],
         "text": "MRN"
       },
-      "system": "http://projectronin.com/id/mrn",
       "value": "7654321"
     },
     {
+      "system": "http://projectronin.com/id/fhir",
       "type": {
         "coding": [
           {
-            "system": "http://projectronin.com/id/fhir",
             "code": "STU3",
+            "system": "http://projectronin.com/id/fhir",
             "display": "FHIR STU3 ID"
           }
         ],
         "text": "FHIR STU3"
       },
-      "system": "http://projectronin.com/id/fhir",
       "value": "stu3-7654321"
     }
   ],
@@ -60,6 +56,21 @@
       "given": [
         "John",
         "B."
+      ]
+    }
+  ],
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "555-555-5555",
+          "use": "home"
+        },
+        {
+          "system": "email",
+          "value": "john.bass@example.com"
+        }
       ]
     }
   ],
@@ -78,33 +89,9 @@
         "123 Main St"
       ],
       "city": "Anytown",
-      "state": "MA",
       "postalCode": "12345",
+      "state": "MA",
       "country": "US"
-    }
-  ],
-  "maritalStatus": {
-    "coding": [
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
-        "code": "M"
-      }
-    ],
-    "text": "Married"
-  },
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "phone",
-          "value": "555-555-5555",
-          "use": "home"
-        },
-        {
-          "system": "email",
-          "value": "john.bass@example.com"
-        }
-      ]
     }
   ],
   "communication": [
@@ -112,8 +99,8 @@
       "language": {
         "coding": [
           {
-            "system": "urn:ietf:bcp:47",
             "code": "en-US",
+            "system": "urn:ietf:bcp:47",
             "display": "English (Region=United States)"
           }
         ],
@@ -121,10 +108,19 @@
       }
     }
   ],
+  "maritalStatus": {
+    "coding": [
+      {
+        "code": "M",
+        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+      }
+    ],
+    "text": "Married"
+  },
   "generalPractitioner": [
     {
-      "reference": "Practitioner/roninPEENGPractitioner01Test",
-      "display": "Dr. Harvey Feest"
+      "display": "Dr. Harvey Feest",
+      "reference": "Practitioner/roninPEENGPractitioner01Test"
     }
   ]
 }

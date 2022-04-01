@@ -1,1 +1,237 @@
-{"resourceType":"ValueSet","id":"5232e3e0-6d79-11ec-8c80-3dd750fb8ea9","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> version <code>2021</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/401286005\">401286005</a></td><td>Borg Breathlessness Score: 6 severe (+) (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/397702004\">397702004</a></td><td>Borg Breathlessness Score finding (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/39950000\">39950000</a></td><td>Dyspnea, class III (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/401275008\">401275008</a></td><td>Borg Breathlessness Score: 0 none at all (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/23141003\">23141003</a></td><td>Gasping for breath (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/73322006\">73322006</a></td><td>Dyspnea, class IV (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/161941007\">161941007</a></td><td>Dyspnea at rest (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/20112008\">20112008</a></td><td>Dyspnea leaning over (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/102577000\">102577000</a></td><td>Trepopnea (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/34560001\">34560001</a></td><td>Expiratory dyspnea (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/390871002\">390871002</a></td><td>Breathless - strenuous exertion (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/267036007\">267036007</a></td><td>Dyspnea (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/17216000\">17216000</a></td><td>Dyspnea, class I (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/55442000\">55442000</a></td><td>Paroxysmal nocturnal dyspnea (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/407588003\">407588003</a></td><td>Unable to complete a sentence in one breath (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/870535009\">870535009</a></td><td>Chronic dyspnea (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/25209001\">25209001</a></td><td>Inspiratory dyspnea (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/401292004\">401292004</a></td><td>Borg Breathlessness Score: 9 very, very severe (almost maximal) (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/391124000\">391124000</a></td><td>Medical Research Council Dyspnoea scale grade 3 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/401281000\">401281000</a></td><td>Borg Breathlessness Score: 3 moderate (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/72365000\">72365000</a></td><td>Dyspnea, class II (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/390870001\">390870001</a></td><td>Short of breath dressing/undressing (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/391125004\">391125004</a></td><td>Medical Research Council Dyspnoea scale grade 4 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/60845006\">60845006</a></td><td>Dyspnea on exertion (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/24921003\">24921003</a></td><td>Dyspnea raising arms (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/391120009\">391120009</a></td><td>Medical Research Council Dyspnoea scale grade 1 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/297216006\">297216006</a></td><td>Increasing breathlessness (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/401291006\">401291006</a></td><td>Borg Breathlessness Score: 8 very severe (+) (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/30744009\">30744009</a></td><td>Platypnea (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/59265000\">59265000</a></td><td>Paroxysmal dyspnea (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/161939006\">161939006</a></td><td>Breathless - moderate exertion (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/401293009\">401293009</a></td><td>Borg Breathlessness Score: 10 maximal (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/401282007\">401282007</a></td><td>Borg Breathlessness Score: 4 somewhat severe (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/401280004\">401280004</a></td><td>Borg Breathlessness Score: 2 slight (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/161940008\">161940008</a></td><td>Breathless - mild exertion (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/119981000146107\">119981000146107</a></td><td>Dyspnea caused by Severe acute respiratory syndrome coronavirus 2 (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/248548009\">248548009</a></td><td>Nocturnal dyspnea (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/391123006\">391123006</a></td><td>Medical Research Council Dyspnoea scale grade 2 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/422177004\">422177004</a></td><td>Dyspnea associated with acquired immunodeficiency syndrome (disorder)</td></tr><tr><td><a href=\"http://snomed.info/id/401323002\">401323002</a></td><td>Borg Breathlessness Score: 0.5 very, very slight (just noticeable) (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/57769004\">57769004</a></td><td>Dyspnea after eating (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/62744007\">62744007</a></td><td>Orthopnea (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/401290007\">401290007</a></td><td>Borg Breathlessness Score: 7 very severe (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/391126003\">391126003</a></td><td>Medical Research Council Dyspnoea scale grade 5 (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/401284008\">401284008</a></td><td>Borg Breathlessness Score: 5 severe (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/401279002\">401279002</a></td><td>Borg Breathlessness Score: 1 very slight (finding)</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-icd10CM.html\"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a> version <code>2022</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>R06.02</td><td>Shortness of breath</td></tr><tr><td>R06.01</td><td>Orthopnea</td></tr><tr><td>R06.0</td><td>Dyspnea</td></tr><tr><td>R06.00</td><td>Dyspnea, unspecified</td></tr><tr><td>R06.03</td><td>Acute respiratory distress</td></tr><tr><td>R06.09</td><td>Other forms of dyspnea</td></tr></table></li></ul></div>"},"url":"http://projectronin.com/fhir/us/ronin/ValueSet/5232e3e0-6d79-11ec-8c80-3dd750fb8ea9","version":"0.9.5","name":"ShortnessofBreath","title":"Shortness of Breath","status":"active","experimental":false,"date":"2022-03-14T18:28:42+00:00","publisher":"Project Ronin Inc.","contact":[{"name":"Project Ronin Inc.","telecom":[{"system":"url","value":"https://www.projectronin.com"},{"system":"email","value":"contact@projectronin.com"}]}],"description":"SNOMED and ICD.10 for Shortness of Breath","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"US","display":"United States of America"}]}],"immutable":false,"compose":{"include":[{"system":"http://snomed.info/sct","version":"2021","concept":[{"code":"401286005","display":"Borg Breathlessness Score: 6 severe (+) (finding)"},{"code":"397702004","display":"Borg Breathlessness Score finding (finding)"},{"code":"39950000","display":"Dyspnea, class III (finding)"},{"code":"401275008","display":"Borg Breathlessness Score: 0 none at all (finding)"},{"code":"23141003","display":"Gasping for breath (finding)"},{"code":"73322006","display":"Dyspnea, class IV (finding)"},{"code":"161941007","display":"Dyspnea at rest (finding)"},{"code":"20112008","display":"Dyspnea leaning over (finding)"},{"code":"102577000","display":"Trepopnea (finding)"},{"code":"34560001","display":"Expiratory dyspnea (finding)"},{"code":"390871002","display":"Breathless - strenuous exertion (finding)"},{"code":"267036007","display":"Dyspnea (finding)"},{"code":"17216000","display":"Dyspnea, class I (finding)"},{"code":"55442000","display":"Paroxysmal nocturnal dyspnea (finding)"},{"code":"407588003","display":"Unable to complete a sentence in one breath (finding)"},{"code":"870535009","display":"Chronic dyspnea (finding)"},{"code":"25209001","display":"Inspiratory dyspnea (finding)"},{"code":"401292004","display":"Borg Breathlessness Score: 9 very, very severe (almost maximal) (finding)"},{"code":"391124000","display":"Medical Research Council Dyspnoea scale grade 3 (finding)"},{"code":"401281000","display":"Borg Breathlessness Score: 3 moderate (finding)"},{"code":"72365000","display":"Dyspnea, class II (finding)"},{"code":"390870001","display":"Short of breath dressing/undressing (finding)"},{"code":"391125004","display":"Medical Research Council Dyspnoea scale grade 4 (finding)"},{"code":"60845006","display":"Dyspnea on exertion (finding)"},{"code":"24921003","display":"Dyspnea raising arms (finding)"},{"code":"391120009","display":"Medical Research Council Dyspnoea scale grade 1 (finding)"},{"code":"297216006","display":"Increasing breathlessness (finding)"},{"code":"401291006","display":"Borg Breathlessness Score: 8 very severe (+) (finding)"},{"code":"30744009","display":"Platypnea (finding)"},{"code":"59265000","display":"Paroxysmal dyspnea (finding)"},{"code":"161939006","display":"Breathless - moderate exertion (finding)"},{"code":"401293009","display":"Borg Breathlessness Score: 10 maximal (finding)"},{"code":"401282007","display":"Borg Breathlessness Score: 4 somewhat severe (finding)"},{"code":"401280004","display":"Borg Breathlessness Score: 2 slight (finding)"},{"code":"161940008","display":"Breathless - mild exertion (finding)"},{"code":"119981000146107","display":"Dyspnea caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"},{"code":"248548009","display":"Nocturnal dyspnea (finding)"},{"code":"391123006","display":"Medical Research Council Dyspnoea scale grade 2 (finding)"},{"code":"422177004","display":"Dyspnea associated with acquired immunodeficiency syndrome (disorder)"},{"code":"401323002","display":"Borg Breathlessness Score: 0.5 very, very slight (just noticeable) (finding)"},{"code":"57769004","display":"Dyspnea after eating (finding)"},{"code":"62744007","display":"Orthopnea (finding)"},{"code":"401290007","display":"Borg Breathlessness Score: 7 very severe (finding)"},{"code":"391126003","display":"Medical Research Council Dyspnoea scale grade 5 (finding)"},{"code":"401284008","display":"Borg Breathlessness Score: 5 severe (finding)"},{"code":"401279002","display":"Borg Breathlessness Score: 1 very slight (finding)"}]},{"system":"http://hl7.org/fhir/sid/icd-10-cm","version":"2022","concept":[{"code":"R06.02","display":"Shortness of breath"},{"code":"R06.01","display":"Orthopnea"},{"code":"R06.0","display":"Dyspnea"},{"code":"R06.00","display":"Dyspnea, unspecified"},{"code":"R06.03","display":"Acute respiratory distress"},{"code":"R06.09","display":"Other forms of dyspnea"}]}]}}
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ShortnessofBreath",
+  "id": "5232e3e0-6d79-11ec-8c80-3dd750fb8ea9",
+  "title": "Shortness of Breath",
+  "description": "SNOMED and ICD.10 for Shortness of Breath",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/5232e3e0-6d79-11ec-8c80-3dd750fb8ea9",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "401286005",
+            "display": "Borg Breathlessness Score: 6 severe (+) (finding)"
+          },
+          {
+            "code": "397702004",
+            "display": "Borg Breathlessness Score finding (finding)"
+          },
+          {
+            "code": "39950000",
+            "display": "Dyspnea, class III (finding)"
+          },
+          {
+            "code": "401275008",
+            "display": "Borg Breathlessness Score: 0 none at all (finding)"
+          },
+          {
+            "code": "23141003",
+            "display": "Gasping for breath (finding)"
+          },
+          {
+            "code": "73322006",
+            "display": "Dyspnea, class IV (finding)"
+          },
+          {
+            "code": "161941007",
+            "display": "Dyspnea at rest (finding)"
+          },
+          {
+            "code": "20112008",
+            "display": "Dyspnea leaning over (finding)"
+          },
+          {
+            "code": "102577000",
+            "display": "Trepopnea (finding)"
+          },
+          {
+            "code": "34560001",
+            "display": "Expiratory dyspnea (finding)"
+          },
+          {
+            "code": "390871002",
+            "display": "Breathless - strenuous exertion (finding)"
+          },
+          {
+            "code": "267036007",
+            "display": "Dyspnea (finding)"
+          },
+          {
+            "code": "17216000",
+            "display": "Dyspnea, class I (finding)"
+          },
+          {
+            "code": "55442000",
+            "display": "Paroxysmal nocturnal dyspnea (finding)"
+          },
+          {
+            "code": "407588003",
+            "display": "Unable to complete a sentence in one breath (finding)"
+          },
+          {
+            "code": "870535009",
+            "display": "Chronic dyspnea (finding)"
+          },
+          {
+            "code": "25209001",
+            "display": "Inspiratory dyspnea (finding)"
+          },
+          {
+            "code": "401292004",
+            "display": "Borg Breathlessness Score: 9 very, very severe (almost maximal) (finding)"
+          },
+          {
+            "code": "391124000",
+            "display": "Medical Research Council Dyspnoea scale grade 3 (finding)"
+          },
+          {
+            "code": "401281000",
+            "display": "Borg Breathlessness Score: 3 moderate (finding)"
+          },
+          {
+            "code": "72365000",
+            "display": "Dyspnea, class II (finding)"
+          },
+          {
+            "code": "390870001",
+            "display": "Short of breath dressing/undressing (finding)"
+          },
+          {
+            "code": "391125004",
+            "display": "Medical Research Council Dyspnoea scale grade 4 (finding)"
+          },
+          {
+            "code": "60845006",
+            "display": "Dyspnea on exertion (finding)"
+          },
+          {
+            "code": "24921003",
+            "display": "Dyspnea raising arms (finding)"
+          },
+          {
+            "code": "391120009",
+            "display": "Medical Research Council Dyspnoea scale grade 1 (finding)"
+          },
+          {
+            "code": "297216006",
+            "display": "Increasing breathlessness (finding)"
+          },
+          {
+            "code": "401291006",
+            "display": "Borg Breathlessness Score: 8 very severe (+) (finding)"
+          },
+          {
+            "code": "30744009",
+            "display": "Platypnea (finding)"
+          },
+          {
+            "code": "59265000",
+            "display": "Paroxysmal dyspnea (finding)"
+          },
+          {
+            "code": "161939006",
+            "display": "Breathless - moderate exertion (finding)"
+          },
+          {
+            "code": "401293009",
+            "display": "Borg Breathlessness Score: 10 maximal (finding)"
+          },
+          {
+            "code": "401282007",
+            "display": "Borg Breathlessness Score: 4 somewhat severe (finding)"
+          },
+          {
+            "code": "401280004",
+            "display": "Borg Breathlessness Score: 2 slight (finding)"
+          },
+          {
+            "code": "161940008",
+            "display": "Breathless - mild exertion (finding)"
+          },
+          {
+            "code": "119981000146107",
+            "display": "Dyspnea caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+          },
+          {
+            "code": "248548009",
+            "display": "Nocturnal dyspnea (finding)"
+          },
+          {
+            "code": "391123006",
+            "display": "Medical Research Council Dyspnoea scale grade 2 (finding)"
+          },
+          {
+            "code": "422177004",
+            "display": "Dyspnea associated with acquired immunodeficiency syndrome (disorder)"
+          },
+          {
+            "code": "401323002",
+            "display": "Borg Breathlessness Score: 0.5 very, very slight (just noticeable) (finding)"
+          },
+          {
+            "code": "57769004",
+            "display": "Dyspnea after eating (finding)"
+          },
+          {
+            "code": "62744007",
+            "display": "Orthopnea (finding)"
+          },
+          {
+            "code": "401290007",
+            "display": "Borg Breathlessness Score: 7 very severe (finding)"
+          },
+          {
+            "code": "391126003",
+            "display": "Medical Research Council Dyspnoea scale grade 5 (finding)"
+          },
+          {
+            "code": "401284008",
+            "display": "Borg Breathlessness Score: 5 severe (finding)"
+          },
+          {
+            "code": "401279002",
+            "display": "Borg Breathlessness Score: 1 very slight (finding)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "R06.02",
+            "display": "Shortness of breath"
+          },
+          {
+            "code": "R06.01",
+            "display": "Orthopnea"
+          },
+          {
+            "code": "R06.0",
+            "display": "Dyspnea"
+          },
+          {
+            "code": "R06.00",
+            "display": "Dyspnea, unspecified"
+          },
+          {
+            "code": "R06.03",
+            "display": "Acute respiratory distress"
+          },
+          {
+            "code": "R06.09",
+            "display": "Other forms of dyspnea"
+          }
+        ]
+      }
+    ]
+  }
+}

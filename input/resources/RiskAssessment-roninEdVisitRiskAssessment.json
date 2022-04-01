@@ -1,6 +1,6 @@
 {
   "resourceType": "RiskAssessment",
-  "id": "roninEdVisitRiskAssessment02Test",
+  "id": "roninEdVisitRiskAssessment",
   "meta": {
     "profile": [
       "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-risk-assessment"
@@ -9,11 +9,11 @@
   "extension": [
     {
       "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/riskAssessmentSampleSize",
-      "valueInteger": 4000
+      "valueInteger": 300
     },
     {
       "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/riskAssessmentCohortSize",
-      "valueInteger": 725
+      "valueInteger": 1000
     },
     {
       "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/riskAssessmentModelVersion",
@@ -23,28 +23,12 @@
   "identifier": [
     {
       "system": "http://projectronin.com/id/tenantId",
-      "type": {
-        "coding": [
-          {
-            "code": "TID",
-            "system": "http://projectronin.com/id/tenantId",
-            "display": "Ronin-specified Tenant Identifier"
-          }
-        ],
-        "text": "Tenant ID"
-      },
-      "value": "mdaoc"
+      "value": "013"
     }
   ],
   "status": "final",
-  "code": {
-    "coding": [
-      {
-        "code": "4525004",
-        "system": "http://snomed.info/sct",
-        "display": "Emergency department patient visit"
-      }
-    ]
+  "subject": {
+    "reference": "Patient/ExamplePatient"
   },
   "method": {
     "coding": [
@@ -52,22 +36,28 @@
         "code": "sk-learn-random-forest-reg-model",
         "system": "http://projectronin.com/ds/ml",
         "display": "Scikit-learn random forest regression model",
-        "version": "v1.0"
+        "version": "1"
       }
     ]
   },
-  "subject": {
-    "reference": "Patient/roninPatient02Test"
-  },
-  "occurrenceDateTime": "2021-11-08",
+  "occurrenceDateTime": "2019-12-07",
   "prediction": [
     {
-      "probabilityDecimal": 0.72
+      "probabilityDecimal": 0.32,
+      "outcome": {
+        "coding": [
+          {
+            "code": "4525004",
+            "system": "http://snomed.info/sct",
+            "display": "Emergency department patient visit"
+          }
+        ]
+      }
     }
   ],
   "basis": [
     {
-      "reference": "Observation/roninEdVisitRationale02Test"
+      "reference": "Observation/roninEdVisitRationale"
     }
   ]
 }
