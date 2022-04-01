@@ -101,16 +101,8 @@ resource :
   resourceType: Entity
 ```
   
-  
-**NB DO NOT PRESS PUBLISH ON ANY NOTEBOOK** - it will make it public to the world.
-
-Follow the Notebook instructions to register the custom resource before usage.
-
 # Example Profile Instances
 The diagram below is a bundle image of the generated instances from of oncology examples resources.
 The visualization was done with [Bundle Visualizer](http://clinfhir.com/bundleVisualizer.html) by replacing *ronin* with *xyz* and *MDA* with *abc*
 
 ![Ronin Oncology Example](./input/images/RoninOncologyExample.png?raw=true "Ronin Oncology Example")
-
-# TODO
-- [ ] Add github command to push to Nexus
