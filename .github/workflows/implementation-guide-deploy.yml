@@ -28,7 +28,9 @@ jobs:
       - name: Update Publisher
         run: ./_updatePublisher.sh -y
       - name: Set Profile version environment variable
-        run: echo "PROFILE_VERSION=$(jq -r '.version' ./input/resources/ImplementationGuide-projectronin.fhir.json)" >> $GITHUB_ENV
+        run: |
+          echo "PROFILE_VERSION=$(jq -r '.version' ./input/resources/ImplementationGuide-projectronin.fhir.json)" >> $GITHUB_ENV
+          echo "env.PROFILE_VERSION: ${{ env.PROFILE_VERSION }}"
       - name: Remove string "Generated Narrative from examples"
         run: |
           cd input/examples
@@ -38,7 +40,7 @@ jobs:
         run: ./_genonce.sh -no-sushi
       - name: Push package.tgz to Nexus
         run: |
-          curl -v -u ${{ secrets.NEXUS_RAW_USER }}:${{ secrets.NEXUS_RAW_TOKEN}} --upload-file ./output/package.tgz https://repo.devops.projectronin.io/repository/ronin-raw/infx-dp-fhir-resources/${{ PROFILE_VERSION }}/package.tgz
+          curl -v -u ${{ secrets.NEXUS_RAW_USER }}:${{ secrets.NEXUS_RAW_TOKEN}} --upload-file ./output/package.tgz https://repo.devops.projectronin.io/repository/ronin-raw/infx-dp-fhir-resources/${{ env.PROFILE_VERSION }}/package.tgz
       - name: Copy guide to dp-ronin-fhir-profile-page
         run: |
           cd ..
