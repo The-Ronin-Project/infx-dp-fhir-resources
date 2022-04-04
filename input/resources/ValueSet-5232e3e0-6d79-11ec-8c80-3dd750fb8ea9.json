@@ -1,0 +1,237 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ShortnessofBreath",
+  "id": "5232e3e0-6d79-11ec-8c80-3dd750fb8ea9",
+  "title": "Shortness of Breath",
+  "description": "SNOMED and ICD.10 for Shortness of Breath",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/5232e3e0-6d79-11ec-8c80-3dd750fb8ea9",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "401286005",
+            "display": "Borg Breathlessness Score: 6 severe (+) (finding)"
+          },
+          {
+            "code": "397702004",
+            "display": "Borg Breathlessness Score finding (finding)"
+          },
+          {
+            "code": "39950000",
+            "display": "Dyspnea, class III (finding)"
+          },
+          {
+            "code": "401275008",
+            "display": "Borg Breathlessness Score: 0 none at all (finding)"
+          },
+          {
+            "code": "23141003",
+            "display": "Gasping for breath (finding)"
+          },
+          {
+            "code": "73322006",
+            "display": "Dyspnea, class IV (finding)"
+          },
+          {
+            "code": "161941007",
+            "display": "Dyspnea at rest (finding)"
+          },
+          {
+            "code": "20112008",
+            "display": "Dyspnea leaning over (finding)"
+          },
+          {
+            "code": "102577000",
+            "display": "Trepopnea (finding)"
+          },
+          {
+            "code": "34560001",
+            "display": "Expiratory dyspnea (finding)"
+          },
+          {
+            "code": "390871002",
+            "display": "Breathless - strenuous exertion (finding)"
+          },
+          {
+            "code": "267036007",
+            "display": "Dyspnea (finding)"
+          },
+          {
+            "code": "17216000",
+            "display": "Dyspnea, class I (finding)"
+          },
+          {
+            "code": "55442000",
+            "display": "Paroxysmal nocturnal dyspnea (finding)"
+          },
+          {
+            "code": "407588003",
+            "display": "Unable to complete a sentence in one breath (finding)"
+          },
+          {
+            "code": "870535009",
+            "display": "Chronic dyspnea (finding)"
+          },
+          {
+            "code": "25209001",
+            "display": "Inspiratory dyspnea (finding)"
+          },
+          {
+            "code": "401292004",
+            "display": "Borg Breathlessness Score: 9 very, very severe (almost maximal) (finding)"
+          },
+          {
+            "code": "391124000",
+            "display": "Medical Research Council Dyspnoea scale grade 3 (finding)"
+          },
+          {
+            "code": "401281000",
+            "display": "Borg Breathlessness Score: 3 moderate (finding)"
+          },
+          {
+            "code": "72365000",
+            "display": "Dyspnea, class II (finding)"
+          },
+          {
+            "code": "390870001",
+            "display": "Short of breath dressing/undressing (finding)"
+          },
+          {
+            "code": "391125004",
+            "display": "Medical Research Council Dyspnoea scale grade 4 (finding)"
+          },
+          {
+            "code": "60845006",
+            "display": "Dyspnea on exertion (finding)"
+          },
+          {
+            "code": "24921003",
+            "display": "Dyspnea raising arms (finding)"
+          },
+          {
+            "code": "391120009",
+            "display": "Medical Research Council Dyspnoea scale grade 1 (finding)"
+          },
+          {
+            "code": "297216006",
+            "display": "Increasing breathlessness (finding)"
+          },
+          {
+            "code": "401291006",
+            "display": "Borg Breathlessness Score: 8 very severe (+) (finding)"
+          },
+          {
+            "code": "30744009",
+            "display": "Platypnea (finding)"
+          },
+          {
+            "code": "59265000",
+            "display": "Paroxysmal dyspnea (finding)"
+          },
+          {
+            "code": "161939006",
+            "display": "Breathless - moderate exertion (finding)"
+          },
+          {
+            "code": "401293009",
+            "display": "Borg Breathlessness Score: 10 maximal (finding)"
+          },
+          {
+            "code": "401282007",
+            "display": "Borg Breathlessness Score: 4 somewhat severe (finding)"
+          },
+          {
+            "code": "401280004",
+            "display": "Borg Breathlessness Score: 2 slight (finding)"
+          },
+          {
+            "code": "161940008",
+            "display": "Breathless - mild exertion (finding)"
+          },
+          {
+            "code": "119981000146107",
+            "display": "Dyspnea caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+          },
+          {
+            "code": "248548009",
+            "display": "Nocturnal dyspnea (finding)"
+          },
+          {
+            "code": "391123006",
+            "display": "Medical Research Council Dyspnoea scale grade 2 (finding)"
+          },
+          {
+            "code": "422177004",
+            "display": "Dyspnea associated with acquired immunodeficiency syndrome (disorder)"
+          },
+          {
+            "code": "401323002",
+            "display": "Borg Breathlessness Score: 0.5 very, very slight (just noticeable) (finding)"
+          },
+          {
+            "code": "57769004",
+            "display": "Dyspnea after eating (finding)"
+          },
+          {
+            "code": "62744007",
+            "display": "Orthopnea (finding)"
+          },
+          {
+            "code": "401290007",
+            "display": "Borg Breathlessness Score: 7 very severe (finding)"
+          },
+          {
+            "code": "391126003",
+            "display": "Medical Research Council Dyspnoea scale grade 5 (finding)"
+          },
+          {
+            "code": "401284008",
+            "display": "Borg Breathlessness Score: 5 severe (finding)"
+          },
+          {
+            "code": "401279002",
+            "display": "Borg Breathlessness Score: 1 very slight (finding)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "R06.02",
+            "display": "Shortness of breath"
+          },
+          {
+            "code": "R06.01",
+            "display": "Orthopnea"
+          },
+          {
+            "code": "R06.0",
+            "display": "Dyspnea"
+          },
+          {
+            "code": "R06.00",
+            "display": "Dyspnea, unspecified"
+          },
+          {
+            "code": "R06.03",
+            "display": "Acute respiratory distress"
+          },
+          {
+            "code": "R06.09",
+            "display": "Other forms of dyspnea"
+          }
+        ]
+      }
+    ]
+  }
+}

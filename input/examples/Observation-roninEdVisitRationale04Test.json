@@ -1,0 +1,1183 @@
+{
+  "resourceType": "Observation",
+  "id": "roninEdVisitRationale04Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-rationale"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "4525004",
+        "system": "http://snomed.info/sct",
+        "display": "Emergency department patient visit"
+      }
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "value": "mdaoc"
+    }
+  ],
+  "component": [
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/category",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "Demographics",
+                "system": "http://projectronin.com/ds/riskDriver/category",
+                "display": "Demographics"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "RiskDriver",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Risk Driver Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "AgeRiskDriver",
+      "valueQuantity": {
+        "value": 0.8
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "AGE",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Age"
+          }
+        ]
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "code": "increase",
+              "system": "http://projectronin.com/ds/riskDriver/interpretation"
+            }
+          ]
+        }
+      ],
+      "referenceRange": [
+        {
+          "low": {
+            "value": 0
+          },
+          "high": {
+            "value": 1
+          },
+          "text": "Age Range"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/category",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "Demographics",
+                "system": "http://projectronin.com/ds/riskDriver/category",
+                "display": "Demographics"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "RiskDriver",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Risk Driver Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "MaritalStatusRiskDriver",
+      "valueQuantity": {
+        "value": 0.1
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "MS",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Marital Status"
+          }
+        ]
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "code": "increase",
+              "system": "http://projectronin.com/ds/riskDriver/interpretation"
+            }
+          ]
+        }
+      ],
+      "referenceRange": [
+        {
+          "low": {
+            "value": 0
+          },
+          "high": {
+            "value": 1
+          },
+          "text": "Marital Status Range"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/category",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "Medications",
+                "system": "http://projectronin.com/ds/riskDriver/category",
+                "display": "Medications"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "RiskDriver",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Risk Driver Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "ImmunosuppressantRiskDriver",
+      "valueQuantity": {
+        "value": 0.45
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "ISP",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Immunosuppressants"
+          }
+        ]
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "code": "increase",
+              "system": "http://projectronin.com/ds/riskDriver/interpretation"
+            }
+          ]
+        }
+      ],
+      "referenceRange": [
+        {
+          "low": {
+            "value": 0
+          },
+          "high": {
+            "value": 1
+          },
+          "text": "Immunosuppressants Range"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/category",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "DSRF",
+                "system": "http://projectronin.com/ds/riskDriver/category",
+                "display": "Disease-specific Risk Factors"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "RiskDriver",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Risk Driver Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "TSP-1RiskDriver",
+      "valueQuantity": {
+        "value": 0.1
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "TSP",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "T Stage (Pathologic)"
+          }
+        ]
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "code": "decrease",
+              "system": "http://projectronin.com/ds/riskDriver/interpretation"
+            }
+          ]
+        }
+      ],
+      "referenceRange": [
+        {
+          "low": {
+            "value": 0
+          },
+          "high": {
+            "value": 1
+          },
+          "text": "T Stage (Pathologic) Range"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/category",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "CAP",
+                "system": "http://projectronin.com/ds/riskDriver/category",
+                "display": "Comorbidities and Acute Problems"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "RiskDriver",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Risk Driver Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "DiabetesRiskDriver",
+      "valueQuantity": {
+        "value": 0.6
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "DIA-C",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Diabetes (Complicated)"
+          }
+        ]
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "code": "increase",
+              "system": "http://projectronin.com/ds/riskDriver/interpretation"
+            }
+          ]
+        }
+      ],
+      "referenceRange": [
+        {
+          "low": {
+            "value": 0
+          },
+          "high": {
+            "value": 1
+          },
+          "text": "Diabetes (Complicated) Range"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/category",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "CAP",
+                "system": "http://projectronin.com/ds/riskDriver/category",
+                "display": "Comorbidities and Acute Problems"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "RiskDriver",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Risk Driver Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "HypertensionRiskDriver",
+      "valueQuantity": {
+        "value": 0.45
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "HYP",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Hypertension"
+          }
+        ]
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "code": "increase",
+              "system": "http://projectronin.com/ds/riskDriver/interpretation"
+            }
+          ]
+        }
+      ],
+      "referenceRange": [
+        {
+          "low": {
+            "value": 0
+          },
+          "high": {
+            "value": 1
+          },
+          "text": "Hypertension Range"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/category",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "CAP",
+                "system": "http://projectronin.com/ds/riskDriver/category",
+                "display": "Comorbidities and Acute Problems"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "RiskDriver",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Risk Driver Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "RheumatoidArthritisRiskDriver",
+      "valueQuantity": {
+        "value": 0.35
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "RA",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Rheumatoid Arthritis"
+          }
+        ]
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "code": "increase",
+              "system": "http://projectronin.com/ds/riskDriver/interpretation"
+            }
+          ]
+        }
+      ],
+      "referenceRange": [
+        {
+          "low": {
+            "value": 0.1
+          },
+          "high": {
+            "value": 0.7
+          },
+          "text": "Rheumatoid Arthritis Range"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/category",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "LR",
+                "system": "http://projectronin.com/ds/riskDriver/category",
+                "display": "Lab Results"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "RiskDriver",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Risk Driver Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "CreatinineRiskDriver",
+      "valueQuantity": {
+        "value": 0.08
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "CRE",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Creatinine"
+          }
+        ]
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "code": "increase",
+              "system": "http://projectronin.com/ds/riskDriver/interpretation"
+            }
+          ]
+        }
+      ],
+      "referenceRange": [
+        {
+          "low": {
+            "value": 0
+          },
+          "high": {
+            "value": 0.1
+          },
+          "text": "Creatinine Range"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/category",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "LR",
+                "system": "http://projectronin.com/ds/riskDriver/category",
+                "display": "Lab Results"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "RiskDriver",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Risk Driver Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "PotassiumRiskDriver",
+      "valueQuantity": {
+        "value": 0.7
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "K",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Potassium"
+          }
+        ]
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "code": "increase",
+              "system": "http://projectronin.com/ds/riskDriver/interpretation"
+            }
+          ]
+        }
+      ],
+      "referenceRange": [
+        {
+          "low": {
+            "value": 0
+          },
+          "high": {
+            "value": 1
+          },
+          "text": "Potassium Range"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/category",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "LR",
+                "system": "http://projectronin.com/ds/riskDriver/category",
+                "display": "Lab Results"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "RiskDriver",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Risk Driver Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "ANCRiskDriver",
+      "valueQuantity": {
+        "value": 0.5
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "ANC",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Absolute Neutrophil Count (ANC)"
+          }
+        ]
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "code": "increase",
+              "system": "http://projectronin.com/ds/riskDriver/interpretation"
+            }
+          ]
+        }
+      ],
+      "referenceRange": [
+        {
+          "low": {
+            "value": 0
+          },
+          "high": {
+            "value": 1
+          },
+          "text": "ANC Range"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/category",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "LR",
+                "system": "http://projectronin.com/ds/riskDriver/category",
+                "display": "Lab Results"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "RiskDriver",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Risk Driver Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "LDHMissingRiskDriver",
+      "valueQuantity": {
+        "value": 0.5
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "LDH-M",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "LDH Missing"
+          }
+        ]
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "code": "decrease",
+              "system": "http://projectronin.com/ds/riskDriver/interpretation"
+            }
+          ]
+        }
+      ],
+      "referenceRange": [
+        {
+          "low": {
+            "value": 0
+          },
+          "high": {
+            "value": 1
+          },
+          "text": "LDH Missing Range"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/category",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "LR",
+                "system": "http://projectronin.com/ds/riskDriver/category",
+                "display": "Lab Results"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "RiskDriver",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Risk Driver Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "HGBMissingRiskDriver",
+      "valueQuantity": {
+        "value": 0.7
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "HGB-M",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Hemoglobin (HGB) Missing"
+          }
+        ]
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "code": "increase",
+              "system": "http://projectronin.com/ds/riskDriver/interpretation"
+            }
+          ]
+        }
+      ],
+      "referenceRange": [
+        {
+          "low": {
+            "value": 0
+          },
+          "high": {
+            "value": 1
+          },
+          "text": "ANC Range"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/category",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "LR",
+                "system": "http://projectronin.com/ds/riskDriver/category",
+                "display": "Lab Results"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "RiskDriver",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Risk Driver Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "GlucoseRiskDriver",
+      "valueQuantity": {
+        "value": 0.8
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "GLU",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Glucose"
+          }
+        ]
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "code": "decrease",
+              "system": "http://projectronin.com/ds/riskDriver/interpretation"
+            }
+          ]
+        }
+      ],
+      "referenceRange": [
+        {
+          "low": {
+            "value": 0
+          },
+          "high": {
+            "value": 1
+          },
+          "text": "ANC Range"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "PatientComparison",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Patient Comparison Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "AgePatientComparison",
+      "code": {
+        "coding": [
+          {
+            "code": "AGE",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Age"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 4
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "PatientComparison",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Patient Comparison Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "PerformanceStatusPatientComparison",
+      "code": {
+        "coding": [
+          {
+            "code": "OBE",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Obesity"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 20
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "PatientComparison",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Patient Comparison Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "StageAndTNMPatientComparison",
+      "code": {
+        "coding": [
+          {
+            "code": "MSP",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "M Stage (Pathologic)"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 60
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "PatientComparison",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Patient Comparison Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "PriorOrCurrentTreatmentsPatientComparison",
+      "code": {
+        "coding": [
+          {
+            "code": "FED",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Fluid-Electrolyte Disorder"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 50
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "PatientComparison",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Patient Comparison Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "ActiveMedicationPatientComparison",
+      "code": {
+        "coding": [
+          {
+            "code": "CAR",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Cytotoxic Antibiotics and Related"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 90
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "PatientComparison",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Patient Comparison Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "CCIPatientComparison",
+      "code": {
+        "coding": [
+          {
+            "code": "DIA-C",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Diabetes (Complicated)"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 100
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "PatientComparison",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Patient Comparison Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "OverallPatientComparison",
+      "code": {
+        "coding": [
+          {
+            "code": "OC",
+            "system": "http://projectronin.com/ds/patientComparison",
+            "display": "Overall Comparison"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 92
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "Labs",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Labs Component"
+              }
+            ]
+          }
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "extension": [
+              {
+                "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/rank",
+                "valueQuantity": {
+                  "value": 0.5
+                }
+              }
+            ],
+            "code": "95f1088a-7ae6-11ec-ba14-00163e0e3b1e",
+            "system": "http://projectronin.com/ds/lab",
+            "display": "Sodium",
+            "version": "2"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/rank",
+                "valueQuantity": {
+                  "value": 0.7
+                }
+              }
+            ],
+            "code": "bce71d44-6d99-11ec-a98d-00163efae4c9",
+            "system": "http://projectronin.com/ds/lab",
+            "display": "AFP",
+            "version": "1"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/rank",
+                "valueQuantity": {
+                  "value": 0.3
+                }
+              }
+            ],
+            "code": "923a8e78-7ae6-11ec-ba14-00163e0e3b1e",
+            "system": "http://projectronin.com/ds/lab",
+            "display": "Alkaline Phosphatase",
+            "version": "2"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/rank",
+                "valueQuantity": {
+                  "value": 0.9
+                }
+              }
+            ],
+            "code": "95016654-7ae6-11ec-ba14-00163e0e3b1e",
+            "system": "http://projectronin.com/ds/lab",
+            "display": "Potassium",
+            "version": "2"
+          }
+        ]
+      },
+      "id": "Labs"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "Symptoms",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Symptoms Component"
+              }
+            ]
+          }
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "extension": [
+              {
+                "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/eventDate",
+                "valueDate": "2020-08-10"
+              }
+            ],
+            "code": "Diarrhea",
+            "system": "http://projectronin.com/ds/symptom",
+            "display": "Diarrhea"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/eventDate",
+                "valueDate": "2019-10-15"
+              }
+            ],
+            "code": "ShortnessOfBreath",
+            "system": "http://projectronin.com/ds/symptom",
+            "display": "Shortness of breath"
+          }
+        ]
+      },
+      "id": "Symptoms"
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "risk-rationale",
+          "system": "http://projectronin.com/observation/categoryType",
+          "display": "Risk Assessment Rationale"
+        }
+      ]
+    }
+  ],
+  "focus": [
+    {
+      "reference": "RiskAssessment/roninEdVisitRiskAssessment04Test"
+    }
+  ],
+  "issued": "2021-10-07T13:28:17.000Z"
+}

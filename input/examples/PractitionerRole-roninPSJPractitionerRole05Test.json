@@ -1,0 +1,49 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "roninPSJPractitionerRole05Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitionerrole"
+    ]
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "psj"
+    }
+  ],
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "112247003",
+          "system": "http://snomed.info/sct",
+          "display": "Medical doctor"
+        }
+      ]
+    }
+  ],
+  "organization": {
+    "reference": "Organization/roninPSJPartnerDepartmentTest"
+  },
+  "practitioner": {
+    "reference": "Practitioner/roninPSJPractitioner05Test"
+  },
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "1-999-144-1111",
+      "use": "work"
+    }
+  ]
+}

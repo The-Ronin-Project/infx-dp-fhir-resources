@@ -1,0 +1,57 @@
+{
+  "resourceType": "Encounter",
+  "id": "roninEncounterExample01",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-encounter"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "value": "mdaoc"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/roninPatientExample01",
+    "display": "John Anyperson"
+  },
+  "participant": [
+    {
+      "individual": {
+        "reference": "Practitioner/roninPractitionerExample01"
+      },
+      "period": {
+        "start": "2019-02-07T13:28:17.000Z",
+        "end": "2019-02-07T14:20:10.000Z"
+      }
+    }
+  ],
+  "status": "arrived",
+  "class": {
+    "code": "AMB",
+    "display": "ambulatory",
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "185347001",
+          "system": "http://snomed.info/sct"
+        }
+      ],
+      "text": "Encounter for problem"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "e3dbd59c-aa26-11ec-b909-0242ac120002",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>A system of the following codes:</li></ul></div>"
+  },
+  "url": "http://projectronin.io/fhir/terminologies/ProjectRoninValueSets",
+  "identifier": [
+    {
+      "system": "http://projectronin.io/fhir/terminologies",
+      "value": "ProjectRoninValueSets"
+    }
+  ],
+  "version": "1",
+  "name": "ProjectRoninValueSets",
+  "title": "Project Ronin alueSets",
+  "status": "active",
+  "experimental": "false",
+  "date": "2022-03-23",
+  "publisher": "Project Ronin",
+  "contact": [
+    {
+      "name": "Informatics Department",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "contact@projectronin.com"
+        }
+      ]
+    }
+  ],
+  "description": "This code system contains the proprietary codes for chokuto to run application logic",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "00af0270-7fcf-11ec-98e3-815e2184efcb",
+      "display": "Thoracic Cancer Survey Assignment"
+    },
+    {
+      "code": "712d4fa0-a57e-11ec-991e-6dd002ad060f",
+      "display": "GYN Cancer Survey Assignment"
+    },
+    {
+      "code": "2de1fcc0-8065-11ec-8e45-2386c46ddcaa",
+      "display": "GU Cancer Survey"
+    },
+    {
+      "code": "da568cc0-884c-11ec-a2e6-8d8967627823",
+      "display": "Neuro Cancer Survey"
+    },
+    {
+      "code": "08d51640-7f95-11ec-a69c-7956c6320982",
+      "display": "Breast Cancer Survey Assignment "
+    }
+  ]
+}

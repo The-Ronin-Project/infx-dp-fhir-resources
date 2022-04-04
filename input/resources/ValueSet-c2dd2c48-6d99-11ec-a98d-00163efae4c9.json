@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "CA72_4",
+  "id": "c2dd2c48-6d99-11ec-a98d-00163efae4c9",
+  "title": "CA72.4",
+  "description": "LOINC codes indicating the measurement of Cancer Ag 72-4 [Units/volume] in Serum or Plasma  MVP for ED risk model release",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/c2dd2c48-6d99-11ec-a98d-00163efae4c9",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "17843-4",
+            "display": "Cancer Ag 72-4 [Units/volume] in Serum or Plasma"
+          },
+          {
+            "code": "2015-6",
+            "display": "Cancer Ag 72-4 [Presence] in Serum or Plasma"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "resourceType": "Encounter",
+  "id": "roninEncounter05Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-encounter"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "value": "psj"
+    }
+  ],
+  "appointment": [
+    {
+      "reference": "Appointment/roninOncologyPatientAppointment05Test"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/roninPatient05Test",
+    "display": "Kane M. Random"
+  },
+  "period": {
+    "start": "2021-09-03T04:30:00.000Z",
+    "end": "2021-09-03T06:20:00.000Z"
+  },
+  "participant": [
+    {
+      "individual": {
+        "reference": "Practitioner/roninPSJPractitioner05Test"
+      },
+      "period": {
+        "start": "2021-09-03T04:35:00.000Z",
+        "end": "2021-09-03T04:55:00.000Z"
+      }
+    },
+    {
+      "individual": {
+        "reference": "Practitioner/roninPSJPractitioner05Test"
+      },
+      "period": {
+        "start": "2021-09-03T05:30:00.000Z",
+        "end": "2021-09-03T06:10:00.000Z"
+      }
+    }
+  ],
+  "status": "finished",
+  "class": {
+    "code": "MED",
+    "display": "Medical",
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "185348006",
+          "system": "http://snomed.info/sct"
+        }
+      ],
+      "text": "Encounter for fear"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Glucose",
+  "id": "91da35be-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "Glucose",
+  "description": "LOINC codes indicating the measurement of Glucose Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/91da35be-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "2339-0",
+            "display": "Glucose [Mass/volume] in Blood"
+          },
+          {
+            "code": "2345-7",
+            "display": "Glucose [Mass/volume] in Serum or Plasma"
+          },
+          {
+            "code": "41651-1",
+            "display": "Glucose [Mass/volume] in Arterial blood"
+          },
+          {
+            "code": "2340-8",
+            "display": "Glucose [Mass/volume] in Blood by Automated test strip"
+          },
+          {
+            "code": "32016-8",
+            "display": "Glucose [Mass/volume] in Capillary blood"
+          },
+          {
+            "code": "41652-9",
+            "display": "Glucose [Mass/volume] in Venous blood"
+          },
+          {
+            "code": "74774-1",
+            "display": "Glucose [Mass/volume] in Serum, Plasma or Blood"
+          },
+          {
+            "code": "41653-7",
+            "display": "Glucose [Mass/volume] in Capillary blood by Glucometer"
+          },
+          {
+            "code": "96594-7",
+            "display": "Glucose [Mass/volume] in DBS"
+          },
+          {
+            "code": "93791-2",
+            "display": "Glucose [Mass/volume] mean in Serum or Plasma"
+          },
+          {
+            "code": "2341-6",
+            "display": "Glucose [Mass/volume] in Blood by Test strip manual"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "5651",
+            "display": "POC Glucose"
+          },
+          {
+            "code": "5946",
+            "display": "IF Ab Comment-Mayo"
+          },
+          {
+            "code": "5699",
+            "display": "Glucose Level"
+          },
+          {
+            "code": "7962",
+            "display": "V Gluc"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "EDVisitComponentTypeCodesVS",
+  "id": "ed-visit-component-type-codes-vs",
+  "title": "ED Visit Component Type Codes Value Set",
+  "description": "Contains Component Types for ED Visit",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-component-type-codes-vs",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://projectronin.com/observation/componentType",
+        "concept": [
+          {
+            "code": "RiskDriver",
+            "display": "Risk Driver Component"
+          },
+          {
+            "code": "PatientComparison",
+            "display": "Patient Comparison Component"
+          },
+          {
+            "code": "Labs",
+            "display": "Labs Component"
+          },
+          {
+            "code": "Symptoms",
+            "display": "Symptoms Component"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "CA50",
+  "id": "c27ec95a-6d99-11ec-a98d-00163efae4c9",
+  "title": "CA50",
+  "description": "LOINC codes indicating the measurement of CA50 MVP for ED risk model release",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/c27ec95a-6d99-11ec-a98d-00163efae4c9",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "2013-1",
+            "display": "Cancer Ag 50 [Presence] in Serum or Plasma"
+          },
+          {
+            "code": "34256-8",
+            "display": "Cancer Ag 50 [Units/volume] in Serum or Plasma"
+          }
+        ]
+      }
+    ]
+  }
+}

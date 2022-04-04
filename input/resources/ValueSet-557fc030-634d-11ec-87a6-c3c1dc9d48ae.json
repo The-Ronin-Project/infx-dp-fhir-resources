@@ -1,0 +1,169 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "TesticularCancerCombined",
+  "id": "557fc030-634d-11ec-87a6-c3c1dc9d48ae",
+  "title": "Testicular Cancer Combined",
+  "description": "This valueset contains the diagnosis codes for testicular cancer and diseases that are clinically treated as testicular cancer. It contains both ICD-10 and SNOMED.",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/557fc030-634d-11ec-87a6-c3c1dc9d48ae",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "449418000",
+            "display": "Follicular non-Hodgkin's lymphoma of testis (disorder)"
+          },
+          {
+            "code": "448465000",
+            "display": "Diffuse non-Hodgkin's lymphoma of testis (disorder)"
+          },
+          {
+            "code": "702406000",
+            "display": "Sex cord stromal tumor of testis (disorder)"
+          },
+          {
+            "code": "94087009",
+            "display": "Primary malignant neoplasm of testis (disorder)"
+          },
+          {
+            "code": "254912000",
+            "display": "Regressed malignant testicular tumor (disorder)"
+          },
+          {
+            "code": "448387008",
+            "display": "Non-Hodgkin's lymphoma of testis (disorder)"
+          },
+          {
+            "code": "363449006",
+            "display": "Malignant tumor of testis (disorder)"
+          },
+          {
+            "code": "109876001",
+            "display": "Primary malignant neoplasm of descended testis (disorder)"
+          },
+          {
+            "code": "188235006",
+            "display": "Malignant tumor of tunica vaginalis (disorder)"
+          },
+          {
+            "code": "278055006",
+            "display": "Malignant Leydig cell tumor of testis (disorder)"
+          },
+          {
+            "code": "702405001",
+            "display": "Malignant granulosa cell tumor of testis (disorder)"
+          },
+          {
+            "code": "700488005",
+            "display": "Malignant sex cord tumor of testis (disorder)"
+          },
+          {
+            "code": "432131000124100",
+            "display": "Malignant mesothelioma of the tunica vaginalis (disorder)"
+          },
+          {
+            "code": "895361003",
+            "display": "Primary malignant neoplasm of bilateral testes (disorder)"
+          },
+          {
+            "code": "126900000",
+            "display": "Neoplasm of testis (disorder)"
+          },
+          {
+            "code": "188220005",
+            "display": "Malignant tumor of ectopic testis (disorder)"
+          },
+          {
+            "code": "92764008",
+            "display": "Carcinoma in situ of testis (disorder)"
+          },
+          {
+            "code": "895358004",
+            "display": "Primary malignant neoplasm of left testis (disorder)"
+          },
+          {
+            "code": "280116003",
+            "display": "Tumor of tunica vaginalis (disorder)"
+          },
+          {
+            "code": "895359007",
+            "display": "Primary malignant neoplasm of right testis (disorder)"
+          },
+          {
+            "code": "277664004",
+            "display": "Malignant lymphoma of testis (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "C62.12",
+            "display": "Malignant neoplasm of descended left testis"
+          },
+          {
+            "code": "C62.11",
+            "display": "Malignant neoplasm of descended right testis"
+          },
+          {
+            "code": "C62.1",
+            "display": "Malignant neoplasm of descended testis"
+          },
+          {
+            "code": "C62.9",
+            "display": "Malignant neoplasm of testis, unspecified whether descended or undescended"
+          },
+          {
+            "code": "C62.0",
+            "display": "Malignant neoplasm of undescended testis"
+          },
+          {
+            "code": "C62.01",
+            "display": "Malignant neoplasm of undescended right testis"
+          },
+          {
+            "code": "D07.69",
+            "display": "Carcinoma in situ of other male genital organs"
+          },
+          {
+            "code": "C62.90",
+            "display": "Malignant neoplasm of unspecified testis, unspecified whether descended or undescended"
+          },
+          {
+            "code": "C62.02",
+            "display": "Malignant neoplasm of undescended left testis"
+          },
+          {
+            "code": "C62.10",
+            "display": "Malignant neoplasm of unspecified descended testis"
+          },
+          {
+            "code": "C62.00",
+            "display": "Malignant neoplasm of unspecified undescended testis"
+          },
+          {
+            "code": "C62.92",
+            "display": "Malignant neoplasm of left testis, unspecified whether descended or undescended"
+          },
+          {
+            "code": "C62",
+            "display": "Malignant neoplasm of testis"
+          },
+          {
+            "code": "C62.91",
+            "display": "Malignant neoplasm of right testis, unspecified whether descended or undescended"
+          }
+        ]
+      }
+    ]
+  }
+}

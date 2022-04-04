@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "BetaHCG",
+  "id": "92fd4472-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "Beta HCG",
+  "description": "LOINC codes indicating Beta HCG measurement Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/92fd4472-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "21198-7",
+            "display": "Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma"
+          },
+          {
+            "code": "20415-6",
+            "display": "Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma by Immunoassay (EIA) 3rd IS"
+          },
+          {
+            "code": "55869-2",
+            "display": "Choriogonadotropin.beta subunit [Mass/volume] in Serum or Plasma"
+          },
+          {
+            "code": "23841-0",
+            "display": "Choriogonadotropin.beta subunit [Multiple of the median] adjusted in Serum or Plasma"
+          },
+          {
+            "code": "2111-3",
+            "display": "Choriogonadotropin.beta subunit [Moles/volume] in Serum or Plasma"
+          },
+          {
+            "code": "55868-4",
+            "display": "Choriogonadotropin.beta subunit [Multiple of the median] in Serum or Plasma"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "5080",
+            "display": "Beta HCG, Pregnancy"
+          }
+        ]
+      }
+    ]
+  }
+}

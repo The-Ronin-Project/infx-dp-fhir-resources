@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Chloride",
+  "id": "4029ea60-8541-11ec-9f7a-b90e86f6e1b0",
+  "title": "Chloride",
+  "description": "LOINC Codes for indicating serum analysis of Chloride",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/4029ea60-8541-11ec-9f7a-b90e86f6e1b0",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.71",
+        "concept": [
+          {
+            "code": "41649-5",
+            "display": "Chloride [Moles/volume] in Venous blood"
+          },
+          {
+            "code": "41650-3",
+            "display": "Chloride [Moles/volume] in Arterial blood"
+          },
+          {
+            "code": "54369-4",
+            "display": "Chloride [Moles/volume] in Serum or Plasma --post dialysis"
+          },
+          {
+            "code": "94000-7",
+            "display": "Chloride [Moles/volume] in Serum or Plasma --1 hour post dose vasopressin"
+          },
+          {
+            "code": "51590-8",
+            "display": "Chloride [Moles/volume] in Capillary blood"
+          },
+          {
+            "code": "77138-6",
+            "display": "Chloride [Moles/volume] in Serum, Plasma or Blood"
+          },
+          {
+            "code": "94009-8",
+            "display": "Chloride [Moles/volume] in Serum or Plasma --2 hours post dose vasopressin"
+          },
+          {
+            "code": "2075-0",
+            "display": "Chloride [Moles/volume] in Serum or Plasma"
+          },
+          {
+            "code": "2069-3",
+            "display": "Chloride [Moles/volume] in Blood"
+          }
+        ]
+      }
+    ]
+  }
+}

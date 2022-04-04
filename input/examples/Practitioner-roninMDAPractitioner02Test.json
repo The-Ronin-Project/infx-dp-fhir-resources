@@ -1,0 +1,77 @@
+{
+  "resourceType": "Practitioner",
+  "id": "roninMDAPractitioner02Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitioner"
+    ]
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "mdaoc"
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "SER",
+            "system": "http://projectronin.com/id/ser",
+            "display": "Provider SER Identifier"
+          }
+        ],
+        "text": "Provider SER Identifier"
+      },
+      "system": "http://projectronin.com/id/ser",
+      "value": "22222"
+    },
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "type": {
+        "coding": [
+          {
+            "code": "NPI",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "display": "National provider identifier"
+          }
+        ],
+        "text": "National provider identifier"
+      },
+      "value": "2281376654"
+    }
+  ],
+  "name": [
+    {
+      "family": "Gray",
+      "given": [
+        "Alfred"
+      ],
+      "prefix": [
+        "Dr."
+      ]
+    }
+  ],
+  "gender": "male",
+  "address": [
+    {
+      "use": "work",
+      "line": [
+        "91 Medicine Court"
+      ],
+      "city": "Dallas",
+      "state": "TX",
+      "postalCode": "192334",
+      "country": "US"
+    }
+  ]
+}

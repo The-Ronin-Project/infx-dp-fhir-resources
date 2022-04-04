@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "AST",
+  "id": "96b16d82-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "AST",
+  "description": "LOINC codes indicating the measurement of AST Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/96b16d82-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "96587-1",
+            "display": "Aspartate aminotransferase [Enzymatic activity/volume] in DBS"
+          },
+          {
+            "code": "30239-8",
+            "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma by With P-5'-P"
+          },
+          {
+            "code": "88112-8",
+            "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma by No addition of P-5'-P"
+          },
+          {
+            "code": "1920-8",
+            "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "44786-2",
+            "display": "Aspartate aminotransferase [Enzymatic activity/volume] (Maximum value during study) in Serum or Plasma"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "4731",
+            "display": "AST"
+          }
+        ]
+      }
+    ]
+  }
+}

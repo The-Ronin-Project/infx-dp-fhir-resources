@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "AlkalinePhosphatase",
+  "id": "923a8e78-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "Alkaline Phosphatase",
+  "description": "LOINC codes indicating serum Alkaline Phosphatase measurement Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/923a8e78-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "1783-0",
+            "display": "Alkaline phosphatase [Enzymatic activity/volume] in Blood"
+          },
+          {
+            "code": "55971-6",
+            "display": "Alkaline phosphatase [Enzymatic activity/volume] in Cord blood"
+          },
+          {
+            "code": "77141-0",
+            "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum, Plasma or Blood"
+          },
+          {
+            "code": "6768-6",
+            "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "4770",
+            "display": "Alk Phos-Mayo"
+          }
+        ]
+      }
+    ]
+  }
+}

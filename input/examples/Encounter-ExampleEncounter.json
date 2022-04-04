@@ -1,0 +1,35 @@
+{
+  "resourceType": "Encounter",
+  "id": "ExampleEncounter",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-encounter"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "013"
+    }
+  ],
+  "subject": {
+    "display": "Josefina Hammes"
+  },
+  "status": "arrived",
+  "class": {
+    "code": "AMB",
+    "display": "ambulatory",
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "185347001",
+          "system": "http://snomed.info/sct"
+        }
+      ],
+      "text": "Encounter for problem"
+    }
+  ]
+}

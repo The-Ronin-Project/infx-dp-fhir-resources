@@ -1,0 +1,5773 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Pain",
+  "id": "5eca80d0-6d7a-11ec-afff-c93e25241607",
+  "title": "Pain",
+  "description": "SNOMED and ICD.10 for pain",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/5eca80d0-6d7a-11ec-afff-c93e25241607",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "37796009",
+            "display": "Migraine (disorder)"
+          },
+          {
+            "code": "299447008",
+            "display": "Ankle joint - painful on movement (finding)"
+          },
+          {
+            "code": "279073002",
+            "display": "Sore nostril (finding)"
+          },
+          {
+            "code": "36859004",
+            "display": "Esophageal chest pain (finding)"
+          },
+          {
+            "code": "788891004",
+            "display": "Chronic pain after cancer treatment (finding)"
+          },
+          {
+            "code": "122141000119109",
+            "display": "Refractory abdominal migraine (disorder)"
+          },
+          {
+            "code": "427419006",
+            "display": "Transformed migraine (disorder)"
+          },
+          {
+            "code": "293961000119109",
+            "display": "Complex regional pain syndrome type I of right lower limb (disorder)"
+          },
+          {
+            "code": "425007008",
+            "display": "Migraine without aura, not refractory (disorder)"
+          },
+          {
+            "code": "302770003",
+            "display": "Tenesmus - anal (finding)"
+          },
+          {
+            "code": "426142001",
+            "display": "Pain radiating to right shoulder (finding)"
+          },
+          {
+            "code": "398057008",
+            "display": "Tension-type headache (disorder)"
+          },
+          {
+            "code": "231488009",
+            "display": "Delusional pain (finding)"
+          },
+          {
+            "code": "713413001",
+            "display": "Joint pain of pelvic region (finding)"
+          },
+          {
+            "code": "200076006",
+            "display": "Spinal and epidural anesthesia-induced headache during labor and delivery (disorder)"
+          },
+          {
+            "code": "162311003",
+            "display": "Heavy head (finding)"
+          },
+          {
+            "code": "55145008",
+            "display": "Stabbing pain (finding)"
+          },
+          {
+            "code": "1092171000119100",
+            "display": "Referred otalgia of right ear (finding)"
+          },
+          {
+            "code": "75483001",
+            "display": "Breathing painful (finding)"
+          },
+          {
+            "code": "30233002",
+            "display": "Swallowing painful (finding)"
+          },
+          {
+            "code": "1075341000119107",
+            "display": "Patellofemoral syndrome of left knee (disorder)"
+          },
+          {
+            "code": "236554001",
+            "display": "Pain during inflow of dialysate (disorder)"
+          },
+          {
+            "code": "15960661000119107",
+            "display": "Unstable angina co-occurrent and due to arteriosclerosis of coronary artery bypass graft (disorder)"
+          },
+          {
+            "code": "41226008",
+            "display": "Exquisite pain (finding)"
+          },
+          {
+            "code": "788487003",
+            "display": "Repetitive motion disorder of bilateral hands (disorder)"
+          },
+          {
+            "code": "15960581000119102",
+            "display": "Angina co-occurrent and due to arteriosclerosis of autologous vein coronary artery bypass graft (disorder)"
+          },
+          {
+            "code": "424699007",
+            "display": "Migraine variants, not intractable (disorder)"
+          },
+          {
+            "code": "762592003",
+            "display": "Chronic primary headache (disorder)"
+          },
+          {
+            "code": "16438211000119101",
+            "display": "Greater trochanteric pain syndrome of bilateral lower limbs (disorder)"
+          },
+          {
+            "code": "110364008",
+            "display": "Posttreatment pain (finding)"
+          },
+          {
+            "code": "774135008",
+            "display": "Pain of left shoulder blade (finding)"
+          },
+          {
+            "code": "398126006",
+            "display": "Muscular headache (disorder)"
+          },
+          {
+            "code": "428643002",
+            "display": "Pain relief by supine position (finding)"
+          },
+          {
+            "code": "230462002",
+            "display": "Migraine with typical aura (disorder)"
+          },
+          {
+            "code": "427293006",
+            "display": "Pain radiating to left side of chest (finding)"
+          },
+          {
+            "code": "424806009",
+            "display": "Stated pain intensity within acceptable range (finding)"
+          },
+          {
+            "code": "301377004",
+            "display": "Punishing with pain (finding)"
+          },
+          {
+            "code": "1076781000119107",
+            "display": "Pain of joint of right foot (finding)"
+          },
+          {
+            "code": "2177002",
+            "display": "Postherpetic neuralgia (disorder)"
+          },
+          {
+            "code": "15743601000119103",
+            "display": "Pain of bilateral forearms (finding)"
+          },
+          {
+            "code": "36269003",
+            "display": "Cheilodynia (disorder)"
+          },
+          {
+            "code": "128187005",
+            "display": "Vascular headache (disorder)"
+          },
+          {
+            "code": "1089371000119107",
+            "display": "Otogenic otalgia of left ear (finding)"
+          },
+          {
+            "code": "792886009",
+            "display": "Pain in pinna (finding)"
+          },
+          {
+            "code": "202487003",
+            "display": "Sacroiliac joint pain (finding)"
+          },
+          {
+            "code": "315025001",
+            "display": "Refractory angina (disorder)"
+          },
+          {
+            "code": "299018007",
+            "display": "Wrist joint painful on movement (finding)"
+          },
+          {
+            "code": "135876005",
+            "display": "Mastalgia of puberty (finding)"
+          },
+          {
+            "code": "285389008",
+            "display": "Upper chest pain (finding)"
+          },
+          {
+            "code": "202794004",
+            "display": "Lumbago with sciatica (disorder)"
+          },
+          {
+            "code": "162301005",
+            "display": "Bilateral headache (finding)"
+          },
+          {
+            "code": "162049009",
+            "display": "Left flank pain (finding)"
+          },
+          {
+            "code": "1010233001",
+            "display": "Otalgia of left ear (finding)"
+          },
+          {
+            "code": "424482002",
+            "display": "Demonstrates adequate pain control without oral analgesics (finding)"
+          },
+          {
+            "code": "50818007",
+            "display": "Painful ejaculation (finding)"
+          },
+          {
+            "code": "712857000",
+            "display": "Segmental neuralgia as late effect of traumatic injury (disorder)"
+          },
+          {
+            "code": "102626001",
+            "display": "Liver pain (finding)"
+          },
+          {
+            "code": "425422007",
+            "display": "Headache caused by high altitude (disorder)"
+          },
+          {
+            "code": "285386001",
+            "display": "Right sided chest pain (finding)"
+          },
+          {
+            "code": "9626006",
+            "display": "Mechanical pain (finding)"
+          },
+          {
+            "code": "39402007",
+            "display": "Pelvic congestion syndrome (disorder)"
+          },
+          {
+            "code": "279019008",
+            "display": "Central crushing chest pain (finding)"
+          },
+          {
+            "code": "398987004",
+            "display": "Headache following lumbar puncture (disorder)"
+          },
+          {
+            "code": "162051008",
+            "display": "Right iliac fossa pain (finding)"
+          },
+          {
+            "code": "298376001",
+            "display": "Temporomandibular joint painful on movement (finding)"
+          },
+          {
+            "code": "36163009",
+            "display": "Night pain (finding)"
+          },
+          {
+            "code": "762454002",
+            "display": "Chronic orofacial pain (finding)"
+          },
+          {
+            "code": "202490009",
+            "display": "Ankle joint pain (finding)"
+          },
+          {
+            "code": "788474009",
+            "display": "Repetitive motion disorder of right shoulder (disorder)"
+          },
+          {
+            "code": "11996521000119103",
+            "display": "Pain of amputation stump of left upper limb (finding)"
+          },
+          {
+            "code": "162145001",
+            "display": "Vulval pain (finding)"
+          },
+          {
+            "code": "137891000119105",
+            "display": "Abdominal colic in adult or child greater than 12 months (finding)"
+          },
+          {
+            "code": "301716002",
+            "display": "Left lower quadrant pain (finding)"
+          },
+          {
+            "code": "288227007",
+            "display": "Myalgia/myositis - upper arm (finding)"
+          },
+          {
+            "code": "293941000119105",
+            "display": "Complex regional pain syndrome type I of left upper limb (disorder)"
+          },
+          {
+            "code": "16014231000119100",
+            "display": "Claudication of left upper limb co-occurrent and due to atherosclerosis (disorder)"
+          },
+          {
+            "code": "48429009",
+            "display": "Somatic pain (finding)"
+          },
+          {
+            "code": "427596002",
+            "display": "Pain provoked by temperature (finding)"
+          },
+          {
+            "code": "12247771000119104",
+            "display": "Bilateral shoulder joint pain (finding)"
+          },
+          {
+            "code": "111985007",
+            "display": "Chronic abdominal pain (finding)"
+          },
+          {
+            "code": "65323003",
+            "display": "Polymyalgia rheumatica (disorder)"
+          },
+          {
+            "code": "425423002",
+            "display": "Pain provoked by movement (finding)"
+          },
+          {
+            "code": "124081000119107",
+            "display": "Menstrual status migrainosus (disorder)"
+          },
+          {
+            "code": "4063001",
+            "display": "Achillodynia (finding)"
+          },
+          {
+            "code": "387638003",
+            "display": "Painful swelling of joint (finding)"
+          },
+          {
+            "code": "230597003",
+            "display": "Intercostal post-herpetic neuralgia (disorder)"
+          },
+          {
+            "code": "309768006",
+            "display": "Pain due to shoulder joint prosthesis (disorder)"
+          },
+          {
+            "code": "102619001",
+            "display": "Pain in esophagus (finding)"
+          },
+          {
+            "code": "468281000124104",
+            "display": "Pain of bilateral knee joints (finding)"
+          },
+          {
+            "code": "316971000119101",
+            "display": "Pain of toe of right foot (finding)"
+          },
+          {
+            "code": "298579007",
+            "display": "Thoracic spine - painful on movement (finding)"
+          },
+          {
+            "code": "21522001",
+            "display": "Abdominal pain (finding)"
+          },
+          {
+            "code": "43922008",
+            "display": "Jaw claudication (finding)"
+          },
+          {
+            "code": "725058003",
+            "display": "Short-lasting unilateral neuralgiform headache attacks with conjunctival injection and tearing syndrome (disorder)"
+          },
+          {
+            "code": "95669001",
+            "display": "Superior laryngeal neuralgia (finding)"
+          },
+          {
+            "code": "279093005",
+            "display": "Cramping pain (finding)"
+          },
+          {
+            "code": "762451005",
+            "display": "Chronic pain following trauma (finding)"
+          },
+          {
+            "code": "762602002",
+            "display": "Chronic central neuropathic pain (finding)"
+          },
+          {
+            "code": "73063007",
+            "display": "Colicky pain (finding)"
+          },
+          {
+            "code": "287046004",
+            "display": "Pain in right arm (finding)"
+          },
+          {
+            "code": "247406002",
+            "display": "Increased pain threshold (finding)"
+          },
+          {
+            "code": "771545003",
+            "display": "Painful and cold lower limb (finding)"
+          },
+          {
+            "code": "230654000",
+            "display": "Painful legs and moving toes (disorder)"
+          },
+          {
+            "code": "298478001",
+            "display": "Cervical spine painful on movement (finding)"
+          },
+          {
+            "code": "161977000",
+            "display": "Costal margin chest pain (finding)"
+          },
+          {
+            "code": "427252003",
+            "display": "Pain radiating to right side of chest (finding)"
+          },
+          {
+            "code": "302072004",
+            "display": "Pain in thyroid (finding)"
+          },
+          {
+            "code": "110263004",
+            "display": "Aerodontalgia (disorder)"
+          },
+          {
+            "code": "736464002",
+            "display": "Chronic idiopathic pain syndrome (disorder)"
+          },
+          {
+            "code": "17111003",
+            "display": "Postinfectious neuralgia (disorder)"
+          },
+          {
+            "code": "734989004",
+            "display": "Complex regional pain syndrome of hand (disorder)"
+          },
+          {
+            "code": "4557003",
+            "display": "Preinfarction syndrome (disorder)"
+          },
+          {
+            "code": "788476006",
+            "display": "Repetitive motion disorder of left upper arm (disorder)"
+          },
+          {
+            "code": "49218002",
+            "display": "Hip pain (finding)"
+          },
+          {
+            "code": "103014001",
+            "display": "Cervical nerve root pain (finding)"
+          },
+          {
+            "code": "699314009",
+            "display": "Migraine with persistent visual aura (disorder)"
+          },
+          {
+            "code": "200073003",
+            "display": "Spinal and epidural anesthesia-induced headache during the puerperium (disorder)"
+          },
+          {
+            "code": "45326000",
+            "display": "Shoulder pain (finding)"
+          },
+          {
+            "code": "12400141000119103",
+            "display": "Chronic pain following bilateral total hip arthroplasty (finding)"
+          },
+          {
+            "code": "15960541000119107",
+            "display": "Unstable angina due to arteriosclerosis of autologous vein coronary artery bypass graft (disorder)"
+          },
+          {
+            "code": "125661000119107",
+            "display": "Biliary colic with obstruction (finding)"
+          },
+          {
+            "code": "381000119107",
+            "display": "Pain disorder with psychological factor (disorder)"
+          },
+          {
+            "code": "71884009",
+            "display": "Precordial pain (finding)"
+          },
+          {
+            "code": "8708008",
+            "display": "Sharp pain (finding)"
+          },
+          {
+            "code": "300953009",
+            "display": "Pain in axilla (finding)"
+          },
+          {
+            "code": "316821000119105",
+            "display": "Pain of left thigh (finding)"
+          },
+          {
+            "code": "103007003",
+            "display": "Headache due to external compression of head (finding)"
+          },
+          {
+            "code": "247393000",
+            "display": "Ilioinguinal nerve neuralgia (finding)"
+          },
+          {
+            "code": "12237111000119107",
+            "display": "Pain at rest of left lower limb co-occurrent and due to atherosclerosis (disorder)"
+          },
+          {
+            "code": "247387008",
+            "display": "Cruralgia (finding)"
+          },
+          {
+            "code": "703619001",
+            "display": "Pelvic girdle pain (disorder)"
+          },
+          {
+            "code": "301364008",
+            "display": "Pain of skin (finding)"
+          },
+          {
+            "code": "429629001",
+            "display": "Pain relief by antacid (finding)"
+          },
+          {
+            "code": "16690551000119106",
+            "display": "Female deep pain on intercourse (finding)"
+          },
+          {
+            "code": "301717006",
+            "display": "Right upper quadrant pain (finding)"
+          },
+          {
+            "code": "771546002",
+            "display": "Painful and cold upper limb (finding)"
+          },
+          {
+            "code": "309765009",
+            "display": "Pain due to hip joint prosthesis (disorder)"
+          },
+          {
+            "code": "473007007",
+            "display": "Cervical discogenic pain (disorder)"
+          },
+          {
+            "code": "314116003",
+            "display": "Post infarct angina (disorder)"
+          },
+          {
+            "code": "237453001",
+            "display": "Cyclical mastalgia (finding)"
+          },
+          {
+            "code": "9267009",
+            "display": "Chest pain at rest (finding)"
+          },
+          {
+            "code": "86925001",
+            "display": "Ocular headache (finding)"
+          },
+          {
+            "code": "292301000119104",
+            "display": "Neuralgia of right iliohypogastric nerve (finding)"
+          },
+          {
+            "code": "1119295002",
+            "display": "Unilateral headache on right side of head (finding)"
+          },
+          {
+            "code": "50745000",
+            "display": "Hemianalgesia (finding)"
+          },
+          {
+            "code": "288226003",
+            "display": "Myalgia/myositis - shoulder (finding)"
+          },
+          {
+            "code": "239733006",
+            "display": "Anterior knee pain (finding)"
+          },
+          {
+            "code": "788484005",
+            "display": "Repetitive motion disorder of left thigh (disorder)"
+          },
+          {
+            "code": "293971000119103",
+            "display": "Complex regional pain syndrome type I of right upper limb (disorder)"
+          },
+          {
+            "code": "279032003",
+            "display": "Chronic pelvic pain without obvious pathology (finding)"
+          },
+          {
+            "code": "439469002",
+            "display": "Recurrent abdominal pain (finding)"
+          },
+          {
+            "code": "102631004",
+            "display": "Pancreatic pain (finding)"
+          },
+          {
+            "code": "299554004",
+            "display": "Subtalar joint painful on movement (finding)"
+          },
+          {
+            "code": "444851000124109",
+            "display": "Very mild pain (finding)"
+          },
+          {
+            "code": "15629941000119104",
+            "display": "Left inguinal pain (finding)"
+          },
+          {
+            "code": "16438251000119100",
+            "display": "Greater trochanteric pain syndrome of left lower limb (disorder)"
+          },
+          {
+            "code": "408750000",
+            "display": "Complex regional pain syndrome, type II, upper limb (disorder)"
+          },
+          {
+            "code": "230474003",
+            "display": "Chronic cluster headache unremitting from onset (disorder)"
+          },
+          {
+            "code": "713889004",
+            "display": "Atypical odontalgia (finding)"
+          },
+          {
+            "code": "247396008",
+            "display": "Testicular neuralgia (finding)"
+          },
+          {
+            "code": "102613000",
+            "display": "Localized abdominal pain (finding)"
+          },
+          {
+            "code": "423893004",
+            "display": "Pain following sexual intercourse (finding)"
+          },
+          {
+            "code": "202495004",
+            "display": "First metatarsophalangeal joint pain (finding)"
+          },
+          {
+            "code": "290261000119108",
+            "display": "Meralgia paresthetica of right leg (disorder)"
+          },
+          {
+            "code": "298674008",
+            "display": "Lumbar spine painful on movement (finding)"
+          },
+          {
+            "code": "403735006",
+            "display": "Eosinophilia-myalgia syndrome from tryptophan (disorder)"
+          },
+          {
+            "code": "16057391000119108",
+            "display": "Neuralgia of right glossopharyngeal nerve (finding)"
+          },
+          {
+            "code": "699694000",
+            "display": "Chronic post-concussion headache (disorder)"
+          },
+          {
+            "code": "293901000119108",
+            "display": "Intractable episodic cluster headache (disorder)"
+          },
+          {
+            "code": "279042001",
+            "display": "Lumbar segmental dysfunction (finding)"
+          },
+          {
+            "code": "293921000119104",
+            "display": "Complex regional pain syndrome type I of bilateral upper limbs (disorder)"
+          },
+          {
+            "code": "16675251000119106",
+            "display": "Pain of bilateral testicles (finding)"
+          },
+          {
+            "code": "762595001",
+            "display": "Chronic painful polyneuropathy following chemotherapy (disorder)"
+          },
+          {
+            "code": "1119294003",
+            "display": "Unilateral headache on left side of head (finding)"
+          },
+          {
+            "code": "112104007",
+            "display": "Localized pain (finding)"
+          },
+          {
+            "code": "23186000",
+            "display": "Menstrual migraine (disorder)"
+          },
+          {
+            "code": "316981000119103",
+            "display": "Pain of right upper arm (finding)"
+          },
+          {
+            "code": "162308004",
+            "display": "Throbbing headache (finding)"
+          },
+          {
+            "code": "213299007",
+            "display": "Postoperative pain (finding)"
+          },
+          {
+            "code": "162143008",
+            "display": "Pain in female genitalia (finding)"
+          },
+          {
+            "code": "425831002",
+            "display": "Pain characterized by relieving factor (finding)"
+          },
+          {
+            "code": "397774002",
+            "display": "Pain during labor and delivery (finding)"
+          },
+          {
+            "code": "289845009",
+            "display": "Pain on movement of ovary (finding)"
+          },
+          {
+            "code": "301715003",
+            "display": "Left upper quadrant pain (finding)"
+          },
+          {
+            "code": "431237007",
+            "display": "Chronic headache disorder (disorder)"
+          },
+          {
+            "code": "15639721000119105",
+            "display": "Pain in bilateral temporomandibular joints (finding)"
+          },
+          {
+            "code": "430879002",
+            "display": "Posterior auricular pain (finding)"
+          },
+          {
+            "code": "371812001",
+            "display": "Recurrent angina status post directional coronary atherectomy (disorder)"
+          },
+          {
+            "code": "288229005",
+            "display": "Myalgia/myositis - hand (finding)"
+          },
+          {
+            "code": "15631821000119100",
+            "display": "Pain co-occurrent and due to varicose veins of bilateral legs (disorder)"
+          },
+          {
+            "code": "59292006",
+            "display": "Hemiplegic migraine (disorder)"
+          },
+          {
+            "code": "71760005",
+            "display": "Cervico-occipital neuralgia (finding)"
+          },
+          {
+            "code": "816065002",
+            "display": "Normal sensation of pain (finding)"
+          },
+          {
+            "code": "301363002",
+            "display": "Pain of endocrine structure (finding)"
+          },
+          {
+            "code": "102570003",
+            "display": "Inguinal pain (finding)"
+          },
+          {
+            "code": "428911004",
+            "display": "Pain relief by walking (finding)"
+          },
+          {
+            "code": "21545007",
+            "display": "Tenalgia (finding)"
+          },
+          {
+            "code": "416562001",
+            "display": "Axis pressure pain (finding)"
+          },
+          {
+            "code": "16001004",
+            "display": "Otalgia (finding)"
+          },
+          {
+            "code": "301367001",
+            "display": "Right hypochondrial pain (finding)"
+          },
+          {
+            "code": "16002831000119107",
+            "display": "Pain of left lower limb co-occurrent and due to ischemia (finding)"
+          },
+          {
+            "code": "286993001",
+            "display": "Dysmenorrhea - non-psychogenic (disorder)"
+          },
+          {
+            "code": "774133001",
+            "display": "Pain of right forearm (finding)"
+          },
+          {
+            "code": "785723001",
+            "display": "Persistent idiopathic facial pain (disorder)"
+          },
+          {
+            "code": "41334000",
+            "display": "Angina, class II (disorder)"
+          },
+          {
+            "code": "239215004",
+            "display": "Pain from tissue expander (disorder)"
+          },
+          {
+            "code": "774137000",
+            "display": "Pain of left acromioclavicular joint (finding)"
+          },
+          {
+            "code": "426206001",
+            "display": "Constant pain (finding)"
+          },
+          {
+            "code": "707597009",
+            "display": "Continuous abdominal pain of left lower quadrant (finding)"
+          },
+          {
+            "code": "1084301000119101",
+            "display": "Otogenic otalgia of bilateral ears (finding)"
+          },
+          {
+            "code": "290441000119105",
+            "display": "Intractable chronic headache following trauma (disorder)"
+          },
+          {
+            "code": "313571000119100",
+            "display": "Metatarsalgia of right foot (finding)"
+          },
+          {
+            "code": "247420009",
+            "display": "Sexual function painful (finding)"
+          },
+          {
+            "code": "711056007",
+            "display": "Phantom pain following amputation of penis (disorder)"
+          },
+          {
+            "code": "1119218004",
+            "display": "Pain in left abdominal lumbar region (finding)"
+          },
+          {
+            "code": "247361008",
+            "display": "Evening colic (finding)"
+          },
+          {
+            "code": "309737007",
+            "display": "Abdominal pain in pregnancy (finding)"
+          },
+          {
+            "code": "299513007",
+            "display": "Foot joint - painful on movement (finding)"
+          },
+          {
+            "code": "16899701000119102",
+            "display": "Pain of joint of bilateral hands (finding)"
+          },
+          {
+            "code": "38823002",
+            "display": "Aural headache (finding)"
+          },
+          {
+            "code": "15968741000119100",
+            "display": "Low back pain co-occurrent and due to bilateral sciatica (disorder)"
+          },
+          {
+            "code": "237455008",
+            "display": "Trigger point mastalgia (finding)"
+          },
+          {
+            "code": "711545001",
+            "display": "Migraine caused by estrogen contraceptive (disorder)"
+          },
+          {
+            "code": "161974007",
+            "display": "Parasternal pain (finding)"
+          },
+          {
+            "code": "301161000119100",
+            "display": "Repetitive strain injury of left ankle (disorder)"
+          },
+          {
+            "code": "300954003",
+            "display": "Pain in calf (finding)"
+          },
+          {
+            "code": "1075651000119101",
+            "display": "Pain of left sternoclavicular joint (finding)"
+          },
+          {
+            "code": "865986008",
+            "display": "Pain on application of pressure to tooth (finding)"
+          },
+          {
+            "code": "713674006",
+            "display": "Ischemic foot pain when walking (finding)"
+          },
+          {
+            "code": "61486003",
+            "display": "Sacral back pain (finding)"
+          },
+          {
+            "code": "230465000",
+            "display": "Migraine aura without headache (disorder)"
+          },
+          {
+            "code": "203508001",
+            "display": "Bony pelvic pain (finding)"
+          },
+          {
+            "code": "67849003",
+            "display": "Excruciating pain (finding)"
+          },
+          {
+            "code": "279055000",
+            "display": "Obstetric pain (finding)"
+          },
+          {
+            "code": "3368006",
+            "display": "Dull chest pain (finding)"
+          },
+          {
+            "code": "301281000119102",
+            "display": "Repetitive motion disorder of right lower leg (disorder)"
+          },
+          {
+            "code": "76204004",
+            "display": "Painful clitoral erection (finding)"
+          },
+          {
+            "code": "289818008",
+            "display": "Pain on movement of cervix (finding)"
+          },
+          {
+            "code": "444227004",
+            "display": "Acute postthoracotomy pain syndrome (finding)"
+          },
+          {
+            "code": "9991008",
+            "display": "Abdominal colic (finding)"
+          },
+          {
+            "code": "427935006",
+            "display": "Pain relief by rest (finding)"
+          },
+          {
+            "code": "247413002",
+            "display": "False labor pains (finding)"
+          },
+          {
+            "code": "162046002",
+            "display": "Central abdominal pain (finding)"
+          },
+          {
+            "code": "279059006",
+            "display": "Hypoglossal neuralgia (finding)"
+          },
+          {
+            "code": "161972006",
+            "display": "Central chest pain (finding)"
+          },
+          {
+            "code": "35363006",
+            "display": "Infantile colic (finding)"
+          },
+          {
+            "code": "247366003",
+            "display": "Acute back pain with sciatica (finding)"
+          },
+          {
+            "code": "762597009",
+            "display": "Chronic musculoskeletal pain due to persistent inflammation (disorder)"
+          },
+          {
+            "code": "428557006",
+            "display": "Squeezing pain (finding)"
+          },
+          {
+            "code": "458241000124102",
+            "display": "Chronic daily headache (disorder)"
+          },
+          {
+            "code": "313344000",
+            "display": "Vulval superficial dyspareunia (finding)"
+          },
+          {
+            "code": "468261000124109",
+            "display": "Pain of left knee region (finding)"
+          },
+          {
+            "code": "247391003",
+            "display": "Perineal neuralgia (finding)"
+          },
+          {
+            "code": "426899007",
+            "display": "Pain provoked by walking (finding)"
+          },
+          {
+            "code": "725010007",
+            "display": "Neck pain co-occurrent with tenderness of neck following whiplash injury to neck (disorder)"
+          },
+          {
+            "code": "16058471000119101",
+            "display": "Complex regional pain syndrome type 2 of bilateral lower limbs (disorder)"
+          },
+          {
+            "code": "448701000124105",
+            "display": "Herniation of nucleus pulposus of lumbar intervertebral disc co-occurrent with sciatica (disorder)"
+          },
+          {
+            "code": "762590006",
+            "display": "Chronic primary generalized pain (finding)"
+          },
+          {
+            "code": "128200000",
+            "display": "Complex regional pain syndrome (disorder)"
+          },
+          {
+            "code": "274663001",
+            "display": "Acute pain (finding)"
+          },
+          {
+            "code": "301355003",
+            "display": "Pain of respiratory structure (finding)"
+          },
+          {
+            "code": "233819005",
+            "display": "Stable angina (disorder)"
+          },
+          {
+            "code": "1121000119107",
+            "display": "Chronic neck pain (finding)"
+          },
+          {
+            "code": "43231004",
+            "display": "Esophageal colic (finding)"
+          },
+          {
+            "code": "12400181000119108",
+            "display": "Chronic pain following bilateral total knee arthroplasty (finding)"
+          },
+          {
+            "code": "274668005",
+            "display": "Non-cardiac chest pain (finding)"
+          },
+          {
+            "code": "724429004",
+            "display": "Stroke co-occurrent with migraine (disorder)"
+          },
+          {
+            "code": "1010234007",
+            "display": "Otalgia of right ear (finding)"
+          },
+          {
+            "code": "239166000",
+            "display": "Persistent wound pain (finding)"
+          },
+          {
+            "code": "449313005",
+            "display": "Referred pain in face (finding)"
+          },
+          {
+            "code": "1003722009",
+            "display": "Pain of knee region (finding)"
+          },
+          {
+            "code": "162503007",
+            "display": "Cutting pain (finding)"
+          },
+          {
+            "code": "279981003",
+            "display": "Peripheral neuropathic pain (finding)"
+          },
+          {
+            "code": "279028009",
+            "display": "Ovarian pain (finding)"
+          },
+          {
+            "code": "198438009",
+            "display": "Menopausal headache (disorder)"
+          },
+          {
+            "code": "15704721000119106",
+            "display": "Repetitive strain injury of bilateral hands (disorder)"
+          },
+          {
+            "code": "37488003",
+            "display": "Vulvovaginal pain (finding)"
+          },
+          {
+            "code": "279062009",
+            "display": "Myofascial pain (finding)"
+          },
+          {
+            "code": "282743009",
+            "display": "Malignant bone pain (finding)"
+          },
+          {
+            "code": "16002711000119105",
+            "display": "Pain of right upper limb co-occurrent and due to ischemia (disorder)"
+          },
+          {
+            "code": "59139008",
+            "display": "Crushing chest pain (finding)"
+          },
+          {
+            "code": "15743641000119101",
+            "display": "Pain of bilateral sternoclavicular joints (finding)"
+          },
+          {
+            "code": "79267007",
+            "display": "Retinal migraine (disorder)"
+          },
+          {
+            "code": "103000001",
+            "display": "Crymodynia (finding)"
+          },
+          {
+            "code": "267982002",
+            "display": "Pain in lumbar spine (finding)"
+          },
+          {
+            "code": "11996641000119105",
+            "display": "Pain of amputation stump of right lower limb (finding)"
+          },
+          {
+            "code": "6744007",
+            "display": "Painful bladder spasm (finding)"
+          },
+          {
+            "code": "7674000",
+            "display": "Greater trochanteric pain syndrome (disorder)"
+          },
+          {
+            "code": "300957005",
+            "display": "Postural low back pain (finding)"
+          },
+          {
+            "code": "202489000",
+            "display": "Tibiofibular joint pain (finding)"
+          },
+          {
+            "code": "239175003",
+            "display": "Post-thoracotomy pain syndrome (finding)"
+          },
+          {
+            "code": "87381000119101",
+            "display": "Vertebral joint pain (finding)"
+          },
+          {
+            "code": "75879005",
+            "display": "Abdominal migraine (disorder)"
+          },
+          {
+            "code": "788467004",
+            "display": "Repetitive motion disorder of bilateral shoulders (disorder)"
+          },
+          {
+            "code": "16638401000119101",
+            "display": "Neuralgia of nerve of bilateral lower limbs (finding)"
+          },
+          {
+            "code": "230539002",
+            "display": "Cluster tic syndrome (disorder)"
+          },
+          {
+            "code": "89638008",
+            "display": "Xiphodynia (finding)"
+          },
+          {
+            "code": "237454007",
+            "display": "Non-cyclical mastalgia (finding)"
+          },
+          {
+            "code": "16513000",
+            "display": "Postcordotomy pain (finding)"
+          },
+          {
+            "code": "427168003",
+            "display": "Pain provoked by allergen (finding)"
+          },
+          {
+            "code": "1119215001",
+            "display": "Pain in left lumbar region of back (finding)"
+          },
+          {
+            "code": "473434003",
+            "display": "Pain in chin (finding)"
+          },
+          {
+            "code": "247352008",
+            "display": "Subcostal pain (finding)"
+          },
+          {
+            "code": "279067003",
+            "display": "Metatarsophalangeal joint pain (finding)"
+          },
+          {
+            "code": "13057000",
+            "display": "Pleuropericardial chest pain (finding)"
+          },
+          {
+            "code": "16013871000119104",
+            "display": "Claudication of right upper limb co-occurrent and due to atherosclerosis (disorder)"
+          },
+          {
+            "code": "267949000",
+            "display": "Shoulder joint pain (finding)"
+          },
+          {
+            "code": "247373008",
+            "display": "Ankle pain (finding)"
+          },
+          {
+            "code": "16754391000119100",
+            "display": "Stable angina due to coronary arteriosclerosis (disorder)"
+          },
+          {
+            "code": "102589003",
+            "display": "Atypical chest pain (finding)"
+          },
+          {
+            "code": "16638321000119100",
+            "display": "Neuralgia of bilateral pudendal nerves (finding)"
+          },
+          {
+            "code": "15640121000119102",
+            "display": "Bilateral thumb pain (finding)"
+          },
+          {
+            "code": "102480002",
+            "display": "Generalized acute body pains (finding)"
+          },
+          {
+            "code": "426803004",
+            "display": "Pain radiating to right arm (finding)"
+          },
+          {
+            "code": "136791000119103",
+            "display": "Chronic thoracic back pain (finding)"
+          },
+          {
+            "code": "304542004",
+            "display": "Nonspecific abdominal pain (finding)"
+          },
+          {
+            "code": "271858001",
+            "display": "Recurrent acute abdominal pain (finding)"
+          },
+          {
+            "code": "699682009",
+            "display": "Localized masticatory muscle soreness (finding)"
+          },
+          {
+            "code": "395688005",
+            "display": "Benign coital headache (finding)"
+          },
+          {
+            "code": "11679003",
+            "display": "Radicular pain (finding)"
+          },
+          {
+            "code": "762354003",
+            "display": "Persistent headache due to and following injury of head (disorder)"
+          },
+          {
+            "code": "35928006",
+            "display": "Nocturnal angina (disorder)"
+          },
+          {
+            "code": "71850005",
+            "display": "Abdominal pain worse on motion (finding)"
+          },
+          {
+            "code": "202482009",
+            "display": "Wrist joint pain (finding)"
+          },
+          {
+            "code": "429181000124108",
+            "display": "Refractory acute confusional migraine (disorder)"
+          },
+          {
+            "code": "202493006",
+            "display": "Talonavicular joint pain (finding)"
+          },
+          {
+            "code": "608830002",
+            "display": "Discogenic pain (disorder)"
+          },
+          {
+            "code": "279044000",
+            "display": "Total body pain syndrome (finding)"
+          },
+          {
+            "code": "40196000",
+            "display": "Mild pain (finding)"
+          },
+          {
+            "code": "1156802000",
+            "display": "Myofascial low back pain (finding)"
+          },
+          {
+            "code": "423279000",
+            "display": "Refractory migraine without aura (disorder)"
+          },
+          {
+            "code": "289817003",
+            "display": "Pain of cervix (finding)"
+          },
+          {
+            "code": "16013351000119104",
+            "display": "Claudication of bilateral upper limbs co-occurrent and due to atherosclerosis (disorder)"
+          },
+          {
+            "code": "12247611000119100",
+            "display": "Bilateral hip joint pain (finding)"
+          },
+          {
+            "code": "466841000124105",
+            "display": "Headache after cough (finding)"
+          },
+          {
+            "code": "426702003",
+            "display": "Pain in female pelvis (finding)"
+          },
+          {
+            "code": "788466008",
+            "display": "Repetitive motion disorder of upper limb (disorder)"
+          },
+          {
+            "code": "203082005",
+            "display": "Fibromyalgia (disorder)"
+          },
+          {
+            "code": "113611000119100",
+            "display": "Myofascial pain syndrome of lumbar spine (disorder)"
+          },
+          {
+            "code": "230476001",
+            "display": "Atypical cluster headache (disorder)"
+          },
+          {
+            "code": "473008002",
+            "display": "Pain in cheek (finding)"
+          },
+          {
+            "code": "279980002",
+            "display": "Peripheral neurogenic pain (finding)"
+          },
+          {
+            "code": "16675201000119107",
+            "display": "Pain of right testicle (finding)"
+          },
+          {
+            "code": "427365005",
+            "display": "Pain radiating to center of chest (finding)"
+          },
+          {
+            "code": "774134007",
+            "display": "Pain of right shoulder blade (finding)"
+          },
+          {
+            "code": "3200003",
+            "display": "Sacrocoxalgia (finding)"
+          },
+          {
+            "code": "738068003",
+            "display": "Pain relief by lowering leg (finding)"
+          },
+          {
+            "code": "16066731000119102",
+            "display": "Pain at rest of right lower limb co-occurrent and due to atherosclerosis of bypass graft (disorder)"
+          },
+          {
+            "code": "15960461000119105",
+            "display": "Unstable angina due to arteriosclerosis of autologous arterial coronary artery bypass graft (disorder)"
+          },
+          {
+            "code": "290431000119101",
+            "display": "Intractable headache following trauma (disorder)"
+          },
+          {
+            "code": "23056005",
+            "display": "Sciatica (disorder)"
+          },
+          {
+            "code": "50415004",
+            "display": "Moderate pain (finding)"
+          },
+          {
+            "code": "49650001",
+            "display": "Dysuria (finding)"
+          },
+          {
+            "code": "247408001",
+            "display": "High pain threshold (finding)"
+          },
+          {
+            "code": "122711000119109",
+            "display": "Hypnic headache (disorder)"
+          },
+          {
+            "code": "161891005",
+            "display": "Backache (finding)"
+          },
+          {
+            "code": "247386004",
+            "display": "Obturator neuralgia (finding)"
+          },
+          {
+            "code": "225565007",
+            "display": "Perineal pain (finding)"
+          },
+          {
+            "code": "14090001000004102",
+            "display": "Neuropathic pain caused by radiation (finding)"
+          },
+          {
+            "code": "8799007",
+            "display": "Posterior heel pain (finding)"
+          },
+          {
+            "code": "275314000",
+            "display": "Anal stump pain (finding)"
+          },
+          {
+            "code": "788483004",
+            "display": "Repetitive motion disorder of left ankle (disorder)"
+          },
+          {
+            "code": "426068005",
+            "display": "Pain provoked by altercation (finding)"
+          },
+          {
+            "code": "471661000124108",
+            "display": "Acute migraine (disorder)"
+          },
+          {
+            "code": "54012000",
+            "display": "Posttraumatic headache (finding)"
+          },
+          {
+            "code": "110363002",
+            "display": "Treatment pain (finding)"
+          },
+          {
+            "code": "36630001",
+            "display": "Deep pain (finding)"
+          },
+          {
+            "code": "161892003",
+            "display": "Backache with radiation (finding)"
+          },
+          {
+            "code": "301371003",
+            "display": "Gnawing pain (finding)"
+          },
+          {
+            "code": "866043000",
+            "display": "Neuralgia of twelfth thoracic nerve (finding)"
+          },
+          {
+            "code": "162300006",
+            "display": "Unilateral headache (finding)"
+          },
+          {
+            "code": "436771000124102",
+            "display": "Basilar artery migraine, refractory (disorder)"
+          },
+          {
+            "code": "30731004",
+            "display": "Glossodynia (disorder)"
+          },
+          {
+            "code": "769167005",
+            "display": "Vaso-occlusive pain co-occurrent and due to sickle cell disease (disorder)"
+          },
+          {
+            "code": "316891000119107",
+            "display": "Pain in right foot (finding)"
+          },
+          {
+            "code": "233845001",
+            "display": "Cardiac syndrome X (finding)"
+          },
+          {
+            "code": "301380003",
+            "display": "Mild present pain (finding)"
+          },
+          {
+            "code": "314212008",
+            "display": "Abdominal pain - cause unknown (finding)"
+          },
+          {
+            "code": "103010005",
+            "display": "Headache associated with sexual activity (finding)"
+          },
+          {
+            "code": "23189007",
+            "display": "Idiopathic vulvodynia (disorder)"
+          },
+          {
+            "code": "674051000119103",
+            "display": "Chronic neck pain for greater than 3 months (finding)"
+          },
+          {
+            "code": "788480001",
+            "display": "Repetitive motion disorder of left foot (disorder)"
+          },
+          {
+            "code": "430968008",
+            "display": "Pain in male perineum (finding)"
+          },
+          {
+            "code": "95654002",
+            "display": "Chronic paroxysmal hemicrania (disorder)"
+          },
+          {
+            "code": "279066007",
+            "display": "Foot joint pain (finding)"
+          },
+          {
+            "code": "12247731000119102",
+            "display": "Bilateral ankle joint pain (finding)"
+          },
+          {
+            "code": "722982003",
+            "display": "Frequent episodic tension-type headache (disorder)"
+          },
+          {
+            "code": "44538002",
+            "display": "Nasal headache (finding)"
+          },
+          {
+            "code": "247399001",
+            "display": "Pseudothalamic pain (finding)"
+          },
+          {
+            "code": "279074008",
+            "display": "Sore skin (finding)"
+          },
+          {
+            "code": "225569001",
+            "display": "Painful blind eye (disorder)"
+          },
+          {
+            "code": "15636451000119103",
+            "display": "Pain in fingers of bilateral hands (finding)"
+          },
+          {
+            "code": "81712001",
+            "display": "Pain in female genitalia on intercourse (finding)"
+          },
+          {
+            "code": "16207081000119105",
+            "display": "Pain of amputation stump of bilateral lower limbs (finding)"
+          },
+          {
+            "code": "428264009",
+            "display": "Painful gait (finding)"
+          },
+          {
+            "code": "230481005",
+            "display": "Idiopathic stabbing headache (disorder)"
+          },
+          {
+            "code": "10760581000119104",
+            "display": "Pain in round ligament in pregnancy (finding)"
+          },
+          {
+            "code": "789494008",
+            "display": "Central sensitization (finding)"
+          },
+          {
+            "code": "162047006",
+            "display": "Left subcostal pain (finding)"
+          },
+          {
+            "code": "14700001000004102",
+            "display": "Intractable abdominal pain (finding)"
+          },
+          {
+            "code": "788469001",
+            "display": "Repetitive motion disorder of right forearm (disorder)"
+          },
+          {
+            "code": "233821000",
+            "display": "New onset angina (disorder)"
+          },
+          {
+            "code": "27355003",
+            "display": "Toothache (finding)"
+          },
+          {
+            "code": "202484005",
+            "display": "Proximal interphalangeal joint of finger pain (finding)"
+          },
+          {
+            "code": "230480006",
+            "display": "Headache following myelography (disorder)"
+          },
+          {
+            "code": "735936005",
+            "display": "Chronic neuropathic pain (finding)"
+          },
+          {
+            "code": "722983008",
+            "display": "Headache due to injury of head and neck (finding)"
+          },
+          {
+            "code": "279069000",
+            "display": "Musculoskeletal pain (finding)"
+          },
+          {
+            "code": "734988007",
+            "display": "Complex regional pain syndrome of knee (disorder)"
+          },
+          {
+            "code": "39565009",
+            "display": "Pain crisis (finding)"
+          },
+          {
+            "code": "162506004",
+            "display": "Pricking pain (finding)"
+          },
+          {
+            "code": "68653001",
+            "display": "Anal pain (finding)"
+          },
+          {
+            "code": "267950000",
+            "display": "Arthralgia of the upper arm (finding)"
+          },
+          {
+            "code": "15749341000119107",
+            "display": "Pain in bilateral upper arms (finding)"
+          },
+          {
+            "code": "16206781000119109",
+            "display": "Meralgia paresthetica of bilateral lower limbs (disorder)"
+          },
+          {
+            "code": "16002791000119101",
+            "display": "Pain of right lower limb co-occurrent and due to ischemia (finding)"
+          },
+          {
+            "code": "162039006",
+            "display": "Referred pain in shoulder from abdomen (finding)"
+          },
+          {
+            "code": "37226004",
+            "display": "Pain co-occurrent with tenderness (finding)"
+          },
+          {
+            "code": "315250005",
+            "display": "Persistent mastalgia (finding)"
+          },
+          {
+            "code": "301375007",
+            "display": "Sickening with pain (finding)"
+          },
+          {
+            "code": "431521000",
+            "display": "Acute pain due to injury (finding)"
+          },
+          {
+            "code": "408949005",
+            "display": "Finding related to pain control behavior (finding)"
+          },
+          {
+            "code": "316961000119107",
+            "display": "Pain of right thigh (finding)"
+          },
+          {
+            "code": "403599000",
+            "display": "Stinging of skin (finding)"
+          },
+          {
+            "code": "788488008",
+            "display": "Repetitive motion disorder of bilateral forearms (disorder)"
+          },
+          {
+            "code": "247349000",
+            "display": "Painful teething (finding)"
+          },
+          {
+            "code": "129501000119107",
+            "display": "Chronic sacral pain for greater than three months (finding)"
+          },
+          {
+            "code": "301366005",
+            "display": "Pain of truncal structure (finding)"
+          },
+          {
+            "code": "403596007",
+            "display": "Cutaneous hyperalgesia (finding)"
+          },
+          {
+            "code": "734947007",
+            "display": "Complex regional pain syndrome type I (disorder)"
+          },
+          {
+            "code": "762591005",
+            "display": "Chronic primary musculoskeletal pain (finding)"
+          },
+          {
+            "code": "429742007",
+            "display": "Pain onset during moderate exercise (finding)"
+          },
+          {
+            "code": "19057007",
+            "display": "Status anginosus (disorder)"
+          },
+          {
+            "code": "307176005",
+            "display": "Acute sciatica (disorder)"
+          },
+          {
+            "code": "721156008",
+            "display": "Cyclic pelvic pain (finding)"
+          },
+          {
+            "code": "95653008",
+            "display": "Acute confusional migraine (disorder)"
+          },
+          {
+            "code": "41321000119101",
+            "display": "Myofascial pain syndrome of thoracic spine (disorder)"
+          },
+          {
+            "code": "162304002",
+            "display": "Parietal headache (finding)"
+          },
+          {
+            "code": "57676002",
+            "display": "Joint pain (finding)"
+          },
+          {
+            "code": "69186005",
+            "display": "Broad ligament laceration syndrome (disorder)"
+          },
+          {
+            "code": "193947008",
+            "display": "Ciliary neuralgia (finding)"
+          },
+          {
+            "code": "788473003",
+            "display": "Repetitive motion disorder of right hand (disorder)"
+          },
+          {
+            "code": "723300005",
+            "display": "Freezing pain (finding)"
+          },
+          {
+            "code": "301357006",
+            "display": "Frontal sinus pain (finding)"
+          },
+          {
+            "code": "103008008",
+            "display": "Postpartum headache (finding)"
+          },
+          {
+            "code": "35074008",
+            "display": "Chronic idiopathic anal pain (disorder)"
+          },
+          {
+            "code": "20502007",
+            "display": "Pain in scrotum (finding)"
+          },
+          {
+            "code": "247362001",
+            "display": "Pain on abdominal wall movement (finding)"
+          },
+          {
+            "code": "725009002",
+            "display": "Neck pain co-occurrent with neck stiffness following whiplash injury to neck (disorder)"
+          },
+          {
+            "code": "427341007",
+            "display": "Pain provoked by exertion (finding)"
+          },
+          {
+            "code": "315241008",
+            "display": "Pain from metastases (finding)"
+          },
+          {
+            "code": "879969009",
+            "display": "Breakthrough pain (finding)"
+          },
+          {
+            "code": "129612002",
+            "display": "Anterior ethmoidal nerve syndrome (disorder)"
+          },
+          {
+            "code": "710110008",
+            "display": "Phantom pain (disorder)"
+          },
+          {
+            "code": "11874831000119105",
+            "display": "Bilateral wrist pain (finding)"
+          },
+          {
+            "code": "12247221000119105",
+            "display": "Patellofemoral syndrome of bilateral knees (disorder)"
+          },
+          {
+            "code": "288241003",
+            "display": "Pain in limb - multiple (finding)"
+          },
+          {
+            "code": "247401007",
+            "display": "Decreased pain threshold (finding)"
+          },
+          {
+            "code": "193184006",
+            "display": "Chronic painful neuropathy due to diabetes mellitus (disorder)"
+          },
+          {
+            "code": "15704761000119101",
+            "display": "Repetitive strain injury of bilateral forearms (disorder)"
+          },
+          {
+            "code": "735935009",
+            "display": "Chronic pain due to malignant neoplastic disease (finding)"
+          },
+          {
+            "code": "53574006",
+            "display": "Girdle pain (finding)"
+          },
+          {
+            "code": "344961000119109",
+            "display": "Pain of bilateral eyes (finding)"
+          },
+          {
+            "code": "235841007",
+            "display": "Chronic nonspecific abdominal pain (finding)"
+          },
+          {
+            "code": "37259001",
+            "display": "Ocular crisis (finding)"
+          },
+          {
+            "code": "37389005",
+            "display": "Biliary colic (finding)"
+          },
+          {
+            "code": "16675301000119100",
+            "display": "Pain of left testicle (finding)"
+          },
+          {
+            "code": "288231001",
+            "display": "Myalgia/myositis - lower leg (finding)"
+          },
+          {
+            "code": "162310002",
+            "display": "Morning headache (finding)"
+          },
+          {
+            "code": "16438171000119103",
+            "display": "Greater trochanteric pain syndrome of right lower limb (disorder)"
+          },
+          {
+            "code": "112581000119104",
+            "display": "Acute pain of joint of knee (finding)"
+          },
+          {
+            "code": "193030005",
+            "display": "Migraine variants (disorder)"
+          },
+          {
+            "code": "316741000119105",
+            "display": "Pain in finger of left hand (finding)"
+          },
+          {
+            "code": "427972000",
+            "display": "Pudendal neuralgia (finding)"
+          },
+          {
+            "code": "425908001",
+            "display": "Pain radiating to thoracic region right side (finding)"
+          },
+          {
+            "code": "16269008",
+            "display": "Neuralgia (finding)"
+          },
+          {
+            "code": "429492007",
+            "display": "Pain relief by sitting up (finding)"
+          },
+          {
+            "code": "278860009",
+            "display": "Chronic low back pain (finding)"
+          },
+          {
+            "code": "1076811000119109",
+            "display": "Pain of left heel (finding)"
+          },
+          {
+            "code": "1091981000119106",
+            "display": "Otogenic otalgia of right ear (finding)"
+          },
+          {
+            "code": "294031000119103",
+            "display": "Episodic paroxysmal hemicrania (disorder)"
+          },
+          {
+            "code": "711055006",
+            "display": "Phantom pain following excision of eye (disorder)"
+          },
+          {
+            "code": "713837009",
+            "display": "Postinfective segmental peripheral neuralgia (disorder)"
+          },
+          {
+            "code": "68962001",
+            "display": "Muscle pain (finding)"
+          },
+          {
+            "code": "56557000",
+            "display": "Fibrositis (disorder)"
+          },
+          {
+            "code": "247418006",
+            "display": "Superficial pain on intercourse (finding)"
+          },
+          {
+            "code": "294091000119104",
+            "display": "Headache caused by drug (finding)"
+          },
+          {
+            "code": "717717002",
+            "display": "Non-cyclic pelvic pain (finding)"
+          },
+          {
+            "code": "279035001",
+            "display": "Acute thoracic back pain (finding)"
+          },
+          {
+            "code": "279054001",
+            "display": "Pain when milk coming in (finding)"
+          },
+          {
+            "code": "433017009",
+            "display": "Pain in symphysis pubis in pregnancy (finding)"
+          },
+          {
+            "code": "95659007",
+            "display": "Hindbrain hernia headache (disorder)"
+          },
+          {
+            "code": "29330004",
+            "display": "Salivary colic (finding)"
+          },
+          {
+            "code": "313501000119105",
+            "display": "Lumbago co-occurrent with right-side sciatica (disorder)"
+          },
+          {
+            "code": "816133002",
+            "display": "Sensation of pain reduced (finding)"
+          },
+          {
+            "code": "426774001",
+            "display": "Pain characterized by provoking factor (finding)"
+          },
+          {
+            "code": "45979003",
+            "display": "Abdominal wind pain (finding)"
+          },
+          {
+            "code": "247369005",
+            "display": "Facet joint pain (finding)"
+          },
+          {
+            "code": "95416007",
+            "display": "Eosinophilia myalgia syndrome (disorder)"
+          },
+          {
+            "code": "14440001000004101",
+            "display": "Postoperative abdominal pain (finding)"
+          },
+          {
+            "code": "77538000",
+            "display": "Superficial pain (finding)"
+          },
+          {
+            "code": "112103001",
+            "display": "Neuralgia of amputation stump (finding)"
+          },
+          {
+            "code": "247389006",
+            "display": "Intercostal neuralgia (finding)"
+          },
+          {
+            "code": "202889007",
+            "display": "Posterior shin splints (disorder)"
+          },
+          {
+            "code": "443094001",
+            "display": "Paroxysmal hemicrania (disorder)"
+          },
+          {
+            "code": "193031009",
+            "display": "Cluster headache syndrome (disorder)"
+          },
+          {
+            "code": "129613007",
+            "display": "Tympanic plexus neuralgia syndrome (disorder)"
+          },
+          {
+            "code": "11996601000119108",
+            "display": "Pain of amputation stump of right upper limb (finding)"
+          },
+          {
+            "code": "133731000119108",
+            "display": "Chronic pain in male pelvis (finding)"
+          },
+          {
+            "code": "247368002",
+            "display": "Posterior compartment low back pain (finding)"
+          },
+          {
+            "code": "734986006",
+            "display": "Complex regional pain syndrome of lower limb (disorder)"
+          },
+          {
+            "code": "88522004",
+            "display": "Umbilical pain (finding)"
+          },
+          {
+            "code": "316991000119100",
+            "display": "Pain of right wrist (finding)"
+          },
+          {
+            "code": "12400341000119100",
+            "display": "Chronic pain following right total knee arthroplasty (finding)"
+          },
+          {
+            "code": "239938009",
+            "display": "Giant cell arteritis with polymyalgia rheumatica (disorder)"
+          },
+          {
+            "code": "293931000119101",
+            "display": "Complex regional pain syndrome type I of left lower limb (disorder)"
+          },
+          {
+            "code": "15743161000119106",
+            "display": "Pain of joint of bilateral lower legs (finding)"
+          },
+          {
+            "code": "471651000124106",
+            "display": "Episodic migraine (disorder)"
+          },
+          {
+            "code": "65761003",
+            "display": "Inflammatory pain (finding)"
+          },
+          {
+            "code": "8034008",
+            "display": "Painful penile erection (finding)"
+          },
+          {
+            "code": "230468003",
+            "display": "Migraine with ischemic complication (disorder)"
+          },
+          {
+            "code": "15960341000119104",
+            "display": "Unstable angina due to arteriosclerosis of coronary artery bypass graft of transplanted heart (disorder)"
+          },
+          {
+            "code": "35635000",
+            "display": "Cervicobrachial neuralgia (finding)"
+          },
+          {
+            "code": "82423001",
+            "display": "Chronic pain (finding)"
+          },
+          {
+            "code": "301201000119105",
+            "display": "Repetitive motion disorder of left lower leg (disorder)"
+          },
+          {
+            "code": "16057351000119103",
+            "display": "Neuralgia of left glossopharyngeal nerve (finding)"
+          },
+          {
+            "code": "198075006",
+            "display": "Dyspareunia due to non-psychogenic cause in male (finding)"
+          },
+          {
+            "code": "112101004",
+            "display": "Dental headache (finding)"
+          },
+          {
+            "code": "124091000119105",
+            "display": "Intractable menstrual status migrainosus (disorder)"
+          },
+          {
+            "code": "247403005",
+            "display": "Low pain threshold (finding)"
+          },
+          {
+            "code": "49575005",
+            "display": "Shooting pain (finding)"
+          },
+          {
+            "code": "722981005",
+            "display": "Infrequent episodic tension-type headache (disorder)"
+          },
+          {
+            "code": "449884001",
+            "display": "Painful scar (finding)"
+          },
+          {
+            "code": "202485006",
+            "display": "Distal interphalangeal joint of finger pain (finding)"
+          },
+          {
+            "code": "762452003",
+            "display": "Chronic musculoskeletal pain (finding)"
+          },
+          {
+            "code": "364764003",
+            "display": "Finding of pain threshold (finding)"
+          },
+          {
+            "code": "247353003",
+            "display": "Site of abdominal pain (finding)"
+          },
+          {
+            "code": "15917051000119104",
+            "display": "Pain of left elbow joint (finding)"
+          },
+          {
+            "code": "95443002",
+            "display": "Venous intermittent claudication (finding)"
+          },
+          {
+            "code": "414991007",
+            "display": "Painful rectal bleeding (finding)"
+          },
+          {
+            "code": "711058008",
+            "display": "Phantom pain following amputation of upper limb (disorder)"
+          },
+          {
+            "code": "277352000",
+            "display": "Suxamethonium pains (finding)"
+          },
+          {
+            "code": "690691000119101",
+            "display": "Acute pain following mastectomy (finding)"
+          },
+          {
+            "code": "299112005",
+            "display": "Finger joint painful on movement (finding)"
+          },
+          {
+            "code": "12400221000119100",
+            "display": "Chronic pain following left total hip arthroplasty (finding)"
+          },
+          {
+            "code": "762596000",
+            "display": "Chronic pain following radiotherapy (disorder)"
+          },
+          {
+            "code": "289670006",
+            "display": "Pain on movement of uterus (finding)"
+          },
+          {
+            "code": "279049005",
+            "display": "Post-surgery back pain (finding)"
+          },
+          {
+            "code": "879973007",
+            "display": "Breakthrough cancer pain (finding)"
+          },
+          {
+            "code": "313561000119106",
+            "display": "Metatarsalgia of left foot (finding)"
+          },
+          {
+            "code": "279031005",
+            "display": "Cervical segmental dysfunction (finding)"
+          },
+          {
+            "code": "725011006",
+            "display": "Neck pain co-occurrent with neurological deficit following whiplash injury to neck (disorder)"
+          },
+          {
+            "code": "313387002",
+            "display": "Phonophobia (finding)"
+          },
+          {
+            "code": "193028008",
+            "display": "Sick headache (disorder)"
+          },
+          {
+            "code": "34789001",
+            "display": "Pain in the coccyx (finding)"
+          },
+          {
+            "code": "285365001",
+            "display": "Pain in toe (finding)"
+          },
+          {
+            "code": "298858000",
+            "display": "Shoulder joint - painful arc (finding)"
+          },
+          {
+            "code": "267053000",
+            "display": "Tenesmus (finding)"
+          },
+          {
+            "code": "609143007",
+            "display": "Elongated styloid process syndrome (disorder)"
+          },
+          {
+            "code": "102557007",
+            "display": "Arm claudication (finding)"
+          },
+          {
+            "code": "36729000",
+            "display": "Prostatic pain (finding)"
+          },
+          {
+            "code": "735938006",
+            "display": "Acute headache (finding)"
+          },
+          {
+            "code": "301356002",
+            "display": "Maxillary sinus pain (finding)"
+          },
+          {
+            "code": "473009005",
+            "display": "Pain in palate (finding)"
+          },
+          {
+            "code": "10085004",
+            "display": "Metatarsalgia (finding)"
+          },
+          {
+            "code": "74323005",
+            "display": "Pain in elbow (finding)"
+          },
+          {
+            "code": "762522008",
+            "display": "Penoscrotodynia (disorder)"
+          },
+          {
+            "code": "43548008",
+            "display": "Mittelschmerz (finding)"
+          },
+          {
+            "code": "792845002",
+            "display": "Intermittent claudication due to atherosclerosis of artery of limb (finding)"
+          },
+          {
+            "code": "56097005",
+            "display": "Migraine without aura (disorder)"
+          },
+          {
+            "code": "282359006",
+            "display": "Post-vasectomy epididymal pain (finding)"
+          },
+          {
+            "code": "371811008",
+            "display": "Recurrent angina status post rotational atherectomy (disorder)"
+          },
+          {
+            "code": "788471001",
+            "display": "Repetitive motion disorder of left shoulder (disorder)"
+          },
+          {
+            "code": "194828000",
+            "display": "Angina (disorder)"
+          },
+          {
+            "code": "95668009",
+            "display": "Pain in face (finding)"
+          },
+          {
+            "code": "279039007",
+            "display": "Low back pain (finding)"
+          },
+          {
+            "code": "247405003",
+            "display": "Pain in area of anesthesia (finding)"
+          },
+          {
+            "code": "423683008",
+            "display": "Refractory migraine with aura (disorder)"
+          },
+          {
+            "code": "279041008",
+            "display": "Myofascial pain syndrome of lower back (disorder)"
+          },
+          {
+            "code": "103011009",
+            "display": "Benign exertional headache (finding)"
+          },
+          {
+            "code": "124391000119108",
+            "display": "Status migrainosus with aura (disorder)"
+          },
+          {
+            "code": "429056000",
+            "display": "Pain onset during exertion (finding)"
+          },
+          {
+            "code": "30173002",
+            "display": "Primary fibrositis (disorder)"
+          },
+          {
+            "code": "297128006",
+            "display": "Nuchal pain (finding)"
+          },
+          {
+            "code": "162359003",
+            "display": "Bilateral earache (finding)"
+          },
+          {
+            "code": "16331000",
+            "display": "Heartburn (finding)"
+          },
+          {
+            "code": "75111000",
+            "display": "Painful ophthalmoplegia (disorder)"
+          },
+          {
+            "code": "102614006",
+            "display": "Generalized abdominal pain (finding)"
+          },
+          {
+            "code": "282360001",
+            "display": "Persistent testicular pain (finding)"
+          },
+          {
+            "code": "408749000",
+            "display": "Complex regional pain syndrome, type II, lower limb (disorder)"
+          },
+          {
+            "code": "711163009",
+            "display": "Bradyopsia (disorder)"
+          },
+          {
+            "code": "49986002",
+            "display": "Central pain (finding)"
+          },
+          {
+            "code": "279071000",
+            "display": "Urethral meatal pain (finding)"
+          },
+          {
+            "code": "15743521000119108",
+            "display": "Chronic pain of right upper limb (finding)"
+          },
+          {
+            "code": "428346000",
+            "display": "Pain relief by medication (finding)"
+          },
+          {
+            "code": "285375003",
+            "display": "Pain in penis (finding)"
+          },
+          {
+            "code": "279058003",
+            "display": "Neurogenic pain (finding)"
+          },
+          {
+            "code": "279048002",
+            "display": "Internal mammary artery syndrome (finding)"
+          },
+          {
+            "code": "314041007",
+            "display": "Abdominal pain in early pregnancy (finding)"
+          },
+          {
+            "code": "202888004",
+            "display": "Anterior shin splints (disorder)"
+          },
+          {
+            "code": "10601006",
+            "display": "Pain in lower limb (finding)"
+          },
+          {
+            "code": "124051000119100",
+            "display": "Hemiplegic status migrainosus (disorder)"
+          },
+          {
+            "code": "275321000",
+            "display": "Vulva sore (finding)"
+          },
+          {
+            "code": "16206741000119104",
+            "display": "Piriformis syndrome of bilateral lower limbs (disorder)"
+          },
+          {
+            "code": "704677002",
+            "display": "Tarsalgia (finding)"
+          },
+          {
+            "code": "13322008",
+            "display": "Postseizure headache (finding)"
+          },
+          {
+            "code": "290531000119102",
+            "display": "Intractable chronic tension headache (disorder)"
+          },
+          {
+            "code": "423894005",
+            "display": "Refractory migraine (disorder)"
+          },
+          {
+            "code": "424620000",
+            "display": "Demonstrates adequate pain control with oral analgesics (finding)"
+          },
+          {
+            "code": "279030006",
+            "display": "Myofascial pain syndrome of neck (disorder)"
+          },
+          {
+            "code": "330007",
+            "display": "Occipital headache (finding)"
+          },
+          {
+            "code": "15633361000119103",
+            "display": "Bilateral sciatica (disorder)"
+          },
+          {
+            "code": "316771000119103",
+            "display": "Pain of left hand (finding)"
+          },
+          {
+            "code": "38654001",
+            "display": "Recurrent biliary colic (finding)"
+          },
+          {
+            "code": "426135001",
+            "display": "Chronic prostatitis - chronic pelvic pain syndrome (disorder)"
+          },
+          {
+            "code": "267952008",
+            "display": "Arthralgia of the pelvic region and thigh (finding)"
+          },
+          {
+            "code": "1119217009",
+            "display": "Pain in right abdominal lumbar region (finding)"
+          },
+          {
+            "code": "279036000",
+            "display": "Myofascial pain syndrome of thorax (disorder)"
+          },
+          {
+            "code": "247350000",
+            "display": "Sore nipple (finding)"
+          },
+          {
+            "code": "316801000119101",
+            "display": "Pain of left lower leg (finding)"
+          },
+          {
+            "code": "737306007",
+            "display": "Chronic visceral pain (disorder)"
+          },
+          {
+            "code": "247381009",
+            "display": "Limb stump pain (finding)"
+          },
+          {
+            "code": "86208007",
+            "display": "Loin pain-hematuria syndrome (disorder)"
+          },
+          {
+            "code": "103009000",
+            "display": "Headache due to cold exposure (finding)"
+          },
+          {
+            "code": "371806006",
+            "display": "Progressive angina (disorder)"
+          },
+          {
+            "code": "425991004",
+            "display": "Cervicothoracic segmental dysfunction (finding)"
+          },
+          {
+            "code": "426351003",
+            "display": "Pain provoked by lifting (finding)"
+          },
+          {
+            "code": "200430001",
+            "display": "Breastfeeding painful (finding)"
+          },
+          {
+            "code": "29695002",
+            "display": "Throbbing pain (finding)"
+          },
+          {
+            "code": "21005005",
+            "display": "Burning epigastric pain (finding)"
+          },
+          {
+            "code": "162011005",
+            "display": "Sore mouth (finding)"
+          },
+          {
+            "code": "30077003",
+            "display": "Somatoform pain disorder (disorder)"
+          },
+          {
+            "code": "292491000119101",
+            "display": "Neuralgia of left pudendal nerve (finding)"
+          },
+          {
+            "code": "301372005",
+            "display": "Finding of affective dimension of pain (finding)"
+          },
+          {
+            "code": "279056004",
+            "display": "Pain on penetration (finding)"
+          },
+          {
+            "code": "427128002",
+            "display": "Gradual onset of pain (finding)"
+          },
+          {
+            "code": "713839007",
+            "display": "Intercostal neuralgia as late effect of trauma (disorder)"
+          },
+          {
+            "code": "1010237000",
+            "display": "Pain of right breast (finding)"
+          },
+          {
+            "code": "122731000119104",
+            "display": "Primary thunderclap headache (disorder)"
+          },
+          {
+            "code": "301365009",
+            "display": "Pain of head and neck region (finding)"
+          },
+          {
+            "code": "279051009",
+            "display": "Pain following administration of agent (finding)"
+          },
+          {
+            "code": "298253002",
+            "display": "Cervical facet joint pain (finding)"
+          },
+          {
+            "code": "432615008",
+            "display": "Chronic pain in face (finding)"
+          },
+          {
+            "code": "124161000119104",
+            "display": "Chronic migraine without aura with status migrainosus (disorder)"
+          },
+          {
+            "code": "202483004",
+            "display": "Metacarpophalangeal joint pain (finding)"
+          },
+          {
+            "code": "631000119102",
+            "display": "Chronic back pain greater than three months duration (finding)"
+          },
+          {
+            "code": "291941000119106",
+            "display": "Left-sided piriformis syndrome (disorder)"
+          },
+          {
+            "code": "43763009",
+            "display": "Glossopharyngeal neuralgia (finding)"
+          },
+          {
+            "code": "279038004",
+            "display": "Thoracic back pain (finding)"
+          },
+          {
+            "code": "445322004",
+            "display": "Migraine variant with headache (disorder)"
+          },
+          {
+            "code": "286992006",
+            "display": "Non-psychogenic dyspareunia (finding)"
+          },
+          {
+            "code": "431601000124105",
+            "display": "Chronic migraine without aura (disorder)"
+          },
+          {
+            "code": "247392005",
+            "display": "Iliohypogastric nerve neuralgia (finding)"
+          },
+          {
+            "code": "27635008",
+            "display": "Aching pain (finding)"
+          },
+          {
+            "code": "709141005",
+            "display": "Neck pain due to malignant neoplastic disease (finding)"
+          },
+          {
+            "code": "297974009",
+            "display": "Pain on movement of skin (finding)"
+          },
+          {
+            "code": "339211000119104",
+            "display": "Pain of left eye (finding)"
+          },
+          {
+            "code": "15636491000119108",
+            "display": "Bilateral heel pain (finding)"
+          },
+          {
+            "code": "162052001",
+            "display": "Left iliac fossa pain (finding)"
+          },
+          {
+            "code": "300995000",
+            "display": "Exercise-induced angina (disorder)"
+          },
+          {
+            "code": "129610005",
+            "display": "Headache due to intracranial disease (finding)"
+          },
+          {
+            "code": "71393004",
+            "display": "Soreness (finding)"
+          },
+          {
+            "code": "36349006",
+            "display": "Burning pain (finding)"
+          },
+          {
+            "code": "121021000119105",
+            "display": "New daily persistent headache (disorder)"
+          },
+          {
+            "code": "95656000",
+            "display": "Familial hemiplegic migraine (disorder)"
+          },
+          {
+            "code": "102997000",
+            "display": "Psychroalgia (finding)"
+          },
+          {
+            "code": "225595004",
+            "display": "Pain associated with defecation (finding)"
+          },
+          {
+            "code": "279022005",
+            "display": "Post-vasectomy pain (finding)"
+          },
+          {
+            "code": "89874002",
+            "display": "Xiphoidalgia syndrome (disorder)"
+          },
+          {
+            "code": "468241000124105",
+            "display": "Pain of right knee region (finding)"
+          },
+          {
+            "code": "788470000",
+            "display": "Repetitive motion disorder of left forearm (disorder)"
+          },
+          {
+            "code": "162211001",
+            "display": "Viral headache (finding)"
+          },
+          {
+            "code": "710230000",
+            "display": "Painful os peroneum syndrome (disorder)"
+          },
+          {
+            "code": "425936006",
+            "display": "Intractable ophthalmic migraine (disorder)"
+          },
+          {
+            "code": "16002671000119106",
+            "display": "Chronic pain of bilateral upper limbs (finding)"
+          },
+          {
+            "code": "162138001",
+            "display": "Genitourinary pain (finding)"
+          },
+          {
+            "code": "698006004",
+            "display": "Pulpalgia (finding)"
+          },
+          {
+            "code": "202479004",
+            "display": "Acromioclavicular joint pain (finding)"
+          },
+          {
+            "code": "291791000119100",
+            "display": "Complex regional pain syndrome type II of right lower limb (disorder)"
+          },
+          {
+            "code": "1089561000119107",
+            "display": "Referred otalgia of left ear (finding)"
+          },
+          {
+            "code": "4448006",
+            "display": "Allergic headache (disorder)"
+          },
+          {
+            "code": "316941000119108",
+            "display": "Pain of right lower leg (finding)"
+          },
+          {
+            "code": "15634391000119107",
+            "display": "Pain of bilateral thighs (finding)"
+          },
+          {
+            "code": "239177006",
+            "display": "Post-episiotomy pain (finding)"
+          },
+          {
+            "code": "76948002",
+            "display": "Severe pain (finding)"
+          },
+          {
+            "code": "314642004",
+            "display": "Intermittent pain (finding)"
+          },
+          {
+            "code": "16002871000119105",
+            "display": "Chronic pain of right foot (finding)"
+          },
+          {
+            "code": "723316007",
+            "display": "Electric shock type pain (finding)"
+          },
+          {
+            "code": "398058003",
+            "display": "Pain during regional anesthesia for cesarean section (finding)"
+          },
+          {
+            "code": "15960141000119102",
+            "display": "Angina co-occurrent and due to coronary arteriosclerosis (disorder)"
+          },
+          {
+            "code": "703182002",
+            "display": "Headache due to reversible cerebral vasoconstriction syndrome (finding)"
+          },
+          {
+            "code": "713278001",
+            "display": "Neuralgia co-occurrent with human immunodeficiency virus infection (disorder)"
+          },
+          {
+            "code": "89323001",
+            "display": "Angina, class IV (disorder)"
+          },
+          {
+            "code": "31681005",
+            "display": "Trigeminal neuralgia (disorder)"
+          },
+          {
+            "code": "15639561000119107",
+            "display": "Pain of bilateral acromioclavicular joints (finding)"
+          },
+          {
+            "code": "12236991000119103",
+            "display": "Pain at rest of bilateral lower limbs co-occurrent and due to atherosclerosis (disorder)"
+          },
+          {
+            "code": "279095003",
+            "display": "Heavy pain (finding)"
+          },
+          {
+            "code": "830137004",
+            "display": "Pain due to enlargement of spleen (finding)"
+          },
+          {
+            "code": "124001000119104",
+            "display": "Status migrainosus co-occurrent and due to migraine without aura (disorder)"
+          },
+          {
+            "code": "30623001",
+            "display": "Catch (finding)"
+          },
+          {
+            "code": "26150009",
+            "display": "Lower half migraine (disorder)"
+          },
+          {
+            "code": "145621000146106",
+            "display": "Headache due to exertion (finding)"
+          },
+          {
+            "code": "267102003",
+            "display": "Sore throat symptom (finding)"
+          },
+          {
+            "code": "236555000",
+            "display": "Pain during outflow of dialysate (disorder)"
+          },
+          {
+            "code": "275318002",
+            "display": "Aching leg syndrome (finding)"
+          },
+          {
+            "code": "427475007",
+            "display": "Pain radiating to lumbar region of back (finding)"
+          },
+          {
+            "code": "371102005",
+            "display": "Generalized colicky abdominal pain (finding)"
+          },
+          {
+            "code": "31490007",
+            "display": "Nasociliary neuralgia (finding)"
+          },
+          {
+            "code": "285387005",
+            "display": "Left sided abdominal pain (finding)"
+          },
+          {
+            "code": "428209001",
+            "display": "Finding related to onset of pain (finding)"
+          },
+          {
+            "code": "161893008",
+            "display": "Back pain worse on sneezing (finding)"
+          },
+          {
+            "code": "97001000119106",
+            "display": "Localized chest pain (finding)"
+          },
+          {
+            "code": "838410008",
+            "display": "Pain in epigastric region on palpation (finding)"
+          },
+          {
+            "code": "12336008",
+            "display": "Referred otalgia (finding)"
+          },
+          {
+            "code": "429147006",
+            "display": "Pain relief related to position (finding)"
+          },
+          {
+            "code": "230477005",
+            "display": "Chronic post-traumatic headache (disorder)"
+          },
+          {
+            "code": "225566008",
+            "display": "Ischemic chest pain (finding)"
+          },
+          {
+            "code": "200071001",
+            "display": "Obstetric spinal and epidural anesthesia-induced headache (disorder)"
+          },
+          {
+            "code": "431061000124100",
+            "display": "Ophthalmoplegic migraine, refractory (disorder)"
+          },
+          {
+            "code": "102999002",
+            "display": "Cryalgesia (finding)"
+          },
+          {
+            "code": "301384007",
+            "display": "Excruciating present pain (finding)"
+          },
+          {
+            "code": "230537000",
+            "display": "Idiopathic trigeminal neuralgia (disorder)"
+          },
+          {
+            "code": "333601000119102",
+            "display": "Pain of right eye (finding)"
+          },
+          {
+            "code": "274667000",
+            "display": "Jaw pain (finding)"
+          },
+          {
+            "code": "865987004",
+            "display": "Pain on tooth palpation (finding)"
+          },
+          {
+            "code": "145611000119107",
+            "display": "Allergic migraine (disorder)"
+          },
+          {
+            "code": "247355005",
+            "display": "Flank pain (finding)"
+          },
+          {
+            "code": "274280006",
+            "display": "Ureteric pain (finding)"
+          },
+          {
+            "code": "371809004",
+            "display": "Recurrent angina status post coronary stent placement (disorder)"
+          },
+          {
+            "code": "788481002",
+            "display": "Repetitive motion disorder of right foot (disorder)"
+          },
+          {
+            "code": "85011000119101",
+            "display": "Pain in male pelvis (finding)"
+          },
+          {
+            "code": "124171000119105",
+            "display": "Chronic intractable migraine without aura (disorder)"
+          },
+          {
+            "code": "162502002",
+            "display": "Finding of pain character (finding)"
+          },
+          {
+            "code": "722876002",
+            "display": "Functional heartburn (disorder)"
+          },
+          {
+            "code": "102556003",
+            "display": "Pain in upper limb (finding)"
+          },
+          {
+            "code": "315248002",
+            "display": "Intractable breast pain (finding)"
+          },
+          {
+            "code": "15631691000119102",
+            "display": "Pain co-occurrent and due to varicose veins of left leg (disorder)"
+          },
+          {
+            "code": "1075631000119107",
+            "display": "Pain of right sternoclavicular joint (finding)"
+          },
+          {
+            "code": "788468009",
+            "display": "Repetitive motion disorder of left hand (disorder)"
+          },
+          {
+            "code": "443503005",
+            "display": "Periumbilical pain (finding)"
+          },
+          {
+            "code": "699046000",
+            "display": "Craniofacial pain (finding)"
+          },
+          {
+            "code": "279086006",
+            "display": "Excessive sensitivity to pain (finding)"
+          },
+          {
+            "code": "299308007",
+            "display": "Hip joint painful on movement (finding)"
+          },
+          {
+            "code": "301221000119101",
+            "display": "Repetitive strain injury of left thigh (disorder)"
+          },
+          {
+            "code": "279016001",
+            "display": "Cervicogenic headache (finding)"
+          },
+          {
+            "code": "2134003",
+            "display": "Diffuse pain (finding)"
+          },
+          {
+            "code": "15639521000119102",
+            "display": "Pain of toes of bilateral feet (finding)"
+          },
+          {
+            "code": "16013431000119104",
+            "display": "Intermittent claudication of bilateral lower limbs due to atherosclerosis of nonbiological bypass graft (finding)"
+          },
+          {
+            "code": "202478007",
+            "display": "Sternoclavicular joint pain (finding)"
+          },
+          {
+            "code": "279029001",
+            "display": "Pain in cervical spine (finding)"
+          },
+          {
+            "code": "15634631000119104",
+            "display": "Bilateral sacroiliac joint pain (finding)"
+          },
+          {
+            "code": "71315007",
+            "display": "Dyspareunia (finding)"
+          },
+          {
+            "code": "711057003",
+            "display": "Phantom pain following amputation of lower limb (disorder)"
+          },
+          {
+            "code": "316751000119107",
+            "display": "Pain in left foot (finding)"
+          },
+          {
+            "code": "788485006",
+            "display": "Repetitive motion disorder of right ankle (disorder)"
+          },
+          {
+            "code": "54314008",
+            "display": "Putti-Chavany syndrome (disorder)"
+          },
+          {
+            "code": "704675005",
+            "display": "Inadequate pain control (finding)"
+          },
+          {
+            "code": "102615007",
+            "display": "Ulcer-type pain (finding)"
+          },
+          {
+            "code": "29930001000004103",
+            "display": "Intractable low back pain (finding)"
+          },
+          {
+            "code": "91943004",
+            "display": "Arthralgia of temporomandibular joint (disorder)"
+          },
+          {
+            "code": "788486007",
+            "display": "Repetitive motion disorder of right thigh (disorder)"
+          },
+          {
+            "code": "427310006",
+            "display": "Pain radiating to neck (finding)"
+          },
+          {
+            "code": "11892641000119101",
+            "display": "Chronic female pelvic pain syndrome (disorder)"
+          },
+          {
+            "code": "12247531000119106",
+            "display": "Pain in bilateral lower legs (finding)"
+          },
+          {
+            "code": "124071000119109",
+            "display": "Intractable menstrual migraine (disorder)"
+          },
+          {
+            "code": "134407002",
+            "display": "Chronic back pain (finding)"
+          },
+          {
+            "code": "230575000",
+            "display": "Chronic painful polyneuropathy due to diabetes mellitus (disorder)"
+          },
+          {
+            "code": "316881000119109",
+            "display": "Pain in finger of right hand (finding)"
+          },
+          {
+            "code": "85007004",
+            "display": "Meralgia paresthetica (disorder)"
+          },
+          {
+            "code": "202497007",
+            "display": "Interphalangeal joint of toe pain (finding)"
+          },
+          {
+            "code": "417021005",
+            "display": "Sclerotomal pain (finding)"
+          },
+          {
+            "code": "83264000",
+            "display": "Epidemic pleurodynia (disorder)"
+          },
+          {
+            "code": "102481003",
+            "display": "Generalized chronic body pains (finding)"
+          },
+          {
+            "code": "85284003",
+            "display": "Angina, class III (disorder)"
+          },
+          {
+            "code": "193039006",
+            "display": "Complicated migraine (disorder)"
+          },
+          {
+            "code": "444746004",
+            "display": "Acute exacerbation of chronic abdominal pain (finding)"
+          },
+          {
+            "code": "293951000119107",
+            "display": "Complex regional pain syndrome type I of bilateral lower limbs (disorder)"
+          },
+          {
+            "code": "425839000",
+            "display": "Pain radiating to head (finding)"
+          },
+          {
+            "code": "279072007",
+            "display": "Sore lip (finding)"
+          },
+          {
+            "code": "791000119109",
+            "display": "Angina due to type 2 diabetes mellitus (disorder)"
+          },
+          {
+            "code": "698803006",
+            "display": "Medication overuse headache (finding)"
+          },
+          {
+            "code": "16002951000119109",
+            "display": "Pain of bilateral lower limbs co-occurrent and due to ischemia (finding)"
+          },
+          {
+            "code": "762598004",
+            "display": "Chronic musculoskeletal pain due to disease of nervous system (disorder)"
+          },
+          {
+            "code": "129179000",
+            "display": "Piriformis syndrome (disorder)"
+          },
+          {
+            "code": "275406005",
+            "display": "Appendicular pain (finding)"
+          },
+          {
+            "code": "426466001",
+            "display": "Pain radiating to left flank (finding)"
+          },
+          {
+            "code": "30473006",
+            "display": "Pain in pelvis (finding)"
+          },
+          {
+            "code": "428432004",
+            "display": "Spontaneous pain (finding)"
+          },
+          {
+            "code": "772826002",
+            "display": "Anti-cyclic citrullinated peptide antibody positive arthralgia (finding)"
+          },
+          {
+            "code": "230478000",
+            "display": "Low pressure headache (disorder)"
+          },
+          {
+            "code": "778003000",
+            "display": "Autosomal dominant intermediate Charcot-Marie-Tooth disease with neuropathic pain (disorder)"
+          },
+          {
+            "code": "298292009",
+            "display": "Pain on movement of skeletal muscle (finding)"
+          },
+          {
+            "code": "225564006",
+            "display": "Pain of nose (finding)"
+          },
+          {
+            "code": "198402002",
+            "display": "Dyspareunia due to non-psychogenic cause in the female (finding)"
+          },
+          {
+            "code": "122021000119104",
+            "display": "Ophthalmic status migrainosus (disorder)"
+          },
+          {
+            "code": "712831003",
+            "display": "Frequent headache (finding)"
+          },
+          {
+            "code": "98611000119104",
+            "display": "Chronic post-thoracotomy pain syndrome (finding)"
+          },
+          {
+            "code": "197939009",
+            "display": "Painful hematuria (disorder)"
+          },
+          {
+            "code": "1076751000119100",
+            "display": "Pain in left thumb (finding)"
+          },
+          {
+            "code": "16580691000119107",
+            "display": "Chronic urinary bladder pain (finding)"
+          },
+          {
+            "code": "784285002",
+            "display": "Tenesmus of bladder (finding)"
+          },
+          {
+            "code": "95658004",
+            "display": "Cough headache syndrome (finding)"
+          },
+          {
+            "code": "279047007",
+            "display": "Persistent pain following procedure (finding)"
+          },
+          {
+            "code": "723070002",
+            "display": "Variation of pain (finding)"
+          },
+          {
+            "code": "277138006",
+            "display": "Rubella arthralgia (disorder)"
+          },
+          {
+            "code": "15634431000119102",
+            "display": "Pain in both feet (finding)"
+          },
+          {
+            "code": "98921000119102",
+            "display": "Pain due to neoplastic disease (finding)"
+          },
+          {
+            "code": "25064002",
+            "display": "Headache (finding)"
+          },
+          {
+            "code": "230473009",
+            "display": "Chronic cluster headache (disorder)"
+          },
+          {
+            "code": "445491000124104",
+            "display": "Postural headache (finding)"
+          },
+          {
+            "code": "429038000",
+            "display": "Pain onset during sleep (finding)"
+          },
+          {
+            "code": "34791000119103",
+            "display": "Chest pain due to pericarditis (finding)"
+          },
+          {
+            "code": "162397003",
+            "display": "Pain in throat (finding)"
+          },
+          {
+            "code": "274664007",
+            "display": "Chest pain on breathing (finding)"
+          },
+          {
+            "code": "428171009",
+            "display": "Pain at rest due to peripheral vascular disease (disorder)"
+          },
+          {
+            "code": "230483008",
+            "display": "Headache associated with substance abuse or withdrawal (finding)"
+          },
+          {
+            "code": "301301000119103",
+            "display": "Repetitive strain injury of right thigh (disorder)"
+          },
+          {
+            "code": "62647006",
+            "display": "Painful spasm of anus (disorder)"
+          },
+          {
+            "code": "429559004",
+            "display": "Typical angina (disorder)"
+          },
+          {
+            "code": "28221000119103",
+            "display": "Abdominal muscle pain (finding)"
+          },
+          {
+            "code": "103015000",
+            "display": "Thoracic nerve root pain (finding)"
+          },
+          {
+            "code": "162299003",
+            "display": "Generalized headache (finding)"
+          },
+          {
+            "code": "1076731000119106",
+            "display": "Joint pain in left hand (finding)"
+          },
+          {
+            "code": "237067000",
+            "display": "Chronic pain in female pelvis (finding)"
+          },
+          {
+            "code": "279097006",
+            "display": "Splitting pain (finding)"
+          },
+          {
+            "code": "76691009",
+            "display": "Brachial plexus neuralgia (finding)"
+          },
+          {
+            "code": "425860006",
+            "display": "Pain radiating to lower abdomen (finding)"
+          },
+          {
+            "code": "279085005",
+            "display": "Acute sensitivity to pain (finding)"
+          },
+          {
+            "code": "294081000119102",
+            "display": "Intractable headache caused by drug (finding)"
+          },
+          {
+            "code": "38433004",
+            "display": "No sensitivity to pain (finding)"
+          },
+          {
+            "code": "279052002",
+            "display": "Sympathetically independent pain (finding)"
+          },
+          {
+            "code": "15743241000119104",
+            "display": "Pain of joint of left lower leg (finding)"
+          },
+          {
+            "code": "196791007",
+            "display": "Appendicular colic (finding)"
+          },
+          {
+            "code": "12247571000119109",
+            "display": "Bilateral foot joint pain (finding)"
+          },
+          {
+            "code": "735644008",
+            "display": "Chronic nociceptive pain (finding)"
+          },
+          {
+            "code": "288232008",
+            "display": "Myalgia/myositis - ankle/foot (finding)"
+          },
+          {
+            "code": "713410003",
+            "display": "Pain following cerebrovascular accident (finding)"
+          },
+          {
+            "code": "9121000119106",
+            "display": "Low back pain in pregnancy (finding)"
+          },
+          {
+            "code": "310391000119104",
+            "display": "Iliotibial band friction syndrome of right knee (disorder)"
+          },
+          {
+            "code": "279070004",
+            "display": "Muscle tension pain (finding)"
+          },
+          {
+            "code": "762593008",
+            "display": "Chronic primary orofacial pain (finding)"
+          },
+          {
+            "code": "279043006",
+            "display": "Pain in buttock (finding)"
+          },
+          {
+            "code": "433159008",
+            "display": "Acute pain in female pelvis (finding)"
+          },
+          {
+            "code": "95657009",
+            "display": "Chronic mixed headache syndrome (disorder)"
+          },
+          {
+            "code": "315226008",
+            "display": "Pain in lymph nodes after alcohol consumption (finding)"
+          },
+          {
+            "code": "16207121000119107",
+            "display": "Pain of amputation stump of bilateral upper limbs (finding)"
+          },
+          {
+            "code": "247385000",
+            "display": "Lateral femoral cutaneous neuralgia (finding)"
+          },
+          {
+            "code": "122061000119109",
+            "display": "Intractable retinal migraine (disorder)"
+          },
+          {
+            "code": "162504001",
+            "display": "Griping pain (finding)"
+          },
+          {
+            "code": "124061000119103",
+            "display": "Intractable hemiplegic status migrainosus (disorder)"
+          },
+          {
+            "code": "238970000",
+            "display": "Proctodynia (finding)"
+          },
+          {
+            "code": "450847001",
+            "display": "Responds to pain (finding)"
+          },
+          {
+            "code": "103821000119108",
+            "display": "Pain following radiation therapy (disorder)"
+          },
+          {
+            "code": "1119216000",
+            "display": "Pain in right lumbar region of back (finding)"
+          },
+          {
+            "code": "301359009",
+            "display": "Pain of lymphoreticular structure (finding)"
+          },
+          {
+            "code": "1076771000119109",
+            "display": "Pain of left calf (finding)"
+          },
+          {
+            "code": "364760007",
+            "display": "Finding of headache character (finding)"
+          },
+          {
+            "code": "16066331000119101",
+            "display": "Pain at rest of left upper limb co-occurrent and due to atherosclerosis (disorder)"
+          },
+          {
+            "code": "193183000",
+            "display": "Acute painful neuropathy due to diabetes mellitus (disorder)"
+          },
+          {
+            "code": "81680005",
+            "display": "Neck pain (finding)"
+          },
+          {
+            "code": "51881000119109",
+            "display": "Chronic ankle pain (finding)"
+          },
+          {
+            "code": "762607008",
+            "display": "Orofacial neuropathic pain (finding)"
+          },
+          {
+            "code": "5268006",
+            "display": "Mechanical dysmenorrhea (disorder)"
+          },
+          {
+            "code": "15634471000119104",
+            "display": "Bilateral calf pain (finding)"
+          },
+          {
+            "code": "838412000",
+            "display": "Pain in lumbar region on palpation (finding)"
+          },
+          {
+            "code": "298929004",
+            "display": "Elbow joint - painful on movement (finding)"
+          },
+          {
+            "code": "129511000119105",
+            "display": "Chronic pain in coccyx for more than three months (finding)"
+          },
+          {
+            "code": "301362007",
+            "display": "Pain of digestive structure (finding)"
+          },
+          {
+            "code": "11996561000119108",
+            "display": "Pain of amputation stump of left lower limb (finding)"
+          },
+          {
+            "code": "102831002",
+            "display": "Renal angle pain (finding)"
+          },
+          {
+            "code": "54981004",
+            "display": "Charleyhorse (finding)"
+          },
+          {
+            "code": "4473006",
+            "display": "Migraine with aura (disorder)"
+          },
+          {
+            "code": "1076741000119102",
+            "display": "Pain in right thumb (finding)"
+          },
+          {
+            "code": "426628005",
+            "display": "Chronic vaginal pain (finding)"
+          },
+          {
+            "code": "162309007",
+            "display": "Shooting headache (finding)"
+          },
+          {
+            "code": "443095000",
+            "display": "Hemicrania continua (disorder)"
+          },
+          {
+            "code": "15917091000119109",
+            "display": "Pain of right elbow joint (finding)"
+          },
+          {
+            "code": "230471006",
+            "display": "Chronic tension-type headache (disorder)"
+          },
+          {
+            "code": "468271000124102",
+            "display": "Pain of bilateral knee regions (finding)"
+          },
+          {
+            "code": "15640221000119106",
+            "display": "Pain co-occurrent and due to varicose veins of right leg (disorder)"
+          },
+          {
+            "code": "422136003",
+            "display": "Neuralgia associated with acquired immunodeficiency syndrome (disorder)"
+          },
+          {
+            "code": "429531000",
+            "display": "Pain on passive stretch of joint (finding)"
+          },
+          {
+            "code": "16002631000119108",
+            "display": "Pain of right hand due to and following cerebrovascular accident (disorder)"
+          },
+          {
+            "code": "11114002",
+            "display": "Sore gums (finding)"
+          },
+          {
+            "code": "267096005",
+            "display": "Frontal headache (finding)"
+          },
+          {
+            "code": "247411000",
+            "display": "Talking painful (finding)"
+          },
+          {
+            "code": "713829001",
+            "display": "Postinfective intercostal neuralgia (disorder)"
+          },
+          {
+            "code": "12237191000119103",
+            "display": "Intermittent claudication of right lower limb co-occurrent and due to atherosclerosis (finding)"
+          },
+          {
+            "code": "371808007",
+            "display": "Recurrent angina status post percutaneous transluminal coronary angioplasty (disorder)"
+          },
+          {
+            "code": "15917011000119100",
+            "display": "Pain of right shoulder joint (finding)"
+          },
+          {
+            "code": "247412007",
+            "display": "Labor pain (finding)"
+          },
+          {
+            "code": "73501001",
+            "display": "Painful pigmented pressure papules (disorder)"
+          },
+          {
+            "code": "14049007",
+            "display": "Chaussier's sign (finding)"
+          },
+          {
+            "code": "2733002",
+            "display": "Heel pain (finding)"
+          },
+          {
+            "code": "36031001",
+            "display": "Burning feet (finding)"
+          },
+          {
+            "code": "291761000119107",
+            "display": "Complex regional pain syndrome type II of left upper limb (disorder)"
+          },
+          {
+            "code": "722829006",
+            "display": "Acute pain of scrotum (finding)"
+          },
+          {
+            "code": "274665008",
+            "display": "Chronic intractable pain (finding)"
+          },
+          {
+            "code": "301754002",
+            "display": "Right lower quadrant pain (finding)"
+          },
+          {
+            "code": "16839401000119104",
+            "display": "Low back pain co-occurrent with neuralgia of left sciatic nerve (disorder)"
+          },
+          {
+            "code": "58250006",
+            "display": "Scalding pain on urination (finding)"
+          },
+          {
+            "code": "426396005",
+            "display": "Cardiac chest pain (finding)"
+          },
+          {
+            "code": "301354004",
+            "display": "Pain of ear structure (finding)"
+          },
+          {
+            "code": "706955002",
+            "display": "Pain relieved by analgesic (finding)"
+          },
+          {
+            "code": "15743201000119101",
+            "display": "Pain of joint of right lower leg (finding)"
+          },
+          {
+            "code": "1076721000119108",
+            "display": "Joint pain in right hand (finding)"
+          },
+          {
+            "code": "230475002",
+            "display": "Chronic cluster headache evolved from episodic cluster headache (disorder)"
+          },
+          {
+            "code": "287045000",
+            "display": "Pain in left arm (finding)"
+          },
+          {
+            "code": "162038003",
+            "display": "Non-colicky abdominal pain (finding)"
+          },
+          {
+            "code": "33563008",
+            "display": "Essential vulvodynia (disorder)"
+          },
+          {
+            "code": "12242431000119109",
+            "display": "Mastodynia of bilateral breasts (finding)"
+          },
+          {
+            "code": "194823009",
+            "display": "Acute coronary insufficiency (disorder)"
+          },
+          {
+            "code": "1010235008",
+            "display": "Pain of left breast (finding)"
+          },
+          {
+            "code": "301373000",
+            "display": "Tiring with pain (finding)"
+          },
+          {
+            "code": "35496009",
+            "display": "Femoral neuralgia (finding)"
+          },
+          {
+            "code": "16002591000119108",
+            "display": "Pain of left hand due to and following cerebrovascular accident (disorder)"
+          },
+          {
+            "code": "774136009",
+            "display": "Pain of right acromioclavicular joint (finding)"
+          },
+          {
+            "code": "425781002",
+            "display": "Pain provoked by running (finding)"
+          },
+          {
+            "code": "298254008",
+            "display": "Thoracic facet joint pain (finding)"
+          },
+          {
+            "code": "16442181000119104",
+            "display": "Periorbital pain of right eye (finding)"
+          },
+          {
+            "code": "9972008",
+            "display": "Radiating pain (finding)"
+          },
+          {
+            "code": "309767001",
+            "display": "Pain due to knee joint prosthesis (disorder)"
+          },
+          {
+            "code": "427146008",
+            "display": "Pain provoked by coughing (finding)"
+          },
+          {
+            "code": "15749801000119104",
+            "display": "Chronic pain of bilateral feet (finding)"
+          },
+          {
+            "code": "267981009",
+            "display": "Pain in thoracic spine (finding)"
+          },
+          {
+            "code": "21615003",
+            "display": "Autonomic facial cephalgia (disorder)"
+          },
+          {
+            "code": "240044003",
+            "display": "Fibrositis and nodular fasciitis (disorder)"
+          },
+          {
+            "code": "239176002",
+            "display": "Post-mastectomy pain (finding)"
+          },
+          {
+            "code": "95655001",
+            "display": "Ophthalmic migraine (disorder)"
+          },
+          {
+            "code": "32096006",
+            "display": "Secondary dysmenorrhea (disorder)"
+          },
+          {
+            "code": "427075000",
+            "display": "Pain radiating to upper abdomen (finding)"
+          },
+          {
+            "code": "247410004",
+            "display": "Painful cough (finding)"
+          },
+          {
+            "code": "316851000119102",
+            "display": "Pain of left wrist (finding)"
+          },
+          {
+            "code": "74123003",
+            "display": "Otogenic otalgia (finding)"
+          },
+          {
+            "code": "95388000",
+            "display": "Injection site pain (disorder)"
+          },
+          {
+            "code": "437931000124100",
+            "display": "Chronic migraine without aura, non-refractory (disorder)"
+          },
+          {
+            "code": "307225003",
+            "display": "Perianal pain (finding)"
+          },
+          {
+            "code": "62171003",
+            "display": "Plantar heel pain (finding)"
+          },
+          {
+            "code": "431481001",
+            "display": "Chronic pain due to injury (finding)"
+          },
+          {
+            "code": "247354009",
+            "display": "Iliac fossa pain (finding)"
+          },
+          {
+            "code": "291771000119101",
+            "display": "Complex regional pain syndrome type II of right upper limb (disorder)"
+          },
+          {
+            "code": "15740841000119107",
+            "display": "Neuralgia of right upper limb (disorder)"
+          },
+          {
+            "code": "316781000119100",
+            "display": "Pain of left hip joint (finding)"
+          },
+          {
+            "code": "373621006",
+            "display": "Chronic pain syndrome (disorder)"
+          },
+          {
+            "code": "52598005",
+            "display": "Rest pain (finding)"
+          },
+          {
+            "code": "15629981000119109",
+            "display": "Right inguinal pain (finding)"
+          },
+          {
+            "code": "63901009",
+            "display": "Pain in testicle (finding)"
+          },
+          {
+            "code": "278862001",
+            "display": "Acute low back pain (finding)"
+          },
+          {
+            "code": "15740881000119102",
+            "display": "Neuralgia of left upper limb (disorder)"
+          },
+          {
+            "code": "712752004",
+            "display": "Myalgia of pelvic floor (finding)"
+          },
+          {
+            "code": "50510006",
+            "display": "Painful piezogenic pedal papules (disorder)"
+          },
+          {
+            "code": "298731003",
+            "display": "Pain of sternum (finding)"
+          },
+          {
+            "code": "425677008",
+            "display": "Pain radiating to left arm (finding)"
+          },
+          {
+            "code": "202491008",
+            "display": "Subtalar joint pain (finding)"
+          },
+          {
+            "code": "230461009",
+            "display": "Headache disorder (disorder)"
+          },
+          {
+            "code": "12247851000119103",
+            "display": "Bilateral elbow joint pain (finding)"
+          },
+          {
+            "code": "12349003",
+            "display": "Danforth's sign (finding)"
+          },
+          {
+            "code": "12400261000119105",
+            "display": "Chronic pain following left total knee arthroplasty (finding)"
+          },
+          {
+            "code": "298857005",
+            "display": "Shoulder joint painful on movement (finding)"
+          },
+          {
+            "code": "60043000",
+            "display": "Midabdominal crampy pain (finding)"
+          },
+          {
+            "code": "426469008",
+            "display": "Pain radiating to left leg (finding)"
+          },
+          {
+            "code": "12237231000119107",
+            "display": "Pain at rest of right lower limb co-occurrent and due to atherosclerosis (disorder)"
+          },
+          {
+            "code": "18876004",
+            "display": "Pain in finger (finding)"
+          },
+          {
+            "code": "6548007",
+            "display": "Rectal tenesmus (finding)"
+          },
+          {
+            "code": "277285005",
+            "display": "Thalamic pain (finding)"
+          },
+          {
+            "code": "409668002",
+            "display": "Photophobia (finding)"
+          },
+          {
+            "code": "698749006",
+            "display": "Pain on flushing of implanted venous access device (finding)"
+          },
+          {
+            "code": "371810009",
+            "display": "Recurrent angina status post coronary artery bypass graft (disorder)"
+          },
+          {
+            "code": "247395007",
+            "display": "Genitofemoral nerve neuralgia (finding)"
+          },
+          {
+            "code": "162307009",
+            "display": "Aching headache (finding)"
+          },
+          {
+            "code": "247398009",
+            "display": "Neuropathic pain (finding)"
+          },
+          {
+            "code": "20793008",
+            "display": "Scapulalgia (finding)"
+          },
+          {
+            "code": "17329003",
+            "display": "Ureteric colic (finding)"
+          },
+          {
+            "code": "726531007",
+            "display": "Myofascial pain syndrome (disorder)"
+          },
+          {
+            "code": "708020008",
+            "display": "Pain in lower limb on elevation (finding)"
+          },
+          {
+            "code": "301361000",
+            "display": "Pain of oral cavity structure (finding)"
+          },
+          {
+            "code": "279037009",
+            "display": "Thoracic segmental dysfunction (finding)"
+          },
+          {
+            "code": "427668002",
+            "display": "Pain radiating to middle abdomen (finding)"
+          },
+          {
+            "code": "410720000",
+            "display": "Pain by sensation quality (finding)"
+          },
+          {
+            "code": "271681002",
+            "display": "Stomach ache (finding)"
+          },
+          {
+            "code": "61490001",
+            "display": "Angina, class I (disorder)"
+          },
+          {
+            "code": "408751001",
+            "display": "Complex regional pain syndrome, type II (disorder)"
+          },
+          {
+            "code": "16014031000119109",
+            "display": "Intermittent claudication of left lower limb co-occurrent and due to atherosclerosis of bypass graft (disorder)"
+          },
+          {
+            "code": "468251000124107",
+            "display": "Pain of left knee joint (finding)"
+          },
+          {
+            "code": "316911000119109",
+            "display": "Pain in right hand (finding)"
+          },
+          {
+            "code": "247419003",
+            "display": "Deep pain on intercourse (finding)"
+          },
+          {
+            "code": "271832001",
+            "display": "Flatulence, eructation and gas pain (finding)"
+          },
+          {
+            "code": "51741000119105",
+            "display": "Acute ankle pain (finding)"
+          },
+          {
+            "code": "782756008",
+            "display": "Familial episodic pain syndrome (disorder)"
+          },
+          {
+            "code": "425365009",
+            "display": "Refractory migraine variants (disorder)"
+          },
+          {
+            "code": "2237002",
+            "display": "Pleuritic pain (finding)"
+          },
+          {
+            "code": "762604001",
+            "display": "Chronic secondary facial pain (finding)"
+          },
+          {
+            "code": "6561007",
+            "display": "Pain in urethra (finding)"
+          },
+          {
+            "code": "271853005",
+            "display": "Hypochondrial pain (finding)"
+          },
+          {
+            "code": "16002911000119108",
+            "display": "Chronic pain of left foot (finding)"
+          },
+          {
+            "code": "41021005",
+            "display": "Psychologic dyspareunia (disorder)"
+          },
+          {
+            "code": "20361002",
+            "display": "Alteration in comfort: pain (finding)"
+          },
+          {
+            "code": "426555006",
+            "display": "Pain radiating to jaw (finding)"
+          },
+          {
+            "code": "3061000119102",
+            "display": "Chronic nonmalignant pain (finding)"
+          },
+          {
+            "code": "35678005",
+            "display": "Multiple joint pain (finding)"
+          },
+          {
+            "code": "288230000",
+            "display": "Myalgia/myositis -pelvis/thigh (finding)"
+          },
+          {
+            "code": "737305006",
+            "display": "Primary chronic pain (disorder)"
+          },
+          {
+            "code": "162040008",
+            "display": "Abdominal migraine - symptom (finding)"
+          },
+          {
+            "code": "266599000",
+            "display": "Dysmenorrhea (disorder)"
+          },
+          {
+            "code": "271843009",
+            "display": "Painful straining for stool (finding)"
+          },
+          {
+            "code": "202480001",
+            "display": "Elbow joint pain (finding)"
+          },
+          {
+            "code": "86345004",
+            "display": "Bertolotti's syndrome (disorder)"
+          },
+          {
+            "code": "299633000",
+            "display": "Toe joint painful on movement (finding)"
+          },
+          {
+            "code": "292521000119104",
+            "display": "Neuralgia of nerve of right lower limb (finding)"
+          },
+          {
+            "code": "1156105001",
+            "display": "Pain in sacrum (finding)"
+          },
+          {
+            "code": "49605003",
+            "display": "Ophthalmoplegic migraine (disorder)"
+          },
+          {
+            "code": "301382006",
+            "display": "Distressing present pain (finding)"
+          },
+          {
+            "code": "37151006",
+            "display": "Erythromelalgia (disorder)"
+          },
+          {
+            "code": "274671002",
+            "display": "Pelvic and perineal pain (finding)"
+          },
+          {
+            "code": "240271006",
+            "display": "Persistent prosthetic joint pain (disorder)"
+          },
+          {
+            "code": "267954009",
+            "display": "Arthralgia of the ankle and/or foot (finding)"
+          },
+          {
+            "code": "230538005",
+            "display": "Secondary trigeminal neuralgia (disorder)"
+          },
+          {
+            "code": "301383001",
+            "display": "Horrible present pain (finding)"
+          },
+          {
+            "code": "316841000119104",
+            "display": "Pain of left upper arm (finding)"
+          },
+          {
+            "code": "230479008",
+            "display": "Post dural puncture headache (disorder)"
+          },
+          {
+            "code": "314716005",
+            "display": "Acute pelvic pain (finding)"
+          },
+          {
+            "code": "713412006",
+            "display": "Ischemic foot pain at rest (finding)"
+          },
+          {
+            "code": "95417003",
+            "display": "Primary fibromyalgia syndrome (disorder)"
+          },
+          {
+            "code": "426566004",
+            "display": "Central pain syndrome (disorder)"
+          },
+          {
+            "code": "78514002",
+            "display": "Thigh pain (finding)"
+          },
+          {
+            "code": "89751008",
+            "display": "Sexual pain disorder (disorder)"
+          },
+          {
+            "code": "162042000",
+            "display": "Abdominal wall pain (finding)"
+          },
+          {
+            "code": "434011000124101",
+            "display": "Chronic chest pain (finding)"
+          },
+          {
+            "code": "74704000",
+            "display": "Abdominal pain through to back (finding)"
+          },
+          {
+            "code": "735937001",
+            "display": "Acute pain in face (finding)"
+          },
+          {
+            "code": "735940001",
+            "display": "Pain of intercostal space (finding)"
+          },
+          {
+            "code": "15743681000119106",
+            "display": "Pain of bilateral shoulder blades (finding)"
+          },
+          {
+            "code": "445511002",
+            "display": "Orthostatic headache (finding)"
+          },
+          {
+            "code": "712537009",
+            "display": "Complex regional pain syndrome of upper limb (disorder)"
+          },
+          {
+            "code": "301378009",
+            "display": "Finding of present pain intensity (finding)"
+          },
+          {
+            "code": "279040009",
+            "display": "Mechanical low back pain (finding)"
+          },
+          {
+            "code": "320291000119101",
+            "display": "Neuraligia of right sciatic nerve (finding)"
+          },
+          {
+            "code": "290731000119106",
+            "display": "Idiopathic partial status epilepticus (disorder)"
+          },
+          {
+            "code": "267067009",
+            "display": "Lumbar ache - renal (finding)"
+          },
+          {
+            "code": "15916891000119103",
+            "display": "Pain of left ankle joint (finding)"
+          },
+          {
+            "code": "444899003",
+            "display": "Pain in forearm (finding)"
+          },
+          {
+            "code": "15960381000119109",
+            "display": "Angina co-occurrent and due to arteriosclerosis of coronary artery bypass graft (disorder)"
+          },
+          {
+            "code": "403390002",
+            "display": "Primary erythromelalgia (disorder)"
+          },
+          {
+            "code": "247422001",
+            "display": "Painful orgasm (finding)"
+          },
+          {
+            "code": "122051000119107",
+            "display": "Retinal status migrainosus (disorder)"
+          },
+          {
+            "code": "426483005",
+            "display": "Pain radiating to thoracic region left side (finding)"
+          },
+          {
+            "code": "23285006",
+            "display": "Painful sexual act of male (finding)"
+          },
+          {
+            "code": "15803009",
+            "display": "Bladder pain (finding)"
+          },
+          {
+            "code": "61830005",
+            "display": "Sphenopalatine neuralgia (disorder)"
+          },
+          {
+            "code": "15960061000119102",
+            "display": "Unstable angina co-occurrent and due to coronary arteriosclerosis (disorder)"
+          },
+          {
+            "code": "1144586002",
+            "display": "Increased pain (finding)"
+          },
+          {
+            "code": "102616008",
+            "display": "Painful mouth (finding)"
+          },
+          {
+            "code": "102628000",
+            "display": "Gallbladder pain (finding)"
+          },
+          {
+            "code": "47933007",
+            "display": "Foot pain (finding)"
+          },
+          {
+            "code": "16002551000119103",
+            "display": "Pain of left upper limb co-occurrent and due to ischemia (disorder)"
+          },
+          {
+            "code": "53057004",
+            "display": "Hand pain (finding)"
+          },
+          {
+            "code": "290541000119106",
+            "display": "Intractable episodic tension-type headache (disorder)"
+          },
+          {
+            "code": "762239006",
+            "display": "Myofascial pain with referral (finding)"
+          },
+          {
+            "code": "301358001",
+            "display": "Pain of cardiovascular structure (finding)"
+          },
+          {
+            "code": "95670000",
+            "display": "Nervus intermedius neuralgia (disorder)"
+          },
+          {
+            "code": "197232005",
+            "display": "Anorectal pain (finding)"
+          },
+          {
+            "code": "102587001",
+            "display": "Acute chest pain (finding)"
+          },
+          {
+            "code": "95660002",
+            "display": "Thunderclap headache (disorder)"
+          },
+          {
+            "code": "12400301000119102",
+            "display": "Chronic pain following right total hip arthroplasty (finding)"
+          },
+          {
+            "code": "713831005",
+            "display": "Postinfective peripheral neuralgia (disorder)"
+          },
+          {
+            "code": "316831000119108",
+            "display": "Pain of toe of left foot (finding)"
+          },
+          {
+            "code": "427653003",
+            "display": "Pain radiating to right leg (finding)"
+          },
+          {
+            "code": "247415009",
+            "display": "Painful lactation (finding)"
+          },
+          {
+            "code": "175004",
+            "display": "Supraorbital neuralgia (finding)"
+          },
+          {
+            "code": "25416002",
+            "display": "Peripheral neuralgia (finding)"
+          },
+          {
+            "code": "792844003",
+            "display": "Limb pain at rest due to atherosclerosis of artery of lower limb (disorder)"
+          },
+          {
+            "code": "762601009",
+            "display": "Chronic visceral pain due to persistent inflammation (disorder)"
+          },
+          {
+            "code": "1076801000119106",
+            "display": "Pain of joint of left foot (finding)"
+          },
+          {
+            "code": "202481002",
+            "display": "Distal radioulnar joint pain (finding)"
+          },
+          {
+            "code": "17974002",
+            "display": "Post-herpetic trigeminal neuralgia (disorder)"
+          },
+          {
+            "code": "275488008",
+            "display": "Sore throat - chronic (finding)"
+          },
+          {
+            "code": "48926009",
+            "display": "Pain in spine (finding)"
+          },
+          {
+            "code": "41413006",
+            "display": "Temporal headache (finding)"
+          },
+          {
+            "code": "714252004",
+            "display": "Post-mastectomy chronic pain syndrome (disorder)"
+          },
+          {
+            "code": "16002751000119106",
+            "display": "Pain of bilateral upper limbs co-occurrent and due to ischemia (disorder)"
+          },
+          {
+            "code": "762599007",
+            "display": "Chronic mechanical visceral pain (disorder)"
+          },
+          {
+            "code": "72771000119107",
+            "display": "Postpartum episiotomy pain (finding)"
+          },
+          {
+            "code": "83132003",
+            "display": "Upper abdominal pain (finding)"
+          },
+          {
+            "code": "279001004",
+            "display": "Pain finding at anatomical site (finding)"
+          },
+          {
+            "code": "85879003",
+            "display": "Secondary fibrositis (disorder)"
+          },
+          {
+            "code": "1156446004",
+            "display": "Demonstrates adequate pain control (finding)"
+          },
+          {
+            "code": "102588006",
+            "display": "Chest wall pain (finding)"
+          },
+          {
+            "code": "279021003",
+            "display": "Epididymal pain (finding)"
+          },
+          {
+            "code": "733826000",
+            "display": "Pain due to fracture (finding)"
+          },
+          {
+            "code": "54586004",
+            "display": "Lower abdominal pain (finding)"
+          },
+          {
+            "code": "83351003",
+            "display": "Basilar migraine (disorder)"
+          },
+          {
+            "code": "292531000119101",
+            "display": "Neuralgia of nerve of left lower limb (finding)"
+          },
+          {
+            "code": "249196008",
+            "display": "Distress from pain in labor (disorder)"
+          },
+          {
+            "code": "371807002",
+            "display": "Atypical angina (disorder)"
+          },
+          {
+            "code": "291781000119103",
+            "display": "Complex regional pain syndrome type II of left lower limb (disorder)"
+          },
+          {
+            "code": "122751000119105",
+            "display": "Acute posttraumatic headache (finding)"
+          },
+          {
+            "code": "277286006",
+            "display": "Central post-stroke pain (finding)"
+          },
+          {
+            "code": "1137438000",
+            "display": "Pain due to arthritis (finding)"
+          },
+          {
+            "code": "15960781000119108",
+            "display": "Angina co-occurrent and due to arteriosclerosis of autologous arterial coronary artery bypass graft (disorder)"
+          },
+          {
+            "code": "762589002",
+            "display": "Chronic primary visceral pain (disorder)"
+          },
+          {
+            "code": "468231000124100",
+            "display": "Pain of right knee joint (finding)"
+          },
+          {
+            "code": "297217002",
+            "display": "Rib pain (finding)"
+          },
+          {
+            "code": "12240311000119107",
+            "display": "Pain of right temporomandibular joint (finding)"
+          },
+          {
+            "code": "426976009",
+            "display": "Pain provoked by breathing (finding)"
+          },
+          {
+            "code": "292311000119101",
+            "display": "Neuralgia of left iliohypogastric nerve (finding)"
+          },
+          {
+            "code": "247414008",
+            "display": "After pains (finding)"
+          },
+          {
+            "code": "1076791000119105",
+            "display": "Pain in right heel (finding)"
+          },
+          {
+            "code": "712826000",
+            "display": "Intermittent headache (finding)"
+          },
+          {
+            "code": "201311005",
+            "display": "Painful operation scar (finding)"
+          },
+          {
+            "code": "192029008",
+            "display": "Psychogenic backache (disorder)"
+          },
+          {
+            "code": "240107001",
+            "display": "Viral myalgia (disorder)"
+          },
+          {
+            "code": "298012000",
+            "display": "Wound pain (finding)"
+          },
+          {
+            "code": "10000006",
+            "display": "Radiating chest pain (finding)"
+          },
+          {
+            "code": "571000119103",
+            "display": "Daily headache (disorder)"
+          },
+          {
+            "code": "16013711000119104",
+            "display": "Intermittent claudication of right lower limb co-occurrent and due to atherosclerosis of bypass graft (disorder)"
+          },
+          {
+            "code": "21621000119107",
+            "display": "Pain in female perineum (finding)"
+          },
+          {
+            "code": "1076761000119103",
+            "display": "Pain of right calf (finding)"
+          },
+          {
+            "code": "399194009",
+            "display": "Disorder characterized by back pain (disorder)"
+          },
+          {
+            "code": "371094000",
+            "display": "Colicky hypogastric pain (finding)"
+          },
+          {
+            "code": "762600005",
+            "display": "Chronic visceral pain due to vascular disorder (disorder)"
+          },
+          {
+            "code": "441711008",
+            "display": "Chronic psychogenic pain (disorder)"
+          },
+          {
+            "code": "4151000119102",
+            "display": "Facial neuralgia (finding)"
+          },
+          {
+            "code": "66695004",
+            "display": "Acrodynia due to mercury poisoning (disorder)"
+          },
+          {
+            "code": "231515001",
+            "display": "Hypochondriacal pain (disorder)"
+          },
+          {
+            "code": "16442221000119107",
+            "display": "Periorbital pain of bilateral eyes (finding)"
+          },
+          {
+            "code": "7921000119104",
+            "display": "Anterior pleuritic pain (finding)"
+          },
+          {
+            "code": "6617009",
+            "display": "Referred pain (finding)"
+          },
+          {
+            "code": "42561004",
+            "display": "Reminiscent neuralgia (finding)"
+          },
+          {
+            "code": "7093002",
+            "display": "Renal colic (finding)"
+          },
+          {
+            "code": "762594002",
+            "display": "Chronic pain following surgical procedure for cancer (disorder)"
+          },
+          {
+            "code": "15634551000119109",
+            "display": "Pain of bilateral hands (finding)"
+          },
+          {
+            "code": "82991003",
+            "display": "Generalized aches and pains (finding)"
+          },
+          {
+            "code": "16058511000119105",
+            "display": "Complex regional pain syndrome type 2 of bilateral upper limbs (disorder)"
+          },
+          {
+            "code": "608831003",
+            "display": "Thoracic discogenic pain (disorder)"
+          },
+          {
+            "code": "713847007",
+            "display": "Post-surgery obturator neuralgia (disorder)"
+          },
+          {
+            "code": "46960006",
+            "display": "Lumbago-sciatica due to displacement of lumbar intervertebral disc (disorder)"
+          },
+          {
+            "code": "14150005",
+            "display": "Alteration in comfort: chronic pain (finding)"
+          },
+          {
+            "code": "734987002",
+            "display": "Complex regional pain syndrome of foot (disorder)"
+          },
+          {
+            "code": "289732000",
+            "display": "Painful uterine contractions (finding)"
+          },
+          {
+            "code": "75938008",
+            "display": "Alimentary tract pain due to vascular insufficiency (disorder)"
+          },
+          {
+            "code": "425834005",
+            "display": "Pain radiating to right flank (finding)"
+          },
+          {
+            "code": "316921000119102",
+            "display": "Pain in right hip joint (finding)"
+          },
+          {
+            "code": "425746004",
+            "display": "Pain provoked by light (finding)"
+          },
+          {
+            "code": "21470009",
+            "display": "Syncope anginosa (disorder)"
+          },
+          {
+            "code": "22253000",
+            "display": "Pain (finding)"
+          },
+          {
+            "code": "281245003",
+            "display": "Musculoskeletal chest pain (finding)"
+          },
+          {
+            "code": "298255009",
+            "display": "Pain on joint movement (finding)"
+          },
+          {
+            "code": "782661001",
+            "display": "Chronic sacroiliac joint pain (finding)"
+          },
+          {
+            "code": "1149085006",
+            "display": "Satisfied with management of pain (finding)"
+          },
+          {
+            "code": "247400008",
+            "display": "Painful arms and moving fingers (disorder)"
+          },
+          {
+            "code": "287048003",
+            "display": "Pain in right lower limb (finding)"
+          },
+          {
+            "code": "762603007",
+            "display": "Chronic peripheral neuropathic pain (finding)"
+          },
+          {
+            "code": "15634591000119104",
+            "display": "Pain of bilateral upper limbs (finding)"
+          },
+          {
+            "code": "95367009",
+            "display": "Application site pain (finding)"
+          },
+          {
+            "code": "83644001",
+            "display": "Dull pain (finding)"
+          },
+          {
+            "code": "230464001",
+            "display": "Non-familial hemiplegic migraine (disorder)"
+          },
+          {
+            "code": "301241000119107",
+            "display": "Repetitive strain injury of right ankle (disorder)"
+          },
+          {
+            "code": "425473004",
+            "display": "Pain radiating to left shoulder (finding)"
+          },
+          {
+            "code": "299377003",
+            "display": "Knee joint painful on movement (finding)"
+          },
+          {
+            "code": "200072008",
+            "display": "Spinal and epidural anesthesia-induced headache during pregnancy (disorder)"
+          },
+          {
+            "code": "301368006",
+            "display": "Left hypochondrial pain (finding)"
+          },
+          {
+            "code": "865971002",
+            "display": "Pain on tooth percussion (finding)"
+          },
+          {
+            "code": "12242551000119102",
+            "display": "Pain in left sacroiliac joint (finding)"
+          },
+          {
+            "code": "95794005",
+            "display": "Tolosa-Hunt syndrome (disorder)"
+          },
+          {
+            "code": "230470007",
+            "display": "Episodic tension-type headache (disorder)"
+          },
+          {
+            "code": "95421005",
+            "display": "Intercostal myalgia (finding)"
+          },
+          {
+            "code": "95415006",
+            "display": "Polymyalgia (disorder)"
+          },
+          {
+            "code": "202472008",
+            "display": "Hand joint pain (finding)"
+          },
+          {
+            "code": "76821002",
+            "display": "Epidemic cervical myalgia (disorder)"
+          },
+          {
+            "code": "29857009",
+            "display": "Chest pain (finding)"
+          },
+          {
+            "code": "427304006",
+            "display": "Finding of response to pain (finding)"
+          },
+          {
+            "code": "230472004",
+            "display": "Episodic cluster headache (disorder)"
+          },
+          {
+            "code": "838411007",
+            "display": "Pain in abdominal region on palpation (finding)"
+          },
+          {
+            "code": "301376008",
+            "display": "Fearful with pain (finding)"
+          },
+          {
+            "code": "291951000119108",
+            "display": "Right-sided piriformis syndrome (disorder)"
+          },
+          {
+            "code": "702549002",
+            "display": "Centrally mediated myalgia (finding)"
+          },
+          {
+            "code": "279098001",
+            "display": "Crushing pain (finding)"
+          },
+          {
+            "code": "230574001",
+            "display": "Acute painful polyneuropathy due to diabetes mellitus (disorder)"
+          },
+          {
+            "code": "285385002",
+            "display": "Left sided chest pain (finding)"
+          },
+          {
+            "code": "202496003",
+            "display": "Lesser metatarsophalangeal joint pain (finding)"
+          },
+          {
+            "code": "449814007",
+            "display": "Trigeminal autonomic cephalalgia (disorder)"
+          },
+          {
+            "code": "16206661000119108",
+            "display": "Reflex sympathetic dystrophy of bilateral upper limbs (disorder)"
+          },
+          {
+            "code": "12236951000119108",
+            "display": "Intermittent claudication of bilateral lower limbs co-occurrent and due to atherosclerosis (finding)"
+          },
+          {
+            "code": "12242071000119103",
+            "display": "Left trigeminal neuralgia (disorder)"
+          },
+          {
+            "code": "203509009",
+            "display": "Clavicle pain (finding)"
+          },
+          {
+            "code": "274666009",
+            "display": "Face ache (finding)"
+          },
+          {
+            "code": "762353009",
+            "display": "Acute headache due to traumatic injury of head (disorder)"
+          },
+          {
+            "code": "103016004",
+            "display": "Lumbosacral nerve root pain (finding)"
+          },
+          {
+            "code": "12240271000119107",
+            "display": "Pain of left temporomandibular joint (finding)"
+          },
+          {
+            "code": "1003721002",
+            "display": "Pain of joint of knee (finding)"
+          },
+          {
+            "code": "279050005",
+            "display": "Post-herniorraphy pain (finding)"
+          },
+          {
+            "code": "12584003",
+            "display": "Bone pain (finding)"
+          },
+          {
+            "code": "247382002",
+            "display": "Urinary tract pain (finding)"
+          },
+          {
+            "code": "90834002",
+            "display": "Pain in limb (finding)"
+          },
+          {
+            "code": "53430007",
+            "display": "Pain of breast (finding)"
+          },
+          {
+            "code": "4969004",
+            "display": "Sinus headache (finding)"
+          },
+          {
+            "code": "301360004",
+            "display": "Pain of lymph node (finding)"
+          },
+          {
+            "code": "23096007",
+            "display": "Cranial neuralgia (disorder)"
+          },
+          {
+            "code": "63491006",
+            "display": "Intermittent claudication (finding)"
+          },
+          {
+            "code": "449890002",
+            "display": "Functional abdominal pain syndrome (disorder)"
+          },
+          {
+            "code": "71303008",
+            "display": "Atypical facial pain (finding)"
+          },
+          {
+            "code": "418237007",
+            "display": "Pain in hallux (finding)"
+          },
+          {
+            "code": "279053007",
+            "display": "Sympathetically maintained pain (finding)"
+          },
+          {
+            "code": "279063004",
+            "display": "Lumbar facet joint pain (finding)"
+          },
+          {
+            "code": "403391003",
+            "display": "Secondary erythromelalgia (disorder)"
+          },
+          {
+            "code": "301379001",
+            "display": "No present pain (finding)"
+          },
+          {
+            "code": "12242591000119107",
+            "display": "Pain in right sacroiliac joint (finding)"
+          },
+          {
+            "code": "136051000119105",
+            "display": "Abdominal colic in child less than or equal to 12 months (finding)"
+          },
+          {
+            "code": "303081002",
+            "display": "Neurogenic claudication (finding)"
+          },
+          {
+            "code": "102482005",
+            "display": "Growing pains (finding)"
+          },
+          {
+            "code": "4568003",
+            "display": "Retrosternal pain (finding)"
+          },
+          {
+            "code": "237477007",
+            "display": "Pain from breast implant (disorder)"
+          },
+          {
+            "code": "102555004",
+            "display": "Neck pain aggravated by recumbency (finding)"
+          },
+          {
+            "code": "762605000",
+            "display": "Chronic secondary oral pain (finding)"
+          },
+          {
+            "code": "289669005",
+            "display": "Pain of uterus (finding)"
+          },
+          {
+            "code": "788465007",
+            "display": "Repetitive motion disorder (disorder)"
+          },
+          {
+            "code": "135860001",
+            "display": "Exacerbation of backache (finding)"
+          },
+          {
+            "code": "124041000119102",
+            "display": "Intractable hemiplegic migraine (disorder)"
+          },
+          {
+            "code": "16442141000119109",
+            "display": "Periorbital pain of left eye (finding)"
+          },
+          {
+            "code": "288228002",
+            "display": "Myalgia/myositis - forearm (finding)"
+          },
+          {
+            "code": "397618002",
+            "display": "Demonstrates adequate pain control throughout the perioperative period (finding)"
+          },
+          {
+            "code": "73645008",
+            "display": "Visceral pain (finding)"
+          },
+          {
+            "code": "103012002",
+            "display": "Analgesic overuse headache (finding)"
+          },
+          {
+            "code": "162356005",
+            "display": "Earache symptom (finding)"
+          },
+          {
+            "code": "428926002",
+            "display": "Pain onset at rest (finding)"
+          },
+          {
+            "code": "320281000119104",
+            "display": "Neuraligia of left sciatic nerve (finding)"
+          },
+          {
+            "code": "288225004",
+            "display": "Myalgia/myositis - multiple (finding)"
+          },
+          {
+            "code": "12242111000119105",
+            "display": "Right trigeminal neuralgia (disorder)"
+          },
+          {
+            "code": "55406008",
+            "display": "Hyperalgesia (finding)"
+          },
+          {
+            "code": "271857006",
+            "display": "Loin pain (finding)"
+          },
+          {
+            "code": "426277009",
+            "display": "Pain provoked by eating (finding)"
+          },
+          {
+            "code": "301370002",
+            "display": "Finding of sensory dimension of pain (finding)"
+          },
+          {
+            "code": "292481000119104",
+            "display": "Neuralgia of right pudendal nerve (finding)"
+          },
+          {
+            "code": "162053006",
+            "display": "Suprapubic pain (finding)"
+          },
+          {
+            "code": "112102006",
+            "display": "Atypical neuralgia (finding)"
+          },
+          {
+            "code": "77880009",
+            "display": "Rectal pain (finding)"
+          },
+          {
+            "code": "16066531000119106",
+            "display": "Pain at rest of right upper limb co-occurrent and due to atherosclerosis (disorder)"
+          },
+          {
+            "code": "43242008",
+            "display": "Drug withdrawal headache (finding)"
+          },
+          {
+            "code": "16014071000119107",
+            "display": "Intermittent claudication of bilateral lower limbs co-occurrent and due to atherosclerosis of bypass graft (disorder)"
+          },
+          {
+            "code": "736447000",
+            "display": "Infrequent episodic arthralgia of temporomandibular joint (disorder)"
+          },
+          {
+            "code": "1075331000119103",
+            "display": "Patellofemoral syndrome of right knee (disorder)"
+          },
+          {
+            "code": "279033008",
+            "display": "Post-abdominoperineal resection pain (finding)"
+          },
+          {
+            "code": "371030007",
+            "display": "Squeezing chest pain (finding)"
+          },
+          {
+            "code": "162050009",
+            "display": "Right flank pain (finding)"
+          },
+          {
+            "code": "1084561000119106",
+            "display": "Referred otalgia of bilateral ears (finding)"
+          },
+          {
+            "code": "116290004",
+            "display": "Acute abdominal pain (finding)"
+          },
+          {
+            "code": "81953000",
+            "display": "Chest pain on exertion (finding)"
+          },
+          {
+            "code": "736428003",
+            "display": "Chronic arthralgia of temporomandibular joint (disorder)"
+          },
+          {
+            "code": "608832005",
+            "display": "Lumbar discogenic pain (disorder)"
+          },
+          {
+            "code": "301171000119106",
+            "display": "Repetitive strain injury of left foot (disorder)"
+          },
+          {
+            "code": "289900009",
+            "display": "Period pain present (finding)"
+          },
+          {
+            "code": "16844001",
+            "display": "Painful urging to urinate (finding)"
+          },
+          {
+            "code": "786837007",
+            "display": "Tingling pain (finding)"
+          },
+          {
+            "code": "279020002",
+            "display": "Pain in male genitalia (finding)"
+          },
+          {
+            "code": "316761000119109",
+            "display": "Pain of left forearm (finding)"
+          },
+          {
+            "code": "14040001000004109",
+            "display": "Uncontrolled pain (finding)"
+          },
+          {
+            "code": "307177001",
+            "display": "Chronic sciatica (disorder)"
+          },
+          {
+            "code": "41624003",
+            "display": "Segmental dysfunction (finding)"
+          },
+          {
+            "code": "15916931000119106",
+            "display": "Pain of right ankle joint (finding)"
+          },
+          {
+            "code": "15916971000119109",
+            "display": "Pain of left shoulder joint (finding)"
+          },
+          {
+            "code": "287047008",
+            "display": "Pain in left lower limb (finding)"
+          },
+          {
+            "code": "230648001",
+            "display": "Abdominal cutaneous nerve entrapment syndrome (disorder)"
+          },
+          {
+            "code": "86260003",
+            "display": "Pain around eye (finding)"
+          },
+          {
+            "code": "247384001",
+            "display": "Neurological pain disorder (disorder)"
+          },
+          {
+            "code": "15630021000119102",
+            "display": "Pain of bilateral inguinal regions (finding)"
+          },
+          {
+            "code": "290251000119106",
+            "display": "Meralgia paresthetica of left leg (disorder)"
+          },
+          {
+            "code": "301773003",
+            "display": "Pain in femur (finding)"
+          },
+          {
+            "code": "230467008",
+            "display": "Status migrainosus (disorder)"
+          },
+          {
+            "code": "38343000",
+            "display": "Vaginal pain (finding)"
+          },
+          {
+            "code": "107401000119105",
+            "display": "Acute postoperative pain (finding)"
+          },
+          {
+            "code": "238968009",
+            "display": "Vulvodynia (disorder)"
+          },
+          {
+            "code": "302017001",
+            "display": "Sore eye (finding)"
+          },
+          {
+            "code": "136571000119109",
+            "display": "Adult colic (finding)"
+          },
+          {
+            "code": "16462851000119106",
+            "display": "Myalgia caused by statin (finding)"
+          },
+          {
+            "code": "162048001",
+            "display": "Right subcostal pain (finding)"
+          },
+          {
+            "code": "161973001",
+            "display": "Anterior chest wall pain (finding)"
+          },
+          {
+            "code": "12237071000119100",
+            "display": "Intermittent claudication of left lower limb co-occurrent and due to atherosclerosis (finding)"
+          },
+          {
+            "code": "707809009",
+            "display": "Pain provoked by trauma (finding)"
+          },
+          {
+            "code": "79922009",
+            "display": "Epigastric pain (finding)"
+          },
+          {
+            "code": "12265381000119102",
+            "display": "Bilateral metatarsalgia (finding)"
+          },
+          {
+            "code": "16066291000119107",
+            "display": "Pain at rest of left lower limb co-occurrent and due to atherosclerosis of bypass graft (disorder)"
+          },
+          {
+            "code": "75983009",
+            "display": "Vidian neuralgia (disorder)"
+          },
+          {
+            "code": "788475005",
+            "display": "Repetitive motion disorder of right upper arm (disorder)"
+          },
+          {
+            "code": "56608008",
+            "display": "Pain in wrist (finding)"
+          },
+          {
+            "code": "76807004",
+            "display": "Cervicobrachialgia (finding)"
+          },
+          {
+            "code": "247388003",
+            "display": "Segmental peripheral neuralgia (finding)"
+          },
+          {
+            "code": "41652007",
+            "display": "Pain in eye (finding)"
+          },
+          {
+            "code": "65754002",
+            "display": "Primary dysmenorrhea (disorder)"
+          },
+          {
+            "code": "59021001",
+            "display": "Angina decubitus (disorder)"
+          },
+          {
+            "code": "15634511000119108",
+            "display": "Pain in bilateral legs (finding)"
+          },
+          {
+            "code": "442236004",
+            "display": "Pain in testicle as late effect of injury to testicle (disorder)"
+          },
+          {
+            "code": "717253001",
+            "display": "Drilling quality pain (finding)"
+          },
+          {
+            "code": "213134006",
+            "display": "Pain due to internal prosthetic device (disorder)"
+          },
+          {
+            "code": "109771000119103",
+            "display": "Chronic postoperative pain (finding)"
+          },
+          {
+            "code": "87343002",
+            "display": "Prinzmetal angina (disorder)"
+          },
+          {
+            "code": "162505000",
+            "display": "Tightening pain (finding)"
+          },
+          {
+            "code": "15743561000119103",
+            "display": "Chronic pain of left upper limb (finding)"
+          },
+          {
+            "code": "301251000119109",
+            "display": "Repetitive strain injury of right foot (disorder)"
+          },
+          {
+            "code": "706883004",
+            "display": "Pain due to varicose veins of lower extremity (finding)"
+          },
+          {
+            "code": "121881000119102",
+            "display": "Intractable allergic migraine (disorder)"
+          },
+          {
+            "code": "299199000",
+            "display": "Thumb joint painful on movement (finding)"
+          },
+          {
+            "code": "103013007",
+            "display": "Smarting pain (finding)"
+          },
+          {
+            "code": "771083005",
+            "display": "Pain in upper arm (finding)"
+          },
+          {
+            "code": "230498005",
+            "display": "Sleep-related painful erections (disorder)"
+          },
+          {
+            "code": "426120002",
+            "display": "Pain provoked by rest (finding)"
+          },
+          {
+            "code": "274279008",
+            "display": "Renal pain (finding)"
+          },
+          {
+            "code": "421833007",
+            "display": "Finding of pain sense (finding)"
+          },
+          {
+            "code": "300955002",
+            "display": "Pain in thumb (finding)"
+          },
+          {
+            "code": "169464001",
+            "display": "Headache caused by oral contraceptive pill (finding)"
+          },
+          {
+            "code": "285388000",
+            "display": "Right sided abdominal pain (finding)"
+          },
+          {
+            "code": "438506002",
+            "display": "Visceral abdominal pain (finding)"
+          },
+          {
+            "code": "285339000",
+            "display": "Painful tooth socket (finding)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "K08.82",
+            "display": "Secondary occlusal trauma"
+          },
+          {
+            "code": "R07.2",
+            "display": "Precordial pain"
+          },
+          {
+            "code": "M79.662",
+            "display": "Pain in left lower leg"
+          },
+          {
+            "code": "R10.812",
+            "display": "Left upper quadrant abdominal tenderness"
+          },
+          {
+            "code": "H92.0",
+            "display": "Otalgia"
+          },
+          {
+            "code": "G89.4",
+            "display": "Chronic pain syndrome"
+          },
+          {
+            "code": "R10.823",
+            "display": "Right lower quadrant rebound abdominal tenderness"
+          },
+          {
+            "code": "R10.815",
+            "display": "Periumbilic abdominal tenderness"
+          },
+          {
+            "code": "R10.811",
+            "display": "Right upper quadrant abdominal tenderness"
+          },
+          {
+            "code": "K14.6",
+            "display": "Glossodynia"
+          },
+          {
+            "code": "R07.9",
+            "display": "Chest pain, unspecified"
+          },
+          {
+            "code": "R07.0",
+            "display": "Pain in throat"
+          },
+          {
+            "code": "R10.30",
+            "display": "Lower abdominal pain, unspecified"
+          },
+          {
+            "code": "M79.62",
+            "display": "Pain in upper arm"
+          },
+          {
+            "code": "M79.64",
+            "display": "Pain in hand and fingers"
+          },
+          {
+            "code": "K08.81",
+            "display": "Primary occlusal trauma"
+          },
+          {
+            "code": "R10.2",
+            "display": "Pelvic and perineal pain"
+          },
+          {
+            "code": "R10.81",
+            "display": "Abdominal tenderness"
+          },
+          {
+            "code": "R10.83",
+            "display": "Colic"
+          },
+          {
+            "code": "M79.659",
+            "display": "Pain in unspecified thigh"
+          },
+          {
+            "code": "R07.82",
+            "display": "Intercostal pain"
+          },
+          {
+            "code": "G89.0",
+            "display": "Central pain syndrome"
+          },
+          {
+            "code": "G89.22",
+            "display": "Chronic post-thoracotomy pain"
+          },
+          {
+            "code": "R10.0",
+            "display": "Acute abdomen"
+          },
+          {
+            "code": "R07.8",
+            "display": "Other chest pain"
+          },
+          {
+            "code": "R07.89",
+            "display": "Other chest pain"
+          },
+          {
+            "code": "M79.661",
+            "display": "Pain in right lower leg"
+          },
+          {
+            "code": "R10.13",
+            "display": "Epigastric pain"
+          },
+          {
+            "code": "M79.602",
+            "display": "Pain in left arm"
+          },
+          {
+            "code": "M79.645",
+            "display": "Pain in left finger(s)"
+          },
+          {
+            "code": "K08.8",
+            "display": "Other specified disorders of teeth and supporting structures"
+          },
+          {
+            "code": "R07.81",
+            "display": "Pleurodynia"
+          },
+          {
+            "code": "R10.8",
+            "display": "Other abdominal pain"
+          },
+          {
+            "code": "R07",
+            "display": "Pain in throat and chest"
+          },
+          {
+            "code": "G89.29",
+            "display": "Other chronic pain"
+          },
+          {
+            "code": "M79.673",
+            "display": "Pain in unspecified foot"
+          },
+          {
+            "code": "M79.671",
+            "display": "Pain in right foot"
+          },
+          {
+            "code": "H57.1",
+            "display": "Ocular pain"
+          },
+          {
+            "code": "R10.822",
+            "display": "Left upper quadrant rebound abdominal tenderness"
+          },
+          {
+            "code": "M79.603",
+            "display": "Pain in arm, unspecified"
+          },
+          {
+            "code": "H92.02",
+            "display": "Otalgia, left ear"
+          },
+          {
+            "code": "M79.629",
+            "display": "Pain in unspecified upper arm"
+          },
+          {
+            "code": "M79.669",
+            "display": "Pain in unspecified lower leg"
+          },
+          {
+            "code": "R52",
+            "display": "Pain, unspecified"
+          },
+          {
+            "code": "R10.821",
+            "display": "Right upper quadrant rebound abdominal tenderness"
+          },
+          {
+            "code": "R10.817",
+            "display": "Generalized abdominal tenderness"
+          },
+          {
+            "code": "H57.10",
+            "display": "Ocular pain, unspecified eye"
+          },
+          {
+            "code": "M79.609",
+            "display": "Pain in unspecified limb"
+          },
+          {
+            "code": "G89.28",
+            "display": "Other chronic postprocedural pain"
+          },
+          {
+            "code": "M54.51",
+            "display": "Vertebrogenic low back pain"
+          },
+          {
+            "code": "M79.60",
+            "display": "Pain in limb, unspecified"
+          },
+          {
+            "code": "G89.11",
+            "display": "Acute pain due to trauma"
+          },
+          {
+            "code": "M79.605",
+            "display": "Pain in left leg"
+          },
+          {
+            "code": "R10.814",
+            "display": "Left lower quadrant abdominal tenderness"
+          },
+          {
+            "code": "K08.89",
+            "display": "Other specified disorders of teeth and supporting structures"
+          },
+          {
+            "code": "M79.601",
+            "display": "Pain in right arm"
+          },
+          {
+            "code": "M25.511",
+            "display": "Pain in right shoulder"
+          },
+          {
+            "code": "H92.01",
+            "display": "Otalgia, right ear"
+          },
+          {
+            "code": "R10",
+            "display": "Abdominal and pelvic pain"
+          },
+          {
+            "code": "R10.825",
+            "display": "Periumbilic rebound abdominal tenderness"
+          },
+          {
+            "code": "M79.63",
+            "display": "Pain in forearm"
+          },
+          {
+            "code": "M79.622",
+            "display": "Pain in left upper arm"
+          },
+          {
+            "code": "M79.644",
+            "display": "Pain in right finger(s)"
+          },
+          {
+            "code": "M79.66",
+            "display": "Pain in lower leg"
+          },
+          {
+            "code": "R10.813",
+            "display": "Right lower quadrant abdominal tenderness"
+          },
+          {
+            "code": "H57.12",
+            "display": "Ocular pain, left eye"
+          },
+          {
+            "code": "M25.512",
+            "display": "Pain in left shoulder"
+          },
+          {
+            "code": "M79.621",
+            "display": "Pain in right upper arm"
+          },
+          {
+            "code": "M79.676",
+            "display": "Pain in unspecified toe(s)"
+          },
+          {
+            "code": "G89.2",
+            "display": "Chronic pain, not elsewhere classified"
+          },
+          {
+            "code": "R10.9",
+            "display": "Unspecified abdominal pain"
+          },
+          {
+            "code": "M79.646",
+            "display": "Pain in unspecified finger(s)"
+          },
+          {
+            "code": "M54.50",
+            "display": "Low back pain, unspecified"
+          },
+          {
+            "code": "R10.824",
+            "display": "Left lower quadrant rebound abdominal tenderness"
+          },
+          {
+            "code": "R10.827",
+            "display": "Generalized rebound abdominal tenderness"
+          },
+          {
+            "code": "G89.18",
+            "display": "Other acute postprocedural pain"
+          },
+          {
+            "code": "G89.21",
+            "display": "Chronic pain due to trauma"
+          },
+          {
+            "code": "R10.12",
+            "display": "Left upper quadrant pain"
+          },
+          {
+            "code": "M79.606",
+            "display": "Pain in leg, unspecified"
+          },
+          {
+            "code": "R10.816",
+            "display": "Epigastric abdominal tenderness"
+          },
+          {
+            "code": "M79.652",
+            "display": "Pain in left thigh"
+          },
+          {
+            "code": "R10.82",
+            "display": "Rebound abdominal tenderness"
+          },
+          {
+            "code": "N64.4",
+            "display": "Mastodynia"
+          },
+          {
+            "code": "H57.11",
+            "display": "Ocular pain, right eye"
+          },
+          {
+            "code": "M79.639",
+            "display": "Pain in unspecified forearm"
+          },
+          {
+            "code": "N23",
+            "display": "Unspecified renal colic"
+          },
+          {
+            "code": "R10.84",
+            "display": "Generalized abdominal pain"
+          },
+          {
+            "code": "M79.674",
+            "display": "Pain in right toe(s)"
+          },
+          {
+            "code": "R10.31",
+            "display": "Right lower quadrant pain"
+          },
+          {
+            "code": "R51.9",
+            "display": "Headache, unspecified"
+          },
+          {
+            "code": "M25.519",
+            "display": "Pain in unspecified shoulder"
+          },
+          {
+            "code": "M79.631",
+            "display": "Pain in right forearm"
+          },
+          {
+            "code": "R10.3",
+            "display": "Pain localized to other parts of lower abdomen"
+          },
+          {
+            "code": "M79.632",
+            "display": "Pain in left forearm"
+          },
+          {
+            "code": "M54.9",
+            "display": "Dorsalgia, unspecified"
+          },
+          {
+            "code": "H92.03",
+            "display": "Otalgia, bilateral"
+          },
+          {
+            "code": "R10.33",
+            "display": "Periumbilical pain"
+          },
+          {
+            "code": "M25.51",
+            "display": "Pain in shoulder"
+          },
+          {
+            "code": "R10.1",
+            "display": "Pain localized to upper abdomen"
+          },
+          {
+            "code": "H57.13",
+            "display": "Ocular pain, bilateral"
+          },
+          {
+            "code": "G89.3",
+            "display": "Neoplasm related pain (acute) (chronic)"
+          },
+          {
+            "code": "R10.819",
+            "display": "Abdominal tenderness, unspecified site"
+          },
+          {
+            "code": "M79.672",
+            "display": "Pain in left foot"
+          },
+          {
+            "code": "G89.12",
+            "display": "Acute post-thoracotomy pain"
+          },
+          {
+            "code": "M79.67",
+            "display": "Pain in foot and toes"
+          },
+          {
+            "code": "R10.826",
+            "display": "Epigastric rebound abdominal tenderness"
+          },
+          {
+            "code": "M79.6",
+            "display": "Pain in limb, hand, foot, fingers and toes"
+          },
+          {
+            "code": "M54.59",
+            "display": "Other low back pain"
+          },
+          {
+            "code": "R10.11",
+            "display": "Right upper quadrant pain"
+          },
+          {
+            "code": "R10.829",
+            "display": "Rebound abdominal tenderness, unspecified site"
+          },
+          {
+            "code": "R10.10",
+            "display": "Upper abdominal pain, unspecified"
+          },
+          {
+            "code": "R07.1",
+            "display": "Chest pain on breathing"
+          },
+          {
+            "code": "M79.65",
+            "display": "Pain in thigh"
+          },
+          {
+            "code": "M79.675",
+            "display": "Pain in left toe(s)"
+          },
+          {
+            "code": "M79.643",
+            "display": "Pain in unspecified hand"
+          },
+          {
+            "code": "G89.1",
+            "display": "Acute pain, not elsewhere classified"
+          },
+          {
+            "code": "M54.5",
+            "display": "Low back pain"
+          },
+          {
+            "code": "G89",
+            "display": "Pain, not elsewhere classified"
+          },
+          {
+            "code": "H92.09",
+            "display": "Otalgia, unspecified ear"
+          },
+          {
+            "code": "R10.32",
+            "display": "Left lower quadrant pain"
+          },
+          {
+            "code": "M79.642",
+            "display": "Pain in left hand"
+          },
+          {
+            "code": "M79.651",
+            "display": "Pain in right thigh"
+          },
+          {
+            "code": "M79.641",
+            "display": "Pain in right hand"
+          },
+          {
+            "code": "M79.604",
+            "display": "Pain in right leg"
+          }
+        ]
+      }
+    ]
+  }
+}

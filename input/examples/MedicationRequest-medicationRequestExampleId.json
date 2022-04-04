@@ -1,0 +1,37 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "medicationRequestExampleId",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-medication-Request"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "013"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/revisedDose",
+      "valueString": "100"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/revisedUnit",
+      "valueString": "mg"
+    }
+  ],
+  "status": "active",
+  "intent": "proposal",
+  "medicationReference": {
+    "reference": "Medication/medicationIdExample"
+  },
+  "subject": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "authoredOn": "2021-02-02",
+  "requester": {
+    "reference": "Patient/ExamplePatient"
+  }
+}

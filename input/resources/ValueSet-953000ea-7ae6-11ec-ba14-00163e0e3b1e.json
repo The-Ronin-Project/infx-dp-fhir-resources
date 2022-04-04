@@ -1,0 +1,101 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "PSA",
+  "id": "953000ea-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "PSA",
+  "description": "LOINC codes indicating the measurement of PSA Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/953000ea-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "12841-3",
+            "display": "Prostate Specific Ag Free/Prostate specific Ag.total in Serum or Plasma"
+          },
+          {
+            "code": "19203-9",
+            "display": "Prostate Specific Ag Free [Moles/volume] in Serum or Plasma"
+          },
+          {
+            "code": "72576-2",
+            "display": "Prostate Specific Ag Free/Prostate specific Ag.total [Pure mass fraction] in Serum or Plasma"
+          },
+          {
+            "code": "83113-1",
+            "display": "Prostate Specific Ag Free [Mass/volume] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "19197-3",
+            "display": "Prostate specific Ag [Moles/volume] in Serum or Plasma"
+          },
+          {
+            "code": "2857-1",
+            "display": "Prostate specific Ag [Mass/volume] in Serum or Plasma"
+          },
+          {
+            "code": "83112-3",
+            "display": "Prostate specific Ag [Mass/volume] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "33667-7",
+            "display": "Prostate specific Ag.protein bound [Mass/volume] in Serum or Plasma"
+          },
+          {
+            "code": "10886-0",
+            "display": "Prostate Specific Ag Free [Mass/volume] in Serum or Plasma"
+          },
+          {
+            "code": "19201-3",
+            "display": "Prostate Specific Ag Free [Units/volume] in Serum or Plasma"
+          },
+          {
+            "code": "19195-7",
+            "display": "Prostate specific Ag [Units/volume] in Serum or Plasma"
+          },
+          {
+            "code": "97149-9",
+            "display": "proPSA isoform 2 [Mass/volume] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "35741-8",
+            "display": "Prostate specific Ag [Mass/volume] in Serum or Plasma by Detection limit <= 0.01 ng/mL"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "6745",
+            "display": "PSA, Ultra"
+          },
+          {
+            "code": "6744",
+            "display": "PSA Complexed"
+          },
+          {
+            "code": "7575",
+            "display": "TPSA"
+          },
+          {
+            "code": "9395",
+            "display": "PSA Indication"
+          },
+          {
+            "code": "5570",
+            "display": "FPSA/ TPSA"
+          }
+        ]
+      }
+    ]
+  }
+}

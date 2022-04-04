@@ -1,0 +1,209 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "PT",
+  "id": "955f3dba-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "PT",
+  "description": "LOINC codes indicating the measurement of PT Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/955f3dba-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "33357-5",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --1 hour post incubation"
+          },
+          {
+            "code": "53230-9",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --immediately after 1:4 addition of normal plasma"
+          },
+          {
+            "code": "33880-6",
+            "display": "Prothrombin time (PT) factor substitution in Control Platelet poor plasma by Coagulation assay --2H post incubation with normal plasma"
+          },
+          {
+            "code": "52120-3",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --with normal plasma 1H post incubation separate tubes"
+          },
+          {
+            "code": "33356-7",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --1H post incubation with normal plasma"
+          },
+          {
+            "code": "40093-7",
+            "display": "Prothrombin time (PT) in Platelet poor plasma by Coagulation assay --3 hours post XXX challenge"
+          },
+          {
+            "code": "5964-2",
+            "display": "Prothrombin time (PT) in Blood by Coagulation assay"
+          },
+          {
+            "code": "96261-3",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --1H post incubation with 1:1 normal plasma"
+          },
+          {
+            "code": "96262-1",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --immediately after 1:1 addition of normal plasma"
+          },
+          {
+            "code": "33884-8",
+            "display": "Prothrombin time (PT) factor substitution in Control Platelet poor plasma by Coagulation assay --1H post incubation with normal plasma"
+          },
+          {
+            "code": "40095-2",
+            "display": "Prothrombin time (PT) in Platelet poor plasma by Coagulation assay --6 hours post XXX challenge"
+          },
+          {
+            "code": "40097-8",
+            "display": "Prothrombin time (PT) in Platelet poor plasma by Coagulation assay --12 hours post XXX challenge"
+          },
+          {
+            "code": "5956-8",
+            "display": "Prothrombin time (PT) factor substitution in Control Platelet poor plasma by Coagulation assay --immediately after addition of normal plasma"
+          },
+          {
+            "code": "40088-7",
+            "display": "Prothrombin time (PT) in Platelet poor plasma by Coagulation assay --baseline"
+          },
+          {
+            "code": "40091-1",
+            "display": "Prothrombin time (PT) in Platelet poor plasma by Coagulation assay --1.5 hours post XXX challenge"
+          },
+          {
+            "code": "34686-6",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --immediately after addition of factor II depleted plasma"
+          },
+          {
+            "code": "5902-2",
+            "display": "Prothrombin time (PT)"
+          },
+          {
+            "code": "34685-8",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --immediately after addition of factor X depleted plasma"
+          },
+          {
+            "code": "5901-4",
+            "display": "Prothrombin time (PT) in Control Platelet poor plasma by Coagulation assay"
+          },
+          {
+            "code": "34682-5",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --immediately after addition of factor V depleted plasma"
+          },
+          {
+            "code": "40089-5",
+            "display": "Prothrombin time (PT) in Platelet poor plasma by Coagulation assay --30 minutes post XXX challenge"
+          },
+          {
+            "code": "33881-4",
+            "display": "Prothrombin time (PT) factor substitution in Control Platelet poor plasma by Coagulation assay --immediately after 1:4 addition of normal plasma"
+          },
+          {
+            "code": "5957-6",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --20M post incubation with normal plasma"
+          },
+          {
+            "code": "51626-0",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --with 1:4 normal plasma 1H post incubation separate tubes"
+          },
+          {
+            "code": "40092-9",
+            "display": "Prothrombin time (PT) in Platelet poor plasma by Coagulation assay --2 hours post XXX challenge"
+          },
+          {
+            "code": "33885-5",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --2H post incubation with 1:4 normal plasma"
+          },
+          {
+            "code": "33894-7",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --1H post incubation with 1:4 normal plasma"
+          },
+          {
+            "code": "96260-5",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --2H post incubation with 1:1 normal plasma"
+          },
+          {
+            "code": "5959-2",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --immediately after addition of normal plasma"
+          },
+          {
+            "code": "40087-9",
+            "display": "Prothrombin time (PT) in Platelet poor plasma by Coagulation assay --2 hours pre XXX challenge"
+          },
+          {
+            "code": "33883-0",
+            "display": "Prothrombin time (PT) factor substitution in Control Platelet poor plasma by Coagulation assay --1H post incubation with 1:4 normal plasma"
+          },
+          {
+            "code": "52122-9",
+            "display": "Prothrombin time (PT) in Platelet poor plasma by Coagulation assay --post heparin neutralization"
+          },
+          {
+            "code": "33886-3",
+            "display": "Prothrombin time (PT) factor substitution in Control Platelet poor plasma by Coagulation assay --2H post incubation with 1:4 normal plasma"
+          },
+          {
+            "code": "40094-5",
+            "display": "Prothrombin time (PT) in Platelet poor plasma by Coagulation assay --4 hours post XXX challenge"
+          },
+          {
+            "code": "40096-0",
+            "display": "Prothrombin time (PT) in Platelet poor plasma by Coagulation assay --8 hours post XXX challenge"
+          },
+          {
+            "code": "33895-4",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --2 hours post incubation"
+          },
+          {
+            "code": "33887-1",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --2H post incubation with normal plasma"
+          },
+          {
+            "code": "5958-4",
+            "display": "Prothrombin time (PT) factor substitution in Control Platelet poor plasma by Coagulation assay --20M post incubation with normal plasma"
+          },
+          {
+            "code": "40098-6",
+            "display": "Prothrombin time (PT) in Platelet poor plasma by Coagulation assay --1 day post XXX challenge"
+          },
+          {
+            "code": "40090-3",
+            "display": "Prothrombin time (PT) in Platelet poor plasma by Coagulation assay --1 hour post XXX challenge"
+          },
+          {
+            "code": "40458-2",
+            "display": "Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --immediately after addition of factor VIII depleted plasma"
+          },
+          {
+            "code": "46417-2",
+            "display": "Prothrombin time (PT) in Capillary blood by Coagulation assay"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "6688",
+            "display": "POC PT"
+          },
+          {
+            "code": "6746",
+            "display": "PT"
+          },
+          {
+            "code": "4570",
+            "display": "PT Mix (1:1)"
+          }
+        ]
+      }
+    ]
+  }
+}

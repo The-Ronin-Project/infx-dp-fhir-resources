@@ -1,0 +1,1601 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "PulmonaryCirculationDisorder",
+  "id": "fbf9fcf0-6e56-11ec-91d9-c1067f0b634c",
+  "title": "Pulmonary Circulation Disorder",
+  "description": "SNOMED and ICD10 codes for the condition of Pulmonary Circulation Disorder",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/fbf9fcf0-6e56-11ec-91d9-c1067f0b634c",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "I27.0",
+            "display": "Primary pulmonary hypertension"
+          },
+          {
+            "code": "I26.92",
+            "display": "Saddle embolus of pulmonary artery without acute cor pulmonale"
+          },
+          {
+            "code": "I28.0",
+            "display": "Arteriovenous fistula of pulmonary vessels"
+          },
+          {
+            "code": "I27.29",
+            "display": "Other secondary pulmonary hypertension"
+          },
+          {
+            "code": "I27",
+            "display": "Other pulmonary heart diseases"
+          },
+          {
+            "code": "I27.23",
+            "display": "Pulmonary hypertension due to lung diseases and hypoxia"
+          },
+          {
+            "code": "I27.20",
+            "display": "Pulmonary hypertension, unspecified"
+          },
+          {
+            "code": "I28.9",
+            "display": "Disease of pulmonary vessels, unspecified"
+          },
+          {
+            "code": "I27.2",
+            "display": "Other secondary pulmonary hypertension"
+          },
+          {
+            "code": "I26.0",
+            "display": "Pulmonary embolism with acute cor pulmonale"
+          },
+          {
+            "code": "I27.21",
+            "display": "Secondary pulmonary arterial hypertension"
+          },
+          {
+            "code": "I26",
+            "display": "Pulmonary embolism"
+          },
+          {
+            "code": "I26.09",
+            "display": "Other pulmonary embolism with acute cor pulmonale"
+          },
+          {
+            "code": "I28.1",
+            "display": "Aneurysm of pulmonary artery"
+          },
+          {
+            "code": "I26.9",
+            "display": "Pulmonary embolism without acute cor pulmonale"
+          },
+          {
+            "code": "I27.22",
+            "display": "Pulmonary hypertension due to left heart disease"
+          },
+          {
+            "code": "I26.01",
+            "display": "Septic pulmonary embolism with acute cor pulmonale"
+          },
+          {
+            "code": "I27.89",
+            "display": "Other specified pulmonary heart diseases"
+          },
+          {
+            "code": "I26.02",
+            "display": "Saddle embolus of pulmonary artery with acute cor pulmonale"
+          },
+          {
+            "code": "I27.81",
+            "display": "Cor pulmonale (chronic)"
+          },
+          {
+            "code": "I27.82",
+            "display": "Chronic pulmonary embolism"
+          },
+          {
+            "code": "I27.9",
+            "display": "Pulmonary heart disease, unspecified"
+          },
+          {
+            "code": "I27.83",
+            "display": "Eisenmenger's syndrome"
+          },
+          {
+            "code": "I28.8",
+            "display": "Other diseases of pulmonary vessels"
+          },
+          {
+            "code": "I27.8",
+            "display": "Other specified pulmonary heart diseases"
+          },
+          {
+            "code": "I26.94",
+            "display": "Multiple subsegmental pulmonary emboli without acute cor pulmonale"
+          },
+          {
+            "code": "I27.1",
+            "display": "Kyphoscoliotic heart disease"
+          },
+          {
+            "code": "I26.93",
+            "display": "Single subsegmental pulmonary embolism without acute cor pulmonale"
+          },
+          {
+            "code": "I26.99",
+            "display": "Other pulmonary embolism without acute cor pulmonale"
+          },
+          {
+            "code": "I27.24",
+            "display": "Chronic thromboembolic pulmonary hypertension"
+          },
+          {
+            "code": "I28",
+            "display": "Other diseases of pulmonary vessels"
+          },
+          {
+            "code": "I26.90",
+            "display": "Septic pulmonary embolism without acute cor pulmonale"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "460387004",
+            "display": "Systemic to pulmonary collateral artery from left brachiocephalic artery (disorder)"
+          },
+          {
+            "code": "233939005",
+            "display": "Subacute pulmonary fat embolism (disorder)"
+          },
+          {
+            "code": "253636006",
+            "display": "Anomalous origin of left pulmonary artery from ductus arteriosus (disorder)"
+          },
+          {
+            "code": "36110001",
+            "display": "Congenital anomaly of pulmonary artery (disorder)"
+          },
+          {
+            "code": "447827003",
+            "display": "Partial anomalous pulmonary venous connection of entire right lung (disorder)"
+          },
+          {
+            "code": "233943009",
+            "display": "Sporadic primary pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "15964701000119109",
+            "display": "Acute cor pulmonale co-occurrent and due to saddle embolus of pulmonary artery (disorder)"
+          },
+          {
+            "code": "1010625007",
+            "display": "Pulmonary hypertension due to pulmonary disease with mixed restrictive and obstructive patterns (disorder)"
+          },
+          {
+            "code": "233947005",
+            "display": "Thromboembolic pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "128566008",
+            "display": "Congenital pulmonary vein confluence (disorder)"
+          },
+          {
+            "code": "449444000",
+            "display": "Infracardiac location of anomalous pulmonary venous connection to hepatic vein (disorder)"
+          },
+          {
+            "code": "93059006",
+            "display": "Congenital dilatation of pulmonary artery (disorder)"
+          },
+          {
+            "code": "449452002",
+            "display": "Intracardiac location of anomalous pulmonary venous connection to right atrium (disorder)"
+          },
+          {
+            "code": "697924002",
+            "display": "Pulmonary hypertension in neurofibromatosis (disorder)"
+          },
+          {
+            "code": "200311000",
+            "display": "Obstetric pyemic and septic pulmonary embolism with postnatal complication (disorder)"
+          },
+          {
+            "code": "233950008",
+            "display": "Pulmonary hypertension associated with chronic underventilation (disorder)"
+          },
+          {
+            "code": "2261009",
+            "display": "Obstetrical pulmonary fat embolism (disorder)"
+          },
+          {
+            "code": "237342006",
+            "display": "Fat embolism - obstetric (disorder)"
+          },
+          {
+            "code": "194892009",
+            "display": "Pulmonary artery aneurysm (disorder)"
+          },
+          {
+            "code": "55589000",
+            "display": "Illegal abortion with pulmonary embolism (disorder)"
+          },
+          {
+            "code": "472789005",
+            "display": "Obstruction of surgically constructed pulmonary venous pathway as complication of procedure (disorder)"
+          },
+          {
+            "code": "447832002",
+            "display": "Total anomalous pulmonary venous connection of supracardiac type (disorder)"
+          },
+          {
+            "code": "460375006",
+            "display": "Systemic to pulmonary collateral artery from left renal artery (disorder)"
+          },
+          {
+            "code": "447691009",
+            "display": "Pulmonary venous confluence in direct proximity to left atrium (disorder)"
+          },
+          {
+            "code": "445296005",
+            "display": "Infracardiac location of anomalous pulmonary venous connections to portal system (disorder)"
+          },
+          {
+            "code": "703308008",
+            "display": "Acquired dissection of pulmonary artery (disorder)"
+          },
+          {
+            "code": "697925001",
+            "display": "Pulmonary hypertension due to systolic systemic ventricular dysfunction (disorder)"
+          },
+          {
+            "code": "447939007",
+            "display": "Partial anomalous pulmonary venous connection of entire left lung (disorder)"
+          },
+          {
+            "code": "460595001",
+            "display": "Systemic to pulmonary collateral artery connecting with central pulmonary arteries (disorder)"
+          },
+          {
+            "code": "472768001",
+            "display": "Obstruction of pulmonary great vein due to compression by right atrial dilatation (disorder)"
+          },
+          {
+            "code": "82889007",
+            "display": "Rupture of pulmonary vessel (disorder)"
+          },
+          {
+            "code": "200284000",
+            "display": "Obstetric pulmonary embolism (disorder)"
+          },
+          {
+            "code": "447860000",
+            "display": "Partial anomalous pulmonary venous connection of part of right lung (disorder)"
+          },
+          {
+            "code": "447498008",
+            "display": "Obstructed pulmonary venous connection due to extrinsic compression between right pulmonary artery and trachea (disorder)"
+          },
+          {
+            "code": "460596000",
+            "display": "Systemic to pulmonary collateral artery connecting with isolated intraparenchymal pulmonary arteries (disorder)"
+          },
+          {
+            "code": "95441000",
+            "display": "Pulmonary artery stenosis (disorder)"
+          },
+          {
+            "code": "449125001",
+            "display": "Congenital stenosis of pulmonary artery (disorder)"
+          },
+          {
+            "code": "697903007",
+            "display": "Pulmonary arterial hypertension associated with connective tissue disease (disorder)"
+          },
+          {
+            "code": "276792008",
+            "display": "Pulmonary hypertension with extreme obesity (disorder)"
+          },
+          {
+            "code": "253692006",
+            "display": "Bronchopulmonary collateral artery (disorder)"
+          },
+          {
+            "code": "74218008",
+            "display": "Coronary artery arising from main pulmonary artery (disorder)"
+          },
+          {
+            "code": "764452004",
+            "display": "Retinal arterial macroaneurysm with supravalvular pulmonic stenosis (disorder)"
+          },
+          {
+            "code": "286331000119109",
+            "display": "Total anomalous pulmonary venous connection to coronary sinus (disorder)"
+          },
+          {
+            "code": "447318008",
+            "display": "Obstructed pulmonary venous connection at interatrial communication (disorder)"
+          },
+          {
+            "code": "447926008",
+            "display": "Hypoperfusion of right pulmonary artery due to preferential flow to left pulmonary artery (disorder)"
+          },
+          {
+            "code": "697899000",
+            "display": "Heritable pulmonary arterial hypertension due to bone morphogenetic protein receptor type II mutation (disorder)"
+          },
+          {
+            "code": "447814002",
+            "display": "Pulmonary venous confluence in vertical orientation (disorder)"
+          },
+          {
+            "code": "707667005",
+            "display": "Obstruction of pulmonary vein as complication of procedure (disorder)"
+          },
+          {
+            "code": "268187005",
+            "display": "Congenital pulmonary artery aneurysm (disorder)"
+          },
+          {
+            "code": "448783009",
+            "display": "Pulmonary vein dilatation (disorder)"
+          },
+          {
+            "code": "447903001",
+            "display": "Coarctation of right pulmonary artery (disorder)"
+          },
+          {
+            "code": "86252004",
+            "display": "Agenesis of pulmonary artery (disorder)"
+          },
+          {
+            "code": "472760008",
+            "display": "Pulmonary venous hypertension due to compression of pulmonary great vein by lymphadenopathy (disorder)"
+          },
+          {
+            "code": "449434002",
+            "display": "Supracardiac location of anomalous pulmonary venous connection to left superior vena cava (disorder)"
+          },
+          {
+            "code": "697897003",
+            "display": "Heritable pulmonary arterial hypertension (disorder)"
+          },
+          {
+            "code": "445543002",
+            "display": "Intracardiac location of anomalous pulmonary venous connections to bilateral isomeric atriums (disorder)"
+          },
+          {
+            "code": "371067004",
+            "display": "Hepatopulmonary syndrome (disorder)"
+          },
+          {
+            "code": "697921005",
+            "display": "Pulmonary hypertension in sarcoidosis (disorder)"
+          },
+          {
+            "code": "449350006",
+            "display": "Pulmonary artery with absent proximal arterial connection (disorder)"
+          },
+          {
+            "code": "703357006",
+            "display": "Acquired discontinuity of pulmonary arteries (disorder)"
+          },
+          {
+            "code": "449559008",
+            "display": "Multiple stenoses of left pulmonary artery (disorder)"
+          },
+          {
+            "code": "703243006",
+            "display": "Acquired aneurysm of pulmonary artery (disorder)"
+          },
+          {
+            "code": "233948000",
+            "display": "Post-arteritic pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "200290001",
+            "display": "Obstetric air pulmonary embolism with antenatal complication (disorder)"
+          },
+          {
+            "code": "233936003",
+            "display": "Acute massive pulmonary embolism (disorder)"
+          },
+          {
+            "code": "448637008",
+            "display": "Coarctation of left pulmonary artery (disorder)"
+          },
+          {
+            "code": "703258003",
+            "display": "Acquired pulmonary trunk stenosis (disorder)"
+          },
+          {
+            "code": "776416004",
+            "display": "Hyperuricemia, pulmonary hypertension, renal failure, alkalosis syndrome (disorder)"
+          },
+          {
+            "code": "697917003",
+            "display": "Pulmonary hypertension due to hematological disorder (disorder)"
+          },
+          {
+            "code": "82153002",
+            "display": "Miscarriage with pulmonary embolism (disorder)"
+          },
+          {
+            "code": "253634009",
+            "display": "Anomalous origin of right pulmonary artery from ascending aorta (disorder)"
+          },
+          {
+            "code": "445237003",
+            "display": "Portopulmonary hypertension (disorder)"
+          },
+          {
+            "code": "129582000",
+            "display": "Congenital coronary artery fistula to pulmonary artery (disorder)"
+          },
+          {
+            "code": "707412000",
+            "display": "Chronic pulmonary thromboembolism (disorder)"
+          },
+          {
+            "code": "68092007",
+            "display": "Anomalous origin of pulmonary artery (disorder)"
+          },
+          {
+            "code": "360578005",
+            "display": "Pulmonary hypertension secondary to raised pulmonary vascular resistance (disorder)"
+          },
+          {
+            "code": "703636009",
+            "display": "Pulmonary oil microembolism (disorder)"
+          },
+          {
+            "code": "723859005",
+            "display": "Pulmonary embolism due to and following acute myocardial infarction (disorder)"
+          },
+          {
+            "code": "735568006",
+            "display": "Rupture of pulmonary artery co-occurrent and due to aneurysm of pulmonary artery (disorder)"
+          },
+          {
+            "code": "111322000",
+            "display": "Congenital anomaly of pulmonary veins (disorder)"
+          },
+          {
+            "code": "450308009",
+            "display": "Major systemic to pulmonary collateral artery supplying entire left lung (disorder)"
+          },
+          {
+            "code": "15386007",
+            "display": "Stricture of pulmonary vessel (disorder)"
+          },
+          {
+            "code": "460380002",
+            "display": "Systemic to pulmonary collateral artery from right brachiocephalic artery (disorder)"
+          },
+          {
+            "code": "697908003",
+            "display": "Pulmonary arterial hypertension associated with chronic hemolytic anemia (disorder)"
+          },
+          {
+            "code": "449495003",
+            "display": "Infracardiac location of anomalous pulmonary venous connection to patent ductus venosus (disorder)"
+          },
+          {
+            "code": "879816009",
+            "display": "Pulmonary hypertension due to familial pulmonary capillary hemangiomatosis (disorder)"
+          },
+          {
+            "code": "87394009",
+            "display": "Episodic pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "70995007",
+            "display": "Pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "267284008",
+            "display": "Obstetric pyemic and septic pulmonary embolism (disorder)"
+          },
+          {
+            "code": "445371009",
+            "display": "Infracardiac location of anomalous pulmonary venous connections to inferior caval vein (disorder)"
+          },
+          {
+            "code": "472702003",
+            "display": "Fetal pulmonary outflow tract obstruction due to twin to twin transfusion syndrome (disorder)"
+          },
+          {
+            "code": "472757001",
+            "display": "Pulmonary venous hypertension as complication of procedure (disorder)"
+          },
+          {
+            "code": "447925007",
+            "display": "Hypoperfusion of left pulmonary artery due to preferential flow to right pulmonary artery (disorder)"
+          },
+          {
+            "code": "253628002",
+            "display": "Pulmonary trunk absent with non-confluent pulmonary arteries (disorder)"
+          },
+          {
+            "code": "450309001",
+            "display": "Major systemic to pulmonary collateral artery supplying part of right lung (disorder)"
+          },
+          {
+            "code": "445106006",
+            "display": "Congenital dilation of left pulmonary artery (disorder)"
+          },
+          {
+            "code": "460307002",
+            "display": "Systemic to pulmonary collateral artery from right carotid artery (disorder)"
+          },
+          {
+            "code": "840306007",
+            "display": "Mild pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "449494004",
+            "display": "Supracardiac location of anomalous pulmonary venous connection to right superior vena cava (disorder)"
+          },
+          {
+            "code": "200303005",
+            "display": "Obstetric blood-clot pulmonary embolism with antenatal complication (disorder)"
+          },
+          {
+            "code": "448595006",
+            "display": "Scimitar syndrome with additional anomalous pulmonary venous connection (disorder)"
+          },
+          {
+            "code": "449451009",
+            "display": "Supracardiac location of anomalous pulmonary venous connection to hemiazygos vein (disorder)"
+          },
+          {
+            "code": "703245004",
+            "display": "Acquired stenosis of right pulmonary artery (disorder)"
+          },
+          {
+            "code": "697913004",
+            "display": "Pulmonary hypertension due to pulmonary disease with mixed restrictive and obstructive pattern (disorder)"
+          },
+          {
+            "code": "251045002",
+            "display": "Peripheral pulmonary artery A/V aneurysm (disorder)"
+          },
+          {
+            "code": "697898008",
+            "display": "Idiopathic pulmonary arterial hypertension (disorder)"
+          },
+          {
+            "code": "210790008",
+            "display": "Pulmonary blood vessel injury (disorder)"
+          },
+          {
+            "code": "448478000",
+            "display": "Systemic to pulmonary collateral artery from coronary artery (disorder)"
+          },
+          {
+            "code": "697927009",
+            "display": "Pulmonary hypertension due to left-sided valvular heart disease (disorder)"
+          },
+          {
+            "code": "713078005",
+            "display": "Pulmonary embolism on long-term anticoagulation therapy (disorder)"
+          },
+          {
+            "code": "449560003",
+            "display": "Multiple stenoses of right pulmonary artery (disorder)"
+          },
+          {
+            "code": "707372009",
+            "display": "Congenital stenosis of right pulmonary artery (disorder)"
+          },
+          {
+            "code": "59282003",
+            "display": "Pulmonary embolism (disorder)"
+          },
+          {
+            "code": "200310004",
+            "display": "Obstetric pyemic and septic pulmonary embolism with antenatal complication (disorder)"
+          },
+          {
+            "code": "68237008",
+            "display": "Partial anomalous pulmonary venous connection (disorder)"
+          },
+          {
+            "code": "93347003",
+            "display": "Congenital malposition of pulmonary artery (disorder)"
+          },
+          {
+            "code": "446668003",
+            "display": "Obstructed pulmonary venous connection due to extrinsic compression (disorder)"
+          },
+          {
+            "code": "286071000119109",
+            "display": "Congenital peripheral pulmonary artery stenosis (disorder)"
+          },
+          {
+            "code": "703307003",
+            "display": "Acquired abnormality of pulmonary arterial tree (disorder)"
+          },
+          {
+            "code": "870323006",
+            "display": "Obstructed anomalous pulmonary venous pathway (disorder)"
+          },
+          {
+            "code": "449576007",
+            "display": "Left pulmonary artery with absent proximal arterial connection (disorder)"
+          },
+          {
+            "code": "95838002",
+            "display": "Pulmonary cyanosis (disorder)"
+          },
+          {
+            "code": "233941006",
+            "display": "Solitary pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "879814007",
+            "display": "Pulmonary hypertension due to pulmonary capillary hemangiomatosis (disorder)"
+          },
+          {
+            "code": "200304004",
+            "display": "Obstetric blood-clot pulmonary embolism with postnatal complication (disorder)"
+          },
+          {
+            "code": "69357003",
+            "display": "Pulmonary thrombosis (disorder)"
+          },
+          {
+            "code": "270512000",
+            "display": "Pulmonary arteriovenous aneurysm (disorder)"
+          },
+          {
+            "code": "449443006",
+            "display": "Supracardiac location of anomalous pulmonary venous connection to left sided vertical vein (disorder)"
+          },
+          {
+            "code": "234062003",
+            "display": "Pulmonary vein stenosis (disorder)"
+          },
+          {
+            "code": "88223008",
+            "display": "Secondary pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "446890001",
+            "display": "Obstructed pulmonary venous connection at coronary sinus orifice (disorder)"
+          },
+          {
+            "code": "360573001",
+            "display": "Post-capillary pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "200286003",
+            "display": "Obstetric air pulmonary embolism (disorder)"
+          },
+          {
+            "code": "233938002",
+            "display": "Pulmonary fat embolism (disorder)"
+          },
+          {
+            "code": "445208002",
+            "display": "Congenital hypoplasia of right pulmonary artery (disorder)"
+          },
+          {
+            "code": "253622001",
+            "display": "Pulmonary trunk hypoplasia (disorder)"
+          },
+          {
+            "code": "253690003",
+            "display": "Systemic to pulmonary collateral artery (disorder)"
+          },
+          {
+            "code": "697923008",
+            "display": "Pulmonary hypertension in lymphangioleiomyomatosis (disorder)"
+          },
+          {
+            "code": "697904001",
+            "display": "Pulmonary arterial hypertension associated with human immunodeficiency virus infection (disorder)"
+          },
+          {
+            "code": "735567001",
+            "display": "Perforation of pulmonary artery co-occurrent and due to aneurysm of pulmonary artery (disorder)"
+          },
+          {
+            "code": "871580000",
+            "display": "Arteriovenous malformation of pulmonary vessels following cavopulmonary anastomosis (disorder)"
+          },
+          {
+            "code": "707665002",
+            "display": "Pulmonary arterial tree abnormality as complication of procedure (disorder)"
+          },
+          {
+            "code": "239297008",
+            "display": "Lymphomatoid granulomatosis of lung (disorder)"
+          },
+          {
+            "code": "253691004",
+            "display": "Stenosis of systemic to pulmonary artery collateral artery (disorder)"
+          },
+          {
+            "code": "447813008",
+            "display": "Pulmonary venous confluence in horizontal orientation (disorder)"
+          },
+          {
+            "code": "762433009",
+            "display": "Tetralogy of Fallot with pulmonary atresia co-occurrent with systemic-to-pulmonary collateral artery (disorder)"
+          },
+          {
+            "code": "74315008",
+            "display": "Pulmonary microemboli (disorder)"
+          },
+          {
+            "code": "253321003",
+            "display": "Anomalous termination of right pulmonary vein (disorder)"
+          },
+          {
+            "code": "194883006",
+            "display": "Postoperative pulmonary embolus (disorder)"
+          },
+          {
+            "code": "253630000",
+            "display": "Pulmonary trunk dilatation (disorder)"
+          },
+          {
+            "code": "59631007",
+            "display": "Anomalous pulmonary venous drainage (disorder)"
+          },
+          {
+            "code": "707476006",
+            "display": "Stenosis of right pulmonary artery as complication of procedure (disorder)"
+          },
+          {
+            "code": "460365008",
+            "display": "Systemic to pulmonary collateral artery from right renal artery (disorder)"
+          },
+          {
+            "code": "10759311000119104",
+            "display": "Pulmonary embolism in childbirth (disorder)"
+          },
+          {
+            "code": "328511000119109",
+            "display": "Saddle embolus of pulmonary artery (disorder)"
+          },
+          {
+            "code": "15964661000119102",
+            "display": "Acute cor pulmonale due to septic pulmonary embolism (disorder)"
+          },
+          {
+            "code": "448727008",
+            "display": "Total anomalous pulmonary venous connections of mixed type (disorder)"
+          },
+          {
+            "code": "697920006",
+            "display": "Pulmonary hypertension in systemic disorder (disorder)"
+          },
+          {
+            "code": "459165008",
+            "display": "Systemic to pulmonary collateral artery from abdominal aorta (disorder)"
+          },
+          {
+            "code": "458088003",
+            "display": "Major systemic to pulmonary collateral artery (disorder)"
+          },
+          {
+            "code": "461407005",
+            "display": "Acquired stenosis of pulmonary venous structure (disorder)"
+          },
+          {
+            "code": "449493005",
+            "display": "Supracardiac location of anomalous pulmonary venous connection to right sided vertical vein (disorder)"
+          },
+          {
+            "code": "271573009",
+            "display": "Congenital abnormality of thoracic aorta and pulmonary arteries (disorder)"
+          },
+          {
+            "code": "280964006",
+            "display": "Pulmonary air embolism (disorder)"
+          },
+          {
+            "code": "706870000",
+            "display": "Acute pulmonary embolism (disorder)"
+          },
+          {
+            "code": "276794009",
+            "display": "Facultative pulmonary hypertension with shunt at atrial level (disorder)"
+          },
+          {
+            "code": "200308001",
+            "display": "Obstetric pyemic and septic pulmonary embolism - delivered (disorder)"
+          },
+          {
+            "code": "789690008",
+            "display": "Malignant lymphomatoid granulomatosis of lung (disorder)"
+          },
+          {
+            "code": "253635005",
+            "display": "Abnormal origin of left pulmonary artery (disorder)"
+          },
+          {
+            "code": "78862003",
+            "display": "Ayerza's syndrome (disorder)"
+          },
+          {
+            "code": "111323005",
+            "display": "Total anomalous pulmonary venous return (disorder)"
+          },
+          {
+            "code": "461434008",
+            "display": "Major systemic to pulmonary collateral artery with pulmonary artery proximal to hilar bifurcation (disorder)"
+          },
+          {
+            "code": "253621008",
+            "display": "Pulmonary trunk stenosis (disorder)"
+          },
+          {
+            "code": "133971000119108",
+            "display": "Chronic pulmonary embolism (disorder)"
+          },
+          {
+            "code": "52757001",
+            "display": "Congenital supravalvular pulmonary stenosis (disorder)"
+          },
+          {
+            "code": "707437005",
+            "display": "Pulmonary capillaritis (disorder)"
+          },
+          {
+            "code": "447528003",
+            "display": "Obstructed pulmonary venous connection due to extrinsic compression at diaphragm (disorder)"
+          },
+          {
+            "code": "448084009",
+            "display": "Absent pulmonary trunk (disorder)"
+          },
+          {
+            "code": "448079003",
+            "display": "Vascular ring with right aortic arch and right patent arterial duct with absent left pulmonary artery (disorder)"
+          },
+          {
+            "code": "450310006",
+            "display": "Major systemic to pulmonary collateral artery supplying part of left lung (disorder)"
+          },
+          {
+            "code": "66858001",
+            "display": "Anomalous pulmonary venous drainage to superior vena cava (disorder)"
+          },
+          {
+            "code": "449514000",
+            "display": "Intracardiac location of anomalous pulmonary venous connection to midline with isomeric atria (disorder)"
+          },
+          {
+            "code": "697916007",
+            "display": "Pulmonary hypertension due to developmental abnormality of the lung (disorder)"
+          },
+          {
+            "code": "447924006",
+            "display": "Tortuosity of pulmonary artery (disorder)"
+          },
+          {
+            "code": "703385008",
+            "display": "Anomalous origin of pulmonary artery from ascending aorta (disorder)"
+          },
+          {
+            "code": "697900005",
+            "display": "Heritable pulmonary arterial hypertension due to activin A receptor type II-like kinase 1 or endoglin mutation (disorder)"
+          },
+          {
+            "code": "447269006",
+            "display": "Persistent common pulmonary vein (disorder)"
+          },
+          {
+            "code": "697907008",
+            "display": "Pulmonary arterial hypertension associated with schistosomiasis (disorder)"
+          },
+          {
+            "code": "200301007",
+            "display": "Obstetric blood-clot pulmonary embolism - delivered (disorder)"
+          },
+          {
+            "code": "448059006",
+            "display": "Pulmonary trunk absent with absent left pulmonary artery (disorder)"
+          },
+          {
+            "code": "707668000",
+            "display": "Pulmonary vein abnormality as complication of procedure (disorder)"
+          },
+          {
+            "code": "204448004",
+            "display": "Atresia of pulmonary artery with septal defect (disorder)"
+          },
+          {
+            "code": "449425007",
+            "display": "Intracardiac location of anomalous pulmonary venous connection to coronary sinus (disorder)"
+          },
+          {
+            "code": "448086006",
+            "display": "Atresia of pulmonary trunk with absent left pulmonary artery (disorder)"
+          },
+          {
+            "code": "860680001",
+            "display": "Pulmonary embolism due to and following ectopic pregnancy (disorder)"
+          },
+          {
+            "code": "251047005",
+            "display": "Dilatation of pulmonary artery (disorder)"
+          },
+          {
+            "code": "11029002",
+            "display": "Pulmonary apoplexy (disorder)"
+          },
+          {
+            "code": "472756005",
+            "display": "Stenosis of anastomosis between pulmonary venous confluence and left atrium after prior repair of anomalous pulmonary venous connection (disorder)"
+          },
+          {
+            "code": "449589001",
+            "display": "Single stenosis of right pulmonary artery (disorder)"
+          },
+          {
+            "code": "472761007",
+            "display": "Pulmonary venous hypertension due to compression of pulmonary great vein by neoplasm (disorder)"
+          },
+          {
+            "code": "441557008",
+            "display": "Septic pulmonary embolism (disorder)"
+          },
+          {
+            "code": "204467000",
+            "display": "Pulmonary vein atresia (disorder)"
+          },
+          {
+            "code": "253631001",
+            "display": "Peripheral pulmonary artery stenosis (disorder)"
+          },
+          {
+            "code": "879815008",
+            "display": "Pulmonary hypertension due to pulmonary veno-occlusive disease (disorder)"
+          },
+          {
+            "code": "253624000",
+            "display": "Pulmonary atresia with confluent pulmonary arteries (disorder)"
+          },
+          {
+            "code": "449435001",
+            "display": "Infracardiac location of anomalous pulmonary venous connection with two descending veins (disorder)"
+          },
+          {
+            "code": "707371002",
+            "display": "Congenital stenosis of left pulmonary artery (disorder)"
+          },
+          {
+            "code": "448087002",
+            "display": "Atresia of pulmonary trunk with absent right pulmonary artery (disorder)"
+          },
+          {
+            "code": "11614003",
+            "display": "Congenital stenosis of pulmonary veins (disorder)"
+          },
+          {
+            "code": "233815004",
+            "display": "Persistent pulmonary hypertension of the newborn (disorder)"
+          },
+          {
+            "code": "11399002",
+            "display": "Pulmonary hypertensive arterial disease (disorder)"
+          },
+          {
+            "code": "233942004",
+            "display": "Small vessel pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "25559009",
+            "display": "Congenital absence of left pulmonary artery (disorder)"
+          },
+          {
+            "code": "697919000",
+            "display": "Pulmonary hypertension due to post-splenectomy hematological disorder (disorder)"
+          },
+          {
+            "code": "253689007",
+            "display": "Major aortopulmonary collateral artery (disorder)"
+          },
+          {
+            "code": "860681002",
+            "display": "Pulmonary embolism due to and following molar pregnancy (disorder)"
+          },
+          {
+            "code": "450311005",
+            "display": "Major systemic to pulmonary collateral artery supplying unknown zone of distribution (disorder)"
+          },
+          {
+            "code": "10964002",
+            "display": "Progressive pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "697922003",
+            "display": "Pulmonary hypertension in Langerhans cell histiocytosis (disorder)"
+          },
+          {
+            "code": "448599000",
+            "display": "Total anomalous pulmonary venous connection of infracardiac type (disorder)"
+          },
+          {
+            "code": "871578006",
+            "display": "Arteriovenous fistula of pulmonary vessels following superior cavopulmonary anastomosis (disorder)"
+          },
+          {
+            "code": "707478007",
+            "display": "Pulmonary trunk stenosis as complication of procedure (disorder)"
+          },
+          {
+            "code": "253625004",
+            "display": "Pulmonary atresia with absent pulmonary artery (disorder)"
+          },
+          {
+            "code": "448486000",
+            "display": "Anomalous pulmonary to systemic collateral vein (disorder)"
+          },
+          {
+            "code": "5499009",
+            "display": "Pulmonary hypertensive venous disease (disorder)"
+          },
+          {
+            "code": "703244000",
+            "display": "Acquired stenosis of left pulmonary artery (disorder)"
+          },
+          {
+            "code": "448500006",
+            "display": "Intracardiac location of anomalous pulmonary venous connection (disorder)"
+          },
+          {
+            "code": "233940007",
+            "display": "Pulmonary tumor embolism (disorder)"
+          },
+          {
+            "code": "29934004",
+            "display": "Anomalous pulmonary venous drainage to coronary sinus (disorder)"
+          },
+          {
+            "code": "7368005",
+            "display": "Double outlet left ventricle (disorder)"
+          },
+          {
+            "code": "450306008",
+            "display": "Major systemic to pulmonary collateral artery supplying both lungs (disorder)"
+          },
+          {
+            "code": "51096002",
+            "display": "Legal abortion with pulmonary embolism (disorder)"
+          },
+          {
+            "code": "461433002",
+            "display": "Major systemic to pulmonary collateral artery with absent pulmonary arteries proximal to hilar bifurcation (disorder)"
+          },
+          {
+            "code": "128584005",
+            "display": "Congenital pulmonary artery conduit (disorder)"
+          },
+          {
+            "code": "697912009",
+            "display": "Pulmonary hypertension due to interstitial lung disease (disorder)"
+          },
+          {
+            "code": "39905002",
+            "display": "Scimitar syndrome (disorder)"
+          },
+          {
+            "code": "448060001",
+            "display": "Pulmonary trunk absent with absent right pulmonary artery (disorder)"
+          },
+          {
+            "code": "1010627004",
+            "display": "Pulmonary hypertension due to developmental abnormality (disorder)"
+          },
+          {
+            "code": "233945002",
+            "display": "Pulmonary hypertension caused by drug (disorder)"
+          },
+          {
+            "code": "449547009",
+            "display": "Right pulmonary artery with absent proximal arterial connection (disorder)"
+          },
+          {
+            "code": "450307004",
+            "display": "Major systemic to pulmonary collateral artery supplying entire right lung (disorder)"
+          },
+          {
+            "code": "54682008",
+            "display": "Congenital hypoplasia of pulmonary artery (disorder)"
+          },
+          {
+            "code": "707413005",
+            "display": "Chronic pulmonary thromboembolism without pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "438773007",
+            "display": "Recurrent pulmonary embolism (disorder)"
+          },
+          {
+            "code": "447275002",
+            "display": "Alveolar capillary dysplasia with pulmonary venous misalignment (disorder)"
+          },
+          {
+            "code": "253629005",
+            "display": "Pulmonary trunk absent with absent pulmonary artery (disorder)"
+          },
+          {
+            "code": "697902002",
+            "display": "Associated pulmonary arterial hypertension (disorder)"
+          },
+          {
+            "code": "200291002",
+            "display": "Obstetric air pulmonary embolism with postnatal complication (disorder)"
+          },
+          {
+            "code": "447274003",
+            "display": "Obstructed pulmonary venous connection due to intrinsic narrowing (disorder)"
+          },
+          {
+            "code": "77892009",
+            "display": "Pulmonary venous thrombosis (disorder)"
+          },
+          {
+            "code": "472791002",
+            "display": "Stenosis of pulmonary great vein as complication of procedure (disorder)"
+          },
+          {
+            "code": "697911002",
+            "display": "Pulmonary hypertension due to chronic obstructive pulmonary disease (disorder)"
+          },
+          {
+            "code": "460370001",
+            "display": "Systemic to pulmonary collateral artery connecting with artery (disorder)"
+          },
+          {
+            "code": "707477002",
+            "display": "Stenosis of left pulmonary artery as complication of procedure (disorder)"
+          },
+          {
+            "code": "459164007",
+            "display": "Systemic to pulmonary collateral artery from descending thoracic aorta (disorder)"
+          },
+          {
+            "code": "697915006",
+            "display": "Pulmonary hypertension due to alveolar hypoventilation disorder (disorder)"
+          },
+          {
+            "code": "448105006",
+            "display": "Anomalous origin of pulmonary artery from patent arterial duct (disorder)"
+          },
+          {
+            "code": "697896007",
+            "display": "Precapillary pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "703355003",
+            "display": "Pulmonary hypertension due to vasculitis (disorder)"
+          },
+          {
+            "code": "697905000",
+            "display": "Pulmonary arterial hypertension associated with congenital heart disease (disorder)"
+          },
+          {
+            "code": "445209005",
+            "display": "Congenital hypoplasia of left pulmonary artery (disorder)"
+          },
+          {
+            "code": "472758006",
+            "display": "Pulmonary venous hypertension due to compression of pulmonary great vein (disorder)"
+          },
+          {
+            "code": "449521000",
+            "display": "Anomalous pulmonary venous connection of mixed type with two pulmonary venous confluences (disorder)"
+          },
+          {
+            "code": "724208006",
+            "display": "Keutel syndrome (disorder)"
+          },
+          {
+            "code": "448078006",
+            "display": "Vascular ring with right aortic arch and right arterial ligament with absent left pulmonary artery (disorder)"
+          },
+          {
+            "code": "49778009",
+            "display": "Idiopathic pulmonary arteriosclerosis (disorder)"
+          },
+          {
+            "code": "720575002",
+            "display": "Braddock syndrome (disorder)"
+          },
+          {
+            "code": "39785005",
+            "display": "Disorder of pulmonary circulation (disorder)"
+          },
+          {
+            "code": "286341000119100",
+            "display": "Total anomalous pulmonary venous connection to hepatic vein (disorder)"
+          },
+          {
+            "code": "285251000119101",
+            "display": "Dextrotransposition of the great arteries (disorder)"
+          },
+          {
+            "code": "449513006",
+            "display": "Anomalous pulmonary venous connection of mixed type with one pulmonary venous confluence (disorder)"
+          },
+          {
+            "code": "447914003",
+            "display": "Total anomalous pulmonary venous connection of intracardiac type (disorder)"
+          },
+          {
+            "code": "448499002",
+            "display": "Infracardiac location of anomalous pulmonary venous connection (disorder)"
+          },
+          {
+            "code": "721238001",
+            "display": "Acquired anomaly of pulmonary artery (disorder)"
+          },
+          {
+            "code": "22750001",
+            "display": "Anomalous pulmonary venous drainage to abdominal portion of inferior vena cava (disorder)"
+          },
+          {
+            "code": "89420002",
+            "display": "Pulmonary veno-occlusive disease (disorder)"
+          },
+          {
+            "code": "253637002",
+            "display": "Anomalous origin of left pulmonary artery from ascending aorta (disorder)"
+          },
+          {
+            "code": "461408000",
+            "display": "Acquired abnormality of pulmonary venous structure (disorder)"
+          },
+          {
+            "code": "253304007",
+            "display": "Solitary pulmonary trunk with aortic atresia (disorder)"
+          },
+          {
+            "code": "472759003",
+            "display": "Pulmonary venous hypertension due to compression of pulmonary great vein by sclerosing mediastinitis (disorder)"
+          },
+          {
+            "code": "95236005",
+            "display": "Retroesophageal pulmonary artery (disorder)"
+          },
+          {
+            "code": "697910001",
+            "display": "Pulmonary hypertension due to lung disease and/or hypoxia (disorder)"
+          },
+          {
+            "code": "460612009",
+            "display": "Ductus arteriosus dependent pulmonary circulation (disorder)"
+          },
+          {
+            "code": "286351000119103",
+            "display": "Total anomalous pulmonary venous connection to right atrium (disorder)"
+          },
+          {
+            "code": "233937007",
+            "display": "Subacute massive pulmonary embolism (disorder)"
+          },
+          {
+            "code": "697928004",
+            "display": "Pulmonary venous hypertension due to congenital stenosis of pulmonary vein (disorder)"
+          },
+          {
+            "code": "448027004",
+            "display": "Supravalvar pulmonary trunk stenosis (disorder)"
+          },
+          {
+            "code": "840308008",
+            "display": "Severe pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "204456001",
+            "display": "Subdiaphragmatic total anomalous pulmonary venous return (disorder)"
+          },
+          {
+            "code": "204457005",
+            "display": "Supradiaphragmatic total anomalous pulmonary venous return (disorder)"
+          },
+          {
+            "code": "460312001",
+            "display": "Systemic to pulmonary collateral artery from left carotid artery (disorder)"
+          },
+          {
+            "code": "447840008",
+            "display": "Stenosis of right pulmonary artery (disorder)"
+          },
+          {
+            "code": "878858004",
+            "display": "Malignant lymphomatoid granulomatosis grade 3 of lung (disorder)"
+          },
+          {
+            "code": "448510002",
+            "display": "Stenosis of left pulmonary artery (disorder)"
+          },
+          {
+            "code": "276793003",
+            "display": "Pulmonary hypertension with occult mitral stenosis (disorder)"
+          },
+          {
+            "code": "703246003",
+            "display": "Acquired pulmonary venous obstruction (disorder)"
+          },
+          {
+            "code": "303070000",
+            "display": "Pulmonary arteriovenous malformation (disorder)"
+          },
+          {
+            "code": "697914005",
+            "display": "Pulmonary hypertension due to sleep-disordered breathing (disorder)"
+          },
+          {
+            "code": "253633003",
+            "display": "Anomalous origin of right pulmonary artery from ductus arteriosus (disorder)"
+          },
+          {
+            "code": "445167000",
+            "display": "Congenital dilation of right pulmonary artery (disorder)"
+          },
+          {
+            "code": "449551006",
+            "display": "Single stenosis of left pulmonary artery (disorder)"
+          },
+          {
+            "code": "37639005",
+            "display": "Anomalous pulmonary venous drainage to right atrium (disorder)"
+          },
+          {
+            "code": "233946001",
+            "display": "Large vessel pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "200288002",
+            "display": "Obstetric air pulmonary embolism - delivered (disorder)"
+          },
+          {
+            "code": "707414004",
+            "display": "Acute pulmonary thromboembolism (disorder)"
+          },
+          {
+            "code": "233944003",
+            "display": "Familial primary pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "840307003",
+            "display": "Moderate pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "447861001",
+            "display": "Partial anomalous pulmonary venous connection with anomalous veins connecting first to pulmonary venous confluence (disorder)"
+          },
+          {
+            "code": "253322005",
+            "display": "Obstructed pulmonary venous connection (disorder)"
+          },
+          {
+            "code": "449085001",
+            "display": "Pulmonary artery connecting to coronary artery via collateral artery (disorder)"
+          },
+          {
+            "code": "447668005",
+            "display": "Discontinuous pulmonary arteries (disorder)"
+          },
+          {
+            "code": "39987008",
+            "display": "Congenital absence of right pulmonary artery (disorder)"
+          },
+          {
+            "code": "10930001",
+            "display": "Congenital atresia of pulmonary artery (disorder)"
+          },
+          {
+            "code": "697918008",
+            "display": "Pulmonary hypertension due to myeloproliferative disorder (disorder)"
+          },
+          {
+            "code": "233954004",
+            "display": "High altitude pulmonary hypertension (disorder)"
+          },
+          {
+            "code": "26146002",
+            "display": "Complete transposition of great vessels (disorder)"
+          },
+          {
+            "code": "233935004",
+            "display": "Pulmonary thromboembolism (disorder)"
+          },
+          {
+            "code": "251046001",
+            "display": "Multiple peripheral pulmonary artery stenoses (disorder)"
+          },
+          {
+            "code": "58123006",
+            "display": "Failed attempted abortion with pulmonary embolism (disorder)"
+          },
+          {
+            "code": "253627007",
+            "display": "Pulmonary trunk absent with confluent pulmonary arteries (disorder)"
+          },
+          {
+            "code": "448728003",
+            "display": "Supracardiac location of anomalous pulmonary venous connection (disorder)"
+          },
+          {
+            "code": "253688004",
+            "display": "Collaterals to pulmonary arteries (disorder)"
+          },
+          {
+            "code": "471274000",
+            "display": "Systemic to pulmonary collateral artery contributing to dual lung supply (disorder)"
+          },
+          {
+            "code": "697926000",
+            "display": "Pulmonary hypertension due to diastolic systemic ventricular dysfunction (disorder)"
+          },
+          {
+            "code": "449120006",
+            "display": "Obstruction of pulmonary outflow tract (disorder)"
+          },
+          {
+            "code": "449433008",
+            "display": "Diffuse stenosis of left pulmonary artery (disorder)"
+          },
+          {
+            "code": "60366008",
+            "display": "Injury of pulmonary vein (disorder)"
+          },
+          {
+            "code": "445928005",
+            "display": "Eisenmenger's syndrome (disorder)"
+          },
+          {
+            "code": "286361000119101",
+            "display": "Total anomalous pulmonary venous connection to superior vena cava (disorder)"
+          },
+          {
+            "code": "32194006",
+            "display": "Anomalous pulmonary venous drainage to hepatic veins (disorder)"
+          },
+          {
+            "code": "253632008",
+            "display": "Abnormal origin of right pulmonary artery (disorder)"
+          },
+          {
+            "code": "472790001",
+            "display": "Pulmonary venous hypertension due to disorder of left heart (disorder)"
+          },
+          {
+            "code": "447664007",
+            "display": "Partial anomalous pulmonary venous connection of part of left lung (disorder)"
+          },
+          {
+            "code": "253623006",
+            "display": "Pulmonary trunk atresia (disorder)"
+          },
+          {
+            "code": "253305008",
+            "display": "Solitary arterial trunk (disorder)"
+          },
+          {
+            "code": "447663001",
+            "display": "Pulmonary venous confluence remote from left atrium (disorder)"
+          },
+          {
+            "code": "251042004",
+            "display": "Peripheral pulmonary artery disease (disorder)"
+          },
+          {
+            "code": "1001000119102",
+            "display": "Pulmonary embolism with pulmonary infarction (disorder)"
+          },
+          {
+            "code": "448487009",
+            "display": "Anomalous pulmonary venous connection of mixed type (disorder)"
+          },
+          {
+            "code": "449533005",
+            "display": "Supracardiac location of anomalous pulmonary venous connection to azygos vein (disorder)"
+          },
+          {
+            "code": "200299000",
+            "display": "Obstetric blood-clot pulmonary embolism (disorder)"
+          },
+          {
+            "code": "95242009",
+            "display": "Right-sided pulmonary arterial trunk (disorder)"
+          },
+          {
+            "code": "609480009",
+            "display": "Induced termination of pregnancy complicated by pulmonary embolism (disorder)"
+          },
+          {
+            "code": "446432002",
+            "display": "Pulmonary venous hypoplasia (disorder)"
+          },
+          {
+            "code": "26780008",
+            "display": "Coarctation of pulmonary artery (disorder)"
+          },
+          {
+            "code": "449467003",
+            "display": "Diffuse stenosis of right pulmonary artery (disorder)"
+          },
+          {
+            "code": "253638007",
+            "display": "Anomalous origin of left pulmonary artery from right pulmonary artery (disorder)"
+          },
+          {
+            "code": "447571007",
+            "display": "Obstructed pulmonary venous connection due to extrinsic compression between left pulmonary artery and bronchus (disorder)"
+          },
+          {
+            "code": "36422005",
+            "display": "Transposition of pulmonary veins (disorder)"
+          },
+          {
+            "code": "697906004",
+            "display": "Pulmonary arterial hypertension associated with congenital systemic-to-pulmonary shunt (disorder)"
+          },
+          {
+            "code": "17993000",
+            "display": "Pulmonary arteritis (disorder)"
+          },
+          {
+            "code": "697901009",
+            "display": "Pulmonary arterial hypertension caused by toxin (disorder)"
+          },
+          {
+            "code": "111289009",
+            "display": "Arteriovenous fistula of pulmonary vessels (disorder)"
+          },
+          {
+            "code": "448472004",
+            "display": "Congenital abnormality of pulmonary trunk (disorder)"
+          },
+          {
+            "code": "76846002",
+            "display": "Pulmonary endarteritis (disorder)"
+          },
+          {
+            "code": "88837005",
+            "display": "Injury of pulmonary artery (disorder)"
+          },
+          {
+            "code": "57834008",
+            "display": "Pulmonary artery thrombosis (disorder)"
+          },
+          {
+            "code": "253620009",
+            "display": "Pulmonary trunk abnormality (disorder)"
+          },
+          {
+            "code": "11454006",
+            "display": "Failed attempted abortion with amniotic fluid embolism (disorder)"
+          },
+          {
+            "code": "460597009",
+            "display": "Systemic to pulmonary collateral artery connecting with tracheobronchial arteries (disorder)"
+          },
+          {
+            "code": "27986000",
+            "display": "Congenital pulmonary arteriovenous aneurysm (disorder)"
+          }
+        ]
+      }
+    ]
+  }
+}

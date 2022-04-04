@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "DiabetesUncomplicated",
+  "id": "c5f13b90-6db2-11ec-b0c5-07612a97300d",
+  "title": "Diabetes (Uncomplicated)",
+  "description": "SNOMED and ICD10 codes for diabetes (uncomplicated)",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/c5f13b90-6db2-11ec-b0c5-07612a97300d",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "1481000119100",
+            "display": "Diabetes mellitus type 2 without retinopathy (disorder)"
+          },
+          {
+            "code": "313436004",
+            "display": "Type II diabetes mellitus without complication (disorder)"
+          },
+          {
+            "code": "313435000",
+            "display": "Type I diabetes mellitus without complication (disorder)"
+          },
+          {
+            "code": "111552007",
+            "display": "Diabetes mellitus without complication (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "E13.9",
+            "display": "Other specified diabetes mellitus without complications"
+          },
+          {
+            "code": "E10.9",
+            "display": "Type 1 diabetes mellitus without complications"
+          },
+          {
+            "code": "E11.9",
+            "display": "Type 2 diabetes mellitus without complications"
+          }
+        ]
+      }
+    ]
+  }
+}

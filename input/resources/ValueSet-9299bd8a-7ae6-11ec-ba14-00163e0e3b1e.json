@@ -1,0 +1,169 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Amylase",
+  "id": "9299bd8a-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "Amylase",
+  "description": "LOINC codes indicating serum Amylase measurement Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/9299bd8a-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "56782-6",
+            "display": "Amylase S4/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "14589-6",
+            "display": "Amylase isoenzymes [Interpretation] in Serum or Plasma"
+          },
+          {
+            "code": "1810-1",
+            "display": "Amylase/Creatinine [Mass Ratio] in Serum or Plasma"
+          },
+          {
+            "code": "26011-7",
+            "display": "Macroamylase/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "49251-2",
+            "display": "Amylase isoenzymes [Interpretation] in Serum or Plasma Narrative"
+          },
+          {
+            "code": "24334-5",
+            "display": "Amylase isoenzyme 7 panel - Serum"
+          },
+          {
+            "code": "1802-8",
+            "display": "Amylase.P1 [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "15022-7",
+            "display": "Amylase.P3/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "1807-7",
+            "display": "Amylase S2 [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "72571-3",
+            "display": "Amylase.pancreatic/Amylase.total [Pure catalytic fraction] in Serum or Plasma"
+          },
+          {
+            "code": "2591-6",
+            "display": "Macroamylase [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "56776-8",
+            "display": "Amylase S3+S4/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "25312-0",
+            "display": "Amylase.pancreatic/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "1808-5",
+            "display": "Amylase S3 [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "6697-7",
+            "display": "Deprecated Amylase [Enzymatic activity/volume] in Serum"
+          },
+          {
+            "code": "54472-6",
+            "display": "Amylase.macromolecular/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "25313-8",
+            "display": "Amylase.salivary/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "15023-5",
+            "display": "Amylase S1/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "15020-1",
+            "display": "Amylase.P1/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "15025-0",
+            "display": "Amylase S3/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "1805-1",
+            "display": "Amylase.pancreatic [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "15024-3",
+            "display": "Amylase S2/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "15021-9",
+            "display": "Amylase.P2/Amylase.total in Serum or Plasma"
+          },
+          {
+            "code": "77146-9",
+            "display": "Amylase [Enzymatic activity/volume] in Serum, Plasma or Blood"
+          },
+          {
+            "code": "1798-8",
+            "display": "Amylase [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "1803-6",
+            "display": "Amylase.P2 [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "24333-7",
+            "display": "Amylase isoenzyme 3 panel - Serum or Plasma"
+          },
+          {
+            "code": "1806-9",
+            "display": "Amylase S1 [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "76630-3",
+            "display": "Amylase [Enzymatic activity/volume] in Blood"
+          },
+          {
+            "code": "15358-5",
+            "display": "Macroamylase [Presence] in Serum or Plasma"
+          },
+          {
+            "code": "1809-3",
+            "display": "Amylase.salivary [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "72272-8",
+            "display": "Amylase and triacylglycerol lipase panel - Serum or Plasma"
+          },
+          {
+            "code": "1804-4",
+            "display": "Amylase.P3 [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "72572-1",
+            "display": "Amylase.salivary/Amylase.total [Pure catalytic fraction] in Serum or Plasma"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "4806",
+            "display": "Amylase Lvl"
+          }
+        ]
+      }
+    ]
+  }
+}

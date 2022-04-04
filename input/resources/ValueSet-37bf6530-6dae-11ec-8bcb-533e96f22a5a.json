@@ -1,0 +1,811 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Plantalkaloidsandothernaturalproducts",
+  "id": "37bf6530-6dae-11ec-8bcb-533e96f22a5a",
+  "title": "Plant alkaloids and other natural products",
+  "description": "This valueset contains RxNorm codes for the ATC class of plant alkaloids and other natural products",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/37bf6530-6dae-11ec-8bcb-533e96f22a5a",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "RXNORM_20AA_220103F",
+        "concept": [
+          {
+            "code": "1663184",
+            "display": "paclitaxel Injection [Abraxane]"
+          },
+          {
+            "code": "1718587",
+            "display": "trabectedin Injectable Product"
+          },
+          {
+            "code": "1186612",
+            "display": "Vincasar Injectable Product"
+          },
+          {
+            "code": "316429",
+            "display": "paclitaxel 6 MG/ML"
+          },
+          {
+            "code": "1305000",
+            "display": "31 ML vincristine sulfate liposome 0.16 MG/ML Injection [Marqibo]"
+          },
+          {
+            "code": "1726335",
+            "display": "15 ML irinotecan hydrochloride 20 MG/ML Injection [Camptosar]"
+          },
+          {
+            "code": "329753",
+            "display": "etoposide 100 MG"
+          },
+          {
+            "code": "377111",
+            "display": "paclitaxel Injectable Solution"
+          },
+          {
+            "code": "1161334",
+            "display": "irinotecan Injectable Product"
+          },
+          {
+            "code": "11202",
+            "display": "vincristine"
+          },
+          {
+            "code": "11204",
+            "display": "vindesine"
+          },
+          {
+            "code": "1799414",
+            "display": "topotecan 4 MG"
+          },
+          {
+            "code": "1863346",
+            "display": "vincristine Injection [Vincasar]"
+          },
+          {
+            "code": "1918045",
+            "display": "10 ML docetaxel 20 MG/ML Injection"
+          },
+          {
+            "code": "362881",
+            "display": "etoposide Injectable Solution [Toposar]"
+          },
+          {
+            "code": "1726319",
+            "display": "2 ML irinotecan hydrochloride 20 MG/ML Injection"
+          },
+          {
+            "code": "1718588",
+            "display": "trabectedin Injection"
+          },
+          {
+            "code": "1860482",
+            "display": "1 ML docetaxel 20 MG/ML Injection [Taxotere]"
+          },
+          {
+            "code": "1719767",
+            "display": "irinotecan hydrochloride liposome"
+          },
+          {
+            "code": "1860485",
+            "display": "4 ML docetaxel 20 MG/ML Injection"
+          },
+          {
+            "code": "1799416",
+            "display": "topotecan 4 MG Injection"
+          },
+          {
+            "code": "39541",
+            "display": "vinorelbine"
+          },
+          {
+            "code": "1734343",
+            "display": "etoposide Injection [Etopophos]"
+          },
+          {
+            "code": "10362",
+            "display": "teniposide"
+          },
+          {
+            "code": "1863347",
+            "display": "1 ML vincristine sulfate 1 MG/ML Injection [Vincasar]"
+          },
+          {
+            "code": "565262",
+            "display": "vinorelbine 10 MG/ML [Navelbine]"
+          },
+          {
+            "code": "1111070",
+            "display": "docetaxel 25 MG/ML"
+          },
+          {
+            "code": "220347",
+            "display": "Toposar"
+          },
+          {
+            "code": "1157930",
+            "display": "etoposide Pill"
+          },
+          {
+            "code": "11203",
+            "display": "vincristine sulfate"
+          },
+          {
+            "code": "56946",
+            "display": "paclitaxel"
+          },
+          {
+            "code": "1101770",
+            "display": "Docefrez"
+          },
+          {
+            "code": "312199",
+            "display": "paclitaxel 6 MG/ML Injectable Solution"
+          },
+          {
+            "code": "904161",
+            "display": "irinotecan hydrochloride 20 MG/ML [Camptosar]"
+          },
+          {
+            "code": "1157656",
+            "display": "topotecan Oral Product"
+          },
+          {
+            "code": "206831",
+            "display": "etoposide 20 MG/ML Injectable Solution [Toposar]"
+          },
+          {
+            "code": "203472",
+            "display": "Hycamtin"
+          },
+          {
+            "code": "1719772",
+            "display": "10 ML irinotecan hydrochloride liposome 4.3 MG/ML Injection"
+          },
+          {
+            "code": "1726321",
+            "display": "2 ML irinotecan hydrochloride 20 MG/ML Injection [Camptosar]"
+          },
+          {
+            "code": "1001405",
+            "display": "docetaxel 20 MG/ML Injectable Solution"
+          },
+          {
+            "code": "24614",
+            "display": "etoposide phosphate"
+          },
+          {
+            "code": "748737",
+            "display": "topotecan Oral Capsule [Hycamtin]"
+          },
+          {
+            "code": "1860479",
+            "display": "docetaxel Injection"
+          },
+          {
+            "code": "316769",
+            "display": "teniposide 10 MG/ML"
+          },
+          {
+            "code": "747192",
+            "display": "topotecan Oral Capsule"
+          },
+          {
+            "code": "1726324",
+            "display": "5 ML irinotecan hydrochloride 20 MG/ML Injection"
+          },
+          {
+            "code": "1111072",
+            "display": "docetaxel 25 MG/ML [Docefrez]"
+          },
+          {
+            "code": "637550",
+            "display": "topotecan 4 MG Injection [Hycamtin]"
+          },
+          {
+            "code": "1726320",
+            "display": "irinotecan Injection [Camptosar]"
+          },
+          {
+            "code": "1799418",
+            "display": "topotecan Injection [Hycamtin]"
+          },
+          {
+            "code": "2473230",
+            "display": "paclitaxel poliglumex"
+          },
+          {
+            "code": "1160527",
+            "display": "vinblastine Injectable Product"
+          },
+          {
+            "code": "1804772",
+            "display": "vinblastine sulfate 1 MG/ML"
+          },
+          {
+            "code": "1093280",
+            "display": "docetaxel 10 MG/ML Injectable Solution"
+          },
+          {
+            "code": "1160617",
+            "display": "docetaxel Injectable Product"
+          },
+          {
+            "code": "2284502",
+            "display": "irinotecan Injection [Onivyde]"
+          },
+          {
+            "code": "894894",
+            "display": "vincristine sulfate 1 MG/ML [Vincasar]"
+          },
+          {
+            "code": "583218",
+            "display": "paclitaxel 100 MG Injection [Abraxane]"
+          },
+          {
+            "code": "1729407",
+            "display": "vinorelbine Injection [Navelbine]"
+          },
+          {
+            "code": "748738",
+            "display": "topotecan 0.25 MG Oral Capsule [Hycamtin]"
+          },
+          {
+            "code": "1165953",
+            "display": "Abraxane Injectable Product"
+          },
+          {
+            "code": "1718594",
+            "display": "trabectedin 1 MG Injection [Yondelis]"
+          },
+          {
+            "code": "1863342",
+            "display": "vincristine Injection"
+          },
+          {
+            "code": "1863308",
+            "display": "teniposide Injection"
+          },
+          {
+            "code": "1157928",
+            "display": "etoposide Injectable Product"
+          },
+          {
+            "code": "1718593",
+            "display": "Yondelis Injectable Product"
+          },
+          {
+            "code": "226719",
+            "display": "etoposide 100 MG Injection [Etopophos]"
+          },
+          {
+            "code": "1180490",
+            "display": "Navelbine Injectable Product"
+          },
+          {
+            "code": "1093279",
+            "display": "docetaxel 10 MG/ML"
+          },
+          {
+            "code": "1304997",
+            "display": "vincristine sulfate liposome 0.16 MG/ML [Marqibo]"
+          },
+          {
+            "code": "1164585",
+            "display": "vinorelbine Injectable Product"
+          },
+          {
+            "code": "894892",
+            "display": "vincristine sulfate 1 MG/ML"
+          },
+          {
+            "code": "1799417",
+            "display": "topotecan 4 MG [Hycamtin]"
+          },
+          {
+            "code": "239178",
+            "display": "vinblastine sulfate 1 MG/ML Injectable Solution"
+          },
+          {
+            "code": "376891",
+            "display": "vindesine Injectable Solution"
+          },
+          {
+            "code": "1726492",
+            "display": "25 ML irinotecan hydrochloride 20 MG/ML Injection"
+          },
+          {
+            "code": "1304996",
+            "display": "Marqibo"
+          },
+          {
+            "code": "1376084",
+            "display": "1.5 ML cabazitaxel 40 MG/ML Injection [Jevtana]"
+          },
+          {
+            "code": "1718591",
+            "display": "trabectedin 1 MG [Yondelis]"
+          },
+          {
+            "code": "1304995",
+            "display": "31 ML vincristine sulfate liposome 0.16 MG/ML Injection"
+          },
+          {
+            "code": "904159",
+            "display": "irinotecan hydrochloride 20 MG/ML"
+          },
+          {
+            "code": "996051",
+            "display": "cabazitaxel"
+          },
+          {
+            "code": "11198",
+            "display": "vinblastine"
+          },
+          {
+            "code": "1304991",
+            "display": "vincristine liposome"
+          },
+          {
+            "code": "1719773",
+            "display": "Onivyde"
+          },
+          {
+            "code": "1860480",
+            "display": "1 ML docetaxel 20 MG/ML Injection"
+          },
+          {
+            "code": "1719777",
+            "display": "10 ML irinotecan hydrochloride liposome 4.3 MG/ML Injection [Onivyde]"
+          },
+          {
+            "code": "589511",
+            "display": "Abraxane"
+          },
+          {
+            "code": "1157929",
+            "display": "etoposide Oral Product"
+          },
+          {
+            "code": "11205",
+            "display": "vindesine sulfate"
+          },
+          {
+            "code": "114527",
+            "display": "vinorelbine tartrate"
+          },
+          {
+            "code": "1180259",
+            "display": "Taxotere Injectable Product"
+          },
+          {
+            "code": "1726333",
+            "display": "15 ML irinotecan hydrochloride 20 MG/ML Injection"
+          },
+          {
+            "code": "1719768",
+            "display": "irinotecan liposomal"
+          },
+          {
+            "code": "1173805",
+            "display": "Docefrez Injectable Product"
+          },
+          {
+            "code": "1812332",
+            "display": "cabazitaxel Injection"
+          },
+          {
+            "code": "1101771",
+            "display": "docetaxel 24 MG/ML [Docefrez]"
+          },
+          {
+            "code": "1729423",
+            "display": "5 ML vinorelbine 10 MG/ML Injection [Navelbine]"
+          },
+          {
+            "code": "51499",
+            "display": "irinotecan"
+          },
+          {
+            "code": "1734342",
+            "display": "etoposide 100 MG [Etopophos]"
+          },
+          {
+            "code": "72962",
+            "display": "docetaxel"
+          },
+          {
+            "code": "245839",
+            "display": "vindesine 1 MG/ML Injectable Solution"
+          },
+          {
+            "code": "1726318",
+            "display": "irinotecan Injection"
+          },
+          {
+            "code": "1719776",
+            "display": "Onivyde Injectable Product"
+          },
+          {
+            "code": "342947",
+            "display": "topotecan 1 MG/ML"
+          },
+          {
+            "code": "376888",
+            "display": "docetaxel Injectable Solution"
+          },
+          {
+            "code": "1001433",
+            "display": "1.5 ML cabazitaxel 40 MG/ML Injection"
+          },
+          {
+            "code": "203652",
+            "display": "Camptosar"
+          },
+          {
+            "code": "1001406",
+            "display": "docetaxel 20 MG/ML [Taxotere]"
+          },
+          {
+            "code": "1863343",
+            "display": "1 ML vincristine sulfate 1 MG/ML Injection"
+          },
+          {
+            "code": "567639",
+            "display": "etoposide 20 MG/ML [Toposar]"
+          },
+          {
+            "code": "2284505",
+            "display": "vincristine Injection [Marqibo]"
+          },
+          {
+            "code": "1718589",
+            "display": "trabectedin 1 MG Injection"
+          },
+          {
+            "code": "1729422",
+            "display": "5 ML vinorelbine 10 MG/ML Injection"
+          },
+          {
+            "code": "747194",
+            "display": "topotecan 0.25 MG"
+          },
+          {
+            "code": "1163532",
+            "display": "paclitaxel Injectable Product"
+          },
+          {
+            "code": "199315",
+            "display": "etoposide 100 MG Oral Capsule"
+          },
+          {
+            "code": "1860481",
+            "display": "docetaxel Injection [Taxotere]"
+          },
+          {
+            "code": "637549",
+            "display": "topotecan 1 MG/ML Injectable Solution"
+          },
+          {
+            "code": "376857",
+            "display": "vinblastine Injectable Solution"
+          },
+          {
+            "code": "372132",
+            "display": "etoposide Oral Capsule"
+          },
+          {
+            "code": "376889",
+            "display": "topotecan Injectable Solution"
+          },
+          {
+            "code": "1718592",
+            "display": "trabectedin Injection [Yondelis]"
+          },
+          {
+            "code": "376890",
+            "display": "etoposide Injectable Solution"
+          },
+          {
+            "code": "1111073",
+            "display": "docetaxel 25 MG/ML Injectable Solution [Docefrez]"
+          },
+          {
+            "code": "57308",
+            "display": "topotecan"
+          },
+          {
+            "code": "11199",
+            "display": "vinblastine sulfate"
+          },
+          {
+            "code": "1101773",
+            "display": "docetaxel 24 MG/ML Injectable Solution [Docefrez]"
+          },
+          {
+            "code": "1860486",
+            "display": "4 ML docetaxel 20 MG/ML Injection [Taxotere]"
+          },
+          {
+            "code": "1111071",
+            "display": "docetaxel 25 MG/ML Injectable Solution"
+          },
+          {
+            "code": "330562",
+            "display": "vinorelbine 10 MG/ML"
+          },
+          {
+            "code": "202982",
+            "display": "Taxotere"
+          },
+          {
+            "code": "1718590",
+            "display": "Yondelis"
+          },
+          {
+            "code": "1726325",
+            "display": "5 ML irinotecan hydrochloride 20 MG/ML Injection [Camptosar]"
+          },
+          {
+            "code": "1716278",
+            "display": "trabectedin"
+          },
+          {
+            "code": "1001404",
+            "display": "docetaxel 20 MG/ML"
+          },
+          {
+            "code": "1718586",
+            "display": "trabectedin 1 MG"
+          },
+          {
+            "code": "1101768",
+            "display": "docetaxel 24 MG/ML"
+          },
+          {
+            "code": "1719769",
+            "display": "irinotecan hydrochloride liposome 4.3 MG/ML"
+          },
+          {
+            "code": "1172715",
+            "display": "Hycamtin Oral Product"
+          },
+          {
+            "code": "4179",
+            "display": "etoposide"
+          },
+          {
+            "code": "197687",
+            "display": "etoposide 50 MG Oral Capsule"
+          },
+          {
+            "code": "310248",
+            "display": "etoposide 20 MG/ML Injectable Solution"
+          },
+          {
+            "code": "274342",
+            "display": "Etopophos"
+          },
+          {
+            "code": "342949",
+            "display": "vindesine 1 MG/ML"
+          },
+          {
+            "code": "1729419",
+            "display": "1 ML vinorelbine 10 MG/ML Injection [Navelbine]"
+          },
+          {
+            "code": "1157657",
+            "display": "topotecan Pill"
+          },
+          {
+            "code": "1812334",
+            "display": "cabazitaxel Injection [Jevtana]"
+          },
+          {
+            "code": "1001432",
+            "display": "cabazitaxel 40 MG/ML"
+          },
+          {
+            "code": "452837",
+            "display": "topotecan 1 MG"
+          },
+          {
+            "code": "1376083",
+            "display": "cabazitaxel 40 MG/ML [Jevtana]"
+          },
+          {
+            "code": "1164944",
+            "display": "cabazitaxel Injectable Product"
+          },
+          {
+            "code": "748739",
+            "display": "topotecan 1 MG [Hycamtin]"
+          },
+          {
+            "code": "1799415",
+            "display": "topotecan Injection"
+          },
+          {
+            "code": "1172716",
+            "display": "Hycamtin Pill"
+          },
+          {
+            "code": "996055",
+            "display": "Jevtana"
+          },
+          {
+            "code": "747195",
+            "display": "topotecan 0.25 MG Oral Capsule"
+          },
+          {
+            "code": "53557",
+            "display": "Navelbine"
+          },
+          {
+            "code": "1734344",
+            "display": "Etopophos Injectable Product"
+          },
+          {
+            "code": "486610",
+            "display": "paclitaxel protein-bound"
+          },
+          {
+            "code": "1663181",
+            "display": "paclitaxel Injection"
+          },
+          {
+            "code": "227575",
+            "display": "Vincasar"
+          },
+          {
+            "code": "748736",
+            "display": "topotecan 0.25 MG [Hycamtin]"
+          },
+          {
+            "code": "1299922",
+            "display": "docetaxel anhydrous"
+          },
+          {
+            "code": "1101769",
+            "display": "docetaxel 24 MG/ML Injectable Solution"
+          },
+          {
+            "code": "1663183",
+            "display": "paclitaxel 100 MG [Abraxane]"
+          },
+          {
+            "code": "1304992",
+            "display": "vincristine sulfate liposome 0.16 MG/ML"
+          },
+          {
+            "code": "1160531",
+            "display": "vincristine Injectable Product"
+          },
+          {
+            "code": "266573",
+            "display": "topotecan hydrochloride"
+          },
+          {
+            "code": "1101772",
+            "display": "docetaxel Injectable Solution [Docefrez]"
+          },
+          {
+            "code": "583214",
+            "display": "paclitaxel 100 MG Injection"
+          },
+          {
+            "code": "1164231",
+            "display": "teniposide Injectable Product"
+          },
+          {
+            "code": "1663180",
+            "display": "paclitaxel 100 MG"
+          },
+          {
+            "code": "153329",
+            "display": "irinotecan hydrochloride"
+          },
+          {
+            "code": "1719774",
+            "display": "irinotecan hydrochloride liposome 4.3 MG/ML [Onivyde]"
+          },
+          {
+            "code": "1304999",
+            "display": "Marqibo Injectable Product"
+          },
+          {
+            "code": "313213",
+            "display": "5 ML teniposide 10 MG/ML Injection"
+          },
+          {
+            "code": "1799424",
+            "display": "4 ML topotecan 1 MG/ML Injection"
+          },
+          {
+            "code": "748740",
+            "display": "topotecan 1 MG Oral Capsule [Hycamtin]"
+          },
+          {
+            "code": "1729418",
+            "display": "1 ML vinorelbine 10 MG/ML Injection"
+          },
+          {
+            "code": "1734340",
+            "display": "etoposide 100 MG Injection"
+          },
+          {
+            "code": "1861411",
+            "display": "8 ML docetaxel 20 MG/ML Injection"
+          },
+          {
+            "code": "1157655",
+            "display": "topotecan Injectable Product"
+          },
+          {
+            "code": "1172714",
+            "display": "Hycamtin Injectable Product"
+          },
+          {
+            "code": "1729404",
+            "display": "vinorelbine Injection"
+          },
+          {
+            "code": "1734339",
+            "display": "etoposide Injection"
+          },
+          {
+            "code": "1178005",
+            "display": "Toposar Injectable Product"
+          },
+          {
+            "code": "747193",
+            "display": "topotecan 1 MG Oral Capsule"
+          },
+          {
+            "code": "1863354",
+            "display": "2 ML vincristine sulfate 1 MG/ML Injection"
+          },
+          {
+            "code": "1160532",
+            "display": "vindesine Injectable Product"
+          },
+          {
+            "code": "315913",
+            "display": "etoposide 50 MG"
+          },
+          {
+            "code": "1172305",
+            "display": "Camptosar Injectable Product"
+          },
+          {
+            "code": "1860619",
+            "display": "2 ML docetaxel 10 MG/ML Injection"
+          },
+          {
+            "code": "315912",
+            "display": "etoposide 20 MG/ML"
+          },
+          {
+            "code": "1863355",
+            "display": "2 ML vincristine sulfate 1 MG/ML Injection [Vincasar]"
+          },
+          {
+            "code": "1167866",
+            "display": "Jevtana Injectable Product"
+          },
+          {
+            "code": "1304990",
+            "display": "vincristine sulfate liposome"
+          }
+        ]
+      }
+    ]
+  }
+}

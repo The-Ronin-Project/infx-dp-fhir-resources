@@ -1,0 +1,253 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "PTT",
+  "id": "95907ba0-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "PTT",
+  "description": "LOINC codes indicating the measurement of PTT Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/95907ba0-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "6773",
+            "display": "aPTT"
+          },
+          {
+            "code": "4571",
+            "display": "1:1 PTT"
+          },
+          {
+            "code": "8759",
+            "display": "aPTT Mix (1:1) Path Interpretation"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "96265-4",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --2H post incubation with 1:1 normal plasma"
+          },
+          {
+            "code": "40105-9",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --3 hours post XXX challenge"
+          },
+          {
+            "code": "40111-7",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --18 hours post XXX challenge"
+          },
+          {
+            "code": "49843-6",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --2H post incubation with 1:4 normal plasma"
+          },
+          {
+            "code": "67566-0",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --with normal plasma 2H post incubation separate tubes"
+          },
+          {
+            "code": "96263-9",
+            "display": "aPTT.lupus sensitive.factor substitution in Platelet poor plasma by Coagulation assay --2H post incubation with 1:1 normal plasma"
+          },
+          {
+            "code": "93236-8",
+            "display": "aPTT.lupus sensitive.excess phospholipid in Platelet poor plasma by Coagulation assay --post heparin neutralization"
+          },
+          {
+            "code": "34683-3",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --immediately after addition of factor IX depleted plasma"
+          },
+          {
+            "code": "15362-7",
+            "display": "aPTT.inhibitor sensitive in Platelet poor plasma by Coagulation assay"
+          },
+          {
+            "code": "16631-4",
+            "display": "aPTT in Blood by Coagulation 1:1 saline"
+          },
+          {
+            "code": "34687-4",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --immediately after addition of factor XI depleted plasma"
+          },
+          {
+            "code": "33890-5",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --2H post incubation with normal plasma"
+          },
+          {
+            "code": "91104-0",
+            "display": "aPTT.factor sensitive with 1:1 Pooled Normal Plasma in Platelet poor plasma by Coagulation assay"
+          },
+          {
+            "code": "14979-9",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay"
+          },
+          {
+            "code": "55202-6",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --5 minutes post incubation after addition of normal plasma"
+          },
+          {
+            "code": "52751-5",
+            "display": "aPTT.factor sensitive in Platelet poor plasma by Coagulation assay"
+          },
+          {
+            "code": "54207-6",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --immediately after addition of factor V depleted plasma"
+          },
+          {
+            "code": "75510-8",
+            "display": "aPTT.lupus sensitive with 1:1 PNP (LA mix)"
+          },
+          {
+            "code": "40100-0",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --baseline"
+          },
+          {
+            "code": "40107-5",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --6 hours post XXX challenge"
+          },
+          {
+            "code": "49844-4",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --1H post incubation with 1:4 normal plasma"
+          },
+          {
+            "code": "40109-1",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --12 hours post XXX challenge"
+          },
+          {
+            "code": "5950-1",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --20M post incubation with normal plasma"
+          },
+          {
+            "code": "3173-2",
+            "display": "aPTT in Blood by Coagulation assay"
+          },
+          {
+            "code": "13059-1",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --3rd specimen"
+          },
+          {
+            "code": "13058-3",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --2nd specimen"
+          },
+          {
+            "code": "40106-7",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --4 hours post XXX challenge"
+          },
+          {
+            "code": "48590-4",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --after addition of APC"
+          },
+          {
+            "code": "43734-3",
+            "display": "aPTT in Platelet poor plasma by Coagulation 1:1 saline"
+          },
+          {
+            "code": "93235-0",
+            "display": "aPTT.lupus sensitive in Platelet poor plasma by Coagulation assay --post heparin neutralization"
+          },
+          {
+            "code": "40108-3",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --8 hours post XXX challenge"
+          },
+          {
+            "code": "49845-1",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --with normal plasma 1H post incubation separate tubes"
+          },
+          {
+            "code": "53570-8",
+            "display": "aPTT.lupus insensitive in Platelet poor plasma by Coagulation assay"
+          },
+          {
+            "code": "40103-4",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --1.5 hours post XXX challenge"
+          },
+          {
+            "code": "5946-9",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --immediately after addition of normal plasma"
+          },
+          {
+            "code": "96266-2",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --1H post incubation with 1:1 normal plasma"
+          },
+          {
+            "code": "54208-4",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --immediately after addition of factor V depleted plasma+APC"
+          },
+          {
+            "code": "40104-2",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --2 hours post XXX challenge"
+          },
+          {
+            "code": "34684-1",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --immediately after addition of factor XIII depleted plasma"
+          },
+          {
+            "code": "13060-9",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --4th specimen"
+          },
+          {
+            "code": "40101-8",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --30 minutes post XXX challenge"
+          },
+          {
+            "code": "34571-0",
+            "display": "aPTT.lupus sensitive (LA screen)"
+          },
+          {
+            "code": "40099-4",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --2 hours pre XXX challenge"
+          },
+          {
+            "code": "40110-9",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --1 day post XXX challenge"
+          },
+          {
+            "code": "52123-7",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --post heparin neutralization"
+          },
+          {
+            "code": "30323-0",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --1H post incubation with normal plasma"
+          },
+          {
+            "code": "15361-9",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --immediately after 1:4 addition of normal plasma"
+          },
+          {
+            "code": "40102-6",
+            "display": "aPTT in Platelet poor plasma by Coagulation assay --1 hour post XXX challenge"
+          },
+          {
+            "code": "91119-8",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --immediately after 1:1 addition of normal plasma"
+          },
+          {
+            "code": "96264-7",
+            "display": "aPTT.lupus sensitive.factor substitution in Platelet poor plasma by Coagulation assay --1H post incubation with 1:1 normal plasma"
+          },
+          {
+            "code": "3282-1",
+            "display": "aPTT W excess hexagonal phase phospholipid in Platelet poor plasma by Coagulation assay"
+          },
+          {
+            "code": "34688-2",
+            "display": "aPTT.factor substitution in Platelet poor plasma by Coagulation assay --immediately after addition of factor XII depleted plasma"
+          },
+          {
+            "code": "75506-6",
+            "display": "aPTT.lupus sensitive W excess phospholipid (LA confirm)"
+          }
+        ]
+      }
+    ]
+  }
+}

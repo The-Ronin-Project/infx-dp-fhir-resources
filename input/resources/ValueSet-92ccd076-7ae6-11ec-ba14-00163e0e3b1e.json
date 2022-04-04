@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ANC",
+  "id": "92ccd076-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "ANC",
+  "description": "LOINC codes indicating ANC measurement Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/92ccd076-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "751-8",
+            "display": "Neutrophils [#/volume] in Blood by Automated count"
+          },
+          {
+            "code": "753-4",
+            "display": "Neutrophils [#/volume] in Blood by Manual count"
+          },
+          {
+            "code": "26499-4",
+            "display": "Neutrophils [#/volume] in Blood"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "9654",
+            "display": "Preliminary ANC"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "documentReferenceExample1",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-document-reference"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "013"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/isDeleted",
+      "valueBoolean": true
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/deletionUser",
+      "valueReference": {
+        "reference": "Practitioner/ExamplePractitioner"
+      }
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/deletionTime",
+      "valueDateTime": "2019-02-07"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/lastEditorId",
+      "valueString": "123"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/lastEditorExtId",
+      "valueString": "ABC"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/lastEditorName",
+      "valueString": "Tony"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/lastEditorDisplayName",
+      "valueString": "Tony T"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/lastEditorIni",
+      "valueString": "No clue"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/lastEditorUpdate",
+      "valueDateTime": "2019-02-07T13:28:17.000Z"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/cosignRequirementAbbreviation",
+      "valueString": "ABC"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/cosignRequirementName",
+      "valueString": "ABC XYZ"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/cosignRequirementTitle",
+      "valueString": "Some title"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/cosignDateTime",
+      "valueDateTime": "2019-02-07T13:28:17.000Z"
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/cosigner",
+      "valueReference": {
+        "reference": "Practitioner/ExamplePractitioner"
+      }
+    }
+  ],
+  "status": "current",
+  "date": "2015-02-07T13:28:17.239+02:00",
+  "context": {
+    "id": "exampleContextId"
+  },
+  "type": {
+    "coding": [
+      {
+        "code": "11526-1",
+        "system": "http://loinc.org",
+        "display": "Pathology study"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "clinical-note",
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+          "display": "Clinical Note"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "content": [
+    {
+      "id": "exampleContentId",
+      "attachment": {
+        "url": "http://example.com",
+        "contentType": "json"
+      }
+    }
+  ]
+}

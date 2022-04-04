@@ -1,0 +1,1975 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Immunostimulants",
+  "id": "9995c830-6dae-11ec-b55a-f105f5c21ca0",
+  "title": "Immunostimulants",
+  "description": "This valueset contains RxNorm codes of members of the ATC class immunostimulants",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/9995c830-6dae-11ec-b55a-f105f5c21ca0",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "RXNORM_20AA_220103F",
+        "concept": [
+          {
+            "code": "1099052",
+            "display": "peginterferon alfa-2b 0.3 MG Injection [Sylatron]"
+          },
+          {
+            "code": "758026",
+            "display": "interferon beta-1a Prefilled Syringe [Rebif]"
+          },
+          {
+            "code": "1605071",
+            "display": "0.5 ML filgrastim-sndz 0.6 MG/ML Prefilled Syringe [Zarxio]"
+          },
+          {
+            "code": "1546181",
+            "display": "0.5 ML peginterferon beta-1a 0.126 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1546172",
+            "display": "0.5 ML peginterferon beta-1a 0.188 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "2260706",
+            "display": "pegfilgrastim-bmez 10 MG/ML [Ziextenzo]"
+          },
+          {
+            "code": "1651246",
+            "display": "interferon beta-1a 0.03 MG [Avonex]"
+          },
+          {
+            "code": "213128",
+            "display": "oprelvekin 5 MG Injection [Neumega]"
+          },
+          {
+            "code": "2102704",
+            "display": "pegfilgrastim-cbqv 10 MG/ML [Udenyca]"
+          },
+          {
+            "code": "1721325",
+            "display": "interferon beta-1b 0.3 MG [Betaseron]"
+          },
+          {
+            "code": "350977",
+            "display": "pegfilgrastim 10 MG/ML"
+          },
+          {
+            "code": "375626",
+            "display": "sargramostim Injectable Solution"
+          },
+          {
+            "code": "82828",
+            "display": "Betaseron"
+          },
+          {
+            "code": "731333",
+            "display": "0.5 ML peginterferon alfa-2b 0.24 MG/ML Pen Injector"
+          },
+          {
+            "code": "2587066",
+            "display": "Besremi"
+          },
+          {
+            "code": "1720797",
+            "display": "peginterferon alfa-2b 0.12 MG [Pegintron]"
+          },
+          {
+            "code": "215019",
+            "display": "Adagen"
+          },
+          {
+            "code": "1650922",
+            "display": "0.5 ML peginterferon alfa-2a 0.36 MG/ML Auto-Injector"
+          },
+          {
+            "code": "2101465",
+            "display": "1.6 ML tbo-filgrastim 0.3 MG/ML Injection [Granix]"
+          },
+          {
+            "code": "1654628",
+            "display": "glatiramer Prefilled Syringe [Glatopa]"
+          },
+          {
+            "code": "1719781",
+            "display": "aldesleukin Injection"
+          },
+          {
+            "code": "1300290",
+            "display": "histamine dihydrochloride 1 MG/ML / menthol 30 MG/ML [Alo]"
+          },
+          {
+            "code": "575913",
+            "display": "interferon beta-1a 0.044 MG/ML [Rebif]"
+          },
+          {
+            "code": "828698",
+            "display": "plerixafor 20 MG/ML"
+          },
+          {
+            "code": "1650004",
+            "display": "0.5 ML interferon beta-1a 0.088 MG/ML Auto-Injector [Rebif]"
+          },
+          {
+            "code": "573289",
+            "display": "sargramostim 0.5 MG/ML [Leukine]"
+          },
+          {
+            "code": "2048023",
+            "display": "pegfilgrastim Prefilled Syringe [Fulphila]"
+          },
+          {
+            "code": "2057205",
+            "display": "0.5 ML filgrastim-aafi 0.6 MG/ML Prefilled Syringe [Nivestym]"
+          },
+          {
+            "code": "1605066",
+            "display": "0.5 ML filgrastim-sndz 0.6 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1546188",
+            "display": "peginterferon beta-1a 0.25 MG/ML [Plegridy]"
+          },
+          {
+            "code": "70167",
+            "display": "lenograstim"
+          },
+          {
+            "code": "1720879",
+            "display": "interferon alfa-2b 10000000 UNT [Intron A]"
+          },
+          {
+            "code": "731329",
+            "display": "peginterferon alfa-2a 0.27 MG/ML"
+          },
+          {
+            "code": "727811",
+            "display": "interferon beta-1a 0.06 MG/ML"
+          },
+          {
+            "code": "2057204",
+            "display": "Nivestym Injectable Product"
+          },
+          {
+            "code": "1720775",
+            "display": "peginterferon alfa-2b 0.05 MG"
+          },
+          {
+            "code": "203878",
+            "display": "Leukine"
+          },
+          {
+            "code": "2260709",
+            "display": "0.6 ML pegfilgrastim-bmez 10 MG/ML Prefilled Syringe [Ziextenzo]"
+          },
+          {
+            "code": "567845",
+            "display": "filgrastim 0.3 MG/ML [Neupogen]"
+          },
+          {
+            "code": "1740453",
+            "display": "oprelvekin 5 MG"
+          },
+          {
+            "code": "1160918",
+            "display": "histamine / menthol Topical Product"
+          },
+          {
+            "code": "1651247",
+            "display": "interferon beta-1a Injection [Avonex]"
+          },
+          {
+            "code": "1162571",
+            "display": "lenograstim Injectable Product"
+          },
+          {
+            "code": "1947258",
+            "display": "histamine / menthol / methyl salicylate Topical Product"
+          },
+          {
+            "code": "1161381",
+            "display": "peginterferon alfa-2a Injectable Product"
+          },
+          {
+            "code": "2048021",
+            "display": "Fulphila"
+          },
+          {
+            "code": "1546705",
+            "display": "histamine dihydrochloride 0.6 MG/ML Topical Lotion"
+          },
+          {
+            "code": "1650012",
+            "display": "0.2 ML interferon beta-1a 0.044 MG/ML Auto-Injector [Rebif]"
+          },
+          {
+            "code": "731326",
+            "display": "0.5 ML peginterferon alfa-2a 0.36 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1300292",
+            "display": "Alo Topical Product"
+          },
+          {
+            "code": "2260707",
+            "display": "pegfilgrastim Prefilled Syringe [Ziextenzo]"
+          },
+          {
+            "code": "1649946",
+            "display": "1 ML filgrastim 0.3 MG/ML Injection [Neupogen]"
+          },
+          {
+            "code": "1442677",
+            "display": "Granix"
+          },
+          {
+            "code": "2048024",
+            "display": "Fulphila Injectable Product"
+          },
+          {
+            "code": "1605075",
+            "display": "0.8 ML filgrastim-sndz 0.6 MG/ML Prefilled Syringe [Zarxio]"
+          },
+          {
+            "code": "731328",
+            "display": "0.5 ML peginterferon alfa-2a 0.36 MG/ML Prefilled Syringe [Pegasys]"
+          },
+          {
+            "code": "2587070",
+            "display": "1 ML ropeginterferon alfa-2b-njft 0.5 MG/ML Prefilled Syringe [Besremi]"
+          },
+          {
+            "code": "997267",
+            "display": "250 ML sipuleucel-T 200000 CELLS/ML Injection [Provenge]"
+          },
+          {
+            "code": "1649605",
+            "display": "{1 (0.5 ML peginterferon beta-1a 0.126 MG/ML Auto-Injector [Plegridy]) / 1 (0.5 ML peginterferon beta-1a 0.188 MG/ML Auto-Injector [Plegridy]) } Pack [Plegridy Pen Starter Pack]"
+          },
+          {
+            "code": "805008",
+            "display": "peginterferon alfa-2b 0.08 MG Injection [Pegintron]"
+          },
+          {
+            "code": "2587063",
+            "display": "ropeginterferon alfa-2b Prefilled Syringe"
+          },
+          {
+            "code": "1649593",
+            "display": "0.5 ML peginterferon beta-1a 0.25 MG/ML Auto-Injector [Plegridy]"
+          },
+          {
+            "code": "214582",
+            "display": "glatiramer"
+          },
+          {
+            "code": "2587060",
+            "display": "ropeginterferon alfa-2b-njft"
+          },
+          {
+            "code": "1148635",
+            "display": "histamine dihydrochloride 0.28 MG/ML / menthol 45.7 MG/ML [ActivOn Arthritis]"
+          },
+          {
+            "code": "362563",
+            "display": "interferon alfa-2b Injectable Solution [Intron A]"
+          },
+          {
+            "code": "1159878",
+            "display": "plerixafor Injectable Product"
+          },
+          {
+            "code": "2057199",
+            "display": "filgrastim-aafi 0.6 MG/ML"
+          },
+          {
+            "code": "1158020",
+            "display": "interferon alfa-2b Injectable Product"
+          },
+          {
+            "code": "1184554",
+            "display": "Pegasys Injectable Product"
+          },
+          {
+            "code": "727538",
+            "display": "pegfilgrastim Prefilled Syringe"
+          },
+          {
+            "code": "1728064",
+            "display": "pegademase bovine Injection"
+          },
+          {
+            "code": "1650895",
+            "display": "peginterferon alfa-2a Auto-Injector [Pegasys]"
+          },
+          {
+            "code": "1169953",
+            "display": "Adagen Injectable Product"
+          },
+          {
+            "code": "5333",
+            "display": "histamine"
+          },
+          {
+            "code": "1546174",
+            "display": "peginterferon beta-1a 0.188 MG/ML [Plegridy]"
+          },
+          {
+            "code": "284195",
+            "display": "peginterferon alfa-2b 0.15 MG Injection"
+          },
+          {
+            "code": "1546169",
+            "display": "peginterferon beta-1a 0.188 MG/ML"
+          },
+          {
+            "code": "1651307",
+            "display": "peginterferon alfa-2a Injection"
+          },
+          {
+            "code": "1160920",
+            "display": "histamine Topical Product"
+          },
+          {
+            "code": "978086",
+            "display": "Provenge"
+          },
+          {
+            "code": "1182281",
+            "display": "Neupogen Injectable Product"
+          },
+          {
+            "code": "105648",
+            "display": "aldesleukin 22000000 UNT Injection [Proleukin]"
+          },
+          {
+            "code": "733003",
+            "display": "plerixafor"
+          },
+          {
+            "code": "790246",
+            "display": "peginterferon alfa-2b 0.1 MG/ML [Pegintron]"
+          },
+          {
+            "code": "2469338",
+            "display": "pegfilgrastim Prefilled Syringe [Nyvepria]"
+          },
+          {
+            "code": "1740454",
+            "display": "oprelvekin Injection"
+          },
+          {
+            "code": "1720885",
+            "display": "interferon alfa-2b 50000000 UNT"
+          },
+          {
+            "code": "2469340",
+            "display": "0.6 ML pegfilgrastim-apgf 10 MG/ML Prefilled Syringe [Nyvepria]"
+          },
+          {
+            "code": "2047112",
+            "display": "histamine dihydrochloride 0.00025 MG/MG Topical Gel"
+          },
+          {
+            "code": "2000006",
+            "display": "glatiramer acetate 40 MG/ML [Glatopa]"
+          },
+          {
+            "code": "1007296",
+            "display": "histamine / menthol"
+          },
+          {
+            "code": "760038",
+            "display": "peginterferon alfa-2b 0.16 MG/ML [Pegintron]"
+          },
+          {
+            "code": "75917",
+            "display": "interferon beta-1a"
+          },
+          {
+            "code": "2048022",
+            "display": "pegfilgrastim-jmdb 10 MG/ML [Fulphila]"
+          },
+          {
+            "code": "1175701",
+            "display": "Avonex Injectable Product"
+          },
+          {
+            "code": "727816",
+            "display": "0.5 ML interferon beta-1a 0.06 MG/ML Prefilled Syringe [Avonex]"
+          },
+          {
+            "code": "1542819",
+            "display": "histamine dihydrochloride 0.5 MG/ML"
+          },
+          {
+            "code": "2057203",
+            "display": "filgrastim Prefilled Syringe [Nivestym]"
+          },
+          {
+            "code": "1720878",
+            "display": "interferon alfa-2b 10000000 UNT Injection"
+          },
+          {
+            "code": "1721322",
+            "display": "interferon beta-1b 0.3 MG"
+          },
+          {
+            "code": "1605069",
+            "display": "filgrastim Prefilled Syringe [Zarxio]"
+          },
+          {
+            "code": "2059218",
+            "display": "elapegademase-lvlr"
+          },
+          {
+            "code": "1099056",
+            "display": "peginterferon alfa-2b 0.6 MG Injection [Sylatron]"
+          },
+          {
+            "code": "2101456",
+            "display": "1 ML tbo-filgrastim 0.3 MG/ML Injection"
+          },
+          {
+            "code": "2101459",
+            "display": "1 ML tbo-filgrastim 0.3 MG/ML Injection [Granix]"
+          },
+          {
+            "code": "284194",
+            "display": "peginterferon alfa-2b 0.12 MG Injection"
+          },
+          {
+            "code": "545290",
+            "display": "Intron A"
+          },
+          {
+            "code": "316657",
+            "display": "sargramostim 0.5 MG/ML"
+          },
+          {
+            "code": "760039",
+            "display": "0.5 ML peginterferon alfa-2b 0.16 MG/ML Pen Injector [Pegintron]"
+          },
+          {
+            "code": "1649601",
+            "display": "0.5 ML peginterferon beta-1a 0.188 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1159651",
+            "display": "filgrastim Injectable Product"
+          },
+          {
+            "code": "731334",
+            "display": "0.5 ML peginterferon alfa-2b 0.3 MG/ML Pen Injector"
+          },
+          {
+            "code": "1720804",
+            "display": "peginterferon alfa-2b 0.3 MG"
+          },
+          {
+            "code": "1300287",
+            "display": "histamine dihydrochloride 1 MG/ML"
+          },
+          {
+            "code": "1168791",
+            "display": "Copaxone Injectable Product"
+          },
+          {
+            "code": "1720876",
+            "display": "interferon alfa-2b 10000000 UNT"
+          },
+          {
+            "code": "997264",
+            "display": "250 ML sipuleucel-T 200000 CELLS/ML Injection"
+          },
+          {
+            "code": "1605074",
+            "display": "0.8 ML filgrastim-sndz 0.6 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "207035",
+            "display": "interferon alfa-2b 50000000 UNT Injection [Intron A]"
+          },
+          {
+            "code": "2057211",
+            "display": "filgrastim Injection [Nivestym]"
+          },
+          {
+            "code": "1546175",
+            "display": "peginterferon beta-1a Prefilled Syringe [Plegridy]"
+          },
+          {
+            "code": "1546186",
+            "display": "peginterferon beta-1a 0.25 MG/ML"
+          },
+          {
+            "code": "2059222",
+            "display": "elapegademase Injection"
+          },
+          {
+            "code": "324009",
+            "display": "sargramostim 0.25 MG/ML"
+          },
+          {
+            "code": "1099049",
+            "display": "Sylatron"
+          },
+          {
+            "code": "2057219",
+            "display": "1.6 ML filgrastim-aafi 0.3 MG/ML Injection [Nivestym]"
+          },
+          {
+            "code": "727544",
+            "display": "0.8 ML filgrastim 0.6 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1605070",
+            "display": "Zarxio Injectable Product"
+          },
+          {
+            "code": "1720801",
+            "display": "peginterferon alfa-2b 0.15 MG [Pegintron]"
+          },
+          {
+            "code": "2102698",
+            "display": "Udenyca Injectable Product"
+          },
+          {
+            "code": "727814",
+            "display": "interferon beta-1a 0.06 MG/ML [Avonex]"
+          },
+          {
+            "code": "1111641",
+            "display": "1 ML glatiramer acetate 20 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1546198",
+            "display": "{1 (0.5 ML peginterferon beta-1a 0.126 MG/ML Prefilled Syringe [Plegridy]) / 1 (0.5 ML peginterferon beta-1a 0.188 MG/ML Prefilled Syringe [Plegridy]) } Pack [Plegridy Starter Pack]"
+          },
+          {
+            "code": "362824",
+            "display": "sargramostim Injectable Solution [Leukine]"
+          },
+          {
+            "code": "1433771",
+            "display": "0.8 ML tbo-filgrastim 0.6 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "828700",
+            "display": "1.2 ML plerixafor 20 MG/ML Injection"
+          },
+          {
+            "code": "1720752",
+            "display": "peginterferon alfa-2b Pen Injector"
+          },
+          {
+            "code": "1649945",
+            "display": "filgrastim Injection [Neupogen]"
+          },
+          {
+            "code": "1546704",
+            "display": "histamine Topical Lotion"
+          },
+          {
+            "code": "2469339",
+            "display": "Nyvepria Injectable Product"
+          },
+          {
+            "code": "2101457",
+            "display": "tbo-filgrastim 0.3 MG/ML [Granix]"
+          },
+          {
+            "code": "2048020",
+            "display": "0.6 ML pegfilgrastim-jmdb 10 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1740457",
+            "display": "oprelvekin Injection [Neumega]"
+          },
+          {
+            "code": "731325",
+            "display": "peginterferon alfa-2a Prefilled Syringe"
+          },
+          {
+            "code": "1158517",
+            "display": "sargramostim Injectable Product"
+          },
+          {
+            "code": "575994",
+            "display": "peginterferon alfa-2a 0.18 MG/ML [Pegasys]"
+          },
+          {
+            "code": "1720907",
+            "display": "interferon alfa-2b 18000000 UNT"
+          },
+          {
+            "code": "1099060",
+            "display": "peginterferon alfa-2b 0.2 MG Injection [Sylatron]"
+          },
+          {
+            "code": "2057212",
+            "display": "1 ML filgrastim-aafi 0.3 MG/ML Injection [Nivestym]"
+          },
+          {
+            "code": "2059223",
+            "display": "1.5 ML elapegademase-lvlr 1.6 MG/ML Injection"
+          },
+          {
+            "code": "203760",
+            "display": "Proleukin"
+          },
+          {
+            "code": "370692",
+            "display": "interferon alfa-2b Injectable Solution"
+          },
+          {
+            "code": "358697",
+            "display": "glatiramer acetate 20 MG/ML"
+          },
+          {
+            "code": "1542820",
+            "display": "histamine dihydrochloride 0.5 MG/ML Topical Cream"
+          },
+          {
+            "code": "1719780",
+            "display": "aldesleukin 22000000 UNT"
+          },
+          {
+            "code": "1546182",
+            "display": "peginterferon beta-1a 0.126 MG/ML [Plegridy]"
+          },
+          {
+            "code": "1182280",
+            "display": "Neumega Injectable Product"
+          },
+          {
+            "code": "1232574",
+            "display": "interferon alfa-2b 18000000 UNT Injection"
+          },
+          {
+            "code": "1650900",
+            "display": "interferon beta-1a Auto-Injector [Avonex]"
+          },
+          {
+            "code": "1158018",
+            "display": "interferon alfa-2a Injectable Product"
+          },
+          {
+            "code": "1185480",
+            "display": "Sylatron Injectable Product"
+          },
+          {
+            "code": "284192",
+            "display": "peginterferon alfa-2b 0.05 MG Injection"
+          },
+          {
+            "code": "828701",
+            "display": "plerixafor 20 MG/ML [Mozobil]"
+          },
+          {
+            "code": "758030",
+            "display": "{6 (0.2 ML interferon beta-1a 0.044 MG/ML Prefilled Syringe) / 6 (0.5 ML interferon beta-1a 0.044 MG/ML Prefilled Syringe) } Pack"
+          },
+          {
+            "code": "790247",
+            "display": "0.5 ML peginterferon alfa-2b 0.1 MG/ML Pen Injector [Pegintron]"
+          },
+          {
+            "code": "1720779",
+            "display": "peginterferon alfa-2b Injection [Pegintron]"
+          },
+          {
+            "code": "1487363",
+            "display": "1 ML glatiramer acetate 40 MG/ML Prefilled Syringe [Copaxone]"
+          },
+          {
+            "code": "358790",
+            "display": "interferon beta-1a 0.044 MG/ML"
+          },
+          {
+            "code": "1650893",
+            "display": "peginterferon alfa-2a Auto-Injector"
+          },
+          {
+            "code": "727812",
+            "display": "interferon beta-1a Prefilled Syringe"
+          },
+          {
+            "code": "312109",
+            "display": "oprelvekin 5 MG Injection"
+          },
+          {
+            "code": "351270",
+            "display": "1 ML peginterferon alfa-2a 0.18 MG/ML Injection"
+          },
+          {
+            "code": "346254",
+            "display": "interferon alfa-2b 10000000 UNT/ML"
+          },
+          {
+            "code": "828703",
+            "display": "1.2 ML plerixafor 20 MG/ML Injection [Mozobil]"
+          },
+          {
+            "code": "1649592",
+            "display": "peginterferon beta-1a Auto-Injector [Plegridy]"
+          },
+          {
+            "code": "2059221",
+            "display": "elapegademase Injectable Product"
+          },
+          {
+            "code": "2048019",
+            "display": "pegfilgrastim-jmdb 10 MG/ML"
+          },
+          {
+            "code": "1649963",
+            "display": "1.6 ML filgrastim 0.3 MG/ML Injection"
+          },
+          {
+            "code": "312903",
+            "display": "sargramostim 0.5 MG/ML Injectable Solution"
+          },
+          {
+            "code": "315932",
+            "display": "filgrastim 0.3 MG/ML"
+          },
+          {
+            "code": "1182470",
+            "display": "Provenge Injectable Product"
+          },
+          {
+            "code": "202912",
+            "display": "interferon alfa-n1"
+          },
+          {
+            "code": "2057215",
+            "display": "0.8 ML filgrastim-aafi 0.6 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "575912",
+            "display": "interferon beta-1a 0.088 MG/ML [Rebif]"
+          },
+          {
+            "code": "2469336",
+            "display": "Nyvepria"
+          },
+          {
+            "code": "805010",
+            "display": "peginterferon alfa-2b 0.15 MG Injection [Pegintron]"
+          },
+          {
+            "code": "567825",
+            "display": "interferon alfa-2b 6000000 UNT/ML [Intron A]"
+          },
+          {
+            "code": "1720807",
+            "display": "peginterferon alfa-2b Injection [Sylatron]"
+          },
+          {
+            "code": "1099048",
+            "display": "peginterferon alfa-2b 0.3 MG Injection"
+          },
+          {
+            "code": "1720778",
+            "display": "peginterferon alfa-2b 0.05 MG [Pegintron]"
+          },
+          {
+            "code": "758025",
+            "display": "0.5 ML interferon beta-1a 0.088 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "707582",
+            "display": "histamine / menthol Topical Cream"
+          },
+          {
+            "code": "2048018",
+            "display": "pegfilgrastim-jmdb"
+          },
+          {
+            "code": "1300293",
+            "display": "histamine dihydrochloride 1 MG/ML / menthol 30 MG/ML Topical Cream [Alo]"
+          },
+          {
+            "code": "1180698",
+            "display": "Proleukin Injectable Product"
+          },
+          {
+            "code": "346257",
+            "display": "interferon alfa-2b 6000000 UNT/ML"
+          },
+          {
+            "code": "2101455",
+            "display": "tbo-filgrastim 0.3 MG/ML"
+          },
+          {
+            "code": "331515",
+            "display": "interferon alfa-2a 18000000 UNT/ML"
+          },
+          {
+            "code": "707585",
+            "display": "histamine / menthol Topical Cream [ActivOn Arthritis]"
+          },
+          {
+            "code": "2059227",
+            "display": "Revcovi Injectable Product"
+          },
+          {
+            "code": "1649602",
+            "display": "{1 (0.5 ML peginterferon beta-1a 0.126 MG/ML Auto-Injector) / 1 (0.5 ML peginterferon beta-1a 0.188 MG/ML Auto-Injector) } Pack"
+          },
+          {
+            "code": "1099054",
+            "display": "peginterferon alfa-2b 0.6 MG Injection"
+          },
+          {
+            "code": "1546168",
+            "display": "peginterferon beta-1a"
+          },
+          {
+            "code": "2101464",
+            "display": "1.6 ML tbo-filgrastim 0.3 MG/ML Injection"
+          },
+          {
+            "code": "795748",
+            "display": "0.2 ML interferon beta-1a 0.044 MG/ML Prefilled Syringe [Rebif]"
+          },
+          {
+            "code": "1649964",
+            "display": "1.6 ML filgrastim 0.3 MG/ML Injection [Neupogen]"
+          },
+          {
+            "code": "1172925",
+            "display": "Betaseron Injectable Product"
+          },
+          {
+            "code": "2587068",
+            "display": "Besremi Injectable Product"
+          },
+          {
+            "code": "790244",
+            "display": "peginterferon alfa-2b 0.3 MG/ML [Pegintron]"
+          },
+          {
+            "code": "1720754",
+            "display": "peginterferon alfa-2b Pen Injector [Pegintron]"
+          },
+          {
+            "code": "1720814",
+            "display": "peginterferon alfa-2b 0.6 MG [Sylatron]"
+          },
+          {
+            "code": "353501",
+            "display": "Neulasta"
+          },
+          {
+            "code": "2587064",
+            "display": "1 ML ropeginterferon alfa-2b-njft 0.5 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1649993",
+            "display": "interferon beta-1a Auto-Injector"
+          },
+          {
+            "code": "284174",
+            "display": "interferon alfa-2a 18000000 UNT/ML Injectable Solution"
+          },
+          {
+            "code": "1165202",
+            "display": "glatiramer Injectable Product"
+          },
+          {
+            "code": "1442680",
+            "display": "Granix Injectable Product"
+          },
+          {
+            "code": "2057209",
+            "display": "1 ML filgrastim-aafi 0.3 MG/ML Injection"
+          },
+          {
+            "code": "68442",
+            "display": "filgrastim"
+          },
+          {
+            "code": "1720881",
+            "display": "interferon alfa-2b 10000000 UNT Injection [Intron A]"
+          },
+          {
+            "code": "140502",
+            "display": "ancestim"
+          },
+          {
+            "code": "2587062",
+            "display": "ropeginterferon alfa-2b Injectable Product"
+          },
+          {
+            "code": "576622",
+            "display": "peginterferon alfa-2a 0.36 MG/ML [Pegasys]"
+          },
+          {
+            "code": "1720818",
+            "display": "peginterferon alfa-2b 0.2 MG [Sylatron]"
+          },
+          {
+            "code": "2048001",
+            "display": "histamine / menthol Topical Spray"
+          },
+          {
+            "code": "153324",
+            "display": "interferon beta-1a 0.03 MG Injection [Avonex]"
+          },
+          {
+            "code": "249897",
+            "display": "molgramostim 0.4 MG/ML Injectable Solution"
+          },
+          {
+            "code": "1442679",
+            "display": "filgrastim Prefilled Syringe [Granix]"
+          },
+          {
+            "code": "1649944",
+            "display": "1 ML filgrastim 0.3 MG/ML Injection"
+          },
+          {
+            "code": "1099058",
+            "display": "peginterferon alfa-2b 0.2 MG Injection"
+          },
+          {
+            "code": "1726183",
+            "display": "sipuleucel-T Injection [Provenge]"
+          },
+          {
+            "code": "1720806",
+            "display": "peginterferon alfa-2b 0.3 MG [Sylatron]"
+          },
+          {
+            "code": "1721329",
+            "display": "interferon beta-1b Injection [Extavia]"
+          },
+          {
+            "code": "40230",
+            "display": "thymopentin"
+          },
+          {
+            "code": "2059228",
+            "display": "1.5 ML elapegademase-lvlr 1.6 MG/ML Injection [Revcovi]"
+          },
+          {
+            "code": "1251596",
+            "display": "interferon alfa-2b 18000000 UNT Injection [Intron A]"
+          },
+          {
+            "code": "1649995",
+            "display": "interferon beta-1a Auto-Injector [Rebif]"
+          },
+          {
+            "code": "1720812",
+            "display": "peginterferon alfa-2b 0.6 MG"
+          },
+          {
+            "code": "207029",
+            "display": "interferon alfa-2b 6000000 UNT/ML Injectable Solution [Intron A]"
+          },
+          {
+            "code": "795749",
+            "display": "{6 (0.2 ML interferon beta-1a 0.044 MG/ML Prefilled Syringe [Rebif]) / 6 (0.5 ML interferon beta-1a 0.044 MG/ML Prefilled Syringe [Rebif]) } Pack [Rebif Titration]"
+          },
+          {
+            "code": "59768",
+            "display": "pegademase bovine"
+          },
+          {
+            "code": "1091385",
+            "display": "histamine dihydrochloride 0.25 MG/ML"
+          },
+          {
+            "code": "1719783",
+            "display": "aldesleukin 22000000 UNT [Proleukin]"
+          },
+          {
+            "code": "1148636",
+            "display": "histamine dihydrochloride 0.28 MG/ML / menthol 45.7 MG/ML Topical Cream [ActivOn Arthritis]"
+          },
+          {
+            "code": "2119467",
+            "display": "histamine dihydrochloride 0.0005 MG/MG Topical Gel"
+          },
+          {
+            "code": "2057218",
+            "display": "1.6 ML filgrastim-aafi 0.3 MG/ML Injection"
+          },
+          {
+            "code": "331598",
+            "display": "peginterferon alfa-2b 0.3 MG/ML"
+          },
+          {
+            "code": "2260708",
+            "display": "Ziextenzo Injectable Product"
+          },
+          {
+            "code": "228271",
+            "display": "Rebif"
+          },
+          {
+            "code": "213395",
+            "display": "sargramostim 0.5 MG/ML Injectable Solution [Leukine]"
+          },
+          {
+            "code": "545291",
+            "display": "interferon alfa-2b 10000000 UNT/ML [Intron A]"
+          },
+          {
+            "code": "1858562",
+            "display": "histamine dihydrochloride 0.5 MG/ML / menthol 30 MG/ML Topical Cream"
+          },
+          {
+            "code": "1720776",
+            "display": "peginterferon alfa-2b Injection"
+          },
+          {
+            "code": "727535",
+            "display": "0.5 ML filgrastim 0.6 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "2102702",
+            "display": "pegfilgrastim-cbqv 10 MG/ML"
+          },
+          {
+            "code": "2587059",
+            "display": "ropeginterferon alfa-2b"
+          },
+          {
+            "code": "331596",
+            "display": "peginterferon alfa-2b 0.16 MG/ML"
+          },
+          {
+            "code": "1546189",
+            "display": "0.5 ML peginterferon beta-1a 0.25 MG/ML Prefilled Syringe [Plegridy]"
+          },
+          {
+            "code": "1720795",
+            "display": "peginterferon alfa-2b 0.12 MG"
+          },
+          {
+            "code": "2549330",
+            "display": "pegfilgrastim Injection"
+          },
+          {
+            "code": "2260704",
+            "display": "0.6 ML pegfilgrastim-bmez 10 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1161382",
+            "display": "peginterferon alfa-2b Injectable Product"
+          },
+          {
+            "code": "727580",
+            "display": "glatiramer Prefilled Syringe [Copaxone]"
+          },
+          {
+            "code": "1654626",
+            "display": "Glatopa"
+          },
+          {
+            "code": "227304",
+            "display": "Neupogen"
+          },
+          {
+            "code": "358791",
+            "display": "interferon beta-1a 0.088 MG/ML"
+          },
+          {
+            "code": "1650268",
+            "display": "{6 (0.2 ML interferon beta-1a 0.044 MG/ML Auto-Injector) / 6 (0.5 ML interferon beta-1a 0.044 MG/ML Auto-Injector) } Pack"
+          },
+          {
+            "code": "1182279",
+            "display": "Neulasta Injectable Product"
+          },
+          {
+            "code": "242276",
+            "display": "glatiramer acetate 20 MG/ML Injectable Solution"
+          },
+          {
+            "code": "1947259",
+            "display": "histamine / menthol / methyl salicylate Topical Cream"
+          },
+          {
+            "code": "1546177",
+            "display": "0.5 ML peginterferon beta-1a 0.188 MG/ML Prefilled Syringe [Plegridy]"
+          },
+          {
+            "code": "1650940",
+            "display": "0.5 ML peginterferon alfa-2a 0.36 MG/ML Auto-Injector [Pegasys]"
+          },
+          {
+            "code": "307816",
+            "display": "aldesleukin 22000000 UNT Injection"
+          },
+          {
+            "code": "338036",
+            "display": "pegfilgrastim"
+          },
+          {
+            "code": "2102705",
+            "display": "0.6 ML pegfilgrastim-cbqv 10 MG/ML Prefilled Syringe [Udenyca]"
+          },
+          {
+            "code": "1605068",
+            "display": "filgrastim-sndz 0.6 MG/ML [Zarxio]"
+          },
+          {
+            "code": "393481",
+            "display": "molgramostim 0.4 MG/ML"
+          },
+          {
+            "code": "1649996",
+            "display": "0.5 ML interferon beta-1a 0.044 MG/ML Auto-Injector [Rebif]"
+          },
+          {
+            "code": "1442681",
+            "display": "0.5 ML tbo-filgrastim 0.6 MG/ML Prefilled Syringe [Granix]"
+          },
+          {
+            "code": "2119466",
+            "display": "histamine dihydrochloride 0.0005 MG/MG"
+          },
+          {
+            "code": "805009",
+            "display": "peginterferon alfa-2b 0.12 MG Injection [Pegintron]"
+          },
+          {
+            "code": "1487360",
+            "display": "glatiramer acetate 40 MG/ML"
+          },
+          {
+            "code": "1650282",
+            "display": "{6 (0.2 ML interferon beta-1a 0.044 MG/ML Auto-Injector [Rebif]) / 6 (0.5 ML interferon beta-1a 0.044 MG/ML Auto-Injector [Rebif]) } Pack [Rebif Rebidose]"
+          },
+          {
+            "code": "1091387",
+            "display": "histamine dihydrochloride 0.25 MG/ML Topical Cream"
+          },
+          {
+            "code": "358338",
+            "display": "Pegasys"
+          },
+          {
+            "code": "358851",
+            "display": "peginterferon alfa-2a 0.18 MG/ML"
+          },
+          {
+            "code": "72257",
+            "display": "interferon beta-1b"
+          },
+          {
+            "code": "1173444",
+            "display": "Intron A Injectable Product"
+          },
+          {
+            "code": "997265",
+            "display": "sipuleucel-T 200000 CELLS/ML [Provenge]"
+          },
+          {
+            "code": "2102703",
+            "display": "0.6 ML pegfilgrastim-cbqv 10 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1091386",
+            "display": "histamine Topical Cream"
+          },
+          {
+            "code": "261717",
+            "display": "interferon alfa-n1 lymphoblastoid"
+          },
+          {
+            "code": "727534",
+            "display": "filgrastim Prefilled Syringe"
+          },
+          {
+            "code": "1794537",
+            "display": "plerixafor Injection"
+          },
+          {
+            "code": "727541",
+            "display": "pegfilgrastim Prefilled Syringe [Neulasta]"
+          },
+          {
+            "code": "198360",
+            "display": "interferon beta-1b 0.3 MG Injection"
+          },
+          {
+            "code": "727545",
+            "display": "0.8 ML filgrastim 0.6 MG/ML Prefilled Syringe [Neupogen]"
+          },
+          {
+            "code": "1794539",
+            "display": "plerixafor Injection [Mozobil]"
+          },
+          {
+            "code": "1650894",
+            "display": "0.5 ML peginterferon alfa-2a 0.27 MG/ML Auto-Injector"
+          },
+          {
+            "code": "69634",
+            "display": "sargramostim"
+          },
+          {
+            "code": "727577",
+            "display": "glatiramer Prefilled Syringe"
+          },
+          {
+            "code": "1160700",
+            "display": "interferon beta-1b Injectable Product"
+          },
+          {
+            "code": "545293",
+            "display": "interferon alfa-2b 10000000 UNT/ML Injectable Solution [Intron A]"
+          },
+          {
+            "code": "727813",
+            "display": "0.5 ML interferon beta-1a 0.06 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "59744",
+            "display": "interferon alfacon-1"
+          },
+          {
+            "code": "153323",
+            "display": "interferon beta-1a 0.03 MG Injection"
+          },
+          {
+            "code": "1433768",
+            "display": "0.5 ML tbo-filgrastim 0.6 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1487362",
+            "display": "glatiramer acetate 40 MG/ML [Copaxone]"
+          },
+          {
+            "code": "731327",
+            "display": "peginterferon alfa-2a Prefilled Syringe [Pegasys]"
+          },
+          {
+            "code": "1740456",
+            "display": "oprelvekin 5 MG [Neumega]"
+          },
+          {
+            "code": "2057201",
+            "display": "Nivestym"
+          },
+          {
+            "code": "1651244",
+            "display": "interferon beta-1a Injection"
+          },
+          {
+            "code": "70223",
+            "display": "aldesleukin"
+          },
+          {
+            "code": "1111639",
+            "display": "glatiramer acetate 20 MG/ML [Copaxone]"
+          },
+          {
+            "code": "2102695",
+            "display": "Udenyca"
+          },
+          {
+            "code": "378926",
+            "display": "peginterferon alfa-2a Injectable Solution"
+          },
+          {
+            "code": "284193",
+            "display": "peginterferon alfa-2b 0.08 MG Injection"
+          },
+          {
+            "code": "2260705",
+            "display": "Ziextenzo"
+          },
+          {
+            "code": "312249",
+            "display": "1.5 ML pegademase bovine 250 UNT/ML Injection"
+          },
+          {
+            "code": "1184555",
+            "display": "Pegintron Injectable Product"
+          },
+          {
+            "code": "2587069",
+            "display": "ropeginterferon alfa-2b Prefilled Syringe [Besremi]"
+          },
+          {
+            "code": "997261",
+            "display": "sipuleucel-T"
+          },
+          {
+            "code": "1649604",
+            "display": "0.5 ML peginterferon beta-1a 0.188 MG/ML Auto-Injector [Plegridy]"
+          },
+          {
+            "code": "1654630",
+            "display": "1 ML glatiramer acetate 20 MG/ML Prefilled Syringe [Glatopa]"
+          },
+          {
+            "code": "1300291",
+            "display": "histamine / menthol Topical Cream [Alo]"
+          },
+          {
+            "code": "403986",
+            "display": "peginterferon alfa-2a 0.36 MG/ML Injectable Solution"
+          },
+          {
+            "code": "139994",
+            "display": "oprelvekin"
+          },
+          {
+            "code": "1546197",
+            "display": "{1 (0.5 ML peginterferon beta-1a 0.126 MG/ML Prefilled Syringe) / 1 (0.5 ML peginterferon beta-1a 0.188 MG/ML Prefilled Syringe) } Pack"
+          },
+          {
+            "code": "2167855",
+            "display": "histamine dihydrochloride 0.3 MG/ML Topical Cream"
+          },
+          {
+            "code": "1649603",
+            "display": "0.5 ML peginterferon beta-1a 0.126 MG/ML Auto-Injector [Plegridy]"
+          },
+          {
+            "code": "1158024",
+            "display": "interferon beta-1a Injectable Product"
+          },
+          {
+            "code": "735381",
+            "display": "Mozobil"
+          },
+          {
+            "code": "2101458",
+            "display": "filgrastim Injection [Granix]"
+          },
+          {
+            "code": "352297",
+            "display": "1 ML peginterferon alfa-2a 0.18 MG/ML Injection [Pegasys]"
+          },
+          {
+            "code": "1160699",
+            "display": "interferon alfacon-1 Injectable Product"
+          },
+          {
+            "code": "1546187",
+            "display": "0.5 ML peginterferon beta-1a 0.25 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "805007",
+            "display": "peginterferon alfa-2b 0.05 MG Injection [Pegintron]"
+          },
+          {
+            "code": "1719784",
+            "display": "aldesleukin Injection [Proleukin]"
+          },
+          {
+            "code": "1651309",
+            "display": "peginterferon alfa-2a Injection [Pegasys]"
+          },
+          {
+            "code": "40450",
+            "display": "pidotimod"
+          },
+          {
+            "code": "731345",
+            "display": "0.5 ML peginterferon alfa-2b 0.1 MG/ML Pen Injector"
+          },
+          {
+            "code": "1720877",
+            "display": "interferon alfa-2b Injection"
+          },
+          {
+            "code": "1720887",
+            "display": "interferon alfa-2b 50000000 UNT [Intron A]"
+          },
+          {
+            "code": "790245",
+            "display": "0.5 ML peginterferon alfa-2b 0.3 MG/ML Pen Injector [Pegintron]"
+          },
+          {
+            "code": "1148632",
+            "display": "histamine dihydrochloride 0.28 MG/ML"
+          },
+          {
+            "code": "1433765",
+            "display": "tbo-filgrastim 0.6 MG/ML"
+          },
+          {
+            "code": "860244",
+            "display": "interferon beta-1b 0.3 MG Injection [Extavia]"
+          },
+          {
+            "code": "727536",
+            "display": "filgrastim Prefilled Syringe [Neupogen]"
+          },
+          {
+            "code": "1148634",
+            "display": "histamine dihydrochloride 0.28 MG/ML / menthol 45.7 MG/ML Topical Cream"
+          },
+          {
+            "code": "1546171",
+            "display": "peginterferon beta-1a Prefilled Syringe"
+          },
+          {
+            "code": "2469337",
+            "display": "pegfilgrastim-apgf 10 MG/ML [Nyvepria]"
+          },
+          {
+            "code": "1191664",
+            "display": "peginterferon alfa-2a 0.27 MG/ML [Pegasys]"
+          },
+          {
+            "code": "2059225",
+            "display": "elapegademase-lvlr 1.6 MG/ML [Revcovi]"
+          },
+          {
+            "code": "727539",
+            "display": "0.6 ML pegfilgrastim 10 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1111642",
+            "display": "1 ML glatiramer acetate 20 MG/ML Prefilled Syringe [Copaxone]"
+          },
+          {
+            "code": "1173906",
+            "display": "Extavia Injectable Product"
+          },
+          {
+            "code": "1720787",
+            "display": "peginterferon alfa-2b 0.08 MG [Pegintron]"
+          },
+          {
+            "code": "120608",
+            "display": "peginterferon alfa-2a"
+          },
+          {
+            "code": "2059219",
+            "display": "elapegademase"
+          },
+          {
+            "code": "372947",
+            "display": "molgramostim Injectable Solution"
+          },
+          {
+            "code": "236769",
+            "display": "thymopentin acetate"
+          },
+          {
+            "code": "2102692",
+            "display": "pegfilgrastim-cbqv"
+          },
+          {
+            "code": "760029",
+            "display": "0.5 ML peginterferon alfa-2b 0.24 MG/ML Pen Injector [Pegintron]"
+          },
+          {
+            "code": "135779",
+            "display": "Copaxone"
+          },
+          {
+            "code": "1649590",
+            "display": "peginterferon beta-1a Auto-Injector"
+          },
+          {
+            "code": "2048004",
+            "display": "histamine dihydrochloride 1 MG/ML Topical Spray"
+          },
+          {
+            "code": "2048002",
+            "display": "histamine dihydrochloride 1 MG/ML / menthol 20 MG/ML Topical Spray"
+          },
+          {
+            "code": "1159660",
+            "display": "sipuleucel-T Injectable Product"
+          },
+          {
+            "code": "283746",
+            "display": "tasonermin"
+          },
+          {
+            "code": "331595",
+            "display": "peginterferon alfa-2b 0.1 MG/ML"
+          },
+          {
+            "code": "139993",
+            "display": "Neumega"
+          },
+          {
+            "code": "70161",
+            "display": "molgramostim"
+          },
+          {
+            "code": "2059220",
+            "display": "elapegademase-lvlr 1.6 MG/ML"
+          },
+          {
+            "code": "574887",
+            "display": "filgrastim 0.6 MG/ML [Neupogen]"
+          },
+          {
+            "code": "2057210",
+            "display": "filgrastim-aafi 0.3 MG/ML [Nivestym]"
+          },
+          {
+            "code": "1161377",
+            "display": "pegademase bovine Injectable Product"
+          },
+          {
+            "code": "760027",
+            "display": "peginterferon alfa-2b 0.24 MG/ML [Pegintron]"
+          },
+          {
+            "code": "758029",
+            "display": "0.5 ML interferon beta-1a 0.044 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1654627",
+            "display": "glatiramer acetate 20 MG/ML [Glatopa]"
+          },
+          {
+            "code": "1605064",
+            "display": "filgrastim-sndz"
+          },
+          {
+            "code": "1947261",
+            "display": "histamine dihydrochloride 0.5 MG/ML / menthol 100 MG/ML / methyl salicylate 100 MG/ML Topical Cream"
+          },
+          {
+            "code": "575870",
+            "display": "pegfilgrastim 10 MG/ML [Neulasta]"
+          },
+          {
+            "code": "1726181",
+            "display": "sipuleucel-T Injection"
+          },
+          {
+            "code": "1649591",
+            "display": "0.5 ML peginterferon beta-1a 0.25 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1166068",
+            "display": "Leukine Injectable Product"
+          },
+          {
+            "code": "1947260",
+            "display": "histamine / menthol / methyl salicylate"
+          },
+          {
+            "code": "1300288",
+            "display": "histamine dihydrochloride 1 MG/ML / menthol 30 MG/ML Topical Cream"
+          },
+          {
+            "code": "374394",
+            "display": "interferon alfa-2a Injectable Solution"
+          },
+          {
+            "code": "5879",
+            "display": "interferon alfa-2a"
+          },
+          {
+            "code": "1650011",
+            "display": "0.2 ML interferon beta-1a 0.044 MG/ML Auto-Injector"
+          },
+          {
+            "code": "727542",
+            "display": "0.6 ML pegfilgrastim 10 MG/ML Prefilled Syringe [Neulasta]"
+          },
+          {
+            "code": "1793908",
+            "display": "histamine dihydrochloride 0.5 MG/ML / menthol 15 MG/ML Topical Cream"
+          },
+          {
+            "code": "316449",
+            "display": "pegademase bovine 250 UNT/ML"
+          },
+          {
+            "code": "545289",
+            "display": "interferon alfa-2b 10000000 UNT/ML Injectable Solution"
+          },
+          {
+            "code": "727815",
+            "display": "interferon beta-1a Prefilled Syringe [Avonex]"
+          },
+          {
+            "code": "2469335",
+            "display": "0.6 ML pegfilgrastim-apgf 10 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "731348",
+            "display": "0.5 ML peginterferon alfa-2b 0.16 MG/ML Pen Injector"
+          },
+          {
+            "code": "1169911",
+            "display": "ActivOn Arthritis Topical Product"
+          },
+          {
+            "code": "997262",
+            "display": "sipuleucel-T 200000 CELLS/ML"
+          },
+          {
+            "code": "1721328",
+            "display": "interferon beta-1b 0.3 MG [Extavia]"
+          },
+          {
+            "code": "860241",
+            "display": "Extavia"
+          },
+          {
+            "code": "1546183",
+            "display": "0.5 ML peginterferon beta-1a 0.126 MG/ML Prefilled Syringe [Plegridy]"
+          },
+          {
+            "code": "1720880",
+            "display": "interferon alfa-2b Injection [Intron A]"
+          },
+          {
+            "code": "331597",
+            "display": "peginterferon alfa-2b 0.24 MG/ML"
+          },
+          {
+            "code": "1650003",
+            "display": "0.5 ML interferon beta-1a 0.088 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1157292",
+            "display": "molgramostim Injectable Product"
+          },
+          {
+            "code": "2260703",
+            "display": "pegfilgrastim-bmez 10 MG/ML"
+          },
+          {
+            "code": "568811",
+            "display": "sargramostim 0.25 MG/ML [Leukine]"
+          },
+          {
+            "code": "2587061",
+            "display": "ropeginterferon alfa-2b-njft 0.5 MG/ML"
+          },
+          {
+            "code": "207351",
+            "display": "1.5 ML pegademase bovine 250 UNT/ML Injection [Adagen]"
+          },
+          {
+            "code": "375829",
+            "display": "glatiramer Injectable Solution"
+          },
+          {
+            "code": "2102697",
+            "display": "pegfilgrastim Prefilled Syringe [Udenyca]"
+          },
+          {
+            "code": "1487361",
+            "display": "1 ML glatiramer acetate 40 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "331527",
+            "display": "filgrastim 0.6 MG/ML"
+          },
+          {
+            "code": "1651243",
+            "display": "interferon beta-1a 0.03 MG"
+          },
+          {
+            "code": "1649943",
+            "display": "filgrastim Injection"
+          },
+          {
+            "code": "1300289",
+            "display": "Alo"
+          },
+          {
+            "code": "2048025",
+            "display": "0.6 ML pegfilgrastim-jmdb 10 MG/ML Prefilled Syringe [Fulphila]"
+          },
+          {
+            "code": "1440046",
+            "display": "lipegfilgrastim"
+          },
+          {
+            "code": "493032",
+            "display": "Pegintron"
+          },
+          {
+            "code": "1433764",
+            "display": "tbo-filgrastim"
+          },
+          {
+            "code": "2057208",
+            "display": "filgrastim-aafi 0.3 MG/ML"
+          },
+          {
+            "code": "311078",
+            "display": "interferon alfa-2b 50000000 UNT Injection"
+          },
+          {
+            "code": "2059224",
+            "display": "Revcovi"
+          },
+          {
+            "code": "707399",
+            "display": "ActivOn Arthritis"
+          },
+          {
+            "code": "1161041",
+            "display": "oprelvekin Injectable Product"
+          },
+          {
+            "code": "153326",
+            "display": "Avonex"
+          },
+          {
+            "code": "4381",
+            "display": "interferon-beta"
+          },
+          {
+            "code": "1605067",
+            "display": "Zarxio"
+          },
+          {
+            "code": "2057202",
+            "display": "filgrastim-aafi 0.6 MG/ML [Nivestym]"
+          },
+          {
+            "code": "1720816",
+            "display": "peginterferon alfa-2b 0.2 MG"
+          },
+          {
+            "code": "1442678",
+            "display": "tbo-filgrastim 0.6 MG/ML [Granix]"
+          },
+          {
+            "code": "1178325",
+            "display": "Rebif Injectable Product"
+          },
+          {
+            "code": "315199",
+            "display": "sargramostim 0.25 MG/ML Injectable Solution"
+          },
+          {
+            "code": "2048003",
+            "display": "histamine Topical Spray"
+          },
+          {
+            "code": "5885",
+            "display": "interferon type II"
+          },
+          {
+            "code": "1649994",
+            "display": "0.5 ML interferon beta-1a 0.044 MG/ML Auto-Injector"
+          },
+          {
+            "code": "204445",
+            "display": "interferon alfa-2b 6000000 UNT/ML Injectable Solution"
+          },
+          {
+            "code": "2549333",
+            "display": "0.6 ML pegfilgrastim 10 MG/ML Injection [Neulasta]"
+          },
+          {
+            "code": "1183314",
+            "display": "Mozobil Injectable Product"
+          },
+          {
+            "code": "1720799",
+            "display": "peginterferon alfa-2b 0.15 MG"
+          },
+          {
+            "code": "1650896",
+            "display": "0.5 ML peginterferon alfa-2a 0.27 MG/ML Auto-Injector [Pegasys]"
+          },
+          {
+            "code": "1546173",
+            "display": "Plegridy"
+          },
+          {
+            "code": "1546180",
+            "display": "peginterferon beta-1a 0.126 MG/ML"
+          },
+          {
+            "code": "72258",
+            "display": "recombinant interferon beta-1b"
+          },
+          {
+            "code": "1728066",
+            "display": "pegademase bovine Injection [Adagen]"
+          },
+          {
+            "code": "758028",
+            "display": "0.2 ML interferon beta-1a 0.044 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "727537",
+            "display": "0.5 ML filgrastim 0.6 MG/ML Prefilled Syringe [Neupogen]"
+          },
+          {
+            "code": "1546176",
+            "display": "Plegridy Injectable Product"
+          },
+          {
+            "code": "1654629",
+            "display": "Glatopa Injectable Product"
+          },
+          {
+            "code": "2059226",
+            "display": "elapegademase Injection [Revcovi]"
+          },
+          {
+            "code": "406174",
+            "display": "peginterferon alfa-2a 0.36 MG/ML"
+          },
+          {
+            "code": "758027",
+            "display": "0.5 ML interferon beta-1a 0.088 MG/ML Prefilled Syringe [Rebif]"
+          },
+          {
+            "code": "2057198",
+            "display": "filgrastim-aafi"
+          },
+          {
+            "code": "1720909",
+            "display": "interferon alfa-2b 18000000 UNT [Intron A]"
+          },
+          {
+            "code": "1605065",
+            "display": "filgrastim-sndz 0.6 MG/ML"
+          },
+          {
+            "code": "1154611",
+            "display": "aldesleukin Injectable Product"
+          },
+          {
+            "code": "2469333",
+            "display": "pegfilgrastim-apgf"
+          },
+          {
+            "code": "1546703",
+            "display": "histamine dihydrochloride 0.6 MG/ML"
+          },
+          {
+            "code": "2260702",
+            "display": "pegfilgrastim-bmez"
+          },
+          {
+            "code": "2000007",
+            "display": "1 ML glatiramer acetate 40 MG/ML Prefilled Syringe [Glatopa]"
+          },
+          {
+            "code": "1721326",
+            "display": "interferon beta-1b Injection [Betaseron]"
+          },
+          {
+            "code": "1649600",
+            "display": "0.5 ML peginterferon beta-1a 0.126 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1721323",
+            "display": "interferon beta-1b Injection"
+          },
+          {
+            "code": "2047110",
+            "display": "histamine dihydrochloride 0.00025 MG/MG"
+          },
+          {
+            "code": "207059",
+            "display": "interferon beta-1b 0.3 MG Injection [Betaseron]"
+          },
+          {
+            "code": "142136",
+            "display": "histamine dihydrochloride"
+          },
+          {
+            "code": "1650899",
+            "display": "0.5 ML interferon beta-1a 0.06 MG/ML Auto-Injector"
+          },
+          {
+            "code": "208083",
+            "display": "sargramostim 0.25 MG/ML Injectable Solution [Leukine]"
+          },
+          {
+            "code": "5880",
+            "display": "interferon alfa-2b"
+          },
+          {
+            "code": "1442683",
+            "display": "0.8 ML tbo-filgrastim 0.6 MG/ML Prefilled Syringe [Granix]"
+          },
+          {
+            "code": "2057216",
+            "display": "0.8 ML filgrastim-aafi 0.6 MG/ML Prefilled Syringe [Nivestym]"
+          },
+          {
+            "code": "568125",
+            "display": "pegademase bovine 250 UNT/ML [Adagen]"
+          },
+          {
+            "code": "2587067",
+            "display": "ropeginterferon alfa-2b-njft 0.5 MG/ML [Besremi]"
+          },
+          {
+            "code": "2057200",
+            "display": "0.5 ML filgrastim-aafi 0.6 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1720785",
+            "display": "peginterferon alfa-2b 0.08 MG"
+          },
+          {
+            "code": "1161380",
+            "display": "pegfilgrastim Injectable Product"
+          },
+          {
+            "code": "2549332",
+            "display": "pegfilgrastim Injection [Neulasta]"
+          },
+          {
+            "code": "2167854",
+            "display": "histamine dihydrochloride 0.3 MG/ML"
+          },
+          {
+            "code": "758032",
+            "display": "0.5 ML interferon beta-1a 0.044 MG/ML Prefilled Syringe [Rebif]"
+          },
+          {
+            "code": "253453",
+            "display": "peginterferon alfa-2b"
+          },
+          {
+            "code": "2469334",
+            "display": "pegfilgrastim-apgf 10 MG/ML"
+          },
+          {
+            "code": "1650901",
+            "display": "0.5 ML interferon beta-1a 0.06 MG/ML Auto-Injector [Avonex]"
+          },
+          {
+            "code": "84375",
+            "display": "glatiramer acetate"
+          },
+          {
+            "code": "1546170",
+            "display": "peginterferon beta-1a Injectable Product"
+          },
+          {
+            "code": "2047111",
+            "display": "histamine Topical Gel"
+          },
+          {
+            "code": "2549331",
+            "display": "0.6 ML pegfilgrastim 10 MG/ML Injection"
+          }
+        ]
+      }
+    ]
+  }
+}

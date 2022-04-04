@@ -1,0 +1,22 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "ExampleMedicationStatement",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-related-medication-statement"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "013"
+    }
+  ],
+  "subject": {
+    "display": "Mr. Johnnie Purdy"
+  },
+  "status": "active",
+  "medicationReference": {
+    "display": "medication display"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "resourceType": "RiskAssessment",
+  "id": "roninEdVisitRiskAssessmentExample01",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-risk-assessment"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/riskAssessmentSampleSize",
+      "valueInteger": 2000
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/riskAssessmentCohortSize",
+      "valueInteger": 500
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/riskAssessmentModelVersion",
+      "valueString": "30"
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "value": "mdaoc"
+    }
+  ],
+  "status": "final",
+  "method": {
+    "coding": [
+      {
+        "code": "sk-learn-random-forest-reg-model",
+        "system": "http://projectronin.com/ds/ml",
+        "display": "Scikit-learn random forest regression model",
+        "version": "1"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/roninPatientExample01"
+  },
+  "occurrenceDateTime": "2021-10-07",
+  "prediction": [
+    {
+      "probabilityDecimal": 0.43
+    }
+  ],
+  "basis": [
+    {
+      "reference": "Observation/roninEdVisitRationaleExample01"
+    }
+  ]
+}

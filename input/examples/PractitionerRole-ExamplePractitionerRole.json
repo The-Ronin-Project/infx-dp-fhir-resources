@@ -1,0 +1,50 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "ExamplePractitionerRole",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitionerrole"
+    ]
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "mdaoc"
+    }
+  ],
+  "practitioner": {
+    "type": "OncologyPractitioner",
+    "display": "Frami Clearence, PA"
+  },
+  "organization": {
+    "type": "PartnerDepartment",
+    "display": "Ronin"
+  },
+  "code": [
+    {
+      "text": "Physician Assistant",
+      "coding": [
+        {
+          "display": "Physician Assistant"
+        }
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "1-555-544-3334",
+      "use": "work"
+    }
+  ]
+}

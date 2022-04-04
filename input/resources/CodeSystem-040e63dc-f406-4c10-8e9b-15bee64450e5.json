@@ -1,0 +1,58 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "040e63dc-f406-4c10-8e9b-15bee64450e5",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>A system of the following codes:</li></ul></div>"
+  },
+  "url": "http://projectronin.io/fhir/terminologies/chokuto_cancer_types",
+  "identifier": [
+    {
+      "system": "http://projectronin.io/fhir/terminologies",
+      "value": "chokuto_cancer_types"
+    }
+  ],
+  "version": "1",
+  "name": "ChokutoCancerTypeCodes",
+  "title": "Chokuto Cancer Typecodes",
+  "status": "active",
+  "experimental": "false",
+  "date": "2022-03-23",
+  "publisher": "Project Ronin",
+  "contact": [
+    {
+      "name": "Informatics Department",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "contact@projectronin.com"
+        }
+      ]
+    }
+  ],
+  "description": "This code system contains the proprietary codes for chokuto to run application logic",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "f6082d58-b9fb-4fd2-99ba-d01e52a79022",
+      "display": "GU"
+    },
+    {
+      "code": "5ffd1b6d-15cd-47ef-8de0-bc772d60647e",
+      "display": "Breast"
+    },
+    {
+      "code": "8fff6d76-7f35-437f-b084-ee5b7c4d87cf",
+      "display": "GYN"
+    },
+    {
+      "code": "dfb5ab5b-3da7-41f9-b1dc-d6f245c19c38",
+      "display": "Neuro"
+    },
+    {
+      "code": "aa51e656-82fc-4974-b2bc-14491ab95ba1",
+      "display": "Thoracic"
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Diarrhea",
+  "id": "079dadc0-6d78-11ec-9b16-f1636a4e01b7",
+  "title": "Diarrhea",
+  "description": "SNOMED and ICD.10 from Diarrhea",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/079dadc0-6d78-11ec-9b16-f1636a4e01b7",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "236074001",
+            "display": "Diarrhea caused by laxative abuse (disorder)"
+          },
+          {
+            "code": "268651002",
+            "display": "Psychogenic diarrhea (disorder)"
+          },
+          {
+            "code": "235839006",
+            "display": "Irritable bowel syndrome variant of childhood with diarrhea (disorder)"
+          },
+          {
+            "code": "409587002",
+            "display": "Severe diarrhea (finding)"
+          },
+          {
+            "code": "83134002",
+            "display": "Dietetic diarrhea (disorder)"
+          },
+          {
+            "code": "82047000",
+            "display": "Diarrhea caused by alcohol intake (disorder)"
+          },
+          {
+            "code": "268850004",
+            "display": "Neonatal diarrhea (disorder)"
+          },
+          {
+            "code": "39963006",
+            "display": "Toddler diarrhea (disorder)"
+          },
+          {
+            "code": "425739008",
+            "display": "Brainerd diarrhea (disorder)"
+          },
+          {
+            "code": "387754006",
+            "display": "Amebic dysentery (disorder)"
+          },
+          {
+            "code": "69980003",
+            "display": "Non-infective diarrhea (disorder)"
+          },
+          {
+            "code": "128333008",
+            "display": "Diarrheal disorder (disorder)"
+          },
+          {
+            "code": "25319005",
+            "display": "Chronic diarrhea of infants AND/OR young children (disorder)"
+          },
+          {
+            "code": "25898005",
+            "display": "Congenital secretory diarrhea (disorder)"
+          },
+          {
+            "code": "398570005",
+            "display": "Diarrhea caused by staphylococcus toxin (disorder)"
+          },
+          {
+            "code": "186116005",
+            "display": "Acute amebic dysentery (disorder)"
+          },
+          {
+            "code": "301469002",
+            "display": "Antibiotic-associated diarrhea (disorder)"
+          },
+          {
+            "code": "57725006",
+            "display": "Balantidiasis (disorder)"
+          },
+          {
+            "code": "249517009",
+            "display": "Constipation alternates with diarrhea (finding)"
+          },
+          {
+            "code": "312109000",
+            "display": "Bacterial dysentery (disorder)"
+          },
+          {
+            "code": "197132001",
+            "display": "Diarrhea after gastrointestinal tract surgery (disorder)"
+          },
+          {
+            "code": "38205001",
+            "display": "Diarrhea due to diabetes mellitus (disorder)"
+          },
+          {
+            "code": "428867008",
+            "display": "Diarrhea caused by drug (disorder)"
+          },
+          {
+            "code": "236077008",
+            "display": "Protracted diarrhea (finding)"
+          },
+          {
+            "code": "288199005",
+            "display": "Diarrhea and vomiting after gastrointestinal tract surgery (disorder)"
+          },
+          {
+            "code": "734884008",
+            "display": "Diarrhea co-occurrent and due to carcinoid syndrome (disorder)"
+          },
+          {
+            "code": "14384003",
+            "display": "Postprandial diarrhea (finding)"
+          },
+          {
+            "code": "17551007",
+            "display": "Chronic diarrhea of unknown origin (disorder)"
+          },
+          {
+            "code": "111911008",
+            "display": "Chronic intestinal amebiasis without abscess (disorder)"
+          },
+          {
+            "code": "24412005",
+            "display": "Congenital secretory diarrhea, chloride type (disorder)"
+          },
+          {
+            "code": "86615009",
+            "display": "Epidemic diarrhea (disorder)"
+          },
+          {
+            "code": "11840006",
+            "display": "Traveler's diarrhea (disorder)"
+          },
+          {
+            "code": "36188001",
+            "display": "Shigellosis (disorder)"
+          },
+          {
+            "code": "703406006",
+            "display": "Trichohepatoenteric syndrome (disorder)"
+          },
+          {
+            "code": "722392003",
+            "display": "Congenital malabsorptive diarrhea due to paucity of enteroendocrine cells (disorder)"
+          },
+          {
+            "code": "785727000",
+            "display": "Chronic infantile diarrhea due to guanylate cyclase 2C overactivity (disorder)"
+          },
+          {
+            "code": "43240000",
+            "display": "Diarrhea of presumed infectious origin (disorder)"
+          },
+          {
+            "code": "2946003",
+            "display": "Osmotic diarrhea (disorder)"
+          },
+          {
+            "code": "236078003",
+            "display": "Post-vagotomy diarrhea (disorder)"
+          },
+          {
+            "code": "716277000",
+            "display": "Chronic diarrhea due to glucoamylase deficiency (disorder)"
+          },
+          {
+            "code": "46799006",
+            "display": "Dysenteric diarrhea (disorder)"
+          },
+          {
+            "code": "49237006",
+            "display": "Allergic diarrhea (disorder)"
+          },
+          {
+            "code": "11003002",
+            "display": "Nervous diarrhea (disorder)"
+          },
+          {
+            "code": "236066002",
+            "display": "Prototheca diarrhea (disorder)"
+          },
+          {
+            "code": "95544006",
+            "display": "Inflammatory diarrhea (disorder)"
+          },
+          {
+            "code": "720009004",
+            "display": "Intractable diarrhea with choanal atresia and eye anomaly syndrome (disorder)"
+          },
+          {
+            "code": "236071009",
+            "display": "Chronic diarrhea (disorder)"
+          },
+          {
+            "code": "734019006",
+            "display": "Chronic diarrhea with villous atrophy syndrome (disorder)"
+          },
+          {
+            "code": "15699003",
+            "display": "Secretory diarrhea (disorder)"
+          },
+          {
+            "code": "11718971000119100",
+            "display": "Diarrhea in pregnancy (disorder)"
+          },
+          {
+            "code": "95879001",
+            "display": "Diarrheic shellfish poisoning (disorder)"
+          },
+          {
+            "code": "53156005",
+            "display": "Postcholecystectomy diarrhea (disorder)"
+          },
+          {
+            "code": "23874000",
+            "display": "Chronic amebiasis (disorder)"
+          },
+          {
+            "code": "275297005",
+            "display": "Diarrhea and vomiting, symptom (finding)"
+          },
+          {
+            "code": "18168004",
+            "display": "Raw-milk associated diarrhea (disorder)"
+          },
+          {
+            "code": "773579007",
+            "display": "Congenital chronic diarrhea with protein-losing enteropathy (disorder)"
+          },
+          {
+            "code": "409966000",
+            "display": "Acute diarrhea (disorder)"
+          },
+          {
+            "code": "2919008",
+            "display": "Nausea, vomiting and diarrhea (disorder)"
+          },
+          {
+            "code": "18425006",
+            "display": "Passage of rice water stools (finding)"
+          },
+          {
+            "code": "31499008",
+            "display": "Chronic constipation with overflow (disorder)"
+          },
+          {
+            "code": "249519007",
+            "display": "Diarrhea and vomiting (finding)"
+          },
+          {
+            "code": "111912001",
+            "display": "Acute amebic dysentery without abscess (disorder)"
+          },
+          {
+            "code": "5891000119102",
+            "display": "Clostridium difficile diarrhea (disorder)"
+          },
+          {
+            "code": "274081004",
+            "display": "Bacillary dysentery (disorder)"
+          },
+          {
+            "code": "267060006",
+            "display": "Diarrhea symptom (finding)"
+          },
+          {
+            "code": "236075000",
+            "display": "Diarrhea caused by ingestion of unabsorbable substances (disorder)"
+          },
+          {
+            "code": "197125005",
+            "display": "Irritable bowel syndrome with diarrhea (disorder)"
+          },
+          {
+            "code": "721615009",
+            "display": "Non-infective neonatal diarrhea (disorder)"
+          },
+          {
+            "code": "62315008",
+            "display": "Diarrhea (finding)"
+          },
+          {
+            "code": "95545007",
+            "display": "Hemorrhagic diarrhea (disorder)"
+          },
+          {
+            "code": "18805001",
+            "display": "Congenital secretory diarrhea, sodium type (disorder)"
+          },
+          {
+            "code": "19213003",
+            "display": "Infectious diarrheal disease (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "K59.1",
+            "display": "Functional diarrhea"
+          },
+          {
+            "code": "R19.7",
+            "display": "Diarrhea, unspecified"
+          }
+        ]
+      }
+    ]
+  }
+}

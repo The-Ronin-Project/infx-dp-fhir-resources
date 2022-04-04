@@ -1,0 +1,73 @@
+{
+  "resourceType": "RiskAssessment",
+  "id": "roninEdVisitRiskAssessment03Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-risk-assessment"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/riskAssessmentSampleSize",
+      "valueInteger": 2220
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/riskAssessmentCohortSize",
+      "valueInteger": 455
+    },
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/riskAssessmentModelVersion",
+      "valueString": "30"
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "value": "mdaoc"
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "4525004",
+        "system": "http://snomed.info/sct",
+        "display": "Emergency department patient visit"
+      }
+    ]
+  },
+  "method": {
+    "coding": [
+      {
+        "code": "sk-learn-random-forest-reg-model",
+        "system": "http://projectronin.com/ds/ml",
+        "display": "Scikit-learn random forest regression model",
+        "version": "1.5"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/roninPatient03Test"
+  },
+  "occurrenceDateTime": "2021-07-07",
+  "prediction": [
+    {
+      "probabilityDecimal": 0.25
+    }
+  ],
+  "basis": [
+    {
+      "reference": "Observation/roninEdVisitRationale03Test"
+    }
+  ]
+}

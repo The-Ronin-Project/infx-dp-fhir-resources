@@ -1,0 +1,65 @@
+{
+  "resourceType": "Encounter",
+  "id": "roninEncounter03Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-encounter"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "value": "mdaoc"
+    }
+  ],
+  "appointment": [
+    {
+      "reference": "Appointment/roninOncologyPatientAppointment03Test"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/roninPatient03Test",
+    "display": "Vivaan B. Acostal"
+  },
+  "period": {
+    "start": "2020-01-01T00:04:00.000Z"
+  },
+  "participant": [
+    {
+      "individual": {
+        "reference": "Practitioner/roninMDAPractitioner03Test"
+      },
+      "period": {
+        "start": "2020-01-01T00:05:00.000Z",
+        "end": "2020-01-01T01:35:00.000Z"
+      }
+    }
+  ],
+  "status": "in-progress",
+  "class": {
+    "code": "EMER",
+    "display": "emergency",
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "4525004",
+          "system": "http://snomed.info/sct"
+        }
+      ],
+      "text": "Emergency department patient visit"
+    }
+  ]
+}

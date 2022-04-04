@@ -1,0 +1,121 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Hypertension",
+  "id": "edf1c7d0-6d8b-11ec-a777-05d1227ee773",
+  "title": "Hypertension",
+  "description": "SNOMED and ICD10 codes for hypertension",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/edf1c7d0-6d8b-11ec-a777-05d1227ee773",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "35303009",
+            "display": "Benign essential hypertension complicating AND/OR reason for care during puerperium (disorder)"
+          },
+          {
+            "code": "19769006",
+            "display": "High-renin essential hypertension (disorder)"
+          },
+          {
+            "code": "71874008",
+            "display": "Benign essential hypertension complicating AND/OR reason for care during childbirth (disorder)"
+          },
+          {
+            "code": "1201005",
+            "display": "Benign essential hypertension (disorder)"
+          },
+          {
+            "code": "46481004",
+            "display": "Low-renin essential hypertension (disorder)"
+          },
+          {
+            "code": "40511000119107",
+            "display": "Postpartum pre-existing essential hypertension (disorder)"
+          },
+          {
+            "code": "23717007",
+            "display": "Benign essential hypertension complicating AND/OR reason for care during pregnancy (disorder)"
+          },
+          {
+            "code": "63287004",
+            "display": "Benign essential hypertension in obstetric context (disorder)"
+          },
+          {
+            "code": "9901000",
+            "display": "Essential hypertension complicating AND/OR reason for care during puerperium (disorder)"
+          },
+          {
+            "code": "429457004",
+            "display": "Systolic essential hypertension (disorder)"
+          },
+          {
+            "code": "59621000",
+            "display": "Essential hypertension (disorder)"
+          },
+          {
+            "code": "72022006",
+            "display": "Essential hypertension in obstetric context (disorder)"
+          },
+          {
+            "code": "78808002",
+            "display": "Essential hypertension complicating AND/OR reason for care during pregnancy (disorder)"
+          },
+          {
+            "code": "371125006",
+            "display": "Labile essential hypertension (disorder)"
+          },
+          {
+            "code": "18416000",
+            "display": "Essential hypertension complicating AND/OR reason for care during childbirth (disorder)"
+          },
+          {
+            "code": "78975002",
+            "display": "Malignant essential hypertension (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "I15.0",
+            "display": "Renovascular hypertension"
+          },
+          {
+            "code": "I15.2",
+            "display": "Hypertension secondary to endocrine disorders"
+          },
+          {
+            "code": "I15.9",
+            "display": "Secondary hypertension, unspecified"
+          },
+          {
+            "code": "I15.1",
+            "display": "Hypertension secondary to other renal disorders"
+          },
+          {
+            "code": "I10",
+            "display": "Essential (primary) hypertension"
+          },
+          {
+            "code": "I15.8",
+            "display": "Other secondary hypertension"
+          },
+          {
+            "code": "I15",
+            "display": "Secondary hypertension"
+          }
+        ]
+      }
+    ]
+  }
+}

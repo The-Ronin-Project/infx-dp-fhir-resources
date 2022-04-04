@@ -1,0 +1,537 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "HypertensionComplicated",
+  "id": "68c917d0-6d85-11ec-9b73-173b2c1e0f5a",
+  "title": "Hypertension (Complicated)",
+  "description": "SNOMED and ICD.10 for Hypertension (Complicated)",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/68c917d0-6d85-11ec-9b73-173b2c1e0f5a",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "96701000119107",
+            "display": "Hypertensive heart AND chronic kidney disease on dialysis (disorder)"
+          },
+          {
+            "code": "194779001",
+            "display": "Hypertensive heart and renal disease with (congestive) heart failure (disorder)"
+          },
+          {
+            "code": "284991000119104",
+            "display": "Chronic kidney disease stage 3 due to benign hypertension (disorder)"
+          },
+          {
+            "code": "128001000119105",
+            "display": "Hypertension concurrent and due to end stage renal disease on dialysis due to type 1 diabetes mellitus (disorder)"
+          },
+          {
+            "code": "10759031000119106",
+            "display": "Pre-existing hypertensive heart disease in mother complicating pregnancy (disorder)"
+          },
+          {
+            "code": "198951008",
+            "display": "Renal hypertension complicating pregnancy, childbirth and the puerperium - delivered (disorder)"
+          },
+          {
+            "code": "120261000119101",
+            "display": "Benign hypertensive heart disease and chronic renal disease stage 5 (disorder)"
+          },
+          {
+            "code": "284971000119100",
+            "display": "Chronic kidney disease stage 1 due to benign hypertension (disorder)"
+          },
+          {
+            "code": "285831000119108",
+            "display": "Malignant hypertensive chronic kidney disease (disorder)"
+          },
+          {
+            "code": "434431000124103",
+            "display": "Hypertensive end stage renal disease (disorder)"
+          },
+          {
+            "code": "64715009",
+            "display": "Hypertensive heart disease (disorder)"
+          },
+          {
+            "code": "1474004",
+            "display": "Hypertensive heart AND renal disease complicating AND/OR reason for care during childbirth (disorder)"
+          },
+          {
+            "code": "285081000119102",
+            "display": "Benign hypertensive heart disease and chronic renal disease stage 3 (disorder)"
+          },
+          {
+            "code": "96731000119100",
+            "display": "Hypertensive heart AND chronic kidney disease stage 3 (disorder)"
+          },
+          {
+            "code": "14973001",
+            "display": "Renal sclerosis with hypertension (disorder)"
+          },
+          {
+            "code": "285851000119102",
+            "display": "Malignant hypertensive chronic kidney disease stage 1 (disorder)"
+          },
+          {
+            "code": "104931000119100",
+            "display": "Chronic kidney disease due to hypertension (disorder)"
+          },
+          {
+            "code": "286371000119107",
+            "display": "Malignant hypertensive end stage renal disease on dialysis (disorder)"
+          },
+          {
+            "code": "129151000119102",
+            "display": "Chronic kidney disease stage 4 due to hypertension (disorder)"
+          },
+          {
+            "code": "66610008",
+            "display": "Malignant hypertensive heart AND renal disease (disorder)"
+          },
+          {
+            "code": "194781004",
+            "display": "Hypertensive heart and renal disease with both (congestive) heart failure and renal failure (disorder)"
+          },
+          {
+            "code": "238795008",
+            "display": "Hypertensive leg ulcer (disorder)"
+          },
+          {
+            "code": "15781000119107",
+            "display": "Hypertensive heart AND chronic kidney disease with congestive heart failure (disorder)"
+          },
+          {
+            "code": "1003729000",
+            "display": "Fetal disorder due to maternal pre-eclampsia (disorder)"
+          },
+          {
+            "code": "285911000119109",
+            "display": "Malignant hypertensive heart disease and chronic renal disease stage 3 (disorder)"
+          },
+          {
+            "code": "118781000119108",
+            "display": "Pre-existing hypertensive chronic kidney disease in mother complicating pregnancy (disorder)"
+          },
+          {
+            "code": "334831000119106",
+            "display": "Disorder of right retina co-occurrent and due to hypertension (disorder)"
+          },
+          {
+            "code": "86234004",
+            "display": "Hypertensive heart AND renal disease (disorder)"
+          },
+          {
+            "code": "46113002",
+            "display": "Hypertensive heart failure (disorder)"
+          },
+          {
+            "code": "62240004",
+            "display": "Benign arteriolar nephrosclerosis (disorder)"
+          },
+          {
+            "code": "10757481000119107",
+            "display": "Pre-existing hypertensive heart and chronic kidney disease in mother complicating pregnancy (disorder)"
+          },
+          {
+            "code": "36221001",
+            "display": "Benign hypertensive heart disease (disorder)"
+          },
+          {
+            "code": "73030000",
+            "display": "Hypertensive renal disease in obstetric context (disorder)"
+          },
+          {
+            "code": "59733002",
+            "display": "Hypertensive heart disease complicating AND/OR reason for care during childbirth (disorder)"
+          },
+          {
+            "code": "285011000119108",
+            "display": "Chronic kidney disease stage 5 due to benign hypertension (disorder)"
+          },
+          {
+            "code": "31881008",
+            "display": "Cardiovascular renal disease (disorder)"
+          },
+          {
+            "code": "96721000119103",
+            "display": "Hypertensive heart AND chronic kidney disease stage 4 (disorder)"
+          },
+          {
+            "code": "129171000119106",
+            "display": "Chronic kidney disease stage 3 due to hypertension (disorder)"
+          },
+          {
+            "code": "77970009",
+            "display": "Benign hypertensive heart disease without congestive heart failure (disorder)"
+          },
+          {
+            "code": "60899001",
+            "display": "Hypertensive heart disease without congestive heart failure (disorder)"
+          },
+          {
+            "code": "285101000119109",
+            "display": "Benign hypertensive heart disease and chronic renal disease stage 4 (disorder)"
+          },
+          {
+            "code": "1003728008",
+            "display": "Fetal disorder due to maternal hypertension (disorder)"
+          },
+          {
+            "code": "49171007",
+            "display": "Hypertensive renal disease complicating AND/OR reason for care during childbirth (disorder)"
+          },
+          {
+            "code": "65443008",
+            "display": "Malignant hypertensive renal disease (disorder)"
+          },
+          {
+            "code": "199006004",
+            "display": "Pre-existing hypertensive heart disease complicating pregnancy, childbirth and the puerperium (disorder)"
+          },
+          {
+            "code": "95343001",
+            "display": "Ulcer of skin caused by ischemia due to hypertensive disease (disorder)"
+          },
+          {
+            "code": "78544004",
+            "display": "Chronic hypertensive uremia (disorder)"
+          },
+          {
+            "code": "5148006",
+            "display": "Hypertensive heart disease with congestive heart failure (disorder)"
+          },
+          {
+            "code": "198949009",
+            "display": "Renal hypertension complicating pregnancy, childbirth and the puerperium (disorder)"
+          },
+          {
+            "code": "66052004",
+            "display": "Benign hypertensive heart AND renal disease (disorder)"
+          },
+          {
+            "code": "96711000119105",
+            "display": "Hypertensive heart AND chronic kidney disease stage 5 (disorder)"
+          },
+          {
+            "code": "10757401000119104",
+            "display": "Pre-existing hypertensive heart and chronic kidney disease in mother complicating childbirth (disorder)"
+          },
+          {
+            "code": "284981000119102",
+            "display": "Chronic kidney disease stage 2 due to benign hypertension (disorder)"
+          },
+          {
+            "code": "736992003",
+            "display": "Nephropathy following pre-eclampsia (disorder)"
+          },
+          {
+            "code": "10757441000119102",
+            "display": "Pre-existing hypertensive heart disease in mother complicating childbirth (disorder)"
+          },
+          {
+            "code": "57873008",
+            "display": "Hypertensive renal disease complicating AND/OR reason for care during puerperium (disorder)"
+          },
+          {
+            "code": "284961000119106",
+            "display": "Chronic kidney disease due to benign hypertension (disorder)"
+          },
+          {
+            "code": "8501000119104",
+            "display": "Hypertensive heart and chronic kidney disease (disorder)"
+          },
+          {
+            "code": "108701000119102",
+            "display": "Cardiomyopathy due to hypertension (disorder)"
+          },
+          {
+            "code": "703310005",
+            "display": "Autosomal dominant progressive nephropathy with hypertension (disorder)"
+          },
+          {
+            "code": "194780003",
+            "display": "Hypertensive heart and renal disease with renal failure (disorder)"
+          },
+          {
+            "code": "6962006",
+            "display": "Hypertensive retinopathy (disorder)"
+          },
+          {
+            "code": "96741000119109",
+            "display": "Hypertensive heart AND chronic kidney disease stage 2 (disorder)"
+          },
+          {
+            "code": "54225002",
+            "display": "Malignant hypertensive heart disease (disorder)"
+          },
+          {
+            "code": "79355007",
+            "display": "Hypertensive heart disease in obstetric context (disorder)"
+          },
+          {
+            "code": "340441000119107",
+            "display": "Disorder of left retina co-occurrent and due to hypertension (disorder)"
+          },
+          {
+            "code": "285861000119100",
+            "display": "Malignant hypertensive chronic kidney disease stage 2 (disorder)"
+          },
+          {
+            "code": "153891000119101",
+            "display": "End stage renal disease on dialysis due to hypertension (disorder)"
+          },
+          {
+            "code": "36315003",
+            "display": "Malignant hypertensive heart disease without congestive heart failure (disorder)"
+          },
+          {
+            "code": "198953006",
+            "display": "Renal hypertension complicating pregnancy, childbirth and the puerperium - not delivered (disorder)"
+          },
+          {
+            "code": "81363003",
+            "display": "Malignant arteriolar nephrosclerosis (disorder)"
+          },
+          {
+            "code": "285921000119102",
+            "display": "Malignant hypertensive heart disease and chronic renal disease stage 4 (disorder)"
+          },
+          {
+            "code": "153851000119106",
+            "display": "Malignant hypertensive chronic kidney disease stage 5 (disorder)"
+          },
+          {
+            "code": "129181000119109",
+            "display": "Chronic kidney disease stage 2 due to hypertension (disorder)"
+          },
+          {
+            "code": "421731000",
+            "display": "Hypertensive optic neuropathy (disorder)"
+          },
+          {
+            "code": "38481006",
+            "display": "Hypertensive renal disease (disorder)"
+          },
+          {
+            "code": "22966008",
+            "display": "Hypertensive heart AND renal disease complicating AND/OR reason for care during pregnancy (disorder)"
+          },
+          {
+            "code": "422001004",
+            "display": "Hypertensive choroidopathy (disorder)"
+          },
+          {
+            "code": "275516004",
+            "display": "Cardiomegaly - hypertensive (disorder)"
+          },
+          {
+            "code": "704667004",
+            "display": "Hypertension concurrent and due to end stage renal disease on dialysis (disorder)"
+          },
+          {
+            "code": "127991000119101",
+            "display": "Hypertension concurrent and due to end stage renal disease on dialysis due to type 2 diabetes mellitus (disorder)"
+          },
+          {
+            "code": "285881000119109",
+            "display": "Malignant hypertensive chronic kidney disease stage 4 (disorder)"
+          },
+          {
+            "code": "712487000",
+            "display": "End stage renal disease due to benign hypertension (disorder)"
+          },
+          {
+            "code": "198952001",
+            "display": "Renal hypertension complicating pregnancy, childbirth and the puerperium - delivered with postnatal complication (disorder)"
+          },
+          {
+            "code": "285871000119106",
+            "display": "Malignant hypertensive chronic kidney disease stage 3 (disorder)"
+          },
+          {
+            "code": "193003",
+            "display": "Benign hypertensive renal disease (disorder)"
+          },
+          {
+            "code": "83105008",
+            "display": "Malignant hypertensive heart disease with congestive heart failure (disorder)"
+          },
+          {
+            "code": "20753005",
+            "display": "Hypertensive heart disease complicating AND/OR reason for care during pregnancy (disorder)"
+          },
+          {
+            "code": "285001000119105",
+            "display": "Chronic kidney disease stage 4 due to benign hypertension (disorder)"
+          },
+          {
+            "code": "473392002",
+            "display": "Hypertensive nephrosclerosis (disorder)"
+          },
+          {
+            "code": "285041000119107",
+            "display": "Benign hypertensive heart disease and chronic renal disease stage 1 (disorder)"
+          },
+          {
+            "code": "428163005",
+            "display": "Hypertensive left ventricular hypertrophy (disorder)"
+          },
+          {
+            "code": "199007008",
+            "display": "Pre-existing hypertensive heart and renal disease complicating pregnancy, childbirth and the puerperium (disorder)"
+          },
+          {
+            "code": "49220004",
+            "display": "Hypertensive renal failure (disorder)"
+          },
+          {
+            "code": "449631000124102",
+            "display": "Benign hypertensive heart disease and chronic renal disease (disorder)"
+          },
+          {
+            "code": "111411000119103",
+            "display": "End stage renal disease due to hypertension (disorder)"
+          },
+          {
+            "code": "449759005",
+            "display": "Complication of systemic hypertensive disorder (disorder)"
+          },
+          {
+            "code": "285061000119106",
+            "display": "Benign hypertensive heart disease and chronic renal disease stage 2 (disorder)"
+          },
+          {
+            "code": "345771000119101",
+            "display": "Disorder of bilateral retinas co-occurrent and due to hypertension (disorder)"
+          },
+          {
+            "code": "194767001",
+            "display": "Benign hypertensive heart disease with congestive cardiac failure (disorder)"
+          },
+          {
+            "code": "49102001",
+            "display": "Hypertensive heart AND renal disease in obstetric context (disorder)"
+          },
+          {
+            "code": "285841000119104",
+            "display": "Malignant hypertensive end stage renal disease (disorder)"
+          },
+          {
+            "code": "66709007",
+            "display": "Hypertensive renal disease complicating AND/OR reason for care during pregnancy (disorder)"
+          },
+          {
+            "code": "117681000119102",
+            "display": "Chronic kidney disease stage 1 due to hypertension (disorder)"
+          },
+          {
+            "code": "50490005",
+            "display": "Hypertensive encephalopathy (disorder)"
+          },
+          {
+            "code": "96751000119106",
+            "display": "Hypertensive heart AND chronic kidney disease stage 1 (disorder)"
+          },
+          {
+            "code": "34273003",
+            "display": "Hypertensive heart disease complicating AND/OR reason for care during puerperium (disorder)"
+          },
+          {
+            "code": "129161000119100",
+            "display": "Chronic kidney disease stage 5 due to hypertension (disorder)"
+          },
+          {
+            "code": "698591006",
+            "display": "Benign hypertensive renal disease with renal failure (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "I15.2",
+            "display": "Hypertension secondary to endocrine disorders"
+          },
+          {
+            "code": "I12.0",
+            "display": "Hypertensive chronic kidney disease with stage 5 chronic kidney disease or end stage renal disease"
+          },
+          {
+            "code": "I11",
+            "display": "Hypertensive heart disease"
+          },
+          {
+            "code": "I12.9",
+            "display": "Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease"
+          },
+          {
+            "code": "I11.0",
+            "display": "Hypertensive heart disease with heart failure"
+          },
+          {
+            "code": "I15.0",
+            "display": "Renovascular hypertension"
+          },
+          {
+            "code": "I13.11",
+            "display": "Hypertensive heart and chronic kidney disease without heart failure, with stage 5 chronic kidney disease, or end stage renal disease"
+          },
+          {
+            "code": "I11.9",
+            "display": "Hypertensive heart disease without heart failure"
+          },
+          {
+            "code": "I15.8",
+            "display": "Other secondary hypertension"
+          },
+          {
+            "code": "I12",
+            "display": "Hypertensive chronic kidney disease"
+          },
+          {
+            "code": "I13.1",
+            "display": "Hypertensive heart and chronic kidney disease without heart failure"
+          },
+          {
+            "code": "I15",
+            "display": "Secondary hypertension"
+          },
+          {
+            "code": "I15.9",
+            "display": "Secondary hypertension, unspecified"
+          },
+          {
+            "code": "I15.1",
+            "display": "Hypertension secondary to other renal disorders"
+          },
+          {
+            "code": "I13.0",
+            "display": "Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease"
+          },
+          {
+            "code": "I13.2",
+            "display": "Hypertensive heart and chronic kidney disease with heart failure and with stage 5 chronic kidney disease, or end stage renal disease"
+          },
+          {
+            "code": "I13.10",
+            "display": "Hypertensive heart and chronic kidney disease without heart failure, with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease"
+          },
+          {
+            "code": "I13",
+            "display": "Hypertensive heart and chronic kidney disease"
+          }
+        ]
+      }
+    ]
+  }
+}

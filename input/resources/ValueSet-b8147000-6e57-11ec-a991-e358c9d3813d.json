@@ -1,0 +1,717 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ChronicPulmonaryDisease",
+  "id": "b8147000-6e57-11ec-a991-e358c9d3813d",
+  "title": "Chronic Pulmonary Disease",
+  "description": "SNOMED and ICD10 codes for the condition of Chronic Pulmonary Disease",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/b8147000-6e57-11ec-a991-e358c9d3813d",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "J70.3",
+            "display": "Chronic drug-induced interstitial lung disorders"
+          },
+          {
+            "code": "J66.1",
+            "display": "Flax-dressers' disease"
+          },
+          {
+            "code": "J62.0",
+            "display": "Pneumoconiosis due to talc dust"
+          },
+          {
+            "code": "J47.9",
+            "display": "Bronchiectasis, uncomplicated"
+          },
+          {
+            "code": "J70.1",
+            "display": "Chronic and other pulmonary manifestations due to radiation"
+          },
+          {
+            "code": "J62",
+            "display": "Pneumoconiosis due to dust containing silica"
+          },
+          {
+            "code": "J63.1",
+            "display": "Bauxite fibrosis (of lung)"
+          },
+          {
+            "code": "J45.909",
+            "display": "Unspecified asthma, uncomplicated"
+          },
+          {
+            "code": "J67.8",
+            "display": "Hypersensitivity pneumonitis due to other organic dusts"
+          },
+          {
+            "code": "J43.0",
+            "display": "Unilateral pulmonary emphysema [MacLeod's syndrome]"
+          },
+          {
+            "code": "J47.1",
+            "display": "Bronchiectasis with (acute) exacerbation"
+          },
+          {
+            "code": "I27.81",
+            "display": "Cor pulmonale (chronic)"
+          },
+          {
+            "code": "J43.9",
+            "display": "Emphysema, unspecified"
+          },
+          {
+            "code": "J45.901",
+            "display": "Unspecified asthma with (acute) exacerbation"
+          },
+          {
+            "code": "J63",
+            "display": "Pneumoconiosis due to other inorganic dusts"
+          },
+          {
+            "code": "J67.2",
+            "display": "Bird fancier's lung"
+          },
+          {
+            "code": "J67.0",
+            "display": "Farmer's lung"
+          },
+          {
+            "code": "I27.82",
+            "display": "Chronic pulmonary embolism"
+          },
+          {
+            "code": "J63.6",
+            "display": "Pneumoconiosis due to other specified inorganic dusts"
+          },
+          {
+            "code": "J65",
+            "display": "Pneumoconiosis associated with tuberculosis"
+          },
+          {
+            "code": "J45.52",
+            "display": "Severe persistent asthma with status asthmaticus"
+          },
+          {
+            "code": "J43.8",
+            "display": "Other emphysema"
+          },
+          {
+            "code": "J45.42",
+            "display": "Moderate persistent asthma with status asthmaticus"
+          },
+          {
+            "code": "J67",
+            "display": "Hypersensitivity pneumonitis due to organic dust"
+          },
+          {
+            "code": "J41.1",
+            "display": "Mucopurulent chronic bronchitis"
+          },
+          {
+            "code": "J44.0",
+            "display": "Chronic obstructive pulmonary disease with (acute) lower respiratory infection"
+          },
+          {
+            "code": "J43.1",
+            "display": "Panlobular emphysema"
+          },
+          {
+            "code": "I27.83",
+            "display": "Eisenmenger's syndrome"
+          },
+          {
+            "code": "I27.9",
+            "display": "Pulmonary heart disease, unspecified"
+          },
+          {
+            "code": "J45.998",
+            "display": "Other asthma"
+          },
+          {
+            "code": "J67.7",
+            "display": "Air conditioner and humidifier lung"
+          },
+          {
+            "code": "J67.9",
+            "display": "Hypersensitivity pneumonitis due to unspecified organic dust"
+          },
+          {
+            "code": "J63.3",
+            "display": "Graphite fibrosis (of lung)"
+          },
+          {
+            "code": "J44",
+            "display": "Other chronic obstructive pulmonary disease"
+          },
+          {
+            "code": "J66.8",
+            "display": "Airway disease due to other specific organic dusts"
+          },
+          {
+            "code": "J67.1",
+            "display": "Bagassosis"
+          },
+          {
+            "code": "J63.5",
+            "display": "Stannosis"
+          },
+          {
+            "code": "J45.4",
+            "display": "Moderate persistent asthma"
+          },
+          {
+            "code": "J68.4",
+            "display": "Chronic respiratory conditions due to chemicals, gases, fumes and vapors"
+          },
+          {
+            "code": "J45.90",
+            "display": "Unspecified asthma"
+          },
+          {
+            "code": "J42",
+            "display": "Unspecified chronic bronchitis"
+          },
+          {
+            "code": "J45.991",
+            "display": "Cough variant asthma"
+          },
+          {
+            "code": "J44.1",
+            "display": "Chronic obstructive pulmonary disease with (acute) exacerbation"
+          },
+          {
+            "code": "J45.50",
+            "display": "Severe persistent asthma, uncomplicated"
+          },
+          {
+            "code": "J66.0",
+            "display": "Byssinosis"
+          },
+          {
+            "code": "J43.2",
+            "display": "Centrilobular emphysema"
+          },
+          {
+            "code": "J45.21",
+            "display": "Mild intermittent asthma with (acute) exacerbation"
+          },
+          {
+            "code": "J47",
+            "display": "Bronchiectasis"
+          },
+          {
+            "code": "J63.4",
+            "display": "Siderosis"
+          },
+          {
+            "code": "J45.30",
+            "display": "Mild persistent asthma, uncomplicated"
+          },
+          {
+            "code": "J45.99",
+            "display": "Other asthma"
+          },
+          {
+            "code": "I27.8",
+            "display": "Other specified pulmonary heart diseases"
+          },
+          {
+            "code": "J45.9",
+            "display": "Other and unspecified asthma"
+          },
+          {
+            "code": "J45.22",
+            "display": "Mild intermittent asthma with status asthmaticus"
+          },
+          {
+            "code": "J45.3",
+            "display": "Mild persistent asthma"
+          },
+          {
+            "code": "J45.31",
+            "display": "Mild persistent asthma with (acute) exacerbation"
+          },
+          {
+            "code": "J47.0",
+            "display": "Bronchiectasis with acute lower respiratory infection"
+          },
+          {
+            "code": "J67.4",
+            "display": "Maltworker's lung"
+          },
+          {
+            "code": "J44.9",
+            "display": "Chronic obstructive pulmonary disease, unspecified"
+          },
+          {
+            "code": "J63.2",
+            "display": "Berylliosis"
+          },
+          {
+            "code": "J45.32",
+            "display": "Mild persistent asthma with status asthmaticus"
+          },
+          {
+            "code": "J45.990",
+            "display": "Exercise induced bronchospasm"
+          },
+          {
+            "code": "J45.902",
+            "display": "Unspecified asthma with status asthmaticus"
+          },
+          {
+            "code": "J40",
+            "display": "Bronchitis, not specified as acute or chronic"
+          },
+          {
+            "code": "J41.8",
+            "display": "Mixed simple and mucopurulent chronic bronchitis"
+          },
+          {
+            "code": "J45.5",
+            "display": "Severe persistent asthma"
+          },
+          {
+            "code": "J61",
+            "display": "Pneumoconiosis due to asbestos and other mineral fibers"
+          },
+          {
+            "code": "J45.41",
+            "display": "Moderate persistent asthma with (acute) exacerbation"
+          },
+          {
+            "code": "J66.2",
+            "display": "Cannabinosis"
+          },
+          {
+            "code": "J45",
+            "display": "Asthma"
+          },
+          {
+            "code": "J60",
+            "display": "Coalworker's pneumoconiosis"
+          },
+          {
+            "code": "J63.0",
+            "display": "Aluminosis (of lung)"
+          },
+          {
+            "code": "J41",
+            "display": "Simple and mucopurulent chronic bronchitis"
+          },
+          {
+            "code": "J67.3",
+            "display": "Suberosis"
+          },
+          {
+            "code": "J66",
+            "display": "Airway disease due to specific organic dust"
+          },
+          {
+            "code": "J45.51",
+            "display": "Severe persistent asthma with (acute) exacerbation"
+          },
+          {
+            "code": "I27.89",
+            "display": "Other specified pulmonary heart diseases"
+          },
+          {
+            "code": "J43",
+            "display": "Emphysema"
+          },
+          {
+            "code": "J67.5",
+            "display": "Mushroom-worker's lung"
+          },
+          {
+            "code": "J41.0",
+            "display": "Simple chronic bronchitis"
+          },
+          {
+            "code": "J45.20",
+            "display": "Mild intermittent asthma, uncomplicated"
+          },
+          {
+            "code": "J62.8",
+            "display": "Pneumoconiosis due to other dust containing silica"
+          },
+          {
+            "code": "J45.40",
+            "display": "Moderate persistent asthma, uncomplicated"
+          },
+          {
+            "code": "J45.2",
+            "display": "Mild intermittent asthma"
+          },
+          {
+            "code": "J64",
+            "display": "Unspecified pneumoconiosis"
+          },
+          {
+            "code": "J67.6",
+            "display": "Maple-bark-stripper's lung"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "707534000",
+            "display": "Chronic lung disease due to surfactant disorder (disorder)"
+          },
+          {
+            "code": "266404004",
+            "display": "Chronic chemical respiratory disease (disorder)"
+          },
+          {
+            "code": "135836000",
+            "display": "End stage chronic obstructive airways disease (disorder)"
+          },
+          {
+            "code": "77690003",
+            "display": "Interstitial emphysema of lung (disorder)"
+          },
+          {
+            "code": "434301000124102",
+            "display": "Chronic interstitial lung disease (disorder)"
+          },
+          {
+            "code": "47938003",
+            "display": "Chronic obliterative bronchiolitis (disorder)"
+          },
+          {
+            "code": "233762004",
+            "display": "Chronic silicosis (disorder)"
+          },
+          {
+            "code": "240742009",
+            "display": "Chronic pulmonary African histoplasmosis (disorder)"
+          },
+          {
+            "code": "313299006",
+            "display": "Severe chronic obstructive pulmonary disease (disorder)"
+          },
+          {
+            "code": "699014000",
+            "display": "Recurrent pneumonia (disorder)"
+          },
+          {
+            "code": "723829000",
+            "display": "Pulmonary fibrosis, hepatic hyperplasia, bone marrow hypoplasia syndrome (disorder)"
+          },
+          {
+            "code": "28791000119105",
+            "display": "Chronic coccidioidomycotic pneumonia (disorder)"
+          },
+          {
+            "code": "23958009",
+            "display": "Vanishing lung (disorder)"
+          },
+          {
+            "code": "233675009",
+            "display": "Toxic emphysema (disorder)"
+          },
+          {
+            "code": "771306007",
+            "display": "Hereditary fibrosing poikiloderma, tendon contractures, myopathy, pulmonary fibrosis syndrome (disorder)"
+          },
+          {
+            "code": "313296004",
+            "display": "Mild chronic obstructive pulmonary disease (disorder)"
+          },
+          {
+            "code": "1010670004",
+            "display": "Chronic endogenous lipoid pneumonia (disorder)"
+          },
+          {
+            "code": "36599006",
+            "display": "Chronic fibrosis of lung (disorder)"
+          },
+          {
+            "code": "86680006",
+            "display": "Ruptured emphysematous bleb of lung (disorder)"
+          },
+          {
+            "code": "33325001",
+            "display": "Compensatory emphysema (disorder)"
+          },
+          {
+            "code": "106001000119101",
+            "display": "Chronic obstructive lung disease co-occurrent with acute bronchitis (disorder)"
+          },
+          {
+            "code": "430969000",
+            "display": "Recurrent aspiration pneumonia (disorder)"
+          },
+          {
+            "code": "18354001",
+            "display": "Chronic induration of lung (disorder)"
+          },
+          {
+            "code": "123713005",
+            "display": "Chronic atelectasis (disorder)"
+          },
+          {
+            "code": "240747003",
+            "display": "Chronic pulmonary blastomycosis (disorder)"
+          },
+          {
+            "code": "102361000119104",
+            "display": "Chronic pneumonia (disorder)"
+          },
+          {
+            "code": "708030004",
+            "display": "Pulmonary emphysema co-occurrent with fibrosis of lung (disorder)"
+          },
+          {
+            "code": "840350008",
+            "display": "Chronic obliterative bronchiolitis caused by chemical fumes (disorder)"
+          },
+          {
+            "code": "195959009",
+            "display": "Zonal bullous emphysema (disorder)"
+          },
+          {
+            "code": "460561000124109",
+            "display": "Progressive fibrosing interstitial lung disease (disorder)"
+          },
+          {
+            "code": "1010334009",
+            "display": "Emphysema of right lung (disorder)"
+          },
+          {
+            "code": "783182004",
+            "display": "Chronic respiratory distress with surfactant metabolism deficiency (disorder)"
+          },
+          {
+            "code": "57686001",
+            "display": "Emphysematous bleb of lung (disorder)"
+          },
+          {
+            "code": "413839001",
+            "display": "Chronic lung disease (disorder)"
+          },
+          {
+            "code": "26427008",
+            "display": "Chronic pulmonary histoplasmosis (disorder)"
+          },
+          {
+            "code": "1010333003",
+            "display": "Emphysema of left lung (disorder)"
+          },
+          {
+            "code": "313297008",
+            "display": "Moderate chronic obstructive pulmonary disease (disorder)"
+          },
+          {
+            "code": "707553005",
+            "display": "Chronic exogenous lipoid pneumonia (disorder)"
+          },
+          {
+            "code": "195957006",
+            "display": "Chronic bullous emphysema (disorder)"
+          },
+          {
+            "code": "4981000",
+            "display": "Panacinar emphysema (disorder)"
+          },
+          {
+            "code": "836477007",
+            "display": "Chronic emphysema caused by vapor (disorder)"
+          },
+          {
+            "code": "10692761000119107",
+            "display": "Asthma-chronic obstructive pulmonary disease overlap syndrome (disorder)"
+          },
+          {
+            "code": "16846004",
+            "display": "Obstructive emphysema (disorder)"
+          },
+          {
+            "code": "426437004",
+            "display": "Familial idiopathic pulmonary fibrosis (disorder)"
+          },
+          {
+            "code": "18121009",
+            "display": "Chronic berylliosis (disorder)"
+          },
+          {
+            "code": "789574002",
+            "display": "Acute exacerbation of idiopathic pulmonary fibrosis (disorder)"
+          },
+          {
+            "code": "46847001",
+            "display": "Chronic pulmonary edema (disorder)"
+          },
+          {
+            "code": "266355005",
+            "display": "Bullous emphysema with collapse (disorder)"
+          },
+          {
+            "code": "37180002",
+            "display": "Chronic nonspecific lung disease (disorder)"
+          },
+          {
+            "code": "63841001",
+            "display": "Chronic pulmonary congestion (disorder)"
+          },
+          {
+            "code": "87433001",
+            "display": "Pulmonary emphysema (disorder)"
+          },
+          {
+            "code": "733171006",
+            "display": "Chronic pulmonary aspergillosis (disorder)"
+          },
+          {
+            "code": "60805002",
+            "display": "Hemolytic anemia with emphysema AND cutis laxa (disorder)"
+          },
+          {
+            "code": "31898008",
+            "display": "Paraseptal emphysema (disorder)"
+          },
+          {
+            "code": "233713004",
+            "display": "Seasonal cryptogenic organizing pneumonia with biochemical cholestasis (disorder)"
+          },
+          {
+            "code": "432958009",
+            "display": "Chronic rejection of lung transplant (disorder)"
+          },
+          {
+            "code": "266356006",
+            "display": "Atrophic (senile) emphysema (disorder)"
+          },
+          {
+            "code": "713525001",
+            "display": "Recurrent bacterial pneumonia (disorder)"
+          },
+          {
+            "code": "700250006",
+            "display": "Idiopathic pulmonary fibrosis (disorder)"
+          },
+          {
+            "code": "704345008",
+            "display": "Chronic interstitial pneumonia (disorder)"
+          },
+          {
+            "code": "846637007",
+            "display": "Chronic pulmonary fibrosis caused by chemical vapors (disorder)"
+          },
+          {
+            "code": "195958001",
+            "display": "Segmental bullous emphysema (disorder)"
+          },
+          {
+            "code": "233674008",
+            "display": "Pulmonary emphysema in alpha-1 primary immunodeficiency deficiency (disorder)"
+          },
+          {
+            "code": "737180005",
+            "display": "Chronic bronchiolitis (disorder)"
+          },
+          {
+            "code": "196001008",
+            "display": "Chronic obstructive pulmonary disease with acute lower respiratory infection (disorder)"
+          },
+          {
+            "code": "285381006",
+            "display": "Acute infective exacerbation of chronic obstructive airways disease (disorder)"
+          },
+          {
+            "code": "430476004",
+            "display": "Diffuse panbronchiolitis (disorder)"
+          },
+          {
+            "code": "1751000119100",
+            "display": "Acute exacerbation of chronic obstructive airways disease with asthma (disorder)"
+          },
+          {
+            "code": "13645005",
+            "display": "Chronic obstructive lung disease (disorder)"
+          },
+          {
+            "code": "195951007",
+            "display": "Acute exacerbation of chronic obstructive airways disease (disorder)"
+          },
+          {
+            "code": "233677001",
+            "display": "Scar emphysema (disorder)"
+          },
+          {
+            "code": "2912004",
+            "display": "Cystic-bullous disease of the lung (disorder)"
+          },
+          {
+            "code": "16003001",
+            "display": "Giant bullous emphysema (disorder)"
+          },
+          {
+            "code": "417688002",
+            "display": "Chronic progressive coccidioidal pneumonia (disorder)"
+          },
+          {
+            "code": "47895001",
+            "display": "Congenital emphysema (disorder)"
+          },
+          {
+            "code": "314954002",
+            "display": "Local recurrence of malignant tumor of lung (disorder)"
+          },
+          {
+            "code": "196026004",
+            "display": "Chronic emphysema caused by chemical fumes (disorder)"
+          },
+          {
+            "code": "233615002",
+            "display": "Chronic pulmonary coccidioidomycosis (disorder)"
+          },
+          {
+            "code": "713526000",
+            "display": "Recurrent bacterial pneumonia co-occurrent with human immunodeficiency virus infection (disorder)"
+          },
+          {
+            "code": "196028003",
+            "display": "Chronic pulmonary fibrosis caused by chemical fumes (disorder)"
+          },
+          {
+            "code": "840351007",
+            "display": "Chronic obliterative bronchiolitis caused by vapor (disorder)"
+          },
+          {
+            "code": "196049002",
+            "display": "Chronic pulmonary radiation disease (disorder)"
+          },
+          {
+            "code": "724500003",
+            "display": "Idiopathic chronic eosinophilic pneumonia (disorder)"
+          },
+          {
+            "code": "70756004",
+            "display": "Bronchial atresia with segmental pulmonary emphysema (disorder)"
+          },
+          {
+            "code": "68328006",
+            "display": "Centriacinar emphysema (disorder)"
+          },
+          {
+            "code": "66987001",
+            "display": "Congenital lobar emphysema (disorder)"
+          }
+        ]
+      }
+    ]
+  }
+}

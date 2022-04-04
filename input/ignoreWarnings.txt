@@ -1,0 +1,55 @@
+== Suppressed Messages ==
+
+# Add warning and/or information messages here after you've confirmed that they aren't really a problem
+# (And include comments like this justifying why)
+# See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+
+# SUPPRESS MESSAGES ABOUT BEING UNABLE TO SUPPORT CERTAIN CODE SYSTEMS
+# ERRORS
+Error from server: Unable to provide support for code system http://projectronin.com/ds/riskDriver
+Error from server: Unable to provide support for code system http://projectronin.com/ds/riskDriver/category
+Error from server: Unable to provide support for code system http://projectronin.com/ds/lab
+Error from server: Unable to provide support for code system http://projectronin.com/ds/symptom
+Error from server: Unable to provide support for code system http://projectronin.com/ds/ml
+Error from server: Unable to provide support for code system http://projectronin.com/ds/patientComparison
+Error from server: Unable to provide support for code system http://projectronin.com/ds/riskDriver/interpretation
+Error from server: Unable to provide support for code system http://loinc.org
+Error from server: Unable to provide support for code system http://projectronin.com/observation/componentType
+Error from server: Unable to provide support for code system http://snomed.info/sct
+Error from server: Unable to provide support for code system http://www.nlm.nih.gov/research/umls/rxnorm
+Error from server: Unable to provide support for code system http://hl7.org/fhir/sid/icd-10-cm
+Error from server: Unable to provide support for code system https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134
+
+
+# WARNINGS
+#Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet/ed-visit-rationale-lab-codes-vs: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet/ed-visit-rationale-symptom-codes-vs: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet/ed-visit-risk-driver-codes-vs: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet/ed-visit-risk-driver-category-codes-vs: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet/ed-visit-patient-comparison-codes-vs: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet/ed-visit-risk-driver-codes-interpretation-vs: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet/ed-visit-component-type-codes-vs: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet/ed-visit-patient-comparison-codes-vs: ValueSet.compose[0].include[1]: Unknown System specified, so Concepts and Filters can''t be checked
+eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Rule 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+[Unable to determine whether the provided codes are in the value set http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-risk-driver-category-codes-vs because the value set or a code system it depends on is not known to the validator, Code System URI 'http://projectronin.com/ds/riskDriver/category' is unknown so the code cannot be validated]
+[Unable to determine whether the provided codes are in the value set http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-component-type-codes-vs because the value set or a code system it depends on is not known to the validator, Code System URI 'http://projectronin.com/observation/componentType' is unknown so the code cannot be validated]
+The Implementation Guide contains no examples for this profile
+Unknown System/Version specified, so Concepts and Filters can''t be checked
+
+# INFORMATIONAL
+Code System URI 'http://projectronin.com/ds/riskDriver' is unknown so the code cannot be validated
+Code System URI 'http://projectronin.com/ds/riskDriver/category' is unknown so the code cannot be validated
+Code System URI 'http://projectronin.com/ds/patientComparison' is unknown so the code cannot be validated
+Code System URI 'http://projectronin.com/ds/symptom' is unknown so the code cannot be validated
+Code System URI 'http://projectronin.com/ds/lab' is unknown so the code cannot be validated
+Code System URI 'http://projectronin.com/ds/ml' is unknown so the code cannot be validated
+Code System URI 'http://terminology.hl7.org/CodeSystem/umls' is unknown so the code cannot be validated
+Code System URI 'http://projectronin.com/id/tenantId' is unknown so the code cannot be validated
+Code System URI 'http://projectronin.com/id/ser' is unknown so the code cannot be validated
+Code System URI 'http://cancerstaging.org' is unknown so the code cannot be validated
+Code System URI 'http://projectronin.com/id/fhir' is unknown so the code cannot be validated
+Code System URI 'http://projectronin.com/ds/riskDriver/interpretation' is unknown so the code cannot be validated
+This element does not match any known slice defined in the profile http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-rationale
+Code System URI 'http://projectronin.com/observation/componentType' is unknown so the code cannot be validated
+Code System URI 'http://projectronin.com/observation/categoryType' is unknown so the code cannot be validated

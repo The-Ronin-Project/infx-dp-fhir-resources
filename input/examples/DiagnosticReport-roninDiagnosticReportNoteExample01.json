@@ -1,0 +1,53 @@
+{
+  "resourceType": "DiagnosticReport",
+  "id": "roninDiagnosticReportNoteExample01",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-diagnostic-report-note"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "value": "mdaoc"
+    }
+  ],
+  "category": [
+    {
+      "coding": [
+        {
+          "display": "Imaging"
+        }
+      ],
+      "text": "Imaging"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "10207-9",
+        "system": "http://loinc.org"
+      }
+    ],
+    "text": "Physical findings of Thorax and Lungs Narrative"
+  },
+  "subject": {
+    "reference": "Patient/roninPatientExample01",
+    "display": "John Anyperson"
+  },
+  "status": "registered",
+  "effectiveDateTime": "2017-01-01T00:00:00.000Z",
+  "encounter": {
+    "reference": "Encounter/roninEncounterExample01"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "resourceType": "Condition",
+  "id": "roninPrimaryOncologyConditionExample01",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-condition"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "value": "mdaoc"
+    }
+  ],
+  "category": [
+    {
+      "coding": [
+        {
+          "display": "encounter-diagnosis"
+        }
+      ],
+      "text": "Encounter Diagnosis"
+    }
+  ],
+  "clinicalStatus": {
+    "coding": [
+      {
+        "code": "active",
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "display": "Active"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "code": "confirmed",
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "display": "Confirmed"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "254637007",
+        "system": "http://snomed.info/sct",
+        "display": "Non-small cell lung cancer"
+      }
+    ]
+  },
+  "bodySite": [
+    {
+      "coding": [
+        {
+          "code": "39607008",
+          "system": "http://snomed.info/sct",
+          "display": "Lung structure (body structure)"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/roninPatientExample01"
+  },
+  "onsetDateTime": "2019-04-01",
+  "asserter": {
+    "reference": "Practitioner/roninPractitionerExample01"
+  },
+  "stage": [
+    {
+      "summary": {
+        "coding": [
+          {
+            "code": "3C",
+            "system": "http://cancerstaging.org",
+            "display": "IIIC"
+          }
+        ]
+      }
+    }
+  ]
+}

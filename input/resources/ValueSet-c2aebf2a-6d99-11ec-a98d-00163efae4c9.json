@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "CA549",
+  "id": "c2aebf2a-6d99-11ec-a98d-00163efae4c9",
+  "title": "CA549",
+  "description": "LOINC codes indicating CA549 measurement MVP for ED risk model release",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/c2aebf2a-6d99-11ec-a98d-00163efae4c9",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "2014-9",
+            "display": "Cancer Ag 549 [Presence] in Serum or Plasma"
+          },
+          {
+            "code": "19189-0",
+            "display": "Cancer Ag 549 [Units/volume] in Serum or Plasma"
+          }
+        ]
+      }
+    ]
+  }
+}

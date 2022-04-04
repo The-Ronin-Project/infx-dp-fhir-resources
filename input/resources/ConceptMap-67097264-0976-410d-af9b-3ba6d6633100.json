@@ -1,0 +1,94 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "67097264-0976-410d-af9b-3ba6d6633100",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>The source codes have relationships as noted to the target codes:</li></ul></div>"
+  },
+  "url": "http://projectronin.com/fhir/us/ronin/ConceptMap/67097264-0976-410d-af9b-3ba6d6633100",
+  "version": "1",
+  "name": "SurveyAssignementValueSetstoChokutoCancerTypeCodes",
+  "title": "Survey Assignement Value Sets to Chokuto Cancer Type Codes",
+  "status": "active",
+  "experimental": "false",
+  "date": "2021-03-22",
+  "publisher": "Project Ronin",
+  "contact": [
+    {
+      "name": "Stephen Weaver",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "contact@projectronin.com"
+        }
+      ]
+    }
+  ],
+  "description": "a semantic map between source and target per the title",
+  "purpose": "provide a map for application logic",
+  "sourceUri": "http://projectronin.io/fhir/terminologies/ProjectRoninValueSets",
+  "targetUri": "http://projectronin.io/fhir/terminologies/chokuto_cancer_types",
+  "group": [
+    {
+      "source": "http://projectronin.io/fhir/terminologies/ProjectRoninValueSets",
+      "target": "http://projectronin.io/fhir/terminologies/chokuto_cancer_types",
+      "element": [
+        {
+          "code": "08d51640-7f95-11ec-a69c-7956c6320982",
+          "display": "Breast Cancer Survey Assignment",
+          "target": [
+            {
+              "code": "5ffd1b6d-15cd-47ef-8de0-bc772d60647e",
+              "display": "Breast",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "2de1fcc0-8065-11ec-8e45-2386c46ddcaa",
+          "display": "GU Cancer Survey",
+          "target": [
+            {
+              "code": "f6082d58-b9fb-4fd2-99ba-d01e52a79022",
+              "display": "GU",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "712d4fa0-a57e-11ec-991e-6dd002ad060f",
+          "display": "GYN Cancer Survey Assignment",
+          "target": [
+            {
+              "code": "8fff6d76-7f35-437f-b084-ee5b7c4d87cf",
+              "display": "GYN",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "da568cc0-884c-11ec-a2e6-8d8967627823",
+          "display": "Neuro Cancer Survey",
+          "target": [
+            {
+              "code": "dfb5ab5b-3da7-41f9-b1dc-d6f245c19c38",
+              "display": "Neuro",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "aa51e656-82fc-4974-b2bc-14491ab95ba1",
+          "display": "Thoracic Cancer Survey Assignment",
+          "target": [
+            {
+              "code": "5ffd1b6d-15cd-47ef-8de0-bc772d60647e",
+              "display": "Thoracic",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

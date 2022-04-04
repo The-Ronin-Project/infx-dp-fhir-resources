@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "INR",
+  "id": "9445cafc-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "INR",
+  "description": "LOINC codes indicating the measurement of INR Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/9445cafc-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "52129-4",
+            "display": "INR in Platelet poor plasma by Coagulation assay --post heparin neutralization"
+          },
+          {
+            "code": "34714-6",
+            "display": "INR in Blood by Coagulation assay"
+          },
+          {
+            "code": "46418-0",
+            "display": "INR in Capillary blood by Coagulation assay"
+          },
+          {
+            "code": "6301-6",
+            "display": "INR in Platelet poor plasma by Coagulation assay"
+          },
+          {
+            "code": "92891-1",
+            "display": "INR goal in Platelet poor plasma by Coagulation assay"
+          },
+          {
+            "code": "38875-1",
+            "display": "INR in Platelet poor plasma or blood by Coagulation assay"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "6684",
+            "display": "POC INR"
+          }
+        ]
+      }
+    ]
+  }
+}

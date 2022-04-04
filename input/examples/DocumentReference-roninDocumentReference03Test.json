@@ -1,0 +1,67 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "roninDocumentReference03Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-document-reference"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "value": "mdaoc"
+    }
+  ],
+  "status": "current",
+  "date": "2017-02-07T13:28:17.239+02:00",
+  "context": {
+    "id": "exampleContextId"
+  },
+  "type": {
+    "coding": [
+      {
+        "code": "28568-4",
+        "system": "http://loinc.org",
+        "display": "Physician Emergency department Note"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "clinical-note",
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+          "display": "Clinical Note"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/roninPatient03Test"
+  },
+  "content": [
+    {
+      "id": "note_mda3.html",
+      "attachment": {
+        "data": "bm90ZV9tZGEzLmh0bWwK",
+        "contentType": "text/html"
+      }
+    }
+  ],
+  "author": [
+    {
+      "reference": "Practitioner/roninMDAPractitioner03Test"
+    }
+  ]
+}

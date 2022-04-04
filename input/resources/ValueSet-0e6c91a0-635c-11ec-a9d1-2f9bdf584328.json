@@ -1,0 +1,201 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "PenileCancerCombined",
+  "id": "0e6c91a0-635c-11ec-a9d1-2f9bdf584328",
+  "title": "Penile Cancer Combined",
+  "description": "This valueset contains the diagnosis codes for penile cancer and diseases that are clinically treated as penile cancer. It contains both ICD-10 and SNOMED.",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/0e6c91a0-635c-11ec-a9d1-2f9bdf584328",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "816980006",
+            "display": "Differentiated penile intraepithelial neoplasia (disorder)"
+          },
+          {
+            "code": "363516004",
+            "display": "Malignant tumor of penis (disorder)"
+          },
+          {
+            "code": "109875002",
+            "display": "Overlapping malignant neoplasm of penis (disorder)"
+          },
+          {
+            "code": "94994005",
+            "display": "Neoplasm of uncertain behavior of penis (disorder)"
+          },
+          {
+            "code": "188230001",
+            "display": "Malignant tumor of body of penis (disorder)"
+          },
+          {
+            "code": "126896003",
+            "display": "Neoplasm of penis (disorder)"
+          },
+          {
+            "code": "94845006",
+            "display": "Neoplasm of uncertain behavior of prepuce (disorder)"
+          },
+          {
+            "code": "254910008",
+            "display": "Tumor of corpus spongiosum (disorder)"
+          },
+          {
+            "code": "126899005",
+            "display": "Neoplasm of body of penis (disorder)"
+          },
+          {
+            "code": "92019002",
+            "display": "Benign neoplasm of body of penis (disorder)"
+          },
+          {
+            "code": "276419004",
+            "display": "Malignant tumor of corpus spongiosum (disorder)"
+          },
+          {
+            "code": "94853003",
+            "display": "Neoplasm of uncertain behavior of glans penis (disorder)"
+          },
+          {
+            "code": "254909003",
+            "display": "Carcinoma of foreskin (disorder)"
+          },
+          {
+            "code": "276420005",
+            "display": "Malignant tumor of corpus cavernosum (disorder)"
+          },
+          {
+            "code": "372106005",
+            "display": "Carcinoma of penis (disorder)"
+          },
+          {
+            "code": "92602000",
+            "display": "Carcinoma in situ of glans penis (disorder)"
+          },
+          {
+            "code": "92120005",
+            "display": "Benign neoplasm of glans penis (disorder)"
+          },
+          {
+            "code": "92286008",
+            "display": "Benign neoplasm of penis (disorder)"
+          },
+          {
+            "code": "93716006",
+            "display": "Primary malignant neoplasm of body of penis (disorder)"
+          },
+          {
+            "code": "92548003",
+            "display": "Carcinoma in situ of body of penis (disorder)"
+          },
+          {
+            "code": "189135006",
+            "display": "Benign tumor of corpus spongiosum (disorder)"
+          },
+          {
+            "code": "398831006",
+            "display": "Bowen's disease of penis (disorder)"
+          },
+          {
+            "code": "254911007",
+            "display": "Tumor of corpus cavernosum (disorder)"
+          },
+          {
+            "code": "126897007",
+            "display": "Neoplasm of prepuce (disorder)"
+          },
+          {
+            "code": "92112008",
+            "display": "Benign neoplasm of prepuce (disorder)"
+          },
+          {
+            "code": "94757007",
+            "display": "Neoplasm of uncertain behavior of body of penis (disorder)"
+          },
+          {
+            "code": "371989002",
+            "display": "Primary malignant neoplasm of glans penis (disorder)"
+          },
+          {
+            "code": "372005006",
+            "display": "Primary malignant neoplasm of penis (disorder)"
+          },
+          {
+            "code": "189136007",
+            "display": "Benign tumor of corpus cavernosum (disorder)"
+          },
+          {
+            "code": "92679008",
+            "display": "Carcinoma in situ of penis (disorder)"
+          },
+          {
+            "code": "764846009",
+            "display": "Adenocarcinoma of penis (disorder)"
+          },
+          {
+            "code": "254904008",
+            "display": "Carcinoma of glans penis (disorder)"
+          },
+          {
+            "code": "363451005",
+            "display": "Malignant tumor of glans penis (disorder)"
+          },
+          {
+            "code": "363450006",
+            "display": "Malignant tumor of foreskin (disorder)"
+          },
+          {
+            "code": "126898002",
+            "display": "Neoplasm of glans penis (disorder)"
+          },
+          {
+            "code": "372006007",
+            "display": "Primary malignant neoplasm of prepuce (disorder)"
+          },
+          {
+            "code": "92596003",
+            "display": "Carcinoma in situ of prepuce (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "C60.8",
+            "display": "Malignant neoplasm of overlapping sites of penis"
+          },
+          {
+            "code": "C60.0",
+            "display": "Malignant neoplasm of prepuce"
+          },
+          {
+            "code": "C60.9",
+            "display": "Malignant neoplasm of penis, unspecified"
+          },
+          {
+            "code": "C60.2",
+            "display": "Malignant neoplasm of body of penis"
+          },
+          {
+            "code": "C60",
+            "display": "Malignant neoplasm of penis"
+          },
+          {
+            "code": "C60.1",
+            "display": "Malignant neoplasm of glans penis"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,5623 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Immunosuppressants",
+  "id": "df47bb40-6dae-11ec-984c-bb9e6fde8fa7",
+  "title": "Immunosuppressants",
+  "description": "This valueset contains RxNorm codes for members of the ATC class immunosuppressants",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/df47bb40-6dae-11ec-984c-bb9e6fde8fa7",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "RXNORM_20AA_220103F",
+        "concept": [
+          {
+            "code": "2121091",
+            "display": "Mayzent"
+          },
+          {
+            "code": "2166137",
+            "display": "{2 (0.83 ML risankizumab-rzaa 90.4 MG/ML Prefilled Syringe) } Pack"
+          },
+          {
+            "code": "616114",
+            "display": "lenalidomide 10 MG Oral Capsule [Revlimid]"
+          },
+          {
+            "code": "576023",
+            "display": "adalimumab 50 MG/ML [Humira]"
+          },
+          {
+            "code": "802651",
+            "display": "etanercept Prefilled Syringe [Enbrel]"
+          },
+          {
+            "code": "1171992",
+            "display": "Humira Injectable Product"
+          },
+          {
+            "code": "1170885",
+            "display": "Cimzia Injectable Product"
+          },
+          {
+            "code": "213361",
+            "display": "infliximab 100 MG Injection [Remicade]"
+          },
+          {
+            "code": "366273",
+            "display": "tacrolimus Oral Capsule [Prograf]"
+          },
+          {
+            "code": "2377341",
+            "display": "0.5 ML methotrexate 25 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "94035",
+            "display": "cyclosporine Oral Solution [Sandimmune]"
+          },
+          {
+            "code": "2056896",
+            "display": "everolimus 1 MG [Zortress]"
+          },
+          {
+            "code": "1928589",
+            "display": "guselkumab 100 MG/ML"
+          },
+          {
+            "code": "2540693",
+            "display": "risankizumab-rzaa 150 MG/ML [Skyrizi]"
+          },
+          {
+            "code": "845505",
+            "display": "everolimus 10 MG"
+          },
+          {
+            "code": "847083",
+            "display": "ustekinumab"
+          },
+          {
+            "code": "1373481",
+            "display": "dimethyl fumarate Pill"
+          },
+          {
+            "code": "360110",
+            "display": "sirolimus 2 MG Oral Tablet"
+          },
+          {
+            "code": "763564",
+            "display": "0.4 ML adalimumab 50 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1747191",
+            "display": "methotrexate 56.3 MG/ML"
+          },
+          {
+            "code": "2196895",
+            "display": "Rinvoq"
+          },
+          {
+            "code": "2282515",
+            "display": "lymphocyte immune globulin, anti-thymocyte globulin Injectable Product"
+          },
+          {
+            "code": "1310528",
+            "display": "teriflunomide Oral Tablet [Aubagio]"
+          },
+          {
+            "code": "1923346",
+            "display": "sarilumab 175 MG/ML [Kevzara]"
+          },
+          {
+            "code": "2377337",
+            "display": "Reditrex Injectable Product"
+          },
+          {
+            "code": "1664433",
+            "display": "tacrolimus Extended Release Oral Tablet"
+          },
+          {
+            "code": "2282528",
+            "display": "lymphocyte immune globulin, anti-thymocyte globulin Injection [Thymoglobulin]"
+          },
+          {
+            "code": "1492748",
+            "display": "{4 (apremilast 10 MG Oral Tablet [Otezla]) / 4 (apremilast 20 MG Oral Tablet [Otezla]) / 19 (apremilast 30 MG Oral Tablet [Otezla]) } Pack [Otezla Starter Pack]"
+          },
+          {
+            "code": "327361",
+            "display": "adalimumab"
+          },
+          {
+            "code": "1876385",
+            "display": "10 ML ocrelizumab 30 MG/ML Injection [Ocrevus]"
+          },
+          {
+            "code": "1172066",
+            "display": "Afinitor Oral Product"
+          },
+          {
+            "code": "849597",
+            "display": "1 ML certolizumab pegol 200 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "2373959",
+            "display": "Uplizna Injectable Product"
+          },
+          {
+            "code": "2107325",
+            "display": "30 ML ravulizumab-cwvz 10 MG/ML Injection [Ultomiris]"
+          },
+          {
+            "code": "1656402",
+            "display": "belimumab 400 MG Injection [Benlysta]"
+          },
+          {
+            "code": "1664455",
+            "display": "tacrolimus 0.75 MG"
+          },
+          {
+            "code": "283510",
+            "display": "methotrexate 15 MG Oral Tablet"
+          },
+          {
+            "code": "1544387",
+            "display": "0.3 ML methotrexate 50 MG/ML Auto-Injector"
+          },
+          {
+            "code": "602911",
+            "display": "lenalidomide 5 MG"
+          },
+          {
+            "code": "564120",
+            "display": "azathioprine 50 MG [Imuran]"
+          },
+          {
+            "code": "1939298",
+            "display": "belimumab Auto-Injector [Benlysta]"
+          },
+          {
+            "code": "1864324",
+            "display": "1 ML canakinumab 150 MG/ML Injection"
+          },
+          {
+            "code": "219610",
+            "display": "Remicade"
+          },
+          {
+            "code": "205284",
+            "display": "leflunomide 10 MG Oral Tablet"
+          },
+          {
+            "code": "1163983",
+            "display": "ustekinumab Injectable Product"
+          },
+          {
+            "code": "2166138",
+            "display": "Skyrizi"
+          },
+          {
+            "code": "352734",
+            "display": "Kineret"
+          },
+          {
+            "code": "2586866",
+            "display": "Fyarro Injectable Product"
+          },
+          {
+            "code": "2475405",
+            "display": "Lupkynis Pill"
+          },
+          {
+            "code": "239983",
+            "display": "azathioprine 100 MG Injection"
+          },
+          {
+            "code": "1162236",
+            "display": "methotrexate Oral Product"
+          },
+          {
+            "code": "1653143",
+            "display": "golimumab Auto-Injector [Simponi]"
+          },
+          {
+            "code": "574948",
+            "display": "tacrolimus 0.001 MG/MG [Protopic]"
+          },
+          {
+            "code": "1308426",
+            "display": "everolimus Oral Liquid Product"
+          },
+          {
+            "code": "2196092",
+            "display": "upadacitinib"
+          },
+          {
+            "code": "1664434",
+            "display": "24 HR tacrolimus 4 MG Extended Release Oral Tablet"
+          },
+          {
+            "code": "1181673",
+            "display": "Neoral Oral Product"
+          },
+          {
+            "code": "1923347",
+            "display": "1.14 ML sarilumab 175 MG/ML Prefilled Syringe [Kevzara]"
+          },
+          {
+            "code": "1369714",
+            "display": "pomalidomide 1 MG"
+          },
+          {
+            "code": "1592279",
+            "display": "pirfenidone 267 MG Oral Capsule"
+          },
+          {
+            "code": "2586863",
+            "display": "sirolimus 100 MG Injection"
+          },
+          {
+            "code": "1599792",
+            "display": "1 ML secukinumab 150 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "213380",
+            "display": "leflunomide 100 MG Oral Tablet [Arava]"
+          },
+          {
+            "code": "614391",
+            "display": "abatacept"
+          },
+          {
+            "code": "2107322",
+            "display": "ravulizumab-cwvz 10 MG/ML [Ultomiris]"
+          },
+          {
+            "code": "1011",
+            "display": "lymphocyte immune globulin, anti-thymocyte globulin"
+          },
+          {
+            "code": "1921591",
+            "display": "methotrexate Oral Solution"
+          },
+          {
+            "code": "330028",
+            "display": "methotrexate 2.5 MG/ML"
+          },
+          {
+            "code": "353484",
+            "display": "Humira"
+          },
+          {
+            "code": "1855527",
+            "display": "{1 (0.4 ML adalimumab 100 MG/ML Prefilled Syringe [Humira]) / 1 (0.8 ML adalimumab 100 MG/ML Prefilled Syringe [Humira]) } Pack [Humira Pediatric Crohn's Disease Starter Package (2 count)]"
+          },
+          {
+            "code": "1655968",
+            "display": "8 ML methotrexate 25 MG/ML Injection"
+          },
+          {
+            "code": "309632",
+            "display": "cyclosporine 100 MG/ML Oral Solution"
+          },
+          {
+            "code": "1357539",
+            "display": "tofacitinib Pill"
+          },
+          {
+            "code": "835896",
+            "display": "cyclosporine, modified 25 MG Oral Capsule [Gengraf]"
+          },
+          {
+            "code": "1657974",
+            "display": "4 ML tocilizumab 20 MG/ML Injection"
+          },
+          {
+            "code": "485020",
+            "display": "mycophenolic acid 180 MG Delayed Release Oral Tablet"
+          },
+          {
+            "code": "315749",
+            "display": "cyclosporine 100 MG"
+          },
+          {
+            "code": "1790544",
+            "display": "infliximab Injection [Inflectra]"
+          },
+          {
+            "code": "2572293",
+            "display": "0.4 ML cyclosporine 0.5 MG/ML Ophthalmic Suspension [Restasis]"
+          },
+          {
+            "code": "1872255",
+            "display": "brodalumab Prefilled Syringe"
+          },
+          {
+            "code": "2531133",
+            "display": "{4 (0.8 ML adalimumab 100 MG/ML Auto-Injector) } Pack"
+          },
+          {
+            "code": "1656398",
+            "display": "belimumab 120 MG Injection [Benlysta]"
+          },
+          {
+            "code": "1876378",
+            "display": "ocrelizumab Injectable Product"
+          },
+          {
+            "code": "1927285",
+            "display": "infliximab-abda 100 MG Injection"
+          },
+          {
+            "code": "284848",
+            "display": "Protopic"
+          },
+          {
+            "code": "385562",
+            "display": "azathioprine 10 MG"
+          },
+          {
+            "code": "700418",
+            "display": "thalidomide 150 MG Oral Capsule [Thalomid]"
+          },
+          {
+            "code": "225741",
+            "display": "Thymoglobulin"
+          },
+          {
+            "code": "1653223",
+            "display": "1 ML etanercept 50 MG/ML Auto-Injector"
+          },
+          {
+            "code": "643713",
+            "display": "lenalidomide 15 MG [Revlimid]"
+          },
+          {
+            "code": "1664440",
+            "display": "24 HR tacrolimus 4 MG Extended Release Oral Tablet [Envarsus]"
+          },
+          {
+            "code": "1656695",
+            "display": "adalimumab Injection"
+          },
+          {
+            "code": "2540695",
+            "display": "1 ML risankizumab-rzaa 150 MG/ML Auto-Injector [Skyrizi]"
+          },
+          {
+            "code": "191831",
+            "display": "infliximab"
+          },
+          {
+            "code": "42405",
+            "display": "muromonab-CD3"
+          },
+          {
+            "code": "574949",
+            "display": "tacrolimus 0.0003 MG/MG [Protopic]"
+          },
+          {
+            "code": "2052604",
+            "display": "tacrolimus Granules for Oral Suspension"
+          },
+          {
+            "code": "2586865",
+            "display": "sirolimus 100 MG [Fyarro]"
+          },
+          {
+            "code": "1156190",
+            "display": "cyclosporine Pill"
+          },
+          {
+            "code": "1747178",
+            "display": "methotrexate 31.3 MG/ML"
+          },
+          {
+            "code": "2047246",
+            "display": "Olumiant Pill"
+          },
+          {
+            "code": "1357537",
+            "display": "tofacitinib 5 MG"
+          },
+          {
+            "code": "2470533",
+            "display": "cyclosporine, modified 100 MG/ML [Cyclavance]"
+          },
+          {
+            "code": "370973",
+            "display": "azathioprine Oral Tablet"
+          },
+          {
+            "code": "2118739",
+            "display": "1 ML guselkumab 100 MG/ML Auto-Injector"
+          },
+          {
+            "code": "2166142",
+            "display": "0.83 ML risankizumab-rzaa 90.4 MG/ML Prefilled Syringe [Skyrizi]"
+          },
+          {
+            "code": "1172067",
+            "display": "Afinitor Pill"
+          },
+          {
+            "code": "1921245",
+            "display": "{3 (0.8 ML adalimumab 100 MG/ML Auto-Injector [Humira]) } Pack [Humira Pen 80 MG/0.8 ML - Starter Package for Crohn's Disease, Ulcerative Colitis or Hidradenitis Suppurativa]"
+          },
+          {
+            "code": "1185411",
+            "display": "Sandimmune Pill"
+          },
+          {
+            "code": "2377352",
+            "display": "1 ML methotrexate 25 MG/ML Prefilled Syringe [Reditrex]"
+          },
+          {
+            "code": "1868019",
+            "display": "pirfenidone 801 MG [Esbriet]"
+          },
+          {
+            "code": "1599794",
+            "display": "secukinumab 150 MG/ML [Cosentyx]"
+          },
+          {
+            "code": "2470536",
+            "display": "Cyclavance Oral Product"
+          },
+          {
+            "code": "1804974",
+            "display": "belatacept Injection [Nulojix]"
+          },
+          {
+            "code": "2478435",
+            "display": "tofacitinib Oral Solution [Xeljanz]"
+          },
+          {
+            "code": "1939295",
+            "display": "belimumab Auto-Injector"
+          },
+          {
+            "code": "853356",
+            "display": "1 ML ustekinumab 90 MG/ML Prefilled Syringe [Stelara]"
+          },
+          {
+            "code": "1170741",
+            "display": "Kineret Injectable Product"
+          },
+          {
+            "code": "2003767",
+            "display": "1.14 ML sarilumab 175 MG/ML Auto-Injector [Kevzara]"
+          },
+          {
+            "code": "853350",
+            "display": "0.5 ML ustekinumab 90 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1551888",
+            "display": "0.2 ML adalimumab 50 MG/ML Prefilled Syringe [Humira]"
+          },
+          {
+            "code": "1659775",
+            "display": "abatacept Injection [Orencia]"
+          },
+          {
+            "code": "1599793",
+            "display": "Cosentyx"
+          },
+          {
+            "code": "1441404",
+            "display": "methotrexate 25 MG/ML [Otrexup]"
+          },
+          {
+            "code": "492635",
+            "display": "Tysabri"
+          },
+          {
+            "code": "700385",
+            "display": "eculizumab 10 MG/ML [Soliris]"
+          },
+          {
+            "code": "328160",
+            "display": "cyclosporine 100 MG Oral Capsule"
+          },
+          {
+            "code": "1373498",
+            "display": "{14 (dimethyl fumarate 120 MG Delayed Release Oral Capsule [Tecfidera]) / 46 (dimethyl fumarate 240 MG Delayed Release Oral Capsule [Tecfidera]) } Pack [Tecfidera 30-Day Starter Pack]"
+          },
+          {
+            "code": "1544385",
+            "display": "0.25 ML methotrexate 50 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1801278",
+            "display": "{4 (0.8 ML adalimumab 50 MG/ML Auto-Injector [Humira]) } Pack [Humira Pen - Psoriasis Starter Pack]"
+          },
+          {
+            "code": "1656270",
+            "display": "natalizumab Injection"
+          },
+          {
+            "code": "1431976",
+            "display": "Astagraf Pill"
+          },
+          {
+            "code": "1151834",
+            "display": "daclizumab Injectable Product"
+          },
+          {
+            "code": "1811257",
+            "display": "26 ML ustekinumab 5 MG/ML Injection [Stelara]"
+          },
+          {
+            "code": "1163655",
+            "display": "tacrolimus Injectable Product"
+          },
+          {
+            "code": "2104622",
+            "display": "10 ML emapalumab-lzsg 5 MG/ML Injection [Gamifant]"
+          },
+          {
+            "code": "402092",
+            "display": "cyclosporine 0.5 MG/ML Ophthalmic Suspension [Restasis]"
+          },
+          {
+            "code": "1155002",
+            "display": "azathioprine Pill"
+          },
+          {
+            "code": "1441528",
+            "display": "tocilizumab 180 MG/ML [Actemra]"
+          },
+          {
+            "code": "977438",
+            "display": "everolimus 0.75 MG Oral Tablet"
+          },
+          {
+            "code": "2391555",
+            "display": "1 ML satralizumab-mwge 120 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1664462",
+            "display": "tacrolimus 1 MG [Envarsus]"
+          },
+          {
+            "code": "700382",
+            "display": "eculizumab 10 MG/ML"
+          },
+          {
+            "code": "2373955",
+            "display": "10 ML inebilizumab-cdon 10 MG/ML Injection"
+          },
+          {
+            "code": "2550712",
+            "display": "0.5 ML secukinumab 150 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "2462513",
+            "display": "1 ML etanercept-ykro 50 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1112973",
+            "display": "belatacept"
+          },
+          {
+            "code": "727704",
+            "display": "adalimumab Prefilled Syringe [Humira]"
+          },
+          {
+            "code": "2106072",
+            "display": "tocilizumab Auto-Injector"
+          },
+          {
+            "code": "1657980",
+            "display": "10 ML tocilizumab 20 MG/ML Injection [Actemra]"
+          },
+          {
+            "code": "1431974",
+            "display": "tacrolimus Extended Release Oral Capsule [Astagraf]"
+          },
+          {
+            "code": "727705",
+            "display": "0.8 ML adalimumab 50 MG/ML Prefilled Syringe [Humira]"
+          },
+          {
+            "code": "1357544",
+            "display": "tofacitinib Oral Tablet [Xeljanz]"
+          },
+          {
+            "code": "1594663",
+            "display": "1.2 ML alemtuzumab 10 MG/ML Injection [Lemtrada]"
+          },
+          {
+            "code": "360547",
+            "display": "methotrexate 100 MG/ML"
+          },
+          {
+            "code": "1369733",
+            "display": "pomalidomide 4 MG"
+          },
+          {
+            "code": "7145",
+            "display": "mycophenolic acid"
+          },
+          {
+            "code": "1233905",
+            "display": "cyclosporine, modified 100 MG/ML [Atopica]"
+          },
+          {
+            "code": "1868016",
+            "display": "pirfenidone 267 MG Oral Tablet [Esbriet]"
+          },
+          {
+            "code": "1441417",
+            "display": "methotrexate 50 MG/ML [Otrexup]"
+          },
+          {
+            "code": "2106074",
+            "display": "tocilizumab Auto-Injector [Actemra]"
+          },
+          {
+            "code": "575659",
+            "display": "sirolimus 1 MG/ML [Rapamune]"
+          },
+          {
+            "code": "1655205",
+            "display": "methotrexate Auto-Injector [Otrexup]"
+          },
+          {
+            "code": "1429366",
+            "display": "lenalidomide 20 MG [Revlimid]"
+          },
+          {
+            "code": "2122631",
+            "display": "cladribine Oral Product"
+          },
+          {
+            "code": "1357545",
+            "display": "Xeljanz Oral Product"
+          },
+          {
+            "code": "1657979",
+            "display": "10 ML tocilizumab 20 MG/ML Injection"
+          },
+          {
+            "code": "1441421",
+            "display": "methotrexate 62.5 MG/ML"
+          },
+          {
+            "code": "1369728",
+            "display": "pomalidomide 2 MG Oral Capsule [Pomalyst]"
+          },
+          {
+            "code": "1664436",
+            "display": "tacrolimus 4 MG [Envarsus]"
+          },
+          {
+            "code": "1180662",
+            "display": "Prograf Injectable Product"
+          },
+          {
+            "code": "1431647",
+            "display": "4 ML golimumab 12.5 MG/ML Injection [Simponi]"
+          },
+          {
+            "code": "1180663",
+            "display": "Prograf Oral Product"
+          },
+          {
+            "code": "1184930",
+            "display": "Thalomid Pill"
+          },
+          {
+            "code": "643719",
+            "display": "lenalidomide 25 MG"
+          },
+          {
+            "code": "310994",
+            "display": "infliximab 100 MG Injection"
+          },
+          {
+            "code": "809158",
+            "display": "0.5 ML etanercept 50 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1656394",
+            "display": "belimumab Injection"
+          },
+          {
+            "code": "2266526",
+            "display": "Avsola"
+          },
+          {
+            "code": "700384",
+            "display": "30 ML eculizumab 10 MG/ML Injection"
+          },
+          {
+            "code": "2045491",
+            "display": "fingolimod 0.25 MG Oral Capsule"
+          },
+          {
+            "code": "2373953",
+            "display": "inebilizumab Injectable Product"
+          },
+          {
+            "code": "1233908",
+            "display": "cyclosporine, modified 100 MG/ML Oral Solution [Atopica]"
+          },
+          {
+            "code": "977440",
+            "display": "everolimus 0.75 MG Oral Tablet [Zortress]"
+          },
+          {
+            "code": "2377342",
+            "display": "0.5 ML methotrexate 25 MG/ML Prefilled Syringe [Reditrex]"
+          },
+          {
+            "code": "1872985",
+            "display": "{4 (0.4 ML adalimumab 100 MG/ML Auto-Injector) } Pack"
+          },
+          {
+            "code": "2047238",
+            "display": "baricitinib Oral Product"
+          },
+          {
+            "code": "2045492",
+            "display": "fingolimod 0.25 MG [Gilenya]"
+          },
+          {
+            "code": "1654077",
+            "display": "0.5 ML ustekinumab 90 MG/ML Injection"
+          },
+          {
+            "code": "1664437",
+            "display": "tacrolimus Extended Release Oral Tablet [Envarsus]"
+          },
+          {
+            "code": "1177702",
+            "display": "Rapamune Oral Product"
+          },
+          {
+            "code": "763453",
+            "display": "rilonacept 220 MG Injection"
+          },
+          {
+            "code": "2053454",
+            "display": "Ilumya"
+          },
+          {
+            "code": "1594358",
+            "display": "{3 (0.8 ML adalimumab 50 MG/ML Prefilled Syringe [Humira]) } Pack [Humira Pediatric Crohn's Disease Starter Package (3 count)]"
+          },
+          {
+            "code": "575021",
+            "display": "methotrexate 7.5 MG [Trexall]"
+          },
+          {
+            "code": "360322",
+            "display": "thalidomide 200 MG"
+          },
+          {
+            "code": "1092437",
+            "display": "belimumab"
+          },
+          {
+            "code": "2055022",
+            "display": "Cequa"
+          },
+          {
+            "code": "1441411",
+            "display": "0.4 ML methotrexate 37.5 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1592285",
+            "display": "pirfenidone 267 MG Oral Capsule [Esbriet]"
+          },
+          {
+            "code": "1741044",
+            "display": "tofacitinib 11 MG"
+          },
+          {
+            "code": "1869513",
+            "display": "everolimus Tablet for Oral Suspension"
+          },
+          {
+            "code": "1741048",
+            "display": "tofacitinib Extended Release Oral Tablet [Xeljanz]"
+          },
+          {
+            "code": "977428",
+            "display": "Zortress"
+          },
+          {
+            "code": "1656995",
+            "display": "vedolizumab 300 MG"
+          },
+          {
+            "code": "1656645",
+            "display": "basiliximab Injection [Simulect]"
+          },
+          {
+            "code": "1184448",
+            "display": "Myfortic Pill"
+          },
+          {
+            "code": "835911",
+            "display": "cyclosporine, modified 100 MG Oral Capsule [Neoral]"
+          },
+          {
+            "code": "1811256",
+            "display": "ustekinumab 5 MG/ML [Stelara]"
+          },
+          {
+            "code": "1923345",
+            "display": "1.14 ML sarilumab 175 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1441418",
+            "display": "0.4 ML methotrexate 50 MG/ML Auto-Injector [Otrexup]"
+          },
+          {
+            "code": "334294",
+            "display": "cyclosporine, modified 100 MG"
+          },
+          {
+            "code": "1656641",
+            "display": "basiliximab 10 MG"
+          },
+          {
+            "code": "1164265",
+            "display": "alemtuzumab Injectable Product"
+          },
+          {
+            "code": "1799230",
+            "display": "1 ML abatacept 125 MG/ML Auto-Injector [Orencia]"
+          },
+          {
+            "code": "2122649",
+            "display": "{7 (cladribine 10 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1310533",
+            "display": "teriflunomide 7 MG Oral Tablet"
+          },
+          {
+            "code": "404450",
+            "display": "thalidomide 200 MG Oral Capsule [Thalomid]"
+          },
+          {
+            "code": "1369726",
+            "display": "pomalidomide 2 MG Oral Capsule"
+          },
+          {
+            "code": "1172298",
+            "display": "Campath Injectable Product"
+          },
+          {
+            "code": "848159",
+            "display": "golimumab Prefilled Syringe"
+          },
+          {
+            "code": "1741046",
+            "display": "24 HR tofacitinib 11 MG Extended Release Oral Tablet"
+          },
+          {
+            "code": "1431982",
+            "display": "24 HR tacrolimus 1 MG Extended Release Oral Capsule [Astagraf]"
+          },
+          {
+            "code": "375278",
+            "display": "sirolimus Oral Solution"
+          },
+          {
+            "code": "1310525",
+            "display": "teriflunomide 14 MG Oral Tablet"
+          },
+          {
+            "code": "215393",
+            "display": "Arava"
+          },
+          {
+            "code": "1939294",
+            "display": "belimumab 200 MG/ML"
+          },
+          {
+            "code": "1538142",
+            "display": "vedolizumab 300 MG Injection [Entyvio]"
+          },
+          {
+            "code": "220239",
+            "display": "Thalomid"
+          },
+          {
+            "code": "366488",
+            "display": "cyclosporine Oral Capsule [Sandimmune]"
+          },
+          {
+            "code": "1659772",
+            "display": "abatacept Injection"
+          },
+          {
+            "code": "315752",
+            "display": "cyclosporine 50 MG"
+          },
+          {
+            "code": "643721",
+            "display": "lenalidomide 25 MG [Revlimid]"
+          },
+          {
+            "code": "1855524",
+            "display": "0.8 ML adalimumab 100 MG/ML Prefilled Syringe [Humira]"
+          },
+          {
+            "code": "1119402",
+            "display": "everolimus 7.5 MG Oral Tablet [Afinitor]"
+          },
+          {
+            "code": "1745106",
+            "display": "ixekizumab Auto-Injector [Taltz]"
+          },
+          {
+            "code": "1544394",
+            "display": "0.4 ML methotrexate 50 MG/ML Auto-Injector [Rasuvo]"
+          },
+          {
+            "code": "202817",
+            "display": "Neoral"
+          },
+          {
+            "code": "2107320",
+            "display": "30 ML ravulizumab-cwvz 10 MG/ML Injection"
+          },
+          {
+            "code": "2391552",
+            "display": "satralizumab-mwge 120 MG/ML"
+          },
+          {
+            "code": "1923335",
+            "display": "sarilumab 132 MG/ML [Kevzara]"
+          },
+          {
+            "code": "1664456",
+            "display": "24 HR tacrolimus 0.75 MG Extended Release Oral Tablet"
+          },
+          {
+            "code": "1653141",
+            "display": "golimumab Auto-Injector"
+          },
+          {
+            "code": "6851",
+            "display": "methotrexate"
+          },
+          {
+            "code": "2104613",
+            "display": "emapalumab-lzsg 5 MG/ML [Gamifant]"
+          },
+          {
+            "code": "1655252",
+            "display": "methotrexate Auto-Injector [Rasuvo]"
+          },
+          {
+            "code": "1158758",
+            "display": "sirolimus Oral Product"
+          },
+          {
+            "code": "213379",
+            "display": "leflunomide 20 MG Oral Tablet [Arava]"
+          },
+          {
+            "code": "1242230",
+            "display": "lenalidomide 2.5 MG"
+          },
+          {
+            "code": "1092441",
+            "display": "Benlysta"
+          },
+          {
+            "code": "1939296",
+            "display": "1 ML belimumab 200 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1653571",
+            "display": "golimumab Injection [Simponi]"
+          },
+          {
+            "code": "1928588",
+            "display": "guselkumab"
+          },
+          {
+            "code": "371667",
+            "display": "cyclosporine Oral Solution"
+          },
+          {
+            "code": "1177701",
+            "display": "Rapamune Oral Liquid Product"
+          },
+          {
+            "code": "2377335",
+            "display": "methotrexate 25 MG/ML [Reditrex]"
+          },
+          {
+            "code": "1747180",
+            "display": "methotrexate 31.3 MG/ML [Otrexup]"
+          },
+          {
+            "code": "1655727",
+            "display": "adalimumab Auto-Injector [Humira]"
+          },
+          {
+            "code": "2540690",
+            "display": "risankizumab-rzaa 150 MG/ML"
+          },
+          {
+            "code": "1242232",
+            "display": "lenalidomide 2.5 MG [Revlimid]"
+          },
+          {
+            "code": "199310",
+            "display": "azathioprine 25 MG Oral Tablet"
+          },
+          {
+            "code": "2475400",
+            "display": "voclosporin 7.9 MG Oral Capsule"
+          },
+          {
+            "code": "2122648",
+            "display": "{8 (cladribine 10 MG Oral Tablet [Mavenclad]) } Pack [Mavenclad 8 Tablet Pack]"
+          },
+          {
+            "code": "1158757",
+            "display": "sirolimus Oral Liquid Product"
+          },
+          {
+            "code": "284900",
+            "display": "Trexall"
+          },
+          {
+            "code": "1790543",
+            "display": "infliximab-dyyb 100 MG [Inflectra]"
+          },
+          {
+            "code": "1155316",
+            "display": "belatacept Injectable Product"
+          },
+          {
+            "code": "27169",
+            "display": "leflunomide"
+          },
+          {
+            "code": "853495",
+            "display": "Ilaris"
+          },
+          {
+            "code": "616018",
+            "display": "abatacept 250 MG Injection [Orencia]"
+          },
+          {
+            "code": "977434",
+            "display": "everolimus 0.5 MG Oral Tablet"
+          },
+          {
+            "code": "1592281",
+            "display": "pirfenidone 267 MG [Esbriet]"
+          },
+          {
+            "code": "1431977",
+            "display": "24 HR tacrolimus 0.5 MG Extended Release Oral Capsule [Astagraf]"
+          },
+          {
+            "code": "1726843",
+            "display": "adalimumab 100 MG/ML"
+          },
+          {
+            "code": "998189",
+            "display": "everolimus 2.5 MG Oral Tablet"
+          },
+          {
+            "code": "1599791",
+            "display": "secukinumab Prefilled Syringe"
+          },
+          {
+            "code": "1653142",
+            "display": "0.5 ML golimumab 100 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1093172",
+            "display": "cyclosporine 0.002 MG/MG"
+          },
+          {
+            "code": "1544390",
+            "display": "0.35 ML methotrexate 50 MG/ML Auto-Injector [Rasuvo]"
+          },
+          {
+            "code": "360177",
+            "display": "thalidomide 200 MG Oral Capsule"
+          },
+          {
+            "code": "795079",
+            "display": "certolizumab pegol 200 MG/ML"
+          },
+          {
+            "code": "1864323",
+            "display": "canakinumab 150 MG/ML"
+          },
+          {
+            "code": "2475397",
+            "display": "voclosporin Oral Product"
+          },
+          {
+            "code": "153129",
+            "display": "azathioprine 10 MG Oral Tablet"
+          },
+          {
+            "code": "616449",
+            "display": "mycophenolic acid 360 MG Delayed Release Oral Tablet [Myfortic]"
+          },
+          {
+            "code": "331550",
+            "display": "tacrolimus 0.0003 MG/MG"
+          },
+          {
+            "code": "1492727",
+            "display": "apremilast"
+          },
+          {
+            "code": "2377345",
+            "display": "0.7 ML methotrexate 25 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "2540692",
+            "display": "1 ML risankizumab-rzaa 150 MG/ML Auto-Injector"
+          },
+          {
+            "code": "385098",
+            "display": "etanercept Injectable Solution"
+          },
+          {
+            "code": "2377347",
+            "display": "0.8 ML methotrexate 25 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "317510",
+            "display": "tacrolimus 5 MG/ML"
+          },
+          {
+            "code": "1159402",
+            "display": "belimumab Injectable Product"
+          },
+          {
+            "code": "2107317",
+            "display": "ravulizumab-cwvz 10 MG/ML"
+          },
+          {
+            "code": "1373490",
+            "display": "dimethyl fumarate 240 MG"
+          },
+          {
+            "code": "1357541",
+            "display": "tofacitinib 5 MG Oral Tablet"
+          },
+          {
+            "code": "1653731",
+            "display": "certolizumab pegol Injection [Cimzia]"
+          },
+          {
+            "code": "845514",
+            "display": "everolimus 5 MG"
+          },
+          {
+            "code": "1373489",
+            "display": "dimethyl fumarate 120 MG Delayed Release Oral Capsule [Tecfidera]"
+          },
+          {
+            "code": "1187514",
+            "display": "Tysabri Injectable Product"
+          },
+          {
+            "code": "835927",
+            "display": "cyclosporine, modified 50 MG Oral Capsule [Atopica]"
+          },
+          {
+            "code": "1167137",
+            "display": "Ilaris Injectable Product"
+          },
+          {
+            "code": "368138",
+            "display": "methotrexate Oral Tablet [Trexall]"
+          },
+          {
+            "code": "1369732",
+            "display": "pomalidomide 3 MG Oral Capsule [Pomalyst]"
+          },
+          {
+            "code": "2166139",
+            "display": "risankizumab-rzaa 90.4 MG/ML [Skyrizi]"
+          },
+          {
+            "code": "2104612",
+            "display": "Gamifant"
+          },
+          {
+            "code": "1656628",
+            "display": "alemtuzumab 30 MG/ML"
+          },
+          {
+            "code": "1594659",
+            "display": "Lemtrada"
+          },
+          {
+            "code": "1310137",
+            "display": "Afinitor Oral Liquid Product"
+          },
+          {
+            "code": "1923336",
+            "display": "sarilumab Prefilled Syringe [Kevzara]"
+          },
+          {
+            "code": "1441413",
+            "display": "0.4 ML methotrexate 37.5 MG/ML Auto-Injector [Otrexup]"
+          },
+          {
+            "code": "1431644",
+            "display": "golimumab 12.5 MG/ML [Simponi]"
+          },
+          {
+            "code": "212957",
+            "display": "cyclosporine 100 MG/ML Oral Solution [Sandimmune]"
+          },
+          {
+            "code": "1653165",
+            "display": "1 ML golimumab 100 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1801277",
+            "display": "{4 (0.8 ML adalimumab 50 MG/ML Auto-Injector) } Pack"
+          },
+          {
+            "code": "1656397",
+            "display": "belimumab Injection [Benlysta]"
+          },
+          {
+            "code": "2121097",
+            "display": "siponimod 2 MG"
+          },
+          {
+            "code": "342977",
+            "display": "etanercept 25 MG/ML"
+          },
+          {
+            "code": "1431985",
+            "display": "24 HR tacrolimus 5 MG Extended Release Oral Capsule"
+          },
+          {
+            "code": "853348",
+            "display": "ustekinumab 90 MG/ML"
+          },
+          {
+            "code": "2392141",
+            "display": "etanercept Injection [Enbrel]"
+          },
+          {
+            "code": "2586860",
+            "display": "sirolimus 100 MG"
+          },
+          {
+            "code": "1658140",
+            "display": "siltuximab 400 MG [Sylvant]"
+          },
+          {
+            "code": "2055021",
+            "display": "cyclosporine 0.9 MG/ML Ophthalmic Solution"
+          },
+          {
+            "code": "371666",
+            "display": "cyclosporine Oral Capsule"
+          },
+          {
+            "code": "1664457",
+            "display": "tacrolimus 0.75 MG [Envarsus]"
+          },
+          {
+            "code": "333296",
+            "display": "sirolimus 1 MG/ML"
+          },
+          {
+            "code": "1492735",
+            "display": "apremilast Oral Tablet [Otezla]"
+          },
+          {
+            "code": "2377333",
+            "display": "0.4 ML methotrexate 25 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1927284",
+            "display": "infliximab-abda 100 MG"
+          },
+          {
+            "code": "835893",
+            "display": "cyclosporine, modified 25 MG"
+          },
+          {
+            "code": "360266",
+            "display": "azathioprine 100 MG"
+          },
+          {
+            "code": "835924",
+            "display": "cyclosporine, modified 50 MG"
+          },
+          {
+            "code": "1482813",
+            "display": "1 ML golimumab 100 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1653144",
+            "display": "0.5 ML golimumab 100 MG/ML Auto-Injector [Simponi]"
+          },
+          {
+            "code": "1308430",
+            "display": "everolimus 3 MG Tablet for Oral Suspension"
+          },
+          {
+            "code": "1790546",
+            "display": "infliximab-dyyb 100 MG Injection [Inflectra]"
+          },
+          {
+            "code": "284592",
+            "display": "methotrexate 5 MG Oral Tablet [Trexall]"
+          },
+          {
+            "code": "2104603",
+            "display": "emapalumab-lzsg"
+          },
+          {
+            "code": "1656648",
+            "display": "basiliximab 20 MG Injection"
+          },
+          {
+            "code": "1181674",
+            "display": "Neoral Pill"
+          },
+          {
+            "code": "835923",
+            "display": "cyclosporine, modified 25 MG Oral Capsule [Atopica]"
+          },
+          {
+            "code": "1161226",
+            "display": "certolizumab pegol Injectable Product"
+          },
+          {
+            "code": "107050",
+            "display": "rabbit anti-human T-lymphocyte globulin 25 MG Injection [Thymoglobulin]"
+          },
+          {
+            "code": "1431980",
+            "display": "24 HR tacrolimus 1 MG Extended Release Oral Capsule"
+          },
+          {
+            "code": "541580",
+            "display": "mycophenolic acid 180 MG [Myfortic]"
+          },
+          {
+            "code": "539499",
+            "display": "cyclosporine Oral Capsule [Atopica]"
+          },
+          {
+            "code": "1178973",
+            "display": "Stelara Injectable Product"
+          },
+          {
+            "code": "1538138",
+            "display": "Entyvio"
+          },
+          {
+            "code": "835835",
+            "display": "cyclosporine, modified 100 MG Oral Capsule [Gengraf]"
+          },
+          {
+            "code": "2121100",
+            "display": "siponimod 2 MG Oral Tablet [Mayzent]"
+          },
+          {
+            "code": "2106075",
+            "display": "0.9 ML tocilizumab 180 MG/ML Auto-Injector [Actemra]"
+          },
+          {
+            "code": "315148",
+            "display": "methotrexate 2.5 MG/ML Injectable Solution"
+          },
+          {
+            "code": "1176318",
+            "display": "Azasan Oral Product"
+          },
+          {
+            "code": "1492745",
+            "display": "apremilast 30 MG [Otezla]"
+          },
+          {
+            "code": "2273113",
+            "display": "24 HR tofacitinib 22 MG Extended Release Oral Tablet"
+          },
+          {
+            "code": "2122650",
+            "display": "{7 (cladribine 10 MG Oral Tablet [Mavenclad]) } Pack [Mavenclad 7 Tablet Pack]"
+          },
+          {
+            "code": "1441410",
+            "display": "methotrexate 37.5 MG/ML"
+          },
+          {
+            "code": "202559",
+            "display": "Imuran"
+          },
+          {
+            "code": "848164",
+            "display": "0.5 ML golimumab 100 MG/ML Prefilled Syringe [Simponi]"
+          },
+          {
+            "code": "1592280",
+            "display": "Esbriet"
+          },
+          {
+            "code": "1939347",
+            "display": "belimumab Prefilled Syringe [Benlysta]"
+          },
+          {
+            "code": "315692",
+            "display": "cladribine 1 MG/ML"
+          },
+          {
+            "code": "2121090",
+            "display": "siponimod 0.25 MG Oral Tablet"
+          },
+          {
+            "code": "2166143",
+            "display": "{2 (0.83 ML risankizumab-rzaa 90.4 MG/ML Prefilled Syringe [Skyrizi]) } Pack [Skyrizi 150 MG Dose Pack]"
+          },
+          {
+            "code": "1592283",
+            "display": "Esbriet Oral Product"
+          },
+          {
+            "code": "2122640",
+            "display": "Mavenclad Pill"
+          },
+          {
+            "code": "1724261",
+            "display": "rilonacept 220 MG [Arcalyst]"
+          },
+          {
+            "code": "1145932",
+            "display": "1 ML abatacept 125 MG/ML Prefilled Syringe [Orencia]"
+          },
+          {
+            "code": "575020",
+            "display": "methotrexate 10 MG [Trexall]"
+          },
+          {
+            "code": "328404",
+            "display": "methotrexate 50 MG/ML"
+          },
+          {
+            "code": "1492739",
+            "display": "apremilast 20 MG"
+          },
+          {
+            "code": "1156189",
+            "display": "cyclosporine Oral Product"
+          },
+          {
+            "code": "35302",
+            "display": "sirolimus"
+          },
+          {
+            "code": "366479",
+            "display": "cyclosporine Oral Capsule [Neoral]"
+          },
+          {
+            "code": "1656393",
+            "display": "belimumab 120 MG"
+          },
+          {
+            "code": "313190",
+            "display": "tacrolimus 0.5 MG Oral Capsule"
+          },
+          {
+            "code": "1868014",
+            "display": "pirfenidone 267 MG Oral Tablet"
+          },
+          {
+            "code": "1921244",
+            "display": "{3 (0.8 ML adalimumab 100 MG/ML Auto-Injector) } Pack"
+          },
+          {
+            "code": "2166140",
+            "display": "risankizumab Prefilled Syringe [Skyrizi]"
+          },
+          {
+            "code": "372836",
+            "display": "methotrexate Oral Tablet"
+          },
+          {
+            "code": "564557",
+            "display": "tacrolimus 1 MG [Prograf]"
+          },
+          {
+            "code": "2391541",
+            "display": "satralizumab"
+          },
+          {
+            "code": "1747181",
+            "display": "0.4 ML methotrexate 31.3 MG/ML Auto-Injector [Otrexup]"
+          },
+          {
+            "code": "1310526",
+            "display": "Aubagio"
+          },
+          {
+            "code": "2047232",
+            "display": "baricitinib"
+          },
+          {
+            "code": "284594",
+            "display": "methotrexate 7.5 MG Oral Tablet [Trexall]"
+          },
+          {
+            "code": "1162235",
+            "display": "methotrexate Injectable Product"
+          },
+          {
+            "code": "1928686",
+            "display": "1 ML guselkumab 100 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "2166136",
+            "display": "0.83 ML risankizumab-rzaa 90.4 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1373485",
+            "display": "dimethyl fumarate 120 MG [Tecfidera]"
+          },
+          {
+            "code": "2540698",
+            "display": "1 ML risankizumab-rzaa 150 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1182529",
+            "display": "Revlimid Pill"
+          },
+          {
+            "code": "2391557",
+            "display": "satralizumab-mwge 120 MG/ML [Enspryng]"
+          },
+          {
+            "code": "2288407",
+            "display": "Zeposia"
+          },
+          {
+            "code": "372973",
+            "display": "muromonab-CD3 Injectable Solution"
+          },
+          {
+            "code": "2104616",
+            "display": "2 ML emapalumab-lzsg 5 MG/ML Injection [Gamifant]"
+          },
+          {
+            "code": "2106073",
+            "display": "0.9 ML tocilizumab 180 MG/ML Auto-Injector"
+          },
+          {
+            "code": "576426",
+            "display": "azathioprine 75 MG [Azasan]"
+          },
+          {
+            "code": "1659774",
+            "display": "abatacept 250 MG [Orencia]"
+          },
+          {
+            "code": "1183963",
+            "display": "Orencia Injectable Product"
+          },
+          {
+            "code": "2288406",
+            "display": "ozanimod 0.92 MG Oral Capsule"
+          },
+          {
+            "code": "1441527",
+            "display": "0.9 ML tocilizumab 180 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "378766",
+            "display": "cyclosporine Ophthalmic Suspension"
+          },
+          {
+            "code": "1921598",
+            "display": "methotrexate 2.5 MG/ML Oral Solution [Xatmep]"
+          },
+          {
+            "code": "91601",
+            "display": "lymphocyte immune globulin, anti-thymocyte globulin, equine"
+          },
+          {
+            "code": "2461135",
+            "display": "ravulizumab-cwvz 100 MG/ML [Ultomiris]"
+          },
+          {
+            "code": "1204",
+            "display": "ATGAM"
+          },
+          {
+            "code": "358815",
+            "display": "alefacept 30 MG/ML"
+          },
+          {
+            "code": "1864325",
+            "display": "canakinumab 150 MG/ML [Ilaris]"
+          },
+          {
+            "code": "1164203",
+            "display": "tacrolimus Pill"
+          },
+          {
+            "code": "845517",
+            "display": "everolimus 5 MG [Afinitor]"
+          },
+          {
+            "code": "1184826",
+            "display": "Soliris Injectable Product"
+          },
+          {
+            "code": "1724258",
+            "display": "rilonacept 220 MG"
+          },
+          {
+            "code": "1939346",
+            "display": "1 ML belimumab 200 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "2288402",
+            "display": "ozanimod 0.92 MG"
+          },
+          {
+            "code": "1872984",
+            "display": "{6 (0.4 ML adalimumab 100 MG/ML Auto-Injector [Humira]) } Pack [Humira Pen 40 MG/0.4 ML Starter Pack - Crohn's Disease]"
+          },
+          {
+            "code": "42316",
+            "display": "tacrolimus"
+          },
+          {
+            "code": "1164874",
+            "display": "thalidomide Pill"
+          },
+          {
+            "code": "1946772",
+            "display": "methotrexate 25 MG/ML Injectable Solution"
+          },
+          {
+            "code": "977433",
+            "display": "everolimus 0.5 MG"
+          },
+          {
+            "code": "828265",
+            "display": "1 ML alemtuzumab 30 MG/ML Injection"
+          },
+          {
+            "code": "849596",
+            "display": "certolizumab pegol Prefilled Syringe"
+          },
+          {
+            "code": "1441402",
+            "display": "0.4 ML methotrexate 25 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1170102",
+            "display": "Arcalyst Injectable Product"
+          },
+          {
+            "code": "196463",
+            "display": "Prograf"
+          },
+          {
+            "code": "1185410",
+            "display": "Sandimmune Oral Product"
+          },
+          {
+            "code": "205168",
+            "display": "cyclosporine 50 MG Oral Capsule"
+          },
+          {
+            "code": "1747192",
+            "display": "0.4 ML methotrexate 56.3 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1927287",
+            "display": "infliximab-abda 100 MG [Renflexis]"
+          },
+          {
+            "code": "1738336",
+            "display": "tacrolimus Injection [Prograf]"
+          },
+          {
+            "code": "1599788",
+            "display": "secukinumab"
+          },
+          {
+            "code": "1308428",
+            "display": "everolimus 2 MG Tablet for Oral Suspension"
+          },
+          {
+            "code": "2107323",
+            "display": "ravulizumab Injection [Ultomiris]"
+          },
+          {
+            "code": "1185408",
+            "display": "Sandimmune Injectable Product"
+          },
+          {
+            "code": "835916",
+            "display": "cyclosporine, modified 100 MG [Atopica]"
+          },
+          {
+            "code": "1724259",
+            "display": "rilonacept Injection"
+          },
+          {
+            "code": "1119401",
+            "display": "everolimus 7.5 MG [Afinitor]"
+          },
+          {
+            "code": "853352",
+            "display": "ustekinumab 90 MG/ML [Stelara]"
+          },
+          {
+            "code": "845506",
+            "display": "everolimus Oral Tablet"
+          },
+          {
+            "code": "1741045",
+            "display": "tofacitinib Extended Release Oral Tablet"
+          },
+          {
+            "code": "2380772",
+            "display": "20 ML emapalumab-lzsg 5 MG/ML Injection [Gamifant]"
+          },
+          {
+            "code": "378756",
+            "display": "alefacept Injectable Solution"
+          },
+          {
+            "code": "2196900",
+            "display": "24 HR upadacitinib 15 MG Extended Release Oral Tablet [Rinvoq]"
+          },
+          {
+            "code": "1939345",
+            "display": "belimumab Prefilled Syringe"
+          },
+          {
+            "code": "1869520",
+            "display": "everolimus 3 MG [Afinitor]"
+          },
+          {
+            "code": "1119399",
+            "display": "everolimus 7.5 MG"
+          },
+          {
+            "code": "253014",
+            "display": "etanercept 25 MG/ML Injectable Solution"
+          },
+          {
+            "code": "1431981",
+            "display": "tacrolimus 1 MG [Astagraf]"
+          },
+          {
+            "code": "1659771",
+            "display": "abatacept 250 MG"
+          },
+          {
+            "code": "582671",
+            "display": "etanercept 50 MG/ML Injectable Solution"
+          },
+          {
+            "code": "404872",
+            "display": "Azasan"
+          },
+          {
+            "code": "1747186",
+            "display": "methotrexate 43.8 MG/ML [Otrexup]"
+          },
+          {
+            "code": "2282527",
+            "display": "rabbit anti-human T-lymphocyte globulin 25 MG [Thymoglobulin]"
+          },
+          {
+            "code": "368672",
+            "display": "sirolimus Oral Tablet [Rapamune]"
+          },
+          {
+            "code": "1656395",
+            "display": "belimumab 120 MG Injection"
+          },
+          {
+            "code": "486331",
+            "display": "cyclosporine 100 MG/ML [Sandimmune]"
+          },
+          {
+            "code": "1369725",
+            "display": "pomalidomide 2 MG"
+          },
+          {
+            "code": "845515",
+            "display": "everolimus 5 MG Oral Tablet"
+          },
+          {
+            "code": "2273115",
+            "display": "24 HR tofacitinib 22 MG Extended Release Oral Tablet [Xeljanz]"
+          },
+          {
+            "code": "283511",
+            "display": "methotrexate 5 MG Oral Tablet"
+          },
+          {
+            "code": "1172006",
+            "display": "Imuran Oral Product"
+          },
+          {
+            "code": "2540694",
+            "display": "risankizumab Auto-Injector [Skyrizi]"
+          },
+          {
+            "code": "2373958",
+            "display": "inebilizumab Injection [Uplizna]"
+          },
+          {
+            "code": "1310534",
+            "display": "teriflunomide 7 MG [Aubagio]"
+          },
+          {
+            "code": "2273114",
+            "display": "tofacitinib 22 MG [Xeljanz]"
+          },
+          {
+            "code": "612865",
+            "display": "tocilizumab"
+          },
+          {
+            "code": "1170525",
+            "display": "Gilenya Pill"
+          },
+          {
+            "code": "2461134",
+            "display": "11 ML ravulizumab-cwvz 100 MG/ML Injection"
+          },
+          {
+            "code": "1170096",
+            "display": "Arava Pill"
+          },
+          {
+            "code": "1747187",
+            "display": "0.4 ML methotrexate 43.8 MG/ML Auto-Injector [Otrexup]"
+          },
+          {
+            "code": "2288432",
+            "display": "{4 (ozanimod 0.23 MG Oral Capsule) / 3 (ozanimod 0.46 MG Oral Capsule) } Pack"
+          },
+          {
+            "code": "72435",
+            "display": "anakinra"
+          },
+          {
+            "code": "359229",
+            "display": "azathioprine 75 MG Oral Tablet"
+          },
+          {
+            "code": "2122639",
+            "display": "Mavenclad Oral Product"
+          },
+          {
+            "code": "1172883",
+            "display": "Atopica Pill"
+          },
+          {
+            "code": "2470532",
+            "display": "Cyclavance"
+          },
+          {
+            "code": "2288403",
+            "display": "ozanimod Oral Product"
+          },
+          {
+            "code": "727756",
+            "display": "etanercept Prefilled Syringe"
+          },
+          {
+            "code": "1145929",
+            "display": "1 ML abatacept 125 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "485022",
+            "display": "mycophenolic acid 360 MG"
+          },
+          {
+            "code": "1184929",
+            "display": "Thalomid Oral Product"
+          },
+          {
+            "code": "763565",
+            "display": "0.4 ML adalimumab 50 MG/ML Prefilled Syringe [Humira]"
+          },
+          {
+            "code": "1921596",
+            "display": "Xatmep Oral Liquid Product"
+          },
+          {
+            "code": "1544397",
+            "display": "0.5 ML methotrexate 50 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1163786",
+            "display": "everolimus Oral Product"
+          },
+          {
+            "code": "1369724",
+            "display": "pomalidomide 1 MG Oral Capsule [Pomalyst]"
+          },
+          {
+            "code": "2055026",
+            "display": "cyclosporine 0.9 MG/ML Ophthalmic Solution [Cequa]"
+          },
+          {
+            "code": "1373479",
+            "display": "dimethyl fumarate 120 MG"
+          },
+          {
+            "code": "575022",
+            "display": "methotrexate 15 MG [Trexall]"
+          },
+          {
+            "code": "1664432",
+            "display": "tacrolimus 4 MG"
+          },
+          {
+            "code": "616448",
+            "display": "mycophenolic acid Delayed Release Oral Tablet [Myfortic]"
+          },
+          {
+            "code": "213377",
+            "display": "leflunomide 10 MG Oral Tablet [Arava]"
+          },
+          {
+            "code": "1656400",
+            "display": "belimumab 400 MG Injection"
+          },
+          {
+            "code": "1928593",
+            "display": "Tremfya"
+          },
+          {
+            "code": "477485",
+            "display": "natalizumab 20 MG/ML"
+          },
+          {
+            "code": "1921240",
+            "display": "0.8 ML adalimumab 100 MG/ML Auto-Injector [Humira]"
+          },
+          {
+            "code": "2288405",
+            "display": "ozanimod Oral Capsule"
+          },
+          {
+            "code": "1310532",
+            "display": "teriflunomide 7 MG"
+          },
+          {
+            "code": "1745107",
+            "display": "Taltz Injectable Product"
+          },
+          {
+            "code": "1163066",
+            "display": "abatacept Injectable Product"
+          },
+          {
+            "code": "1233907",
+            "display": "Atopica Oral Liquid Product"
+          },
+          {
+            "code": "1544389",
+            "display": "0.35 ML methotrexate 50 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1373478",
+            "display": "dimethyl fumarate"
+          },
+          {
+            "code": "1182342",
+            "display": "Optimmune Ophthalmic Product"
+          },
+          {
+            "code": "2475396",
+            "display": "voclosporin 7.9 MG"
+          },
+          {
+            "code": "727702",
+            "display": "adalimumab Prefilled Syringe"
+          },
+          {
+            "code": "219912",
+            "display": "Simulect"
+          },
+          {
+            "code": "360176",
+            "display": "thalidomide 100 MG Oral Capsule"
+          },
+          {
+            "code": "795082",
+            "display": "Cimzia"
+          },
+          {
+            "code": "1161281",
+            "display": "eculizumab Injectable Product"
+          },
+          {
+            "code": "1921016",
+            "display": "0.2 ML adalimumab 100 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1655956",
+            "display": "40 ML methotrexate 25 MG/ML Injection"
+          },
+          {
+            "code": "1152759",
+            "display": "cladribine Injectable Product"
+          },
+          {
+            "code": "402330",
+            "display": "cyclosporine Ophthalmic Suspension [Restasis]"
+          },
+          {
+            "code": "239984",
+            "display": "muromonab-CD3 1 MG/ML Injectable Solution"
+          },
+          {
+            "code": "205286",
+            "display": "leflunomide 100 MG Oral Tablet"
+          },
+          {
+            "code": "314266",
+            "display": "tacrolimus 0.001 MG/MG Topical Ointment"
+          },
+          {
+            "code": "1655955",
+            "display": "methotrexate Injection"
+          },
+          {
+            "code": "1441530",
+            "display": "0.9 ML tocilizumab 180 MG/ML Prefilled Syringe [Actemra]"
+          },
+          {
+            "code": "2121085",
+            "display": "siponimod"
+          },
+          {
+            "code": "2122656",
+            "display": "{5 (cladribine 10 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1156809",
+            "display": "etanercept Injectable Product"
+          },
+          {
+            "code": "316784",
+            "display": "thalidomide 50 MG"
+          },
+          {
+            "code": "576406",
+            "display": "thalidomide 100 MG [Thalomid]"
+          },
+          {
+            "code": "727703",
+            "display": "0.8 ML adalimumab 50 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1653242",
+            "display": "secukinumab Auto-Injector [Cosentyx]"
+          },
+          {
+            "code": "1592275",
+            "display": "pirfenidone 267 MG"
+          },
+          {
+            "code": "485018",
+            "display": "mycophenolic acid 180 MG"
+          },
+          {
+            "code": "2266529",
+            "display": "Avsola Injectable Product"
+          },
+          {
+            "code": "1664463",
+            "display": "24 HR tacrolimus 1 MG Extended Release Oral Tablet [Envarsus]"
+          },
+          {
+            "code": "1654079",
+            "display": "0.5 ML ustekinumab 90 MG/ML Injection [Stelara]"
+          },
+          {
+            "code": "2462515",
+            "display": "etanercept-ykro 50 MG/ML [Eticovo]"
+          },
+          {
+            "code": "1492743",
+            "display": "apremilast 30 MG"
+          },
+          {
+            "code": "2377338",
+            "display": "0.4 ML methotrexate 25 MG/ML Prefilled Syringe [Reditrex]"
+          },
+          {
+            "code": "643720",
+            "display": "lenalidomide 25 MG Oral Capsule"
+          },
+          {
+            "code": "2288416",
+            "display": "ozanimod 0.23 MG Oral Capsule [Zeposia]"
+          },
+          {
+            "code": "2121087",
+            "display": "siponimod Oral Product"
+          },
+          {
+            "code": "2475398",
+            "display": "voclosporin Pill"
+          },
+          {
+            "code": "2266524",
+            "display": "infliximab-axxq 100 MG"
+          },
+          {
+            "code": "1310530",
+            "display": "Aubagio Pill"
+          },
+          {
+            "code": "2052603",
+            "display": "tacrolimus Granule Product"
+          },
+          {
+            "code": "2266523",
+            "display": "infliximab-axxq"
+          },
+          {
+            "code": "1431639",
+            "display": "golimumab 12.5 MG/ML"
+          },
+          {
+            "code": "2288420",
+            "display": "ozanimod 0.46 MG Oral Capsule [Zeposia]"
+          },
+          {
+            "code": "1656637",
+            "display": "alemtuzumab Injection [Lemtrada]"
+          },
+          {
+            "code": "2475402",
+            "display": "voclosporin 7.9 MG [Lupkynis]"
+          },
+          {
+            "code": "977439",
+            "display": "everolimus 0.75 MG [Zortress]"
+          },
+          {
+            "code": "2478433",
+            "display": "tofacitinib 1 MG/ML Oral Solution"
+          },
+          {
+            "code": "261530",
+            "display": "Gengraf"
+          },
+          {
+            "code": "1741047",
+            "display": "tofacitinib 11 MG [Xeljanz]"
+          },
+          {
+            "code": "2373956",
+            "display": "Uplizna"
+          },
+          {
+            "code": "315751",
+            "display": "cyclosporine 25 MG"
+          },
+          {
+            "code": "603541",
+            "display": "15 ML natalizumab 20 MG/ML Injection [Tysabri]"
+          },
+          {
+            "code": "1592282",
+            "display": "pirfenidone Oral Capsule [Esbriet]"
+          },
+          {
+            "code": "1165018",
+            "display": "fingolimod Pill"
+          },
+          {
+            "code": "905158",
+            "display": "sirolimus 0.5 MG Oral Tablet"
+          },
+          {
+            "code": "2053451",
+            "display": "tildrakizumab Injectable Product"
+          },
+          {
+            "code": "2122634",
+            "display": "cladribine 10 MG Oral Tablet"
+          },
+          {
+            "code": "1369715",
+            "display": "pomalidomide Oral Product"
+          },
+          {
+            "code": "1811255",
+            "display": "26 ML ustekinumab 5 MG/ML Injection"
+          },
+          {
+            "code": "1656401",
+            "display": "belimumab 400 MG [Benlysta]"
+          },
+          {
+            "code": "2540691",
+            "display": "risankizumab Auto-Injector"
+          },
+          {
+            "code": "2377334",
+            "display": "Reditrex"
+          },
+          {
+            "code": "1093178",
+            "display": "cyclosporine 0.002 MG/MG Ophthalmic Ointment [Optimmune]"
+          },
+          {
+            "code": "572889",
+            "display": "cyclosporine 25 MG [Sandimmune]"
+          },
+          {
+            "code": "1745102",
+            "display": "ixekizumab Auto-Injector"
+          },
+          {
+            "code": "2377349",
+            "display": "0.9 ML methotrexate 25 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "573273",
+            "display": "leflunomide 20 MG [Arava]"
+          },
+          {
+            "code": "727714",
+            "display": "0.67 ML anakinra 149 MG/ML Prefilled Syringe [Kineret]"
+          },
+          {
+            "code": "2047237",
+            "display": "baricitinib 2 MG"
+          },
+          {
+            "code": "1357536",
+            "display": "tofacitinib"
+          },
+          {
+            "code": "1538135",
+            "display": "vedolizumab Injectable Product"
+          },
+          {
+            "code": "1790539",
+            "display": "infliximab-dyyb"
+          },
+          {
+            "code": "1093177",
+            "display": "cyclosporine Ophthalmic Ointment [Optimmune]"
+          },
+          {
+            "code": "1869515",
+            "display": "everolimus 2 MG [Afinitor]"
+          },
+          {
+            "code": "1872983",
+            "display": "{6 (0.4 ML adalimumab 100 MG/ML Auto-Injector) } Pack"
+          },
+          {
+            "code": "1923330",
+            "display": "sarilumab 132 MG/ML"
+          },
+          {
+            "code": "2123314",
+            "display": "{12 (siponimod 0.25 MG Oral Tablet [Mayzent]) } Pack [Mayzent 0.25 MG Starter Pack]"
+          },
+          {
+            "code": "2047242",
+            "display": "Olumiant"
+          },
+          {
+            "code": "1310535",
+            "display": "teriflunomide 7 MG Oral Tablet [Aubagio]"
+          },
+          {
+            "code": "105586",
+            "display": "methotrexate 10 MG Oral Tablet"
+          },
+          {
+            "code": "261105",
+            "display": "etanercept 25 MG/ML Injectable Solution [Enbrel]"
+          },
+          {
+            "code": "1310520",
+            "display": "teriflunomide"
+          },
+          {
+            "code": "1921238",
+            "display": "0.8 ML adalimumab 100 MG/ML Auto-Injector"
+          },
+          {
+            "code": "205285",
+            "display": "leflunomide 20 MG Oral Tablet"
+          },
+          {
+            "code": "1165939",
+            "display": "ATGAM Injectable Product"
+          },
+          {
+            "code": "1357547",
+            "display": "tofacitinib 5 MG Oral Tablet [Xeljanz]"
+          },
+          {
+            "code": "311625",
+            "display": "methotrexate 1000 MG Injection"
+          },
+          {
+            "code": "363942",
+            "display": "cyclosporine Oral Solution [Neoral]"
+          },
+          {
+            "code": "2045490",
+            "display": "fingolimod 0.25 MG"
+          },
+          {
+            "code": "809159",
+            "display": "0.5 ML etanercept 50 MG/ML Prefilled Syringe [Enbrel]"
+          },
+          {
+            "code": "1157438",
+            "display": "rilonacept Injectable Product"
+          },
+          {
+            "code": "258355",
+            "display": "Rapamune"
+          },
+          {
+            "code": "363914",
+            "display": "cyclosporine Oral Solution [Gengraf]"
+          },
+          {
+            "code": "2373950",
+            "display": "inebilizumab-cdon"
+          },
+          {
+            "code": "616015",
+            "display": "abatacept 250 MG Injection"
+          },
+          {
+            "code": "317399",
+            "display": "leflunomide 100 MG"
+          },
+          {
+            "code": "1921592",
+            "display": "methotrexate 2.5 MG/ML Oral Solution"
+          },
+          {
+            "code": "1492732",
+            "display": "apremilast 10 MG Oral Tablet"
+          },
+          {
+            "code": "1544404",
+            "display": "0.15 ML methotrexate 50 MG/ML Auto-Injector [Rasuvo]"
+          },
+          {
+            "code": "2053456",
+            "display": "tildrakizumab Prefilled Syringe [Ilumya]"
+          },
+          {
+            "code": "1928687",
+            "display": "guselkumab Prefilled Syringe [Tremfya]"
+          },
+          {
+            "code": "1155000",
+            "display": "azathioprine Injectable Product"
+          },
+          {
+            "code": "197388",
+            "display": "azathioprine 50 MG Oral Tablet"
+          },
+          {
+            "code": "107047",
+            "display": "rabbit anti-human T-lymphocyte globulin 25 MG Injection"
+          },
+          {
+            "code": "2047239",
+            "display": "baricitinib Pill"
+          },
+          {
+            "code": "117055",
+            "display": "alemtuzumab"
+          },
+          {
+            "code": "845518",
+            "display": "everolimus 5 MG Oral Tablet [Afinitor]"
+          },
+          {
+            "code": "1544401",
+            "display": "0.6 ML methotrexate 50 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1369720",
+            "display": "pomalidomide 1 MG [Pomalyst]"
+          },
+          {
+            "code": "1872251",
+            "display": "brodalumab"
+          },
+          {
+            "code": "1112980",
+            "display": "belatacept 250 MG Injection [Nulojix]"
+          },
+          {
+            "code": "1726844",
+            "display": "0.4 ML adalimumab 100 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "284593",
+            "display": "methotrexate 10 MG Oral Tablet [Trexall]"
+          },
+          {
+            "code": "2461133",
+            "display": "ravulizumab-cwvz 100 MG/ML"
+          },
+          {
+            "code": "315750",
+            "display": "cyclosporine 100 MG/ML"
+          },
+          {
+            "code": "2377336",
+            "display": "methotrexate Prefilled Syringe [Reditrex]"
+          },
+          {
+            "code": "835909",
+            "display": "cyclosporine, modified 25 MG Oral Capsule [Neoral]"
+          },
+          {
+            "code": "2053449",
+            "display": "tildrakizumab-asmn"
+          },
+          {
+            "code": "1921597",
+            "display": "Xatmep Oral Product"
+          },
+          {
+            "code": "1169167",
+            "display": "Actemra Injectable Product"
+          },
+          {
+            "code": "1162569",
+            "display": "lenalidomide Oral Product"
+          },
+          {
+            "code": "1921593",
+            "display": "Xatmep"
+          },
+          {
+            "code": "1311599",
+            "display": "abetimus sodium"
+          },
+          {
+            "code": "1868015",
+            "display": "pirfenidone Oral Tablet [Esbriet]"
+          },
+          {
+            "code": "1876380",
+            "display": "10 ML ocrelizumab 30 MG/ML Injection"
+          },
+          {
+            "code": "2052606",
+            "display": "tacrolimus 0.2 MG [Prograf]"
+          },
+          {
+            "code": "1441529",
+            "display": "tocilizumab Prefilled Syringe [Actemra]"
+          },
+          {
+            "code": "2478432",
+            "display": "tofacitinib Oral Solution"
+          },
+          {
+            "code": "1594658",
+            "display": "1.2 ML alemtuzumab 10 MG/ML Injection"
+          },
+          {
+            "code": "1804971",
+            "display": "belatacept Injection"
+          },
+          {
+            "code": "1093174",
+            "display": "cyclosporine 0.002 MG/MG Ophthalmic Ointment"
+          },
+          {
+            "code": "1492744",
+            "display": "apremilast 30 MG Oral Tablet"
+          },
+          {
+            "code": "378277",
+            "display": "sirolimus Oral Tablet"
+          },
+          {
+            "code": "368264",
+            "display": "leflunomide Oral Tablet [Arava]"
+          },
+          {
+            "code": "727708",
+            "display": "anakinra Prefilled Syringe"
+          },
+          {
+            "code": "1656642",
+            "display": "basiliximab Injection"
+          },
+          {
+            "code": "2196890",
+            "display": "upadacitinib 15 MG"
+          },
+          {
+            "code": "2107324",
+            "display": "Ultomiris Injectable Product"
+          },
+          {
+            "code": "350512",
+            "display": "sirolimus 1 MG"
+          },
+          {
+            "code": "2121094",
+            "display": "Mayzent Oral Product"
+          },
+          {
+            "code": "1655972",
+            "display": "canakinumab Injection"
+          },
+          {
+            "code": "1160692",
+            "display": "infliximab Injectable Product"
+          },
+          {
+            "code": "616116",
+            "display": "lenalidomide 5 MG Oral Capsule [Revlimid]"
+          },
+          {
+            "code": "2282519",
+            "display": "lymphocyte immune globulin, anti-thymocyte globulin Injection [ATGAM]"
+          },
+          {
+            "code": "1182522",
+            "display": "Revlimid Oral Product"
+          },
+          {
+            "code": "2121096",
+            "display": "siponimod 0.25 MG Oral Tablet [Mayzent]"
+          },
+          {
+            "code": "364904",
+            "display": "sirolimus Oral Solution [Rapamune]"
+          },
+          {
+            "code": "1242233",
+            "display": "lenalidomide 2.5 MG Oral Capsule [Revlimid]"
+          },
+          {
+            "code": "1492737",
+            "display": "Otezla Pill"
+          },
+          {
+            "code": "1186316",
+            "display": "Zortress Oral Product"
+          },
+          {
+            "code": "360321",
+            "display": "thalidomide 100 MG"
+          },
+          {
+            "code": "2572292",
+            "display": "0.4 ML cyclosporine 0.5 MG/ML Ophthalmic Suspension"
+          },
+          {
+            "code": "1927283",
+            "display": "infliximab-abda"
+          },
+          {
+            "code": "1544403",
+            "display": "0.15 ML methotrexate 50 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1544379",
+            "display": "Rasuvo"
+          },
+          {
+            "code": "1373480",
+            "display": "dimethyl fumarate Oral Product"
+          },
+          {
+            "code": "1658134",
+            "display": "siltuximab Injection [Sylvant]"
+          },
+          {
+            "code": "1310529",
+            "display": "Aubagio Oral Product"
+          },
+          {
+            "code": "1357540",
+            "display": "tofacitinib Oral Tablet"
+          },
+          {
+            "code": "643711",
+            "display": "lenalidomide 15 MG"
+          },
+          {
+            "code": "1592284",
+            "display": "Esbriet Pill"
+          },
+          {
+            "code": "2205472",
+            "display": "baricitinib 1 MG Oral Tablet"
+          },
+          {
+            "code": "1093173",
+            "display": "cyclosporine Ophthalmic Ointment"
+          },
+          {
+            "code": "236077",
+            "display": "cyclosporine, modified"
+          },
+          {
+            "code": "1156188",
+            "display": "cyclosporine Oral Liquid Product"
+          },
+          {
+            "code": "352951",
+            "display": "Restasis"
+          },
+          {
+            "code": "1656681",
+            "display": "methotrexate 1000 MG"
+          },
+          {
+            "code": "351989",
+            "display": "sirolimus 1 MG Oral Tablet [Rapamune]"
+          },
+          {
+            "code": "1544383",
+            "display": "0.2 ML methotrexate 50 MG/ML Auto-Injector [Rasuvo]"
+          },
+          {
+            "code": "1242231",
+            "display": "lenalidomide 2.5 MG Oral Capsule"
+          },
+          {
+            "code": "1657976",
+            "display": "4 ML tocilizumab 20 MG/ML Injection [Actemra]"
+          },
+          {
+            "code": "1544395",
+            "display": "0.45 ML methotrexate 50 MG/ML Auto-Injector"
+          },
+          {
+            "code": "366451",
+            "display": "thalidomide Oral Capsule [Thalomid]"
+          },
+          {
+            "code": "1158395",
+            "display": "natalizumab Injectable Product"
+          },
+          {
+            "code": "1658133",
+            "display": "siltuximab 100 MG [Sylvant]"
+          },
+          {
+            "code": "1872986",
+            "display": "{4 (0.4 ML adalimumab 100 MG/ML Auto-Injector [Humira]) } Pack [Humira Pen 40 MG/0.4 ML Starter Pack - Psoriasis]"
+          },
+          {
+            "code": "1157701",
+            "display": "anakinra Injectable Product"
+          },
+          {
+            "code": "1927286",
+            "display": "Renflexis"
+          },
+          {
+            "code": "2288409",
+            "display": "ozanimod Oral Capsule [Zeposia]"
+          },
+          {
+            "code": "835922",
+            "display": "cyclosporine, modified 25 MG [Atopica]"
+          },
+          {
+            "code": "404475",
+            "display": "azathioprine 75 MG Oral Tablet [Azasan]"
+          },
+          {
+            "code": "2205473",
+            "display": "baricitinib 1 MG [Olumiant]"
+          },
+          {
+            "code": "1012896",
+            "display": "Gilenya"
+          },
+          {
+            "code": "1921594",
+            "display": "methotrexate 2.5 MG/ML [Xatmep]"
+          },
+          {
+            "code": "905157",
+            "display": "sirolimus 0.5 MG"
+          },
+          {
+            "code": "602908",
+            "display": "lenalidomide 10 MG"
+          },
+          {
+            "code": "2478431",
+            "display": "tofacitinib Oral Liquid Product"
+          },
+          {
+            "code": "10432",
+            "display": "thalidomide"
+          },
+          {
+            "code": "1156388",
+            "display": "muromonab-CD3 Injectable Product"
+          },
+          {
+            "code": "1928590",
+            "display": "guselkumab Injectable Product"
+          },
+          {
+            "code": "1655726",
+            "display": "0.8 ML adalimumab 50 MG/ML Auto-Injector"
+          },
+          {
+            "code": "2461140",
+            "display": "3 ML ravulizumab-cwvz 100 MG/ML Injection [Ultomiris]"
+          },
+          {
+            "code": "1656629",
+            "display": "alemtuzumab Injection"
+          },
+          {
+            "code": "1182527",
+            "display": "Restasis Ophthalmic Product"
+          },
+          {
+            "code": "1653727",
+            "display": "certolizumab pegol 200 MG"
+          },
+          {
+            "code": "1923338",
+            "display": "1.14 ML sarilumab 132 MG/ML Prefilled Syringe [Kevzara]"
+          },
+          {
+            "code": "2123313",
+            "display": "{12 (siponimod 0.25 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "200390",
+            "display": "thalidomide 50 MG Oral Capsule"
+          },
+          {
+            "code": "1925255",
+            "display": "0.4 ML abatacept 125 MG/ML Prefilled Syringe [Orencia]"
+          },
+          {
+            "code": "1373491",
+            "display": "dimethyl fumarate 240 MG Delayed Release Oral Capsule"
+          },
+          {
+            "code": "1373483",
+            "display": "dimethyl fumarate 120 MG Delayed Release Oral Capsule"
+          },
+          {
+            "code": "1012893",
+            "display": "fingolimod 0.5 MG"
+          },
+          {
+            "code": "2047240",
+            "display": "baricitinib Oral Tablet"
+          },
+          {
+            "code": "1169826",
+            "display": "Gengraf Pill"
+          },
+          {
+            "code": "848161",
+            "display": "Simponi"
+          },
+          {
+            "code": "2288236",
+            "display": "ozanimod"
+          },
+          {
+            "code": "1790540",
+            "display": "infliximab-dyyb 100 MG"
+          },
+          {
+            "code": "1492733",
+            "display": "Otezla"
+          },
+          {
+            "code": "1592277",
+            "display": "pirfenidone Pill"
+          },
+          {
+            "code": "2122654",
+            "display": "{6 (cladribine 10 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "2182337",
+            "display": "etanercept Cartridge"
+          },
+          {
+            "code": "2196892",
+            "display": "upadacitinib Pill"
+          },
+          {
+            "code": "359228",
+            "display": "azathioprine 100 MG Oral Tablet"
+          },
+          {
+            "code": "2391558",
+            "display": "satralizumab Prefilled Syringe [Enspryng]"
+          },
+          {
+            "code": "2053455",
+            "display": "tildrakizumab-asmn 100 MG/ML [Ilumya]"
+          },
+          {
+            "code": "1872256",
+            "display": "1.5 ML brodalumab 140 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "477484",
+            "display": "15 ML natalizumab 20 MG/ML Injection"
+          },
+          {
+            "code": "905159",
+            "display": "sirolimus 0.5 MG [Rapamune]"
+          },
+          {
+            "code": "2122635",
+            "display": "{9 (cladribine 10 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1658141",
+            "display": "siltuximab 400 MG Injection [Sylvant]"
+          },
+          {
+            "code": "1369736",
+            "display": "pomalidomide 4 MG Oral Capsule [Pomalyst]"
+          },
+          {
+            "code": "2122630",
+            "display": "cladribine 10 MG"
+          },
+          {
+            "code": "1925257",
+            "display": "0.7 ML abatacept 125 MG/ML Prefilled Syringe [Orencia]"
+          },
+          {
+            "code": "1538141",
+            "display": "Entyvio Injectable Product"
+          },
+          {
+            "code": "616450",
+            "display": "mycophenolic acid 180 MG Delayed Release Oral Tablet [Myfortic]"
+          },
+          {
+            "code": "835900",
+            "display": "cyclosporine, modified 100 MG [Neoral]"
+          },
+          {
+            "code": "105589",
+            "display": "methotrexate 100 MG/ML Injectable Solution"
+          },
+          {
+            "code": "2052503",
+            "display": "tacrolimus 0.2 MG"
+          },
+          {
+            "code": "2205471",
+            "display": "baricitinib 1 MG"
+          },
+          {
+            "code": "1441423",
+            "display": "methotrexate 62.5 MG/ML [Otrexup]"
+          },
+          {
+            "code": "2107316",
+            "display": "ravulizumab-cwvz"
+          },
+          {
+            "code": "315447",
+            "display": "azathioprine 50 MG"
+          },
+          {
+            "code": "1311600",
+            "display": "abetimus"
+          },
+          {
+            "code": "1655943",
+            "display": "infliximab 100 MG [Remicade]"
+          },
+          {
+            "code": "367339",
+            "display": "tacrolimus Topical Ointment [Protopic]"
+          },
+          {
+            "code": "2055019",
+            "display": "cyclosporine 0.9 MG/ML"
+          },
+          {
+            "code": "1921595",
+            "display": "methotrexate Oral Solution [Xatmep]"
+          },
+          {
+            "code": "574378",
+            "display": "tacrolimus 0.5 MG [Prograf]"
+          },
+          {
+            "code": "1731084",
+            "display": "cladribine Injection"
+          },
+          {
+            "code": "317432",
+            "display": "muromonab-CD3 1 MG/ML"
+          },
+          {
+            "code": "602910",
+            "display": "lenalidomide 10 MG Oral Capsule"
+          },
+          {
+            "code": "1369723",
+            "display": "Pomalyst Pill"
+          },
+          {
+            "code": "2122661",
+            "display": "{10 (cladribine 10 MG Oral Tablet [Mavenclad]) } Pack [Mavenclad 10 Tablet Pack]"
+          },
+          {
+            "code": "108514",
+            "display": "tacrolimus 5 MG Oral Capsule [Prograf]"
+          },
+          {
+            "code": "1373486",
+            "display": "dimethyl fumarate Delayed Release Oral Capsule [Tecfidera]"
+          },
+          {
+            "code": "2121088",
+            "display": "siponimod Pill"
+          },
+          {
+            "code": "2056897",
+            "display": "everolimus 1 MG Oral Tablet [Zortress]"
+          },
+          {
+            "code": "1492741",
+            "display": "apremilast 20 MG [Otezla]"
+          },
+          {
+            "code": "1256",
+            "display": "azathioprine"
+          },
+          {
+            "code": "1656646",
+            "display": "basiliximab 10 MG Injection [Simulect]"
+          },
+          {
+            "code": "2196899",
+            "display": "Rinvoq Pill"
+          },
+          {
+            "code": "700387",
+            "display": "30 ML eculizumab 10 MG/ML Injection [Soliris]"
+          },
+          {
+            "code": "105611",
+            "display": "azathioprine 50 MG Oral Tablet [Imuran]"
+          },
+          {
+            "code": "2122658",
+            "display": "{4 (cladribine 10 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "2053452",
+            "display": "tildrakizumab Prefilled Syringe"
+          },
+          {
+            "code": "2103476",
+            "display": "infliximab-qbtx"
+          },
+          {
+            "code": "1492730",
+            "display": "apremilast Pill"
+          },
+          {
+            "code": "342369",
+            "display": "lenalidomide"
+          },
+          {
+            "code": "2288430",
+            "display": "{4 (ozanimod 0.23 MG Oral Capsule) / 3 (ozanimod 0.46 MG Oral Capsule) / 30 (ozanimod 0.92 MG Oral Capsule) } Pack"
+          },
+          {
+            "code": "1155001",
+            "display": "azathioprine Oral Product"
+          },
+          {
+            "code": "1790542",
+            "display": "Inflectra"
+          },
+          {
+            "code": "763450",
+            "display": "rilonacept"
+          },
+          {
+            "code": "2478437",
+            "display": "tofacitinib 1 MG/ML Oral Solution [Xeljanz]"
+          },
+          {
+            "code": "1592278",
+            "display": "pirfenidone Oral Capsule"
+          },
+          {
+            "code": "2122641",
+            "display": "cladribine 10 MG Oral Tablet [Mavenclad]"
+          },
+          {
+            "code": "1927289",
+            "display": "Renflexis Injectable Product"
+          },
+          {
+            "code": "802652",
+            "display": "1 ML etanercept 50 MG/ML Prefilled Syringe [Enbrel]"
+          },
+          {
+            "code": "1492728",
+            "display": "apremilast 10 MG"
+          },
+          {
+            "code": "576427",
+            "display": "azathioprine 100 MG [Azasan]"
+          },
+          {
+            "code": "727757",
+            "display": "1 ML etanercept 50 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1658130",
+            "display": "siltuximab 100 MG"
+          },
+          {
+            "code": "1745099",
+            "display": "ixekizumab"
+          },
+          {
+            "code": "848160",
+            "display": "0.5 ML golimumab 100 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "2121093",
+            "display": "siponimod Oral Tablet [Mayzent]"
+          },
+          {
+            "code": "241834",
+            "display": "cyclosporine, modified 100 MG Oral Capsule"
+          },
+          {
+            "code": "2107319",
+            "display": "ravulizumab Injection"
+          },
+          {
+            "code": "1310138",
+            "display": "everolimus 2 MG Tablet for Oral Suspension [Afinitor]"
+          },
+          {
+            "code": "284679",
+            "display": "Campath"
+          },
+          {
+            "code": "1599795",
+            "display": "secukinumab Prefilled Syringe [Cosentyx]"
+          },
+          {
+            "code": "1654076",
+            "display": "ustekinumab Injection"
+          },
+          {
+            "code": "316134",
+            "display": "leflunomide 20 MG"
+          },
+          {
+            "code": "2288413",
+            "display": "ozanimod 0.23 MG"
+          },
+          {
+            "code": "1175957",
+            "display": "Enbrel Injectable Product"
+          },
+          {
+            "code": "354770",
+            "display": "natalizumab"
+          },
+          {
+            "code": "212810",
+            "display": "cyclosporine 25 MG Oral Capsule [Sandimmune]"
+          },
+          {
+            "code": "1310521",
+            "display": "teriflunomide 14 MG"
+          },
+          {
+            "code": "1653240",
+            "display": "secukinumab Auto-Injector"
+          },
+          {
+            "code": "1441403",
+            "display": "Otrexup"
+          },
+          {
+            "code": "541585",
+            "display": "mycophenolic acid 360 MG [Myfortic]"
+          },
+          {
+            "code": "2122660",
+            "display": "{10 (cladribine 10 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1163787",
+            "display": "everolimus Pill"
+          },
+          {
+            "code": "2540699",
+            "display": "1 ML risankizumab-rzaa 150 MG/ML Prefilled Syringe [Skyrizi]"
+          },
+          {
+            "code": "284595",
+            "display": "methotrexate 15 MG Oral Tablet [Trexall]"
+          },
+          {
+            "code": "1928596",
+            "display": "Tremfya Injectable Product"
+          },
+          {
+            "code": "1182652",
+            "display": "Simulect Injectable Product"
+          },
+          {
+            "code": "998188",
+            "display": "everolimus 2.5 MG"
+          },
+          {
+            "code": "198377",
+            "display": "tacrolimus 1 MG Oral Capsule"
+          },
+          {
+            "code": "1357542",
+            "display": "Xeljanz"
+          },
+          {
+            "code": "1592254",
+            "display": "pirfenidone"
+          },
+          {
+            "code": "709271",
+            "display": "certolizumab pegol"
+          },
+          {
+            "code": "1656631",
+            "display": "alemtuzumab 30 MG/ML [Campath]"
+          },
+          {
+            "code": "1310522",
+            "display": "teriflunomide Oral Product"
+          },
+          {
+            "code": "2391559",
+            "display": "Enspryng Injectable Product"
+          },
+          {
+            "code": "2462514",
+            "display": "Eticovo"
+          },
+          {
+            "code": "368214",
+            "display": "azathioprine Oral Tablet [Imuran]"
+          },
+          {
+            "code": "1492738",
+            "display": "apremilast 10 MG Oral Tablet [Otezla]"
+          },
+          {
+            "code": "835895",
+            "display": "cyclosporine, modified 25 MG [Gengraf]"
+          },
+          {
+            "code": "2003757",
+            "display": "1.14 ML sarilumab 132 MG/ML Auto-Injector [Kevzara]"
+          },
+          {
+            "code": "1656399",
+            "display": "belimumab 400 MG"
+          },
+          {
+            "code": "795083",
+            "display": "certolizumab pegol 200 MG/ML [Cimzia]"
+          },
+          {
+            "code": "484288",
+            "display": "tacrolimus monohydrate"
+          },
+          {
+            "code": "2103480",
+            "display": "etanercept-szzs"
+          },
+          {
+            "code": "575733",
+            "display": "sirolimus 1 MG [Rapamune]"
+          },
+          {
+            "code": "2377353",
+            "display": "0.3 ML methotrexate 25 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1790545",
+            "display": "Inflectra Injectable Product"
+          },
+          {
+            "code": "1594357",
+            "display": "{3 (0.8 ML adalimumab 50 MG/ML Prefilled Syringe) } Pack"
+          },
+          {
+            "code": "1925256",
+            "display": "0.7 ML abatacept 125 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "374015",
+            "display": "tacrolimus Oral Capsule"
+          },
+          {
+            "code": "1869512",
+            "display": "everolimus 2 MG"
+          },
+          {
+            "code": "2107321",
+            "display": "Ultomiris"
+          },
+          {
+            "code": "3008",
+            "display": "cyclosporine"
+          },
+          {
+            "code": "1605455",
+            "display": "{4 (apremilast 10 MG Oral Tablet [Otezla]) / 4 (apremilast 20 MG Oral Tablet [Otezla]) / 47 (apremilast 30 MG Oral Tablet [Otezla]) } Pack [Otezla 28-Day Starter Pack]"
+          },
+          {
+            "code": "2122655",
+            "display": "{6 (cladribine 10 MG Oral Tablet [Mavenclad]) } Pack [Mavenclad 6 Tablet Pack]"
+          },
+          {
+            "code": "358817",
+            "display": "adalimumab 50 MG/ML"
+          },
+          {
+            "code": "1921590",
+            "display": "methotrexate Oral Liquid Product"
+          },
+          {
+            "code": "372570",
+            "display": "leflunomide Oral Tablet"
+          },
+          {
+            "code": "283671",
+            "display": "methotrexate 7.5 MG Oral Tablet"
+          },
+          {
+            "code": "2462518",
+            "display": "1 ML etanercept-ykro 50 MG/ML Prefilled Syringe [Eticovo]"
+          },
+          {
+            "code": "299635",
+            "display": "alefacept"
+          },
+          {
+            "code": "1159396",
+            "display": "basiliximab Injectable Product"
+          },
+          {
+            "code": "2475404",
+            "display": "Lupkynis Oral Product"
+          },
+          {
+            "code": "853355",
+            "display": "1 ML ustekinumab 90 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1923337",
+            "display": "Kevzara Injectable Product"
+          },
+          {
+            "code": "1872979",
+            "display": "0.4 ML adalimumab 100 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1535243",
+            "display": "Sylvant"
+          },
+          {
+            "code": "1923319",
+            "display": "sarilumab"
+          },
+          {
+            "code": "825170",
+            "display": "{6 (0.8 ML adalimumab 50 MG/ML Auto-Injector [Humira]) } Pack [Humira Pen - Crohn's Disease Starter Pack]"
+          },
+          {
+            "code": "2475399",
+            "display": "voclosporin Oral Capsule"
+          },
+          {
+            "code": "1544388",
+            "display": "0.3 ML methotrexate 50 MG/ML Auto-Injector [Rasuvo]"
+          },
+          {
+            "code": "1186317",
+            "display": "Zortress Pill"
+          },
+          {
+            "code": "1872261",
+            "display": "1.5 ML brodalumab 140 MG/ML Prefilled Syringe [Siliq]"
+          },
+          {
+            "code": "1799229",
+            "display": "abatacept Auto-Injector [Orencia]"
+          },
+          {
+            "code": "1310531",
+            "display": "teriflunomide 14 MG Oral Tablet [Aubagio]"
+          },
+          {
+            "code": "360265",
+            "display": "azathioprine 75 MG"
+          },
+          {
+            "code": "1923344",
+            "display": "sarilumab 175 MG/ML"
+          },
+          {
+            "code": "1162570",
+            "display": "lenalidomide Pill"
+          },
+          {
+            "code": "1732366",
+            "display": "cyclosporine Injection [Sandimmune]"
+          },
+          {
+            "code": "1658131",
+            "display": "siltuximab Injection"
+          },
+          {
+            "code": "2122636",
+            "display": "Mavenclad"
+          },
+          {
+            "code": "998191",
+            "display": "everolimus 2.5 MG Oral Tablet [Afinitor]"
+          },
+          {
+            "code": "1431970",
+            "display": "tacrolimus Extended Release Oral Capsule"
+          },
+          {
+            "code": "1492736",
+            "display": "Otezla Oral Product"
+          },
+          {
+            "code": "205175",
+            "display": "5 ML cyclosporine 50 MG/ML Injection"
+          },
+          {
+            "code": "2461139",
+            "display": "3 ML ravulizumab-cwvz 100 MG/ML Injection"
+          },
+          {
+            "code": "2266525",
+            "display": "infliximab-axxq 100 MG Injection"
+          },
+          {
+            "code": "1369729",
+            "display": "pomalidomide 3 MG"
+          },
+          {
+            "code": "1184447",
+            "display": "Myfortic Oral Product"
+          },
+          {
+            "code": "1653243",
+            "display": "1 ML secukinumab 150 MG/ML Auto-Injector [Cosentyx]"
+          },
+          {
+            "code": "2273112",
+            "display": "tofacitinib 22 MG"
+          },
+          {
+            "code": "795081",
+            "display": "certolizumab pegol 200 MG Injection"
+          },
+          {
+            "code": "2377344",
+            "display": "0.6 ML methotrexate 25 MG/ML Prefilled Syringe [Reditrex]"
+          },
+          {
+            "code": "2052605",
+            "display": "tacrolimus 0.2 MG Granules for Oral Suspension"
+          },
+          {
+            "code": "2462517",
+            "display": "Eticovo Injectable Product"
+          },
+          {
+            "code": "2048565",
+            "display": "tofacitinib 10 MG"
+          },
+          {
+            "code": "845511",
+            "display": "everolimus Oral Tablet [Afinitor]"
+          },
+          {
+            "code": "1868013",
+            "display": "pirfenidone Oral Tablet"
+          },
+          {
+            "code": "2288415",
+            "display": "ozanimod 0.23 MG [Zeposia]"
+          },
+          {
+            "code": "643714",
+            "display": "lenalidomide 15 MG Oral Capsule [Revlimid]"
+          },
+          {
+            "code": "576390",
+            "display": "sirolimus 2 MG [Rapamune]"
+          },
+          {
+            "code": "2288235",
+            "display": "ozanimod hydrochloride"
+          },
+          {
+            "code": "835885",
+            "display": "cyclosporine, modified 100 MG/ML"
+          },
+          {
+            "code": "643712",
+            "display": "lenalidomide 15 MG Oral Capsule"
+          },
+          {
+            "code": "1012891",
+            "display": "fingolimod hydrochloride"
+          },
+          {
+            "code": "2373960",
+            "display": "10 ML inebilizumab-cdon 10 MG/ML Injection [Uplizna]"
+          },
+          {
+            "code": "853354",
+            "display": "0.5 ML ustekinumab 90 MG/ML Prefilled Syringe [Stelara]"
+          },
+          {
+            "code": "2104610",
+            "display": "emapalumab Injection"
+          },
+          {
+            "code": "1745104",
+            "display": "Taltz"
+          },
+          {
+            "code": "1855523",
+            "display": "0.8 ML adalimumab 100 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1180664",
+            "display": "Prograf Pill"
+          },
+          {
+            "code": "2373966",
+            "display": "{3 (10 ML inebilizumab-cdon 10 MG/ML Injection) } Pack"
+          },
+          {
+            "code": "1538137",
+            "display": "vedolizumab 300 MG Injection"
+          },
+          {
+            "code": "616011",
+            "display": "Orencia"
+          },
+          {
+            "code": "1876379",
+            "display": "ocrelizumab Injection"
+          },
+          {
+            "code": "267476",
+            "display": "azathioprine sodium"
+          },
+          {
+            "code": "603539",
+            "display": "natalizumab 20 MG/ML [Tysabri]"
+          },
+          {
+            "code": "1177887",
+            "display": "Thymoglobulin Injectable Product"
+          },
+          {
+            "code": "835892",
+            "display": "cyclosporine, modified 100 MG/ML Oral Solution [Gengraf]"
+          },
+          {
+            "code": "1599790",
+            "display": "secukinumab Injectable Product"
+          },
+          {
+            "code": "202816",
+            "display": "Sandimmune"
+          },
+          {
+            "code": "2196893",
+            "display": "upadacitinib Extended Release Oral Tablet"
+          },
+          {
+            "code": "1369730",
+            "display": "pomalidomide 3 MG Oral Capsule"
+          },
+          {
+            "code": "2288408",
+            "display": "ozanimod 0.92 MG [Zeposia]"
+          },
+          {
+            "code": "848162",
+            "display": "golimumab 100 MG/ML [Simponi]"
+          },
+          {
+            "code": "372835",
+            "display": "methotrexate Injectable Solution"
+          },
+          {
+            "code": "2048567",
+            "display": "tofacitinib 10 MG [Xeljanz]"
+          },
+          {
+            "code": "196102",
+            "display": "basiliximab"
+          },
+          {
+            "code": "1162567",
+            "display": "leflunomide Pill"
+          },
+          {
+            "code": "1156186",
+            "display": "cyclosporine Injectable Product"
+          },
+          {
+            "code": "2122647",
+            "display": "{8 (cladribine 10 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1789839",
+            "display": "azathioprine Injection"
+          },
+          {
+            "code": "2053436",
+            "display": "tildrakizumab"
+          },
+          {
+            "code": "44157",
+            "display": "cladribine"
+          },
+          {
+            "code": "2056894",
+            "display": "everolimus 1 MG"
+          },
+          {
+            "code": "107044",
+            "display": "rabbit anti-human T-lymphocyte globulin"
+          },
+          {
+            "code": "337535",
+            "display": "Revlimid"
+          },
+          {
+            "code": "1157808",
+            "display": "golimumab Injectable Product"
+          },
+          {
+            "code": "2586868",
+            "display": "sirolimus 100 MG Injection [Fyarro]"
+          },
+          {
+            "code": "1145930",
+            "display": "abatacept 125 MG/ML [Orencia]"
+          },
+          {
+            "code": "700417",
+            "display": "thalidomide 150 MG [Thalomid]"
+          },
+          {
+            "code": "2373957",
+            "display": "inebilizumab-cdon 10 MG/ML [Uplizna]"
+          },
+          {
+            "code": "2462521",
+            "display": "0.5 ML etanercept-ykro 50 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "108513",
+            "display": "tacrolimus 1 MG Oral Capsule [Prograf]"
+          },
+          {
+            "code": "2586864",
+            "display": "Fyarro"
+          },
+          {
+            "code": "576407",
+            "display": "thalidomide 200 MG [Thalomid]"
+          },
+          {
+            "code": "1177703",
+            "display": "Rapamune Pill"
+          },
+          {
+            "code": "591781",
+            "display": "eculizumab"
+          },
+          {
+            "code": "1599797",
+            "display": "1 ML secukinumab 150 MG/ML Prefilled Syringe [Cosentyx]"
+          },
+          {
+            "code": "1799228",
+            "display": "1 ML abatacept 125 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1745114",
+            "display": "1 ML ixekizumab 80 MG/ML Prefilled Syringe [Taltz]"
+          },
+          {
+            "code": "2052608",
+            "display": "Prograf Granule Product"
+          },
+          {
+            "code": "1431971",
+            "display": "24 HR tacrolimus 0.5 MG Extended Release Oral Capsule"
+          },
+          {
+            "code": "2166134",
+            "display": "risankizumab Injectable Product"
+          },
+          {
+            "code": "212844",
+            "display": "5 ML cyclosporine 50 MG/ML Injection [Sandimmune]"
+          },
+          {
+            "code": "835897",
+            "display": "cyclosporine, modified 100 MG/ML [Neoral]"
+          },
+          {
+            "code": "1868018",
+            "display": "pirfenidone 801 MG Oral Tablet"
+          },
+          {
+            "code": "1172882",
+            "display": "Atopica Oral Product"
+          },
+          {
+            "code": "835918",
+            "display": "cyclosporine, modified 10 MG"
+          },
+          {
+            "code": "405819",
+            "display": "azathioprine Oral Tablet [Azasan]"
+          },
+          {
+            "code": "1664435",
+            "display": "Envarsus"
+          },
+          {
+            "code": "1369735",
+            "display": "pomalidomide 4 MG [Pomalyst]"
+          },
+          {
+            "code": "2122657",
+            "display": "{5 (cladribine 10 MG Oral Tablet [Mavenclad]) } Pack [Mavenclad 5 Tablet Pack]"
+          },
+          {
+            "code": "1656396",
+            "display": "belimumab 120 MG [Benlysta]"
+          },
+          {
+            "code": "1872260",
+            "display": "Siliq Injectable Product"
+          },
+          {
+            "code": "2586867",
+            "display": "sirolimus Injection [Fyarro]"
+          },
+          {
+            "code": "1180726",
+            "display": "Remicade Injectable Product"
+          },
+          {
+            "code": "284520",
+            "display": "tacrolimus 0.001 MG/MG Topical Ointment [Protopic]"
+          },
+          {
+            "code": "2391551",
+            "display": "satralizumab-mwge"
+          },
+          {
+            "code": "329313",
+            "display": "azathioprine 25 MG"
+          },
+          {
+            "code": "2288417",
+            "display": "ozanimod 0.46 MG"
+          },
+          {
+            "code": "1655941",
+            "display": "infliximab Injection"
+          },
+          {
+            "code": "2205474",
+            "display": "baricitinib 1 MG Oral Tablet [Olumiant]"
+          },
+          {
+            "code": "2118740",
+            "display": "guselkumab Auto-Injector [Tremfya]"
+          },
+          {
+            "code": "2288431",
+            "display": "{4 (ozanimod 0.23 MG Oral Capsule [Zeposia]) / 3 (ozanimod 0.46 MG Oral Capsule [Zeposia]) / 30 (ozanimod 0.92 MG Oral Capsule [Zeposia]) } Pack [Zeposia Starter Kit]"
+          },
+          {
+            "code": "1369731",
+            "display": "pomalidomide 3 MG [Pomalyst]"
+          },
+          {
+            "code": "1369716",
+            "display": "pomalidomide Pill"
+          },
+          {
+            "code": "1872980",
+            "display": "0.4 ML adalimumab 100 MG/ML Auto-Injector [Humira]"
+          },
+          {
+            "code": "1656644",
+            "display": "basiliximab 10 MG [Simulect]"
+          },
+          {
+            "code": "1145931",
+            "display": "abatacept Prefilled Syringe [Orencia]"
+          },
+          {
+            "code": "2288411",
+            "display": "Zeposia Pill"
+          },
+          {
+            "code": "1373493",
+            "display": "dimethyl fumarate 240 MG Delayed Release Oral Capsule [Tecfidera]"
+          },
+          {
+            "code": "895761",
+            "display": "Actemra"
+          },
+          {
+            "code": "977436",
+            "display": "everolimus 0.5 MG Oral Tablet [Zortress]"
+          },
+          {
+            "code": "1655940",
+            "display": "infliximab 100 MG"
+          },
+          {
+            "code": "763454",
+            "display": "Arcalyst"
+          },
+          {
+            "code": "616115",
+            "display": "lenalidomide 5 MG [Revlimid]"
+          },
+          {
+            "code": "2107301",
+            "display": "ravulizumab"
+          },
+          {
+            "code": "2003756",
+            "display": "sarilumab Auto-Injector [Kevzara]"
+          },
+          {
+            "code": "351298",
+            "display": "alefacept 30 MG/ML Injectable Solution"
+          },
+          {
+            "code": "379082",
+            "display": "tacrolimus Topical Ointment"
+          },
+          {
+            "code": "198379",
+            "display": "1 ML tacrolimus 5 MG/ML Injection"
+          },
+          {
+            "code": "1170095",
+            "display": "Arava Oral Product"
+          },
+          {
+            "code": "977431",
+            "display": "everolimus 0.25 MG Oral Tablet [Zortress]"
+          },
+          {
+            "code": "2377354",
+            "display": "0.3 ML methotrexate 25 MG/ML Prefilled Syringe [Reditrex]"
+          },
+          {
+            "code": "1664439",
+            "display": "Envarsus Pill"
+          },
+          {
+            "code": "316759",
+            "display": "tacrolimus 5 MG"
+          },
+          {
+            "code": "1747184",
+            "display": "methotrexate 43.8 MG/ML"
+          },
+          {
+            "code": "2392140",
+            "display": "0.5 ML etanercept 50 MG/ML Injection"
+          },
+          {
+            "code": "1653730",
+            "display": "certolizumab pegol 200 MG [Cimzia]"
+          },
+          {
+            "code": "2266528",
+            "display": "infliximab Injection [Avsola]"
+          },
+          {
+            "code": "1653166",
+            "display": "1 ML golimumab 100 MG/ML Auto-Injector [Simponi]"
+          },
+          {
+            "code": "1431642",
+            "display": "4 ML golimumab 12.5 MG/ML Injection"
+          },
+          {
+            "code": "1653569",
+            "display": "golimumab Injection"
+          },
+          {
+            "code": "1605454",
+            "display": "{4 (apremilast 10 MG Oral Tablet) / 4 (apremilast 20 MG Oral Tablet) / 47 (apremilast 30 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "998190",
+            "display": "everolimus 2.5 MG [Afinitor]"
+          },
+          {
+            "code": "1093175",
+            "display": "Optimmune"
+          },
+          {
+            "code": "1544382",
+            "display": "Rasuvo Injectable Product"
+          },
+          {
+            "code": "1162729",
+            "display": "tocilizumab Injectable Product"
+          },
+          {
+            "code": "1179678",
+            "display": "Trexall Pill"
+          },
+          {
+            "code": "1178807",
+            "display": "Nulojix Injectable Product"
+          },
+          {
+            "code": "977429",
+            "display": "everolimus 0.25 MG [Zortress]"
+          },
+          {
+            "code": "1357538",
+            "display": "tofacitinib Oral Product"
+          },
+          {
+            "code": "1656272",
+            "display": "natalizumab Injection [Tysabri]"
+          },
+          {
+            "code": "2391553",
+            "display": "satralizumab Injectable Product"
+          },
+          {
+            "code": "1358492",
+            "display": "tofacitinib citrate"
+          },
+          {
+            "code": "1656996",
+            "display": "vedolizumab Injection"
+          },
+          {
+            "code": "1308432",
+            "display": "everolimus 5 MG Tablet for Oral Suspension"
+          },
+          {
+            "code": "2462511",
+            "display": "etanercept-ykro"
+          },
+          {
+            "code": "1656999",
+            "display": "vedolizumab Injection [Entyvio]"
+          },
+          {
+            "code": "1551887",
+            "display": "0.2 ML adalimumab 50 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1441407",
+            "display": "0.4 ML methotrexate 25 MG/ML Auto-Injector [Otrexup]"
+          },
+          {
+            "code": "1169824",
+            "display": "Gengraf Oral Liquid Product"
+          },
+          {
+            "code": "2047243",
+            "display": "baricitinib 2 MG [Olumiant]"
+          },
+          {
+            "code": "564558",
+            "display": "tacrolimus 5 MG [Prograf]"
+          },
+          {
+            "code": "287734",
+            "display": "methotrexate sodium"
+          },
+          {
+            "code": "1747194",
+            "display": "0.4 ML methotrexate 56.3 MG/ML Auto-Injector [Otrexup]"
+          },
+          {
+            "code": "1357546",
+            "display": "Xeljanz Pill"
+          },
+          {
+            "code": "1145928",
+            "display": "abatacept Prefilled Syringe"
+          },
+          {
+            "code": "565430",
+            "display": "cyclosporine 100 MG [Sandimmune]"
+          },
+          {
+            "code": "828267",
+            "display": "1 ML alemtuzumab 30 MG/ML Injection [Campath]"
+          },
+          {
+            "code": "2104615",
+            "display": "Gamifant Injectable Product"
+          },
+          {
+            "code": "1441412",
+            "display": "methotrexate 37.5 MG/ML [Otrexup]"
+          },
+          {
+            "code": "2104604",
+            "display": "emapalumab"
+          },
+          {
+            "code": "1369721",
+            "display": "pomalidomide Oral Capsule [Pomalyst]"
+          },
+          {
+            "code": "564559",
+            "display": "tacrolimus 5 MG/ML [Prograf]"
+          },
+          {
+            "code": "1873087",
+            "display": "{3 (0.8 ML adalimumab 100 MG/ML Prefilled Syringe [Humira]) } Pack [Humira Prefilled Syringe 80 MG/0.8 ML Starter Pack - Pediatric Crohn's Disease]"
+          },
+          {
+            "code": "2288414",
+            "display": "ozanimod 0.23 MG Oral Capsule"
+          },
+          {
+            "code": "141704",
+            "display": "everolimus"
+          },
+          {
+            "code": "1176319",
+            "display": "Azasan Pill"
+          },
+          {
+            "code": "1544396",
+            "display": "0.45 ML methotrexate 50 MG/ML Auto-Injector [Rasuvo]"
+          },
+          {
+            "code": "197553",
+            "display": "cyclosporine 25 MG Oral Capsule"
+          },
+          {
+            "code": "643722",
+            "display": "lenalidomide 25 MG Oral Capsule [Revlimid]"
+          },
+          {
+            "code": "2462512",
+            "display": "etanercept-ykro 50 MG/ML"
+          },
+          {
+            "code": "2478430",
+            "display": "tofacitinib 1 MG/ML"
+          },
+          {
+            "code": "1428947",
+            "display": "lenalidomide 20 MG Oral Capsule"
+          },
+          {
+            "code": "853349",
+            "display": "ustekinumab Prefilled Syringe"
+          },
+          {
+            "code": "1164873",
+            "display": "thalidomide Oral Product"
+          },
+          {
+            "code": "1012899",
+            "display": "fingolimod 0.5 MG Oral Capsule [Gilenya]"
+          },
+          {
+            "code": "835787",
+            "display": "cyclosporine, modified 100 MG [Gengraf]"
+          },
+          {
+            "code": "2288433",
+            "display": "{4 (ozanimod 0.23 MG Oral Capsule [Zeposia]) / 3 (ozanimod 0.46 MG Oral Capsule [Zeposia]) } Pack [Zeposia 7-Day Starter Pack]"
+          },
+          {
+            "code": "404476",
+            "display": "azathioprine 100 MG Oral Tablet [Azasan]"
+          },
+          {
+            "code": "1357543",
+            "display": "tofacitinib 5 MG [Xeljanz]"
+          },
+          {
+            "code": "1171464",
+            "display": "Benlysta Injectable Product"
+          },
+          {
+            "code": "1165017",
+            "display": "fingolimod Oral Product"
+          },
+          {
+            "code": "1869516",
+            "display": "everolimus Tablet for Oral Suspension [Afinitor]"
+          },
+          {
+            "code": "1369717",
+            "display": "pomalidomide Oral Capsule"
+          },
+          {
+            "code": "763457",
+            "display": "rilonacept 220 MG Injection [Arcalyst]"
+          },
+          {
+            "code": "1373497",
+            "display": "{14 (dimethyl fumarate 120 MG Delayed Release Oral Capsule) / 46 (dimethyl fumarate 240 MG Delayed Release Oral Capsule) } Pack"
+          },
+          {
+            "code": "1145927",
+            "display": "abatacept 125 MG/ML"
+          },
+          {
+            "code": "2121092",
+            "display": "siponimod 0.25 MG [Mayzent]"
+          },
+          {
+            "code": "1441422",
+            "display": "0.4 ML methotrexate 62.5 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1655203",
+            "display": "methotrexate Auto-Injector"
+          },
+          {
+            "code": "213360",
+            "display": "thalidomide 50 MG Oral Capsule [Thalomid]"
+          },
+          {
+            "code": "2377348",
+            "display": "0.8 ML methotrexate 25 MG/ML Prefilled Syringe [Reditrex]"
+          },
+          {
+            "code": "1492742",
+            "display": "apremilast 20 MG Oral Tablet [Otezla]"
+          },
+          {
+            "code": "1655959",
+            "display": "10 ML methotrexate 25 MG/ML Injection"
+          },
+          {
+            "code": "1492731",
+            "display": "apremilast Oral Tablet"
+          },
+          {
+            "code": "1492747",
+            "display": "{4 (apremilast 10 MG Oral Tablet) / 4 (apremilast 20 MG Oral Tablet) / 19 (apremilast 30 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1431975",
+            "display": "Astagraf Oral Product"
+          },
+          {
+            "code": "1656998",
+            "display": "vedolizumab 300 MG [Entyvio]"
+          },
+          {
+            "code": "2052609",
+            "display": "tacrolimus 0.2 MG Granules for Oral Suspension [Prograf]"
+          },
+          {
+            "code": "1535218",
+            "display": "siltuximab"
+          },
+          {
+            "code": "576100",
+            "display": "cyclosporine 0.5 MG/ML [Restasis]"
+          },
+          {
+            "code": "198378",
+            "display": "tacrolimus 5 MG Oral Capsule"
+          },
+          {
+            "code": "1745111",
+            "display": "ixekizumab Prefilled Syringe"
+          },
+          {
+            "code": "1656703",
+            "display": "{6 (0.8 ML adalimumab 50 MG/ML Auto-Injector) } Pack"
+          },
+          {
+            "code": "2166132",
+            "display": "risankizumab-rzaa"
+          },
+          {
+            "code": "2462516",
+            "display": "etanercept Prefilled Syringe [Eticovo]"
+          },
+          {
+            "code": "1170524",
+            "display": "Gilenya Oral Product"
+          },
+          {
+            "code": "2166040",
+            "display": "risankizumab"
+          },
+          {
+            "code": "1872253",
+            "display": "brodalumab 140 MG/ML"
+          },
+          {
+            "code": "2047241",
+            "display": "baricitinib 2 MG Oral Tablet"
+          },
+          {
+            "code": "328407",
+            "display": "methotrexate 2.5 MG"
+          },
+          {
+            "code": "484788",
+            "display": "cyclosporine microemulsion"
+          },
+          {
+            "code": "1868017",
+            "display": "pirfenidone 801 MG"
+          },
+          {
+            "code": "2047247",
+            "display": "baricitinib 2 MG Oral Tablet [Olumiant]"
+          },
+          {
+            "code": "845509",
+            "display": "Afinitor"
+          },
+          {
+            "code": "240754",
+            "display": "10 ML cladribine 1 MG/ML Injection"
+          },
+          {
+            "code": "1492746",
+            "display": "apremilast 30 MG Oral Tablet [Otezla]"
+          },
+          {
+            "code": "853353",
+            "display": "ustekinumab Prefilled Syringe [Stelara]"
+          },
+          {
+            "code": "1745101",
+            "display": "ixekizumab Injectable Product"
+          },
+          {
+            "code": "848158",
+            "display": "golimumab 100 MG/ML"
+          },
+          {
+            "code": "1923332",
+            "display": "sarilumab Prefilled Syringe"
+          },
+          {
+            "code": "1594662",
+            "display": "Lemtrada Injectable Product"
+          },
+          {
+            "code": "2104621",
+            "display": "10 ML emapalumab-lzsg 5 MG/ML Injection"
+          },
+          {
+            "code": "835921",
+            "display": "cyclosporine, modified 10 MG Oral Capsule [Atopica]"
+          },
+          {
+            "code": "2373951",
+            "display": "inebilizumab"
+          },
+          {
+            "code": "1431987",
+            "display": "24 HR tacrolimus 5 MG Extended Release Oral Capsule [Astagraf]"
+          },
+          {
+            "code": "1156390",
+            "display": "mycophenolic acid Oral Product"
+          },
+          {
+            "code": "1732364",
+            "display": "cyclosporine Injection"
+          },
+          {
+            "code": "1804973",
+            "display": "belatacept 250 MG [Nulojix]"
+          },
+          {
+            "code": "1747185",
+            "display": "0.4 ML methotrexate 43.8 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1656632",
+            "display": "alemtuzumab Injection [Campath]"
+          },
+          {
+            "code": "1658138",
+            "display": "siltuximab 400 MG"
+          },
+          {
+            "code": "1164202",
+            "display": "tacrolimus Oral Product"
+          },
+          {
+            "code": "1876377",
+            "display": "ocrelizumab 30 MG/ML"
+          },
+          {
+            "code": "2380771",
+            "display": "20 ML emapalumab-lzsg 5 MG/ML Injection"
+          },
+          {
+            "code": "1544378",
+            "display": "0.2 ML methotrexate 50 MG/ML Auto-Injector"
+          },
+          {
+            "code": "105585",
+            "display": "methotrexate 2.5 MG Oral Tablet"
+          },
+          {
+            "code": "1233906",
+            "display": "cyclosporine Oral Solution [Atopica]"
+          },
+          {
+            "code": "331568",
+            "display": "methotrexate 10 MG"
+          },
+          {
+            "code": "2107318",
+            "display": "ravulizumab Injectable Product"
+          },
+          {
+            "code": "575019",
+            "display": "methotrexate 5 MG [Trexall]"
+          },
+          {
+            "code": "331549",
+            "display": "tacrolimus 0.001 MG/MG"
+          },
+          {
+            "code": "1872258",
+            "display": "brodalumab 140 MG/ML [Siliq]"
+          },
+          {
+            "code": "1592276",
+            "display": "pirfenidone Oral Product"
+          },
+          {
+            "code": "2003755",
+            "display": "1.14 ML sarilumab 132 MG/ML Auto-Injector"
+          },
+          {
+            "code": "2047244",
+            "display": "baricitinib Oral Tablet [Olumiant]"
+          },
+          {
+            "code": "853491",
+            "display": "canakinumab"
+          },
+          {
+            "code": "374072",
+            "display": "thalidomide Oral Capsule"
+          },
+          {
+            "code": "2586861",
+            "display": "sirolimus Injectable Product"
+          },
+          {
+            "code": "1182643",
+            "display": "Simponi Injectable Product"
+          },
+          {
+            "code": "2475166",
+            "display": "voclosporin"
+          },
+          {
+            "code": "1310527",
+            "display": "teriflunomide 14 MG [Aubagio]"
+          },
+          {
+            "code": "1658135",
+            "display": "siltuximab 100 MG Injection [Sylvant]"
+          },
+          {
+            "code": "2053457",
+            "display": "Ilumya Injectable Product"
+          },
+          {
+            "code": "977435",
+            "display": "everolimus 0.5 MG [Zortress]"
+          },
+          {
+            "code": "1441525",
+            "display": "tocilizumab 180 MG/ML"
+          },
+          {
+            "code": "825169",
+            "display": "{6 (0.8 ML adalimumab 50 MG/ML Prefilled Syringe) } Pack"
+          },
+          {
+            "code": "1369713",
+            "display": "pomalidomide"
+          },
+          {
+            "code": "2391560",
+            "display": "1 ML satralizumab-mwge 120 MG/ML Prefilled Syringe [Enspryng]"
+          },
+          {
+            "code": "1431972",
+            "display": "Astagraf"
+          },
+          {
+            "code": "2377332",
+            "display": "methotrexate Prefilled Syringe"
+          },
+          {
+            "code": "845512",
+            "display": "everolimus 10 MG Oral Tablet [Afinitor]"
+          },
+          {
+            "code": "2048568",
+            "display": "tofacitinib 10 MG Oral Tablet [Xeljanz]"
+          },
+          {
+            "code": "1369719",
+            "display": "Pomalyst"
+          },
+          {
+            "code": "848163",
+            "display": "golimumab Prefilled Syringe [Simponi]"
+          },
+          {
+            "code": "2470534",
+            "display": "cyclosporine Oral Solution [Cyclavance]"
+          },
+          {
+            "code": "1928689",
+            "display": "1 ML guselkumab 100 MG/ML Prefilled Syringe [Tremfya]"
+          },
+          {
+            "code": "2122632",
+            "display": "cladribine Pill"
+          },
+          {
+            "code": "314230",
+            "display": "sirolimus 1 MG/ML Oral Solution"
+          },
+          {
+            "code": "1373492",
+            "display": "dimethyl fumarate 240 MG [Tecfidera]"
+          },
+          {
+            "code": "1872257",
+            "display": "Siliq"
+          },
+          {
+            "code": "2196896",
+            "display": "upadacitinib 15 MG [Rinvoq]"
+          },
+          {
+            "code": "2288410",
+            "display": "Zeposia Oral Product"
+          },
+          {
+            "code": "582670",
+            "display": "etanercept 50 MG/ML"
+          },
+          {
+            "code": "1156606",
+            "display": "canakinumab Injectable Product"
+          },
+          {
+            "code": "2047245",
+            "display": "Olumiant Oral Product"
+          },
+          {
+            "code": "1745100",
+            "display": "ixekizumab 80 MG/ML"
+          },
+          {
+            "code": "404449",
+            "display": "thalidomide 100 MG Oral Capsule [Thalomid]"
+          },
+          {
+            "code": "1745113",
+            "display": "ixekizumab Prefilled Syringe [Taltz]"
+          },
+          {
+            "code": "835894",
+            "display": "cyclosporine, modified 25 MG Oral Capsule"
+          },
+          {
+            "code": "1876382",
+            "display": "ocrelizumab 30 MG/ML [Ocrevus]"
+          },
+          {
+            "code": "363197",
+            "display": "etanercept Injectable Solution [Enbrel]"
+          },
+          {
+            "code": "1538097",
+            "display": "vedolizumab"
+          },
+          {
+            "code": "2531134",
+            "display": "{4 (0.8 ML adalimumab 100 MG/ML Auto-Injector [Humira]) } Pack [Humira Pen 80 MG/0.8 ML - Starter Package for Pediatric Ulcerative Colitis]"
+          },
+          {
+            "code": "2461136",
+            "display": "11 ML ravulizumab-cwvz 100 MG/ML Injection [Ultomiris]"
+          },
+          {
+            "code": "835899",
+            "display": "cyclosporine, modified 100 MG/ML Oral Solution [Neoral]"
+          },
+          {
+            "code": "404432",
+            "display": "sirolimus 2 MG Oral Tablet [Rapamune]"
+          },
+          {
+            "code": "1855526",
+            "display": "{1 (0.4 ML adalimumab 100 MG/ML Prefilled Syringe) / 1 (0.8 ML adalimumab 100 MG/ML Prefilled Syringe) } Pack"
+          },
+          {
+            "code": "1112976",
+            "display": "belatacept 250 MG Injection"
+          },
+          {
+            "code": "366173",
+            "display": "cyclosporine Oral Capsule [Gengraf]"
+          },
+          {
+            "code": "1653225",
+            "display": "1 ML etanercept 50 MG/ML Auto-Injector [Enbrel]"
+          },
+          {
+            "code": "2266527",
+            "display": "infliximab-axxq 100 MG [Avsola]"
+          },
+          {
+            "code": "2282516",
+            "display": "lymphocyte immune globulin, anti-thymocyte globulin Injection"
+          },
+          {
+            "code": "1745108",
+            "display": "1 ML ixekizumab 80 MG/ML Auto-Injector [Taltz]"
+          },
+          {
+            "code": "2121086",
+            "display": "siponimod 0.25 MG"
+          },
+          {
+            "code": "2282514",
+            "display": "lymphocyte immune globulin, anti-thymocyte globulin, equine 50 MG/ML"
+          },
+          {
+            "code": "1923334",
+            "display": "Kevzara"
+          },
+          {
+            "code": "1656647",
+            "display": "basiliximab 20 MG"
+          },
+          {
+            "code": "2122638",
+            "display": "cladribine Oral Tablet [Mavenclad]"
+          },
+          {
+            "code": "977427",
+            "display": "everolimus 0.25 MG Oral Tablet"
+          },
+          {
+            "code": "1657981",
+            "display": "20 ML tocilizumab 20 MG/ML Injection"
+          },
+          {
+            "code": "1864326",
+            "display": "1 ML canakinumab 150 MG/ML Injection [Ilaris]"
+          },
+          {
+            "code": "1653224",
+            "display": "etanercept Auto-Injector [Enbrel]"
+          },
+          {
+            "code": "835887",
+            "display": "cyclosporine, modified 100 MG/ML [Gengraf]"
+          },
+          {
+            "code": "1655944",
+            "display": "infliximab Injection [Remicade]"
+          },
+          {
+            "code": "1182458",
+            "display": "Protopic Topical Product"
+          },
+          {
+            "code": "2550713",
+            "display": "0.5 ML secukinumab 150 MG/ML Prefilled Syringe [Cosentyx]"
+          },
+          {
+            "code": "1869518",
+            "display": "everolimus 3 MG"
+          },
+          {
+            "code": "1656643",
+            "display": "basiliximab 10 MG Injection"
+          },
+          {
+            "code": "1747179",
+            "display": "0.4 ML methotrexate 31.3 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1921017",
+            "display": "0.2 ML adalimumab 100 MG/ML Prefilled Syringe [Humira]"
+          },
+          {
+            "code": "2122642",
+            "display": "{9 (cladribine 10 MG Oral Tablet [Mavenclad]) } Pack [Mavenclad 9 Tablet Pack]"
+          },
+          {
+            "code": "2104609",
+            "display": "emapalumab Injectable Product"
+          },
+          {
+            "code": "977437",
+            "display": "everolimus 0.75 MG"
+          },
+          {
+            "code": "1544386",
+            "display": "0.25 ML methotrexate 50 MG/ML Auto-Injector [Rasuvo]"
+          },
+          {
+            "code": "2055023",
+            "display": "cyclosporine 0.9 MG/ML [Cequa]"
+          },
+          {
+            "code": "2182340",
+            "display": "1 ML etanercept 50 MG/ML Cartridge [Enbrel]"
+          },
+          {
+            "code": "2053453",
+            "display": "1 ML tildrakizumab-asmn 100 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "197552",
+            "display": "cyclosporine 100 MG Oral Capsule [Sandimmune]"
+          },
+          {
+            "code": "2377343",
+            "display": "0.6 ML methotrexate 25 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1876381",
+            "display": "Ocrevus"
+          },
+          {
+            "code": "1012898",
+            "display": "fingolimod Oral Capsule [Gilenya]"
+          },
+          {
+            "code": "2377350",
+            "display": "0.9 ML methotrexate 25 MG/ML Prefilled Syringe [Reditrex]"
+          },
+          {
+            "code": "235991",
+            "display": "anhydrous tacrolimus"
+          },
+          {
+            "code": "1544398",
+            "display": "0.5 ML methotrexate 50 MG/ML Auto-Injector [Rasuvo]"
+          },
+          {
+            "code": "2121099",
+            "display": "siponimod 2 MG [Mayzent]"
+          },
+          {
+            "code": "2266530",
+            "display": "infliximab-axxq 100 MG Injection [Avsola]"
+          },
+          {
+            "code": "1726846",
+            "display": "0.4 ML adalimumab 100 MG/ML Prefilled Syringe [Humira]"
+          },
+          {
+            "code": "1655967",
+            "display": "4 ML methotrexate 25 MG/ML Injection"
+          },
+          {
+            "code": "1428946",
+            "display": "lenalidomide 20 MG"
+          },
+          {
+            "code": "1939299",
+            "display": "1 ML belimumab 200 MG/ML Auto-Injector [Benlysta]"
+          },
+          {
+            "code": "284521",
+            "display": "tacrolimus 0.0003 MG/MG Topical Ointment [Protopic]"
+          },
+          {
+            "code": "1156391",
+            "display": "mycophenolic acid Pill"
+          },
+          {
+            "code": "1657973",
+            "display": "tocilizumab Injection"
+          },
+          {
+            "code": "835901",
+            "display": "cyclosporine, modified 25 MG [Neoral]"
+          },
+          {
+            "code": "1799227",
+            "display": "abatacept Auto-Injector"
+          },
+          {
+            "code": "485019",
+            "display": "mycophenolic acid Delayed Release Oral Tablet"
+          },
+          {
+            "code": "351291",
+            "display": "cyclosporine 0.5 MG/ML Ophthalmic Suspension"
+          },
+          {
+            "code": "331569",
+            "display": "methotrexate 15 MG"
+          },
+          {
+            "code": "1373484",
+            "display": "Tecfidera"
+          },
+          {
+            "code": "1876366",
+            "display": "ocrelizumab"
+          },
+          {
+            "code": "1535246",
+            "display": "Sylvant Injectable Product"
+          },
+          {
+            "code": "2196894",
+            "display": "24 HR upadacitinib 15 MG Extended Release Oral Tablet"
+          },
+          {
+            "code": "2282518",
+            "display": "lymphocyte immune globulin, anti-thymocyte globulin, equine 50 MG/ML [ATGAM]"
+          },
+          {
+            "code": "602909",
+            "display": "lenalidomide Oral Capsule"
+          },
+          {
+            "code": "572915",
+            "display": "cyclosporine 50 MG/ML [Sandimmune]"
+          },
+          {
+            "code": "1925254",
+            "display": "0.4 ML abatacept 125 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "2377346",
+            "display": "0.7 ML methotrexate 25 MG/ML Prefilled Syringe [Reditrex]"
+          },
+          {
+            "code": "1369734",
+            "display": "pomalidomide 4 MG Oral Capsule"
+          },
+          {
+            "code": "206289",
+            "display": "5 ML lymphocyte immune globulin, anti-thymocyte globulin, equine 50 MG/ML Injection [ATGAM]"
+          },
+          {
+            "code": "1429367",
+            "display": "lenalidomide 20 MG Oral Capsule [Revlimid]"
+          },
+          {
+            "code": "1599796",
+            "display": "Cosentyx Injectable Product"
+          },
+          {
+            "code": "1939297",
+            "display": "belimumab 200 MG/ML [Benlysta]"
+          },
+          {
+            "code": "2288419",
+            "display": "ozanimod 0.46 MG [Zeposia]"
+          },
+          {
+            "code": "1921467",
+            "display": "{2 (0.4 ML adalimumab 100 MG/ML Auto-Injector) / 1 (0.8 ML adalimumab 100 MG/ML Auto-Injector) } Pack"
+          },
+          {
+            "code": "2121089",
+            "display": "siponimod Oral Tablet"
+          },
+          {
+            "code": "1741049",
+            "display": "24 HR tofacitinib 11 MG Extended Release Oral Tablet [Xeljanz]"
+          },
+          {
+            "code": "2104611",
+            "display": "2 ML emapalumab-lzsg 5 MG/ML Injection"
+          },
+          {
+            "code": "573254",
+            "display": "thalidomide 50 MG [Thalomid]"
+          },
+          {
+            "code": "1921009",
+            "display": "0.1 ML adalimumab 100 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1012892",
+            "display": "fingolimod"
+          },
+          {
+            "code": "849599",
+            "display": "1 ML certolizumab pegol 200 MG/ML Prefilled Syringe [Cimzia]"
+          },
+          {
+            "code": "2392139",
+            "display": "etanercept Injection"
+          },
+          {
+            "code": "2118741",
+            "display": "1 ML guselkumab 100 MG/ML Auto-Injector [Tremfya]"
+          },
+          {
+            "code": "1369727",
+            "display": "pomalidomide 2 MG [Pomalyst]"
+          },
+          {
+            "code": "1179677",
+            "display": "Trexall Oral Product"
+          },
+          {
+            "code": "1738334",
+            "display": "tacrolimus Injection"
+          },
+          {
+            "code": "1310523",
+            "display": "teriflunomide Pill"
+          },
+          {
+            "code": "573274",
+            "display": "leflunomide 100 MG [Arava]"
+          },
+          {
+            "code": "328406",
+            "display": "methotrexate 25 MG/ML"
+          },
+          {
+            "code": "1431973",
+            "display": "tacrolimus 0.5 MG [Astagraf]"
+          },
+          {
+            "code": "819300",
+            "display": "golimumab"
+          },
+          {
+            "code": "216891",
+            "display": "Enbrel"
+          },
+          {
+            "code": "1012895",
+            "display": "fingolimod 0.5 MG Oral Capsule"
+          },
+          {
+            "code": "1653222",
+            "display": "etanercept Auto-Injector"
+          },
+          {
+            "code": "1012897",
+            "display": "fingolimod 0.5 MG [Gilenya]"
+          },
+          {
+            "code": "316133",
+            "display": "leflunomide 10 MG"
+          },
+          {
+            "code": "2288418",
+            "display": "ozanimod 0.46 MG Oral Capsule"
+          },
+          {
+            "code": "2475406",
+            "display": "voclosporin 7.9 MG Oral Capsule [Lupkynis]"
+          },
+          {
+            "code": "835917",
+            "display": "cyclosporine, modified 100 MG Oral Capsule [Atopica]"
+          },
+          {
+            "code": "1876384",
+            "display": "Ocrevus Injectable Product"
+          },
+          {
+            "code": "2052704",
+            "display": "tacrolimus 1 MG Granules for Oral Suspension [Prograf]"
+          },
+          {
+            "code": "1441526",
+            "display": "tocilizumab Prefilled Syringe"
+          },
+          {
+            "code": "616113",
+            "display": "lenalidomide Oral Capsule [Revlimid]"
+          },
+          {
+            "code": "313189",
+            "display": "tacrolimus 0.0003 MG/MG Topical Ointment"
+          },
+          {
+            "code": "1181672",
+            "display": "Neoral Oral Liquid Product"
+          },
+          {
+            "code": "2121098",
+            "display": "siponimod 2 MG Oral Tablet"
+          },
+          {
+            "code": "1872254",
+            "display": "brodalumab Injectable Product"
+          },
+          {
+            "code": "356988",
+            "display": "efalizumab"
+          },
+          {
+            "code": "1373487",
+            "display": "Tecfidera Oral Product"
+          },
+          {
+            "code": "2282525",
+            "display": "rabbit anti-human T-lymphocyte globulin 25 MG"
+          },
+          {
+            "code": "895758",
+            "display": "tocilizumab 20 MG/ML"
+          },
+          {
+            "code": "1664461",
+            "display": "24 HR tacrolimus 1 MG Extended Release Oral Tablet"
+          },
+          {
+            "code": "2182338",
+            "display": "1 ML etanercept 50 MG/ML Cartridge"
+          },
+          {
+            "code": "1369718",
+            "display": "pomalidomide 1 MG Oral Capsule"
+          },
+          {
+            "code": "727712",
+            "display": "anakinra 149 MG/ML [Kineret]"
+          },
+          {
+            "code": "2122633",
+            "display": "cladribine Oral Tablet"
+          },
+          {
+            "code": "835920",
+            "display": "cyclosporine, modified 10 MG [Atopica]"
+          },
+          {
+            "code": "680973",
+            "display": "Soliris"
+          },
+          {
+            "code": "1804970",
+            "display": "belatacept 250 MG"
+          },
+          {
+            "code": "2118738",
+            "display": "guselkumab Auto-Injector"
+          },
+          {
+            "code": "1158759",
+            "display": "sirolimus Pill"
+          },
+          {
+            "code": "1664438",
+            "display": "Envarsus Oral Product"
+          },
+          {
+            "code": "2121095",
+            "display": "Mayzent Pill"
+          },
+          {
+            "code": "835925",
+            "display": "cyclosporine, modified 50 MG Oral Capsule"
+          },
+          {
+            "code": "353400",
+            "display": "cyclosporine 0.5 MG/ML"
+          },
+          {
+            "code": "316758",
+            "display": "tacrolimus 1 MG"
+          },
+          {
+            "code": "1164264",
+            "display": "alefacept Injectable Product"
+          },
+          {
+            "code": "2122637",
+            "display": "cladribine 10 MG [Mavenclad]"
+          },
+          {
+            "code": "1657975",
+            "display": "tocilizumab Injection [Actemra]"
+          },
+          {
+            "code": "2373954",
+            "display": "inebilizumab Injection"
+          },
+          {
+            "code": "1162566",
+            "display": "leflunomide Oral Product"
+          },
+          {
+            "code": "727713",
+            "display": "anakinra Prefilled Syringe [Kineret]"
+          },
+          {
+            "code": "1369722",
+            "display": "Pomalyst Oral Product"
+          },
+          {
+            "code": "261134",
+            "display": "tacrolimus 0.5 MG Oral Capsule [Prograf]"
+          },
+          {
+            "code": "1655949",
+            "display": "eculizumab Injection [Soliris]"
+          },
+          {
+            "code": "574352",
+            "display": "etanercept 25 MG/ML [Enbrel]"
+          },
+          {
+            "code": "2052607",
+            "display": "tacrolimus Granules for Oral Suspension [Prograf]"
+          },
+          {
+            "code": "700416",
+            "display": "thalidomide 150 MG Oral Capsule"
+          },
+          {
+            "code": "1656650",
+            "display": "basiliximab 20 MG Injection [Simulect]"
+          },
+          {
+            "code": "108515",
+            "display": "1 ML tacrolimus 5 MG/ML Injection [Prograf]"
+          },
+          {
+            "code": "1163691",
+            "display": "adalimumab Injectable Product"
+          },
+          {
+            "code": "602912",
+            "display": "lenalidomide 5 MG Oral Capsule"
+          },
+          {
+            "code": "1790541",
+            "display": "infliximab-dyyb 100 MG Injection"
+          },
+          {
+            "code": "2391556",
+            "display": "Enspryng"
+          },
+          {
+            "code": "1164204",
+            "display": "tacrolimus Topical Product"
+          },
+          {
+            "code": "2104614",
+            "display": "emapalumab Injection [Gamifant]"
+          },
+          {
+            "code": "1310524",
+            "display": "teriflunomide Oral Tablet"
+          },
+          {
+            "code": "1169825",
+            "display": "Gengraf Oral Product"
+          },
+          {
+            "code": "727711",
+            "display": "0.67 ML anakinra 149 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1664458",
+            "display": "24 HR tacrolimus 0.75 MG Extended Release Oral Tablet [Envarsus]"
+          },
+          {
+            "code": "2053450",
+            "display": "tildrakizumab-asmn 100 MG/ML"
+          },
+          {
+            "code": "2166135",
+            "display": "risankizumab Prefilled Syringe"
+          },
+          {
+            "code": "1441416",
+            "display": "0.4 ML methotrexate 50 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1599789",
+            "display": "secukinumab 150 MG/ML"
+          },
+          {
+            "code": "1873086",
+            "display": "{3 (0.8 ML adalimumab 100 MG/ML Prefilled Syringe) } Pack"
+          },
+          {
+            "code": "2103477",
+            "display": "adalimumab-adbm"
+          },
+          {
+            "code": "853351",
+            "display": "Stelara"
+          },
+          {
+            "code": "2055020",
+            "display": "cyclosporine Ophthalmic Solution"
+          },
+          {
+            "code": "332455",
+            "display": "methotrexate 7.5 MG"
+          },
+          {
+            "code": "2182339",
+            "display": "etanercept Cartridge [Enbrel]"
+          },
+          {
+            "code": "1928685",
+            "display": "guselkumab Prefilled Syringe"
+          },
+          {
+            "code": "1655947",
+            "display": "eculizumab Injection"
+          },
+          {
+            "code": "1872259",
+            "display": "brodalumab Prefilled Syringe [Siliq]"
+          },
+          {
+            "code": "1928594",
+            "display": "guselkumab 100 MG/ML [Tremfya]"
+          },
+          {
+            "code": "2391554",
+            "display": "satralizumab Prefilled Syringe"
+          },
+          {
+            "code": "1093176",
+            "display": "cyclosporine 0.002 MG/MG [Optimmune]"
+          },
+          {
+            "code": "1172007",
+            "display": "Imuran Pill"
+          },
+          {
+            "code": "1654078",
+            "display": "ustekinumab Injection [Stelara]"
+          },
+          {
+            "code": "1653728",
+            "display": "certolizumab pegol Injection"
+          },
+          {
+            "code": "1119400",
+            "display": "everolimus 7.5 MG Oral Tablet"
+          },
+          {
+            "code": "1431986",
+            "display": "tacrolimus 5 MG [Astagraf]"
+          },
+          {
+            "code": "835919",
+            "display": "cyclosporine, modified 10 MG Oral Capsule"
+          },
+          {
+            "code": "1868020",
+            "display": "pirfenidone 801 MG Oral Tablet [Esbriet]"
+          },
+          {
+            "code": "895762",
+            "display": "tocilizumab 20 MG/ML [Actemra]"
+          },
+          {
+            "code": "1373482",
+            "display": "dimethyl fumarate Delayed Release Oral Capsule"
+          },
+          {
+            "code": "2122659",
+            "display": "{4 (cladribine 10 MG Oral Tablet [Mavenclad]) } Pack [Mavenclad 4 Tablet Pack]"
+          },
+          {
+            "code": "1492734",
+            "display": "apremilast 10 MG [Otezla]"
+          },
+          {
+            "code": "1544402",
+            "display": "0.6 ML methotrexate 50 MG/ML Auto-Injector [Rasuvo]"
+          },
+          {
+            "code": "2288404",
+            "display": "ozanimod Pill"
+          },
+          {
+            "code": "835886",
+            "display": "cyclosporine, modified 100 MG/ML Oral Solution"
+          },
+          {
+            "code": "579570",
+            "display": "Myfortic"
+          },
+          {
+            "code": "1310147",
+            "display": "everolimus 5 MG Tablet for Oral Suspension [Afinitor]"
+          },
+          {
+            "code": "2392142",
+            "display": "0.5 ML etanercept 50 MG/ML Injection [Enbrel]"
+          },
+          {
+            "code": "2475403",
+            "display": "voclosporin Oral Capsule [Lupkynis]"
+          },
+          {
+            "code": "2373952",
+            "display": "inebilizumab-cdon 10 MG/ML"
+          },
+          {
+            "code": "2478436",
+            "display": "Xeljanz Oral Liquid Product"
+          },
+          {
+            "code": "2196897",
+            "display": "upadacitinib Extended Release Oral Tablet [Rinvoq]"
+          },
+          {
+            "code": "1724262",
+            "display": "rilonacept Injection [Arcalyst]"
+          },
+          {
+            "code": "1482814",
+            "display": "1 ML golimumab 100 MG/ML Prefilled Syringe [Simponi]"
+          },
+          {
+            "code": "573271",
+            "display": "leflunomide 10 MG [Arava]"
+          },
+          {
+            "code": "2586862",
+            "display": "sirolimus Injection"
+          },
+          {
+            "code": "360318",
+            "display": "sirolimus 2 MG"
+          },
+          {
+            "code": "1492740",
+            "display": "apremilast 20 MG Oral Tablet"
+          },
+          {
+            "code": "835926",
+            "display": "cyclosporine, modified 50 MG [Atopica]"
+          },
+          {
+            "code": "1923333",
+            "display": "1.14 ML sarilumab 132 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "727710",
+            "display": "anakinra 149 MG/ML"
+          },
+          {
+            "code": "616112",
+            "display": "lenalidomide 10 MG [Revlimid]"
+          },
+          {
+            "code": "1162237",
+            "display": "methotrexate Pill"
+          },
+          {
+            "code": "1921010",
+            "display": "0.1 ML adalimumab 100 MG/ML Prefilled Syringe [Humira]"
+          },
+          {
+            "code": "700415",
+            "display": "thalidomide 150 MG"
+          },
+          {
+            "code": "1544380",
+            "display": "methotrexate 50 MG/ML [Rasuvo]"
+          },
+          {
+            "code": "2475401",
+            "display": "Lupkynis"
+          },
+          {
+            "code": "845510",
+            "display": "everolimus 10 MG [Afinitor]"
+          },
+          {
+            "code": "2055024",
+            "display": "cyclosporine Ophthalmic Solution [Cequa]"
+          },
+          {
+            "code": "1655728",
+            "display": "0.8 ML adalimumab 50 MG/ML Auto-Injector [Humira]"
+          },
+          {
+            "code": "2196891",
+            "display": "upadacitinib Oral Product"
+          },
+          {
+            "code": "1310144",
+            "display": "everolimus 3 MG Tablet for Oral Suspension [Afinitor]"
+          },
+          {
+            "code": "2048566",
+            "display": "tofacitinib 10 MG Oral Tablet"
+          },
+          {
+            "code": "190353",
+            "display": "daclizumab"
+          },
+          {
+            "code": "795085",
+            "display": "certolizumab pegol 200 MG Injection [Cimzia]"
+          },
+          {
+            "code": "485023",
+            "display": "mycophenolic acid 360 MG Delayed Release Oral Tablet"
+          },
+          {
+            "code": "1655725",
+            "display": "adalimumab Auto-Injector"
+          },
+          {
+            "code": "2104608",
+            "display": "emapalumab-lzsg 5 MG/ML"
+          },
+          {
+            "code": "2478434",
+            "display": "tofacitinib 1 MG/ML [Xeljanz]"
+          },
+          {
+            "code": "1657982",
+            "display": "20 ML tocilizumab 20 MG/ML Injection [Actemra]"
+          },
+          {
+            "code": "1441406",
+            "display": "Otrexup Injectable Product"
+          },
+          {
+            "code": "849598",
+            "display": "certolizumab pegol Prefilled Syringe [Cimzia]"
+          },
+          {
+            "code": "1185409",
+            "display": "Sandimmune Oral Liquid Product"
+          },
+          {
+            "code": "197906",
+            "display": "5 ML lymphocyte immune globulin, anti-thymocyte globulin, equine 50 MG/ML Injection"
+          },
+          {
+            "code": "1156187",
+            "display": "cyclosporine Ophthalmic Product"
+          },
+          {
+            "code": "1921468",
+            "display": "{2 (0.4 ML adalimumab 100 MG/ML Auto-Injector [Humira]) / 1 (0.8 ML adalimumab 100 MG/ML Auto-Injector [Humira]) } Pack [Humira Pen 80 MG/0.8 ML and 40 MG/0.4 ML - Psoriasis/Uveitis Starter Package]"
+          },
+          {
+            "code": "2470537",
+            "display": "cyclosporine, modified 100 MG/ML Oral Solution [Cyclavance]"
+          },
+          {
+            "code": "1656649",
+            "display": "basiliximab 20 MG [Simulect]"
+          },
+          {
+            "code": "2003754",
+            "display": "sarilumab Auto-Injector"
+          },
+          {
+            "code": "351901",
+            "display": "sirolimus 1 MG/ML Oral Solution [Rapamune]"
+          },
+          {
+            "code": "1535240",
+            "display": "siltuximab Injectable Product"
+          },
+          {
+            "code": "1939348",
+            "display": "1 ML belimumab 200 MG/ML Prefilled Syringe [Benlysta]"
+          },
+          {
+            "code": "1745105",
+            "display": "ixekizumab 80 MG/ML [Taltz]"
+          },
+          {
+            "code": "2462522",
+            "display": "0.5 ML etanercept-ykro 50 MG/ML Prefilled Syringe [Eticovo]"
+          },
+          {
+            "code": "1594352",
+            "display": "{6 (0.8 ML adalimumab 50 MG/ML Prefilled Syringe [Humira]) } Pack [Humira Pediatric Crohn's Disease Starter Package (6 count)]"
+          },
+          {
+            "code": "1876383",
+            "display": "ocrelizumab Injection [Ocrevus]"
+          },
+          {
+            "code": "1012894",
+            "display": "fingolimod Oral Capsule"
+          },
+          {
+            "code": "2377351",
+            "display": "1 ML methotrexate 25 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "315753",
+            "display": "cyclosporine 50 MG/ML"
+          },
+          {
+            "code": "1927288",
+            "display": "infliximab Injection [Renflexis]"
+          },
+          {
+            "code": "905160",
+            "display": "sirolimus 0.5 MG Oral Tablet [Rapamune]"
+          },
+          {
+            "code": "1492729",
+            "display": "apremilast Oral Product"
+          },
+          {
+            "code": "2470535",
+            "display": "Cyclavance Oral Liquid Product"
+          },
+          {
+            "code": "1594660",
+            "display": "alemtuzumab 10 MG/ML [Lemtrada]"
+          },
+          {
+            "code": "2045493",
+            "display": "fingolimod 0.25 MG Oral Capsule [Gilenya]"
+          },
+          {
+            "code": "1927290",
+            "display": "infliximab-abda 100 MG Injection [Renflexis]"
+          },
+          {
+            "code": "1726845",
+            "display": "adalimumab 100 MG/ML [Humira]"
+          },
+          {
+            "code": "1747193",
+            "display": "methotrexate 56.3 MG/ML [Otrexup]"
+          },
+          {
+            "code": "214555",
+            "display": "etanercept"
+          },
+          {
+            "code": "977426",
+            "display": "everolimus 0.25 MG"
+          },
+          {
+            "code": "2373967",
+            "display": "{3 (10 ML inebilizumab-cdon 10 MG/ML Injection [Uplizna]) } Pack [Uplizna 3 Vial Kit]"
+          },
+          {
+            "code": "1653241",
+            "display": "1 ML secukinumab 150 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1923331",
+            "display": "sarilumab Injectable Product"
+          },
+          {
+            "code": "2056895",
+            "display": "everolimus 1 MG Oral Tablet"
+          },
+          {
+            "code": "1373488",
+            "display": "Tecfidera Pill"
+          },
+          {
+            "code": "2196898",
+            "display": "Rinvoq Oral Product"
+          },
+          {
+            "code": "1441424",
+            "display": "0.4 ML methotrexate 62.5 MG/ML Auto-Injector [Otrexup]"
+          },
+          {
+            "code": "845507",
+            "display": "everolimus 10 MG Oral Tablet"
+          },
+          {
+            "code": "2052703",
+            "display": "tacrolimus 1 MG Granules for Oral Suspension"
+          },
+          {
+            "code": "1655975",
+            "display": "canakinumab Injection [Ilaris]"
+          },
+          {
+            "code": "977430",
+            "display": "everolimus Oral Tablet [Zortress]"
+          },
+          {
+            "code": "1112977",
+            "display": "Nulojix"
+          },
+          {
+            "code": "2103479",
+            "display": "adalimumab-atto"
+          },
+          {
+            "code": "332454",
+            "display": "methotrexate 5 MG"
+          },
+          {
+            "code": "1658132",
+            "display": "siltuximab 100 MG Injection"
+          },
+          {
+            "code": "2055025",
+            "display": "Cequa Ophthalmic Product"
+          },
+          {
+            "code": "1745103",
+            "display": "1 ML ixekizumab 80 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1594657",
+            "display": "alemtuzumab 10 MG/ML"
+          },
+          {
+            "code": "330404",
+            "display": "tacrolimus 0.5 MG"
+          },
+          {
+            "code": "2166141",
+            "display": "Skyrizi Injectable Product"
+          },
+          {
+            "code": "1658139",
+            "display": "siltuximab 400 MG Injection"
+          },
+          {
+            "code": "349208",
+            "display": "sirolimus 1 MG Oral Tablet"
+          },
+          {
+            "code": "2003766",
+            "display": "1.14 ML sarilumab 175 MG/ML Auto-Injector"
+          },
+          {
+            "code": "1745112",
+            "display": "1 ML ixekizumab 80 MG/ML Prefilled Syringe"
+          },
+          {
+            "code": "1811254",
+            "display": "ustekinumab 5 MG/ML"
+          },
+          {
+            "code": "539497",
+            "display": "Atopica"
+          },
+          {
+            "code": "2288412",
+            "display": "ozanimod 0.92 MG Oral Capsule [Zeposia]"
+          },
+          {
+            "code": "1655960",
+            "display": "2 ML methotrexate 25 MG/ML Injection"
+          },
+          {
+            "code": "2166133",
+            "display": "risankizumab-rzaa 90.4 MG/ML"
+          },
+          {
+            "code": "2053458",
+            "display": "1 ML tildrakizumab-asmn 100 MG/ML Prefilled Syringe [Ilumya]"
+          },
+          {
+            "code": "582672",
+            "display": "etanercept 50 MG/ML [Enbrel]"
+          }
+        ]
+      }
+    ]
+  }
+}

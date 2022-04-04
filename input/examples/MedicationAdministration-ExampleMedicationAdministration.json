@@ -1,0 +1,29 @@
+{
+  "resourceType": "MedicationAdministration",
+  "id": "ExampleMedicationAdministration",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-medication-administration"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "013"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/scheduledDateTime",
+      "valueDateTime": "2017-01-01T00:00:00.000Z"
+    }
+  ],
+  "subject": {
+    "display": "Ethel O'Hara"
+  },
+  "status": "in-progress",
+  "medicationCodeableConcept": {
+    "text": "code text"
+  },
+  "effectiveDateTime": "2017-01-01T00:00:00.000Z"
+}

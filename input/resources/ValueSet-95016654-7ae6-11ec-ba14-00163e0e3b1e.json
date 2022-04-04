@@ -1,0 +1,93 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Potassium",
+  "id": "95016654-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "Potassium",
+  "description": "LOINC codes indicating the measurement of Potassium Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/95016654-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "77142-8",
+            "display": "Potassium [Moles/volume] in Serum, Plasma or Blood"
+          },
+          {
+            "code": "39790-1",
+            "display": "Potassium [Moles/volume] in Capillary blood"
+          },
+          {
+            "code": "39789-3",
+            "display": "Potassium [Moles/volume] in Venous blood"
+          },
+          {
+            "code": "75940-7",
+            "display": "Potassium [Mass/volume] in Blood"
+          },
+          {
+            "code": "32713-0",
+            "display": "Potassium [Moles/volume] in Arterial blood"
+          },
+          {
+            "code": "29349-8",
+            "display": "Potassium [Moles/volume] in Serum or Plasma --post dialysis"
+          },
+          {
+            "code": "6298-4",
+            "display": "Potassium [Moles/volume] in Blood"
+          },
+          {
+            "code": "51618-7",
+            "display": "Potassium [Moles/volume] in Serum or Plasma --pre dialysis"
+          },
+          {
+            "code": "12812-4",
+            "display": "Potassium [Moles/volume] in Serum or Plasma --2nd specimen"
+          },
+          {
+            "code": "41656-0",
+            "display": "Potassium [Moles/volume] in Mixed venous blood"
+          },
+          {
+            "code": "12813-2",
+            "display": "Potassium [Moles/volume] in Serum or Plasma --3rd specimen"
+          },
+          {
+            "code": "2823-3",
+            "display": "Potassium [Moles/volume] in Serum or Plasma"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "6686",
+            "display": "POC K"
+          },
+          {
+            "code": "8031",
+            "display": "Potassium, arterial"
+          },
+          {
+            "code": "7965",
+            "display": "V K"
+          },
+          {
+            "code": "6854",
+            "display": "Potassium Lvl"
+          }
+        ]
+      }
+    ]
+  }
+}

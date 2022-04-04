@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "CA125",
+  "id": "935b02a6-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "CA125",
+  "description": "LOINC codes indicating CA125 measurement Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/935b02a6-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "5169",
+            "display": "CA 125"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "62488-2",
+            "display": "Ova1 test [Presence] in Serum"
+          },
+          {
+            "code": "10334-1",
+            "display": "Cancer Ag 125 [Units/volume] in Serum or Plasma"
+          },
+          {
+            "code": "15157-1",
+            "display": "Cancer Ag 125 [Units/volume] in Serum or Plasma by Dilution"
+          },
+          {
+            "code": "2006-5",
+            "display": "Cancer Ag 125 [Presence] in Serum or Plasma"
+          },
+          {
+            "code": "83082-8",
+            "display": "Cancer Ag 125 [Units/volume] in Serum or Plasma by Immunoassay"
+          }
+        ]
+      }
+    ]
+  }
+}

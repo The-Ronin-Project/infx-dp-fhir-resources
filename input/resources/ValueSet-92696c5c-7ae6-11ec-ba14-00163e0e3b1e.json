@@ -1,0 +1,65 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ALT",
+  "id": "92696c5c-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "ALT",
+  "description": "LOINC codes indicating serum ALT measurement Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/92696c5c-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "76625-3",
+            "display": "Alanine aminotransferase [Enzymatic activity/volume] in Blood"
+          },
+          {
+            "code": "44785-4",
+            "display": "Alanine aminotransferase [Enzymatic activity/volume] (Maximum value during study) in Serum or Plasma by No addition of P-5'-P"
+          },
+          {
+            "code": "96586-3",
+            "display": "Alanine aminotransferase [Enzymatic activity/volume] in DBS"
+          },
+          {
+            "code": "1742-6",
+            "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "1743-4",
+            "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma by With P-5'-P"
+          },
+          {
+            "code": "77144-4",
+            "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum, Plasma or Blood"
+          },
+          {
+            "code": "1744-2",
+            "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma by No addition of P-5'-P"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "9640",
+            "display": "ALTF"
+          },
+          {
+            "code": "4705",
+            "display": "ALT"
+          }
+        ]
+      }
+    ]
+  }
+}

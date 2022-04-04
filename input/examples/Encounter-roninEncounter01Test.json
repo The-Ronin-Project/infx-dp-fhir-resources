@@ -1,0 +1,75 @@
+{
+  "resourceType": "Encounter",
+  "id": "roninEncounter01Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-encounter"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "value": "PEENG"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/roninPatient01Test",
+    "display": "John B. Bass"
+  },
+  "reasonReference": [
+    {
+      "reference": "Observation/OncologyObservation01Test"
+    }
+  ],
+  "period": {
+    "start": "2021-12-07T11:28:17.000Z",
+    "end": "2021-12-09T13:20:10.000Z"
+  },
+  "participant": [
+    {
+      "individual": {
+        "reference": "Practitioner/roninPEENGPractitioner01Test"
+      },
+      "period": {
+        "start": "2021-12-07T11:35:17.000Z",
+        "end": "2021-12-07T12:00:10.000Z"
+      }
+    },
+    {
+      "individual": {
+        "reference": "Practitioner/roninPEENGPractitioner01Test"
+      },
+      "period": {
+        "start": "2021-12-08T13:28:17.000Z",
+        "end": "2021-12-08T14:20:10.000Z"
+      }
+    }
+  ],
+  "status": "finished",
+  "class": {
+    "code": "EMER",
+    "display": "emergency",
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "4525004",
+          "system": "http://snomed.info/sct"
+        }
+      ],
+      "text": "Emergency department patient visit"
+    }
+  ]
+}

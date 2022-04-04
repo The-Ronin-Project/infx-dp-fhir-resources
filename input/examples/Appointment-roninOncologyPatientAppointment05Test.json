@@ -1,0 +1,63 @@
+{
+  "resourceType": "Appointment",
+  "id": "roninOncologyPatientAppointment05Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-appointment"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "value": "psj"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/partnerDepartmentReference",
+      "valueReference": {
+        "reference": "Organization/roninPSJPartnerDepartmentTest"
+      }
+    }
+  ],
+  "minutesDuration": 30,
+  "comment": "Patient having severe vomiting",
+  "start": "2021-09-03T05:30:00.000Z",
+  "end": "2021-09-03T06:00:00.000Z",
+  "status": "checked-in",
+  "participant": [
+    {
+      "actor": {
+        "reference": "Patient/roninPatient05Test",
+        "display": "Kane M. Random"
+      },
+      "status": "accepted"
+    },
+    {
+      "actor": {
+        "reference": "Practitioner/roninPSJPractitioner05Test",
+        "display": "Dr. Brian Allergy"
+      },
+      "status": "accepted"
+    }
+  ],
+  "appointmentType": {
+    "coding": [
+      {
+        "code": "ROUTINE",
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0276",
+        "display": "Routine appointment - default if not valued"
+      }
+    ]
+  }
+}

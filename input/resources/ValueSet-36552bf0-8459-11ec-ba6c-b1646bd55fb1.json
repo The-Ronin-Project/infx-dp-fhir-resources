@@ -1,0 +1,1475 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "AcuteProblems",
+  "id": "36552bf0-8459-11ec-ba6c-b1646bd55fb1",
+  "title": "Acute Problems",
+  "description": "ICD10 and SNOMED codes for acute problems associated with ED visits - Top 20 most common ER diagnoses (https://www.definitivehc.com/blog/top-20-most-common-er-diagnoses)",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/36552bf0-8459-11ec-ba6c-b1646bd55fb1",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "162043005",
+            "display": "Hunger pain (finding)"
+          },
+          {
+            "code": "765756007",
+            "display": "Benign infantile seizure with mild gastroenteritis syndrome (disorder)"
+          },
+          {
+            "code": "89419008",
+            "display": "Loss of equilibrium (finding)"
+          },
+          {
+            "code": "33841007",
+            "display": "Decreased nausea and vomiting (disorder)"
+          },
+          {
+            "code": "4009004",
+            "display": "Lower urinary tract infectious disease (disorder)"
+          },
+          {
+            "code": "419045004",
+            "display": "Loss of consciousness (finding)"
+          },
+          {
+            "code": "9121000119106",
+            "display": "Low back pain in pregnancy (finding)"
+          },
+          {
+            "code": "279072007",
+            "display": "Sore lip (finding)"
+          },
+          {
+            "code": "248229009",
+            "display": "Vasovagal symptom (finding)"
+          },
+          {
+            "code": "50177009",
+            "display": "Body temperature above reference range (finding)"
+          },
+          {
+            "code": "735731005",
+            "display": "Chronic non-infectious enteritis of uncertain etiology (disorder)"
+          },
+          {
+            "code": "1119294003",
+            "display": "Unilateral headache on left side of head (finding)"
+          },
+          {
+            "code": "34791000119103",
+            "display": "Chest pain due to pericarditis (finding)"
+          },
+          {
+            "code": "52457000",
+            "display": "Ileitis (disorder)"
+          },
+          {
+            "code": "248223005",
+            "display": "Feeling faint (finding)"
+          },
+          {
+            "code": "710013007",
+            "display": "Edentulous muscle attachment with attached mucosal base only in posterior lingual region (finding)"
+          },
+          {
+            "code": "234166002",
+            "display": "Vasovagal syncope due to immersion (disorder)"
+          },
+          {
+            "code": "162049009",
+            "display": "Left flank pain (finding)"
+          },
+          {
+            "code": "723106005",
+            "display": "Enteritis of small intestine caused by foreign body (disorder)"
+          },
+          {
+            "code": "110341006",
+            "display": "Tenderness of gums (finding)"
+          },
+          {
+            "code": "43242008",
+            "display": "Drug withdrawal headache (finding)"
+          },
+          {
+            "code": "2091005",
+            "display": "Pharyngeal diverticulitis (disorder)"
+          },
+          {
+            "code": "446079007",
+            "display": "Mal de debarquement syndrome (disorder)"
+          },
+          {
+            "code": "838410008",
+            "display": "Pain in epigastric region on palpation (finding)"
+          },
+          {
+            "code": "129134004",
+            "display": "Inflammatory disorder of upper respiratory tract (disorder)"
+          },
+          {
+            "code": "103017008",
+            "display": "Postural dizziness (finding)"
+          },
+          {
+            "code": "11718971000119100",
+            "display": "Diarrhea in pregnancy (disorder)"
+          },
+          {
+            "code": "161974007",
+            "display": "Parasternal pain (finding)"
+          },
+          {
+            "code": "103001002",
+            "display": "Feeling feverish (finding)"
+          },
+          {
+            "code": "698861005",
+            "display": "Intractable nausea and vomiting (disorder)"
+          },
+          {
+            "code": "278860009",
+            "display": "Chronic low back pain (finding)"
+          },
+          {
+            "code": "427293006",
+            "display": "Pain radiating to left side of chest (finding)"
+          },
+          {
+            "code": "193028008",
+            "display": "Sick headache (disorder)"
+          },
+          {
+            "code": "734019006",
+            "display": "Chronic diarrhea with villous atrophy syndrome (disorder)"
+          },
+          {
+            "code": "312091007",
+            "display": "Tooth mobility - grade 1 (finding)"
+          },
+          {
+            "code": "279063004",
+            "display": "Lumbar facet joint pain (finding)"
+          },
+          {
+            "code": "416113008",
+            "display": "Febrile disorder (disorder)"
+          },
+          {
+            "code": "103292006",
+            "display": "Constant vertigo (finding)"
+          },
+          {
+            "code": "195656004",
+            "display": "Acute phlegmonous pharyngitis (disorder)"
+          },
+          {
+            "code": "736315009",
+            "display": "Dissociative neurological symptom disorder co-occurrent with alteration of consciousness (disorder)"
+          },
+          {
+            "code": "246541006",
+            "display": "Simple partial onset of seizure with automatisms (disorder)"
+          },
+          {
+            "code": "444746004",
+            "display": "Acute exacerbation of chronic abdominal pain (finding)"
+          },
+          {
+            "code": "54150009",
+            "display": "Upper respiratory infection (disorder)"
+          },
+          {
+            "code": "21522001",
+            "display": "Abdominal pain (finding)"
+          },
+          {
+            "code": "444745000",
+            "display": "Infection of mucous cyst of nasal sinus (disorder)"
+          },
+          {
+            "code": "234169009",
+            "display": "Defecation syncope (disorder)"
+          },
+          {
+            "code": "110315000",
+            "display": "Insufficient clinical crown height due to dental caries (disorder)"
+          },
+          {
+            "code": "242030003",
+            "display": "Syncope caused by centrifugal force in flying (disorder)"
+          },
+          {
+            "code": "95861000",
+            "display": "Vertigo preceded by head injury (disorder)"
+          },
+          {
+            "code": "10000006",
+            "display": "Radiating chest pain (finding)"
+          },
+          {
+            "code": "865986008",
+            "display": "Pain on application of pressure to tooth (finding)"
+          },
+          {
+            "code": "708094006",
+            "display": "Acute exacerbation of intrinsic asthma (disorder)"
+          },
+          {
+            "code": "197120000",
+            "display": "Chronic constipation without overflow (disorder)"
+          },
+          {
+            "code": "234165003",
+            "display": "Elderly vasovagal syndrome (disorder)"
+          },
+          {
+            "code": "271789005",
+            "display": "Dizziness and giddiness (finding)"
+          },
+          {
+            "code": "38205001",
+            "display": "Diarrhea due to diabetes mellitus (disorder)"
+          },
+          {
+            "code": "710016004",
+            "display": "Edentulous muscle attachment with no attached mucosa in any region (finding)"
+          },
+          {
+            "code": "3200003",
+            "display": "Sacrocoxalgia (finding)"
+          },
+          {
+            "code": "298673002",
+            "display": "Lumbar spine - tender (finding)"
+          },
+          {
+            "code": "386705008",
+            "display": "Lightheadedness (finding)"
+          },
+          {
+            "code": "275495004",
+            "display": "Acute fibrinous laryngotracheobronchitis (disorder)"
+          },
+          {
+            "code": "838412000",
+            "display": "Pain in lumbar region on palpation (finding)"
+          },
+          {
+            "code": "7956006",
+            "display": "Psychogenic vertigo (finding)"
+          },
+          {
+            "code": "714203003",
+            "display": "Acute bronchitis co-occurrent with bronchiectasis (disorder)"
+          },
+          {
+            "code": "23924001",
+            "display": "Tight chest (finding)"
+          },
+          {
+            "code": "865971002",
+            "display": "Pain on tooth percussion (finding)"
+          },
+          {
+            "code": "1119213008",
+            "display": "Tenderness of left lumbar region of back (finding)"
+          },
+          {
+            "code": "35151000119105",
+            "display": "Inflammation of ileoanal pouch (disorder)"
+          },
+          {
+            "code": "700235002",
+            "display": "Excessive tooth mobility (finding)"
+          },
+          {
+            "code": "81953000",
+            "display": "Chest pain on exertion (finding)"
+          },
+          {
+            "code": "103304001",
+            "display": "Vertigo associated with recent change in eyeglasses (finding)"
+          },
+          {
+            "code": "419219000",
+            "display": "Drug-induced nausea and vomiting (disorder)"
+          },
+          {
+            "code": "271594007",
+            "display": "Syncope (disorder)"
+          },
+          {
+            "code": "271755009",
+            "display": "Gradual fall of fever (finding)"
+          },
+          {
+            "code": "762353009",
+            "display": "Acute headache due to traumatic injury of head (disorder)"
+          },
+          {
+            "code": "21005005",
+            "display": "Burning epigastric pain (finding)"
+          },
+          {
+            "code": "18846006",
+            "display": "Chemotherapy-induced nausea and vomiting (disorder)"
+          },
+          {
+            "code": "136801000119102",
+            "display": "Therapeutic opioid induced constipation (disorder)"
+          },
+          {
+            "code": "431308006",
+            "display": "Acute upper urinary tract infection (disorder)"
+          },
+          {
+            "code": "270891002",
+            "display": "Had a collapse (situation)"
+          },
+          {
+            "code": "58230007",
+            "display": "Alteration in bowel elimination: constipation (finding)"
+          },
+          {
+            "code": "109704007",
+            "display": "Lingual alveolar bony ledging (disorder)"
+          },
+          {
+            "code": "50611000119105",
+            "display": "Non-labyrinthine vertigo (disorder)"
+          },
+          {
+            "code": "312422001",
+            "display": "Infective pharyngitis (disorder)"
+          },
+          {
+            "code": "788877005",
+            "display": "Cardiac syncope (disorder)"
+          },
+          {
+            "code": "275406005",
+            "display": "Appendicular pain (finding)"
+          },
+          {
+            "code": "58031004",
+            "display": "Suppurative pharyngitis (disorder)"
+          },
+          {
+            "code": "249984002",
+            "display": "Keeps losing balance (finding)"
+          },
+          {
+            "code": "312093005",
+            "display": "Tooth mobility - grade 3 (finding)"
+          },
+          {
+            "code": "441604003",
+            "display": "Myoclonus associated with fever (disorder)"
+          },
+          {
+            "code": "225057002",
+            "display": "Brittle asthma (disorder)"
+          },
+          {
+            "code": "11114002",
+            "display": "Sore gums (finding)"
+          },
+          {
+            "code": "314041007",
+            "display": "Abdominal pain in early pregnancy (finding)"
+          },
+          {
+            "code": "111569009",
+            "display": "Hyperthermia-hyperphagia-hypothyroidism syndrome (disorder)"
+          },
+          {
+            "code": "309585006",
+            "display": "Syncope and collapse (disorder)"
+          },
+          {
+            "code": "713889004",
+            "display": "Atypical odontalgia (finding)"
+          },
+          {
+            "code": "3368006",
+            "display": "Dull chest pain (finding)"
+          },
+          {
+            "code": "21615003",
+            "display": "Autonomic facial cephalgia (disorder)"
+          },
+          {
+            "code": "309737007",
+            "display": "Abdominal pain in pregnancy (finding)"
+          },
+          {
+            "code": "304542004",
+            "display": "Nonspecific abdominal pain (finding)"
+          },
+          {
+            "code": "236070005",
+            "display": "Simple constipation (finding)"
+          },
+          {
+            "code": "236074001",
+            "display": "Diarrhea caused by laxative abuse (disorder)"
+          },
+          {
+            "code": "783185002",
+            "display": "Focal active colitis (disorder)"
+          },
+          {
+            "code": "103301009",
+            "display": "Vertigo, acute onset with vomiting and inability to stand (finding)"
+          },
+          {
+            "code": "103287009",
+            "display": "Vertigo on awakening (finding)"
+          },
+          {
+            "code": "248433000",
+            "display": "Plateau phase of fever (finding)"
+          },
+          {
+            "code": "197119006",
+            "display": "Acute constipation (finding)"
+          },
+          {
+            "code": "14760008",
+            "display": "Constipation (finding)"
+          },
+          {
+            "code": "51197009",
+            "display": "Stomach cramps (finding)"
+          },
+          {
+            "code": "103018003",
+            "display": "Exertional dizziness (finding)"
+          },
+          {
+            "code": "110303004",
+            "display": "Abnormal tooth mobility (finding)"
+          },
+          {
+            "code": "408005",
+            "display": "Tooth chattering (finding)"
+          },
+          {
+            "code": "68566005",
+            "display": "Urinary tract infectious disease (disorder)"
+          },
+          {
+            "code": "24526004",
+            "display": "Inflammatory bowel disease (disorder)"
+          },
+          {
+            "code": "111360009",
+            "display": "Obstipation (disorder)"
+          },
+          {
+            "code": "271681002",
+            "display": "Stomach ache (finding)"
+          },
+          {
+            "code": "121021000119105",
+            "display": "New daily persistent headache (disorder)"
+          },
+          {
+            "code": "62166005",
+            "display": "Hysterical fever (finding)"
+          },
+          {
+            "code": "128999004",
+            "display": "Inflammatory disorder of digestive tract (disorder)"
+          },
+          {
+            "code": "722051004",
+            "display": "Obesity, colitis, hypothyroidism, cardiac hypertrophy, developmental delay syndrome (disorder)"
+          },
+          {
+            "code": "50041000",
+            "display": "Objective vertigo (finding)"
+          },
+          {
+            "code": "415709002",
+            "display": "Tendency to nausea and vomiting (finding)"
+          },
+          {
+            "code": "707194005",
+            "display": "Abutment tooth condition moderately compromised, 1 or 2 sextants (finding)"
+          },
+          {
+            "code": "103295008",
+            "display": "Vertigo preceded by prolonged dental work or oral surgery (finding)"
+          },
+          {
+            "code": "717876006",
+            "display": "Phlegmonous enteritis of duodenum (disorder)"
+          },
+          {
+            "code": "300957005",
+            "display": "Postural low back pain (finding)"
+          },
+          {
+            "code": "111985007",
+            "display": "Chronic abdominal pain (finding)"
+          },
+          {
+            "code": "722892007",
+            "display": "Fever due to infection (finding)"
+          },
+          {
+            "code": "298674008",
+            "display": "Lumbar spine painful on movement (finding)"
+          },
+          {
+            "code": "103282003",
+            "display": "Essential vertigo (finding)"
+          },
+          {
+            "code": "711497006",
+            "display": "Chronic non-specific colitis (disorder)"
+          },
+          {
+            "code": "162300006",
+            "display": "Unilateral headache (finding)"
+          },
+          {
+            "code": "267067009",
+            "display": "Lumbar ache - renal (finding)"
+          },
+          {
+            "code": "13057000",
+            "display": "Pleuropericardial chest pain (finding)"
+          },
+          {
+            "code": "710017008",
+            "display": "Edentulous muscle attachment with no attached mucosal base in mandibular anterior region (finding)"
+          },
+          {
+            "code": "103303007",
+            "display": "Hearing loss remits during vertigo attacks (finding)"
+          },
+          {
+            "code": "396336000",
+            "display": "Acute and chronic colitis (disorder)"
+          },
+          {
+            "code": "72681001",
+            "display": "Allergic jejunitis (disorder)"
+          },
+          {
+            "code": "59471009",
+            "display": "Phlegmonous pharyngitis (disorder)"
+          },
+          {
+            "code": "278862001",
+            "display": "Acute low back pain (finding)"
+          },
+          {
+            "code": "247368002",
+            "display": "Posterior compartment low back pain (finding)"
+          },
+          {
+            "code": "710093008",
+            "display": "Completely dentate teeth condition minimally compromised with 3 or less in one sextant (finding)"
+          },
+          {
+            "code": "20759009",
+            "display": "Dietetic jejunitis (disorder)"
+          },
+          {
+            "code": "122711000119109",
+            "display": "Hypnic headache (disorder)"
+          },
+          {
+            "code": "279040009",
+            "display": "Mechanical low back pain (finding)"
+          },
+          {
+            "code": "402345004",
+            "display": "Desquamation of skin following febrile illness (disorder)"
+          },
+          {
+            "code": "103300005",
+            "display": "Vertigo preceded by unsteady feeling (finding)"
+          },
+          {
+            "code": "279084009",
+            "display": "Chest discomfort (finding)"
+          },
+          {
+            "code": "54398005",
+            "display": "Acute upper respiratory infection (disorder)"
+          },
+          {
+            "code": "14440001000004101",
+            "display": "Postoperative abdominal pain (finding)"
+          },
+          {
+            "code": "31457007",
+            "display": "Effort syncope (disorder)"
+          },
+          {
+            "code": "161973001",
+            "display": "Anterior chest wall pain (finding)"
+          },
+          {
+            "code": "162388002",
+            "display": "Has a sore throat (situation)"
+          },
+          {
+            "code": "312124009",
+            "display": "Bacterial urinary infection (disorder)"
+          },
+          {
+            "code": "829976001",
+            "display": "Thunderstorm asthma (disorder)"
+          },
+          {
+            "code": "432994008",
+            "display": "Constipation due to neurogenic bowel (disorder)"
+          },
+          {
+            "code": "129585003",
+            "display": "Perceived constipation (finding)"
+          },
+          {
+            "code": "359660000",
+            "display": "Idiopathic colitis (disorder)"
+          },
+          {
+            "code": "386661006",
+            "display": "Fever (finding)"
+          },
+          {
+            "code": "249983008",
+            "display": "Feels as though will fall (finding)"
+          },
+          {
+            "code": "43752006",
+            "display": "Inflammation of small intestine and colon (disorder)"
+          },
+          {
+            "code": "399090003",
+            "display": "Subjective vertigo (finding)"
+          },
+          {
+            "code": "109639001",
+            "display": "Limited ability to open mouth (disorder)"
+          },
+          {
+            "code": "103296009",
+            "display": "Vertigo preceded by chewing (finding)"
+          },
+          {
+            "code": "762244004",
+            "display": "Dizziness following neck extension (finding)"
+          },
+          {
+            "code": "707195006",
+            "display": "Abutment tooth condition severely compromised, 4 or more sextants (finding)"
+          },
+          {
+            "code": "103297000",
+            "display": "Drug-induced vertigo (disorder)"
+          },
+          {
+            "code": "710018003",
+            "display": "Edentulous muscle attachment with no attached mucosal base mandibular anterior and lingual vestibule (finding)"
+          },
+          {
+            "code": "232289002",
+            "display": "Multisensory dizziness (disorder)"
+          },
+          {
+            "code": "248435007",
+            "display": "Prolonged fever (finding)"
+          },
+          {
+            "code": "162038003",
+            "display": "Non-colicky abdominal pain (finding)"
+          },
+          {
+            "code": "106001000119101",
+            "display": "Chronic obstructive lung disease co-occurrent with acute bronchitis (disorder)"
+          },
+          {
+            "code": "782520007",
+            "display": "Exacerbation of allergic asthma due to infection (disorder)"
+          },
+          {
+            "code": "438113009",
+            "display": "Convulsive syncope (disorder)"
+          },
+          {
+            "code": "248427009",
+            "display": "Fever symptoms (finding)"
+          },
+          {
+            "code": "103293001",
+            "display": "Persistent postural perceptual dizziness (finding)"
+          },
+          {
+            "code": "281239006",
+            "display": "Exacerbation of asthma (disorder)"
+          },
+          {
+            "code": "9267009",
+            "display": "Chest pain at rest (finding)"
+          },
+          {
+            "code": "405737000",
+            "display": "Pharyngitis (disorder)"
+          },
+          {
+            "code": "102588006",
+            "display": "Chest wall pain (finding)"
+          },
+          {
+            "code": "414155001",
+            "display": "Exacerbation of non-infective colitis (disorder)"
+          },
+          {
+            "code": "409506009",
+            "display": "Hemorrhagic gastroenteritis (disorder)"
+          },
+          {
+            "code": "109793005",
+            "display": "Shallow vestibular depth after teeth loss (disorder)"
+          },
+          {
+            "code": "249989007",
+            "display": "Sensation of falling (finding)"
+          },
+          {
+            "code": "126662008",
+            "display": "Red throat (disorder)"
+          },
+          {
+            "code": "103302002",
+            "display": "Vertigo when trying to urinate (finding)"
+          },
+          {
+            "code": "2919008",
+            "display": "Nausea, vomiting and diarrhea (disorder)"
+          },
+          {
+            "code": "427365005",
+            "display": "Pain radiating to center of chest (finding)"
+          },
+          {
+            "code": "248454007",
+            "display": "Endocrine hyperthermia (finding)"
+          },
+          {
+            "code": "710094002",
+            "display": "Completely dentate teeth condition substantially compromised with 4 or more in 3-5 sextants (finding)"
+          },
+          {
+            "code": "235841007",
+            "display": "Chronic nonspecific abdominal pain (finding)"
+          },
+          {
+            "code": "707193004",
+            "display": "Abutment tooth condition substantially compromised, 3 sextants (finding)"
+          },
+          {
+            "code": "246540007",
+            "display": "Simple partial seizure followed by impaired consciousness (disorder)"
+          },
+          {
+            "code": "86925001",
+            "display": "Ocular headache (finding)"
+          },
+          {
+            "code": "110312002",
+            "display": "Insufficient anatomic crown height (finding)"
+          },
+          {
+            "code": "103286000",
+            "display": "Horizontal vertigo (finding)"
+          },
+          {
+            "code": "1119214002",
+            "display": "Tenderness of right lumbar region of back (finding)"
+          },
+          {
+            "code": "285389008",
+            "display": "Upper chest pain (finding)"
+          },
+          {
+            "code": "249988004",
+            "display": "Oscillation of surroundings (finding)"
+          },
+          {
+            "code": "312133006",
+            "display": "Viral respiratory infection (disorder)"
+          },
+          {
+            "code": "710095001",
+            "display": "Completely dentate teeth condition severely compromised with 4 or more in all sextants (finding)"
+          },
+          {
+            "code": "373407002",
+            "display": "Inflammatory disorder of digestive system (disorder)"
+          },
+          {
+            "code": "713731001",
+            "display": "Pyrexia of unknown origin co-occurrent with human immunodeficiency virus infection (disorder)"
+          },
+          {
+            "code": "359664009",
+            "display": "Idiopathic chronic inflammatory bowel disease (disorder)"
+          },
+          {
+            "code": "698006004",
+            "display": "Pulpalgia (finding)"
+          },
+          {
+            "code": "674091000119108",
+            "display": "Vertigo due to and following ischemic cerebrovascular accident (disorder)"
+          },
+          {
+            "code": "162050009",
+            "display": "Right flank pain (finding)"
+          },
+          {
+            "code": "36859004",
+            "display": "Esophageal chest pain (finding)"
+          },
+          {
+            "code": "449834008",
+            "display": "Lateral vertigo (finding)"
+          },
+          {
+            "code": "14700001000004102",
+            "display": "Intractable abdominal pain (finding)"
+          },
+          {
+            "code": "281794004",
+            "display": "Viral upper respiratory tract infection (disorder)"
+          },
+          {
+            "code": "103284002",
+            "display": "Positional vertigo (finding)"
+          },
+          {
+            "code": "773662009",
+            "display": "Neonatal inflammatory skin and bowel disease (disorder)"
+          },
+          {
+            "code": "707192009",
+            "display": "Abutment tooth condition minimally compromised (finding)"
+          },
+          {
+            "code": "279019008",
+            "display": "Central crushing chest pain (finding)"
+          },
+          {
+            "code": "103289007",
+            "display": "Vertigo produced by neck hyperextension (finding)"
+          },
+          {
+            "code": "122731000119104",
+            "display": "Primary thunderclap headache (disorder)"
+          },
+          {
+            "code": "307418008",
+            "display": "Non-infective enteritis and colitis (disorder)"
+          },
+          {
+            "code": "109750005",
+            "display": "Abfraction (disorder)"
+          },
+          {
+            "code": "404811004",
+            "display": "Non-specific colitis (disorder)"
+          },
+          {
+            "code": "271857006",
+            "display": "Loin pain (finding)"
+          },
+          {
+            "code": "399153001",
+            "display": "Vertigo (finding)"
+          },
+          {
+            "code": "716277000",
+            "display": "Chronic diarrhea due to glucoamylase deficiency (disorder)"
+          },
+          {
+            "code": "285386001",
+            "display": "Right sided chest pain (finding)"
+          },
+          {
+            "code": "430097009",
+            "display": "Constipation due to spasm of colon (disorder)"
+          },
+          {
+            "code": "103290003",
+            "display": "Paroxysmal vertigo (finding)"
+          },
+          {
+            "code": "840333006",
+            "display": "Collapse due to cardiac arrest (finding)"
+          },
+          {
+            "code": "99631000119101",
+            "display": "Febrile urinary tract infection (disorder)"
+          },
+          {
+            "code": "91173007",
+            "display": "Radiation-induced nausea and vomiting (disorder)"
+          },
+          {
+            "code": "73335002",
+            "display": "Increased nausea and vomiting (disorder)"
+          },
+          {
+            "code": "710012002",
+            "display": "Edentulous muscle attachment with adequate attached mucosal base (finding)"
+          },
+          {
+            "code": "312118003",
+            "display": "Bacterial upper respiratory infection (disorder)"
+          },
+          {
+            "code": "109794004",
+            "display": "Inadequate vestibular depth after teeth loss (disorder)"
+          },
+          {
+            "code": "239814006",
+            "display": "Seronegative arthritis secondary to inflammatory bowel disease (disorder)"
+          },
+          {
+            "code": "830137004",
+            "display": "Pain due to enlargement of spleen (finding)"
+          },
+          {
+            "code": "427461000",
+            "display": "Near syncope (disorder)"
+          },
+          {
+            "code": "720009004",
+            "display": "Intractable diarrhea with choanal atresia and eye anomaly syndrome (disorder)"
+          },
+          {
+            "code": "445535007",
+            "display": "Syncope witnessed by provider of history other than subject (disorder)"
+          },
+          {
+            "code": "84769001",
+            "display": "Cervical vertigo (disorder)"
+          },
+          {
+            "code": "785745000",
+            "display": "Acute bronchitis co-occurrent with wheeze (disorder)"
+          },
+          {
+            "code": "271752007",
+            "display": "Staircase fever (finding)"
+          },
+          {
+            "code": "103299002",
+            "display": "Severe vertigo, acute onset (finding)"
+          },
+          {
+            "code": "734904007",
+            "display": "Life threatening acute exacerbation of asthma (disorder)"
+          },
+          {
+            "code": "865987004",
+            "display": "Pain on tooth palpation (finding)"
+          },
+          {
+            "code": "431309003",
+            "display": "Acute urinary tract infection (disorder)"
+          },
+          {
+            "code": "427475007",
+            "display": "Pain radiating to lumbar region of back (finding)"
+          },
+          {
+            "code": "162261005",
+            "display": "Giddiness present (situation)"
+          },
+          {
+            "code": "15177007",
+            "display": "Apoplectic vertigo (finding)"
+          },
+          {
+            "code": "103288004",
+            "display": "Vertical vertigo (finding)"
+          },
+          {
+            "code": "42136008",
+            "display": "Swinging fever (finding)"
+          },
+          {
+            "code": "111273006",
+            "display": "Acute respiratory disease (disorder)"
+          },
+          {
+            "code": "717062009",
+            "display": "Non carious lesion at cervical margin of tooth (finding)"
+          },
+          {
+            "code": "103291004",
+            "display": "Intermittent vertigo (finding)"
+          },
+          {
+            "code": "432414001",
+            "display": "Constipation due to atony of colon (disorder)"
+          },
+          {
+            "code": "71207007",
+            "display": "Noninfectious enteritis (disorder)"
+          },
+          {
+            "code": "830145009",
+            "display": "Collapse due to asphyxiation (finding)"
+          },
+          {
+            "code": "14310000",
+            "display": "Purulent nasal discharge (finding)"
+          },
+          {
+            "code": "283021003",
+            "display": "Mobile tooth (finding)"
+          },
+          {
+            "code": "312092000",
+            "display": "Tooth mobility - grade 2 (finding)"
+          },
+          {
+            "code": "247362001",
+            "display": "Pain on abdominal wall movement (finding)"
+          },
+          {
+            "code": "710014001",
+            "display": "Edentulous muscle attachment with high genioglossus attachment (finding)"
+          },
+          {
+            "code": "788718000",
+            "display": "Iritis co-occurrent with inflammatory bowel disease (disorder)"
+          },
+          {
+            "code": "471284004",
+            "display": "Loss of lamina dura (disorder)"
+          },
+          {
+            "code": "717231003",
+            "display": "Periodic fever and aphthous stomatitis with pharyngitis and cervical lymphadenitis syndrome (disorder)"
+          },
+          {
+            "code": "71850005",
+            "display": "Abdominal pain worse on motion (finding)"
+          },
+          {
+            "code": "272030005",
+            "display": "Syncope symptom (finding)"
+          },
+          {
+            "code": "422747000",
+            "display": "Upper urinary tract infection (disorder)"
+          },
+          {
+            "code": "110334000",
+            "display": "Long form of root of tooth (finding)"
+          },
+          {
+            "code": "230782004",
+            "display": "Dysequilibrium syndrome (disorder)"
+          },
+          {
+            "code": "735662004",
+            "display": "Incomplete loss of consciousness without amnesia (finding)"
+          },
+          {
+            "code": "704425001",
+            "display": "Chronic fever (finding)"
+          },
+          {
+            "code": "32834005",
+            "display": "Brief loss of consciousness (finding)"
+          },
+          {
+            "code": "314212008",
+            "display": "Abdominal pain - cause unknown (finding)"
+          },
+          {
+            "code": "7862002",
+            "display": "Prolonged loss of consciousness (finding)"
+          },
+          {
+            "code": "710015000",
+            "display": "Edentulous muscle attachment with high mentalis attachment (finding)"
+          },
+          {
+            "code": "870351002",
+            "display": "Non-infective enteritis due to graft-versus-host disease (disorder)"
+          },
+          {
+            "code": "78977005",
+            "display": "Ocular vertigo (finding)"
+          },
+          {
+            "code": "404641004",
+            "display": "Giddiness (finding)"
+          },
+          {
+            "code": "274668005",
+            "display": "Non-cardiac chest pain (finding)"
+          },
+          {
+            "code": "721104000",
+            "display": "Sepsis due to urinary tract infection (disorder)"
+          },
+          {
+            "code": "290431000119101",
+            "display": "Intractable headache following trauma (disorder)"
+          },
+          {
+            "code": "9619006",
+            "display": "Aseptic fever (finding)"
+          },
+          {
+            "code": "1119216000",
+            "display": "Pain in right lumbar region of back (finding)"
+          },
+          {
+            "code": "109672001",
+            "display": "Replanted avulsed tooth (disorder)"
+          },
+          {
+            "code": "361270009",
+            "display": "Episodic recurrent vertigo (disorder)"
+          },
+          {
+            "code": "429530004",
+            "display": "Dizziness of unknown cause (finding)"
+          },
+          {
+            "code": "1119295002",
+            "display": "Unilateral headache on right side of head (finding)"
+          },
+          {
+            "code": "398665005",
+            "display": "Vasovagal syncope (disorder)"
+          },
+          {
+            "code": "61683000",
+            "display": "Drop attack (finding)"
+          },
+          {
+            "code": "285385002",
+            "display": "Left sided chest pain (finding)"
+          },
+          {
+            "code": "427252003",
+            "display": "Pain radiating to right side of chest (finding)"
+          },
+          {
+            "code": "234164004",
+            "display": "Malignant vasovagal syndrome (disorder)"
+          },
+          {
+            "code": "371030007",
+            "display": "Squeezing chest pain (finding)"
+          },
+          {
+            "code": "234170005",
+            "display": "Deglutition syncope (disorder)"
+          },
+          {
+            "code": "22207007",
+            "display": "Chronic proliferative enteritis (disorder)"
+          },
+          {
+            "code": "315018008",
+            "display": "Dizzy spells (finding)"
+          },
+          {
+            "code": "1119215001",
+            "display": "Pain in left lumbar region of back (finding)"
+          },
+          {
+            "code": "278660006",
+            "display": "Tooth partially erupted (finding)"
+          },
+          {
+            "code": "103298005",
+            "display": "Severe vertigo (finding)"
+          },
+          {
+            "code": "407645004",
+            "display": "Dizziness on standing up (finding)"
+          },
+          {
+            "code": "708510008",
+            "display": "Minimal maxillary incisor display (finding)"
+          },
+          {
+            "code": "734905008",
+            "display": "Moderate acute exacerbation of asthma (disorder)"
+          },
+          {
+            "code": "719398004",
+            "display": "Malignant hyperthermia with arthrogryposis and torticollis syndrome (disorder)"
+          },
+          {
+            "code": "102496004",
+            "display": "Spiking fever (finding)"
+          },
+          {
+            "code": "102589003",
+            "display": "Atypical chest pain (finding)"
+          },
+          {
+            "code": "15743641000119101",
+            "display": "Pain of bilateral sternoclavicular joints (finding)"
+          },
+          {
+            "code": "17551007",
+            "display": "Chronic diarrhea of unknown origin (disorder)"
+          },
+          {
+            "code": "110335004",
+            "display": "Short form of root of tooth (finding)"
+          },
+          {
+            "code": "234168001",
+            "display": "Micturition syncope (disorder)"
+          },
+          {
+            "code": "162260006",
+            "display": "Dizziness present (situation)"
+          },
+          {
+            "code": "449835009",
+            "display": "Nocturnal vertigo (finding)"
+          },
+          {
+            "code": "721686000",
+            "display": "Inflammatory polyps co-occurrent and due to inflammatory bowel disease (disorder)"
+          },
+          {
+            "code": "722885002",
+            "display": "Infant dyschezia (disorder)"
+          },
+          {
+            "code": "711467003",
+            "display": "Compromised crown and root of tooth ratio (finding)"
+          },
+          {
+            "code": "29857009",
+            "display": "Chest pain (finding)"
+          },
+          {
+            "code": "74737003",
+            "display": "Complex partial seizure + impairment consciousness at onset (disorder)"
+          },
+          {
+            "code": "29930001000004103",
+            "display": "Intractable low back pain (finding)"
+          },
+          {
+            "code": "267982002",
+            "display": "Pain in lumbar spine (finding)"
+          },
+          {
+            "code": "102587001",
+            "display": "Acute chest pain (finding)"
+          },
+          {
+            "code": "426396005",
+            "display": "Cardiac chest pain (finding)"
+          },
+          {
+            "code": "248436008",
+            "display": "Slightly remittent fever (finding)"
+          },
+          {
+            "code": "762592003",
+            "display": "Chronic primary headache (disorder)"
+          },
+          {
+            "code": "40863000",
+            "display": "Moderate duration loss of consciousness (finding)"
+          },
+          {
+            "code": "162271007",
+            "display": "Felt faint (situation)"
+          },
+          {
+            "code": "278658009",
+            "display": "Tooth unerupted (finding)"
+          },
+          {
+            "code": "51290000",
+            "display": "Diversion colitis (disorder)"
+          },
+          {
+            "code": "723148003",
+            "display": "Syncope due to autonomic failure (disorder)"
+          },
+          {
+            "code": "418013002",
+            "display": "Defecation reflex abnormal - constipated (finding)"
+          },
+          {
+            "code": "246542004",
+            "display": "Complex part seizure with impairment of consciousness only (disorder)"
+          },
+          {
+            "code": "735548000",
+            "display": "Dissociative neurological symptom disorder co-occurrent with dizziness (disorder)"
+          },
+          {
+            "code": "10509002",
+            "display": "Acute bronchitis (disorder)"
+          },
+          {
+            "code": "103294007",
+            "display": "Vertigo produced by neck pressure (finding)"
+          },
+          {
+            "code": "285339000",
+            "display": "Painful tooth socket (finding)"
+          },
+          {
+            "code": "135883003",
+            "display": "Cough with fever (finding)"
+          },
+          {
+            "code": "248446005",
+            "display": "Reversed diurnal fever (finding)"
+          },
+          {
+            "code": "109740009",
+            "display": "Overcontoured emergence profile (disorder)"
+          },
+          {
+            "code": "1488000",
+            "display": "Postoperative nausea and vomiting (disorder)"
+          },
+          {
+            "code": "733858005",
+            "display": "Acute severe refractory exacerbation of asthma (disorder)"
+          },
+          {
+            "code": "363746003",
+            "display": "Acute pharyngitis (disorder)"
+          },
+          {
+            "code": "404640003",
+            "display": "Dizziness (finding)"
+          },
+          {
+            "code": "232401004",
+            "display": "Glandular fever pharyngitis (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "R50.9",
+            "display": "Fever, unspecified"
+          },
+          {
+            "code": "J45.901",
+            "display": "Unspecified asthma with (acute) exacerbation"
+          },
+          {
+            "code": "J06.9",
+            "display": "Acute upper respiratory infection, unspecified"
+          },
+          {
+            "code": "R10.9",
+            "display": "Unspecified abdominal pain"
+          },
+          {
+            "code": "R42",
+            "display": "Dizziness and giddiness"
+          },
+          {
+            "code": "R55",
+            "display": "Syncope and collapse"
+          },
+          {
+            "code": "K59.00",
+            "display": "Constipation, unspecified"
+          },
+          {
+            "code": "N39.0",
+            "display": "Urinary tract infection, site not specified"
+          },
+          {
+            "code": "R07.9",
+            "display": "Chest pain, unspecified"
+          },
+          {
+            "code": "R11.2",
+            "display": "Nausea with vomiting, unspecified"
+          },
+          {
+            "code": "K08.89",
+            "display": "Other specified disorders of teeth and supporting structures"
+          },
+          {
+            "code": "R51",
+            "display": "Headache"
+          },
+          {
+            "code": "K52.9",
+            "display": "Noninfective gastroenteritis and colitis, unspecified"
+          },
+          {
+            "code": "R07.89",
+            "display": "Other chest pain"
+          },
+          {
+            "code": "M54.5",
+            "display": "Low back pain"
+          },
+          {
+            "code": "J02.9",
+            "display": "Acute pharyngitis, unspecified"
+          },
+          {
+            "code": "J20.9",
+            "display": "Acute bronchitis, unspecified"
+          },
+          {
+            "code": "R10.13",
+            "display": "Epigastric pain"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "20210901",
+        "concept": [
+          {
+            "code": "230737003",
+            "display": "Drop attacks in middle-aged woman (finding)"
+          }
+        ]
+      }
+    ]
+  }
+}

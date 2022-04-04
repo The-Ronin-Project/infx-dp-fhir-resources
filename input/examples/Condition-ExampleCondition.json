@@ -1,0 +1,38 @@
+{
+  "resourceType": "Condition",
+  "id": "ExampleCondition",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-condition"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "013"
+    }
+  ],
+  "category": [
+    {
+      "coding": [
+        {
+          "display": "encounter-diagnosis"
+        }
+      ],
+      "text": "Encounter Diagnosis"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "162573006",
+        "system": "http://snomed.info/sct",
+        "display": "Suspected lung cancer"
+      }
+    ],
+    "text": "code text"
+  },
+  "subject": {
+    "display": "Margarita Bergnaum"
+  }
+}

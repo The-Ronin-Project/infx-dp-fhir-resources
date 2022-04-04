@@ -1,0 +1,22 @@
+{
+  "resourceType": "Observation",
+  "id": "ExampleObservation",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-observation"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "013"
+    }
+  ],
+  "subject": {
+    "display": "Luke Ruecker"
+  },
+  "status": "registered",
+  "code": {
+    "text": "code text"
+  }
+}

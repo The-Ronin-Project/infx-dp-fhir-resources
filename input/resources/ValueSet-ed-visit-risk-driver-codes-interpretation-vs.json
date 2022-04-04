@@ -1,0 +1,27 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "EDVisitRiskDriverInterpretationCodesVS",
+  "id": "ed-visit-risk-driver-codes-interpretation-vs",
+  "title": "ED Visit Risk Driver Codes Value Set",
+  "description": "Contains the values related to ED Visit risk drivers interpretation",
+  "version": "0.9.7",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-risk-driver-codes-interpretation-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "http://projectronin.com/ds/riskDriver/interpretation",
+        "concept": [
+          {
+            "code": "increase",
+            "display": "Increase"
+          },
+          {
+            "code": "decrease",
+            "display": "Decrease"
+          }
+        ]
+      }
+    ]
+  }
+}

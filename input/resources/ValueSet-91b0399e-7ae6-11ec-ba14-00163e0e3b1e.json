@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "CA27_29",
+  "id": "91b0399e-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "CA27.29",
+  "description": "LOINC codes indicating CA27.29 measurement Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/91b0399e-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "5120",
+            "display": "Breast CA 27.29-Mayo"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "17842-6",
+            "display": "Cancer Ag 27-29 [Units/volume] in Serum or Plasma"
+          },
+          {
+            "code": "2012-3",
+            "display": "Cancer Ag 27-29 [Presence] in Serum or Plasma"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "resourceType": "Observation",
+  "id": "roninEdVisitRationale",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/ed-visit-rationale"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "4525004",
+        "system": "http://snomed.info/sct",
+        "display": "Emergency department patient visit"
+      }
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "013"
+    }
+  ],
+  "component": [
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/category",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "Demographics",
+                "system": "http://projectronin.com/ds/riskDriver/category",
+                "display": "Demographics"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "RiskDriver",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Risk Driver Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "AgeRiskDriver",
+      "valueQuantity": {
+        "value": 0.7
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "AGE",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Age"
+          }
+        ]
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "code": "decrease",
+              "system": "http://projectronin.com/ds/riskDriver/interpretation"
+            }
+          ]
+        }
+      ],
+      "referenceRange": [
+        {
+          "low": {
+            "value": 0
+          },
+          "high": {
+            "value": 1
+          },
+          "text": "Age Range"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/category",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "Demographics",
+                "system": "http://projectronin.com/ds/riskDriver/category",
+                "display": "Demographics"
+              }
+            ]
+          }
+        },
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "RiskDriver",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Risk Driver Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "MaritalStatusRiskDriver",
+      "valueQuantity": {
+        "value": 0.9
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "MS",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Marital Status"
+          }
+        ]
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "code": "increase",
+              "system": "http://projectronin.com/ds/riskDriver/interpretation"
+            }
+          ]
+        }
+      ],
+      "referenceRange": [
+        {
+          "low": {
+            "value": 0
+          },
+          "high": {
+            "value": 1
+          },
+          "text": "Marital Status Range"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "PatientComparison",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Patient Comparison Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "AgePatientComparison",
+      "code": {
+        "coding": [
+          {
+            "code": "AGE",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "Age"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 65.3
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "PatientComparison",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Patient Comparison Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "StageAndTNMPatientComparison",
+      "code": {
+        "coding": [
+          {
+            "code": "TSP",
+            "system": "http://projectronin.com/ds/riskDriver",
+            "display": "T Stage (Pathologic)"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 54.6
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "PatientComparison",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Patient Comparison Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "OverallPatientComparison",
+      "code": {
+        "coding": [
+          {
+            "code": "OC",
+            "system": "http://projectronin.com/ds/patientComparison",
+            "display": "Overall Comparison"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 32.5
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "Labs",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Labs Component"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "Labs",
+      "code": {
+        "coding": [
+          {
+            "code": "91b0399e-7ae6-11ec-ba14-00163e0e3b1e",
+            "system": "http://projectronin.com/ds/lab",
+            "display": "CA27.29",
+            "version": "1"
+          },
+          {
+            "code": "94a4b72e-7ae6-11ec-ba14-00163e0e3b1e",
+            "system": "http://projectronin.com/ds/lab",
+            "display": "Lipase",
+            "version": "2"
+          }
+        ]
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/componentType",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "Symptoms",
+                "system": "http://projectronin.com/observation/componentType",
+                "display": "Symptoms Component"
+              }
+            ]
+          }
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "extension": [
+              {
+                "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/eventDate",
+                "valueDate": "2021-09-10"
+              }
+            ],
+            "code": "Diarrhea",
+            "system": "http://projectronin.com/ds/symptom",
+            "display": "Diarrhea"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://projectronin.com/fhir/us/ronin/StructureDefinition/eventDate",
+                "valueDate": "2020-02-12"
+              }
+            ],
+            "code": "Pain",
+            "system": "http://projectronin.com/ds/symptom",
+            "display": "Pain"
+          }
+        ],
+        "text": "Symptoms"
+      },
+      "id": "Symptoms"
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "risk-rationale",
+          "system": "http://projectronin.com/observation/categoryType",
+          "display": "Risk Assessment Rationale"
+        }
+      ]
+    }
+  ],
+  "focus": [
+    {
+      "reference": "RiskAssessment/roninEdVisitRiskAssessment"
+    }
+  ],
+  "issued": "2019-12-07T13:28:17.000Z"
+}

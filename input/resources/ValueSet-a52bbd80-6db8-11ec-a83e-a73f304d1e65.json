@@ -1,0 +1,1183 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "AlkylatingAgents",
+  "id": "a52bbd80-6db8-11ec-a83e-a73f304d1e65",
+  "title": "Alkylating Agents",
+  "description": "RxNorm drugs, ingredients of Alkylating Agents and Related MVP for ED risk model features",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/a52bbd80-6db8-11ec-a83e-a73f304d1e65",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "RXNORM_20AA_220103F",
+        "concept": [
+          {
+            "code": "574864",
+            "display": "busulfan 6 MG/ML [Busulfex]"
+          },
+          {
+            "code": "1734921",
+            "display": "cyclophosphamide 2000 MG Injection"
+          },
+          {
+            "code": "564078",
+            "display": "busulfan 2 MG [Myleran]"
+          },
+          {
+            "code": "1740444",
+            "display": "mechlorethamine hydrochloride 10 MG [Mustargen]"
+          },
+          {
+            "code": "1167136",
+            "display": "Ifex Injectable Product"
+          },
+          {
+            "code": "239180",
+            "display": "streptozocin 1000 MG Injection"
+          },
+          {
+            "code": "700883",
+            "display": "temozolomide 140 MG Oral Capsule"
+          },
+          {
+            "code": "1729368",
+            "display": "carmustine Injection"
+          },
+          {
+            "code": "10473",
+            "display": "thiotepa"
+          },
+          {
+            "code": "1809089",
+            "display": "streptozocin Injection"
+          },
+          {
+            "code": "1791597",
+            "display": "60 ML ifosfamide 50 MG/ML Injection"
+          },
+          {
+            "code": "1162765",
+            "display": "treosulfan Injectable Product"
+          },
+          {
+            "code": "197549",
+            "display": "cyclophosphamide 25 MG Oral Tablet"
+          },
+          {
+            "code": "1805006",
+            "display": "bendamustine hydrochloride 25 MG"
+          },
+          {
+            "code": "1185667",
+            "display": "Myleran Pill"
+          },
+          {
+            "code": "1437711",
+            "display": "mechlorethamine 0.00016 MG/MG Topical Gel"
+          },
+          {
+            "code": "309012",
+            "display": "carmustine 100 MG Injection"
+          },
+          {
+            "code": "1734918",
+            "display": "cyclophosphamide 1000 MG"
+          },
+          {
+            "code": "330797",
+            "display": "temozolomide 100 MG"
+          },
+          {
+            "code": "1162766",
+            "display": "treosulfan Oral Product"
+          },
+          {
+            "code": "876399",
+            "display": "melphalan 50 MG Injection [Alkeran]"
+          },
+          {
+            "code": "6996",
+            "display": "mitobronitol"
+          },
+          {
+            "code": "366431",
+            "display": "temozolomide Oral Capsule [Temodar]"
+          },
+          {
+            "code": "2568663",
+            "display": "2.5 ML cyclophosphamide 200 MG/ML Injection"
+          },
+          {
+            "code": "316160",
+            "display": "lomustine 10 MG"
+          },
+          {
+            "code": "105567",
+            "display": "treosulfan 250 MG Oral Capsule"
+          },
+          {
+            "code": "261291",
+            "display": "temozolomide 250 MG Oral Capsule [Temodar]"
+          },
+          {
+            "code": "1809092",
+            "display": "streptozocin Injection [Zanosar]"
+          },
+          {
+            "code": "2178265",
+            "display": "Belrapzo Injectable Product"
+          },
+          {
+            "code": "1745088",
+            "display": "melphalan Injection [Evomela]"
+          },
+          {
+            "code": "1176189",
+            "display": "Alkeran Injectable Product"
+          },
+          {
+            "code": "1731339",
+            "display": "dacarbazine 100 MG"
+          },
+          {
+            "code": "343027",
+            "display": "BiCNU"
+          },
+          {
+            "code": "1720734",
+            "display": "lomustine 5 MG"
+          },
+          {
+            "code": "317160",
+            "display": "temozolomide 100 MG Oral Capsule"
+          },
+          {
+            "code": "378774",
+            "display": "carmustine Drug Implant"
+          },
+          {
+            "code": "6674",
+            "display": "mechlorethamine"
+          },
+          {
+            "code": "2568661",
+            "display": "5 ML cyclophosphamide 200 MG/ML Injection"
+          },
+          {
+            "code": "992166",
+            "display": "mechlorethamine hydrochloride 10 MG Injection"
+          },
+          {
+            "code": "1156487",
+            "display": "thiotepa Injectable Product"
+          },
+          {
+            "code": "313210",
+            "display": "temozolomide 250 MG Oral Capsule"
+          },
+          {
+            "code": "393483",
+            "display": "treosulfan 50 MG/ML"
+          },
+          {
+            "code": "1545780",
+            "display": "lomustine 40 MG Oral Capsule [Gleostine]"
+          },
+          {
+            "code": "368873",
+            "display": "melphalan Oral Tablet [Alkeran]"
+          },
+          {
+            "code": "1791593",
+            "display": "ifosfamide 1000 MG Injection"
+          },
+          {
+            "code": "352384",
+            "display": "ifosfamide / mesna"
+          },
+          {
+            "code": "1734917",
+            "display": "cyclophosphamide 500 MG Injection"
+          },
+          {
+            "code": "1437713",
+            "display": "mechlorethamine 0.00016 MG/MG Topical Gel [Valchlor]"
+          },
+          {
+            "code": "253113",
+            "display": "10 ML busulfan 6 MG/ML Injection"
+          },
+          {
+            "code": "105551",
+            "display": "busulfan 2 MG Oral Tablet [Myleran]"
+          },
+          {
+            "code": "313211",
+            "display": "temozolomide 5 MG Oral Capsule"
+          },
+          {
+            "code": "212994",
+            "display": "carmustine 7.7 MG Drug Implant [Gliadel]"
+          },
+          {
+            "code": "1161487",
+            "display": "temozolomide Pill"
+          },
+          {
+            "code": "1156288",
+            "display": "ifosfamide Injectable Product"
+          },
+          {
+            "code": "1545777",
+            "display": "lomustine 100 MG [Gleostine]"
+          },
+          {
+            "code": "377198",
+            "display": "treosulfan Injectable Solution"
+          },
+          {
+            "code": "1151375",
+            "display": "busulfan Oral Product"
+          },
+          {
+            "code": "197896",
+            "display": "lomustine 40 MG Oral Capsule"
+          },
+          {
+            "code": "221085",
+            "display": "cyclophosphamide lyophilized"
+          },
+          {
+            "code": "8637",
+            "display": "prednimustine"
+          },
+          {
+            "code": "284425",
+            "display": "10 ML busulfan 6 MG/ML Injection [Busulfex]"
+          },
+          {
+            "code": "1791595",
+            "display": "ifosfamide 1000 MG Injection [Ifex]"
+          },
+          {
+            "code": "202994",
+            "display": "Leukeran"
+          },
+          {
+            "code": "371664",
+            "display": "cyclophosphamide Oral Tablet"
+          },
+          {
+            "code": "1183892",
+            "display": "Mustargen Injectable Product"
+          },
+          {
+            "code": "1158654",
+            "display": "mechlorethamine Injectable Product"
+          },
+          {
+            "code": "6718",
+            "display": "melphalan"
+          },
+          {
+            "code": "1740441",
+            "display": "mechlorethamine hydrochloride 10 MG"
+          },
+          {
+            "code": "574515",
+            "display": "temozolomide 100 MG [Temodar]"
+          },
+          {
+            "code": "1545772",
+            "display": "lomustine 10 MG [Gleostine]"
+          },
+          {
+            "code": "284676",
+            "display": "Busulfex"
+          },
+          {
+            "code": "1726102",
+            "display": "bendamustine hydrochloride 25 MG/ML Injectable Solution [Bendeka]"
+          },
+          {
+            "code": "1729370",
+            "display": "carmustine 100 MG [BiCNU]"
+          },
+          {
+            "code": "261290",
+            "display": "temozolomide 100 MG Oral Capsule [Temodar]"
+          },
+          {
+            "code": "368542",
+            "display": "busulfan Oral Tablet [Myleran]"
+          },
+          {
+            "code": "405951",
+            "display": "carmustine Drug Implant [Gliadel]"
+          },
+          {
+            "code": "2386859",
+            "display": "cyclophosphamide 200 MG/ML Injectable Solution"
+          },
+          {
+            "code": "3002",
+            "display": "cyclophosphamide"
+          },
+          {
+            "code": "1724294",
+            "display": "temozolomide Injection [Temodar]"
+          },
+          {
+            "code": "690313",
+            "display": "cyclophosphamide / mannitol"
+          },
+          {
+            "code": "1187029",
+            "display": "Zanosar Injectable Product"
+          },
+          {
+            "code": "1181414",
+            "display": "Temodar Oral Product"
+          },
+          {
+            "code": "281544",
+            "display": "Mustargen"
+          },
+          {
+            "code": "1720736",
+            "display": "lomustine 5 MG [Gleostine]"
+          },
+          {
+            "code": "1660008",
+            "display": "thiotepa 15 MG"
+          },
+          {
+            "code": "315626",
+            "display": "chlorambucil 2 MG"
+          },
+          {
+            "code": "1729367",
+            "display": "carmustine 100 MG"
+          },
+          {
+            "code": "1791587",
+            "display": "ifosfamide Injection"
+          },
+          {
+            "code": "1791588",
+            "display": "ifosfamide 3000 MG Injection"
+          },
+          {
+            "code": "330459",
+            "display": "ifosfamide 50 MG/ML"
+          },
+          {
+            "code": "368349",
+            "display": "chlorambucil Oral Tablet [Leukeran]"
+          },
+          {
+            "code": "1159788",
+            "display": "melphalan Oral Product"
+          },
+          {
+            "code": "1545773",
+            "display": "lomustine Oral Capsule [Gleostine]"
+          },
+          {
+            "code": "1151833",
+            "display": "dacarbazine Injectable Product"
+          },
+          {
+            "code": "6466",
+            "display": "lomustine"
+          },
+          {
+            "code": "564080",
+            "display": "chlorambucil 2 MG [Leukeran]"
+          },
+          {
+            "code": "1545771",
+            "display": "Gleostine"
+          },
+          {
+            "code": "10996",
+            "display": "uracil mustard"
+          },
+          {
+            "code": "564088",
+            "display": "melphalan 2 MG [Alkeran]"
+          },
+          {
+            "code": "1151727",
+            "display": "carmustine Injectable Product"
+          },
+          {
+            "code": "317620",
+            "display": "busulfan 2 MG"
+          },
+          {
+            "code": "379269",
+            "display": "mitobronitol Oral Tablet"
+          },
+          {
+            "code": "37776",
+            "display": "temozolomide"
+          },
+          {
+            "code": "197422",
+            "display": "busulfan 2 MG Oral Tablet"
+          },
+          {
+            "code": "197462",
+            "display": "chlorambucil 2 MG Oral Tablet"
+          },
+          {
+            "code": "1745090",
+            "display": "melphalan 50 MG Injection [Evomela]"
+          },
+          {
+            "code": "1919208",
+            "display": "Tepadina Injectable Product"
+          },
+          {
+            "code": "1660009",
+            "display": "thiotepa 15 MG Injection"
+          },
+          {
+            "code": "1720735",
+            "display": "lomustine 5 MG Oral Capsule"
+          },
+          {
+            "code": "331482",
+            "display": "temozolomide 5 MG"
+          },
+          {
+            "code": "316162",
+            "display": "lomustine 40 MG"
+          },
+          {
+            "code": "340520",
+            "display": "carmustine 7.7 MG"
+          },
+          {
+            "code": "197895",
+            "display": "lomustine 100 MG Oral Capsule"
+          },
+          {
+            "code": "1159789",
+            "display": "melphalan Pill"
+          },
+          {
+            "code": "2346",
+            "display": "chlorambucil"
+          },
+          {
+            "code": "317646",
+            "display": "melphalan 2 MG"
+          },
+          {
+            "code": "105552",
+            "display": "carmustine 100 MG Injection [BiCNU]"
+          },
+          {
+            "code": "1791592",
+            "display": "ifosfamide 1000 MG"
+          },
+          {
+            "code": "900173",
+            "display": "{2 (60 ML ifosfamide 50 MG/ML Injection) / 6 (mesna 100 MG/ML Injectable Solution) } Pack"
+          },
+          {
+            "code": "1791591",
+            "display": "ifosfamide 3000 MG Injection [Ifex]"
+          },
+          {
+            "code": "1731336",
+            "display": "dacarbazine 200 MG"
+          },
+          {
+            "code": "1160009",
+            "display": "bendamustine Injectable Product"
+          },
+          {
+            "code": "1726099",
+            "display": "bendamustine hydrochloride 25 MG/ML [Bendeka]"
+          },
+          {
+            "code": "1745089",
+            "display": "Evomela Injectable Product"
+          },
+          {
+            "code": "1545779",
+            "display": "lomustine 40 MG [Gleostine]"
+          },
+          {
+            "code": "1437554",
+            "display": "mechlorethamine Topical Gel"
+          },
+          {
+            "code": "1161486",
+            "display": "temozolomide Oral Product"
+          },
+          {
+            "code": "1660002",
+            "display": "thiotepa 100 MG"
+          },
+          {
+            "code": "105566",
+            "display": "mitobronitol 125 MG Oral Tablet"
+          },
+          {
+            "code": "1166067",
+            "display": "Leukeran Pill"
+          },
+          {
+            "code": "1179668",
+            "display": "Treanda Injectable Product"
+          },
+          {
+            "code": "1171232",
+            "display": "Gliadel Drug Implant Product"
+          },
+          {
+            "code": "1437710",
+            "display": "mechlorethamine 0.00016 MG/MG"
+          },
+          {
+            "code": "1437967",
+            "display": "cyclophosphamide Oral Capsule"
+          },
+          {
+            "code": "197919",
+            "display": "melphalan 2 MG Oral Tablet"
+          },
+          {
+            "code": "1791586",
+            "display": "ifosfamide 3000 MG"
+          },
+          {
+            "code": "1660003",
+            "display": "thiotepa Injection"
+          },
+          {
+            "code": "1805003",
+            "display": "bendamustine Injection [Treanda]"
+          },
+          {
+            "code": "1740948",
+            "display": "melphalan 50 MG"
+          },
+          {
+            "code": "1740445",
+            "display": "mechlorethamine Injection [Mustargen]"
+          },
+          {
+            "code": "835948",
+            "display": "temozolomide 100 MG Injection [Temodar]"
+          },
+          {
+            "code": "217701",
+            "display": "Ifex"
+          },
+          {
+            "code": "1919209",
+            "display": "thiotepa 100 MG Injection [Tepadina]"
+          },
+          {
+            "code": "1545988",
+            "display": "cyclophosphamide anhydrous"
+          },
+          {
+            "code": "572946",
+            "display": "carmustine 7.7 MG [Gliadel]"
+          },
+          {
+            "code": "1151376",
+            "display": "busulfan Pill"
+          },
+          {
+            "code": "1828",
+            "display": "busulfan"
+          },
+          {
+            "code": "155036",
+            "display": "mechlorethamine hydrochloride"
+          },
+          {
+            "code": "371375",
+            "display": "chlorambucil Oral Tablet"
+          },
+          {
+            "code": "2386858",
+            "display": "cyclophosphamide 200 MG/ML"
+          },
+          {
+            "code": "374610",
+            "display": "temozolomide Oral Capsule"
+          },
+          {
+            "code": "1153039",
+            "display": "chlorambucil Pill"
+          },
+          {
+            "code": "1809088",
+            "display": "streptozocin 1000 MG"
+          },
+          {
+            "code": "360546",
+            "display": "mitobronitol 125 MG"
+          },
+          {
+            "code": "1734920",
+            "display": "cyclophosphamide 2000 MG"
+          },
+          {
+            "code": "1156181",
+            "display": "cyclophosphamide Injectable Product"
+          },
+          {
+            "code": "1159787",
+            "display": "melphalan Injectable Product"
+          },
+          {
+            "code": "1161757",
+            "display": "streptozocin Injectable Product"
+          },
+          {
+            "code": "1165371",
+            "display": "mitobronitol Pill"
+          },
+          {
+            "code": "1745087",
+            "display": "melphalan 50 MG [Evomela]"
+          },
+          {
+            "code": "5657",
+            "display": "ifosfamide"
+          },
+          {
+            "code": "1007452",
+            "display": "mechlorethamine / quinine / terpin hydrate"
+          },
+          {
+            "code": "1791599",
+            "display": "20 ML ifosfamide 50 MG/ML Injection"
+          },
+          {
+            "code": "1156183",
+            "display": "cyclophosphamide Pill"
+          },
+          {
+            "code": "336841",
+            "display": "treosulfan 250 MG"
+          },
+          {
+            "code": "203010",
+            "display": "Myleran"
+          },
+          {
+            "code": "10114",
+            "display": "streptozocin"
+          },
+          {
+            "code": "1805004",
+            "display": "bendamustine hydrochloride 100 MG Injection [Treanda]"
+          },
+          {
+            "code": "1185666",
+            "display": "Myleran Oral Product"
+          },
+          {
+            "code": "261663",
+            "display": "Temodar"
+          },
+          {
+            "code": "261289",
+            "display": "temozolomide 20 MG Oral Capsule [Temodar]"
+          },
+          {
+            "code": "315503",
+            "display": "busulfan 6 MG/ML"
+          },
+          {
+            "code": "1729371",
+            "display": "carmustine Injection [BiCNU]"
+          },
+          {
+            "code": "217357",
+            "display": "Gliadel"
+          },
+          {
+            "code": "1791590",
+            "display": "ifosfamide Injection [Ifex]"
+          },
+          {
+            "code": "1545775",
+            "display": "Gleostine Pill"
+          },
+          {
+            "code": "1805009",
+            "display": "bendamustine hydrochloride 25 MG Injection [Treanda]"
+          },
+          {
+            "code": "1720737",
+            "display": "lomustine 5 MG Oral Capsule [Gleostine]"
+          },
+          {
+            "code": "1437558",
+            "display": "mechlorethamine Topical Gel [Valchlor]"
+          },
+          {
+            "code": "1114693",
+            "display": "bendamustine hydrochloride"
+          },
+          {
+            "code": "313209",
+            "display": "temozolomide 20 MG Oral Capsule"
+          },
+          {
+            "code": "315747",
+            "display": "cyclophosphamide 50 MG"
+          },
+          {
+            "code": "1168702",
+            "display": "Busulfex Injectable Product"
+          },
+          {
+            "code": "330405",
+            "display": "temozolomide 20 MG"
+          },
+          {
+            "code": "250758",
+            "display": "treosulfan 50 MG/ML Injectable Solution"
+          },
+          {
+            "code": "151325",
+            "display": "Alkeran"
+          },
+          {
+            "code": "741098",
+            "display": "Treanda"
+          },
+          {
+            "code": "1805007",
+            "display": "bendamustine hydrochloride 25 MG Injection"
+          },
+          {
+            "code": "790322",
+            "display": "bendamustine Injectable Solution"
+          },
+          {
+            "code": "1804999",
+            "display": "bendamustine hydrochloride 100 MG"
+          },
+          {
+            "code": "371165",
+            "display": "busulfan Oral Tablet"
+          },
+          {
+            "code": "705617",
+            "display": "temozolomide 140 MG Oral Capsule [Temodar]"
+          },
+          {
+            "code": "1726097",
+            "display": "bendamustine hydrochloride 25 MG/ML Injectable Solution"
+          },
+          {
+            "code": "700885",
+            "display": "temozolomide 180 MG Oral Capsule"
+          },
+          {
+            "code": "1734916",
+            "display": "cyclophosphamide Injection"
+          },
+          {
+            "code": "1161485",
+            "display": "temozolomide Injectable Product"
+          },
+          {
+            "code": "1158655",
+            "display": "mechlorethamine Topical Product"
+          },
+          {
+            "code": "1165319",
+            "display": "lomustine Oral Product"
+          },
+          {
+            "code": "2178262",
+            "display": "Belrapzo"
+          },
+          {
+            "code": "1176190",
+            "display": "Alkeran Oral Product"
+          },
+          {
+            "code": "1181415",
+            "display": "Temodar Pill"
+          },
+          {
+            "code": "1437559",
+            "display": "Valchlor Topical Product"
+          },
+          {
+            "code": "705616",
+            "display": "temozolomide 140 MG [Temodar]"
+          },
+          {
+            "code": "1791594",
+            "display": "ifosfamide 1000 MG [Ifex]"
+          },
+          {
+            "code": "1437968",
+            "display": "cyclophosphamide 25 MG Oral Capsule"
+          },
+          {
+            "code": "1437969",
+            "display": "cyclophosphamide 50 MG Oral Capsule"
+          },
+          {
+            "code": "1731337",
+            "display": "dacarbazine Injection"
+          },
+          {
+            "code": "899367",
+            "display": "{10 (20 ML ifosfamide 50 MG/ML Injection) / 10 (mesna 100 MG/ML Injectable Solution) } Pack"
+          },
+          {
+            "code": "1726101",
+            "display": "Bendeka Injectable Product"
+          },
+          {
+            "code": "374186",
+            "display": "treosulfan Oral Capsule"
+          },
+          {
+            "code": "1740952",
+            "display": "melphalan Injection [Alkeran]"
+          },
+          {
+            "code": "235857",
+            "display": "melphalan hydrochloride"
+          },
+          {
+            "code": "2178263",
+            "display": "bendamustine hydrochloride 25 MG/ML [Belrapzo]"
+          },
+          {
+            "code": "1545774",
+            "display": "Gleostine Oral Product"
+          },
+          {
+            "code": "1731340",
+            "display": "dacarbazine 100 MG Injection"
+          },
+          {
+            "code": "315746",
+            "display": "cyclophosphamide 25 MG"
+          },
+          {
+            "code": "372756",
+            "display": "melphalan Oral Tablet"
+          },
+          {
+            "code": "1151413",
+            "display": "carmustine Drug Implant Product"
+          },
+          {
+            "code": "1166066",
+            "display": "Leukeran Oral Product"
+          },
+          {
+            "code": "1165370",
+            "display": "mitobronitol Oral Product"
+          },
+          {
+            "code": "1740442",
+            "display": "mechlorethamine Injection"
+          },
+          {
+            "code": "1745086",
+            "display": "Evomela"
+          },
+          {
+            "code": "1660004",
+            "display": "thiotepa 100 MG Injection"
+          },
+          {
+            "code": "1008398",
+            "display": "mechlorethamine / terpin hydrate"
+          },
+          {
+            "code": "207948",
+            "display": "streptozocin 1000 MG Injection [Zanosar]"
+          },
+          {
+            "code": "1731338",
+            "display": "dacarbazine 200 MG Injection"
+          },
+          {
+            "code": "1919211",
+            "display": "thiotepa 15 MG Injection [Tepadina]"
+          },
+          {
+            "code": "1181413",
+            "display": "Temodar Injectable Product"
+          },
+          {
+            "code": "220991",
+            "display": "Zanosar"
+          },
+          {
+            "code": "2178266",
+            "display": "bendamustine hydrochloride 25 MG/ML Injectable Solution [Belrapzo]"
+          },
+          {
+            "code": "197894",
+            "display": "lomustine 10 MG Oral Capsule"
+          },
+          {
+            "code": "1153038",
+            "display": "chlorambucil Oral Product"
+          },
+          {
+            "code": "311487",
+            "display": "melphalan 50 MG Injection"
+          },
+          {
+            "code": "1791589",
+            "display": "ifosfamide 3000 MG [Ifex]"
+          },
+          {
+            "code": "38865",
+            "display": "trofosfamide"
+          },
+          {
+            "code": "261288",
+            "display": "temozolomide 5 MG Oral Capsule [Temodar]"
+          },
+          {
+            "code": "1919207",
+            "display": "thiotepa Injection [Tepadina]"
+          },
+          {
+            "code": "1156182",
+            "display": "cyclophosphamide Oral Product"
+          },
+          {
+            "code": "1176191",
+            "display": "Alkeran Pill"
+          },
+          {
+            "code": "705618",
+            "display": "temozolomide 180 MG [Temodar]"
+          },
+          {
+            "code": "1729353",
+            "display": "busulfan Injection [Busulfex]"
+          },
+          {
+            "code": "197550",
+            "display": "cyclophosphamide 50 MG Oral Tablet"
+          },
+          {
+            "code": "1805001",
+            "display": "bendamustine hydrochloride 100 MG Injection"
+          },
+          {
+            "code": "2105",
+            "display": "carmustine"
+          },
+          {
+            "code": "1545778",
+            "display": "lomustine 100 MG Oral Capsule [Gleostine]"
+          },
+          {
+            "code": "2178264",
+            "display": "bendamustine Injectable Solution [Belrapzo]"
+          },
+          {
+            "code": "1173621",
+            "display": "BiCNU Injectable Product"
+          },
+          {
+            "code": "700882",
+            "display": "temozolomide 140 MG"
+          },
+          {
+            "code": "700884",
+            "display": "temozolomide 180 MG"
+          },
+          {
+            "code": "900175",
+            "display": "{5 (20 ML ifosfamide 50 MG/ML Injection) / 3 (mesna 100 MG/ML Injectable Solution) } Pack"
+          },
+          {
+            "code": "1162767",
+            "display": "treosulfan Pill"
+          },
+          {
+            "code": "372631",
+            "display": "lomustine Oral Capsule"
+          },
+          {
+            "code": "316161",
+            "display": "lomustine 100 MG"
+          },
+          {
+            "code": "1151374",
+            "display": "busulfan Injectable Product"
+          },
+          {
+            "code": "574513",
+            "display": "temozolomide 5 MG [Temodar]"
+          },
+          {
+            "code": "1366537",
+            "display": "Tepadina"
+          },
+          {
+            "code": "1740951",
+            "display": "melphalan 50 MG [Alkeran]"
+          },
+          {
+            "code": "1165320",
+            "display": "lomustine Pill"
+          },
+          {
+            "code": "705619",
+            "display": "temozolomide 180 MG Oral Capsule [Temodar]"
+          },
+          {
+            "code": "1724292",
+            "display": "temozolomide Injection"
+          },
+          {
+            "code": "105553",
+            "display": "chlorambucil 2 MG Oral Tablet [Leukeran]"
+          },
+          {
+            "code": "8347",
+            "display": "pipobroman"
+          },
+          {
+            "code": "1809091",
+            "display": "streptozocin 1000 MG [Zanosar]"
+          },
+          {
+            "code": "992168",
+            "display": "mechlorethamine hydrochloride 10 MG Injection [Mustargen]"
+          },
+          {
+            "code": "1919206",
+            "display": "thiotepa 100 MG [Tepadina]"
+          },
+          {
+            "code": "1805002",
+            "display": "bendamustine hydrochloride 100 MG [Treanda]"
+          },
+          {
+            "code": "1805008",
+            "display": "bendamustine hydrochloride 25 MG [Treanda]"
+          },
+          {
+            "code": "835945",
+            "display": "temozolomide 100 MG Injection"
+          },
+          {
+            "code": "1726096",
+            "display": "bendamustine hydrochloride 25 MG/ML"
+          },
+          {
+            "code": "1805000",
+            "display": "bendamustine Injection"
+          },
+          {
+            "code": "309013",
+            "display": "carmustine 7.7 MG Drug Implant"
+          },
+          {
+            "code": "134547",
+            "display": "bendamustine"
+          },
+          {
+            "code": "3098",
+            "display": "dacarbazine"
+          },
+          {
+            "code": "38508",
+            "display": "treosulfan"
+          },
+          {
+            "code": "1729351",
+            "display": "busulfan Injection"
+          },
+          {
+            "code": "1740949",
+            "display": "melphalan Injection"
+          },
+          {
+            "code": "1726098",
+            "display": "Bendeka"
+          },
+          {
+            "code": "1734915",
+            "display": "cyclophosphamide 500 MG"
+          },
+          {
+            "code": "1545776",
+            "display": "lomustine 10 MG Oral Capsule [Gleostine]"
+          },
+          {
+            "code": "1919210",
+            "display": "thiotepa 15 MG [Tepadina]"
+          },
+          {
+            "code": "105562",
+            "display": "melphalan 2 MG Oral Tablet [Alkeran]"
+          },
+          {
+            "code": "4132",
+            "display": "ethoglucid"
+          },
+          {
+            "code": "1726100",
+            "display": "bendamustine Injectable Solution [Bendeka]"
+          },
+          {
+            "code": "1437712",
+            "display": "mechlorethamine 0.00016 MG/MG [Valchlor]"
+          },
+          {
+            "code": "331483",
+            "display": "temozolomide 250 MG"
+          },
+          {
+            "code": "376666",
+            "display": "cyclophosphamide Injectable Solution"
+          },
+          {
+            "code": "574516",
+            "display": "temozolomide 250 MG [Temodar]"
+          },
+          {
+            "code": "1437556",
+            "display": "Valchlor"
+          },
+          {
+            "code": "1734919",
+            "display": "cyclophosphamide 1000 MG Injection"
+          },
+          {
+            "code": "574514",
+            "display": "temozolomide 20 MG [Temodar]"
+          }
+        ]
+      }
+    ]
+  }
+}

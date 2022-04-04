@@ -1,0 +1,27 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "CADM70K",
+  "id": "c30b1d10-6d99-11ec-a98d-00163efae4c9",
+  "title": "CADM70K",
+  "description": "LOINC codes indicating Cancer Ag DM/70K measurement MVP for ED risk model release",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/c30b1d10-6d99-11ec-a98d-00163efae4c9",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "13127-6",
+            "display": "Cancer Ag DM/70K [Units/volume] in Serum or Plasma"
+          }
+        ]
+      }
+    ]
+  }
+}

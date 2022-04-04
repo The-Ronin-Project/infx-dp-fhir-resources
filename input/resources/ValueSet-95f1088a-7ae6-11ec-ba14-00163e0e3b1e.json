@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Sodium",
+  "id": "95f1088a-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "Sodium",
+  "description": "LOINC codes indicating the measurement of Sodium Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/95f1088a-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "2951-2",
+            "display": "Sodium [Moles/volume] in Serum or Plasma"
+          },
+          {
+            "code": "77139-4",
+            "display": "Sodium [Moles/volume] in Serum, Plasma or Blood"
+          },
+          {
+            "code": "39791-9",
+            "display": "Sodium [Moles/volume] in Venous blood"
+          },
+          {
+            "code": "41657-8",
+            "display": "Sodium [Moles/volume] in Mixed venous blood"
+          },
+          {
+            "code": "44783-9",
+            "display": "Sodium [Moles/volume] (Maximum value during study) in Serum or Plasma"
+          },
+          {
+            "code": "2947-0",
+            "display": "Sodium [Moles/volume] in Blood"
+          },
+          {
+            "code": "39792-7",
+            "display": "Sodium [Moles/volume] in Capillary blood"
+          },
+          {
+            "code": "51419-0",
+            "display": "Sodium [Moles/volume] corrected for glucose in Serum or Plasma"
+          },
+          {
+            "code": "32717-1",
+            "display": "Sodium [Moles/volume] in Arterial blood"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "7967",
+            "display": "V Na"
+          },
+          {
+            "code": "6552",
+            "display": "OR Sodium, arterial"
+          },
+          {
+            "code": "7355",
+            "display": "Sodium Lvl"
+          },
+          {
+            "code": "6687",
+            "display": "POC NA"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,857 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "PepticUlcerDisease",
+  "id": "66cae7c0-6d8e-11ec-adf2-c94257d82fe7",
+  "title": "Peptic Ulcer Disease",
+  "description": "SNOMED and ICD.10 for Peptic Ulcer Disease",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/66cae7c0-6d8e-11ec-adf2-c94257d82fe7",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "235608007",
+            "display": "Eosinophilic ulcer of esophagus (disorder)"
+          },
+          {
+            "code": "30183003",
+            "display": "Gastrojejunal ulcer with perforation (disorder)"
+          },
+          {
+            "code": "196658005",
+            "display": "Acute duodenal ulcer with obstruction (disorder)"
+          },
+          {
+            "code": "30811009",
+            "display": "Ulcer of esophagus (disorder)"
+          },
+          {
+            "code": "22620000",
+            "display": "Prepyloric ulcer (disorder)"
+          },
+          {
+            "code": "76338009",
+            "display": "Normopepsinogenemic familial duodenal ulcer (disorder)"
+          },
+          {
+            "code": "235613006",
+            "display": "Radiation ulcer of esophagus (disorder)"
+          },
+          {
+            "code": "79118000",
+            "display": "Acute peptic ulcer with perforation (disorder)"
+          },
+          {
+            "code": "2807004",
+            "display": "Chronic gastrojejunal ulcer with perforation (disorder)"
+          },
+          {
+            "code": "53132006",
+            "display": "Zollinger-Ellison syndrome (disorder)"
+          },
+          {
+            "code": "16121001",
+            "display": "Gastrojejunal ulcer (disorder)"
+          },
+          {
+            "code": "12384004",
+            "display": "Chronic peptic ulcer without hemorrhage AND without perforation but with obstruction (disorder)"
+          },
+          {
+            "code": "724532003",
+            "display": "Ulcer of duodenum caused by chemical (disorder)"
+          },
+          {
+            "code": "724519008",
+            "display": "Gastric ulcer caused by Helicobacter pylori and non-steroidal anti-inflammatory agent (disorder)"
+          },
+          {
+            "code": "111350000",
+            "display": "Acute gastric erosion associated with drug ingestion (disorder)"
+          },
+          {
+            "code": "5492000",
+            "display": "Chronic peptic ulcer without hemorrhage AND without perforation (disorder)"
+          },
+          {
+            "code": "196775009",
+            "display": "Healed gastric ulcer leaving a scar (disorder)"
+          },
+          {
+            "code": "37442009",
+            "display": "Peptic ulcer without hemorrhage AND without perforation (disorder)"
+          },
+          {
+            "code": "782935003",
+            "display": "Tremor, nystagmus, duodenal ulcer syndrome (disorder)"
+          },
+          {
+            "code": "235648004",
+            "display": "Acute drug-induced ulcer of stomach (disorder)"
+          },
+          {
+            "code": "60531007",
+            "display": "Chronic gastric ulcer without hemorrhage AND without perforation but with obstruction (disorder)"
+          },
+          {
+            "code": "1567007",
+            "display": "Chronic gastric ulcer without hemorrhage, without perforation AND without obstruction (disorder)"
+          },
+          {
+            "code": "16516008",
+            "display": "Familial duodenal ulcer associated with rapid gastric emptying (disorder)"
+          },
+          {
+            "code": "23693000",
+            "display": "Acute duodenal ulcer without hemorrhage, without perforation AND without obstruction (disorder)"
+          },
+          {
+            "code": "39204006",
+            "display": "Pyloric ulcer (disorder)"
+          },
+          {
+            "code": "90628007",
+            "display": "Acute gastric ulcer with perforation but without obstruction (disorder)"
+          },
+          {
+            "code": "86983005",
+            "display": "Duodenal ulcer with perforation but without obstruction (disorder)"
+          },
+          {
+            "code": "762276009",
+            "display": "Ulcer of duodenum due to infection (disorder)"
+          },
+          {
+            "code": "250856961000119105",
+            "display": "Chronic ulcer of pyloric antrum (disorder)"
+          },
+          {
+            "code": "64595005",
+            "display": "Ulcer of esophagus due to ingestion of medicines (disorder)"
+          },
+          {
+            "code": "66636001",
+            "display": "Acute gastrojejunal ulcer with perforation (disorder)"
+          },
+          {
+            "code": "717848003",
+            "display": "Ulcer of esophagus due to gastro-esophageal reflux disease with complication (disorder)"
+          },
+          {
+            "code": "80953005",
+            "display": "Chronic peptic ulcer with perforation but without obstruction (disorder)"
+          },
+          {
+            "code": "235689001",
+            "display": "Cushing ulcer of duodenum (disorder)"
+          },
+          {
+            "code": "196707000",
+            "display": "Acute gastrojejunal ulcer (disorder)"
+          },
+          {
+            "code": "36246001",
+            "display": "Chronic gastric ulcer with perforation but without obstruction (disorder)"
+          },
+          {
+            "code": "724523000",
+            "display": "Anastomotic ulcer of stomach caused by drug (disorder)"
+          },
+          {
+            "code": "9829001",
+            "display": "Gastric ulcer with perforation (disorder)"
+          },
+          {
+            "code": "689991000119100",
+            "display": "Gastric ulcer caused by cytomegalovirus (disorder)"
+          },
+          {
+            "code": "40719004",
+            "display": "Erosive esophagitis (disorder)"
+          },
+          {
+            "code": "39755000",
+            "display": "Curling's ulcer (disorder)"
+          },
+          {
+            "code": "235688009",
+            "display": "Stress ulcer of duodenum (disorder)"
+          },
+          {
+            "code": "31452001",
+            "display": "Gastric ulcer without hemorrhage AND without perforation but with obstruction (disorder)"
+          },
+          {
+            "code": "723884008",
+            "display": "Duodenal ulcer caused by bacterium (disorder)"
+          },
+          {
+            "code": "196652006",
+            "display": "Acute duodenal ulcer (disorder)"
+          },
+          {
+            "code": "723104008",
+            "display": "Gastric ulcer caused by ionizing radiation (disorder)"
+          },
+          {
+            "code": "235692002",
+            "display": "Duodenal erosion (disorder)"
+          },
+          {
+            "code": "77987006",
+            "display": "Acute gastrojejunal ulcer without hemorrhage, without perforation AND without obstruction (disorder)"
+          },
+          {
+            "code": "88968005",
+            "display": "Duodenal ulcer with perforation (disorder)"
+          },
+          {
+            "code": "724534002",
+            "display": "Duodenal ulcer caused by fungus (disorder)"
+          },
+          {
+            "code": "76796008",
+            "display": "Chronic gastric ulcer without hemorrhage AND without perforation (disorder)"
+          },
+          {
+            "code": "128288009",
+            "display": "Chronic gastrojejunal ulcer (disorder)"
+          },
+          {
+            "code": "218541000119109",
+            "display": "Gastric hemorrhage due to idiopathic erosive gastritis (disorder)"
+          },
+          {
+            "code": "235611008",
+            "display": "Viral ulcer of esophagus (disorder)"
+          },
+          {
+            "code": "60551006",
+            "display": "Chronic duodenal ulcer with perforation AND obstruction (disorder)"
+          },
+          {
+            "code": "72486001",
+            "display": "Gastric ulcer with perforation AND obstruction (disorder)"
+          },
+          {
+            "code": "48336009",
+            "display": "Peptic ulcer with perforation AND obstruction (disorder)"
+          },
+          {
+            "code": "196687006",
+            "display": "Acute peptic ulcer with obstruction (disorder)"
+          },
+          {
+            "code": "738792004",
+            "display": "Cushing ulcer of esophagus (disorder)"
+          },
+          {
+            "code": "397825006",
+            "display": "Gastric ulcer (disorder)"
+          },
+          {
+            "code": "4911000119101",
+            "display": "Antral ulcer (disorder)"
+          },
+          {
+            "code": "444926003",
+            "display": "Acute erosive gastritis (disorder)"
+          },
+          {
+            "code": "724531005",
+            "display": "Duodenal ulcer caused by ionizing radiation (disorder)"
+          },
+          {
+            "code": "77410006",
+            "display": "Duodenal ulcer with perforation AND obstruction (disorder)"
+          },
+          {
+            "code": "439955006",
+            "display": "Ulcerative esophagitis (disorder)"
+          },
+          {
+            "code": "3023008",
+            "display": "Acute peptic ulcer without hemorrhage, without perforation AND without obstruction (disorder)"
+          },
+          {
+            "code": "738791006",
+            "display": "Cushing ulcer of stomach (disorder)"
+          },
+          {
+            "code": "30514008",
+            "display": "Acute gastrojejunal ulcer without hemorrhage AND without perforation (disorder)"
+          },
+          {
+            "code": "276525003",
+            "display": "Peptic ulcer of newborn (disorder)"
+          },
+          {
+            "code": "196632005",
+            "display": "Acute gastric ulcer with obstruction (disorder)"
+          },
+          {
+            "code": "81225008",
+            "display": "Acute gastric ulcer without hemorrhage AND without perforation but with obstruction (disorder)"
+          },
+          {
+            "code": "713638002",
+            "display": "Gastric ulcer caused by drug (disorder)"
+          },
+          {
+            "code": "723103002",
+            "display": "Gastric ulcer caused by alcohol (disorder)"
+          },
+          {
+            "code": "10389003",
+            "display": "Acute gastrojejunal ulcer without hemorrhage AND without perforation but with obstruction (disorder)"
+          },
+          {
+            "code": "22511002",
+            "display": "Acute duodenal ulcer with perforation but without obstruction (disorder)"
+          },
+          {
+            "code": "18169007",
+            "display": "Duodenal ulcer without hemorrhage AND without perforation but with obstruction (disorder)"
+          },
+          {
+            "code": "196719008",
+            "display": "Chronic gastrojejunal ulcer with obstruction (disorder)"
+          },
+          {
+            "code": "6761005",
+            "display": "Familial hypergastrinemic duodenal ulcer (disorder)"
+          },
+          {
+            "code": "786068005",
+            "display": "Peptic ulcer with obstruction (disorder)"
+          },
+          {
+            "code": "73481001",
+            "display": "Gastric ulcer without hemorrhage AND without perforation (disorder)"
+          },
+          {
+            "code": "40214005",
+            "display": "Chronic duodenal ulcer without hemorrhage AND without perforation (disorder)"
+          },
+          {
+            "code": "840591006",
+            "display": "Duodenal ulcer caused by platelet aggregation inhibitor (disorder)"
+          },
+          {
+            "code": "60400003",
+            "display": "Chronic peptic ulcer without hemorrhage, without perforation AND without obstruction (disorder)"
+          },
+          {
+            "code": "128286008",
+            "display": "Chronic duodenal ulcer (disorder)"
+          },
+          {
+            "code": "724521003",
+            "display": "Ulcer of stomach due to lymphocytic gastritis (disorder)"
+          },
+          {
+            "code": "79806007",
+            "display": "Combined gastric AND duodenal ulcer (disorder)"
+          },
+          {
+            "code": "38365000",
+            "display": "Peptic ulcer without hemorrhage, without perforation AND without obstruction (disorder)"
+          },
+          {
+            "code": "89600751000119100",
+            "display": "Acute ulcer of pyloric antrum (disorder)"
+          },
+          {
+            "code": "29755007",
+            "display": "Duodenal ulcer with increased serum pepsinogen I (disorder)"
+          },
+          {
+            "code": "11818002",
+            "display": "Gastrojejunal ulcer with perforation but without obstruction (disorder)"
+          },
+          {
+            "code": "12625009",
+            "display": "Peptic ulcer with perforation but without obstruction (disorder)"
+          },
+          {
+            "code": "733147004",
+            "display": "Parasitic infection causing ulcer of esophagus (disorder)"
+          },
+          {
+            "code": "88700009",
+            "display": "Fungal ulcer of esophagus (disorder)"
+          },
+          {
+            "code": "34602004",
+            "display": "Chronic duodenal ulcer with perforation but without obstruction (disorder)"
+          },
+          {
+            "code": "301007008",
+            "display": "Gastroesophageal erosion (disorder)"
+          },
+          {
+            "code": "724529001",
+            "display": "Duodenal ulcer caused by drug (disorder)"
+          },
+          {
+            "code": "72219001",
+            "display": "Acute gastrojejunal ulcer with perforation AND obstruction (disorder)"
+          },
+          {
+            "code": "196671008",
+            "display": "Recurrent duodenal ulcer (disorder)"
+          },
+          {
+            "code": "196607008",
+            "display": "Esophageal ulcer caused by aspirin (disorder)"
+          },
+          {
+            "code": "245754007",
+            "display": "Gastroesophageal reflux disease with ulceration (disorder)"
+          },
+          {
+            "code": "196712004",
+            "display": "Acute gastrojejunal ulcer with obstruction (disorder)"
+          },
+          {
+            "code": "737189006",
+            "display": "Ulcer of esophagus due to allergic disorder (disorder)"
+          },
+          {
+            "code": "21759003",
+            "display": "Gastrojejunal ulcer with perforation AND obstruction (disorder)"
+          },
+          {
+            "code": "415624002",
+            "display": "Stress ulcer of stomach (disorder)"
+          },
+          {
+            "code": "781203005",
+            "display": "Curling's ulcer of stomach (disorder)"
+          },
+          {
+            "code": "35517004",
+            "display": "Gastrojejunal ulcer without hemorrhage, without perforation AND without obstruction (disorder)"
+          },
+          {
+            "code": "723100004",
+            "display": "Gastric ulcer caused by virus (disorder)"
+          },
+          {
+            "code": "31301004",
+            "display": "Chronic gastric ulcer with perforation (disorder)"
+          },
+          {
+            "code": "724528009",
+            "display": "Duodenal ulcer caused by Helicobacter pylori (disorder)"
+          },
+          {
+            "code": "61347001",
+            "display": "Acute duodenal ulcer with perforation (disorder)"
+          },
+          {
+            "code": "49916007",
+            "display": "Chronic duodenal ulcer with perforation (disorder)"
+          },
+          {
+            "code": "35681000",
+            "display": "Acute peptic ulcer with perforation AND obstruction (disorder)"
+          },
+          {
+            "code": "59913009",
+            "display": "Gastric ulcer without hemorrhage, without perforation AND without obstruction (disorder)"
+          },
+          {
+            "code": "235651006",
+            "display": "Gastric erosion (disorder)"
+          },
+          {
+            "code": "57940000",
+            "display": "Chronic duodenal ulcer without hemorrhage, without perforation AND without obstruction (disorder)"
+          },
+          {
+            "code": "196609006",
+            "display": "Barrett's ulcer of esophagus (disorder)"
+          },
+          {
+            "code": "415623008",
+            "display": "Stress ulcer (disorder)"
+          },
+          {
+            "code": "724530006",
+            "display": "Duodenal ulcer caused by Helicobacter pylori and non-steroidal anti-inflammatory agent (disorder)"
+          },
+          {
+            "code": "235612001",
+            "display": "Protozoal ulcer of esophagus (disorder)"
+          },
+          {
+            "code": "84038009",
+            "display": "Gastric ulcer with perforation but without obstruction (disorder)"
+          },
+          {
+            "code": "103691000119106",
+            "display": "Gastric ulcer caused by Helicobacter pylori (disorder)"
+          },
+          {
+            "code": "840592004",
+            "display": "Gastric ulcer caused by platelet aggregation inhibitor (disorder)"
+          },
+          {
+            "code": "723101000",
+            "display": "Gastric ulcer caused by fungus (disorder)"
+          },
+          {
+            "code": "737190002",
+            "display": "Ulcer of esophagus due to disorder of immune system (disorder)"
+          },
+          {
+            "code": "23649000",
+            "display": "Cushing ulcer (disorder)"
+          },
+          {
+            "code": "865912001",
+            "display": "Exacerbation of peptic ulcer (disorder)"
+          },
+          {
+            "code": "57871005",
+            "display": "Chronic peptic ulcer with perforation AND obstruction (disorder)"
+          },
+          {
+            "code": "1144981002",
+            "display": "Ulcer of stomach due to Henoch-Schönlein purpura (disorder)"
+          },
+          {
+            "code": "196682000",
+            "display": "Acute peptic ulcer (disorder)"
+          },
+          {
+            "code": "62465000",
+            "display": "Ulcer of esophagus caused by ingestion of chemical (disorder)"
+          },
+          {
+            "code": "762274007",
+            "display": "Ulcer of stomach due to infection (disorder)"
+          },
+          {
+            "code": "55483002",
+            "display": "Chronic gastric ulcer with perforation AND with obstruction (disorder)"
+          },
+          {
+            "code": "235652004",
+            "display": "Multiple gastric erosions (disorder)"
+          },
+          {
+            "code": "723099007",
+            "display": "Gastric ulcer caused by bacterium (disorder)"
+          },
+          {
+            "code": "58085004",
+            "display": "Acute peptic ulcer without hemorrhage AND without perforation but with obstruction (disorder)"
+          },
+          {
+            "code": "67964002",
+            "display": "Acute gastric ulcer without hemorrhage AND without perforation (disorder)"
+          },
+          {
+            "code": "717878007",
+            "display": "Eosinophilic duodenal ulcer (disorder)"
+          },
+          {
+            "code": "128287004",
+            "display": "Chronic peptic ulcer (disorder)"
+          },
+          {
+            "code": "3483000",
+            "display": "Chronic peptic ulcer with perforation (disorder)"
+          },
+          {
+            "code": "47152002",
+            "display": "Gastrojejunal ulcer without hemorrhage AND without perforation but with obstruction (disorder)"
+          },
+          {
+            "code": "63137003",
+            "display": "Chronic erosive gastritis (disorder)"
+          },
+          {
+            "code": "28082003",
+            "display": "Chronic duodenal ulcer without hemorrhage AND without perforation but with obstruction (disorder)"
+          },
+          {
+            "code": "10699001",
+            "display": "Esophagogastric ulcer (disorder)"
+          },
+          {
+            "code": "313425006",
+            "display": "Multiple gastric ulcers (disorder)"
+          },
+          {
+            "code": "235614000",
+            "display": "Stress ulceration of esophagus (disorder)"
+          },
+          {
+            "code": "75342000",
+            "display": "Acute duodenal ulcer without hemorrhage AND without perforation but with obstruction (disorder)"
+          },
+          {
+            "code": "10897002",
+            "display": "Chronic gastrojejunal ulcer with perforation AND with obstruction (disorder)"
+          },
+          {
+            "code": "196639001",
+            "display": "Chronic gastric ulcer with obstruction (disorder)"
+          },
+          {
+            "code": "1086791000119100",
+            "display": "Erosive gastritis (disorder)"
+          },
+          {
+            "code": "13200003",
+            "display": "Peptic ulcer (disorder)"
+          },
+          {
+            "code": "724516001",
+            "display": "Ulcer of esophagus caused by thermal agent (disorder)"
+          },
+          {
+            "code": "717863000",
+            "display": "Peptic anastomotic ulcer (disorder)"
+          },
+          {
+            "code": "68834009",
+            "display": "Giant duodenal ulcer (disorder)"
+          },
+          {
+            "code": "19850005",
+            "display": "Acute gastric ulcer with perforation (disorder)"
+          },
+          {
+            "code": "717891008",
+            "display": "Gastric ulcer due to Zollinger-Ellison syndrome (disorder)"
+          },
+          {
+            "code": "724522005",
+            "display": "Anastomotic ulcer of stomach caused by Helicobacter pylori (disorder)"
+          },
+          {
+            "code": "39344002",
+            "display": "Acute erosion of duodenum (disorder)"
+          },
+          {
+            "code": "32490005",
+            "display": "Acute duodenal ulcer without hemorrhage AND without perforation (disorder)"
+          },
+          {
+            "code": "18665000",
+            "display": "Acute gastric mucosal erosion (disorder)"
+          },
+          {
+            "code": "723102007",
+            "display": "Gastric ulcer due to parasitic infection (disorder)"
+          },
+          {
+            "code": "196666001",
+            "display": "Chronic duodenal ulcer with obstruction (disorder)"
+          },
+          {
+            "code": "724533008",
+            "display": "Duodenal ulcer caused by virus (disorder)"
+          },
+          {
+            "code": "717879004",
+            "display": "Lymphocytic duodenal ulcer (disorder)"
+          },
+          {
+            "code": "43035002",
+            "display": "Childhood duodenal ulcer (disorder)"
+          },
+          {
+            "code": "43694004",
+            "display": "Acute gastric ulcer with perforation AND obstruction (disorder)"
+          },
+          {
+            "code": "34921009",
+            "display": "Acute peptic ulcer with perforation but without obstruction (disorder)"
+          },
+          {
+            "code": "45485004",
+            "display": "Acute peptic ulcer without hemorrhage AND without perforation (disorder)"
+          },
+          {
+            "code": "717892001",
+            "display": "Duodenal ulcer due to Zollinger-Ellison syndrome (disorder)"
+          },
+          {
+            "code": "56776001",
+            "display": "Duodenal ulcer without hemorrhage AND without perforation (disorder)"
+          },
+          {
+            "code": "109813002",
+            "display": "Drug-induced peptic ulcer (disorder)"
+          },
+          {
+            "code": "51868009",
+            "display": "Ulcer of duodenum (disorder)"
+          },
+          {
+            "code": "95529005",
+            "display": "Acute gastric ulcer (disorder)"
+          },
+          {
+            "code": "196694009",
+            "display": "Chronic peptic ulcer with obstruction (disorder)"
+          },
+          {
+            "code": "109814008",
+            "display": "Acute ulcerative gastroenteritis complicating pneumonia (disorder)"
+          },
+          {
+            "code": "56579005",
+            "display": "Chronic gastrojejunal ulcer without hemorrhage AND without perforation but with obstruction (disorder)"
+          },
+          {
+            "code": "34580000",
+            "display": "Duodenal ulcer without hemorrhage, without perforation AND without obstruction (disorder)"
+          },
+          {
+            "code": "62936002",
+            "display": "Acute duodenal ulcer with perforation AND obstruction (disorder)"
+          },
+          {
+            "code": "724520002",
+            "display": "Ulcer of stomach due to eosinophilic gastritis (disorder)"
+          },
+          {
+            "code": "235702004",
+            "display": "Healed gastric ulcer (disorder)"
+          },
+          {
+            "code": "54053008",
+            "display": "Acute gastric ulcer without hemorrhage, without perforation AND without obstruction (disorder)"
+          },
+          {
+            "code": "24060004",
+            "display": "Gastrocolic ulcer (disorder)"
+          },
+          {
+            "code": "72395008",
+            "display": "Acute gastrojejunal ulcer with perforation but without obstruction (disorder)"
+          },
+          {
+            "code": "78054007",
+            "display": "Postpyloric ulcer (disorder)"
+          },
+          {
+            "code": "722200003",
+            "display": "Duodenal ulcer caused by non-steroidal anti-inflammatory drug (disorder)"
+          },
+          {
+            "code": "723105009",
+            "display": "Gastric ulcer caused by chemical (disorder)"
+          },
+          {
+            "code": "89662003",
+            "display": "Helicobacter-associated pyloric ulcer (disorder)"
+          },
+          {
+            "code": "2783007",
+            "display": "Gastrojejunal ulcer without hemorrhage AND without perforation (disorder)"
+          },
+          {
+            "code": "88169003",
+            "display": "Peptic ulcer with perforation (disorder)"
+          },
+          {
+            "code": "41626001",
+            "display": "Chronic gastrojejunal ulcer without hemorrhage, without perforation AND without obstruction (disorder)"
+          },
+          {
+            "code": "129141000119104",
+            "display": "Gastric ulcer caused by non-steroidal anti-inflammatory drug in therapeutic use (disorder)"
+          },
+          {
+            "code": "62477005",
+            "display": "Chronic gastrojejunal ulcer with perforation but without obstruction (disorder)"
+          },
+          {
+            "code": "235690005",
+            "display": "Curling's ulcer of duodenum (disorder)"
+          },
+          {
+            "code": "235609004",
+            "display": "Infective ulcer of esophagus (disorder)"
+          },
+          {
+            "code": "235650007",
+            "display": "Chronic drug-induced ulcer of stomach (disorder)"
+          },
+          {
+            "code": "235610009",
+            "display": "Bacterial ulcer of esophagus (disorder)"
+          },
+          {
+            "code": "4269005",
+            "display": "Chronic gastrojejunal ulcer without hemorrhage AND without perforation (disorder)"
+          },
+          {
+            "code": "95530000",
+            "display": "Chronic gastric ulcer (disorder)"
+          },
+          {
+            "code": "54157007",
+            "display": "Peptic ulcer without hemorrhage AND without perforation but with obstruction (disorder)"
+          },
+          {
+            "code": "717849006",
+            "display": "Ulcer of esophagus due to gastro-esophageal reflux disease without complication (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "K28.7",
+            "display": "Chronic gastrojejunal ulcer without hemorrhage or perforation"
+          },
+          {
+            "code": "K28.9",
+            "display": "Gastrojejunal ulcer, unspecified as acute or chronic, without hemorrhage or perforation"
+          },
+          {
+            "code": "K27.7",
+            "display": "Chronic peptic ulcer, site unspecified, without hemorrhage or perforation"
+          },
+          {
+            "code": "K27.9",
+            "display": "Peptic ulcer, site unspecified, unspecified as acute or chronic, without hemorrhage or perforation"
+          },
+          {
+            "code": "K26.7",
+            "display": "Chronic duodenal ulcer without hemorrhage or perforation"
+          },
+          {
+            "code": "K25.9",
+            "display": "Gastric ulcer, unspecified as acute or chronic, without hemorrhage or perforation"
+          },
+          {
+            "code": "K25.7",
+            "display": "Chronic gastric ulcer without hemorrhage or perforation"
+          },
+          {
+            "code": "K26.9",
+            "display": "Duodenal ulcer, unspecified as acute or chronic, without hemorrhage or perforation"
+          }
+        ]
+      }
+    ]
+  }
+}

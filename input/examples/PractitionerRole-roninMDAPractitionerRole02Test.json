@@ -1,0 +1,49 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "roninMDAPractitionerRole02Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-practitionerrole"
+    ]
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "system": "http://projectronin.com/id/tenantId",
+      "value": "mdaoc"
+    }
+  ],
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "62247001",
+          "system": "http://snomed.info/sct",
+          "display": "Family medicine specialist"
+        }
+      ]
+    }
+  ],
+  "organization": {
+    "reference": "Organization/roninMDAPartnerDepartmentTest"
+  },
+  "practitioner": {
+    "reference": "Practitioner/roninMDAPractitioner02Test"
+  },
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "1-677-555-5555",
+      "use": "work"
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "NauseaVomiting",
+  "id": "57f28490-6d77-11ec-8b47-03576f32531f",
+  "title": "Nausea Vomiting",
+  "description": "SNOMED and ICD.10 for nausea/vomiting",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/57f28490-6d77-11ec-8b47-03576f32531f",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "192450008",
+            "display": "Vomiting associated with other psychological disturbances (disorder)"
+          },
+          {
+            "code": "275297005",
+            "display": "Diarrhea and vomiting, symptom (finding)"
+          },
+          {
+            "code": "225586007",
+            "display": "Vomiting food (finding)"
+          },
+          {
+            "code": "19569008",
+            "display": "Mild hyperemesis gravidarum (disorder)"
+          },
+          {
+            "code": "422587007",
+            "display": "Nausea (finding)"
+          },
+          {
+            "code": "23971007",
+            "display": "Acute vomiting (disorder)"
+          },
+          {
+            "code": "71419002",
+            "display": "Bilious vomiting (disorder)"
+          },
+          {
+            "code": "87621000",
+            "display": "Hyperemesis gravidarum before end of 22 week gestation with dehydration (disorder)"
+          },
+          {
+            "code": "27152008",
+            "display": "Hyperemesis gravidarum before end of 22 week gestation with carbohydrate depletion (disorder)"
+          },
+          {
+            "code": "698861005",
+            "display": "Intractable nausea and vomiting (disorder)"
+          },
+          {
+            "code": "21162009",
+            "display": "Outer space sickness (finding)"
+          },
+          {
+            "code": "45941008",
+            "display": "Chronic radiation sickness (disorder)"
+          },
+          {
+            "code": "199027009",
+            "display": "Hyperemesis gravidarum with metabolic disturbance - delivered (disorder)"
+          },
+          {
+            "code": "765480005",
+            "display": "Vomiting co-occurrent and due to infectious disease (disorder)"
+          },
+          {
+            "code": "762279002",
+            "display": "Functional nausea (disorder)"
+          },
+          {
+            "code": "249500002",
+            "display": "Effortless vomiting (finding)"
+          },
+          {
+            "code": "206423004",
+            "display": "Neonatal hematemesis (disorder)"
+          },
+          {
+            "code": "45994004",
+            "display": "Erotic vomiting (disorder)"
+          },
+          {
+            "code": "422400008",
+            "display": "Vomiting (disorder)"
+          },
+          {
+            "code": "90325002",
+            "display": "Vomiting of pregnancy (disorder)"
+          },
+          {
+            "code": "722933003",
+            "display": "Bilious vomiting of newborn (disorder)"
+          },
+          {
+            "code": "249497008",
+            "display": "Vomiting symptom (finding)"
+          },
+          {
+            "code": "199025001",
+            "display": "Hyperemesis gravidarum with metabolic disturbance (disorder)"
+          },
+          {
+            "code": "51885006",
+            "display": "Morning sickness (finding)"
+          },
+          {
+            "code": "73335002",
+            "display": "Increased nausea and vomiting (disorder)"
+          },
+          {
+            "code": "34923007",
+            "display": "Self-induced vomiting (disorder)"
+          },
+          {
+            "code": "48000002",
+            "display": "Vomiting in newborn (disorder)"
+          },
+          {
+            "code": "103301009",
+            "display": "Vertigo, acute onset with vomiting and inability to stand (finding)"
+          },
+          {
+            "code": "419219000",
+            "display": "Drug-induced nausea and vomiting (disorder)"
+          },
+          {
+            "code": "134021000119105",
+            "display": "Vomiting fecal matter (disorder)"
+          },
+          {
+            "code": "8765009",
+            "display": "Hematemesis (disorder)"
+          },
+          {
+            "code": "3094009",
+            "display": "Vomiting in infants AND/OR children (disorder)"
+          },
+          {
+            "code": "199022003",
+            "display": "Mild hyperemesis-delivered (disorder)"
+          },
+          {
+            "code": "49206006",
+            "display": "Habit vomiting (disorder)"
+          },
+          {
+            "code": "11047881000119101",
+            "display": "Cannabis hyperemesis syndrome co-occurrent and due to cannabis abuse (disorder)"
+          },
+          {
+            "code": "84480002",
+            "display": "Retching (finding)"
+          },
+          {
+            "code": "249519007",
+            "display": "Diarrhea and vomiting (finding)"
+          },
+          {
+            "code": "50764006",
+            "display": "Vomiting due to organic disease during pregnancy (disorder)"
+          },
+          {
+            "code": "308904008",
+            "display": "Hematemesis - cause unknown (disorder)"
+          },
+          {
+            "code": "267051003",
+            "display": "Vomiting blood - fresh (disorder)"
+          },
+          {
+            "code": "37224001",
+            "display": "Psychogenic vomiting (disorder)"
+          },
+          {
+            "code": "18773000",
+            "display": "Cyclical vomiting syndrome (disorder)"
+          },
+          {
+            "code": "11048011000119103",
+            "display": "Cannabis hyperemesis syndrome co-occurrent and due to cannabis dependence (disorder)"
+          },
+          {
+            "code": "206406008",
+            "display": "Perinatal hematemesis (disorder)"
+          },
+          {
+            "code": "16932000",
+            "display": "Nausea and vomiting (disorder)"
+          },
+          {
+            "code": "17783003",
+            "display": "Car sickness (finding)"
+          },
+          {
+            "code": "199023008",
+            "display": "Mild hyperemesis-not delivered (disorder)"
+          },
+          {
+            "code": "698317008",
+            "display": "Blood in vomit of newborn due to swallowed maternal blood (finding)"
+          },
+          {
+            "code": "91173007",
+            "display": "Radiation-induced nausea and vomiting (disorder)"
+          },
+          {
+            "code": "129598007",
+            "display": "Severe hyperemesis gravidarum (disorder)"
+          },
+          {
+            "code": "370402009",
+            "display": "Radiation sickness (disorder)"
+          },
+          {
+            "code": "52031007",
+            "display": "Erosion of teeth due to persistent vomiting (disorder)"
+          },
+          {
+            "code": "37031009",
+            "display": "Motion sickness (finding)"
+          },
+          {
+            "code": "1488000",
+            "display": "Postoperative nausea and vomiting (disorder)"
+          },
+          {
+            "code": "63722008",
+            "display": "Chronic vomiting (disorder)"
+          },
+          {
+            "code": "129597002",
+            "display": "Moderate hyperemesis gravidarum (disorder)"
+          },
+          {
+            "code": "18530007",
+            "display": "Sea sickness (finding)"
+          },
+          {
+            "code": "2919008",
+            "display": "Nausea, vomiting and diarrhea (disorder)"
+          },
+          {
+            "code": "301790009",
+            "display": "Vomited meal (finding)"
+          },
+          {
+            "code": "14094001",
+            "display": "Excessive vomiting in pregnancy (disorder)"
+          },
+          {
+            "code": "288199005",
+            "display": "Diarrhea and vomiting after gastrointestinal tract surgery (disorder)"
+          },
+          {
+            "code": "294001000119105",
+            "display": "Intractable cyclical vomiting syndrome (disorder)"
+          },
+          {
+            "code": "723975009",
+            "display": "Nausea and vomiting following administration of anesthetic agent (disorder)"
+          },
+          {
+            "code": "146291000119108",
+            "display": "Vomiting without nausea (disorder)"
+          },
+          {
+            "code": "33902006",
+            "display": "Air sickness (finding)"
+          },
+          {
+            "code": "769087009",
+            "display": "Vomiting during third trimester of pregnancy (disorder)"
+          },
+          {
+            "code": "40835002",
+            "display": "Coffee ground vomiting (disorder)"
+          },
+          {
+            "code": "300359004",
+            "display": "Finding of vomiting (finding)"
+          },
+          {
+            "code": "33841007",
+            "display": "Decreased nausea and vomiting (disorder)"
+          },
+          {
+            "code": "191970005",
+            "display": "Psychogenic cyclical vomiting (disorder)"
+          },
+          {
+            "code": "196746003",
+            "display": "Persistent vomiting (disorder)"
+          },
+          {
+            "code": "332982000",
+            "display": "Uncontrollable vomiting (disorder)"
+          },
+          {
+            "code": "9814003",
+            "display": "Violent retching (finding)"
+          },
+          {
+            "code": "197130009",
+            "display": "Vomiting after gastrointestinal tract surgery (disorder)"
+          },
+          {
+            "code": "64581007",
+            "display": "Postoperative nausea (disorder)"
+          },
+          {
+            "code": "33370009",
+            "display": "Hyperemesis gravidarum before end of 22 week gestation with electrolyte imbalance (disorder)"
+          },
+          {
+            "code": "11767005",
+            "display": "Bilious vomiting following gastrointestinal surgery (disorder)"
+          },
+          {
+            "code": "444673007",
+            "display": "Hyperemesis (disorder)"
+          },
+          {
+            "code": "8579004",
+            "display": "Projectile vomiting (disorder)"
+          },
+          {
+            "code": "199028004",
+            "display": "Hyperemesis gravidarum with metabolic disturbance - not delivered (disorder)"
+          },
+          {
+            "code": "236083006",
+            "display": "Intermittent vomiting (disorder)"
+          },
+          {
+            "code": "249502005",
+            "display": "Train sickness (finding)"
+          },
+          {
+            "code": "18846006",
+            "display": "Chemotherapy-induced nausea and vomiting (disorder)"
+          },
+          {
+            "code": "38685005",
+            "display": "Concealed vomiting (disorder)"
+          },
+          {
+            "code": "424580008",
+            "display": "Post-tussive vomiting (disorder)"
+          },
+          {
+            "code": "72245005",
+            "display": "Postoperative vomiting (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "R11.14",
+            "display": "Bilious vomiting"
+          },
+          {
+            "code": "R11.10",
+            "display": "Vomiting, unspecified"
+          },
+          {
+            "code": "R11.0",
+            "display": "Nausea"
+          },
+          {
+            "code": "R11.2",
+            "display": "Nausea with vomiting, unspecified"
+          },
+          {
+            "code": "R11.11",
+            "display": "Vomiting without nausea"
+          },
+          {
+            "code": "R11.1",
+            "display": "Vomiting"
+          },
+          {
+            "code": "R11.12",
+            "display": "Projectile vomiting"
+          },
+          {
+            "code": "R11.13",
+            "display": "Vomiting of fecal matter"
+          },
+          {
+            "code": "R11.15",
+            "display": "Cyclical vomiting syndrome unrelated to migraine"
+          },
+          {
+            "code": "R11",
+            "display": "Nausea and vomiting"
+          }
+        ]
+      }
+    ]
+  }
+}

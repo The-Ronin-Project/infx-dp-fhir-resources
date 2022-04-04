@@ -1,0 +1,66 @@
+{
+  "resourceType": "Encounter",
+  "id": "roninEncounter04Test",
+  "meta": {
+    "profile": [
+      "http://projectronin.com/fhir/us/ronin/StructureDefinition/oncology-encounter"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://projectronin.com/id/tenantId",
+      "type": {
+        "coding": [
+          {
+            "code": "TID",
+            "system": "http://projectronin.com/id/tenantId",
+            "display": "Ronin-specified Tenant Identifier"
+          }
+        ],
+        "text": "Tenant ID"
+      },
+      "value": "psj"
+    }
+  ],
+  "appointment": [
+    {
+      "reference": "Appointment/roninOncologyPatientAppointment04Test"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/roninPatient04Test",
+    "display": "Wilmatar Z. Oud"
+  },
+  "period": {
+    "start": "2018-10-11T05:00:00.000Z",
+    "end": "2018-10-11T06:20:00.000Z"
+  },
+  "participant": [
+    {
+      "individual": {
+        "reference": "Practitioner/roninPSJPractitioner04Test"
+      },
+      "period": {
+        "start": "2018-10-11T05:30:00.000Z",
+        "end": "2018-10-11T06:00:00.000Z"
+      }
+    }
+  ],
+  "status": "finished",
+  "class": {
+    "code": "ONC",
+    "display": "oncology",
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "185349003",
+          "system": "http://snomed.info/sct"
+        }
+      ],
+      "text": "Encounter for check up (procedure)"
+    }
+  ]
+}

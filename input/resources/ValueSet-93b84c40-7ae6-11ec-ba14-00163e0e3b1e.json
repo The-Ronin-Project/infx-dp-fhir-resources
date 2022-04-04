@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "CA19_9",
+  "id": "93b84c40-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "CA19.9",
+  "description": "LOINC codes indicating CA19.9 measurement Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/93b84c40-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "83084-4",
+            "display": "Cancer Ag 19-9 [Units/volume] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code": "2009-9",
+            "display": "Cancer Ag 19-9 [Presence] in Serum or Plasma"
+          },
+          {
+            "code": "24108-3",
+            "display": "Cancer Ag 19-9 [Units/volume] in Serum or Plasma"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "5171",
+            "display": "CA 19-9"
+          }
+        ]
+      }
+    ]
+  }
+}

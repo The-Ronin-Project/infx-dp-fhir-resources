@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Directbilirubin",
+  "id": "c3a3afda-6d99-11ec-a98d-00163efae4c9",
+  "title": "Direct bilirubin",
+  "description": "LOINC codes indicating the measurement of Direct bilirubin MVP for ED risk model release",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/c3a3afda-6d99-11ec-a98d-00163efae4c9",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "35672-5",
+            "display": "Bilirubin.direct/Bilirubin.total in Serum or Plasma"
+          },
+          {
+            "code": "14629-0",
+            "display": "Bilirubin.direct [Moles/volume] in Serum or Plasma"
+          },
+          {
+            "code": "1968-7",
+            "display": "Bilirubin.direct [Mass/volume] in Serum or Plasma"
+          },
+          {
+            "code": "43820-0",
+            "display": "Bilirubin.direct [Presence] in Serum or Plasma"
+          },
+          {
+            "code": "34543-9",
+            "display": "Bilirubin direct and total panel [Mass/volume] - Serum or Plasma"
+          }
+        ]
+      }
+    ]
+  }
+}

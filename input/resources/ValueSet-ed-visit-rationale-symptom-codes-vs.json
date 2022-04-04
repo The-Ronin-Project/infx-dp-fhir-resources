@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "EDVisitRationaleSymptomCodesVS",
+  "id": "ed-visit-rationale-symptom-codes-vs",
+  "title": "ED Visit Rationale Symptom Codes Value Set",
+  "description": "Contains the values for the ED Visit Symptom Codes",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-rationale-symptom-codes-vs",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-risk-driver-codes-vs"
+        ]
+      }
+    ]
+  }
+}

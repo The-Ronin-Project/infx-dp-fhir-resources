@@ -1,0 +1,5871 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Otherantineoplasticagents",
+  "id": "dccff9f0-6dad-11ec-9d25-45d59604686a",
+  "title": "Other antineoplastic agents",
+  "description": "RxNorm codes for the ATC class of Other antineoplastic agents",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/dccff9f0-6dad-11ec-9d25-45d59604686a",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "RXNORM_20AA_220103F",
+        "concept": [
+          {
+            "code": "207588",
+            "display": "procarbazine 50 MG Oral Capsule [Matulane]"
+          },
+          {
+            "code": "2280730",
+            "display": "trastuzumab-qyyp"
+          },
+          {
+            "code": "574569",
+            "display": "bexarotene 75 MG [Targretin]"
+          },
+          {
+            "code": "2398131",
+            "display": "polatuzumab vedotin-piiq 30 MG Injection"
+          },
+          {
+            "code": "540885",
+            "display": "trastuzumab Injectable Solution [Herceptin]"
+          },
+          {
+            "code": "1792783",
+            "display": "atezolizumab Injection [Tecentriq]"
+          },
+          {
+            "code": "1862592",
+            "display": "rucaparib 200 MG"
+          },
+          {
+            "code": "2373451",
+            "display": "celecoxib 25 MG/ML"
+          },
+          {
+            "code": "2107054",
+            "display": "Herzuma"
+          },
+          {
+            "code": "1872479",
+            "display": "19 ML olaratumab 10 MG/ML Injection [Lartruvo]"
+          },
+          {
+            "code": "1187457",
+            "display": "Ziana Topical Product"
+          },
+          {
+            "code": "1792780",
+            "display": "20 ML atezolizumab 60 MG/ML Injection"
+          },
+          {
+            "code": "1875534",
+            "display": "avelumab"
+          },
+          {
+            "code": "1547553",
+            "display": "Keytruda Injectable Product"
+          },
+          {
+            "code": "566462",
+            "display": "estramustine 140 MG [Emcyt]"
+          },
+          {
+            "code": "1927888",
+            "display": "hyaluronidase / rituximab Injection [Rituxan Hycela]"
+          },
+          {
+            "code": "1862584",
+            "display": "rucaparib 300 MG Oral Tablet"
+          },
+          {
+            "code": "1659926",
+            "display": "Odomzo Pill"
+          },
+          {
+            "code": "1597584",
+            "display": "olaparib Oral Product"
+          },
+          {
+            "code": "1927889",
+            "display": "Rituxan Hycela Injectable Product"
+          },
+          {
+            "code": "2174092",
+            "display": "polatuzumab vedotin-piiq 140 MG"
+          },
+          {
+            "code": "2099950",
+            "display": "Talzenna Oral Product"
+          },
+          {
+            "code": "2548741",
+            "display": "selinexor 50 MG Oral Tablet [Xpovio]"
+          },
+          {
+            "code": "1862587",
+            "display": "rucaparib Oral Tablet [Rubraca]"
+          },
+          {
+            "code": "1942959",
+            "display": "inotuzumab ozogamicin 0.9 MG Injection [Besponsa]"
+          },
+          {
+            "code": "1232155",
+            "display": "Eylea"
+          },
+          {
+            "code": "240573",
+            "display": "pentostatin 10 MG Injection"
+          },
+          {
+            "code": "214470",
+            "display": "denileukin diftitox"
+          },
+          {
+            "code": "2280735",
+            "display": "trastuzumab Injectable Solution [Trazimera]"
+          },
+          {
+            "code": "1603363",
+            "display": "panobinostat 15 MG Oral Capsule"
+          },
+          {
+            "code": "2289229",
+            "display": "trastuzumab-dttb 150 MG [Ontruzant]"
+          },
+          {
+            "code": "356733",
+            "display": "Velcade"
+          },
+          {
+            "code": "1942739",
+            "display": "daunorubicin liposomal 44 MG"
+          },
+          {
+            "code": "1723734",
+            "display": "ixazomib citrate"
+          },
+          {
+            "code": "997640",
+            "display": "tretinoin 0.375 MG/ML"
+          },
+          {
+            "code": "213469",
+            "display": "celecoxib 200 MG Oral Capsule [Celebrex]"
+          },
+          {
+            "code": "1919516",
+            "display": "10 ML durvalumab 50 MG/ML Injection [Imfinzi]"
+          },
+          {
+            "code": "200344",
+            "display": "hydroxyurea 400 MG Oral Capsule"
+          },
+          {
+            "code": "1747561",
+            "display": "venetoclax 100 MG Oral Tablet"
+          },
+          {
+            "code": "314167",
+            "display": "procarbazine 50 MG Oral Capsule"
+          },
+          {
+            "code": "1191264",
+            "display": "fluocinolone acetonide 0.1 MG/ML / hydroquinone 40 MG/ML / tretinoin 0.5 MG/ML Topical Cream [Tri-Luma]"
+          },
+          {
+            "code": "2398132",
+            "display": "polatuzumab vedotin-piiq 30 MG [Polivy]"
+          },
+          {
+            "code": "2099306",
+            "display": "moxetumomab pasudotox-tdfk 1 MG"
+          },
+          {
+            "code": "2099943",
+            "display": "talazoparib Oral Product"
+          },
+          {
+            "code": "1723765",
+            "display": "ixazomib 3 MG Oral Capsule"
+          },
+          {
+            "code": "2178397",
+            "display": "Xpovio"
+          },
+          {
+            "code": "1155611",
+            "display": "altretamine Oral Product"
+          },
+          {
+            "code": "1659925",
+            "display": "Odomzo Oral Product"
+          },
+          {
+            "code": "2548762",
+            "display": "selinexor 40 MG Oral Tablet"
+          },
+          {
+            "code": "331560",
+            "display": "hydroxyurea 1000 MG"
+          },
+          {
+            "code": "1181565",
+            "display": "Matulane Oral Product"
+          },
+          {
+            "code": "2178407",
+            "display": "{32 (selinexor 20 MG Oral Tablet [Xpovio]) } Pack [Xpovio 80 MG Twice Weekly (160 MG total weekly dose) Carton]"
+          },
+          {
+            "code": "1723759",
+            "display": "ixazomib 2.3 MG [Ninlaro]"
+          },
+          {
+            "code": "1176093",
+            "display": "Halaven Injectable Product"
+          },
+          {
+            "code": "1657190",
+            "display": "4 ML nivolumab 10 MG/ML Injection"
+          },
+          {
+            "code": "1999313",
+            "display": "Siklos Pill"
+          },
+          {
+            "code": "225244",
+            "display": "Photofrin"
+          },
+          {
+            "code": "576008",
+            "display": "celecoxib 400 MG [Celebrex]"
+          },
+          {
+            "code": "1160114",
+            "display": "hydroxyurea Pill"
+          },
+          {
+            "code": "1657864",
+            "display": "10 ML rituximab 10 MG/ML Injection [Rituxan]"
+          },
+          {
+            "code": "2105853",
+            "display": "glasdegib Oral Tablet [Daurismo]"
+          },
+          {
+            "code": "2565811",
+            "display": "benzoyl peroxide / tretinoin Topical Cream [Twyneo]"
+          },
+          {
+            "code": "1166388",
+            "display": "Droxia Pill"
+          },
+          {
+            "code": "205323",
+            "display": "celecoxib 200 MG Oral Capsule"
+          },
+          {
+            "code": "1164498",
+            "display": "erythromycin / tretinoin Topical Product"
+          },
+          {
+            "code": "2280732",
+            "display": "trastuzumab-qyyp 21 MG/ML Injectable Solution"
+          },
+          {
+            "code": "1747577",
+            "display": "venetoclax 10 MG Oral Tablet [Venclexta]"
+          },
+          {
+            "code": "1597592",
+            "display": "Lynparza Pill"
+          },
+          {
+            "code": "569035",
+            "display": "tretinoin 0.5 MG/ML [Retin-A]"
+          },
+          {
+            "code": "2044972",
+            "display": "tisagenlecleucel 600000000 CELLS"
+          },
+          {
+            "code": "2049593",
+            "display": "amlodipine 2.5 MG / celecoxib 200 MG Oral Tablet [Consensi]"
+          },
+          {
+            "code": "805372",
+            "display": "tretinoin 0.001 MG/MG Topical Gel [Retin-A]"
+          },
+          {
+            "code": "1944704",
+            "display": "gemtuzumab ozogamicin 4.5 MG Injection [Mylotarg]"
+          },
+          {
+            "code": "1792782",
+            "display": "atezolizumab 60 MG/ML [Tecentriq]"
+          },
+          {
+            "code": "318341",
+            "display": "cetuximab"
+          },
+          {
+            "code": "2268048",
+            "display": "16 ML bevacizumab-bvzr 25 MG/ML Injection [Zirabev]"
+          },
+          {
+            "code": "1166387",
+            "display": "Droxia Oral Product"
+          },
+          {
+            "code": "1304475",
+            "display": "ziv-aflibercept"
+          },
+          {
+            "code": "749328",
+            "display": "tretinoin Topical Gel [Atralin]"
+          },
+          {
+            "code": "2280737",
+            "display": "trastuzumab-qyyp 21 MG/ML Injectable Solution [Trazimera]"
+          },
+          {
+            "code": "2561251",
+            "display": "0.5 ML asparaginase Erwinia chrysanthemi (recombinant)-rywn 20 MG/ML Injection"
+          },
+          {
+            "code": "2382607",
+            "display": "hyaluronidase / pertuzumab / trastuzumab Injection [Phesgo]"
+          },
+          {
+            "code": "1488047",
+            "display": "tretinoin 0.0008 MG/MG Topical Gel [Retin-A]"
+          },
+          {
+            "code": "1724266",
+            "display": "romidepsin 10 MG"
+          },
+          {
+            "code": "2280736",
+            "display": "Trazimera Injectable Product"
+          },
+          {
+            "code": "316070",
+            "display": "hydroxyurea 500 MG"
+          },
+          {
+            "code": "1723742",
+            "display": "necitumumab Injectable Product"
+          },
+          {
+            "code": "2105852",
+            "display": "glasdegib 100 MG [Daurismo]"
+          },
+          {
+            "code": "2099311",
+            "display": "moxetumomab pasudotox-tdfk 1 MG [Lumoxiti]"
+          },
+          {
+            "code": "2548736",
+            "display": "{4 (selinexor 60 MG Oral Tablet [Xpovio]) } Pack [Xpovio 60 MG Once Weekly Carton-60 MG Tablet]"
+          },
+          {
+            "code": "2174809",
+            "display": "trastuzumab-anns 21 MG/ML Injectable Solution [Kanjinti]"
+          },
+          {
+            "code": "2273514",
+            "display": "rituximab-pvvr 10 MG/ML [Ruxience]"
+          },
+          {
+            "code": "1919512",
+            "display": "2.4 ML durvalumab 50 MG/ML Injection [Imfinzi]"
+          },
+          {
+            "code": "66925",
+            "display": "procarbazine hydrochloride"
+          },
+          {
+            "code": "2046149",
+            "display": "4 ML bevacizumab-awwb 25 MG/ML Injection [Mvasi]"
+          },
+          {
+            "code": "328692",
+            "display": "tretinoin 0.25 MG/ML"
+          },
+          {
+            "code": "1655965",
+            "display": "brentuximab vedotin Injection [Adcetris]"
+          },
+          {
+            "code": "1747556",
+            "display": "venetoclax"
+          },
+          {
+            "code": "384588",
+            "display": "alitretinoin Topical Gel"
+          },
+          {
+            "code": "2049875",
+            "display": "ivosidenib Oral Product"
+          },
+          {
+            "code": "1182364",
+            "display": "Paraplatin Injectable Product"
+          },
+          {
+            "code": "1657192",
+            "display": "4 ML nivolumab 10 MG/ML Injection [Opdivo]"
+          },
+          {
+            "code": "1942744",
+            "display": "Vyxeos"
+          },
+          {
+            "code": "402359",
+            "display": "temoporfin 4 MG/ML"
+          },
+          {
+            "code": "1942951",
+            "display": "inotuzumab ozogamicin 0.9 MG"
+          },
+          {
+            "code": "1298949",
+            "display": "Perjeta"
+          },
+          {
+            "code": "1721956",
+            "display": "5 ML daratumumab 20 MG/ML Injection [Darzalex]"
+          },
+          {
+            "code": "2387334",
+            "display": "tafasitamab-cxix"
+          },
+          {
+            "code": "1535989",
+            "display": "ramucirumab 10 MG/ML"
+          },
+          {
+            "code": "2046142",
+            "display": "bevacizumab-awwb 25 MG/ML [Mvasi]"
+          },
+          {
+            "code": "1862589",
+            "display": "Rubraca Pill"
+          },
+          {
+            "code": "1723744",
+            "display": "necitumumab Injection"
+          },
+          {
+            "code": "1721951",
+            "display": "5 ML daratumumab 20 MG/ML Injection"
+          },
+          {
+            "code": "739",
+            "display": "amsacrine"
+          },
+          {
+            "code": "1161187",
+            "display": "bexarotene Pill"
+          },
+          {
+            "code": "675979",
+            "display": "Vectibix"
+          },
+          {
+            "code": "2099309",
+            "display": "moxetumomab pasudotox-tdfk 1 MG Injection"
+          },
+          {
+            "code": "2169358",
+            "display": "trastuzumab-pkrb 150 MG"
+          },
+          {
+            "code": "1658082",
+            "display": "ado-trastuzumab emtansine 100 MG"
+          },
+          {
+            "code": "2058831",
+            "display": "Libtayo"
+          },
+          {
+            "code": "1723763",
+            "display": "ixazomib 2.3 MG Oral Capsule [Ninlaro]"
+          },
+          {
+            "code": "81864",
+            "display": "alitretinoin"
+          },
+          {
+            "code": "2267581",
+            "display": "fam-trastuzumab deruxtecan-nxki 100 MG Injection [Enhertu]"
+          },
+          {
+            "code": "1162502",
+            "display": "eribulin Injectable Product"
+          },
+          {
+            "code": "2109057",
+            "display": "tagraxofusp Injectable Product"
+          },
+          {
+            "code": "846952",
+            "display": "tretinoin Topical Cream [Renova]"
+          },
+          {
+            "code": "2179762",
+            "display": "trastuzumab Injectable Solution [Ogivri]"
+          },
+          {
+            "code": "2054080",
+            "display": "mogamulizumab Injection"
+          },
+          {
+            "code": "2099954",
+            "display": "talazoparib 1 MG Oral Capsule"
+          },
+          {
+            "code": "2099307",
+            "display": "moxetumomab pasudotox Injectable Product"
+          },
+          {
+            "code": "1657705",
+            "display": "5 ML panitumumab 20 MG/ML Injection [Vectibix]"
+          },
+          {
+            "code": "829926",
+            "display": "10 ML arsenic trioxide 1 MG/ML Injection"
+          },
+          {
+            "code": "2109063",
+            "display": "Elzonris Injectable Product"
+          },
+          {
+            "code": "2179753",
+            "display": "trastuzumab-dkst 150 MG Injection"
+          },
+          {
+            "code": "253337",
+            "display": "bevacizumab"
+          },
+          {
+            "code": "2105830",
+            "display": "Truxima Injectable Product"
+          },
+          {
+            "code": "997642",
+            "display": "tretinoin 0.375 MG/ML [Tretin X]"
+          },
+          {
+            "code": "2282028",
+            "display": "5 ML isatuximab-irfc 20 MG/ML Injection [Sarclisa]"
+          },
+          {
+            "code": "2277607",
+            "display": "enfortumab vedotin"
+          },
+          {
+            "code": "1232158",
+            "display": "Eylea Injectable Product"
+          },
+          {
+            "code": "2375139",
+            "display": "daratumumab / hyaluronidase Injection [Darzalex Faspro]"
+          },
+          {
+            "code": "1927883",
+            "display": "hyaluronidase / rituximab Injection"
+          },
+          {
+            "code": "1723754",
+            "display": "ixazomib Oral Product"
+          },
+          {
+            "code": "2267582",
+            "display": "trastuzumab deruxtecan"
+          },
+          {
+            "code": "224905",
+            "display": "trastuzumab"
+          },
+          {
+            "code": "1942745",
+            "display": "cytarabine liposome 100 MG / daunorubicin liposomal 44 MG [Vyxeos]"
+          },
+          {
+            "code": "2049883",
+            "display": "Tibsovo Pill"
+          },
+          {
+            "code": "1987643",
+            "display": "tretinoin 0.0006 MG/MG"
+          },
+          {
+            "code": "2548740",
+            "display": "selinexor 50 MG [Xpovio]"
+          },
+          {
+            "code": "1918241",
+            "display": "Zejula Pill"
+          },
+          {
+            "code": "1747565",
+            "display": "Venclexta Oral Product"
+          },
+          {
+            "code": "1721279",
+            "display": "Imlygic"
+          },
+          {
+            "code": "261585",
+            "display": "Mylotarg"
+          },
+          {
+            "code": "242166",
+            "display": "porfimer sodium 75 MG Injection"
+          },
+          {
+            "code": "2382613",
+            "display": "pertuzumab-zzxf 60 MG/ML"
+          },
+          {
+            "code": "686380",
+            "display": "celecoxib 50 MG [Celebrex]"
+          },
+          {
+            "code": "1242988",
+            "display": "vismodegib 150 MG"
+          },
+          {
+            "code": "806575",
+            "display": "trastuzumab 22 MG/ML Injectable Solution [Herceptin]"
+          },
+          {
+            "code": "2387341",
+            "display": "tafasitamab Injection [Monjuvi]"
+          },
+          {
+            "code": "668329",
+            "display": "clindamycin / tretinoin Topical Gel"
+          },
+          {
+            "code": "1603364",
+            "display": "panobinostat 15 MG [Farydak]"
+          },
+          {
+            "code": "1723760",
+            "display": "ixazomib Oral Capsule [Ninlaro]"
+          },
+          {
+            "code": "806573",
+            "display": "trastuzumab 22 MG/ML Injectable Solution"
+          },
+          {
+            "code": "672530",
+            "display": "clindamycin / tretinoin Topical Gel [Ziana]"
+          },
+          {
+            "code": "1424456",
+            "display": "tretinoin 0.75 MG/ML [Tretin X]"
+          },
+          {
+            "code": "573051",
+            "display": "rituximab 10 MG/ML [Rituxan]"
+          },
+          {
+            "code": "1658086",
+            "display": "trastuzumab Injection [KADCYLA]"
+          },
+          {
+            "code": "1161186",
+            "display": "bexarotene Oral Product"
+          },
+          {
+            "code": "2390951",
+            "display": "ofatumumab 50 MG/ML [Kesimpta]"
+          },
+          {
+            "code": "2282032",
+            "display": "25 ML isatuximab-irfc 20 MG/ML Injection [Sarclisa]"
+          },
+          {
+            "code": "1161185",
+            "display": "bevacizumab Injectable Product"
+          },
+          {
+            "code": "485253",
+            "display": "cetuximab 2 MG/ML"
+          },
+          {
+            "code": "1658090",
+            "display": "ado-trastuzumab emtansine 160 MG [KADCYLA]"
+          },
+          {
+            "code": "2273521",
+            "display": "50 ML rituximab-pvvr 10 MG/ML Injection [Ruxience]"
+          },
+          {
+            "code": "2119711",
+            "display": "hyaluronidase / trastuzumab Injectable Product"
+          },
+          {
+            "code": "2179756",
+            "display": "trastuzumab Injection [Ogivri]"
+          },
+          {
+            "code": "999927",
+            "display": "clindamycin phosphate 0.012 MG/MG / tretinoin 0.00025 MG/MG Topical Gel [Veltin]"
+          },
+          {
+            "code": "1153637",
+            "display": "asparaginase Injectable Product"
+          },
+          {
+            "code": "1726115",
+            "display": "elotuzumab 300 MG Injection [Empliciti]"
+          },
+          {
+            "code": "2382606",
+            "display": "hyaluronidase-zzxf 2000 UNT/ML / pertuzumab-zzxf 80 MG/ML / trastuzumab-zzxf 40 MG/ML [Phesgo]"
+          },
+          {
+            "code": "686381",
+            "display": "celecoxib 50 MG Oral Capsule [Celebrex]"
+          },
+          {
+            "code": "1657861",
+            "display": "rituximab Injection"
+          },
+          {
+            "code": "1806646",
+            "display": "Ameluz"
+          },
+          {
+            "code": "1161732",
+            "display": "procarbazine Oral Product"
+          },
+          {
+            "code": "1298948",
+            "display": "14 ML pertuzumab 30 MG/ML Injection"
+          },
+          {
+            "code": "308725",
+            "display": "bexarotene 75 MG Oral Capsule"
+          },
+          {
+            "code": "2273512",
+            "display": "10 ML rituximab-pvvr 10 MG/ML Injection"
+          },
+          {
+            "code": "1603352",
+            "display": "panobinostat Oral Product"
+          },
+          {
+            "code": "2174091",
+            "display": "polatuzumab vedotin-piiq"
+          },
+          {
+            "code": "1300481",
+            "display": "methyl aminolevulinate hydrochloride 168 MG/ML Topical Cream"
+          },
+          {
+            "code": "1862580",
+            "display": "rucaparib 300 MG"
+          },
+          {
+            "code": "1300482",
+            "display": "methyl aminolevulinate hydrochloride 168 MG/ML [Metvixia]"
+          },
+          {
+            "code": "1723756",
+            "display": "ixazomib Oral Capsule"
+          },
+          {
+            "code": "1157980",
+            "display": "romidepsin Injectable Product"
+          },
+          {
+            "code": "2105827",
+            "display": "Truxima"
+          },
+          {
+            "code": "1657007",
+            "display": "40 ML ipilimumab 5 MG/ML Injection [Yervoy]"
+          },
+          {
+            "code": "568141",
+            "display": "mitotane 500 MG [Lysodren]"
+          },
+          {
+            "code": "2548764",
+            "display": "selinexor 40 MG [Xpovio]"
+          },
+          {
+            "code": "683",
+            "display": "aminolevulinic acid"
+          },
+          {
+            "code": "1806649",
+            "display": "Ameluz Topical Product"
+          },
+          {
+            "code": "1597877",
+            "display": "nivolumab 10 MG/ML"
+          },
+          {
+            "code": "1658084",
+            "display": "ado-trastuzumab emtansine 100 MG Injection"
+          },
+          {
+            "code": "999925",
+            "display": "clindamycin phosphate 0.012 MG/MG / tretinoin 0.00025 MG/MG [Veltin]"
+          },
+          {
+            "code": "1172885",
+            "display": "Atralin Topical Product"
+          },
+          {
+            "code": "2285813",
+            "display": "cytarabine / daunorubicin Injectable Product"
+          },
+          {
+            "code": "1658044",
+            "display": "50 ML ofatumumab 20 MG/ML Injection [Arzerra]"
+          },
+          {
+            "code": "1597878",
+            "display": "nivolumab Injectable Product"
+          },
+          {
+            "code": "3815",
+            "display": "Emcyt"
+          },
+          {
+            "code": "656882",
+            "display": "tretinoin 0.5 MG/ML Topical Cream [Tretin X]"
+          },
+          {
+            "code": "2174099",
+            "display": "Polivy Injectable Product"
+          },
+          {
+            "code": "1927881",
+            "display": "rituximab 120 MG/ML"
+          },
+          {
+            "code": "1806644",
+            "display": "aminolevulinic acid Topical Gel"
+          },
+          {
+            "code": "2565809",
+            "display": "benzoyl peroxide 30 MG/ML / tretinoin 1 MG/ML [Twyneo]"
+          },
+          {
+            "code": "2472325",
+            "display": "rituximab-arrx"
+          },
+          {
+            "code": "1159554",
+            "display": "ofatumumab Injectable Product"
+          },
+          {
+            "code": "1919508",
+            "display": "Imfinzi"
+          },
+          {
+            "code": "2548738",
+            "display": "selinexor 50 MG Oral Tablet"
+          },
+          {
+            "code": "1855743",
+            "display": "Lartruvo Injectable Product"
+          },
+          {
+            "code": "2548767",
+            "display": "{8 (selinexor 40 MG Oral Tablet [Xpovio]) } Pack [Xpovio 40 MG Twice Weekly (80 MG total weekly dose- 40 MG Tablets) Carton]"
+          },
+          {
+            "code": "1723189",
+            "display": "8 ML ziv-aflibercept 25 MG/ML Injection [Zaltrap]"
+          },
+          {
+            "code": "1862593",
+            "display": "rucaparib 200 MG Oral Tablet"
+          },
+          {
+            "code": "668605",
+            "display": "vorinostat Oral Capsule [Zolinza]"
+          },
+          {
+            "code": "1721950",
+            "display": "daratumumab Injection"
+          },
+          {
+            "code": "1242989",
+            "display": "vismodegib Oral Product"
+          },
+          {
+            "code": "1009000",
+            "display": "tretinoin / urea"
+          },
+          {
+            "code": "2282026",
+            "display": "isatuximab Injection [Sarclisa]"
+          },
+          {
+            "code": "215060",
+            "display": "Agrylin"
+          },
+          {
+            "code": "1597585",
+            "display": "olaparib Pill"
+          },
+          {
+            "code": "1987405",
+            "display": "axicabtagene ciloleucel Injection [Yescarta]"
+          },
+          {
+            "code": "2561255",
+            "display": "Rylaze Injectable Product"
+          },
+          {
+            "code": "353031",
+            "display": "Tri-Luma"
+          },
+          {
+            "code": "1186646",
+            "display": "Yervoy Injectable Product"
+          },
+          {
+            "code": "1298952",
+            "display": "Perjeta Injectable Product"
+          },
+          {
+            "code": "1919505",
+            "display": "durvalumab Injectable Product"
+          },
+          {
+            "code": "1007481",
+            "display": "collagen / tretinoin"
+          },
+          {
+            "code": "1806645",
+            "display": "aminolevulinic acid hydrochloride 0.1 MG/MG Topical Gel"
+          },
+          {
+            "code": "2058829",
+            "display": "cemiplimab Injection"
+          },
+          {
+            "code": "2267579",
+            "display": "trastuzumab Injection [Enhertu]"
+          },
+          {
+            "code": "1656294",
+            "display": "obinutuzumab Injection"
+          },
+          {
+            "code": "2382992",
+            "display": "{8 (selinexor 20 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1488046",
+            "display": "tretinoin 0.0008 MG/MG [Retin-A]"
+          },
+          {
+            "code": "1919511",
+            "display": "Imfinzi Injectable Product"
+          },
+          {
+            "code": "2109061",
+            "display": "tagraxofusp-erzs 1 MG/ML [Elzonris]"
+          },
+          {
+            "code": "1298946",
+            "display": "pertuzumab Injectable Product"
+          },
+          {
+            "code": "1806942",
+            "display": "carfilzomib 60 MG Injection [Kyprolis]"
+          },
+          {
+            "code": "1940341",
+            "display": "Idhifa Oral Product"
+          },
+          {
+            "code": "1918238",
+            "display": "niraparib 100 MG [Zejula]"
+          },
+          {
+            "code": "2169359",
+            "display": "trastuzumab-pkrb 150 MG Injection"
+          },
+          {
+            "code": "668577",
+            "display": "vorinostat 100 MG"
+          },
+          {
+            "code": "2105859",
+            "display": "glasdegib 25 MG [Daurismo]"
+          },
+          {
+            "code": "2548735",
+            "display": "selinexor 60 MG Oral Tablet [Xpovio]"
+          },
+          {
+            "code": "1723755",
+            "display": "ixazomib Pill"
+          },
+          {
+            "code": "1747560",
+            "display": "venetoclax Oral Tablet"
+          },
+          {
+            "code": "2174093",
+            "display": "polatuzumab vedotin Injectable Product"
+          },
+          {
+            "code": "1157967",
+            "display": "rituximab Injectable Product"
+          },
+          {
+            "code": "2058826",
+            "display": "cemiplimab"
+          },
+          {
+            "code": "2058833",
+            "display": "cemiplimab Injection [Libtayo]"
+          },
+          {
+            "code": "2099312",
+            "display": "moxetumomab pasudotox Injection [Lumoxiti]"
+          },
+          {
+            "code": "346209",
+            "display": "carboplatin 10 MG/ML"
+          },
+          {
+            "code": "2548742",
+            "display": "{8 (selinexor 50 MG Oral Tablet [Xpovio]) } Pack [Xpovio 100 MG Once Weekly Carton-50 MG Tablets]"
+          },
+          {
+            "code": "2280734",
+            "display": "trastuzumab-qyyp 21 MG/ML [Trazimera]"
+          },
+          {
+            "code": "1986441",
+            "display": "tisagenlecleucel Injection"
+          },
+          {
+            "code": "150889",
+            "display": "asparaginase Erwinia chrysanthemi 10000 UNT Injection"
+          },
+          {
+            "code": "1657574",
+            "display": "pertuzumab Injection [Perjeta]"
+          },
+          {
+            "code": "2099703",
+            "display": "talazoparib tosylate"
+          },
+          {
+            "code": "1659924",
+            "display": "sonidegib Oral Capsule [Odomzo]"
+          },
+          {
+            "code": "1182085",
+            "display": "Lysodren Pill"
+          },
+          {
+            "code": "1304483",
+            "display": "Zaltrap Injectable Product"
+          },
+          {
+            "code": "1442690",
+            "display": "obinutuzumab 25 MG/ML"
+          },
+          {
+            "code": "1806648",
+            "display": "aminolevulinic acid Topical Gel [Ameluz]"
+          },
+          {
+            "code": "315322",
+            "display": "altretamine 50 MG"
+          },
+          {
+            "code": "2174095",
+            "display": "polatuzumab vedotin-piiq 140 MG Injection"
+          },
+          {
+            "code": "1726104",
+            "display": "elotuzumab"
+          },
+          {
+            "code": "1987401",
+            "display": "axicabtagene ciloleucel Injection"
+          },
+          {
+            "code": "1597881",
+            "display": "Opdivo"
+          },
+          {
+            "code": "2105825",
+            "display": "rituximab-abbs 10 MG/ML"
+          },
+          {
+            "code": "1792778",
+            "display": "atezolizumab Injectable Product"
+          },
+          {
+            "code": "1942483",
+            "display": "olaparib 100 MG [Lynparza]"
+          },
+          {
+            "code": "316312",
+            "display": "mitotane 500 MG"
+          },
+          {
+            "code": "2382604",
+            "display": "15 ML hyaluronidase-zzxf 2000 UNT/ML / pertuzumab-zzxf 80 MG/ML / trastuzumab-zzxf 40 MG/ML Injection"
+          },
+          {
+            "code": "335768",
+            "display": "tretinoin 1 MG/ML"
+          },
+          {
+            "code": "1921586",
+            "display": "rucaparib 250 MG"
+          },
+          {
+            "code": "1726112",
+            "display": "elotuzumab 300 MG [Empliciti]"
+          },
+          {
+            "code": "2119718",
+            "display": "Herceptin Hylecta Injectable Product"
+          },
+          {
+            "code": "2375141",
+            "display": "15 ML daratumumab-fihj 120 MG/ML / hyaluronidase-fihj 2000 UNT/ML Injection [Darzalex Faspro]"
+          },
+          {
+            "code": "2555",
+            "display": "cisplatin"
+          },
+          {
+            "code": "1657572",
+            "display": "pertuzumab Injection"
+          },
+          {
+            "code": "2539977",
+            "display": "10 ML dostarlimab-gxly 50 MG/ML Injection [Jemperli]"
+          },
+          {
+            "code": "2387343",
+            "display": "tafasitamab-cxix 200 MG Injection [Monjuvi]"
+          },
+          {
+            "code": "1172794",
+            "display": "Agrylin Pill"
+          },
+          {
+            "code": "2548765",
+            "display": "selinexor 40 MG Oral Tablet [Xpovio]"
+          },
+          {
+            "code": "2047713",
+            "display": "amlodipine / celecoxib Oral Tablet"
+          },
+          {
+            "code": "2289233",
+            "display": "trastuzumab-dttb 21 MG/ML"
+          },
+          {
+            "code": "362075",
+            "display": "fluocinolone / hydroquinone / tretinoin Topical Cream [Tri-Luma]"
+          },
+          {
+            "code": "1724270",
+            "display": "romidepsin Injection [Istodax]"
+          },
+          {
+            "code": "374188",
+            "display": "tretinoin Topical Solution"
+          },
+          {
+            "code": "337068",
+            "display": "methyl 5-aminolevulinate"
+          },
+          {
+            "code": "2179761",
+            "display": "trastuzumab-dkst 21 MG/ML [Ogivri]"
+          },
+          {
+            "code": "1940338",
+            "display": "Idhifa"
+          },
+          {
+            "code": "1942481",
+            "display": "olaparib Oral Tablet"
+          },
+          {
+            "code": "2119715",
+            "display": "Herceptin Hylecta"
+          },
+          {
+            "code": "1806940",
+            "display": "carfilzomib 60 MG Injection"
+          },
+          {
+            "code": "1603369",
+            "display": "panobinostat 20 MG Oral Capsule [Farydak]"
+          },
+          {
+            "code": "240906",
+            "display": "5 ML pegaspargase 750 UNT/ML Injection"
+          },
+          {
+            "code": "1747571",
+            "display": "venetoclax 10 MG"
+          },
+          {
+            "code": "1161781",
+            "display": "vorinostat Oral Product"
+          },
+          {
+            "code": "2055005",
+            "display": "tretinoin 0.5 MG/ML [Altreno]"
+          },
+          {
+            "code": "2178394",
+            "display": "selinexor Oral Tablet"
+          },
+          {
+            "code": "1535996",
+            "display": "Cyramza Injectable Product"
+          },
+          {
+            "code": "1724156",
+            "display": "omacetaxine mepesuccinate 3.5 MG [Synribo]"
+          },
+          {
+            "code": "1747563",
+            "display": "venetoclax 100 MG [Venclexta]"
+          },
+          {
+            "code": "2548733",
+            "display": "{4 (selinexor 60 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1157684",
+            "display": "tretinoin Oral Product"
+          },
+          {
+            "code": "2382989",
+            "display": "{24 (selinexor 20 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "2548763",
+            "display": "{8 (selinexor 40 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "2382991",
+            "display": "{16 (selinexor 20 MG Oral Tablet [Xpovio]) } Pack [Xpovio 40 MG Twice Weekly (80 MG total weekly dose) Carton]"
+          },
+          {
+            "code": "1179044",
+            "display": "Targretin Pill"
+          },
+          {
+            "code": "1747564",
+            "display": "venetoclax Oral Tablet [Venclexta]"
+          },
+          {
+            "code": "1862583",
+            "display": "rucaparib Oral Tablet"
+          },
+          {
+            "code": "310194",
+            "display": "estramustine 140 MG Oral Capsule"
+          },
+          {
+            "code": "1726119",
+            "display": "elotuzumab 400 MG Injection [Empliciti]"
+          },
+          {
+            "code": "1597586",
+            "display": "olaparib Oral Capsule"
+          },
+          {
+            "code": "1442697",
+            "display": "Gazyva Injectable Product"
+          },
+          {
+            "code": "1797528",
+            "display": "40 ML oxaliplatin 5 MG/ML Injection"
+          },
+          {
+            "code": "10753",
+            "display": "tretinoin"
+          },
+          {
+            "code": "1918233",
+            "display": "niraparib Oral Product"
+          },
+          {
+            "code": "1986440",
+            "display": "tisagenlecleucel Injectable Product"
+          },
+          {
+            "code": "2046643",
+            "display": "carfilzomib 10 MG [Kyprolis]"
+          },
+          {
+            "code": "668604",
+            "display": "vorinostat 100 MG [Zolinza]"
+          },
+          {
+            "code": "1872478",
+            "display": "19 ML olaratumab 10 MG/ML Injection"
+          },
+          {
+            "code": "1992547",
+            "display": "6 ML arsenic trioxide 2 MG/ML Injection [Trisenox]"
+          },
+          {
+            "code": "2105829",
+            "display": "rituximab Injection [Truxima]"
+          },
+          {
+            "code": "749329",
+            "display": "tretinoin 0.0005 MG/MG Topical Gel [Atralin]"
+          },
+          {
+            "code": "1940369",
+            "display": "enasidenib 100 MG"
+          },
+          {
+            "code": "1603359",
+            "display": "Farydak Oral Product"
+          },
+          {
+            "code": "1747557",
+            "display": "venetoclax 100 MG"
+          },
+          {
+            "code": "2046148",
+            "display": "4 ML bevacizumab-awwb 25 MG/ML Injection"
+          },
+          {
+            "code": "1658048",
+            "display": "5 ML ofatumumab 20 MG/ML Injection [Arzerra]"
+          },
+          {
+            "code": "252265",
+            "display": "tretinoin 0.2 MG/ML Topical Cream"
+          },
+          {
+            "code": "1657663",
+            "display": "100 ML cetuximab 2 MG/ML Injection"
+          },
+          {
+            "code": "1165638",
+            "display": "fluocinolone / hydroquinone / tretinoin Topical Product"
+          },
+          {
+            "code": "1656296",
+            "display": "obinutuzumab Injection [Gazyva]"
+          },
+          {
+            "code": "1721283",
+            "display": "1 ML talimogene laherparepvec 1000000 UNT/ML Injection [Imlygic]"
+          },
+          {
+            "code": "1747579",
+            "display": "venetoclax 50 MG Oral Tablet [Venclexta]"
+          },
+          {
+            "code": "1232154",
+            "display": "0.05 ML aflibercept 40 MG/ML Injection"
+          },
+          {
+            "code": "2548761",
+            "display": "selinexor 40 MG"
+          },
+          {
+            "code": "316069",
+            "display": "hydroxyurea 400 MG"
+          },
+          {
+            "code": "1721287",
+            "display": "1 ML talimogene laherparepvec 100000000 UNT/ML Injection"
+          },
+          {
+            "code": "1944701",
+            "display": "gemtuzumab ozogamicin 4.5 MG Injection"
+          },
+          {
+            "code": "2539970",
+            "display": "dostarlimab Injectable Product"
+          },
+          {
+            "code": "2373459",
+            "display": "Elyxyb Oral Product"
+          },
+          {
+            "code": "1161733",
+            "display": "procarbazine Pill"
+          },
+          {
+            "code": "2119717",
+            "display": "hyaluronidase / trastuzumab Injection [Herceptin Hylecta]"
+          },
+          {
+            "code": "1721948",
+            "display": "daratumumab 20 MG/ML"
+          },
+          {
+            "code": "1547551",
+            "display": "pembrolizumab 25 MG/ML [Keytruda]"
+          },
+          {
+            "code": "2390953",
+            "display": "Kesimpta Injectable Product"
+          },
+          {
+            "code": "1806936",
+            "display": "carfilzomib Injection [Kyprolis]"
+          },
+          {
+            "code": "855680",
+            "display": "Refissa"
+          },
+          {
+            "code": "1944703",
+            "display": "gemtuzumab ozogamicin Injection [Mylotarg]"
+          },
+          {
+            "code": "1175303",
+            "display": "Emcyt Pill"
+          },
+          {
+            "code": "2049592",
+            "display": "Consensi Pill"
+          },
+          {
+            "code": "2179754",
+            "display": "Ogivri"
+          },
+          {
+            "code": "18330",
+            "display": "arsenic trioxide"
+          },
+          {
+            "code": "1442691",
+            "display": "obinutuzumab Injectable Product"
+          },
+          {
+            "code": "1721952",
+            "display": "Darzalex"
+          },
+          {
+            "code": "1940332",
+            "display": "enasidenib"
+          },
+          {
+            "code": "2257296",
+            "display": "trastuzumab-anns 150 MG"
+          },
+          {
+            "code": "1736783",
+            "display": "oxaliplatin 50 MG"
+          },
+          {
+            "code": "2539972",
+            "display": "10 ML dostarlimab-gxly 50 MG/ML Injection"
+          },
+          {
+            "code": "1424454",
+            "display": "tretinoin 0.75 MG/ML"
+          },
+          {
+            "code": "1721289",
+            "display": "1 ML talimogene laherparepvec 100000000 UNT/ML Injection [Imlygic]"
+          },
+          {
+            "code": "1603361",
+            "display": "panobinostat 10 MG Oral Capsule [Farydak]"
+          },
+          {
+            "code": "1862595",
+            "display": "rucaparib 200 MG Oral Tablet [Rubraca]"
+          },
+          {
+            "code": "2046139",
+            "display": "bevacizumab-awwb 25 MG/ML"
+          },
+          {
+            "code": "2179752",
+            "display": "trastuzumab-dkst 150 MG"
+          },
+          {
+            "code": "1919515",
+            "display": "10 ML durvalumab 50 MG/ML Injection"
+          },
+          {
+            "code": "668578",
+            "display": "vorinostat Oral Capsule"
+          },
+          {
+            "code": "2099951",
+            "display": "Talzenna Pill"
+          },
+          {
+            "code": "1919506",
+            "display": "durvalumab Injection"
+          },
+          {
+            "code": "362106",
+            "display": "tretinoin Topical Cream [Retin-A]"
+          },
+          {
+            "code": "1657746",
+            "display": "pembrolizumab 50 MG Injection"
+          },
+          {
+            "code": "236612",
+            "display": "anagrelide hydrochloride"
+          },
+          {
+            "code": "1657777",
+            "display": "10 ML ramucirumab 10 MG/ML Injection [Cyramza]"
+          },
+          {
+            "code": "2282020",
+            "display": "isatuximab-irfc 20 MG/ML"
+          },
+          {
+            "code": "27100",
+            "display": "omacetaxine mepesuccinate"
+          },
+          {
+            "code": "1922511",
+            "display": "trastuzumab Injection [Herceptin]"
+          },
+          {
+            "code": "2268047",
+            "display": "16 ML bevacizumab-bvzr 25 MG/ML Injection"
+          },
+          {
+            "code": "2472336",
+            "display": "50 ML rituximab-arrx 10 MG/ML Injection [Riabni]"
+          },
+          {
+            "code": "1736786",
+            "display": "oxaliplatin 100 MG Injection"
+          },
+          {
+            "code": "1992546",
+            "display": "arsenic trioxide 2 MG/ML [Trisenox]"
+          },
+          {
+            "code": "1992544",
+            "display": "arsenic trioxide 2 MG/ML"
+          },
+          {
+            "code": "1535922",
+            "display": "ramucirumab"
+          },
+          {
+            "code": "2282018",
+            "display": "isatuximab"
+          },
+          {
+            "code": "1156728",
+            "display": "methyl 5-aminolevulinate Topical Product"
+          },
+          {
+            "code": "2105845",
+            "display": "glasdegib"
+          },
+          {
+            "code": "2289232",
+            "display": "trastuzumab-dttb 150 MG Injection [Ontruzant]"
+          },
+          {
+            "code": "261349",
+            "display": "bexarotene 75 MG Oral Capsule [Targretin]"
+          },
+          {
+            "code": "2174802",
+            "display": "trastuzumab-anns"
+          },
+          {
+            "code": "1726111",
+            "display": "Empliciti"
+          },
+          {
+            "code": "597850",
+            "display": "anagrelide 0.5 MG Oral Capsule"
+          },
+          {
+            "code": "437105",
+            "display": "bevacizumab 25 MG/ML"
+          },
+          {
+            "code": "2047712",
+            "display": "amlodipine / celecoxib Pill"
+          },
+          {
+            "code": "2170454",
+            "display": "talimogene laherparepvec 100000000 UNT/ML [Imlygic]"
+          },
+          {
+            "code": "1999307",
+            "display": "hydroxyurea 100 MG"
+          },
+          {
+            "code": "1657660",
+            "display": "50 ML cetuximab 2 MG/ML Injection [Erbitux]"
+          },
+          {
+            "code": "1535990",
+            "display": "ramucirumab Injectable Product"
+          },
+          {
+            "code": "1535994",
+            "display": "ramucirumab 10 MG/ML [Cyramza]"
+          },
+          {
+            "code": "2099949",
+            "display": "talazoparib Oral Capsule [Talzenna]"
+          },
+          {
+            "code": "1723180",
+            "display": "aflibercept Injection"
+          },
+          {
+            "code": "2105835",
+            "display": "50 ML rituximab-abbs 10 MG/ML Injection [Truxima]"
+          },
+          {
+            "code": "882548",
+            "display": "clindamycin phosphate 0.012 MG/MG / tretinoin 0.00025 MG/MG Topical Gel"
+          },
+          {
+            "code": "1918237",
+            "display": "Zejula"
+          },
+          {
+            "code": "2374737",
+            "display": "Zepzelca Injectable Product"
+          },
+          {
+            "code": "1942482",
+            "display": "olaparib 100 MG Oral Tablet"
+          },
+          {
+            "code": "1179676",
+            "display": "Tretin X Topical Product"
+          },
+          {
+            "code": "1242991",
+            "display": "vismodegib Oral Capsule"
+          },
+          {
+            "code": "2107055",
+            "display": "trastuzumab-pkrb 21 MG/ML [Herzuma]"
+          },
+          {
+            "code": "1862594",
+            "display": "rucaparib 200 MG [Rubraca]"
+          },
+          {
+            "code": "366743",
+            "display": "hydroxyurea Oral Capsule [Hydrea]"
+          },
+          {
+            "code": "1442694",
+            "display": "Gazyva"
+          },
+          {
+            "code": "1187748",
+            "display": "Vectibix Injectable Product"
+          },
+          {
+            "code": "352314",
+            "display": "celecoxib 400 MG Oral Capsule [Celebrex]"
+          },
+          {
+            "code": "2373455",
+            "display": "Elyxyb"
+          },
+          {
+            "code": "313451",
+            "display": "tretinoin 0.00025 MG/MG Topical Gel"
+          },
+          {
+            "code": "2382599",
+            "display": "trastuzumab-zzxf"
+          },
+          {
+            "code": "376433",
+            "display": "cisplatin Injectable Solution"
+          },
+          {
+            "code": "219098",
+            "display": "Panretin"
+          },
+          {
+            "code": "1242997",
+            "display": "Erivedge Pill"
+          },
+          {
+            "code": "392503",
+            "display": "mequinol / tretinoin"
+          },
+          {
+            "code": "1927886",
+            "display": "Rituxan Hycela"
+          },
+          {
+            "code": "7004",
+            "display": "mitotane"
+          },
+          {
+            "code": "1927887",
+            "display": "hyaluronidase, human recombinant 2000 UNT/ML / rituximab 120 MG/ML [Rituxan Hycela]"
+          },
+          {
+            "code": "2289236",
+            "display": "trastuzumab Injectable Solution [Ontruzant]"
+          },
+          {
+            "code": "877436",
+            "display": "Istodax"
+          },
+          {
+            "code": "1794543",
+            "display": "pentostatin 10 MG"
+          },
+          {
+            "code": "106303",
+            "display": "tretinoin 0.5 MG/ML Topical Cream"
+          },
+          {
+            "code": "1294584",
+            "display": "gemtuzumab ozogamicin 1 MG/ML Injectable Solution"
+          },
+          {
+            "code": "1921589",
+            "display": "rucaparib 250 MG Oral Tablet [Rubraca]"
+          },
+          {
+            "code": "1919504",
+            "display": "durvalumab 50 MG/ML"
+          },
+          {
+            "code": "2539976",
+            "display": "Jemperli Injectable Product"
+          },
+          {
+            "code": "1999312",
+            "display": "Siklos Oral Product"
+          },
+          {
+            "code": "1862588",
+            "display": "Rubraca Oral Product"
+          },
+          {
+            "code": "1723757",
+            "display": "ixazomib 2.3 MG Oral Capsule"
+          },
+          {
+            "code": "2099942",
+            "display": "talazoparib 0.25 MG"
+          },
+          {
+            "code": "1659921",
+            "display": "sonidegib 200 MG Oral Capsule"
+          },
+          {
+            "code": "1147324",
+            "display": "Adcetris"
+          },
+          {
+            "code": "208330",
+            "display": "tretinoin 0.5 MG/ML Topical Cream [Retin-A]"
+          },
+          {
+            "code": "1723735",
+            "display": "ixazomib"
+          },
+          {
+            "code": "2109054",
+            "display": "tagraxofusp-erzs"
+          },
+          {
+            "code": "151871",
+            "display": "Hydrea"
+          },
+          {
+            "code": "2107058",
+            "display": "trastuzumab-pkrb 21 MG/ML Injectable Solution [Herzuma]"
+          },
+          {
+            "code": "1736854",
+            "display": "cisplatin 50 MG Injection"
+          },
+          {
+            "code": "1597588",
+            "display": "Lynparza"
+          },
+          {
+            "code": "1242998",
+            "display": "vismodegib 150 MG Oral Capsule [Erivedge]"
+          },
+          {
+            "code": "2055007",
+            "display": "Altreno Topical Product"
+          },
+          {
+            "code": "1747558",
+            "display": "venetoclax Oral Product"
+          },
+          {
+            "code": "573357",
+            "display": "celecoxib 200 MG [Celebrex]"
+          },
+          {
+            "code": "1547546",
+            "display": "pembrolizumab 25 MG/ML"
+          },
+          {
+            "code": "876301",
+            "display": "Arzerra"
+          },
+          {
+            "code": "1657748",
+            "display": "pembrolizumab Injection [Keytruda]"
+          },
+          {
+            "code": "2472331",
+            "display": "Riabni Injectable Product"
+          },
+          {
+            "code": "1875545",
+            "display": "avelumab Injection [Bavencio]"
+          },
+          {
+            "code": "569037",
+            "display": "tretinoin 0.00025 MG/MG [Avita]"
+          },
+          {
+            "code": "544556",
+            "display": "bevacizumab 25 MG/ML [Avastin]"
+          },
+          {
+            "code": "1156",
+            "display": "asparaginase"
+          },
+          {
+            "code": "1986439",
+            "display": "tisagenlecleucel 250000000 CELLS"
+          },
+          {
+            "code": "309311",
+            "display": "cisplatin 1 MG/ML Injectable Solution"
+          },
+          {
+            "code": "1723772",
+            "display": "ixazomib 4 MG Oral Capsule [Ninlaro]"
+          },
+          {
+            "code": "2178404",
+            "display": "{16 (selinexor 20 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "686379",
+            "display": "celecoxib 50 MG Oral Capsule"
+          },
+          {
+            "code": "2374738",
+            "display": "lurbinectedin 4 MG Injection [Zepzelca]"
+          },
+          {
+            "code": "1728058",
+            "display": "pegaspargase Injection"
+          },
+          {
+            "code": "2054082",
+            "display": "Poteligeo"
+          },
+          {
+            "code": "1940336",
+            "display": "enasidenib Oral Tablet"
+          },
+          {
+            "code": "1921588",
+            "display": "rucaparib 250 MG [Rubraca]"
+          },
+          {
+            "code": "205562",
+            "display": "estramustine 140 MG Oral Capsule [Emcyt]"
+          },
+          {
+            "code": "313453",
+            "display": "tretinoin 0.001 MG/MG Topical Gel"
+          },
+          {
+            "code": "1170611",
+            "display": "Adcetris Injectable Product"
+          },
+          {
+            "code": "377828",
+            "display": "tretinoin Topical Cream"
+          },
+          {
+            "code": "1657006",
+            "display": "ipilimumab Injection [Yervoy]"
+          },
+          {
+            "code": "2105828",
+            "display": "rituximab-abbs 10 MG/ML [Truxima]"
+          },
+          {
+            "code": "2375135",
+            "display": "daratumumab / hyaluronidase Injection"
+          },
+          {
+            "code": "1986443",
+            "display": "Kymriah"
+          },
+          {
+            "code": "1168274",
+            "display": "Erbitux Injectable Product"
+          },
+          {
+            "code": "213283",
+            "display": "hydroxyurea 300 MG Oral Capsule [Droxia]"
+          },
+          {
+            "code": "1940334",
+            "display": "enasidenib Oral Product"
+          },
+          {
+            "code": "573495",
+            "display": "carboplatin 10 MG/ML [Paraplatin]"
+          },
+          {
+            "code": "2267575",
+            "display": "fam-trastuzumab deruxtecan-nxki 100 MG"
+          },
+          {
+            "code": "1875547",
+            "display": "10 ML avelumab 20 MG/ML Injection [Bavencio]"
+          },
+          {
+            "code": "1792784",
+            "display": "Tecentriq Injectable Product"
+          },
+          {
+            "code": "377216",
+            "display": "trastuzumab Injectable Solution"
+          },
+          {
+            "code": "1657189",
+            "display": "nivolumab Injection"
+          },
+          {
+            "code": "2049876",
+            "display": "ivosidenib Pill"
+          },
+          {
+            "code": "2382602",
+            "display": "hyaluronidase / pertuzumab / trastuzumab Injection"
+          },
+          {
+            "code": "1723750",
+            "display": "50 ML necitumumab 16 MG/ML Injection [Portrazza]"
+          },
+          {
+            "code": "1922510",
+            "display": "trastuzumab 150 MG [Herceptin]"
+          },
+          {
+            "code": "1603351",
+            "display": "panobinostat 10 MG"
+          },
+          {
+            "code": "668579",
+            "display": "vorinostat 100 MG Oral Capsule"
+          },
+          {
+            "code": "1942485",
+            "display": "olaparib 100 MG Oral Tablet [Lynparza]"
+          },
+          {
+            "code": "2374736",
+            "display": "lurbinectedin Injection [Zepzelca]"
+          },
+          {
+            "code": "1726107",
+            "display": "elotuzumab 300 MG"
+          },
+          {
+            "code": "1651249",
+            "display": "blinatumomab 0.035 MG"
+          },
+          {
+            "code": "2099310",
+            "display": "Lumoxiti"
+          },
+          {
+            "code": "353344",
+            "display": "tretinoin 0.1 MG/ML"
+          },
+          {
+            "code": "2561256",
+            "display": "0.5 ML asparaginase Erwinia chrysanthemi (recombinant)-rywn 20 MG/ML Injection [Rylaze]"
+          },
+          {
+            "code": "316068",
+            "display": "hydroxyurea 300 MG"
+          },
+          {
+            "code": "1160121",
+            "display": "oxaliplatin Injectable Product"
+          },
+          {
+            "code": "1723748",
+            "display": "necitumumab Injection [Portrazza]"
+          },
+          {
+            "code": "2044973",
+            "display": "tisagenlecleucel 600000000 CELLS Injection"
+          },
+          {
+            "code": "2472328",
+            "display": "Riabni"
+          },
+          {
+            "code": "2178401",
+            "display": "Xpovio Pill"
+          },
+          {
+            "code": "968804",
+            "display": "cytarabine liposome"
+          },
+          {
+            "code": "1862582",
+            "display": "rucaparib Pill"
+          },
+          {
+            "code": "1855742",
+            "display": "olaratumab Injection [Lartruvo]"
+          },
+          {
+            "code": "2289413",
+            "display": "5.5 ML romidepsin 5 MG/ML Injection"
+          },
+          {
+            "code": "2268037",
+            "display": "bevacizumab-bvzr"
+          },
+          {
+            "code": "2117659",
+            "display": "Emollient tretinoin 0.5 MG/ML Topical Cream"
+          },
+          {
+            "code": "1657073",
+            "display": "16 ML bevacizumab 25 MG/ML Injection"
+          },
+          {
+            "code": "2046641",
+            "display": "carfilzomib 10 MG"
+          },
+          {
+            "code": "2569081",
+            "display": "12 ML nivolumab 10 MG/ML Injection [Opdivo]"
+          },
+          {
+            "code": "1657067",
+            "display": "bevacizumab Injection [Avastin]"
+          },
+          {
+            "code": "40048",
+            "display": "carboplatin"
+          },
+          {
+            "code": "2268044",
+            "display": "4 ML bevacizumab-bvzr 25 MG/ML Injection [Zirabev]"
+          },
+          {
+            "code": "1806650",
+            "display": "aminolevulinic acid hydrochloride 0.1 MG/MG Topical Gel [Ameluz]"
+          },
+          {
+            "code": "1160113",
+            "display": "hydroxyurea Oral Product"
+          },
+          {
+            "code": "1603353",
+            "display": "panobinostat Pill"
+          },
+          {
+            "code": "2174098",
+            "display": "polatuzumab vedotin Injection [Polivy]"
+          },
+          {
+            "code": "1162762",
+            "display": "trastuzumab Injectable Product"
+          },
+          {
+            "code": "2105860",
+            "display": "glasdegib 25 MG Oral Tablet [Daurismo]"
+          },
+          {
+            "code": "1658047",
+            "display": "5 ML ofatumumab 20 MG/ML Injection"
+          },
+          {
+            "code": "2373457",
+            "display": "celecoxib Oral Solution [Elyxyb]"
+          },
+          {
+            "code": "1723738",
+            "display": "necitumumab"
+          },
+          {
+            "code": "1721954",
+            "display": "daratumumab Injection [Darzalex]"
+          },
+          {
+            "code": "2109064",
+            "display": "1 ML tagraxofusp-erzs 1 MG/ML Injection [Elzonris]"
+          },
+          {
+            "code": "2105851",
+            "display": "Daurismo"
+          },
+          {
+            "code": "1657744",
+            "display": "pembrolizumab 50 MG"
+          },
+          {
+            "code": "2170452",
+            "display": "talimogene laherparepvec 100000000 UNT/ML"
+          },
+          {
+            "code": "1940376",
+            "display": "enasidenib 50 MG Oral Tablet [Idhifa]"
+          },
+          {
+            "code": "203801",
+            "display": "Matulane"
+          },
+          {
+            "code": "1161782",
+            "display": "vorinostat Pill"
+          },
+          {
+            "code": "1603358",
+            "display": "panobinostat Oral Capsule [Farydak]"
+          },
+          {
+            "code": "2257299",
+            "display": "trastuzumab Injection [Kanjinti]"
+          },
+          {
+            "code": "1185002",
+            "display": "Trisenox Injectable Product"
+          },
+          {
+            "code": "1944700",
+            "display": "gemtuzumab ozogamicin Injection"
+          },
+          {
+            "code": "645646",
+            "display": "Tretin X"
+          },
+          {
+            "code": "315604",
+            "display": "celecoxib 200 MG"
+          },
+          {
+            "code": "997641",
+            "display": "tretinoin 0.375 MG/ML Topical Cream"
+          },
+          {
+            "code": "1942484",
+            "display": "olaparib Oral Tablet [Lynparza]"
+          },
+          {
+            "code": "1987398",
+            "display": "axicabtagene ciloleucel"
+          },
+          {
+            "code": "370419",
+            "display": "alitretinoin Topical Gel [Panretin]"
+          },
+          {
+            "code": "1919507",
+            "display": "2.4 ML durvalumab 50 MG/ML Injection"
+          },
+          {
+            "code": "2049874",
+            "display": "ivosidenib 250 MG"
+          },
+          {
+            "code": "1094835",
+            "display": "ipilimumab Injectable Solution"
+          },
+          {
+            "code": "1547545",
+            "display": "pembrolizumab"
+          },
+          {
+            "code": "1488044",
+            "display": "tretinoin 0.0008 MG/MG"
+          },
+          {
+            "code": "1597267",
+            "display": "blinatumomab 0.035 MG Injection [Blincyto]"
+          },
+          {
+            "code": "1657703",
+            "display": "5 ML panitumumab 20 MG/ML Injection"
+          },
+          {
+            "code": "1657723",
+            "display": "20 ML panitumumab 20 MG/ML Injection [Vectibix]"
+          },
+          {
+            "code": "1940374",
+            "display": "enasidenib 50 MG Oral Tablet"
+          },
+          {
+            "code": "197323",
+            "display": "altretamine 50 MG Oral Capsule"
+          },
+          {
+            "code": "1179045",
+            "display": "Targretin Topical Product"
+          },
+          {
+            "code": "1597587",
+            "display": "olaparib 50 MG Oral Capsule"
+          },
+          {
+            "code": "263034",
+            "display": "panitumumab"
+          },
+          {
+            "code": "208331",
+            "display": "tretinoin 1 MG/ML Topical Cream [Retin-A]"
+          },
+          {
+            "code": "1651253",
+            "display": "blinatumomab Injection [Blincyto]"
+          },
+          {
+            "code": "2273520",
+            "display": "50 ML rituximab-pvvr 10 MG/ML Injection"
+          },
+          {
+            "code": "2382614",
+            "display": "trastuzumab-zzxf 60 MG/ML"
+          },
+          {
+            "code": "2055008",
+            "display": "tretinoin 0.5 MG/ML Topical Lotion [Altreno]"
+          },
+          {
+            "code": "1987400",
+            "display": "axicabtagene ciloleucel Injectable Product"
+          },
+          {
+            "code": "645668",
+            "display": "tretinoin Topical Cream [Tretin X]"
+          },
+          {
+            "code": "1992545",
+            "display": "6 ML arsenic trioxide 2 MG/ML Injection"
+          },
+          {
+            "code": "1597591",
+            "display": "Lynparza Oral Product"
+          },
+          {
+            "code": "1942956",
+            "display": "inotuzumab ozogamicin 0.9 MG [Besponsa]"
+          },
+          {
+            "code": "2382609",
+            "display": "15 ML hyaluronidase-zzxf 2000 UNT/ML / pertuzumab-zzxf 80 MG/ML / trastuzumab-zzxf 40 MG/ML Injection [Phesgo]"
+          },
+          {
+            "code": "2181526",
+            "display": "asparaginase Erwinia chrysanthemi 10000 UNT [Erwinaze]"
+          },
+          {
+            "code": "2273515",
+            "display": "rituximab Injection [Ruxience]"
+          },
+          {
+            "code": "1657005",
+            "display": "40 ML ipilimumab 5 MG/ML Injection"
+          },
+          {
+            "code": "1875540",
+            "display": "avelumab Injectable Product"
+          },
+          {
+            "code": "316648",
+            "display": "rituximab 10 MG/ML"
+          },
+          {
+            "code": "2049884",
+            "display": "ivosidenib 250 MG Oral Tablet [Tibsovo]"
+          },
+          {
+            "code": "1442695",
+            "display": "obinutuzumab 25 MG/ML [Gazyva]"
+          },
+          {
+            "code": "2174097",
+            "display": "polatuzumab vedotin-piiq 140 MG [Polivy]"
+          },
+          {
+            "code": "1942489",
+            "display": "olaparib 150 MG Oral Tablet [Lynparza]"
+          },
+          {
+            "code": "2105847",
+            "display": "glasdegib Oral Product"
+          },
+          {
+            "code": "2387837",
+            "display": "belantamab mafodotin Injection"
+          },
+          {
+            "code": "1986446",
+            "display": "Kymriah Injectable Product"
+          },
+          {
+            "code": "2387835",
+            "display": "belantamab mafodotin-blmf 100 MG"
+          },
+          {
+            "code": "1294582",
+            "display": "gemtuzumab ozogamicin Injectable Product"
+          },
+          {
+            "code": "2174090",
+            "display": "polatuzumab vedotin"
+          },
+          {
+            "code": "227239",
+            "display": "masoprocol"
+          },
+          {
+            "code": "393450",
+            "display": "erythromycin / tretinoin Topical Solution"
+          },
+          {
+            "code": "2099944",
+            "display": "talazoparib Pill"
+          },
+          {
+            "code": "1922507",
+            "display": "trastuzumab 150 MG"
+          },
+          {
+            "code": "2181523",
+            "display": "asparaginase Erwinia chrysanthemi 10000 UNT"
+          },
+          {
+            "code": "1657068",
+            "display": "4 ML bevacizumab 25 MG/ML Injection [Avastin]"
+          },
+          {
+            "code": "2398133",
+            "display": "polatuzumab vedotin-piiq 30 MG Injection [Polivy]"
+          },
+          {
+            "code": "1185345",
+            "display": "Rituxan Injectable Product"
+          },
+          {
+            "code": "2181527",
+            "display": "asparaginase Injection [Erwinaze]"
+          },
+          {
+            "code": "216755",
+            "display": "Droxia"
+          },
+          {
+            "code": "2375543",
+            "display": "trastuzumab-oysk"
+          },
+          {
+            "code": "1421191",
+            "display": "omacetaxine mepesuccinate Injectable Product"
+          },
+          {
+            "code": "343259",
+            "display": "alitretinoin 0.001 MG/MG"
+          },
+          {
+            "code": "2054084",
+            "display": "mogamulizumab Injection [Poteligeo]"
+          },
+          {
+            "code": "2561250",
+            "display": "asparaginase Erwinia chrysanthemi (recombinant)-rywn 20 MG/ML"
+          },
+          {
+            "code": "34132",
+            "display": "pegaspargase"
+          },
+          {
+            "code": "2119714",
+            "display": "5 ML hyaluronidase-oysk 2000 UNT/ML / trastuzumab-oysk 120 MG/ML Injection"
+          },
+          {
+            "code": "359050",
+            "display": "tretinoin 0.0004 MG/MG Topical Gel"
+          },
+          {
+            "code": "855687",
+            "display": "Emollient tretinoin 0.5 MG/ML Topical Cream [Refissa]"
+          },
+          {
+            "code": "645667",
+            "display": "tretinoin 0.25 MG/ML [Tretin X]"
+          },
+          {
+            "code": "2472792",
+            "display": "trastuzumab-qyyp 150 MG [Trazimera]"
+          },
+          {
+            "code": "1658043",
+            "display": "ofatumumab Injection [Arzerra]"
+          },
+          {
+            "code": "465680",
+            "display": "fluocinolone / hydroquinone / tretinoin"
+          },
+          {
+            "code": "1855735",
+            "display": "olaratumab"
+          },
+          {
+            "code": "208328",
+            "display": "tretinoin 0.25 MG/ML Topical Cream [Retin-A]"
+          },
+          {
+            "code": "1922518",
+            "display": "trastuzumab 21 MG/ML Injectable Solution [Herceptin]"
+          },
+          {
+            "code": "1356693",
+            "display": "omacetaxine mepesuccinate 3.5 MG Injection [Synribo]"
+          },
+          {
+            "code": "1747574",
+            "display": "venetoclax 50 MG Oral Tablet"
+          },
+          {
+            "code": "1991413",
+            "display": "24 ML nivolumab 10 MG/ML Injection [Opdivo]"
+          },
+          {
+            "code": "2099948",
+            "display": "talazoparib 0.25 MG [Talzenna]"
+          },
+          {
+            "code": "2058835",
+            "display": "7 ML cemiplimab-rwlc 50 MG/ML Injection [Libtayo]"
+          },
+          {
+            "code": "1736775",
+            "display": "oxaliplatin Injection"
+          },
+          {
+            "code": "1806941",
+            "display": "carfilzomib 60 MG [Kyprolis]"
+          },
+          {
+            "code": "221175",
+            "display": "tretinoin microsphere"
+          },
+          {
+            "code": "1721277",
+            "display": "herpesvirus 1, human Injection"
+          },
+          {
+            "code": "596724",
+            "display": "anagrelide"
+          },
+          {
+            "code": "1657781",
+            "display": "50 ML ramucirumab 10 MG/ML Injection [Cyramza]"
+          },
+          {
+            "code": "2109058",
+            "display": "tagraxofusp Injection"
+          },
+          {
+            "code": "2105844",
+            "display": "glasdegib maleate"
+          },
+          {
+            "code": "105602",
+            "display": "hydroxyurea 500 MG Oral Capsule [Hydrea]"
+          },
+          {
+            "code": "208327",
+            "display": "tretinoin 0.25 MG/ML Topical Cream [Avita]"
+          },
+          {
+            "code": "2561252",
+            "display": "Rylaze"
+          },
+          {
+            "code": "2387833",
+            "display": "belantamab mafodotin-blmf"
+          },
+          {
+            "code": "2375136",
+            "display": "15 ML daratumumab-fihj 120 MG/ML / hyaluronidase-fihj 2000 UNT/ML Injection"
+          },
+          {
+            "code": "1657775",
+            "display": "10 ML ramucirumab 10 MG/ML Injection"
+          },
+          {
+            "code": "2374731",
+            "display": "lurbinectedin Injectable Product"
+          },
+          {
+            "code": "1918232",
+            "display": "niraparib 100 MG"
+          },
+          {
+            "code": "1179585",
+            "display": "Refissa Topical Product"
+          },
+          {
+            "code": "1657774",
+            "display": "ramucirumab Injection"
+          },
+          {
+            "code": "1152781",
+            "display": "clindamycin / tretinoin Topical Product"
+          },
+          {
+            "code": "805369",
+            "display": "tretinoin 0.0004 MG/MG [Retin-A]"
+          },
+          {
+            "code": "2054081",
+            "display": "5 ML mogamulizumab-kpkc 4 MG/ML Injection"
+          },
+          {
+            "code": "2569080",
+            "display": "12 ML nivolumab 10 MG/ML Injection"
+          },
+          {
+            "code": "2268307",
+            "display": "enfortumab"
+          },
+          {
+            "code": "316067",
+            "display": "hydroxyurea 200 MG"
+          },
+          {
+            "code": "2105858",
+            "display": "glasdegib 25 MG Oral Tablet"
+          },
+          {
+            "code": "2539969",
+            "display": "dostarlimab-gxly 50 MG/ML"
+          },
+          {
+            "code": "2282024",
+            "display": "Sarclisa"
+          },
+          {
+            "code": "1806934",
+            "display": "carfilzomib 30 MG Injection"
+          },
+          {
+            "code": "2565807",
+            "display": "benzoyl peroxide 30 MG/ML / tretinoin 1 MG/ML Topical Cream"
+          },
+          {
+            "code": "2472790",
+            "display": "trastuzumab-qyyp 150 MG"
+          },
+          {
+            "code": "2375134",
+            "display": "daratumumab / hyaluronidase Injectable Product"
+          },
+          {
+            "code": "2099956",
+            "display": "talazoparib 1 MG Oral Capsule [Talzenna]"
+          },
+          {
+            "code": "2267576",
+            "display": "fam-trastuzumab deruxtecan-nxki 100 MG Injection"
+          },
+          {
+            "code": "2280731",
+            "display": "trastuzumab-qyyp 21 MG/ML"
+          },
+          {
+            "code": "1179714",
+            "display": "Tri-Luma Topical Product"
+          },
+          {
+            "code": "1657722",
+            "display": "20 ML panitumumab 20 MG/ML Injection"
+          },
+          {
+            "code": "1188166",
+            "display": "Zolinza Pill"
+          },
+          {
+            "code": "991232",
+            "display": "bexarotene Topical Gel [Targretin]"
+          },
+          {
+            "code": "208332",
+            "display": "tretinoin 0.00025 MG/MG Topical Gel [Avita]"
+          },
+          {
+            "code": "1724267",
+            "display": "romidepsin Injection"
+          },
+          {
+            "code": "1657659",
+            "display": "cetuximab Injection [Erbitux]"
+          },
+          {
+            "code": "1747575",
+            "display": "{14 (venetoclax 10 MG Oral Tablet) / 21 (venetoclax 100 MG Oral Tablet) / 7 (venetoclax 50 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "2374734",
+            "display": "Zepzelca"
+          },
+          {
+            "code": "1927890",
+            "display": "11.7 ML hyaluronidase, human recombinant 2000 UNT/ML / rituximab 120 MG/ML Injection [Rituxan Hycela]"
+          },
+          {
+            "code": "1733681",
+            "display": "satraplatin"
+          },
+          {
+            "code": "1723753",
+            "display": "ixazomib 2.3 MG"
+          },
+          {
+            "code": "1181566",
+            "display": "Matulane Pill"
+          },
+          {
+            "code": "2105846",
+            "display": "glasdegib 100 MG"
+          },
+          {
+            "code": "1918234",
+            "display": "niraparib Pill"
+          },
+          {
+            "code": "1794547",
+            "display": "pentostatin Injection [Nipent]"
+          },
+          {
+            "code": "2387335",
+            "display": "tafasitamab-cxix 200 MG"
+          },
+          {
+            "code": "2375131",
+            "display": "daratumumab-fihj 120 MG/ML"
+          },
+          {
+            "code": "374187",
+            "display": "tretinoin Oral Capsule"
+          },
+          {
+            "code": "1862579",
+            "display": "rucaparib"
+          },
+          {
+            "code": "402244",
+            "display": "bortezomib 3.5 MG Injection [Velcade]"
+          },
+          {
+            "code": "2105850",
+            "display": "glasdegib 100 MG Oral Tablet"
+          },
+          {
+            "code": "2382603",
+            "display": "hyaluronidase / pertuzumab / trastuzumab"
+          },
+          {
+            "code": "1747572",
+            "display": "venetoclax 10 MG Oral Tablet"
+          },
+          {
+            "code": "1158219",
+            "display": "tretinoin Pill"
+          },
+          {
+            "code": "1603357",
+            "display": "panobinostat 10 MG [Farydak]"
+          },
+          {
+            "code": "2472335",
+            "display": "50 ML rituximab-arrx 10 MG/ML Injection"
+          },
+          {
+            "code": "1603360",
+            "display": "Farydak Pill"
+          },
+          {
+            "code": "2472793",
+            "display": "trastuzumab Injection [Trazimera]"
+          },
+          {
+            "code": "1298944",
+            "display": "pertuzumab"
+          },
+          {
+            "code": "1302966",
+            "display": "carfilzomib"
+          },
+          {
+            "code": "328303",
+            "display": "cisplatin 1 MG/ML"
+          },
+          {
+            "code": "1736781",
+            "display": "20 ML oxaliplatin 5 MG/ML Injection"
+          },
+          {
+            "code": "882550",
+            "display": "clindamycin phosphate 0.012 MG/MG / tretinoin 0.00025 MG/MG Topical Gel [Ziana]"
+          },
+          {
+            "code": "2105856",
+            "display": "glasdegib 100 MG Oral Tablet [Daurismo]"
+          },
+          {
+            "code": "562793",
+            "display": "mequinol 20 MG/ML / tretinoin 0.1 MG/ML Topical Solution"
+          },
+          {
+            "code": "1172793",
+            "display": "Agrylin Oral Product"
+          },
+          {
+            "code": "2548769",
+            "display": "{4 (selinexor 40 MG Oral Tablet [Xpovio]) } Pack [Xpovio 40 MG Once Weekly Carton-40 MG Tablet]"
+          },
+          {
+            "code": "1940373",
+            "display": "enasidenib 50 MG"
+          },
+          {
+            "code": "2049588",
+            "display": "Consensi"
+          },
+          {
+            "code": "1987407",
+            "display": "68 ML axicabtagene ciloleucel 2940000 CELLS/ML Injection [Yescarta]"
+          },
+          {
+            "code": "2179760",
+            "display": "trastuzumab-dkst 21 MG/ML Injectable Solution"
+          },
+          {
+            "code": "1987645",
+            "display": "tretinoin 0.0006 MG/MG [Retin-A]"
+          },
+          {
+            "code": "2375140",
+            "display": "Darzalex Faspro Injectable Product"
+          },
+          {
+            "code": "1942958",
+            "display": "Besponsa Injectable Product"
+          },
+          {
+            "code": "1094838",
+            "display": "ipilimumab 5 MG/ML [Yervoy]"
+          },
+          {
+            "code": "2268040",
+            "display": "Zirabev"
+          },
+          {
+            "code": "1921587",
+            "display": "rucaparib 250 MG Oral Tablet"
+          },
+          {
+            "code": "2099308",
+            "display": "moxetumomab pasudotox Injection"
+          },
+          {
+            "code": "2058832",
+            "display": "cemiplimab-rwlc 50 MG/ML [Libtayo]"
+          },
+          {
+            "code": "877510",
+            "display": "romidepsin"
+          },
+          {
+            "code": "1721281",
+            "display": "herpesvirus 1, human Injection [Imlygic]"
+          },
+          {
+            "code": "1987406",
+            "display": "Yescarta Injectable Product"
+          },
+          {
+            "code": "1597884",
+            "display": "Opdivo Injectable Product"
+          },
+          {
+            "code": "1655962",
+            "display": "brentuximab vedotin Injection"
+          },
+          {
+            "code": "1658091",
+            "display": "ado-trastuzumab emtansine 160 MG Injection [KADCYLA]"
+          },
+          {
+            "code": "1163075",
+            "display": "bortezomib Injectable Product"
+          },
+          {
+            "code": "313847",
+            "display": "alitretinoin 0.001 MG/MG Topical Gel"
+          },
+          {
+            "code": "2046145",
+            "display": "16 ML bevacizumab-awwb 25 MG/ML Injection [Mvasi]"
+          },
+          {
+            "code": "2178398",
+            "display": "selinexor 20 MG [Xpovio]"
+          },
+          {
+            "code": "1922508",
+            "display": "trastuzumab Injection"
+          },
+          {
+            "code": "2105831",
+            "display": "10 ML rituximab-abbs 10 MG/ML Injection [Truxima]"
+          },
+          {
+            "code": "855685",
+            "display": "tretinoin 0.5 MG/ML [Refissa]"
+          },
+          {
+            "code": "544717",
+            "display": "cetuximab 2 MG/ML [Erbitux]"
+          },
+          {
+            "code": "1862590",
+            "display": "rucaparib 300 MG Oral Tablet [Rubraca]"
+          },
+          {
+            "code": "2178392",
+            "display": "selinexor Oral Product"
+          },
+          {
+            "code": "1182084",
+            "display": "Lysodren Oral Product"
+          },
+          {
+            "code": "2054078",
+            "display": "mogamulizumab-kpkc 4 MG/ML"
+          },
+          {
+            "code": "1657191",
+            "display": "nivolumab Injection [Opdivo]"
+          },
+          {
+            "code": "2169360",
+            "display": "trastuzumab-pkrb 150 MG [Herzuma]"
+          },
+          {
+            "code": "2289231",
+            "display": "Ontruzant Injectable Product"
+          },
+          {
+            "code": "1300479",
+            "display": "methyl aminolevulinate hydrochloride"
+          },
+          {
+            "code": "564113",
+            "display": "hydroxyurea 500 MG [Hydrea]"
+          },
+          {
+            "code": "1158265",
+            "display": "arsenic trioxide Injectable Product"
+          },
+          {
+            "code": "313450",
+            "display": "tretinoin 0.0001 MG/MG Topical Gel"
+          },
+          {
+            "code": "1736560",
+            "display": "eribulin Injection"
+          },
+          {
+            "code": "1603362",
+            "display": "panobinostat 15 MG"
+          },
+          {
+            "code": "2375137",
+            "display": "Darzalex Faspro"
+          },
+          {
+            "code": "1657702",
+            "display": "panitumumab Injection"
+          },
+          {
+            "code": "2390952",
+            "display": "ofatumumab Pen Injector [Kesimpta]"
+          },
+          {
+            "code": "1726109",
+            "display": "elotuzumab Injection"
+          },
+          {
+            "code": "1242990",
+            "display": "vismodegib Pill"
+          },
+          {
+            "code": "2105826",
+            "display": "10 ML rituximab-abbs 10 MG/ML Injection"
+          },
+          {
+            "code": "1736853",
+            "display": "cisplatin Injection"
+          },
+          {
+            "code": "1987646",
+            "display": "tretinoin 0.0006 MG/MG Topical Gel [Retin-A]"
+          },
+          {
+            "code": "2058834",
+            "display": "Libtayo Injectable Product"
+          },
+          {
+            "code": "2539975",
+            "display": "dostarlimab Injection [Jemperli]"
+          },
+          {
+            "code": "2289410",
+            "display": "romidepsin 5 MG/ML"
+          },
+          {
+            "code": "2282021",
+            "display": "isatuximab Injectable Product"
+          },
+          {
+            "code": "1657704",
+            "display": "panitumumab Injection [Vectibix]"
+          },
+          {
+            "code": "1356689",
+            "display": "Synribo"
+          },
+          {
+            "code": "597854",
+            "display": "anagrelide Oral Capsule [Agrylin]"
+          },
+          {
+            "code": "1659919",
+            "display": "sonidegib Pill"
+          },
+          {
+            "code": "2105854",
+            "display": "Daurismo Oral Product"
+          },
+          {
+            "code": "2109056",
+            "display": "tagraxofusp-erzs 1 MG/ML"
+          },
+          {
+            "code": "1804036",
+            "display": "arsenic trioxide Injection [Trisenox]"
+          },
+          {
+            "code": "2178406",
+            "display": "{32 (selinexor 20 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "882549",
+            "display": "clindamycin phosphate 0.012 MG/MG / tretinoin 0.00025 MG/MG [Ziana]"
+          },
+          {
+            "code": "1152129",
+            "display": "cisplatin Injectable Product"
+          },
+          {
+            "code": "2273516",
+            "display": "Ruxience Injectable Product"
+          },
+          {
+            "code": "370551",
+            "display": "altretamine Oral Capsule"
+          },
+          {
+            "code": "1918239",
+            "display": "niraparib Oral Capsule [Zejula]"
+          },
+          {
+            "code": "2179759",
+            "display": "trastuzumab-dkst 21 MG/ML"
+          },
+          {
+            "code": "2289227",
+            "display": "trastuzumab-dttb 150 MG Injection"
+          },
+          {
+            "code": "1721278",
+            "display": "1 ML talimogene laherparepvec 1000000 UNT/ML Injection"
+          },
+          {
+            "code": "1657066",
+            "display": "4 ML bevacizumab 25 MG/ML Injection"
+          },
+          {
+            "code": "1371046",
+            "display": "KADCYLA"
+          },
+          {
+            "code": "829877",
+            "display": "Trisenox"
+          },
+          {
+            "code": "1806643",
+            "display": "aminolevulinic acid hydrochloride 0.1 MG/MG"
+          },
+          {
+            "code": "366728",
+            "display": "procarbazine Oral Capsule [Matulane]"
+          },
+          {
+            "code": "371343",
+            "display": "celecoxib Oral Capsule"
+          },
+          {
+            "code": "1875546",
+            "display": "Bavencio Injectable Product"
+          },
+          {
+            "code": "1651569",
+            "display": "betamethasone / hydroquinone / tretinoin"
+          },
+          {
+            "code": "2049873",
+            "display": "ivosidenib"
+          },
+          {
+            "code": "805370",
+            "display": "tretinoin 0.0004 MG/MG Topical Gel [Retin-A]"
+          },
+          {
+            "code": "2044975",
+            "display": "tisagenlecleucel 600000000 CELLS Injection [Kymriah]"
+          },
+          {
+            "code": "597857",
+            "display": "anagrelide 0.5 MG Oral Capsule [Agrylin]"
+          },
+          {
+            "code": "1791252",
+            "display": "dihematoporphyrin ether Injection"
+          },
+          {
+            "code": "1603350",
+            "display": "panobinostat"
+          },
+          {
+            "code": "1161223",
+            "display": "celecoxib Oral Product"
+          },
+          {
+            "code": "1232156",
+            "display": "aflibercept 40 MG/ML [Eylea]"
+          },
+          {
+            "code": "877516",
+            "display": "romidepsin 10 MG Injection [Istodax]"
+          },
+          {
+            "code": "2174806",
+            "display": "trastuzumab-anns 21 MG/ML [Kanjinti]"
+          },
+          {
+            "code": "1726439",
+            "display": "20 ML daratumumab 20 MG/ML Injection"
+          },
+          {
+            "code": "1855741",
+            "display": "olaratumab 10 MG/ML [Lartruvo]"
+          },
+          {
+            "code": "140587",
+            "display": "celecoxib"
+          },
+          {
+            "code": "2548731",
+            "display": "selinexor 60 MG"
+          },
+          {
+            "code": "358258",
+            "display": "bortezomib"
+          },
+          {
+            "code": "1657750",
+            "display": "4 ML pembrolizumab 25 MG/ML Injection"
+          },
+          {
+            "code": "1918236",
+            "display": "niraparib 100 MG Oral Capsule"
+          },
+          {
+            "code": "316850",
+            "display": "tretinoin 10 MG"
+          },
+          {
+            "code": "1747566",
+            "display": "Venclexta Pill"
+          },
+          {
+            "code": "1657863",
+            "display": "rituximab Injection [Rituxan]"
+          },
+          {
+            "code": "197988",
+            "display": "mitotane 500 MG Oral Tablet"
+          },
+          {
+            "code": "1180749",
+            "display": "Renova Topical Product"
+          },
+          {
+            "code": "1242995",
+            "display": "vismodegib Oral Capsule [Erivedge]"
+          },
+          {
+            "code": "1166199",
+            "display": "Celebrex Pill"
+          },
+          {
+            "code": "2107057",
+            "display": "Herzuma Injectable Product"
+          },
+          {
+            "code": "1723745",
+            "display": "50 ML necitumumab 16 MG/ML Injection"
+          },
+          {
+            "code": "1655961",
+            "display": "brentuximab vedotin 50 MG"
+          },
+          {
+            "code": "2561253",
+            "display": "asparaginase Erwinia chrysanthemi (recombinant)-rywn 20 MG/ML [Rylaze]"
+          },
+          {
+            "code": "2181524",
+            "display": "asparaginase Injection"
+          },
+          {
+            "code": "2382605",
+            "display": "Phesgo"
+          },
+          {
+            "code": "2472327",
+            "display": "10 ML rituximab-arrx 10 MG/ML Injection"
+          },
+          {
+            "code": "846950",
+            "display": "Renova"
+          },
+          {
+            "code": "744988",
+            "display": "Metvixia"
+          },
+          {
+            "code": "1723769",
+            "display": "ixazomib 4 MG"
+          },
+          {
+            "code": "1659922",
+            "display": "Odomzo"
+          },
+          {
+            "code": "402360",
+            "display": "temoporfin Injectable Solution"
+          },
+          {
+            "code": "645669",
+            "display": "tretinoin 0.25 MG/ML Topical Cream [Tretin X]"
+          },
+          {
+            "code": "1724153",
+            "display": "omacetaxine mepesuccinate 3.5 MG"
+          },
+          {
+            "code": "569039",
+            "display": "tretinoin 0.0001 MG/MG [Retin-A]"
+          },
+          {
+            "code": "1723771",
+            "display": "ixazomib 4 MG [Ninlaro]"
+          },
+          {
+            "code": "350656",
+            "display": "celecoxib 400 MG"
+          },
+          {
+            "code": "1723746",
+            "display": "Portrazza"
+          },
+          {
+            "code": "258324",
+            "display": "Targretin"
+          },
+          {
+            "code": "2273517",
+            "display": "10 ML rituximab-pvvr 10 MG/ML Injection [Ruxience]"
+          },
+          {
+            "code": "855686",
+            "display": "tretinoin Topical Cream [Refissa]"
+          },
+          {
+            "code": "2119696",
+            "display": "14 ML atezolizumab 60 MG/ML Injection [Tecentriq]"
+          },
+          {
+            "code": "2054083",
+            "display": "mogamulizumab-kpkc 4 MG/ML [Poteligeo]"
+          },
+          {
+            "code": "1657658",
+            "display": "50 ML cetuximab 2 MG/ML Injection"
+          },
+          {
+            "code": "573197",
+            "display": "hydroxyurea 400 MG [Droxia]"
+          },
+          {
+            "code": "1659192",
+            "display": "sonidegib phosphate"
+          },
+          {
+            "code": "2266817",
+            "display": "amlodipine 5 MG / celecoxib 200 MG [Consensi]"
+          },
+          {
+            "code": "686161",
+            "display": "carboplatin 10 MG/ML Injectable Solution [Paraplatin]"
+          },
+          {
+            "code": "597856",
+            "display": "anagrelide 0.5 MG [Agrylin]"
+          },
+          {
+            "code": "2174804",
+            "display": "trastuzumab-anns 21 MG/ML Injectable Solution"
+          },
+          {
+            "code": "1986447",
+            "display": "tisagenlecleucel 250000000 CELLS Injection [Kymriah]"
+          },
+          {
+            "code": "701305",
+            "display": "tretinoin 0.00025 MG/MG Topical Gel [Retin-A]"
+          },
+          {
+            "code": "1597882",
+            "display": "nivolumab 10 MG/ML [Opdivo]"
+          },
+          {
+            "code": "2282022",
+            "display": "isatuximab Injection"
+          },
+          {
+            "code": "226754",
+            "display": "Rituxan"
+          },
+          {
+            "code": "8702",
+            "display": "procarbazine"
+          },
+          {
+            "code": "366197",
+            "display": "estramustine Oral Capsule [Emcyt]"
+          },
+          {
+            "code": "1986442",
+            "display": "tisagenlecleucel 250000000 CELLS Injection"
+          },
+          {
+            "code": "2099295",
+            "display": "moxetumomab pasudotox"
+          },
+          {
+            "code": "2390948",
+            "display": "ofatumumab Pen Injector"
+          },
+          {
+            "code": "974779",
+            "display": "obinutuzumab"
+          },
+          {
+            "code": "2388591",
+            "display": "axicabtagene ciloleucel 2940000 CELLS/ML [Yescarta]"
+          },
+          {
+            "code": "2099946",
+            "display": "talazoparib 0.25 MG Oral Capsule"
+          },
+          {
+            "code": "2099953",
+            "display": "talazoparib 1 MG"
+          },
+          {
+            "code": "2047716",
+            "display": "amlodipine 5 MG / celecoxib 200 MG Oral Tablet"
+          },
+          {
+            "code": "1747576",
+            "display": "venetoclax 10 MG [Venclexta]"
+          },
+          {
+            "code": "877513",
+            "display": "romidepsin 10 MG Injection"
+          },
+          {
+            "code": "1855740",
+            "display": "Lartruvo"
+          },
+          {
+            "code": "1657747",
+            "display": "pembrolizumab 50 MG [Keytruda]"
+          },
+          {
+            "code": "1940335",
+            "display": "enasidenib Pill"
+          },
+          {
+            "code": "207373",
+            "display": "mitotane 500 MG Oral Tablet [Lysodren]"
+          },
+          {
+            "code": "2280733",
+            "display": "Trazimera"
+          },
+          {
+            "code": "2267574",
+            "display": "fam-trastuzumab deruxtecan-nxki"
+          },
+          {
+            "code": "1942480",
+            "display": "olaparib 100 MG"
+          },
+          {
+            "code": "1721955",
+            "display": "Darzalex Injectable Product"
+          },
+          {
+            "code": "573196",
+            "display": "hydroxyurea 300 MG [Droxia]"
+          },
+          {
+            "code": "1232159",
+            "display": "0.05 ML aflibercept 40 MG/ML Injection [Eylea]"
+          },
+          {
+            "code": "1922509",
+            "display": "trastuzumab 150 MG Injection"
+          },
+          {
+            "code": "333848",
+            "display": "porfimer sodium"
+          },
+          {
+            "code": "1875541",
+            "display": "avelumab Injection"
+          },
+          {
+            "code": "2267578",
+            "display": "fam-trastuzumab deruxtecan-nxki 100 MG [Enhertu]"
+          },
+          {
+            "code": "2046141",
+            "display": "Mvasi"
+          },
+          {
+            "code": "1723193",
+            "display": "4 ML ziv-aflibercept 25 MG/ML Injection"
+          },
+          {
+            "code": "1922512",
+            "display": "trastuzumab 150 MG Injection [Herceptin]"
+          },
+          {
+            "code": "2049590",
+            "display": "amlodipine / celecoxib Oral Tablet [Consensi]"
+          },
+          {
+            "code": "1726114",
+            "display": "Empliciti Injectable Product"
+          },
+          {
+            "code": "2017575",
+            "display": "cytarabine / daunorubicin"
+          },
+          {
+            "code": "1855737",
+            "display": "olaratumab Injectable Product"
+          },
+          {
+            "code": "1659923",
+            "display": "sonidegib 200 MG [Odomzo]"
+          },
+          {
+            "code": "1724269",
+            "display": "romidepsin 10 MG [Istodax]"
+          },
+          {
+            "code": "213282",
+            "display": "hydroxyurea 200 MG Oral Capsule [Droxia]"
+          },
+          {
+            "code": "1875543",
+            "display": "Bavencio"
+          },
+          {
+            "code": "597849",
+            "display": "anagrelide Oral Capsule"
+          },
+          {
+            "code": "1597260",
+            "display": "blinatumomab Injectable Product"
+          },
+          {
+            "code": "2268041",
+            "display": "bevacizumab-bvzr 25 MG/ML [Zirabev]"
+          },
+          {
+            "code": "1657776",
+            "display": "ramucirumab Injection [Cyramza]"
+          },
+          {
+            "code": "2178405",
+            "display": "{16 (selinexor 20 MG Oral Tablet [Xpovio]) } Pack [Xpovio 80 MG Once Weekly Carton]"
+          },
+          {
+            "code": "1918240",
+            "display": "Zejula Oral Product"
+          },
+          {
+            "code": "2169362",
+            "display": "trastuzumab-pkrb 150 MG Injection [Herzuma]"
+          },
+          {
+            "code": "1791255",
+            "display": "dihematoporphyrin ether Injection [Photofrin]"
+          },
+          {
+            "code": "1986444",
+            "display": "tisagenlecleucel 250000000 CELLS [Kymriah]"
+          },
+          {
+            "code": "2548732",
+            "display": "selinexor 60 MG Oral Tablet"
+          },
+          {
+            "code": "1543548",
+            "display": "Beleodaq"
+          },
+          {
+            "code": "1723741",
+            "display": "necitumumab 16 MG/ML"
+          },
+          {
+            "code": "2174096",
+            "display": "Polivy"
+          },
+          {
+            "code": "5296",
+            "display": "altretamine"
+          },
+          {
+            "code": "1942953",
+            "display": "inotuzumab ozogamicin Injection"
+          },
+          {
+            "code": "1747567",
+            "display": "venetoclax 100 MG Oral Tablet [Venclexta]"
+          },
+          {
+            "code": "728470",
+            "display": "Atralin"
+          },
+          {
+            "code": "1298953",
+            "display": "14 ML pertuzumab 30 MG/ML Injection [Perjeta]"
+          },
+          {
+            "code": "1300483",
+            "display": "methyl aminolevulinate hydrochloride 168 MG/ML Topical Cream [Metvixia]"
+          },
+          {
+            "code": "2374729",
+            "display": "lurbinectedin"
+          },
+          {
+            "code": "1736784",
+            "display": "oxaliplatin 50 MG Injection"
+          },
+          {
+            "code": "1721949",
+            "display": "daratumumab Injectable Product"
+          },
+          {
+            "code": "846954",
+            "display": "tretinoin 0.2 MG/ML [Renova]"
+          },
+          {
+            "code": "2372199",
+            "display": "daratumumab / hyaluronidase"
+          },
+          {
+            "code": "366557",
+            "display": "bexarotene Oral Capsule [Targretin]"
+          },
+          {
+            "code": "1927894",
+            "display": "13.4 ML hyaluronidase, human recombinant 2000 UNT/ML / rituximab 120 MG/ML Injection [Rituxan Hycela]"
+          },
+          {
+            "code": "1726440",
+            "display": "20 ML daratumumab 20 MG/ML Injection [Darzalex]"
+          },
+          {
+            "code": "2382993",
+            "display": "{8 (selinexor 20 MG Oral Tablet [Xpovio]) } Pack [Xpovio 40 MG Once Weekly Carton]"
+          },
+          {
+            "code": "656881",
+            "display": "tretinoin 0.5 MG/ML [Tretin X]"
+          },
+          {
+            "code": "1657196",
+            "display": "10 ML nivolumab 10 MG/ML Injection [Opdivo]"
+          },
+          {
+            "code": "1657867",
+            "display": "50 ML rituximab 10 MG/ML Injection"
+          },
+          {
+            "code": "2374730",
+            "display": "lurbinectedin 4 MG"
+          },
+          {
+            "code": "2107052",
+            "display": "trastuzumab-pkrb 21 MG/ML"
+          },
+          {
+            "code": "1603356",
+            "display": "Farydak"
+          },
+          {
+            "code": "2382601",
+            "display": "hyaluronidase / pertuzumab / trastuzumab Injectable Product"
+          },
+          {
+            "code": "2178396",
+            "display": "{12 (selinexor 20 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1547550",
+            "display": "Keytruda"
+          },
+          {
+            "code": "351059",
+            "display": "tretinoin 0.2 MG/ML"
+          },
+          {
+            "code": "1940342",
+            "display": "Idhifa Pill"
+          },
+          {
+            "code": "392508",
+            "display": "erythromycin / tretinoin"
+          },
+          {
+            "code": "682524",
+            "display": "Zolinza"
+          },
+          {
+            "code": "1747562",
+            "display": "Venclexta"
+          },
+          {
+            "code": "233272",
+            "display": "bexarotene"
+          },
+          {
+            "code": "573356",
+            "display": "celecoxib 100 MG [Celebrex]"
+          },
+          {
+            "code": "1747578",
+            "display": "venetoclax 50 MG [Venclexta]"
+          },
+          {
+            "code": "1187756",
+            "display": "Velcade Injectable Product"
+          },
+          {
+            "code": "215927",
+            "display": "Celebrex"
+          },
+          {
+            "code": "1651331",
+            "display": "hydrocortisone / tretinoin"
+          },
+          {
+            "code": "1603354",
+            "display": "panobinostat Oral Capsule"
+          },
+          {
+            "code": "1747559",
+            "display": "venetoclax Pill"
+          },
+          {
+            "code": "597852",
+            "display": "anagrelide 1 MG Oral Capsule"
+          },
+          {
+            "code": "1045458",
+            "display": "eribulin mesylate 0.5 MG/ML [Halaven]"
+          },
+          {
+            "code": "573390",
+            "display": "alitretinoin 0.001 MG/MG [Panretin]"
+          },
+          {
+            "code": "1862578",
+            "display": "rucaparib camsylate"
+          },
+          {
+            "code": "1603349",
+            "display": "panobinostat lactate"
+          },
+          {
+            "code": "2273510",
+            "display": "rituximab-pvvr"
+          },
+          {
+            "code": "1726110",
+            "display": "elotuzumab 300 MG Injection"
+          },
+          {
+            "code": "1188165",
+            "display": "Zolinza Oral Product"
+          },
+          {
+            "code": "1922516",
+            "display": "trastuzumab 21 MG/ML Injectable Solution"
+          },
+          {
+            "code": "370403",
+            "display": "tretinoin Topical Gel [Avita]"
+          },
+          {
+            "code": "1161379",
+            "display": "pegaspargase Injectable Product"
+          },
+          {
+            "code": "1855736",
+            "display": "olaratumab 10 MG/ML"
+          },
+          {
+            "code": "2178400",
+            "display": "Xpovio Oral Product"
+          },
+          {
+            "code": "2374735",
+            "display": "lurbinectedin 4 MG [Zepzelca]"
+          },
+          {
+            "code": "5552",
+            "display": "hydroxyurea"
+          },
+          {
+            "code": "1191262",
+            "display": "fluocinolone acetonide 0.1 MG/ML / hydroquinone 40 MG/ML / tretinoin 0.5 MG/ML Topical Cream"
+          },
+          {
+            "code": "1177511",
+            "display": "Metvixia Topical Product"
+          },
+          {
+            "code": "2373453",
+            "display": "celecoxib Oral Solution"
+          },
+          {
+            "code": "1242993",
+            "display": "Erivedge"
+          },
+          {
+            "code": "1721276",
+            "display": "herpesvirus 1, human Injectable Product"
+          },
+          {
+            "code": "2387839",
+            "display": "Blenrep"
+          },
+          {
+            "code": "2268043",
+            "display": "Zirabev Injectable Product"
+          },
+          {
+            "code": "2289226",
+            "display": "trastuzumab-dttb 150 MG"
+          },
+          {
+            "code": "2055004",
+            "display": "Altreno"
+          },
+          {
+            "code": "1987402",
+            "display": "68 ML axicabtagene ciloleucel 2940000 CELLS/ML Injection"
+          },
+          {
+            "code": "2174803",
+            "display": "trastuzumab-anns 21 MG/ML"
+          },
+          {
+            "code": "1165373",
+            "display": "mitotane Oral Product"
+          },
+          {
+            "code": "1736785",
+            "display": "oxaliplatin 100 MG"
+          },
+          {
+            "code": "597848",
+            "display": "anagrelide 0.5 MG"
+          },
+          {
+            "code": "1724154",
+            "display": "omacetaxine mepesuccinate Injection"
+          },
+          {
+            "code": "80726",
+            "display": "edrecolomab"
+          },
+          {
+            "code": "2174808",
+            "display": "Kanjinti Injectable Product"
+          },
+          {
+            "code": "340006",
+            "display": "tretinoin 0.0005 MG/MG"
+          },
+          {
+            "code": "1094834",
+            "display": "ipilimumab 5 MG/ML"
+          },
+          {
+            "code": "2049589",
+            "display": "amlodipine 2.5 MG / celecoxib 200 MG [Consensi]"
+          },
+          {
+            "code": "368750",
+            "display": "mitotane Oral Tablet [Lysodren]"
+          },
+          {
+            "code": "2282031",
+            "display": "25 ML isatuximab-irfc 20 MG/ML Injection"
+          },
+          {
+            "code": "562792",
+            "display": "mequinol / tretinoin Topical Solution"
+          },
+          {
+            "code": "1161239",
+            "display": "cetuximab Injectable Product"
+          },
+          {
+            "code": "1181765",
+            "display": "Panretin Topical Product"
+          },
+          {
+            "code": "1922517",
+            "display": "trastuzumab 21 MG/ML [Herceptin]"
+          },
+          {
+            "code": "1161327",
+            "display": "ipilimumab Injectable Product"
+          },
+          {
+            "code": "200343",
+            "display": "hydroxyurea 300 MG Oral Capsule"
+          },
+          {
+            "code": "2174100",
+            "display": "polatuzumab vedotin-piiq 140 MG Injection [Polivy]"
+          },
+          {
+            "code": "1792779",
+            "display": "atezolizumab Injection"
+          },
+          {
+            "code": "1045452",
+            "display": "eribulin mesylate"
+          },
+          {
+            "code": "806574",
+            "display": "trastuzumab 22 MG/ML [Herceptin]"
+          },
+          {
+            "code": "2374732",
+            "display": "lurbinectedin Injection"
+          },
+          {
+            "code": "1999311",
+            "display": "hydroxyurea Oral Tablet [Siklos]"
+          },
+          {
+            "code": "1723766",
+            "display": "ixazomib 3 MG [Ninlaro]"
+          },
+          {
+            "code": "2105849",
+            "display": "glasdegib Oral Tablet"
+          },
+          {
+            "code": "2103478",
+            "display": "trastuzumab-dkst"
+          },
+          {
+            "code": "669774",
+            "display": "Ziana"
+          },
+          {
+            "code": "2285806",
+            "display": "cytarabine / daunorubicin Injection [Vyxeos]"
+          },
+          {
+            "code": "1991412",
+            "display": "24 ML nivolumab 10 MG/ML Injection"
+          },
+          {
+            "code": "1721264",
+            "display": "talimogene laherparepvec"
+          },
+          {
+            "code": "1147327",
+            "display": "brentuximab vedotin 50 MG Injection [Adcetris]"
+          },
+          {
+            "code": "1181715",
+            "display": "Oncaspar Injectable Product"
+          },
+          {
+            "code": "1659917",
+            "display": "sonidegib 200 MG"
+          },
+          {
+            "code": "1804993",
+            "display": "bortezomib 3.5 MG"
+          },
+          {
+            "code": "1156104",
+            "display": "carboplatin Injectable Product"
+          },
+          {
+            "code": "1940340",
+            "display": "enasidenib Oral Tablet [Idhifa]"
+          },
+          {
+            "code": "378718",
+            "display": "fluocinolone / hydroquinone / tretinoin Topical Cream"
+          },
+          {
+            "code": "245723",
+            "display": "tretinoin 0.0005 MG/MG Topical Gel"
+          },
+          {
+            "code": "2119719",
+            "display": "5 ML hyaluronidase-oysk 2000 UNT/ML / trastuzumab-oysk 120 MG/ML Injection [Herceptin Hylecta]"
+          },
+          {
+            "code": "2058830",
+            "display": "7 ML cemiplimab-rwlc 50 MG/ML Injection"
+          },
+          {
+            "code": "2548739",
+            "display": "{8 (selinexor 50 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "1304480",
+            "display": "Zaltrap"
+          },
+          {
+            "code": "2257297",
+            "display": "trastuzumab-anns 150 MG Injection"
+          },
+          {
+            "code": "1165703",
+            "display": "mequinol / tretinoin Topical Product"
+          },
+          {
+            "code": "2179758",
+            "display": "trastuzumab-dkst 150 MG Injection [Ogivri]"
+          },
+          {
+            "code": "1174067",
+            "display": "Hydrea Pill"
+          },
+          {
+            "code": "1721953",
+            "display": "daratumumab 20 MG/ML [Darzalex]"
+          },
+          {
+            "code": "106304",
+            "display": "tretinoin 0.25 MG/ML Topical Lotion"
+          },
+          {
+            "code": "1163087",
+            "display": "brentuximab vedotin Injectable Product"
+          },
+          {
+            "code": "1304476",
+            "display": "ziv-aflibercept 25 MG/ML"
+          },
+          {
+            "code": "4089",
+            "display": "estramustine"
+          },
+          {
+            "code": "806572",
+            "display": "trastuzumab 22 MG/ML"
+          },
+          {
+            "code": "1999316",
+            "display": "hydroxyurea 1000 MG Oral Tablet [Siklos]"
+          },
+          {
+            "code": "2099955",
+            "display": "talazoparib 1 MG [Talzenna]"
+          },
+          {
+            "code": "1728060",
+            "display": "pegaspargase Injection [Oncaspar]"
+          },
+          {
+            "code": "1657657",
+            "display": "cetuximab Injection"
+          },
+          {
+            "code": "1431738",
+            "display": "asparaginase Erwinia chrysanthemi"
+          },
+          {
+            "code": "1094836",
+            "display": "ipilimumab 5 MG/ML Injectable Solution"
+          },
+          {
+            "code": "370658",
+            "display": "hydroxyurea Oral Capsule"
+          },
+          {
+            "code": "1597258",
+            "display": "blinatumomab"
+          },
+          {
+            "code": "1919503",
+            "display": "durvalumab"
+          },
+          {
+            "code": "1942955",
+            "display": "Besponsa"
+          },
+          {
+            "code": "1597263",
+            "display": "Blincyto"
+          },
+          {
+            "code": "1942748",
+            "display": "cytarabine liposome 100 MG / daunorubicin liposomal 44 MG Injection [Vyxeos]"
+          },
+          {
+            "code": "1657664",
+            "display": "100 ML cetuximab 2 MG/ML Injection [Erbitux]"
+          },
+          {
+            "code": "1792776",
+            "display": "atezolizumab"
+          },
+          {
+            "code": "668606",
+            "display": "vorinostat 100 MG Oral Capsule [Zolinza]"
+          },
+          {
+            "code": "1723747",
+            "display": "necitumumab 16 MG/ML [Portrazza]"
+          },
+          {
+            "code": "1543543",
+            "display": "belinostat"
+          },
+          {
+            "code": "1723767",
+            "display": "ixazomib 3 MG Oral Capsule [Ninlaro]"
+          },
+          {
+            "code": "2266815",
+            "display": "amlodipine 10 MG / celecoxib 200 MG [Consensi]"
+          },
+          {
+            "code": "152115",
+            "display": "Nipent"
+          },
+          {
+            "code": "2383307",
+            "display": "10 ML hyaluronidase-zzxf 2000 UNT/ML / pertuzumab-zzxf 60 MG/ML / trastuzumab-zzxf 60 MG/ML Injection [Phesgo]"
+          },
+          {
+            "code": "1185673",
+            "display": "Mylotarg Injectable Product"
+          },
+          {
+            "code": "2539974",
+            "display": "dostarlimab-gxly 50 MG/ML [Jemperli]"
+          },
+          {
+            "code": "1180642",
+            "display": "Photofrin Injectable Product"
+          },
+          {
+            "code": "2179757",
+            "display": "Ogivri Injectable Product"
+          },
+          {
+            "code": "2388589",
+            "display": "axicabtagene ciloleucel 2940000 CELLS/ML"
+          },
+          {
+            "code": "1232189",
+            "display": "Erwinaze Injectable Product"
+          },
+          {
+            "code": "569038",
+            "display": "tretinoin 0.00025 MG/MG [Retin-A]"
+          },
+          {
+            "code": "2047715",
+            "display": "amlodipine 2.5 MG / celecoxib 200 MG Oral Tablet"
+          },
+          {
+            "code": "2387838",
+            "display": "belantamab mafodotin-blmf 100 MG Injection"
+          },
+          {
+            "code": "2387337",
+            "display": "tafasitamab Injection"
+          },
+          {
+            "code": "1862585",
+            "display": "Rubraca"
+          },
+          {
+            "code": "1655964",
+            "display": "brentuximab vedotin 50 MG [Adcetris]"
+          },
+          {
+            "code": "1191263",
+            "display": "fluocinolone acetonide 0.1 MG/ML / hydroquinone 40 MG/ML / tretinoin 0.5 MG/ML [Tri-Luma]"
+          },
+          {
+            "code": "2382598",
+            "display": "pertuzumab-zzxf 80 MG/ML"
+          },
+          {
+            "code": "1304481",
+            "display": "ziv-aflibercept 25 MG/ML [Zaltrap]"
+          },
+          {
+            "code": "1940331",
+            "display": "enasidenib mesylate"
+          },
+          {
+            "code": "2119695",
+            "display": "14 ML atezolizumab 60 MG/ML Injection"
+          },
+          {
+            "code": "569033",
+            "display": "tretinoin 0.25 MG/ML [Avita]"
+          },
+          {
+            "code": "2373454",
+            "display": "celecoxib 25 MG/ML Oral Solution"
+          },
+          {
+            "code": "1543551",
+            "display": "Beleodaq Injectable Product"
+          },
+          {
+            "code": "1158633",
+            "display": "masoprocol Topical Product"
+          },
+          {
+            "code": "1723188",
+            "display": "aflibercept Injection [Zaltrap]"
+          },
+          {
+            "code": "712566",
+            "display": "ofatumumab"
+          },
+          {
+            "code": "366459",
+            "display": "hydroxyurea Oral Capsule [Droxia]"
+          },
+          {
+            "code": "2046644",
+            "display": "carfilzomib 10 MG Injection [Kyprolis]"
+          },
+          {
+            "code": "1659920",
+            "display": "sonidegib Oral Capsule"
+          },
+          {
+            "code": "1045454",
+            "display": "eribulin mesylate 0.5 MG/ML"
+          },
+          {
+            "code": "1942954",
+            "display": "inotuzumab ozogamicin 0.9 MG Injection"
+          },
+          {
+            "code": "213502",
+            "display": "alitretinoin 0.001 MG/MG Topical Gel [Panretin]"
+          },
+          {
+            "code": "1165764",
+            "display": "estramustine Oral Product"
+          },
+          {
+            "code": "2049882",
+            "display": "Tibsovo Oral Product"
+          },
+          {
+            "code": "1597266",
+            "display": "Blincyto Injectable Product"
+          },
+          {
+            "code": "877009",
+            "display": "ofatumumab 20 MG/ML"
+          },
+          {
+            "code": "1151949",
+            "display": "aminolevulinic acid Topical Product"
+          },
+          {
+            "code": "999926",
+            "display": "clindamycin / tretinoin Topical Gel [Veltin]"
+          },
+          {
+            "code": "328693",
+            "display": "tretinoin 0.5 MG/ML"
+          },
+          {
+            "code": "1232151",
+            "display": "aflibercept 40 MG/ML"
+          },
+          {
+            "code": "2178393",
+            "display": "selinexor Pill"
+          },
+          {
+            "code": "1232150",
+            "display": "aflibercept"
+          },
+          {
+            "code": "2382600",
+            "display": "trastuzumab-zzxf 40 MG/ML"
+          },
+          {
+            "code": "1726118",
+            "display": "elotuzumab 400 MG [Empliciti]"
+          },
+          {
+            "code": "1657780",
+            "display": "50 ML ramucirumab 10 MG/ML Injection"
+          },
+          {
+            "code": "1942487",
+            "display": "olaparib 150 MG Oral Tablet"
+          },
+          {
+            "code": "2099945",
+            "display": "talazoparib Oral Capsule"
+          },
+          {
+            "code": "2046642",
+            "display": "carfilzomib 10 MG Injection"
+          },
+          {
+            "code": "1161188",
+            "display": "bexarotene Topical Product"
+          },
+          {
+            "code": "32592",
+            "display": "oxaliplatin"
+          },
+          {
+            "code": "115243",
+            "display": "temoporfin"
+          },
+          {
+            "code": "2472791",
+            "display": "trastuzumab-qyyp 150 MG Injection"
+          },
+          {
+            "code": "1999315",
+            "display": "hydroxyurea 1000 MG [Siklos]"
+          },
+          {
+            "code": "2099947",
+            "display": "Talzenna"
+          },
+          {
+            "code": "861049",
+            "display": "asparaginase 5000 UNT/ML"
+          },
+          {
+            "code": "2058825",
+            "display": "cemiplimab-rwlc"
+          },
+          {
+            "code": "401989",
+            "display": "temoporfin 4 MG/ML Injectable Solution"
+          },
+          {
+            "code": "1232186",
+            "display": "Erwinaze"
+          },
+          {
+            "code": "402243",
+            "display": "bortezomib 3.5 MG Injection"
+          },
+          {
+            "code": "194337",
+            "display": "vorinostat"
+          },
+          {
+            "code": "2548768",
+            "display": "{4 (selinexor 40 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "744990",
+            "display": "methyl 5-aminolevulinate Topical Cream [Metvixia]"
+          },
+          {
+            "code": "2109059",
+            "display": "1 ML tagraxofusp-erzs 1 MG/ML Injection"
+          },
+          {
+            "code": "1167175",
+            "display": "Istodax Injectable Product"
+          },
+          {
+            "code": "1657745",
+            "display": "pembrolizumab Injection"
+          },
+          {
+            "code": "1147320",
+            "display": "brentuximab vedotin"
+          },
+          {
+            "code": "330431",
+            "display": "estramustine 140 MG"
+          },
+          {
+            "code": "350661",
+            "display": "tretinoin 0.0004 MG/MG"
+          },
+          {
+            "code": "1657862",
+            "display": "10 ML rituximab 10 MG/ML Injection"
+          },
+          {
+            "code": "213284",
+            "display": "hydroxyurea 400 MG Oral Capsule [Droxia]"
+          },
+          {
+            "code": "2058827",
+            "display": "cemiplimab-rwlc 50 MG/ML"
+          },
+          {
+            "code": "379379",
+            "display": "tretinoin Topical Lotion"
+          },
+          {
+            "code": "340005",
+            "display": "tretinoin 0.00025 MG/MG"
+          },
+          {
+            "code": "1855738",
+            "display": "olaratumab Injection"
+          },
+          {
+            "code": "1442693",
+            "display": "40 ML obinutuzumab 25 MG/ML Injection"
+          },
+          {
+            "code": "1157700",
+            "display": "anagrelide Pill"
+          },
+          {
+            "code": "1804994",
+            "display": "bortezomib Injection"
+          },
+          {
+            "code": "2099313",
+            "display": "Lumoxiti Injectable Product"
+          },
+          {
+            "code": "1794544",
+            "display": "pentostatin Injection"
+          },
+          {
+            "code": "1806933",
+            "display": "carfilzomib Injection"
+          },
+          {
+            "code": "2046140",
+            "display": "16 ML bevacizumab-awwb 25 MG/ML Injection"
+          },
+          {
+            "code": "1657013",
+            "display": "10 ML ipilimumab 5 MG/ML Injection [Yervoy]"
+          },
+          {
+            "code": "2179763",
+            "display": "trastuzumab-dkst 21 MG/ML Injectable Solution [Ogivri]"
+          },
+          {
+            "code": "2548734",
+            "display": "selinexor 60 MG [Xpovio]"
+          },
+          {
+            "code": "2289225",
+            "display": "trastuzumab-dttb"
+          },
+          {
+            "code": "1791254",
+            "display": "porfimer sodium 75 MG [Photofrin]"
+          },
+          {
+            "code": "2174190",
+            "display": "talimogene laherparepvec 1000000 UNT/ML"
+          },
+          {
+            "code": "597195",
+            "display": "carboplatin 10 MG/ML Injectable Solution"
+          },
+          {
+            "code": "1158220",
+            "display": "tretinoin Topical Product"
+          },
+          {
+            "code": "991231",
+            "display": "bexarotene 0.01 MG/MG [Targretin]"
+          },
+          {
+            "code": "1657751",
+            "display": "4 ML pembrolizumab 25 MG/ML Injection [Keytruda]"
+          },
+          {
+            "code": "2105855",
+            "display": "Daurismo Pill"
+          },
+          {
+            "code": "1918231",
+            "display": "niraparib"
+          },
+          {
+            "code": "153101",
+            "display": "Retin-A"
+          },
+          {
+            "code": "1918242",
+            "display": "niraparib 100 MG Oral Capsule [Zejula]"
+          },
+          {
+            "code": "2049880",
+            "display": "ivosidenib 250 MG [Tibsovo]"
+          },
+          {
+            "code": "1736852",
+            "display": "cisplatin 50 MG"
+          },
+          {
+            "code": "2548766",
+            "display": "{8 (selinexor 40 MG Oral Tablet [Xpovio]) } Pack [Xpovio 80 MG Once Weekly Carton-40 MG Tablets]"
+          },
+          {
+            "code": "1804996",
+            "display": "bortezomib 3.5 MG [Velcade]"
+          },
+          {
+            "code": "1942738",
+            "display": "cytarabine liposome 100 MG"
+          },
+          {
+            "code": "2390947",
+            "display": "ofatumumab 50 MG/ML"
+          },
+          {
+            "code": "2375130",
+            "display": "daratumumab-fihj"
+          },
+          {
+            "code": "328694",
+            "display": "tretinoin 0.001 MG/MG"
+          },
+          {
+            "code": "2565804",
+            "display": "benzoyl peroxide / tretinoin"
+          },
+          {
+            "code": "2273513",
+            "display": "Ruxience"
+          },
+          {
+            "code": "1721282",
+            "display": "Imlygic Injectable Product"
+          },
+          {
+            "code": "2119712",
+            "display": "hyaluronidase / trastuzumab Injection"
+          },
+          {
+            "code": "1155612",
+            "display": "altretamine Pill"
+          },
+          {
+            "code": "1488045",
+            "display": "tretinoin 0.0008 MG/MG Topical Gel"
+          },
+          {
+            "code": "2383305",
+            "display": "10 ML hyaluronidase-zzxf 2000 UNT/ML / pertuzumab-zzxf 60 MG/ML / trastuzumab-zzxf 60 MG/ML Injection"
+          },
+          {
+            "code": "1164889",
+            "display": "alitretinoin Topical Product"
+          },
+          {
+            "code": "1597583",
+            "display": "olaparib 50 MG"
+          },
+          {
+            "code": "2178395",
+            "display": "selinexor 20 MG Oral Tablet"
+          },
+          {
+            "code": "1942957",
+            "display": "inotuzumab ozogamicin Injection [Besponsa]"
+          },
+          {
+            "code": "105556",
+            "display": "estramustine phosphate"
+          },
+          {
+            "code": "377233",
+            "display": "asparaginase Injectable Solution"
+          },
+          {
+            "code": "283475",
+            "display": "hydroxyurea 1000 MG Oral Tablet"
+          },
+          {
+            "code": "200342",
+            "display": "hydroxyurea 200 MG Oral Capsule"
+          },
+          {
+            "code": "1161484",
+            "display": "temoporfin Injectable Product"
+          },
+          {
+            "code": "2539967",
+            "display": "dostarlimab"
+          },
+          {
+            "code": "389251",
+            "display": "erythromycin 40 MG/ML / tretinoin 0.25 MG/ML Topical Solution"
+          },
+          {
+            "code": "2047717",
+            "display": "amlodipine 10 MG / celecoxib 200 MG Oral Tablet"
+          },
+          {
+            "code": "2282019",
+            "display": "isatuximab-irfc"
+          },
+          {
+            "code": "2099704",
+            "display": "talazoparib"
+          },
+          {
+            "code": "2373452",
+            "display": "celecoxib Oral Liquid Product"
+          },
+          {
+            "code": "213468",
+            "display": "celecoxib 100 MG Oral Capsule [Celebrex]"
+          },
+          {
+            "code": "2049877",
+            "display": "ivosidenib Oral Tablet"
+          },
+          {
+            "code": "1157699",
+            "display": "anagrelide Oral Product"
+          },
+          {
+            "code": "1316105",
+            "display": "herpesvirus 1, human"
+          },
+          {
+            "code": "2054068",
+            "display": "mogamulizumab"
+          },
+          {
+            "code": "1922515",
+            "display": "trastuzumab 21 MG/ML"
+          },
+          {
+            "code": "1927885",
+            "display": "11.7 ML hyaluronidase, human recombinant 2000 UNT/ML / rituximab 120 MG/ML Injection"
+          },
+          {
+            "code": "2387338",
+            "display": "tafasitamab-cxix 200 MG Injection"
+          },
+          {
+            "code": "2267577",
+            "display": "Enhertu"
+          },
+          {
+            "code": "2055006",
+            "display": "tretinoin Topical Lotion [Altreno]"
+          },
+          {
+            "code": "1875544",
+            "display": "avelumab 20 MG/ML [Bavencio]"
+          },
+          {
+            "code": "2548737",
+            "display": "selinexor 50 MG"
+          },
+          {
+            "code": "2049879",
+            "display": "Tibsovo"
+          },
+          {
+            "code": "1806935",
+            "display": "carfilzomib 30 MG [Kyprolis]"
+          },
+          {
+            "code": "1927893",
+            "display": "13.4 ML hyaluronidase, human recombinant 2000 UNT/ML / rituximab 120 MG/ML Injection"
+          },
+          {
+            "code": "1862581",
+            "display": "rucaparib Oral Product"
+          },
+          {
+            "code": "1242992",
+            "display": "vismodegib 150 MG Oral Capsule"
+          },
+          {
+            "code": "1182535",
+            "display": "Retin-A Topical Product"
+          },
+          {
+            "code": "645670",
+            "display": "tretinoin 1 MG/ML [Tretin X]"
+          },
+          {
+            "code": "2387336",
+            "display": "tafasitamab Injectable Product"
+          },
+          {
+            "code": "1543552",
+            "display": "belinostat 500 MG Injection [Beleodaq]"
+          },
+          {
+            "code": "1045456",
+            "display": "2 ML eribulin mesylate 0.5 MG/ML Injection"
+          },
+          {
+            "code": "686378",
+            "display": "celecoxib 50 MG"
+          },
+          {
+            "code": "1298950",
+            "display": "pertuzumab 30 MG/ML [Perjeta]"
+          },
+          {
+            "code": "2289234",
+            "display": "trastuzumab-dttb 21 MG/ML Injectable Solution"
+          },
+          {
+            "code": "2565806",
+            "display": "benzoyl peroxide / tretinoin Topical Cream"
+          },
+          {
+            "code": "106302",
+            "display": "tretinoin 0.25 MG/ML Topical Cream"
+          },
+          {
+            "code": "1747580",
+            "display": "{14 (venetoclax 10 MG Oral Tablet [Venclexta]) / 21 (venetoclax 100 MG Oral Tablet [Venclexta]) / 7 (venetoclax 50 MG Oral Tablet [Venclexta]) } Pack [Venclexta Starting Pack]"
+          },
+          {
+            "code": "1300480",
+            "display": "methyl aminolevulinate hydrochloride 168 MG/ML"
+          },
+          {
+            "code": "1918235",
+            "display": "niraparib Oral Capsule"
+          },
+          {
+            "code": "372942",
+            "display": "mitotane Oral Tablet"
+          },
+          {
+            "code": "208334",
+            "display": "tretinoin 0.0001 MG/MG Topical Gel [Retin-A]"
+          },
+          {
+            "code": "2387842",
+            "display": "Blenrep Injectable Product"
+          },
+          {
+            "code": "1986445",
+            "display": "tisagenlecleucel Injection [Kymriah]"
+          },
+          {
+            "code": "568345",
+            "display": "procarbazine 50 MG [Matulane]"
+          },
+          {
+            "code": "877011",
+            "display": "ofatumumab 20 MG/ML [Arzerra]"
+          },
+          {
+            "code": "1804997",
+            "display": "bortezomib Injection [Velcade]"
+          },
+          {
+            "code": "2289230",
+            "display": "trastuzumab Injection [Ontruzant]"
+          },
+          {
+            "code": "1726117",
+            "display": "elotuzumab 400 MG Injection"
+          },
+          {
+            "code": "1535993",
+            "display": "Cyramza"
+          },
+          {
+            "code": "1657074",
+            "display": "16 ML bevacizumab 25 MG/ML Injection [Avastin]"
+          },
+          {
+            "code": "2383306",
+            "display": "hyaluronidase-zzxf 2000 UNT/ML / pertuzumab-zzxf 60 MG/ML / trastuzumab-zzxf 60 MG/ML [Phesgo]"
+          },
+          {
+            "code": "1169113",
+            "display": "Herceptin Injectable Product"
+          },
+          {
+            "code": "1603355",
+            "display": "panobinostat 10 MG Oral Capsule"
+          },
+          {
+            "code": "105607",
+            "display": "pentostatin 10 MG Injection [Nipent]"
+          },
+          {
+            "code": "1657195",
+            "display": "10 ML nivolumab 10 MG/ML Injection"
+          },
+          {
+            "code": "1302968",
+            "display": "carfilzomib Injectable Product"
+          },
+          {
+            "code": "261715",
+            "display": "aminolevulinic acid hydrochloride"
+          },
+          {
+            "code": "1804032",
+            "display": "arsenic trioxide 1 MG/ML"
+          },
+          {
+            "code": "1424457",
+            "display": "tretinoin 0.75 MG/ML Topical Cream [Tretin X]"
+          },
+          {
+            "code": "2054085",
+            "display": "Poteligeo Injectable Product"
+          },
+          {
+            "code": "2178390",
+            "display": "selinexor"
+          },
+          {
+            "code": "1723182",
+            "display": "aflibercept Injection [Eylea]"
+          },
+          {
+            "code": "1927884",
+            "display": "hyaluronidase / rituximab"
+          },
+          {
+            "code": "1294581",
+            "display": "gemtuzumab ozogamicin 1 MG/ML"
+          },
+          {
+            "code": "1944699",
+            "display": "gemtuzumab ozogamicin 4.5 MG"
+          },
+          {
+            "code": "1298945",
+            "display": "pertuzumab 30 MG/ML"
+          },
+          {
+            "code": "2387841",
+            "display": "belantamab mafodotin Injection [Blenrep]"
+          },
+          {
+            "code": "1804979",
+            "display": "belinostat 500 MG"
+          },
+          {
+            "code": "1371049",
+            "display": "KADCYLA Injectable Product"
+          },
+          {
+            "code": "378363",
+            "display": "carboplatin Injectable Solution"
+          },
+          {
+            "code": "8011",
+            "display": "pentostatin"
+          },
+          {
+            "code": "1424455",
+            "display": "tretinoin 0.75 MG/ML Topical Cream"
+          },
+          {
+            "code": "1302974",
+            "display": "Kyprolis Injectable Product"
+          },
+          {
+            "code": "1723187",
+            "display": "8 ML ziv-aflibercept 25 MG/ML Injection"
+          },
+          {
+            "code": "1987644",
+            "display": "tretinoin 0.0006 MG/MG Topical Gel"
+          },
+          {
+            "code": "2561249",
+            "display": "asparaginase Erwinia chrysanthemi (recombinant)-rywn"
+          },
+          {
+            "code": "2268042",
+            "display": "bevacizumab Injection [Zirabev]"
+          },
+          {
+            "code": "1179043",
+            "display": "Targretin Oral Product"
+          },
+          {
+            "code": "667895",
+            "display": "panitumumab 20 MG/ML [Vectibix]"
+          },
+          {
+            "code": "2178391",
+            "display": "selinexor 20 MG"
+          },
+          {
+            "code": "1658041",
+            "display": "ofatumumab Injection"
+          },
+          {
+            "code": "2539971",
+            "display": "dostarlimab Injection"
+          },
+          {
+            "code": "2565808",
+            "display": "Twyneo"
+          },
+          {
+            "code": "362175",
+            "display": "tretinoin Topical Cream [Avita]"
+          },
+          {
+            "code": "2178402",
+            "display": "selinexor 20 MG Oral Tablet [Xpovio]"
+          },
+          {
+            "code": "1165765",
+            "display": "estramustine Pill"
+          },
+          {
+            "code": "2105848",
+            "display": "glasdegib Pill"
+          },
+          {
+            "code": "1942743",
+            "display": "cytarabine liposome 100 MG / daunorubicin liposomal 44 MG Injection"
+          },
+          {
+            "code": "214468",
+            "display": "daunorubicin liposomal"
+          },
+          {
+            "code": "1242994",
+            "display": "vismodegib 150 MG [Erivedge]"
+          },
+          {
+            "code": "2382608",
+            "display": "Phesgo Injectable Product"
+          },
+          {
+            "code": "1721947",
+            "display": "daratumumab"
+          },
+          {
+            "code": "2282027",
+            "display": "Sarclisa Injectable Product"
+          },
+          {
+            "code": "1165408",
+            "display": "pentostatin Injectable Product"
+          },
+          {
+            "code": "2099305",
+            "display": "moxetumomab pasudotox-tdfk"
+          },
+          {
+            "code": "1294580",
+            "display": "gemtuzumab ozogamicin"
+          },
+          {
+            "code": "1658087",
+            "display": "ado-trastuzumab emtansine 100 MG Injection [KADCYLA]"
+          },
+          {
+            "code": "1999310",
+            "display": "hydroxyurea 100 MG [Siklos]"
+          },
+          {
+            "code": "1659927",
+            "display": "sonidegib 200 MG Oral Capsule [Odomzo]"
+          },
+          {
+            "code": "2565810",
+            "display": "Twyneo Topical Product"
+          },
+          {
+            "code": "2179755",
+            "display": "trastuzumab-dkst 150 MG [Ogivri]"
+          },
+          {
+            "code": "1804980",
+            "display": "belinostat Injection"
+          },
+          {
+            "code": "2058828",
+            "display": "cemiplimab Injectable Product"
+          },
+          {
+            "code": "2257300",
+            "display": "trastuzumab-anns 150 MG Injection [Kanjinti]"
+          },
+          {
+            "code": "1659191",
+            "display": "sonidegib"
+          },
+          {
+            "code": "1294583",
+            "display": "gemtuzumab ozogamicin Injectable Solution"
+          },
+          {
+            "code": "2387339",
+            "display": "Monjuvi"
+          },
+          {
+            "code": "377962",
+            "display": "tretinoin Topical Gel"
+          },
+          {
+            "code": "401941",
+            "display": "methyl 5-aminolevulinate 160 MG/ML Topical Cream"
+          },
+          {
+            "code": "1804983",
+            "display": "belinostat Injection [Beleodaq]"
+          },
+          {
+            "code": "749327",
+            "display": "tretinoin 0.0005 MG/MG [Atralin]"
+          },
+          {
+            "code": "1999309",
+            "display": "Siklos"
+          },
+          {
+            "code": "687144",
+            "display": "clindamycin / tretinoin"
+          },
+          {
+            "code": "1792777",
+            "display": "atezolizumab 60 MG/ML"
+          },
+          {
+            "code": "2289235",
+            "display": "trastuzumab-dttb 21 MG/ML [Ontruzant]"
+          },
+          {
+            "code": "1603368",
+            "display": "panobinostat 20 MG [Farydak]"
+          },
+          {
+            "code": "1658042",
+            "display": "50 ML ofatumumab 20 MG/ML Injection"
+          },
+          {
+            "code": "121191",
+            "display": "rituximab"
+          },
+          {
+            "code": "1723764",
+            "display": "ixazomib 3 MG"
+          },
+          {
+            "code": "205322",
+            "display": "celecoxib 100 MG Oral Capsule"
+          },
+          {
+            "code": "1792781",
+            "display": "Tecentriq"
+          },
+          {
+            "code": "1442698",
+            "display": "40 ML obinutuzumab 25 MG/ML Injection [Gazyva]"
+          },
+          {
+            "code": "2282023",
+            "display": "5 ML isatuximab-irfc 20 MG/ML Injection"
+          },
+          {
+            "code": "2565812",
+            "display": "benzoyl peroxide 30 MG/ML / tretinoin 1 MG/ML Topical Cream [Twyneo]"
+          },
+          {
+            "code": "1603365",
+            "display": "panobinostat 15 MG Oral Capsule [Farydak]"
+          },
+          {
+            "code": "1792785",
+            "display": "20 ML atezolizumab 60 MG/ML Injection [Tecentriq]"
+          },
+          {
+            "code": "1183920",
+            "display": "Nipent Injectable Product"
+          },
+          {
+            "code": "1791251",
+            "display": "porfimer sodium 75 MG"
+          },
+          {
+            "code": "1160730",
+            "display": "panitumumab Injectable Product"
+          },
+          {
+            "code": "355460",
+            "display": "Erbitux"
+          },
+          {
+            "code": "1794546",
+            "display": "pentostatin 10 MG [Nipent]"
+          },
+          {
+            "code": "1723761",
+            "display": "Ninlaro Oral Product"
+          },
+          {
+            "code": "215492",
+            "display": "Avita"
+          },
+          {
+            "code": "2046143",
+            "display": "bevacizumab Injection [Mvasi]"
+          },
+          {
+            "code": "2109055",
+            "display": "tagraxofusp"
+          },
+          {
+            "code": "2105834",
+            "display": "50 ML rituximab-abbs 10 MG/ML Injection"
+          },
+          {
+            "code": "2099952",
+            "display": "talazoparib 0.25 MG Oral Capsule [Talzenna]"
+          },
+          {
+            "code": "1232152",
+            "display": "aflibercept Injectable Product"
+          },
+          {
+            "code": "569036",
+            "display": "tretinoin 1 MG/ML [Retin-A]"
+          },
+          {
+            "code": "197797",
+            "display": "hydroxyurea 500 MG Oral Capsule"
+          },
+          {
+            "code": "1942747",
+            "display": "Vyxeos Injectable Product"
+          },
+          {
+            "code": "2047711",
+            "display": "amlodipine / celecoxib Oral Product"
+          },
+          {
+            "code": "1658085",
+            "display": "ado-trastuzumab emtansine 100 MG [KADCYLA]"
+          },
+          {
+            "code": "1940371",
+            "display": "enasidenib 100 MG [Idhifa]"
+          },
+          {
+            "code": "2107056",
+            "display": "trastuzumab Injectable Solution [Herzuma]"
+          },
+          {
+            "code": "1242987",
+            "display": "vismodegib"
+          },
+          {
+            "code": "1597876",
+            "display": "nivolumab"
+          },
+          {
+            "code": "1987403",
+            "display": "Yescarta"
+          },
+          {
+            "code": "2539973",
+            "display": "Jemperli"
+          },
+          {
+            "code": "198300",
+            "display": "tretinoin 1 MG/ML Topical Cream"
+          },
+          {
+            "code": "2119713",
+            "display": "hyaluronidase / trastuzumab"
+          },
+          {
+            "code": "2472794",
+            "display": "trastuzumab-qyyp 150 MG Injection [Trazimera]"
+          },
+          {
+            "code": "1657004",
+            "display": "ipilimumab Injection"
+          },
+          {
+            "code": "2054077",
+            "display": "mogamulizumab-kpkc"
+          },
+          {
+            "code": "1659918",
+            "display": "sonidegib Oral Product"
+          },
+          {
+            "code": "991233",
+            "display": "bexarotene 0.01 MG/MG Topical Gel [Targretin]"
+          },
+          {
+            "code": "370404",
+            "display": "tretinoin Topical Gel [Retin-A]"
+          },
+          {
+            "code": "1547547",
+            "display": "pembrolizumab Injectable Product"
+          },
+          {
+            "code": "1940375",
+            "display": "enasidenib 50 MG [Idhifa]"
+          },
+          {
+            "code": "1045460",
+            "display": "2 ML eribulin mesylate 0.5 MG/ML Injection [Halaven]"
+          },
+          {
+            "code": "1875539",
+            "display": "avelumab 20 MG/ML"
+          },
+          {
+            "code": "1175302",
+            "display": "Emcyt Oral Product"
+          },
+          {
+            "code": "213040",
+            "display": "5 ML pegaspargase 750 UNT/ML Injection [Oncaspar]"
+          },
+          {
+            "code": "2387211",
+            "display": "tafasitamab"
+          },
+          {
+            "code": "2273511",
+            "display": "rituximab-pvvr 10 MG/ML"
+          },
+          {
+            "code": "2382990",
+            "display": "{24 (selinexor 20 MG Oral Tablet [Xpovio]) } Pack [Xpovio 60 MG Twice Weekly (120 MG total weekly dose) Carton]"
+          },
+          {
+            "code": "3041",
+            "display": "cytarabine"
+          },
+          {
+            "code": "349514",
+            "display": "celecoxib 400 MG Oral Capsule"
+          },
+          {
+            "code": "1723770",
+            "display": "ixazomib 4 MG Oral Capsule"
+          },
+          {
+            "code": "315603",
+            "display": "celecoxib 100 MG"
+          },
+          {
+            "code": "1658088",
+            "display": "ado-trastuzumab emtansine 160 MG"
+          },
+          {
+            "code": "2109062",
+            "display": "tagraxofusp Injection [Elzonris]"
+          },
+          {
+            "code": "2099314",
+            "display": "moxetumomab pasudotox-tdfk 1 MG Injection [Lumoxiti]"
+          },
+          {
+            "code": "1919510",
+            "display": "durvalumab Injection [Imfinzi]"
+          },
+          {
+            "code": "2046144",
+            "display": "Mvasi Injectable Product"
+          },
+          {
+            "code": "1875542",
+            "display": "10 ML avelumab 20 MG/ML Injection"
+          },
+          {
+            "code": "2387843",
+            "display": "belantamab mafodotin-blmf 100 MG Injection [Blenrep]"
+          },
+          {
+            "code": "2373458",
+            "display": "Elyxyb Oral Liquid Product"
+          },
+          {
+            "code": "667879",
+            "display": "panitumumab 20 MG/ML"
+          },
+          {
+            "code": "2373460",
+            "display": "celecoxib 25 MG/ML Oral Solution [Elyxyb]"
+          },
+          {
+            "code": "2105824",
+            "display": "rituximab-abbs"
+          },
+          {
+            "code": "2047714",
+            "display": "amlodipine / celecoxib"
+          },
+          {
+            "code": "1723194",
+            "display": "4 ML ziv-aflibercept 25 MG/ML Injection [Zaltrap]"
+          },
+          {
+            "code": "372082",
+            "display": "estramustine Oral Capsule"
+          },
+          {
+            "code": "805371",
+            "display": "tretinoin 0.001 MG/MG [Retin-A]"
+          },
+          {
+            "code": "1094833",
+            "display": "ipilimumab"
+          },
+          {
+            "code": "1986438",
+            "display": "tisagenlecleucel"
+          },
+          {
+            "code": "2390950",
+            "display": "Kesimpta"
+          },
+          {
+            "code": "4090",
+            "display": "estramustine phosphate sodium"
+          },
+          {
+            "code": "2387836",
+            "display": "belantamab mafodotin Injectable Product"
+          },
+          {
+            "code": "2472326",
+            "display": "rituximab-arrx 10 MG/ML"
+          },
+          {
+            "code": "2044974",
+            "display": "tisagenlecleucel 600000000 CELLS [Kymriah]"
+          },
+          {
+            "code": "1806937",
+            "display": "carfilzomib 30 MG Injection [Kyprolis]"
+          },
+          {
+            "code": "2472332",
+            "display": "10 ML rituximab-arrx 10 MG/ML Injection [Riabni]"
+          },
+          {
+            "code": "2289237",
+            "display": "trastuzumab-dttb 21 MG/ML Injectable Solution [Ontruzant]"
+          },
+          {
+            "code": "1806647",
+            "display": "aminolevulinic acid hydrochloride 0.1 MG/MG [Ameluz]"
+          },
+          {
+            "code": "2178408",
+            "display": "{20 (selinexor 20 MG Oral Tablet) } Pack"
+          },
+          {
+            "code": "23066",
+            "display": "dihematoporphyrin ether"
+          },
+          {
+            "code": "1726108",
+            "display": "elotuzumab Injectable Product"
+          },
+          {
+            "code": "2107053",
+            "display": "trastuzumab-pkrb 21 MG/ML Injectable Solution"
+          },
+          {
+            "code": "2049591",
+            "display": "Consensi Oral Product"
+          },
+          {
+            "code": "2054079",
+            "display": "mogamulizumab Injectable Product"
+          },
+          {
+            "code": "1658089",
+            "display": "ado-trastuzumab emtansine 160 MG Injection"
+          },
+          {
+            "code": "2375544",
+            "display": "trastuzumab-oysk 120 MG/ML"
+          },
+          {
+            "code": "316450",
+            "display": "pegaspargase 750 UNT/ML"
+          },
+          {
+            "code": "1855744",
+            "display": "50 ML olaratumab 10 MG/ML Injection [Lartruvo]"
+          },
+          {
+            "code": "1942952",
+            "display": "inotuzumab ozogamicin Injectable Product"
+          },
+          {
+            "code": "1724157",
+            "display": "omacetaxine mepesuccinate Injection [Synribo]"
+          },
+          {
+            "code": "1736562",
+            "display": "eribulin Injection [Halaven]"
+          },
+          {
+            "code": "1804033",
+            "display": "arsenic trioxide Injection"
+          },
+          {
+            "code": "1597262",
+            "display": "blinatumomab 0.035 MG Injection"
+          },
+          {
+            "code": "2282025",
+            "display": "isatuximab-irfc 20 MG/ML [Sarclisa]"
+          },
+          {
+            "code": "1045457",
+            "display": "Halaven"
+          },
+          {
+            "code": "1543547",
+            "display": "belinostat 500 MG Injection"
+          },
+          {
+            "code": "2046138",
+            "display": "bevacizumab-awwb"
+          },
+          {
+            "code": "370657",
+            "display": "hydroxyurea Oral Tablet"
+          },
+          {
+            "code": "1151523",
+            "display": "dihematoporphyrin ether Injectable Product"
+          },
+          {
+            "code": "687066",
+            "display": "porfimer sodium 75 MG Injection [Photofrin]"
+          },
+          {
+            "code": "1356692",
+            "display": "Synribo Injectable Product"
+          },
+          {
+            "code": "2266816",
+            "display": "amlodipine 10 MG / celecoxib 200 MG Oral Tablet [Consensi]"
+          },
+          {
+            "code": "199159",
+            "display": "tretinoin 10 MG Oral Capsule"
+          },
+          {
+            "code": "1999308",
+            "display": "hydroxyurea 100 MG Oral Tablet"
+          },
+          {
+            "code": "1942950",
+            "display": "inotuzumab ozogamicin"
+          },
+          {
+            "code": "2105857",
+            "display": "glasdegib 25 MG"
+          },
+          {
+            "code": "2565805",
+            "display": "benzoyl peroxide / tretinoin Topical Product"
+          },
+          {
+            "code": "1855739",
+            "display": "50 ML olaratumab 10 MG/ML Injection"
+          },
+          {
+            "code": "1603366",
+            "display": "panobinostat 20 MG"
+          },
+          {
+            "code": "1371041",
+            "display": "ado-trastuzumab emtansine"
+          },
+          {
+            "code": "1171445",
+            "display": "Arzerra Injectable Product"
+          },
+          {
+            "code": "1806939",
+            "display": "carfilzomib 60 MG"
+          },
+          {
+            "code": "332447",
+            "display": "bexarotene 0.01 MG/MG"
+          },
+          {
+            "code": "1657868",
+            "display": "50 ML rituximab 10 MG/ML Injection [Rituxan]"
+          },
+          {
+            "code": "2109060",
+            "display": "Elzonris"
+          },
+          {
+            "code": "250939",
+            "display": "tretinoin 0.5 MG/ML Topical Lotion"
+          },
+          {
+            "code": "1804982",
+            "display": "belinostat 500 MG [Beleodaq]"
+          },
+          {
+            "code": "313452",
+            "display": "tretinoin 0.5 MG/ML Topical Solution"
+          },
+          {
+            "code": "1723749",
+            "display": "Portrazza Injectable Product"
+          },
+          {
+            "code": "999924",
+            "display": "Veltin"
+          },
+          {
+            "code": "846955",
+            "display": "tretinoin 0.2 MG/ML Topical Cream [Renova]"
+          },
+          {
+            "code": "2382597",
+            "display": "pertuzumab-zzxf"
+          },
+          {
+            "code": "1187763",
+            "display": "Veltin Topical Product"
+          },
+          {
+            "code": "2178403",
+            "display": "{12 (selinexor 20 MG Oral Tablet [Xpovio]) } Pack [Xpovio 60 MG Once Weekly Carton]"
+          },
+          {
+            "code": "1657012",
+            "display": "10 ML ipilimumab 5 MG/ML Injection"
+          },
+          {
+            "code": "2174805",
+            "display": "Kanjinti"
+          },
+          {
+            "code": "1919509",
+            "display": "durvalumab 50 MG/ML [Imfinzi]"
+          },
+          {
+            "code": "1651252",
+            "display": "blinatumomab 0.035 MG [Blincyto]"
+          },
+          {
+            "code": "564897",
+            "display": "tretinoin 0.25 MG/ML [Retin-A]"
+          },
+          {
+            "code": "1806932",
+            "display": "carfilzomib 30 MG"
+          },
+          {
+            "code": "93698",
+            "display": "carboplatin Injectable Solution [Paraplatin]"
+          },
+          {
+            "code": "1940370",
+            "display": "enasidenib 100 MG Oral Tablet"
+          },
+          {
+            "code": "2049881",
+            "display": "ivosidenib Oral Tablet [Tibsovo]"
+          },
+          {
+            "code": "328546",
+            "display": "procarbazine 50 MG"
+          },
+          {
+            "code": "308724",
+            "display": "bexarotene 0.01 MG/MG Topical Gel"
+          },
+          {
+            "code": "2539968",
+            "display": "dostarlimab-gxly"
+          },
+          {
+            "code": "204257",
+            "display": "Lysodren"
+          },
+          {
+            "code": "2289228",
+            "display": "Ontruzant"
+          },
+          {
+            "code": "1147323",
+            "display": "brentuximab vedotin 50 MG Injection"
+          },
+          {
+            "code": "2054086",
+            "display": "5 ML mogamulizumab-kpkc 4 MG/ML Injection [Poteligeo]"
+          },
+          {
+            "code": "2375138",
+            "display": "daratumumab-fihj 120 MG/ML / hyaluronidase-fihj 2000 UNT/ML [Darzalex Faspro]"
+          },
+          {
+            "code": "152200",
+            "display": "Paraplatin"
+          },
+          {
+            "code": "373602",
+            "display": "procarbazine Oral Capsule"
+          },
+          {
+            "code": "1094837",
+            "display": "Yervoy"
+          },
+          {
+            "code": "2268039",
+            "display": "4 ML bevacizumab-bvzr 25 MG/ML Injection"
+          },
+          {
+            "code": "645671",
+            "display": "tretinoin 1 MG/ML Topical Cream [Tretin X]"
+          },
+          {
+            "code": "2049878",
+            "display": "ivosidenib 250 MG Oral Tablet"
+          },
+          {
+            "code": "1942488",
+            "display": "olaparib 150 MG [Lynparza]"
+          },
+          {
+            "code": "1356688",
+            "display": "omacetaxine mepesuccinate 3.5 MG Injection"
+          },
+          {
+            "code": "2266818",
+            "display": "amlodipine 5 MG / celecoxib 200 MG Oral Tablet [Consensi]"
+          },
+          {
+            "code": "1543545",
+            "display": "belinostat Injectable Product"
+          },
+          {
+            "code": "337521",
+            "display": "Avastin"
+          },
+          {
+            "code": "2387840",
+            "display": "belantamab mafodotin-blmf 100 MG [Blenrep]"
+          },
+          {
+            "code": "2107051",
+            "display": "trastuzumab-pkrb"
+          },
+          {
+            "code": "597851",
+            "display": "anagrelide 1 MG"
+          },
+          {
+            "code": "1161224",
+            "display": "celecoxib Pill"
+          },
+          {
+            "code": "997643",
+            "display": "tretinoin 0.375 MG/ML Topical Cream [Tretin X]"
+          },
+          {
+            "code": "379069",
+            "display": "bexarotene Oral Capsule"
+          },
+          {
+            "code": "1726116",
+            "display": "elotuzumab 400 MG"
+          },
+          {
+            "code": "1944702",
+            "display": "gemtuzumab ozogamicin 4.5 MG [Mylotarg]"
+          },
+          {
+            "code": "1862586",
+            "display": "rucaparib 300 MG [Rubraca]"
+          },
+          {
+            "code": "1726113",
+            "display": "elotuzumab Injection [Empliciti]"
+          },
+          {
+            "code": "2268038",
+            "display": "bevacizumab-bvzr 25 MG/ML"
+          },
+          {
+            "code": "366443",
+            "display": "celecoxib Oral Capsule [Celebrex]"
+          },
+          {
+            "code": "1166198",
+            "display": "Celebrex Oral Product"
+          },
+          {
+            "code": "2398130",
+            "display": "polatuzumab vedotin-piiq 30 MG"
+          },
+          {
+            "code": "1603367",
+            "display": "panobinostat 20 MG Oral Capsule"
+          },
+          {
+            "code": "1597582",
+            "display": "olaparib"
+          },
+          {
+            "code": "1657749",
+            "display": "pembrolizumab 50 MG Injection [Keytruda]"
+          },
+          {
+            "code": "101306",
+            "display": "Herceptin"
+          },
+          {
+            "code": "2390954",
+            "display": "0.4 ML ofatumumab 50 MG/ML Pen Injector [Kesimpta]"
+          },
+          {
+            "code": "2373456",
+            "display": "celecoxib 25 MG/ML [Elyxyb]"
+          },
+          {
+            "code": "2178399",
+            "display": "selinexor Oral Tablet [Xpovio]"
+          },
+          {
+            "code": "573195",
+            "display": "hydroxyurea 200 MG [Droxia]"
+          },
+          {
+            "code": "2472329",
+            "display": "rituximab-arrx 10 MG/ML [Riabni]"
+          },
+          {
+            "code": "1736776",
+            "display": "10 ML oxaliplatin 5 MG/ML Injection"
+          },
+          {
+            "code": "2169361",
+            "display": "trastuzumab Injection [Herzuma]"
+          },
+          {
+            "code": "1723758",
+            "display": "Ninlaro"
+          },
+          {
+            "code": "2267580",
+            "display": "Enhertu Injectable Product"
+          },
+          {
+            "code": "2387340",
+            "display": "tafasitamab-cxix 200 MG [Monjuvi]"
+          },
+          {
+            "code": "1651250",
+            "display": "blinatumomab Injection"
+          },
+          {
+            "code": "331495",
+            "display": "bexarotene 75 MG"
+          },
+          {
+            "code": "328695",
+            "display": "tretinoin 0.0001 MG/MG"
+          },
+          {
+            "code": "2257298",
+            "display": "trastuzumab-anns 150 MG [Kanjinti]"
+          },
+          {
+            "code": "1175695",
+            "display": "Avita Topical Product"
+          },
+          {
+            "code": "1302971",
+            "display": "Kyprolis"
+          },
+          {
+            "code": "2374733",
+            "display": "lurbinectedin 4 MG Injection"
+          },
+          {
+            "code": "2390949",
+            "display": "0.4 ML ofatumumab 50 MG/ML Pen Injector"
+          },
+          {
+            "code": "378079",
+            "display": "bexarotene Topical Gel"
+          },
+          {
+            "code": "1657065",
+            "display": "bevacizumab Injection"
+          },
+          {
+            "code": "861050",
+            "display": "asparaginase 5000 UNT/ML Injectable Solution"
+          },
+          {
+            "code": "1174066",
+            "display": "Hydrea Oral Product"
+          },
+          {
+            "code": "2178409",
+            "display": "{20 (selinexor 20 MG Oral Tablet [Xpovio]) } Pack [Xpovio 100 MG Once Weekly Carton]"
+          },
+          {
+            "code": "1927882",
+            "display": "hyaluronidase / rituximab Injectable Product"
+          },
+          {
+            "code": "1942486",
+            "display": "olaparib 150 MG"
+          },
+          {
+            "code": "1999314",
+            "display": "hydroxyurea 100 MG Oral Tablet [Siklos]"
+          },
+          {
+            "code": "2387834",
+            "display": "belantamab mafodotin"
+          },
+          {
+            "code": "2375546",
+            "display": "hyaluronidase-oysk 2000 UNT/ML / trastuzumab-oysk 120 MG/ML [Herceptin Hylecta]"
+          },
+          {
+            "code": "224911",
+            "display": "Oncaspar"
+          },
+          {
+            "code": "572979",
+            "display": "pegaspargase 750 UNT/ML [Oncaspar]"
+          },
+          {
+            "code": "402402",
+            "display": "methyl 5-aminolevulinate Topical Cream"
+          },
+          {
+            "code": "1940372",
+            "display": "enasidenib 100 MG Oral Tablet [Idhifa]"
+          },
+          {
+            "code": "2387342",
+            "display": "Monjuvi Injectable Product"
+          },
+          {
+            "code": "1165374",
+            "display": "mitotane Pill"
+          },
+          {
+            "code": "2174192",
+            "display": "talimogene laherparepvec 1000000 UNT/ML [Imlygic]"
+          },
+          {
+            "code": "1232190",
+            "display": "asparaginase Erwinia chrysanthemi 10000 UNT Injection [Erwinaze]"
+          },
+          {
+            "code": "3109",
+            "display": "daunorubicin"
+          },
+          {
+            "code": "358819",
+            "display": "oxaliplatin 5 MG/ML"
+          },
+          {
+            "code": "1242996",
+            "display": "Erivedge Oral Product"
+          },
+          {
+            "code": "2285807",
+            "display": "cytarabine / daunorubicin Injection"
+          },
+          {
+            "code": "1045453",
+            "display": "eribulin"
+          },
+          {
+            "code": "1723762",
+            "display": "Ninlaro Pill"
+          },
+          {
+            "code": "2174807",
+            "display": "trastuzumab Injectable Solution [Kanjinti]"
+          },
+          {
+            "code": "2174094",
+            "display": "polatuzumab vedotin Injection"
+          },
+          {
+            "code": "2472330",
+            "display": "rituximab Injection [Riabni]"
+          },
+          {
+            "code": "1747573",
+            "display": "venetoclax 50 MG"
+          },
+          {
+            "code": "2561254",
+            "display": "asparaginase Injection [Rylaze]"
+          },
+          {
+            "code": "402401",
+            "display": "methyl 5-aminolevulinate 160 MG/ML"
+          },
+          {
+            "code": "1175674",
+            "display": "Avastin Injectable Product"
+          }
+        ]
+      }
+    ]
+  }
+}

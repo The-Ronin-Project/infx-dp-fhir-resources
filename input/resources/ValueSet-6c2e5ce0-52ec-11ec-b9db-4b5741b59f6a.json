@@ -1,0 +1,241 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "KidneyCancerCombined",
+  "id": "6c2e5ce0-52ec-11ec-b9db-4b5741b59f6a",
+  "title": "Kidney Cancer Combined",
+  "description": "This valueset contains the diagnosis codes for kidney cancer and diseases that are clinically treated as kidney cancer. It contains both ICD-10 and SNOMED. First version of valueset",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/6c2e5ce0-52ec-11ec-b9db-4b5741b59f6a",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "763101411000119100",
+            "display": "Primary renal cell carcinoma of left kidney (disorder)"
+          },
+          {
+            "code": "733471003",
+            "display": "Chromophobe renal cell carcinoma (disorder)"
+          },
+          {
+            "code": "93985007",
+            "display": "Primary malignant neoplasm of renal pelvis (disorder)"
+          },
+          {
+            "code": "363518003",
+            "display": "Malignant tumor of kidney (disorder)"
+          },
+          {
+            "code": "15959061000119101",
+            "display": "Transitional cell carcinoma of left kidney (disorder)"
+          },
+          {
+            "code": "733470002",
+            "display": "Collecting duct carcinoma of kidney (disorder)"
+          },
+          {
+            "code": "1148852009",
+            "display": "Malignant cystic nephroma (disorder)"
+          },
+          {
+            "code": "733608000",
+            "display": "Papillary renal cell carcinoma (disorder)"
+          },
+          {
+            "code": "15959101000119103",
+            "display": "Transitional cell carcinoma of right kidney (disorder)"
+          },
+          {
+            "code": "1081581000119104",
+            "display": "Clear cell carcinoma of right kidney (disorder)"
+          },
+          {
+            "code": "353111000119108",
+            "display": "Primary malignant neoplasm of left renal pelvis (disorder)"
+          },
+          {
+            "code": "254916002",
+            "display": "Cystadenocarcinoma of kidney (disorder)"
+          },
+          {
+            "code": "717735006",
+            "display": "Renal cell carcinoma of kidney except renal pelvis (disorder)"
+          },
+          {
+            "code": "188250002",
+            "display": "Malignant tumor of kidney parenchyma (disorder)"
+          },
+          {
+            "code": "354351000119105",
+            "display": "Primary malignant neoplasm of left kidney (disorder)"
+          },
+          {
+            "code": "765095002",
+            "display": "Renal medullary carcinoma (disorder)"
+          },
+          {
+            "code": "1081571000119102",
+            "display": "Clear cell carcinoma of left kidney (disorder)"
+          },
+          {
+            "code": "188253000",
+            "display": "Malignant tumor of pelviureteric junction (disorder)"
+          },
+          {
+            "code": "448215006",
+            "display": "Malignant epithelial neoplasm of renal pelvis (disorder)"
+          },
+          {
+            "code": "713574000",
+            "display": "Malignant carcinoid tumor of kidney (disorder)"
+          },
+          {
+            "code": "894171571000119107",
+            "display": "Primary renal cell carcinoma of right kidney (disorder)"
+          },
+          {
+            "code": "782722002",
+            "display": "Global developmental delay, lung cysts, overgrowth, Wilms tumor syndrome (disorder)"
+          },
+          {
+            "code": "734015000",
+            "display": "Clear cell papillary renal cell carcinoma (disorder)"
+          },
+          {
+            "code": "314967004",
+            "display": "Local recurrence of malignant tumor of kidney (disorder)"
+          },
+          {
+            "code": "764990003",
+            "display": "Renal mucinous tubular and spindle cell carcinoma (disorder)"
+          },
+          {
+            "code": "236513009",
+            "display": "Lymphoma of kidney (disorder)"
+          },
+          {
+            "code": "895345000",
+            "display": "Primary malignant neoplasm of bilateral kidneys (disorder)"
+          },
+          {
+            "code": "1082331000119102",
+            "display": "Nephroblastoma of right kidney (disorder)"
+          },
+          {
+            "code": "764961009",
+            "display": "Hereditary clear cell renal cell carcinoma (disorder)"
+          },
+          {
+            "code": "1082281000119105",
+            "display": "Transitional cell carcinoma of left renal pelvis (disorder)"
+          },
+          {
+            "code": "354361000119107",
+            "display": "Primary malignant neoplasm of right kidney (disorder)"
+          },
+          {
+            "code": "702391001",
+            "display": "Renal cell carcinoma (disorder)"
+          },
+          {
+            "code": "733603009",
+            "display": "Tubulocystic renal cell carcinoma (disorder)"
+          },
+          {
+            "code": "1082321000119100",
+            "display": "Nephroblastoma of left kidney (disorder)"
+          },
+          {
+            "code": "302849000",
+            "display": "Nephroblastoma (disorder)"
+          },
+          {
+            "code": "1082301000119109",
+            "display": "Transitional cell carcinoma of right renal pelvis (disorder)"
+          },
+          {
+            "code": "254915003",
+            "display": "Clear cell carcinoma of kidney (disorder)"
+          },
+          {
+            "code": "15636991000119103",
+            "display": "Renal cell carcinoma of bilateral kidneys (disorder)"
+          },
+          {
+            "code": "188252005",
+            "display": "Malignant tumor of renal calyx (disorder)"
+          },
+          {
+            "code": "764694005",
+            "display": "MiT family translocation renal cell carcinoma (disorder)"
+          },
+          {
+            "code": "717736007",
+            "display": "Familial renal cell carcinoma (disorder)"
+          },
+          {
+            "code": "363457009",
+            "display": "Malignant tumor of renal pelvis (disorder)"
+          },
+          {
+            "code": "764856008",
+            "display": "Acquired cystic disease associated renal cell carcinoma (disorder)"
+          },
+          {
+            "code": "408642003",
+            "display": "Transitional cell carcinoma of kidney (disorder)"
+          },
+          {
+            "code": "352961000119103",
+            "display": "Primary malignant neoplasm of right renal pelvis (disorder)"
+          },
+          {
+            "code": "878805009",
+            "display": "Renal granular cell carcinoma (disorder)"
+          },
+          {
+            "code": "1148931000",
+            "display": "Cystic renal cell carcinoma of kidney (disorder)"
+          },
+          {
+            "code": "93849006",
+            "display": "Primary malignant neoplasm of kidney (disorder)"
+          },
+          {
+            "code": "254917006",
+            "display": "Papillary cystadenocarcinoma of kidney (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "C64.1",
+            "display": "Malignant neoplasm of right kidney, except renal pelvis"
+          },
+          {
+            "code": "C64",
+            "display": "Malignant neoplasm of kidney, except renal pelvis"
+          },
+          {
+            "code": "C64.9",
+            "display": "Malignant neoplasm of unspecified kidney, except renal pelvis"
+          },
+          {
+            "code": "C64.2",
+            "display": "Malignant neoplasm of left kidney, except renal pelvis"
+          }
+        ]
+      }
+    ]
+  }
+}

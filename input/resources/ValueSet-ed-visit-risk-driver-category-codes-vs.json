@@ -1,0 +1,62 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "EDVisitRiskDriverCategoryCodesVS",
+  "id": "ed-visit-risk-driver-category-codes-vs",
+  "title": "ED Visit Risk Driver Category Codes Value Set",
+  "description": "Contains the values related to the ED visit risk drivers categories",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/ed-visit-risk-driver-category-codes-vs",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://projectronin.com/ds/riskDriver/category",
+        "concept": [
+          {
+            "code": "DSRF",
+            "display": "Disease-specific Risk Factors"
+          },
+          {
+            "code": "Demographics",
+            "display": "Demographics"
+          },
+          {
+            "code": "SDH",
+            "display": "Social Determinants of Health"
+          },
+          {
+            "code": "PHU",
+            "display": "Prior Healthcare Utilization"
+          },
+          {
+            "code": "CAP",
+            "display": "Comorbidities and Acute Problems"
+          },
+          {
+            "code": "CT",
+            "display": "Cancer Type"
+          },
+          {
+            "code": "Medications",
+            "display": "Medications"
+          },
+          {
+            "code": "TC",
+            "display": "Treatment Cycle"
+          },
+          {
+            "code": "Symptoms",
+            "display": "Symptoms"
+          },
+          {
+            "code": "LR",
+            "display": "Lab Results"
+          }
+        ]
+      }
+    ]
+  }
+}

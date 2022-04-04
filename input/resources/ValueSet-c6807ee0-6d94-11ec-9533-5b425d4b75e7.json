@@ -1,0 +1,469 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Hypothyroidism",
+  "id": "c6807ee0-6d94-11ec-9533-5b425d4b75e7",
+  "title": "Hypothyroidism",
+  "description": "SNOMED and ICD10 codes for hypothyroidism",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/c6807ee0-6d94-11ec-9533-5b425d4b75e7",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "10718002",
+            "display": "Juvenile myxedema (disorder)"
+          },
+          {
+            "code": "718183003",
+            "display": "Familial thyroid dyshormonogenesis (disorder)"
+          },
+          {
+            "code": "63127008",
+            "display": "Thyroglobulin synthesis defect (disorder)"
+          },
+          {
+            "code": "60733007",
+            "display": "Hypothyroidism due to amyloidosis (disorder)"
+          },
+          {
+            "code": "42785009",
+            "display": "Hypothyroidism due to cystinosis (disorder)"
+          },
+          {
+            "code": "716338001",
+            "display": "Muscular pseudohypertrophy and hypothyroidism syndrome (disorder)"
+          },
+          {
+            "code": "26692000",
+            "display": "Central hypothyroidism (disorder)"
+          },
+          {
+            "code": "771510006",
+            "display": "X-linked central congenital hypothyroidism with late-onset testicular enlargement (disorder)"
+          },
+          {
+            "code": "722938007",
+            "display": "Congenital central hypothyroidism (disorder)"
+          },
+          {
+            "code": "64491003",
+            "display": "Myxedematous form of cretinism (disorder)"
+          },
+          {
+            "code": "237565000",
+            "display": "Congenital iodine deficiency syndrome - mixed type (disorder)"
+          },
+          {
+            "code": "83664006",
+            "display": "Idiopathic atrophic hypothyroidism (disorder)"
+          },
+          {
+            "code": "360353005",
+            "display": "Thyrotoxicosis due to pituitary thyroid hormone resistance (disorder)"
+          },
+          {
+            "code": "42277004",
+            "display": "Transient decreased production of T>3< (disorder)"
+          },
+          {
+            "code": "27059002",
+            "display": "Postoperative hypothyroidism (disorder)"
+          },
+          {
+            "code": "52724003",
+            "display": "Iodide oxidation defect (disorder)"
+          },
+          {
+            "code": "216693007",
+            "display": "Hypothyroid dwarfism (disorder)"
+          },
+          {
+            "code": "102871000119101",
+            "display": "Hypothyroidism due to thyroiditis (disorder)"
+          },
+          {
+            "code": "722940002",
+            "display": "Acquired central hypothyroidism (disorder)"
+          },
+          {
+            "code": "40539002",
+            "display": "Hypothyroidism following radioiodine therapy (disorder)"
+          },
+          {
+            "code": "237560005",
+            "display": "Generalized thyroid hormone resistance (disorder)"
+          },
+          {
+            "code": "367631000119105",
+            "display": "Hypothyroidism caused by drug (disorder)"
+          },
+          {
+            "code": "18621008",
+            "display": "Transient decreased production of T>4< (disorder)"
+          },
+          {
+            "code": "765326001",
+            "display": "Familial glucocorticoid deficiency (disorder)"
+          },
+          {
+            "code": "88273006",
+            "display": "Iatrogenic hypothyroidism (disorder)"
+          },
+          {
+            "code": "725462002",
+            "display": "Congenital central hypothyroidism due to thyrotropin-releasing hormone receptor deficiency (disorder)"
+          },
+          {
+            "code": "40930008",
+            "display": "Hypothyroidism (disorder)"
+          },
+          {
+            "code": "22558005",
+            "display": "Iodide transport defect (disorder)"
+          },
+          {
+            "code": "49830003",
+            "display": "Hypothyroidism caused by food stuff (disorder)"
+          },
+          {
+            "code": "237556007",
+            "display": "Hypothyroidism due to iodide organification defect (disorder)"
+          },
+          {
+            "code": "718194004",
+            "display": "Hypothyroidism due to mutation in transcription factor of pituitary development (disorder)"
+          },
+          {
+            "code": "75065003",
+            "display": "Endemic cretinism (disorder)"
+          },
+          {
+            "code": "17885001",
+            "display": "Iodotyrosine deiodination defect (disorder)"
+          },
+          {
+            "code": "63115005",
+            "display": "Hypothyroidism due to scleroderma (disorder)"
+          },
+          {
+            "code": "369091000119106",
+            "display": "Hypothyroidism caused by amiodarone (disorder)"
+          },
+          {
+            "code": "1156181008",
+            "display": "Adrenocorticotropic hormone resistance syndrome (disorder)"
+          },
+          {
+            "code": "237520009",
+            "display": "Hypothyroidism due to Hashimoto's thyroiditis (disorder)"
+          },
+          {
+            "code": "190268003",
+            "display": "Congenital hypothyroidism (disorder)"
+          },
+          {
+            "code": "37429009",
+            "display": "Hypothalamic hypothyroidism (disorder)"
+          },
+          {
+            "code": "56041007",
+            "display": "Hypothyroidism due to defect in thyroid hormone synthesis (disorder)"
+          },
+          {
+            "code": "55838005",
+            "display": "Athyrotic hypothyroidism sequence (disorder)"
+          },
+          {
+            "code": "237695004",
+            "display": "Idiopathic thyroid stimulating hormone deficiency (disorder)"
+          },
+          {
+            "code": "43153006",
+            "display": "Myxedema (disorder)"
+          },
+          {
+            "code": "39444001",
+            "display": "Hypothyroidism due to fibrous invasive thyroiditis (disorder)"
+          },
+          {
+            "code": "70225006",
+            "display": "Hypothyroidism caused by iodide excess (disorder)"
+          },
+          {
+            "code": "722051004",
+            "display": "Obesity, colitis, hypothyroidism, cardiac hypertrophy, developmental delay syndrome (disorder)"
+          },
+          {
+            "code": "93359004",
+            "display": "Congenital malposition of the thyroid gland (disorder)"
+          },
+          {
+            "code": "43507005",
+            "display": "Adult myxedema (disorder)"
+          },
+          {
+            "code": "237528002",
+            "display": "Post-infectious hypothyroidism (disorder)"
+          },
+          {
+            "code": "89261000",
+            "display": "Isolated thyrotropin deficiency (disorder)"
+          },
+          {
+            "code": "190282003",
+            "display": "Hypothyroidism resulting from para-aminosalicylic acid (disorder)"
+          },
+          {
+            "code": "190283008",
+            "display": "Hypothyroidism resulting from phenylbutazone (disorder)"
+          },
+          {
+            "code": "237559000",
+            "display": "Thyroid hormone resistance syndrome (disorder)"
+          },
+          {
+            "code": "50375007",
+            "display": "Thyroid hormone responsiveness defect (disorder)"
+          },
+          {
+            "code": "57185003",
+            "display": "Primary hypothyroidism (disorder)"
+          },
+          {
+            "code": "237566004",
+            "display": "Congenital iodine deficiency syndrome - neurological type (disorder)"
+          },
+          {
+            "code": "405629002",
+            "display": "Infant hypothyroidism (disorder)"
+          },
+          {
+            "code": "10809101000119109",
+            "display": "Hypothyroidism in childbirth (disorder)"
+          },
+          {
+            "code": "84781002",
+            "display": "Sporadic cretinism (disorder)"
+          },
+          {
+            "code": "722375007",
+            "display": "Bamforth Lazarus syndrome (disorder)"
+          },
+          {
+            "code": "718690009",
+            "display": "Congenital hypothyroidism due to absence of thyroid gland (disorder)"
+          },
+          {
+            "code": "278503003",
+            "display": "Congenital hypothyroidism with diffuse goiter (disorder)"
+          },
+          {
+            "code": "111567006",
+            "display": "Refetoff syndrome (disorder)"
+          },
+          {
+            "code": "722939004",
+            "display": "Congenital hypothyroidism due to iodine deficiency (disorder)"
+          },
+          {
+            "code": "428165003",
+            "display": "Hypothyroidism in pregnancy (disorder)"
+          },
+          {
+            "code": "237519003",
+            "display": "Autoimmune hypothyroidism (disorder)"
+          },
+          {
+            "code": "718193005",
+            "display": "Peripheral resistance to thyroid hormone (disorder)"
+          },
+          {
+            "code": "698577000",
+            "display": "Infant hypothyroidism caused by maternal drug (disorder)"
+          },
+          {
+            "code": "190279008",
+            "display": "Iodine hypothyroidism (disorder)"
+          },
+          {
+            "code": "237515009",
+            "display": "Congenital hypothyroidism without goiter (disorder)"
+          },
+          {
+            "code": "4641009",
+            "display": "Myxedema heart disease (disorder)"
+          },
+          {
+            "code": "30229009",
+            "display": "Hypothyroidism due to infiltrative disease (disorder)"
+          },
+          {
+            "code": "360348000",
+            "display": "Pituitary thyroid hormone resistance (disorder)"
+          },
+          {
+            "code": "82598004",
+            "display": "Secondary hypothyroidism (disorder)"
+          },
+          {
+            "code": "23536000",
+            "display": "Iodotyrosyl coupling defect (disorder)"
+          },
+          {
+            "code": "405630007",
+            "display": "Infant hypothyroidism to 24 months of age (disorder)"
+          },
+          {
+            "code": "763890006",
+            "display": "Short stature with delayed bone age due to thyroid hormone metabolism deficiency (disorder)"
+          },
+          {
+            "code": "190284002",
+            "display": "Hypothyroidism resulting from resorcinol (disorder)"
+          },
+          {
+            "code": "699298009",
+            "display": "Blepharophimosis-mental retardation syndrome, Say-Barber-Biesecker-Young-Simpson type (disorder)"
+          },
+          {
+            "code": "237527007",
+            "display": "Postablative hypothyroidism (disorder)"
+          },
+          {
+            "code": "717334008",
+            "display": "Idiopathic congenital hypothyroidism (disorder)"
+          },
+          {
+            "code": "45414006",
+            "display": "Glucocorticoid deficiency with achalasia (disorder)"
+          },
+          {
+            "code": "237555006",
+            "display": "Hypothyroidism due to iodide trapping defect (disorder)"
+          },
+          {
+            "code": "237518006",
+            "display": "Hypothyroid goiter, acquired (disorder)"
+          },
+          {
+            "code": "237526003",
+            "display": "Euthyroid with thyroid antibodies (disorder)"
+          },
+          {
+            "code": "440092001",
+            "display": "Endemic congenital iodine deficiency syndrome of myxedematous type (disorder)"
+          },
+          {
+            "code": "237521008",
+            "display": "Hypothyroidism due to thyroid stimulating hormone receptor blocking antibody (disorder)"
+          },
+          {
+            "code": "78574007",
+            "display": "Hypothyroidism due to sarcoidosis (disorder)"
+          },
+          {
+            "code": "83986005",
+            "display": "Severe hypothyroidism (disorder)"
+          },
+          {
+            "code": "111566002",
+            "display": "Acquired hypothyroidism (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "E00.9",
+            "display": "Congenital iodine-deficiency syndrome, unspecified"
+          },
+          {
+            "code": "E01.1",
+            "display": "Iodine-deficiency related multinodular (endemic) goiter"
+          },
+          {
+            "code": "E89.0",
+            "display": "Postprocedural hypothyroidism"
+          },
+          {
+            "code": "E03.4",
+            "display": "Atrophy of thyroid (acquired)"
+          },
+          {
+            "code": "E03.2",
+            "display": "Hypothyroidism due to medicaments and other exogenous substances"
+          },
+          {
+            "code": "E00.2",
+            "display": "Congenital iodine-deficiency syndrome, mixed type"
+          },
+          {
+            "code": "E03",
+            "display": "Other hypothyroidism"
+          },
+          {
+            "code": "E01",
+            "display": "Iodine-deficiency related thyroid disorders and allied conditions"
+          },
+          {
+            "code": "E03.0",
+            "display": "Congenital hypothyroidism with diffuse goiter"
+          },
+          {
+            "code": "E01.8",
+            "display": "Other iodine-deficiency related thyroid disorders and allied conditions"
+          },
+          {
+            "code": "E03.8",
+            "display": "Other specified hypothyroidism"
+          },
+          {
+            "code": "E01.0",
+            "display": "Iodine-deficiency related diffuse (endemic) goiter"
+          },
+          {
+            "code": "E01.2",
+            "display": "Iodine-deficiency related (endemic) goiter, unspecified"
+          },
+          {
+            "code": "E03.5",
+            "display": "Myxedema coma"
+          },
+          {
+            "code": "E00.0",
+            "display": "Congenital iodine-deficiency syndrome, neurological type"
+          },
+          {
+            "code": "E03.3",
+            "display": "Postinfectious hypothyroidism"
+          },
+          {
+            "code": "E00",
+            "display": "Congenital iodine-deficiency syndrome"
+          },
+          {
+            "code": "E00.1",
+            "display": "Congenital iodine-deficiency syndrome, myxedematous type"
+          },
+          {
+            "code": "E03.9",
+            "display": "Hypothyroidism, unspecified"
+          },
+          {
+            "code": "E03.1",
+            "display": "Congenital hypothyroidism without goiter"
+          }
+        ]
+      }
+    ]
+  }
+}

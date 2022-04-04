@@ -1,0 +1,137 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ProstateCancerCombined",
+  "id": "074ce090-59ee-11ec-a5f9-ede488412e44",
+  "title": "Prostate Cancer Combined",
+  "description": "This valueset contains the diagnosis codes for prostate cancer and diseases that are clinically treated as prostate cancer. It contains both ICD-10 and SNOMED.",
+  "version": "0",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/074ce090-59ee-11ec-a5f9-ede488412e44",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2021",
+        "concept": [
+          {
+            "code": "461511000124101",
+            "display": "Biochemically recurrent prostate cancer (disorder)"
+          },
+          {
+            "code": "822970008",
+            "display": "Acinar cell cystadenocarcinoma of prostate (disorder)"
+          },
+          {
+            "code": "722103009",
+            "display": "Hormone sensitive prostate cancer (disorder)"
+          },
+          {
+            "code": "255149000",
+            "display": "Carcinoma in situ of prostatic ducts (disorder)"
+          },
+          {
+            "code": "93974005",
+            "display": "Primary malignant neoplasm of prostate (disorder)"
+          },
+          {
+            "code": "399068003",
+            "display": "Malignant tumor of prostate (disorder)"
+          },
+          {
+            "code": "369486003",
+            "display": "Malignant tumor involving prostate by separate metastasis from bladder (disorder)"
+          },
+          {
+            "code": "278060005",
+            "display": "Endometrioid carcinoma of prostate (disorder)"
+          },
+          {
+            "code": "396198006",
+            "display": "Small cell carcinoma of prostate (disorder)"
+          },
+          {
+            "code": "712849003",
+            "display": "Primary malignant neoplasm of prostate metastatic to bone (disorder)"
+          },
+          {
+            "code": "459381000124106",
+            "display": "Metastasis from hormone-refractory prostate cancer (disorder)"
+          },
+          {
+            "code": "1098981000119101",
+            "display": "Recurrent malignant neoplasm of prostate (disorder)"
+          },
+          {
+            "code": "449318001",
+            "display": "Non-Hodgkin's lymphoma of prostate (disorder)"
+          },
+          {
+            "code": "254900004",
+            "display": "Carcinoma of prostate (disorder)"
+          },
+          {
+            "code": "823017009",
+            "display": "Infiltrating duct carcinoma of prostate (disorder)"
+          },
+          {
+            "code": "92691004",
+            "display": "Carcinoma in situ of prostate (disorder)"
+          },
+          {
+            "code": "427492003",
+            "display": "Hormone refractory prostate cancer (disorder)"
+          },
+          {
+            "code": "399490008",
+            "display": "Adenocarcinoma of prostate (disorder)"
+          },
+          {
+            "code": "96901000119105",
+            "display": "Prostate cancer metastatic to eye (disorder)"
+          },
+          {
+            "code": "126906006",
+            "display": "Neoplasm of prostate (disorder)"
+          },
+          {
+            "code": "715412008",
+            "display": "Familial malignant neoplasm of prostate (disorder)"
+          },
+          {
+            "code": "448217003",
+            "display": "Follicular non-Hodgkin's lymphoma of prostate (disorder)"
+          },
+          {
+            "code": "448213004",
+            "display": "Diffuse non-Hodgkin's lymphoma of prostate (disorder)"
+          },
+          {
+            "code": "314969001",
+            "display": "Local recurrence of malignant tumor of prostate (disorder)"
+          },
+          {
+            "code": "369485004",
+            "display": "Malignant tumor involving prostate by direct extension from bladder (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2022",
+        "concept": [
+          {
+            "code": "D07.5",
+            "display": "Carcinoma in situ of prostate"
+          },
+          {
+            "code": "C61",
+            "display": "Malignant neoplasm of prostate"
+          }
+        ]
+      }
+    ]
+  }
+}

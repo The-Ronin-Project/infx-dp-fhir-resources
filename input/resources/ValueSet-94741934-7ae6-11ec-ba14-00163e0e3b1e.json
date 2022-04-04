@@ -1,0 +1,141 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "LDH",
+  "id": "94741934-7ae6-11ec-ba14-00163e0e3b1e",
+  "title": "LDH",
+  "description": "LOINC codes indicating the measurement of LDH Adding proprietary MDA codes",
+  "version": "2",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/94741934-7ae6-11ec-ba14-00163e0e3b1e",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "2543-7",
+            "display": "Lactate dehydrogenase 3 [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "2545-2",
+            "display": "Lactate dehydrogenase 4/Lactate dehydrogenase.total in Serum or Plasma by Electrophoresis"
+          },
+          {
+            "code": "14119-2",
+            "display": "Lactate dehydrogenase 1/Lactate dehydrogenase 2 [Enzymatic activity ratio] in Serum or Plasma"
+          },
+          {
+            "code": "2540-3",
+            "display": "Lactate dehydrogenase 2 [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "2546-0",
+            "display": "Lactate dehydrogenase 4 [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "14804-9",
+            "display": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction"
+          },
+          {
+            "code": "49279-3",
+            "display": "Lactate dehydrogenase isoenzymes [Interpretation] in Serum or Plasma Narrative"
+          },
+          {
+            "code": "2535-3",
+            "display": "Lactate dehydrogenase 1 [Enzymatic activity/volume] in Serum or Plasma by Chemical separation"
+          },
+          {
+            "code": "2542-9",
+            "display": "Lactate dehydrogenase 3/Lactate dehydrogenase.total in Serum or Plasma by Electrophoresis"
+          },
+          {
+            "code": "2547-8",
+            "display": "Lactate dehydrogenase 5 [Enzymatic activity/volume] in Serum or Plasma by Chemical separation"
+          },
+          {
+            "code": "19248-4",
+            "display": "Lactate dehydrogenase 2 [Enzymatic activity/volume] in Serum or Plasma by Electrophoresis"
+          },
+          {
+            "code": "2548-6",
+            "display": "Lactate dehydrogenase 5/Lactate dehydrogenase.total in Serum or Plasma by Electrophoresis"
+          },
+          {
+            "code": "2544-5",
+            "display": "Lactate dehydrogenase 4 [Enzymatic activity/volume] in Serum or Plasma by Chemical separation"
+          },
+          {
+            "code": "2538-7",
+            "display": "Lactate dehydrogenase 2 [Enzymatic activity/volume] in Serum or Plasma by Chemical separation"
+          },
+          {
+            "code": "2549-4",
+            "display": "Lactate dehydrogenase 5 [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "2536-1",
+            "display": "Lactate dehydrogenase 1/Lactate dehydrogenase.total in Serum or Plasma by Electrophoresis"
+          },
+          {
+            "code": "14805-6",
+            "display": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Pyruvate to lactate reaction"
+          },
+          {
+            "code": "2537-9",
+            "display": "Lactate dehydrogenase 1 [Enzymatic activity/volume] in Serum or Plasma"
+          },
+          {
+            "code": "5910-5",
+            "display": "Lactate dehydrogenase isoenzymes [Interpretation] in Serum or Plasma"
+          },
+          {
+            "code": "2541-1",
+            "display": "Lactate dehydrogenase 3 [Enzymatic activity/volume] in Serum or Plasma by Chemical separation"
+          },
+          {
+            "code": "2539-5",
+            "display": "Lactate dehydrogenase 2/Lactate dehydrogenase.total in Serum or Plasma by Electrophoresis"
+          }
+        ]
+      },
+      {
+        "system": "https://www.mdanderson.org/oid:1.2.840.114350.1.13.412.2.7.5.737384.134",
+        "version": "1",
+        "concept": [
+          {
+            "code": "6111",
+            "display": "LDH"
+          },
+          {
+            "code": "6114",
+            "display": "LDH 3-Mayo"
+          },
+          {
+            "code": "6112",
+            "display": "LDH 1-Mayo"
+          },
+          {
+            "code": "6116",
+            "display": "LDH 5-Mayo"
+          },
+          {
+            "code": "6115",
+            "display": "LDH 4-Mayo"
+          },
+          {
+            "code": "6113",
+            "display": "LDH 2-Mayo"
+          },
+          {
+            "code": "6122",
+            "display": "LDH-Mayo"
+          }
+        ]
+      }
+    ]
+  }
+}

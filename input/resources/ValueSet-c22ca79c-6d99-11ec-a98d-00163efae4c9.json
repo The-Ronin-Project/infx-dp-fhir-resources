@@ -1,0 +1,27 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "CA242",
+  "id": "c22ca79c-6d99-11ec-a98d-00163efae4c9",
+  "title": "CA242",
+  "description": "LOINC codes indicating the measurement of CA242 MVP for ED risk model release",
+  "version": "1",
+  "url": "http://projectronin.com/fhir/us/ronin/ValueSet/c22ca79c-6d99-11ec-a98d-00163efae4c9",
+  "experimental": false,
+  "publisher": "Project Ronin",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.7",
+        "concept": [
+          {
+            "code": "2011-5",
+            "display": "Cancer Ag 242 [Presence] in Serum or Plasma"
+          }
+        ]
+      }
+    ]
+  }
+}
