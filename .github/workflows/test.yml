@@ -21,4 +21,3 @@ jobs:
         run: ./_updatePublisher.sh -y
       - name: Run genonce
         run: ./_genonce.sh -no-sushi
-      
