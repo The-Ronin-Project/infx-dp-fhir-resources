@@ -28,7 +28,10 @@ jobs:
       - name: Update Publisher
         run: ./_updatePublisher.sh -y
       - name: Set Profile version environment variable
-        run: echo "PROFILE_VERSION=$(jq -r '.version' ./input/resources/ImplementationGuide-projectronin.fhir.json)" >> $GITHUB_ENV
+        run: |
+          echo "PROFILE_VERSION=$(jq -r '.version' ./input/resources/ImplementationGuide-projectronin.fhir.json)" >> $GITHUB_ENV
+          echo "PROFILE_VERSION: ${{ PROFILE_VERSION }}"
+          echo "env.PROFILE_VERSION: ${{ env.PROFILE_VERSION }}"
       - name: Remove string "Generated Narrative from examples"
         run: |
           cd input/examples
