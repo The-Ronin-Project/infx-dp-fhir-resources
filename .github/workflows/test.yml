@@ -15,13 +15,6 @@ jobs:
         id: short-sha
         with:
           length: 8
-      - name: Set Profile version environment variable
-        run: |
-          echo "PROFILE_VERSION=$(jq -r '.version' ./input/resources/ImplementationGuide-projectronin.fhir.json)" >> $GITHUB_ENV
-          echo "env.PROFILE_VERSION: ${{ env.PROFILE_VERSION }}"
-      - name: Check it can be read
-        run: |
-          echo "env.PROFILE_VERSION: ${{ env.PROFILE_VERSION }}"
       - name: Install jekyll
         run: sudo gem install jekyll
       - name: Update Publisher
