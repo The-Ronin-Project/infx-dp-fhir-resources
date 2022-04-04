@@ -7,7 +7,7 @@ on:
 
 jobs:
   update_dp_ronin_profile_pages:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - uses: actions/checkout@v2.1.0
