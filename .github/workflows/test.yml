@@ -18,11 +18,9 @@ jobs:
       - name: Set Profile version environment variable
         run: |
           echo "PROFILE_VERSION=$(jq -r '.version' ./input/resources/ImplementationGuide-projectronin.fhir.json)" >> $GITHUB_ENV
-          echo "PROFILE_VERSION: ${{ PROFILE_VERSION }}"
           echo "env.PROFILE_VERSION: ${{ env.PROFILE_VERSION }}"
       - name: Check it can be read
         run: |
-          echo "PROFILE_VERSION: ${{ PROFILE_VERSION }}"
           echo "env.PROFILE_VERSION: ${{ env.PROFILE_VERSION }}"
       - name: Install jekyll
         run: sudo gem install jekyll
