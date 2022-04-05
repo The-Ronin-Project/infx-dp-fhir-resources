@@ -21,7 +21,7 @@ jobs:
       - name: Install Ruby
         run: |
           sudo apt update
-          sudo apt install ruby
+          sudo apt -y install ruby
       - name: Install jekyll
         run:
           sudo gem install jekyll
