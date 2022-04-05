@@ -34,7 +34,7 @@ jobs:
         with:
           java-version: 1.8
       - name: Install fonts for java
-        run: sudo apt-get install ttf-dejavu
+        run: sudo apt-get -y install ttf-dejavu
       - name: Update Publisher
         run: ./_updatePublisher.sh -y
       - name: Set Profile version environment variable
