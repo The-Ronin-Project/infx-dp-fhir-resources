@@ -23,7 +23,8 @@ jobs:
           sudo apt update
           sudo apt -y install ruby
       - name: Install jekyll
-        run:
+        run: |
+          sudo gem install bundler
           sudo gem install jekyll
       - name: Install jq
         run: |
