@@ -18,12 +18,15 @@ jobs:
       - uses: webfactory/ssh-agent@v0.5.1
         with:
           ssh-private-key: ${{ secrets.DP_RONIN_FHIR_PROFILE_PAGES_PRIV_KEY }}
+      - name: Install Ruby
+        run: |
+          sudo apt update
+          sudo apt install ruby
       - name: Install jekyll
         run:
           sudo gem install jekyll
       - name: Install jq
         run: |
-          sudo apt-get update
           sudo apt-get install jq
       - name: Update Publisher
         run: ./_updatePublisher.sh -y
