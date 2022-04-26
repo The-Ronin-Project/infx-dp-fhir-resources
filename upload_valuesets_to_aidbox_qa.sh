@@ -9,12 +9,6 @@ client_secret=$2
 base_url="https://qa.project-ronin.aidbox.app"
 url="${base_url}/fhir/ValueSet"
 
-if [[ $compressed_file != *.gz ]]
-then
-    echo "$compressed_file"
-    exit 1
-fi
-
 if [[ $# -lt 2 || $compressed_file != *.gz ]]
 then
     echo "Usage: $0 <compressed valueset ndjson file> <dp-curl-valueset client secret>"
