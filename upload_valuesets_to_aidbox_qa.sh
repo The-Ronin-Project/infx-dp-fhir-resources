@@ -5,13 +5,14 @@
 # Download the latest locally.  Keep it gzipped.
 
 compressed_file=$1
-client_secret=$2
+read -p "Enter Client Secret: " -s client_secret
 base_url="https://qa.project-ronin.aidbox.app"
 url="${base_url}/fhir/ValueSet"
 
-if [[ $# -lt 2 || $compressed_file != *.gz ]]
+if [[ -z $client_secret || $compressed_file != *.gz ]]
 then
-    echo "Usage: $0 <compressed valueset ndjson file> <dp-curl-valueset client secret>"
+    echo "Usage: $0 <compressed valueset ndjson file>"
+    echo "You'll be prompted for Client Secret."
     exit 1
 fi
 
