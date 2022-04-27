@@ -28,17 +28,16 @@ fi
 token=$(echo ${resp} | jq -r '.access_token')
 auth=$(echo ${token_type} ${token})
 
-gunzip < ${compressed_file} | while read ln
+gunzip < ${compressed_file} | while read line
 do
-    resource_type=$(echo ${ln} | jq -r '.resourceType')
-    echo ${resource_type}
+    resource_type=$(echo ${line} | jq -r '.resourceType')
     if [ "${resource_type}" != "ValueSet" ]
     then
         echo "Not ValueSet - skipping ${resource_type}"
     else
-        id=$(echo ${ln} | jq -r '.id')
+        id=$(echo ${line} | jq -r '.id')
         echo "PUT ${url}/${id}"
-        curl -v -X PUT -H"Authorization: ${auth}" -H 'content-type:application/json' -d"${ln}" "${url}/${id}"
+        curl -v -X PUT -H"Authorization: ${auth}" -H 'content-type:application/json' -d"${line}" "${url}/${id}"
     fi
 done
 
