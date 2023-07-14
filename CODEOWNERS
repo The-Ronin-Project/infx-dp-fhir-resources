@@ -1,4 +1,4 @@
 # Default owners. This will be used unless a more-specific match is found below.
-* @rmhayek @CameronRStewart @wreyjohnson @stephenronin @rekotan
+* @CameronRStewart @wreyjohnson @stephenronin @rekotan
 
-/.github/workflows @projectronin/developer-experience @rmhayek @CameronRStewart @wreyjohnson @stephenronin @rekotan
+/.github/workflows @CameronRStewart @wreyjohnson @stephenronin @rekotan
